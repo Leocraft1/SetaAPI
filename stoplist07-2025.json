@@ -36,36 +36,40 @@
     "valore": "MO6120"
   },
   {
-    "fermata": "MODENA AUTOSTAZIONE",
+    "fermata": "MODENA AUTOSTAZIONE (Corriere corsia 1)",
     "valore": "MO3"
   },
   {
-    "fermata": "MODENA AUTOSTAZIONE",
+    "fermata": "MODENA AUTOSTAZIONE (Corriere corsia 2)",
     "valore": "MO303"
   },
   {
-    "fermata": "MODENA AUTOSTAZIONE",
+    "fermata": "MODENA AUTOSTAZIONE (Corriere corsia 3)",
     "valore": "MO342"
   },
   {
-    "fermata": "MODENA AUTOSTAZIONE",
+    "fermata": "MODENA AUTOSTAZIONE (Corriere corsia 4)",
     "valore": "MO344"
   },
   {
-    "fermata": "MODENA AUTOSTAZIONE",
-    "valore": "MO346"
-  },
-  {
-    "fermata": "MODENA AUTOSTAZIONE",
+    "fermata": "MODENA AUTOSTAZIONE (Corriere corsia 5)",
     "valore": "MO350"
   },
   {
-    "fermata": "MODENA AUTOSTAZIONE",
-    "valore": "MO8577"
+    "fermata": "MODENA AUTOSTAZIONE (Corriere corsia 6)",
+    "valore": "MO346"
+  },
+  {
+    "fermata": "GARIBALDI (dir. Centro)",
+    "valore": "MO5900"
   },
   {
     "fermata": "GARIBALDI (dir. Trento Trieste)",
     "valore": "MO30"
+  },
+  {
+    "fermata": "GARIBALDI (lato Caduti in Guerra)",
+    "valore": "MO9"
   },
   {
     "fermata": "GARIBALDI (Storchi dir. Trento Trieste)",
@@ -74,22 +78,6 @@
   {
     "fermata": "GARIBALDI (Storchi dir. Centro)",
     "valore": "MO5112"
-  },
-  {
-    "fermata": "GARIBALDI (dir. Centro)",
-    "valore": "MO5900"
-  },
-  {
-    "fermata": "GARIBALDI",
-    "valore": "MO6151"
-  },
-  {
-    "fermata": "GARIBALDI",
-    "valore": "MO80"
-  },
-  {
-    "fermata": "GARIBALDI (lato Caduti in Guerra)",
-    "valore": "MO9"
   },
   {
     "fermata": "3 Febbraio",
@@ -8332,10 +8320,6 @@
     "valore": "MOPV973"
   },
   {
-    "fermata": "F.lli Rosselli 248",
-    "valore": "MOFRO"
-  },
-  {
     "fermata": "F.lli Rosselli bv Conco",
     "valore": "MO2784"
   },
@@ -8404,10 +8388,6 @@
     "valore": "MO3820"
   },
   {
-    "fermata": "Faidello",
-    "valore": "MOFAIDE"
-  },
-  {
     "fermata": "Falegnameria",
     "valore": "MO2096"
   },
@@ -8430,14 +8410,6 @@
   {
     "fermata": "Fanano",
     "valore": "MO579"
-  },
-  {
-    "fermata": "Fanano",
-    "valore": "MOFN"
-  },
-  {
-    "fermata": "Fanano deposito",
-    "valore": "MODFN"
   },
   {
     "fermata": "Fanano zona artigianale",
@@ -8496,10 +8468,6 @@
     "valore": "MO8519"
   },
   {
-    "fermata": "Fanti 2",
-    "valore": "MOFA2"
-  },
-  {
     "fermata": "Fanti FS",
     "valore": "MO1077"
   },
@@ -8522,10 +8490,6 @@
   {
     "fermata": "Farneta",
     "valore": "MO2880"
-  },
-  {
-    "fermata": "Farneta",
-    "valore": "MOFAR"
   },
   {
     "fermata": "Fedro",
@@ -8588,10 +8552,6 @@
     "valore": "MOSFE"
   },
   {
-    "fermata": "Ferrari-Musso",
-    "valore": "MOFERR"
-  },
-  {
     "fermata": "Ferraris Scol",
     "valore": "MO9010"
   },
@@ -8622,10 +8582,6 @@
   {
     "fermata": "Fignola",
     "valore": "MO3148"
-  },
-  {
-    "fermata": "Finale Emilia",
-    "valore": "MOFI"
   },
   {
     "fermata": "Finale Emilia Autostazione",
@@ -8700,10 +8656,6 @@
     "valore": "MO8568"
   },
   {
-    "fermata": "Fiorano",
-    "valore": "MOFIO"
-  },
-  {
     "fermata": "Fiorano Modenese",
     "valore": "MO4010"
   },
@@ -8726,10 +8678,6 @@
   {
     "fermata": "Fiumalbo",
     "valore": "MO689"
-  },
-  {
-    "fermata": "Fiumalbo",
-    "valore": "MOFIU"
   },
   {
     "fermata": "Fiumalbo Zona Artigianale",
@@ -8756,14 +8704,6 @@
     "valore": "MO3404"
   },
   {
-    "fermata": "Fogliano",
-    "valore": "MOMA30"
-  },
-  {
-    "fermata": "Fogliano",
-    "valore": "MOMA31"
-  },
-  {
     "fermata": "Fogliano 155",
     "valore": "MO3387"
   },
@@ -8786,10 +8726,6 @@
   {
     "fermata": "Fogliano 97",
     "valore": "MO3408"
-  },
-  {
-    "fermata": "Fogliano centro",
-    "valore": "MOFOGLI"
   },
   {
     "fermata": "Fogna",
@@ -8824,10 +8760,6 @@
     "valore": "MO2990"
   },
   {
-    "fermata": "Fontana D'Arco",
-    "valore": "MOFDA"
-  },
-  {
     "fermata": "Fontana d'Arco",
     "valore": "MO1577"
   },
@@ -8846,10 +8778,6 @@
   {
     "fermata": "Fontanaluccia",
     "valore": "MO3430"
-  },
-  {
-    "fermata": "Fontanaluccia",
-    "valore": "MOFTC"
   },
   {
     "fermata": "Fontanaluccia bv",
@@ -8932,14 +8860,6 @@
     "valore": "MO2218"
   },
   {
-    "fermata": "Formica",
-    "valore": "MOFORMIC"
-  },
-  {
-    "fermata": "Formigina",
-    "valore": "MOFORM"
-  },
-  {
     "fermata": "Formigina bv Archimede",
     "valore": "MO2929"
   },
@@ -8980,10 +8900,6 @@
     "valore": "MO735"
   },
   {
-    "fermata": "Formigine",
-    "valore": "MOFOR"
-  },
-  {
     "fermata": "Formigine Castello",
     "valore": "MO8597"
   },
@@ -9006,10 +8922,6 @@
   {
     "fermata": "Formigine stazione",
     "valore": "MO739"
-  },
-  {
-    "fermata": "Formigine stazione",
-    "valore": "MOFOP"
   },
   {
     "fermata": "Fornace",
@@ -9080,10 +8992,6 @@
     "valore": "MO430"
   },
   {
-    "fermata": "Fossa",
-    "valore": "MOFOA"
-  },
-  {
     "fermata": "Fossa Mulino",
     "valore": "MO1643"
   },
@@ -9098,14 +9006,6 @@
   {
     "fermata": "Fossa di Manzolino",
     "valore": "MO659"
-  },
-  {
-    "fermata": "Fossalta",
-    "valore": "MOFOS"
-  },
-  {
-    "fermata": "Fossamonda",
-    "valore": "MOFSM"
   },
   {
     "fermata": "Fossamonda Casa Rigata",
@@ -9150,18 +9050,6 @@
   {
     "fermata": "Fossoli",
     "valore": "MO66"
-  },
-  {
-    "fermata": "Fossoli",
-    "valore": "MOC208"
-  },
-  {
-    "fermata": "Fossoli",
-    "valore": "MOC209"
-  },
-  {
-    "fermata": "Fossoli",
-    "valore": "MOFLI"
   },
   {
     "fermata": "Fossoli Scuole",
@@ -9212,10 +9100,6 @@
     "valore": "MO3216"
   },
   {
-    "fermata": "Frank",
-    "valore": "MOFRANK"
-  },
-  {
     "fermata": "Franklin",
     "valore": "MO7004"
   },
@@ -9226,10 +9110,6 @@
   {
     "fermata": "Frassineti",
     "valore": "MO2520"
-  },
-  {
-    "fermata": "Frassineti",
-    "valore": "MOFST"
   },
   {
     "fermata": "Frassineti",
@@ -9256,14 +9136,6 @@
     "valore": "MO784"
   },
   {
-    "fermata": "Frassinoro",
-    "valore": "MOFR"
-  },
-  {
-    "fermata": "Frassinoro deposito",
-    "valore": "MODFR"
-  },
-  {
     "fermata": "Frassinoro ex scuole",
     "valore": "MO1601"
   },
@@ -9278,10 +9150,6 @@
   {
     "fermata": "Frassinoro scuole",
     "valore": "MO3851"
-  },
-  {
-    "fermata": "Frassinoro scuole",
-    "valore": "MOFRS"
   },
   {
     "fermata": "Fredda",
@@ -9600,36 +9468,8 @@
     "valore": "MO46"
   },
   {
-    "fermata": "Gargallo bv",
-    "valore": "MOBGA"
-  },
-  {
-    "fermata": "Gargallo bv",
-    "valore": "MOGLO"
-  },
-  {
-    "fermata": "Garibaldi",
-    "valore": "MO1656"
-  },
-  {
-    "fermata": "Garibaldi",
-    "valore": "MOPV919"
-  },
-  {
-    "fermata": "Garibaldi",
-    "valore": "MOPV920"
-  },
-  {
     "fermata": "Garibaldi bv Mazzini",
     "valore": "MO2805"
-  },
-  {
-    "fermata": "Garibaldi bv Mazzini",
-    "valore": "MOPV917"
-  },
-  {
-    "fermata": "Garibaldi bv Mazzini",
-    "valore": "MOPV918"
   },
   {
     "fermata": "Garofano",
@@ -10724,10 +10564,6 @@
     "valore": "MO6720"
   },
   {
-    "fermata": "Istituto Fermi",
-    "valore": "MOFER"
-  },
-  {
     "fermata": "Istituto Guarini",
     "valore": "MO2887"
   },
@@ -11177,10 +11013,6 @@
   },
   {
     "fermata": "La Monta",
-    "valore": "MOFILIP"
-  },
-  {
-    "fermata": "La Monta",
     "valore": "MOPV115"
   },
   {
@@ -11194,10 +11026,6 @@
   {
     "fermata": "La Pesa",
     "valore": "MO3499"
-  },
-  {
-    "fermata": "La Pesa",
-    "valore": "MOPEA"
   },
   {
     "fermata": "La Picca",
@@ -12638,10 +12466,6 @@
   {
     "fermata": "Maranello Ferrari",
     "valore": "MO3804"
-  },
-  {
-    "fermata": "Maranello Ferrari",
-    "valore": "MOFERRA"
   },
   {
     "fermata": "Maranello Ferrari",
@@ -15412,10 +15236,6 @@
     "valore": "MO76"
   },
   {
-    "fermata": "Parenti Fiat",
-    "valore": "MOFIA"
-  },
-  {
     "fermata": "Parigi",
     "valore": "MO3196"
   },
@@ -15946,10 +15766,6 @@
   {
     "fermata": "Piazza Manzoni",
     "valore": "MO6033"
-  },
-  {
-    "fermata": "Piazza Manzoni",
-    "valore": "MOFP"
   },
   {
     "fermata": "Piazza Matteotti",
@@ -23716,14 +23532,6 @@
     "valore": "MO2958"
   },
   {
-    "fermata": "_",
-    "valore": "MOfime"
-  },
-  {
-    "fermata": "_NULL",
-    "valore": "MORETE"
-  },
-  {
     "fermata": "bv Casa Storto",
     "valore": "MO2369"
   },
@@ -23746,73 +23554,5 @@
   {
     "fermata": "bv San Rocco",
     "valore": "MO3513"
-  },
-  {
-    "fermata": "incrocio Costa",
-    "valore": "MOICOS"
-  },
-  {
-    "fermata": "liceo FI",
-    "valore": "MOLIC"
-  },
-  {
-    "fermata": "p.zza Toscanini",
-    "valore": "MOMENPV"
-  },
-  {
-    "fermata": "polo scol.",
-    "valore": "MOM05"
-  },
-  {
-    "fermata": "via Botticelli 91",
-    "valore": "MOBOTTI"
-  },
-  {
-    "fermata": "via Circonv. N/E",
-    "valore": "MOVIAC"
-  },
-  {
-    "fermata": "via Fossetta",
-    "valore": "MOFOSSE"
-  },
-  {
-    "fermata": "via Lucca",
-    "valore": "MOLUCCA"
-  },
-  {
-    "fermata": "via Mar Ionio",
-    "valore": "MOIONIO"
-  },
-  {
-    "fermata": "via Milano",
-    "valore": "MOMILA"
-  },
-  {
-    "fermata": "via Piemonte",
-    "valore": "MOPIEM"
-  },
-  {
-    "fermata": "via R. Pacis",
-    "valore": "MOPACIS"
-  },
-  {
-    "fermata": "via Rometta",
-    "valore": "MOROME"
-  },
-  {
-    "fermata": "via SS. Consolata",
-    "valore": "MOCONS"
-  },
-  {
-    "fermata": "via Stradella",
-    "valore": "MOSTRAD"
-  },
-  {
-    "fermata": "via Ticino",
-    "valore": "MOTICI"
-  },
-  {
-    "fermata": "via dell'Artigianato",
-    "valore": "MOART"
   }
 ]
