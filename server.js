@@ -113,6 +113,10 @@ app.get('/arrivals/:id', async (req, res) => {
                 if(service.destination=="S. CATERINA"){
                     service.destination="S.CATERINA";
                 }
+                //D'Avia (Dislessia)
+                if(service.destination=="D AVIA"){
+                    service.destination="D'AVIA";
+                }
                 //1A Modena Est
                 if(service.service=="1"&&service.destination=="MODENA EST"){
                     service.service="1A";
@@ -142,6 +146,10 @@ app.get('/arrivals/:id', async (req, res) => {
                 if(service.service=="3"&&service.destination=="VACIGLIO"){
                     service.service="3A";
                 }
+                //5 Dalla Chiesa -> La Torre              
+                if(service.service=="5"&&service.destination=="DALLA CHIESA"){
+                    service.destination="DALLA CHIESA (LA TORRE)";
+                }
                 //5A Tre Olmi
                 if(service.service=="5"&&service.destination=="TRE OLMI"){
                     service.service="5A";
@@ -149,6 +157,10 @@ app.get('/arrivals/:id', async (req, res) => {
                 //7A STAZIONE FS -> GOTTARDI
                 if(service.service=="7A"&&service.destination=="STAZIONE FS"){
                     service.destination="GOTTARDI";
+                }
+                //7/ Stazione FS
+                if(service.service=="7"&&service.destination=="STAZIONE FS"){
+                    service.service="7/";
                 }
                 //9A Marzaglia Nuova
                 if(service.service=="9"&&service.destination=="MARZAGLIA"){
@@ -258,6 +270,10 @@ app.get('/busesinservice', async (req, res) => {
                 if(service.route_desc=="S. CATERINA"){
                     service.route_desc="S.CATERINA";
                 }
+                //D'Avia (Dislessia)
+                if(service.route_desc=="D AVIA"){
+                    service.route_desc="D'AVIA";
+                }
                 //1A Modena Est
                 if(service.linea=="1"&&service.route_desc=="MODENA EST"){
                     service.linea="1A";
@@ -287,6 +303,10 @@ app.get('/busesinservice', async (req, res) => {
                 if(service.linea=="3"&&service.route_desc=="VACIGLIO"){
                     service.linea="3A";
                 }
+                //5 Dalla Chiesa -> La Torre
+                if(service.linea=="5"&&service.route_desc=="DALLA CHIESA"){
+                    service.route_desc="DALLA CHIESA (LA TORRE)";
+                }
                 //5A Tre Olmi
                 if(service.linea=="5"&&service.route_desc=="TRE OLMI"){
                     service.linea="5A";
@@ -294,6 +314,10 @@ app.get('/busesinservice', async (req, res) => {
                 //7A STAZIONE FS -> GOTTARDI
                 if(service.linea=="7A"&&service.route_desc=="STAZIONE FS"){
                     service.route_desc="GOTTARDI";
+                }
+                //7/ Stazione FS
+                if(service.linea=="7"&&service.route_desc=="STAZIONE FS"){
+                    service.linea="7/";
                 }
                 //9A Marzaglia Nuova
                 if(service.linea=="9"&&service.route_desc=="MARZAGLIA"){
@@ -399,7 +423,13 @@ app.get('/busesinservice', async (req, res) => {
                     service.model="MAN Lion's Regio";
                 }
                 if(service.model=="SETRA - 415 NF "){
+                    service.model="Setra ex Bolzano";
+                }
+                if(service.vehicle_code>=4501&&service.vehicle_code<=4507){
                     service.model="Setra ex Bolzano (2 porte)";
+                }
+                if(service.vehicle_code>=4508&&service.vehicle_code<=4513){
+                    service.model="Setra ex Bolzano (3 porte)";
                 }
                 if(service.vehicle_code=="4771"){
                     service.model="Iveco Urbanway Hybrid CNG";
@@ -418,6 +448,12 @@ app.get('/busesinservice', async (req, res) => {
                 }
                 if(service.model=="SCANIA i4 LNG - IRIZAR"){
                     service.model="Irizar i4 LNG";
+                }
+                if(service.model=="EVOBUS MB - O 550 U"){
+                    service.model="Mercedes Integro";
+                }
+                if(service.model=="MERCEDES - MERCEDES SPRINTER ALTAS"){
+                    service.model="Sprinter";
                 }
             });
             // Remove features where linea starts with a letter
