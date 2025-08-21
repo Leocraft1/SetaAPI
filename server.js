@@ -184,11 +184,13 @@ app.get('/arrivals/:id', async (req, res) => {
                     service.service="13A";
                 }
                 //13F Variante di merda
-                if(service.service=="13"&&
+                if(service.linea=="13"&&
                     service.codice_corsa.includes("1330")||
                     service.codice_corsa.includes("1332")||
-                    service.codice_corsa.includes("1333")){
-                    service.service="13F";
+                    service.codice_corsa.includes("1333")||
+                    service.codice_corsa.includes("1334")||
+                    service.codice_corsa.includes("1337")){
+                    service.linea="13F";
                 }
                 //14A Nazioni
                 if(service.service=="14"&&service.destination=="NAZIONI"){
@@ -260,202 +262,7 @@ app.get('/busesinservice', async (req, res) => {
             const response = await axios.get(`https://wimb.setaweb.it/publicmapbe/vehicles/map/MO`);
             //const response = await axios.get(`https://wimb.setaweb.it/publicmapbe/vehicles/map/MO`);
             //Varianti
-            response.data.features.forEach(bus => {
-                service = bus.properties;
-                //Sant'Anna (Dislessia)
-                if(service.route_desc=="SANT  ANNA"){
-                    service.route_desc="SANT'ANNA";
-                }
-                //S.Caterina (Dislessia)
-                if(service.route_desc=="S. CATERINA"){
-                    service.route_desc="S.CATERINA";
-                }
-                //D'Avia (Dislessia)
-                if(service.route_desc=="D AVIA"){
-                    service.route_desc="D'AVIA";
-                }
-                //1A Modena Est
-                if(service.linea=="1"&&service.route_desc=="MODENA EST"){
-                    service.linea="1A";
-                }
-                //1A Polo Leonardo
-                if(service.linea=="1"&&service.route_desc=="POLO LEONARDO"){
-                    service.linea="1A";
-                }
-                //1B Ariete
-                if(service.linea=="1"&&service.route_desc=="V. ZETA - ARIETE"){
-                    service.linea="1B";
-                    service.route_desc="ARIETE";
-                }
-                //2A San Donnino
-                if(service.linea=="2"&&service.route_desc=="SAN DONNINO"){
-                    service.linea="2A";
-                }
-                //3A Vaciglio
-                if(service.linea=="3"&&service.route_desc=="VACIGLIO MATTARELLA"){
-                    service.linea="3A";
-                }
-                //3A Portorico (Domenica)
-                if(service.linea=="3"&&service.route_desc=="PORTORICO"){
-                    service.linea="3A";
-                }
-                //3A Vaciglio (Domenica)
-                if(service.linea=="3"&&service.route_desc=="VACIGLIO"){
-                    service.linea="3A";
-                }
-                //5 Dalla Chiesa -> La Torre
-                if(service.linea=="5"&&service.route_desc=="DALLA CHIESA"){
-                    service.route_desc="DALLA CHIESA (LA TORRE)";
-                }
-                //5A Tre Olmi
-                if(service.linea=="5"&&service.route_desc=="TRE OLMI"){
-                    service.linea="5A";
-                }
-                //7A STAZIONE FS -> GOTTARDI
-                if(service.linea=="7A"&&service.route_desc=="STAZIONE FS"){
-                    service.route_desc="GOTTARDI";
-                }
-                //7/ Stazione FS
-                if(service.linea=="7"&&service.route_desc=="STAZIONE FS"){
-                    service.linea="7/";
-                }
-                //9A Marzaglia Nuova
-                if(service.linea=="9"&&service.route_desc=="MARZAGLIA"){
-                    service.linea="9A";
-                    service.route_desc="MARZAGLIA NUOVA";
-                }
-                //9C Rubiera
-                if(service.linea=="9"&&service.route_desc=="RUBIERA"){
-                    service.linea="9C";
-                }
-                //9/ Stazione FS
-                if(service.linea=="9"&&service.route_desc=="STAZIONE FS"){
-                    service.linea="9/";
-                }
-                //10A La Rocca
-                if(service.linea=="10"&&service.route_desc=="LA ROCCA"){
-                    service.linea="10A";
-                }
-                //13A Carcere
-                if(service.linea=="13"&&service.route_desc=="CARCERI"){
-                    service.linea="13A";
-                }
-                //13F Variante di merda
-                if(service.linea=="13"&&
-                    service.route_code.includes("1330")||
-                    service.route_code.includes("1332")||
-                    service.route_code.includes("1333")){
-                    service.linea="13F";
-                }
-                //14A Nazioni
-                if(service.linea=="14"&&service.route_desc=="NAZIONI"){
-                    service.linea="14A";
-                }
-                //15/ Santi
-                if(service.linea=="15"&&service.route_desc=="SANTI"){
-                    service.linea="15/";
-                }
-                //Cambia nomi modello bus
-                if(service.model=="IVECO - URBANWAY MILD HYBRID CNG"){
-                    service.model="Iveco Urbanway Hybrid CNG";
-                }
-                if(service.model=="IRISBUS - PS09D2"){
-                    service.model="Irisbus Citelis CNG";
-                }
-                if(service.model=="BREDAMENARINIBUS - CITYMOOD LNG "){
-                    service.model="Menarinibus Citymood LNG";
-                }
-                if(service.model=="MENARINI BUS - M250CNG"){
-                    service.model="Menarinibus Citymood CNG";
-                }
-                if(service.model=="IVECO BUS - CBLE4/00 4C G13A4"&&service.vehicle_code>1000){
-                    service.model="Iveco Crossway LE CNG";
-                }
-                if(service.model=="IVECO - IVECOA60"){
-                    service.model="Iveco Daily";
-                }
-                if(service.model=="IVECO BUS - CBLE4/00 4C G13A4"&&service.vehicle_code<1000){
-                    service.model="Iveco Crossway LE Diesel";
-                }
-                if(service.model=="CBCW3/00 3C B1UA3 - IVECO BUS"){
-                    service.model="Iveco Crossway Line";
-                }
-                if(service.model=="IVECO BUS - CROSSWAY LINE"){
-                    service.model="Iveco Crossway Line";
-                }
-                if(service.model=="IVECO BUS - CROSSWAY 10,7 MT"){
-                    service.model="Iveco Crossway 10.7";
-                }
-                if(service.model=="IRISBUS - CROSSWAY"){
-                    service.model="Irisbus Crossway";
-                }
-                if(service.model=="MERCEDES BENZ - MERCEDES BENZ O 550U/E3-4"){
-                    service.model="Mercedes Integro";
-                }
-                if(service.model=="IRIZAR/SCANIA - I4CD2-SCN-"){
-                    service.model="Irizar i4 LNG";
-                }
-                if(service.model=="i4CD2 - IRIZAR"){
-                    service.model="Irizar i4 LNG";
-                }
-                if(service.model=="EVOBUS MB - INTEGRO/E5"){
-                    service.model="Mercedes Integro";
-                }
-                if(service.model=="SOLARIS - URBINO 12"){
-                    service.model="Solaris Urbino 12 CNG";
-                }
-                if(service.model=="MENARINI BUS - M250LNG"){
-                    service.model="Menarinibus Citymood LNG";
-                }
-                if(service.model=="VOLKSWAGEN - CRAFTER"){
-                    service.model="Iveco Crossway Line 12 CNG";
-                }
-                if(service.model=="IVECO BUS - CBLE4/00 4C G1MA4 "){
-                    service.model="Iveco Crossway LE Diesel";
-                }
-                if(service.model=="IVECO BUS - CBLE4/00"){
-                    service.model="Iveco Crossway LE Diesel";
-                }
-                if(service.model=="IVECO - A60C17"){
-                    service.model="Iveco Daily";
-                }
-                if(service.model=="MAN - MAN R13 - EURO 6"){
-                    service.model="MAN Lion's Regio";
-                }
-                if(service.model=="SETRA - 415 NF "){
-                    service.model="Setra ex Bolzano";
-                }
-                if(service.vehicle_code>=4501&&service.vehicle_code<=4507){
-                    service.model="Setra ex Bolzano (2 porte)";
-                }
-                if(service.vehicle_code>=4508&&service.vehicle_code<=4513){
-                    service.model="Setra ex Bolzano (3 porte)";
-                }
-                if(service.vehicle_code=="4771"){
-                    service.model="Iveco Urbanway Hybrid CNG";
-                }
-                if(service.model=="IVECO BUS - CROSSWAY 12 MT"){
-                    service.model="Iveco Crossway Line";
-                }
-                if(service.model=="IVECO FRANCE - SFR 160 - CROSSWAY"){
-                    service.model="Irisbus Crossway Esercito";
-                }
-                if(service.model=="IVECO BUS - CROSSWAY LE - CNG"){
-                    service.model="Iveco Crossway LE CNG";
-                }
-                if(service.model=="SCANIA i4 LNG - IRIZAR"){
-                    service.model="Irizar i4 LNG";
-                }
-                if(service.model=="SCANIA i4 LNG - IRIZAR"){
-                    service.model="Irizar i4 LNG";
-                }
-                if(service.model=="EVOBUS MB - O 550 U"){
-                    service.model="Mercedes Integro";
-                }
-                if(service.model=="MERCEDES - MERCEDES SPRINTER ALTAS"){
-                    service.model="Sprinter";
-                }
-            });
+            fixBusRouteAndNameWimb(response);
             // Remove features where linea starts with a letter
             response.data.features = response.data.features.filter(bus => {
                 const linea = bus.properties.linea || '';
@@ -483,6 +290,306 @@ app.get('/busesinservice', async (req, res) => {
         }
     }
 });
+
+app.get("/vehicleinfo/:id", async (req, res) => {
+    const id = req.params.id;
+    try {
+        const response = await axios.get(`https://wimb.setaweb.it/publicmapbe/vehicles/map/vehicle/tracking/${id}`);
+        //const response = await axios.get(`https://wimb.setaweb.it/publicmapbe/vehicles/map/vehicle/tracking/${id}`);
+        fixBusRouteAndNameWimb(response);
+        fixPlate(response);
+        fixServiceTag(response);
+        await addPostiTotali(response,id);
+        fixPedana(response);
+        await addNextStop(response,id);
+        res.json(response.data);
+    } catch (error) {
+        console.error(error);
+        res.json({
+            "arrival" : {
+                "error" : "Error, or vehicle not operating",
+            }
+        });
+    }
+});
+
+function fixBusRouteAndNameWimb(response){
+    response.data.features.forEach(bus => {
+        service = bus.properties;
+        //Sant'Anna (Dislessia)
+        if(service.route_desc=="SANT  ANNA"){
+            service.route_desc="SANT'ANNA";
+        }
+        //S.Caterina (Dislessia)
+        if(service.route_desc=="S. CATERINA"){
+            service.route_desc="S.CATERINA";
+        }
+        //D'Avia (Dislessia)
+        if(service.route_desc=="D AVIA"){
+            service.route_desc="D'AVIA";
+        }
+        //1A Modena Est
+        if(service.linea=="1"&&service.route_desc=="MODENA EST"){
+            service.linea="1A";
+        }
+        //1A Polo Leonardo
+        if(service.linea=="1"&&service.route_desc=="POLO LEONARDO"){
+            service.linea="1A";
+        }
+        //1B Ariete
+        if(service.linea=="1"&&service.route_desc=="V. ZETA - ARIETE"){
+            service.linea="1B";
+            service.route_desc="ARIETE";
+        }
+        //2A San Donnino
+        if(service.linea=="2"&&service.route_desc=="SAN DONNINO"){
+            service.linea="2A";
+        }
+        //3A Vaciglio
+        if(service.linea=="3"&&service.route_desc=="VACIGLIO MATTARELLA"){
+            service.linea="3A";
+        }
+        //3A Portorico (Domenica)
+        if(service.linea=="3"&&service.route_desc=="PORTORICO"){
+            service.linea="3A";
+        }
+        //3A Vaciglio (Domenica)
+        if(service.linea=="3"&&service.route_desc=="VACIGLIO"){
+            service.linea="3A";
+        }
+        //5 Dalla Chiesa -> La Torre
+        if(service.linea=="5"&&service.route_desc=="DALLA CHIESA"){
+            service.route_desc="DALLA CHIESA (LA TORRE)";
+        }
+        //5A Tre Olmi
+        if(service.linea=="5"&&service.route_desc=="TRE OLMI"){
+            service.linea="5A";
+        }
+        //7A STAZIONE FS -> GOTTARDI
+        if(service.linea=="7A"&&service.route_desc=="STAZIONE FS"){
+            service.route_desc="GOTTARDI";
+        }
+        //7/ Stazione FS
+        if(service.linea=="7"&&service.route_desc=="STAZIONE FS"){
+            service.linea="7/";
+        }
+        //9A Marzaglia Nuova
+        if(service.linea=="9"&&service.route_desc=="MARZAGLIA"){
+            service.linea="9A";
+            service.route_desc="MARZAGLIA NUOVA";
+        }
+        //9C Rubiera
+        if(service.linea=="9"&&service.route_desc=="RUBIERA"){
+            service.linea="9C";
+        }
+        //9/ Stazione FS
+        if(service.linea=="9"&&service.route_desc=="STAZIONE FS"){
+            service.linea="9/";
+        }
+        //10A La Rocca
+        if(service.linea=="10"&&service.route_desc=="LA ROCCA"){
+            service.linea="10A";
+        }
+        //13A Carcere
+        if(service.linea=="13"&&service.route_desc=="CARCERI"){
+            service.linea="13A";
+        }
+        //13F Variante di merda
+        if(service.linea=="13"&&
+            service.route_code.includes("1330")||
+            service.route_code.includes("1332")||
+            service.route_code.includes("1333")||
+            service.route_code.includes("1334")||
+            service.route_code.includes("1337")){
+            service.linea="13F";
+        }
+        //14A Nazioni
+        if(service.linea=="14"&&service.route_desc=="NAZIONI"){
+            service.linea="14A";
+        }
+        //15/ Santi
+        if(service.linea=="15"&&service.route_desc=="SANTI"){
+            service.linea="15/";
+        }
+        //Cambia nomi modello bus
+        if(service.model=="IVECO - URBANWAY MILD HYBRID CNG"){
+            service.model="Iveco Urbanway Hybrid CNG";
+        }
+        if(service.model=="IRISBUS - PS09D2"){
+            service.model="Irisbus Citelis CNG";
+        }
+        if(service.model=="BREDAMENARINIBUS - CITYMOOD LNG "){
+            service.model="Menarinibus Citymood LNG";
+        }
+        if(service.model=="MENARINI BUS - M250CNG"){
+            service.model="Menarinibus Citymood CNG";
+        }
+        if(service.model=="IVECO BUS - CBLE4/00 4C G13A4"&&service.vehicle_code>1000){
+            service.model="Iveco Crossway LE CNG";
+        }
+        if(service.model=="IVECO - IVECOA60"){
+            service.model="Iveco Daily";
+        }
+        if(service.model=="IVECO BUS - CBLE4/00 4C G13A4"&&service.vehicle_code<1000){
+            service.model="Iveco Crossway LE Diesel";
+        }
+        if(service.model=="CBCW3/00 3C B1UA3 - IVECO BUS"){
+            service.model="Iveco Crossway Line";
+        }
+        if(service.model=="IVECO BUS - CROSSWAY LINE"){
+            service.model="Iveco Crossway Line";
+        }
+        if(service.model=="IVECO BUS - CROSSWAY 10,7 MT"){
+            service.model="Iveco Crossway 10.7";
+        }
+        if(service.model=="IRISBUS - CROSSWAY"){
+            service.model="Irisbus Crossway";
+        }
+        if(service.model=="MERCEDES BENZ - MERCEDES BENZ O 550U/E3-4"){
+            service.model="Mercedes Integro";
+        }
+        if(service.model=="IRIZAR/SCANIA - I4CD2-SCN-"){
+            service.model="Irizar i4 LNG";
+        }
+        if(service.model=="i4CD2 - IRIZAR"){
+            service.model="Irizar i4 LNG";
+        }
+        if(service.model=="EVOBUS MB - INTEGRO/E5"){
+            service.model="Mercedes Integro";
+        }
+        if(service.model=="SOLARIS - URBINO 12"){
+            service.model="Solaris Urbino 12 CNG";
+        }
+        if(service.model=="MENARINI BUS - M250LNG"){
+            service.model="Menarinibus Citymood LNG";
+        }
+        if(service.model=="VOLKSWAGEN - CRAFTER"){
+            service.model="Iveco Crossway Line 12 CNG";
+        }
+        if(service.model=="IVECO BUS - CBLE4/00 4C G1MA4 "){
+            service.model="Iveco Crossway LE Diesel";
+        }
+        if(service.model=="IVECO BUS - CBLE4/00"){
+            service.model="Iveco Crossway LE Diesel";
+        }
+        if(service.model=="IVECO - A60C17"){
+            service.model="Iveco Daily";
+        }
+        if(service.model=="MAN - MAN R13 - EURO 6"){
+            service.model="MAN Lion's Regio";
+        }
+        if(service.model=="SETRA - 415 NF "){
+            service.model="Setra ex Bolzano";
+        }
+        if(service.vehicle_code>=4501&&service.vehicle_code<=4507){
+            service.model="Setra ex Bolzano (2 porte)";
+        }
+        if(service.vehicle_code>=4508&&service.vehicle_code<=4513){
+            service.model="Setra ex Bolzano (3 porte)";
+        }
+        if(service.vehicle_code=="4771"){
+            service.model="Iveco Urbanway Hybrid CNG";
+        }
+        if(service.model=="IVECO BUS - CROSSWAY 12 MT"){
+            service.model="Iveco Crossway Line";
+        }
+        if(service.model=="IVECO FRANCE - SFR 160 - CROSSWAY"){
+            service.model="Irisbus Crossway Esercito";
+        }
+        if(service.model=="IVECO BUS - CROSSWAY LE - CNG"){
+            service.model="Iveco Crossway LE CNG";
+        }
+        if(service.model=="SCANIA i4 LNG - IRIZAR"){
+            service.model="Irizar i4 LNG";
+        }
+        if(service.model=="VOLVO - 8700B12B"){
+            service.model="Volvo 8700 (Reggio Emilia)";
+        }
+        if(service.model=="EVOBUS MB - O 550 U"){
+            service.model="Mercedes Integro";
+        }
+        if(service.model=="MERCEDES - MERCEDES SPRINTER ALTAS"){
+            service.model="Sprinter";
+        }
+        if(service.model=="IVECO - CROSSWAY LE 14,49 MT"){
+            service.model="Iveco Crossway LE 14m";
+        }
+        if(service.model=="IVECO - IVECOA50C17/P IRISBUS"){
+            service.model="Irisbus Crossway";
+        }
+        if(service.model=="DUMMYBRAND - DUMMYBRAND"){
+            service.model="Iveco Daily";
+        }
+        if(service.model=="DUMMYBRAND -DUMMYBRAND"){
+            service.model="Iveco Daily";
+        }
+    });
+}
+
+function fixPlate(response){
+    response.data.features.forEach(element => {
+        if(element.properties.plate_num.includes(" ")){
+            element.properties.plate_num=element.properties.plate_num.replace(" ","")
+        }
+    });
+}
+
+//UR -> Urbano eccetera
+function fixServiceTag(response){
+    response.data.features.forEach(element => {
+        if(element.properties.service_tag=="UR"){
+            element.properties.service_tag="Urbano";
+        }
+        //Supposizione
+        if(element.properties.service_tag=="SU"){
+            element.properties.service_tag="Suburbano";
+        }
+        if(element.properties.service_tag=="EX"){
+            element.properties.service_tag="Extraurbano";
+        }
+    });
+}
+
+async function getBusList(){
+    const urlList = "https://setaapi.serverissimo.freeddns.org/busesinservice";
+    const data = await axios.get(urlList);
+    const item = data.data;
+    return item;
+}
+//Cerca e aggiunge posti_totali alle info veicolo
+async function addPostiTotali(response,idMezzo){
+    var item=await getBusList();
+    item.features.forEach(element =>{
+        if(element.properties.vehicle_code==idMezzo){
+            response.data.features.forEach(bus =>{
+                bus.properties.posti_totali=element.properties.posti_totali;
+            });
+        }
+    });
+}
+//Cerca e aggiunge next_stop alle info veicolo
+async function addNextStop(response,idMezzo){
+    var item=await getBusList();
+    item.features.forEach(element =>{
+        if(element.properties.vehicle_code==idMezzo){
+            response.data.features.forEach(bus =>{
+                bus.properties.next_stop=element.properties.next_stop;
+            });
+        }
+    });
+}
+
+//Urbanway e Menarini LNG hanno la pedana
+function fixPedana(response){
+    response.data.features.forEach(element => {
+        if(element.properties.model=="Iveco Urbanway Hybrid CNG"){
+            element.properties.pedana=1;
+        }
+        if(element.properties.model=="Menarinibus Citymood LNG"){
+            element.properties.pedana=1;
+        }
+    });
+}
 
 app.listen(port, () => {
     console.log(`API attiva su http://localhost:${port}`);
