@@ -3,6 +3,7 @@ const axios = require('axios');
 const cheerio = require('cheerio');
 const cors = require('cors');
 const fs = require('fs');
+const cron = require('node-cron');
 
 const app = express();
 const port = 5001;
@@ -10,46 +11,23 @@ const port = 5001;
 app.use(cors());
 app.use(express.json());
 
+//URLs declaration section
+const routeNumbersUrl = "https://wimb.setaweb.it/publicmapbe/routes/getroutesinfo/MO";
+const stopCodesUrl = "https://wimb.setaweb.it/publicmapbe/vehicles/map/MO";
+
+//Intervals for updating data
+const stopcodesInterval = setInterval(updateStopCodes,20000);
+cron.schedule("0 */4 * * *",updateRouteNumbers);
+
 app.get('/routenumberslist', async (req, res) => {
-    const url = "https://wimb.setaweb.it/publicmapbe/routes/getroutesinfo/MO";
     try {
-        // 1. Fetch routes from the given URL
-        const response = await axios.get(url);
-        const remoteRoutes = response.data.routesdata;
-
-        // 2. Load local routes file
-        const filePath = './routelist.json';
-        let localRoutes = [];
-        if (fs.existsSync(filePath)) {
-            localRoutes = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-        }
-
-        // 3. Build a Set of existing routeCodes
-        const localRouteCodes = new Set(localRoutes);
-
-        // 4. Add new routes if not present
-        let added = false;
-        remoteRoutes.forEach(route => {
-            if (!localRouteCodes.has(route.linea)) {
-                localRoutes.push(route.linea);
-                localRouteCodes.add(route.linea);
-                added = true;
-            }
-        });
-
-        // 5. Save updated file if changed
-        if (added) {
-            fs.writeFileSync(filePath, JSON.stringify(localRoutes, null, 2), 'utf8');
-        }
-
-        const data = JSON.parse(fs.readFileSync('./routelist.json', 'utf8'));
-        res.json(data);
-
+        res.json(await updateRouteNumbers());
     } catch (err) {
         console.error(err);
         res.status(500).json({ error: 'Failed to sync routes' });
     }
 });
+
 app.get('/busmodels', async (req, res) => {
     // Read setabus.json
     const setabuspre = await axios.get(`https://ertpl.pages.dev/scripts/setabus.json`);
@@ -206,22 +184,22 @@ app.get('/arrivals/:id', async (req, res) => {
             const realtimeMap = new Map();
 
             response.data.arrival.services.forEach(service => {
-            if (service.type === "planned") {
+            if (service.type == "planned") {
                 plannedMap.set(service.codice_corsa, service);
-            } else if (service.type === "realtime") {
+            } else if (service.type == "realtime") {
                 realtimeMap.set(service.codice_corsa, service);
             }
             });
 
             // Step 2: Filtra i servizi
             const filteredServices = response.data.arrival.services.filter(service => {
-            if (service.type === "realtime") return true;
+            if (service.type == "realtime") return true;
             return !realtimeMap.has(service.codice_corsa);
             });
 
             // Step 3: Aggiungi "delay" dove possibile
             filteredServices.forEach(service => {
-            if (service.type === "realtime") {
+            if (service.type == "realtime") {
                 const planned = plannedMap.get(service.codice_corsa);
                 if (planned) {
                 const delayMinutes = computeDelay(planned.arrival, service.arrival);
@@ -263,11 +241,6 @@ app.get('/busesinservice', async (req, res) => {
             //const response = await axios.get(`https://wimb.setaweb.it/publicmapbe/vehicles/map/MO`);
             //Varianti
             fixBusRouteAndNameWimb(response);
-            // Remove features where linea starts with a letter
-            response.data.features = response.data.features.filter(bus => {
-                const linea = bus.properties.linea || '';
-                return !/^[A-Za-z]/.test(linea);
-            });
             // Sort features by numeric part of linea
             response.data.features.sort((a, b) => {
                 // Extract numeric part from linea (e.g., "13F" -> 13)
@@ -278,7 +251,19 @@ app.get('/busesinservice', async (req, res) => {
                 // If numbers are equal, sort alphabetically
                 return (a.properties.linea || '').localeCompare(b.properties.linea || '', 'it');
             });
-            
+            // Move features where linea starts with a letter to the bottom of the array
+            const features = response.data.features;
+            const numericLineas = [];
+            const letterLineas = [];
+            features.forEach(bus => {
+                const linea = bus.properties.linea || '';
+                if (/^[A-Za-z]/.test(linea)) {
+                    letterLineas.push(bus);
+                } else {
+                    numericLineas.push(bus);
+                }
+            });
+            response.data.features = numericLineas.concat(letterLineas);
             res.json(response.data);
         } catch (error) {
             console.error(error);
@@ -312,6 +297,153 @@ app.get("/vehicleinfo/:id", async (req, res) => {
         });
     }
 });
+
+//Machine learning codici fermate
+app.get('/stopcodesarchive', async (req, res) => {
+    res.json(await updateStopCodes());
+});
+
+async function updateStopCodes(){
+    //console.log("["+new Date()+"] Updating stop codes.");
+    // 1. Fetch routes from the given URL
+    const response = await axios.get(stopCodesUrl);
+    const remoteStops = response.data.features;
+
+    // 2. Load local stops file
+    const filePath = './stoplist_new.json';
+    let localStops = [];
+    if (fs.existsSync(filePath)) {
+        localStops = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+    }
+
+    // 3. Build a Set of existing stop codes
+    const localStopCodes = new Set(localStops.map(stop => stop.valore));
+
+    // 4. Add new stops if not present
+    let added = false;
+    remoteStops.forEach(route => {
+        var fermata = route.properties.wp_desc;
+        const valore = route.properties.reached_waypoint_code;
+        //Nomi stazione autostazione e garibaldi
+        /*
+        if (valore == "XYZ") {
+            fermata = "Nome Personalizzato";
+        }
+        */
+        if (valore == "MO6132") {
+            fermata = "STAZIONE FS (Corsia 1)";
+        }
+        if (valore == "MO6133") {
+            fermata = "STAZIONE FS (Corsia 2)";
+        }
+        if (valore == "MO6134") {
+            fermata = "STAZIONE FS (Corsia 3)";
+        }
+        if (valore == "MO6119") {
+            fermata = "STAZIONE FS (Corsia 4)";
+        }
+        if (valore == "MO6121") {
+            fermata = "MODENA AUTOSTAZIONE (dir. Centro)";
+        }
+        if (valore == "MO5003") {
+            fermata = "MODENA AUTOSTAZIONE (lato Novi Park)";
+        }
+        if (valore == "MO6600") {
+            fermata = "MODENA AUTOSTAZIONE (davanti biglietteria)";
+        }
+        if (valore == "MO10") {
+            fermata = "MODENA AUTOSTAZIONE (fianco biglietteria)";
+        }
+        if (valore == "MO6120") {
+            fermata = "MODENA AUTOSTAZIONE (fianco biglietteria lato Novi Park)";
+        }
+        if (valore == "MO3") {
+            fermata = "MODENA AUTOSTAZIONE (Corriere corsia 1)";
+        }
+        if (valore == "MO303") {
+            fermata = "MODENA AUTOSTAZIONE (Corriere corsia 2)";
+        }
+        if (valore == "MO342") {
+            fermata = "MODENA AUTOSTAZIONE (Corriere corsia 3)";
+        }
+        if (valore == "MO344") {
+            fermata = "MODENA AUTOSTAZIONE (Corriere corsia 4)";
+        }
+        if (valore == "MO350") {
+            fermata = "MODENA AUTOSTAZIONE (Corriere corsia 5)";
+        }
+        if (valore == "MO346") {
+            fermata = "MODENA AUTOSTAZIONE (Corriere corsia 6)";
+        }
+        if (valore == "MO5900") {
+            fermata = "GARIBALDI (dir. Centro)";
+        }
+        if (valore == "MO30") {
+            fermata = "GARIBALDI (dir. Trento Trieste)";
+        }
+        if (valore == "MO9") {
+            fermata = "GARIBALDI (lato Caduti in Guerra)";
+        }
+        if (valore == "MO5111") {
+            fermata = "GARIBALDI (Storchi dir. Trento Trieste)";
+        }
+        if (valore == "MO5112") {
+            fermata = "GARIBALDI (Storchi dir. Centro)";
+        }
+        if (!localStopCodes.has(valore)&&!valore=='') {
+            localStops.push({ fermata, valore });
+            localStopCodes.add(valore);
+            added = true;
+        }
+    });
+
+    // 5. Save updated file if changed
+    if (added) {
+        // Ordina localStops per "valore" (alfanumerico)
+        localStops.sort((a, b) => (a.valore || '').localeCompare(b.valore || '', 'it'));
+        fs.writeFileSync(filePath, JSON.stringify(localStops, null, 2), 'utf8');
+    }
+
+    const data = JSON.parse(fs.readFileSync('./stoplist_new.json', 'utf8'));
+    console.log("["+new Date()+"] Stop codes updated.");
+    return(data);
+}
+
+async function updateRouteNumbers(){
+    //console.log("["+new Date()+"] Updating route numbers.");
+    // 1. Fetch routes from the given URL
+    const response = await axios.get(routeNumbersUrl);
+    const remoteRoutes = response.data.routesdata;
+
+    // 2. Load local routes file
+    const filePath = './routelist.json';
+    let localRoutes = [];
+    if (fs.existsSync(filePath)) {
+        localRoutes = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+    }
+
+    // 3. Build a Set of existing routeCodes
+    const localRouteCodes = new Set(localRoutes);
+
+    // 4. Add new routes if not present
+    let added = false;
+    remoteRoutes.forEach(route => {
+        if (!localRouteCodes.has(route.linea)) {
+            localRoutes.push(route.linea);
+            localRouteCodes.add(route.linea);
+            added = true;
+        }
+    });
+
+    // 5. Save updated file if changed
+    if (added) {
+        fs.writeFileSync(filePath, JSON.stringify(localRoutes, null, 2), 'utf8');
+    }
+
+    const data = JSON.parse(fs.readFileSync('./routelist.json', 'utf8'));
+    console.log("["+new Date()+"] Route numbers updated.");
+    return(data);
+}
 
 function fixBusRouteAndNameWimb(response){
     response.data.features.forEach(bus => {
