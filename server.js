@@ -16,8 +16,8 @@ const routeNumbersUrl = "https://wimb.setaweb.it/publicmapbe/routes/getroutesinf
 const stopCodesUrl = "https://wimb.setaweb.it/publicmapbe/vehicles/map/MO";
 
 //Intervals for updating data
-const stopcodesInterval = setInterval(updateStopCodes,20000);
-cron.schedule("0 */4 * * *",updateRouteNumbers);
+//const stopcodesInterval = setInterval(updateStopCodes,20000);
+//cron.schedule("0 */8 * * *",updateRouteNumbers);
 
 app.get('/routenumberslist', async (req, res) => {
     try {
@@ -42,6 +42,18 @@ app.get('/busmodels', async (req, res) => {
     fs.writeFileSync('./busmodels.json', JSON.stringify(modelli, null, 2), 'utf8');
 
     res.json(modelli);
+});
+
+app.get('/routestops/:id', async (req, res) => {
+    const routeId = req.params.id;
+    try{
+        const stopsPre = await axios.get(`https://wimb.setaweb.it/publicmapbe/waypoints/getroutewaypoints/`+routeId);
+        stops = stopsPre.data;
+
+        res.json(stops);
+    }catch(error){
+        res.json({"error" : "Percorso non trovato"});
+    }
 });
 
 app.get('/stoplist', async (req, res) => {
@@ -162,13 +174,13 @@ app.get('/arrivals/:id', async (req, res) => {
                     service.service="13A";
                 }
                 //13F Variante di merda
-                if(service.linea=="13"&&
+                if(service.service=="13"&&
                     service.codice_corsa.includes("1330")||
                     service.codice_corsa.includes("1332")||
                     service.codice_corsa.includes("1333")||
                     service.codice_corsa.includes("1334")||
                     service.codice_corsa.includes("1337")){
-                    service.linea="13F";
+                    service.service="13F";
                 }
                 //14A Nazioni
                 if(service.service=="14"&&service.destination=="NAZIONI"){
@@ -389,6 +401,9 @@ async function updateStopCodes(){
         }
         if (valore == "MO5112") {
             fermata = "GARIBALDI (Storchi dir. Centro)";
+        }
+        if (valore == "MOPALTEC3") {
+            fermata = "NAZIONI CAPOLINEA";
         }
         if (!localStopCodes.has(valore)&&!valore=='') {
             localStops.push({ fermata, valore });
@@ -651,6 +666,12 @@ function fixBusRouteAndNameWimb(response){
         }
         if(service.model=="DUMMYBRAND - DUMMYBRAND"){
             service.model="Iveco Daily";
+        }
+        if(service.model=="DUMMYBRAND -DUMMYBRAND"){
+            service.model="Iveco Daily";
+        }
+        if(service.model=="SOLARIS - URBINO U 8,9 LE"){
+            service.model="Solaris 9 LE ex Piacenza";
         }
         if(service.model=="DUMMYBRAND -DUMMYBRAND"){
             service.model="Iveco Daily";
