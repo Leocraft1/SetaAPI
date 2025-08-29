@@ -16,8 +16,9 @@ const routeNumbersUrl = "https://wimb.setaweb.it/publicmapbe/routes/getroutesinf
 const stopCodesUrl = "https://wimb.setaweb.it/publicmapbe/vehicles/map/MO";
 
 //Intervals for updating data
-//const stopcodesInterval = setInterval(updateStopCodes,20000);
-//cron.schedule("0 */8 * * *",updateRouteNumbers);
+const stopcodesInterval = setInterval(updateStopCodes,20000);
+const routecodesInterval = setInterval(updateRouteCodes,600000);
+cron.schedule("0 */8 * * *",updateRouteNumbers);
 
 app.get('/routenumberslist', async (req, res) => {
     try {
@@ -49,10 +50,23 @@ app.get('/routestops/:id', async (req, res) => {
     try{
         const stopsPre = await axios.get(`https://wimb.setaweb.it/publicmapbe/waypoints/getroutewaypoints/`+routeId);
         stops = stopsPre.data;
+        fixStopNames(stops);
 
         res.json(stops);
     }catch(error){
         res.json({"error" : "Percorso non trovato"});
+    }
+});
+
+app.get('/nextstops/:id', async (req, res) => {
+    const journeyId = req.params.id;
+    try{
+        const stopsPre = await axios.get(`https://wimb.setaweb.it/publicmapbe/vehicles/getwaypointarrivals/`+journeyId);
+        stops = stopsPre.data;
+
+        res.json(stops);
+    }catch(error){
+        res.json({"error" : "Corsa non trovata"});
     }
 });
 
@@ -106,6 +120,10 @@ app.get('/arrivals/:id', async (req, res) => {
                 //D'Avia (Dislessia)
                 if(service.destination=="D AVIA"){
                     service.destination="D'AVIA";
+                }
+                //La torre (Dislessia)
+                if(service.destination=="L A TORRE"){
+                    service.destination="LA TORRE";
                 }
                 //1A Modena Est
                 if(service.service=="1"&&service.destination=="MODENA EST"){
@@ -174,12 +192,7 @@ app.get('/arrivals/:id', async (req, res) => {
                     service.service="13A";
                 }
                 //13F Variante di merda
-                if(service.service=="13"&&
-                    service.codice_corsa.includes("1330")||
-                    service.codice_corsa.includes("1332")||
-                    service.codice_corsa.includes("1333")||
-                    service.codice_corsa.includes("1334")||
-                    service.codice_corsa.includes("1337")){
+                if(service.service=="13"&&service.codice_corsa.includes("133")){
                     service.service="13F";
                 }
                 //14A Nazioni
@@ -222,9 +235,9 @@ app.get('/arrivals/:id', async (req, res) => {
 
             // Funzione di utilità per calcolare il ritardo in minuti
             function computeDelay(plannedTime, realtimeTime) {
-            const [pHour, pMin] = plannedTime.split(":").map(Number);
-            const [rHour, rMin] = realtimeTime.split(":").map(Number);
-            return (rHour * 60 + rMin) - (pHour * 60 + pMin);
+                const [pHour, pMin] = plannedTime.split(":").map(Number);
+                const [rHour, rMin] = realtimeTime.split(":").map(Number);
+                return (rHour * 60 + rMin) - (pHour * 60 + pMin);
             }
 
             // Aggiorna i dati
@@ -315,6 +328,75 @@ app.get('/stopcodesarchive', async (req, res) => {
     res.json(await updateStopCodes());
 });
 
+//Machine learning codici percorsi
+app.get('/routecodesarchive', async (req, res) => {
+    res.json(await updateRouteCodes());
+});
+
+async function updateRouteCodes() {
+    const response = await axios.get(stopCodesUrl);
+    const remoteRC = response.data.features;
+
+    // Percorso file archivio locale
+    const filePath = './rc_new.json';
+    let localRC = [];
+    if (fs.existsSync(filePath)) {
+        localRC = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+    }
+
+    // Trasforma l'archivio locale in una mappa per linea
+    const localMap = new Map();
+    localRC.forEach(item => {
+        localMap.set(item.linea, new Set(item.codes));
+    });
+
+    // Costruisci una mappa temporanea per raccogliere i codici remoti per ogni linea
+    const tempMap = new Map();
+    remoteRC.forEach(route => {
+        const linea = route.properties.linea;
+        const code = route.properties.route_code;
+        if (!tempMap.has(linea)) tempMap.set(linea, new Set());
+        tempMap.get(linea).add(code);
+    });
+
+    // Aggiorna la mappa locale con i nuovi codici
+    let changed = false;
+    tempMap.forEach((codes, linea) => {
+        if (!localMap.has(linea)) {
+            localMap.set(linea, new Set(codes));
+            changed = true;
+        } else {
+            codes.forEach(code => {
+                if (!localMap.get(linea).has(code)) {
+                    localMap.get(linea).add(code);
+                    changed = true;
+                }
+            });
+        }
+    });
+
+    // Ricostruisci l'array ordinato per linea
+    const updatedRC = Array.from(localMap.entries())
+        .map(([linea, codes]) => ({
+            linea,
+            codes: Array.from(codes).sort((a, b) => a.localeCompare(b, 'it'))
+        }))
+        .sort((a, b) => a.linea.localeCompare(b.linea, 'it'));
+    // Trasforma di nuovo la mappa in array ordinato per linea
+    const newLocalRC = Array.from(localMap.entries())
+        .map(([linea, codes]) => ({
+            linea,
+            codes: Array.from(codes)
+        }))
+        .sort((a, b) => Number(a.linea) - Number(b.linea));
+    // Salva solo se ci sono cambiamenti
+    if (changed) {
+        fs.writeFileSync(filePath, JSON.stringify(newLocalRC, null, 2), 'utf8');
+    }
+    console.log("["+new Date()+"] Journey codes updated.");
+    return newLocalRC;
+}
+
 async function updateStopCodes(){
     //console.log("["+new Date()+"] Updating stop codes.");
     // 1. Fetch routes from the given URL
@@ -404,6 +486,9 @@ async function updateStopCodes(){
         }
         if (valore == "MOPALTEC3") {
             fermata = "NAZIONI CAPOLINEA";
+        }
+        if (valore == "L A TORRE") {
+            fermata = "LA TORRE";
         }
         if (!localStopCodes.has(valore)&&!valore=='') {
             localStops.push({ fermata, valore });
@@ -542,12 +627,7 @@ function fixBusRouteAndNameWimb(response){
             service.linea="13A";
         }
         //13F Variante di merda
-        if(service.linea=="13"&&
-            service.route_code.includes("1330")||
-            service.route_code.includes("1332")||
-            service.route_code.includes("1333")||
-            service.route_code.includes("1334")||
-            service.route_code.includes("1337")){
+        if(service.linea=="13"&&service.route_code.includes("133")){
             service.linea="13F";
         }
         //14A Nazioni
@@ -611,7 +691,7 @@ function fixBusRouteAndNameWimb(response){
             service.model="Menarinibus Citymood LNG";
         }
         if(service.model=="VOLKSWAGEN - CRAFTER"){
-            service.model="Iveco Crossway Line 12 CNG";
+            service.model="Iveco Crossway Line CNG";
         }
         if(service.model=="IVECO BUS - CBLE4/00 4C G1MA4 "){
             service.model="Iveco Crossway LE Diesel";
@@ -673,16 +753,42 @@ function fixBusRouteAndNameWimb(response){
         if(service.model=="SOLARIS - URBINO U 8,9 LE"){
             service.model="Solaris 9 LE ex Piacenza";
         }
-        if(service.model=="DUMMYBRAND -DUMMYBRAND"){
+        if(service.model=="IVECO BUS - CBCW3/00 3C K13A3"){
+            service.model="Iveco Crossway Line CNG";
+        }
+        if(service.model=="IVECO BUS - IS56AC2DA 5A1CX11"){
             service.model="Iveco Daily";
         }
+        if(service.model=="IVECO BUS - CBCW3/00 3C K13A3"){
+            service.model="Iveco Crossway Line CNG";
+        }
+        if(service.model=="MAN - LIONS CITY 19"){
+            service.model="New MAN Lion's City 19G";
+        }
+        //Dio filoviario arrostito sulla 750 volt
+        if(service.vehicle_code>=35&&service.vehicle_code<=44){
+            service.model="Solaris Trollino 12";
+            service.plate_num="MO0"+service.vehicle_code;
+        }
     });
+}
+
+function fixStopNames(stops){
+    stops.features.forEach(element =>{
+        if(element.properties.desc=="L A TORRE"){
+            element.properties.desc="LA TORRE"
+        }
+    })
 }
 
 function fixPlate(response){
     response.data.features.forEach(element => {
         if(element.properties.plate_num.includes(" ")){
             element.properties.plate_num=element.properties.plate_num.replace(" ","")
+        }
+        //CW CNG senza targa
+        if(element.properties.plate_num.includes("UN")){
+            element.properties.plate_num=element.properties.plate_num=="Non disponibile";
         }
     });
 }
