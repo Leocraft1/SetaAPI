@@ -765,6 +765,12 @@ function fixBusRouteAndNameWimb(response){
         if(service.model=="MAN - LIONS CITY 19"){
             service.model="New MAN Lion's City 19G";
         }
+        if(service.model=="MERCEDES BENZ - O 530/CNG/U-4"){
+            service.model="Mercedes Citaro CNG";
+        }
+        if(service.model=="IRISBUS - CITYCLASS 491.12.27 CNG"){
+            service.model="Irisbus Cityclass CNG ATCM";
+        }
         //Dio filoviario arrostito sulla 750 volt
         if(service.vehicle_code>=35&&service.vehicle_code<=44){
             service.model="Solaris Trollino 12";
