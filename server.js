@@ -138,21 +138,35 @@ app.get('/arrivals/:id', async (req, res) => {
                     service.service="1B";
                     service.destination="ARIETE";
                 }
+                //1S Autostazione (Scuola)
+                if(service.service=="1"&&service.destination=="AUTOSTAZIONE"){
+                    service.service="1S";
+                }
                 //2A San Donnino
                 if(service.service=="2"&&service.destination=="SAN DONNINO"){
                     service.service="2A";
                 }
-                //3A Vaciglio
+                //3A SANTA CATERINA-MONTEFIORINO (as 25/26)
+                if(service.service=="3"&&service.codice_corsa.includes("339")){
+                    service.service="3A";
+                    service.destination="S.CATERINA-MONTEFIORINO";
+                }
+                //3A Vaciglio-Mattarella
                 if(service.service=="3"&&service.destination=="VACIGLIO MATTARELLA"){
                     service.service="3A";
                 }
-                //3A Portorico (Domenica)
-                if(service.service=="3"&&service.destination=="PORTORICO"){
-                    service.service="3A";
-                }
-                //3A Vaciglio (Domenica)
+                //3A Vaciglio
                 if(service.service=="3"&&service.destination=="VACIGLIO"){
                     service.service="3A";
+                }
+                //3B Ragazzi 99 (as 25/26)
+                if(service.service=="3"&&service.destination=="RAGAZZI DEL 99"){
+                    service.service="3B";
+                    service.destination="RAGAZZI 99";
+                }
+                //3B Nonantolana 1010 (as 25/26)
+                if(service.service=="3"&&service.destination=="NONANTOLANA 1010"){
+                    service.service="3B";
                 }
                 //5 Dalla Chiesa -> La Torre              
                 if(service.service=="5"&&service.destination=="DALLA CHIESA"){
@@ -161,6 +175,18 @@ app.get('/arrivals/:id', async (req, res) => {
                 //5A Tre Olmi
                 if(service.service=="5"&&service.destination=="TRE OLMI"){
                     service.service="5A";
+                }
+                //6A Santi (as 25/26)
+                if(service.service=="6"&&service.destination=="SANTI"){
+                    service.service="6A";
+                }
+                //6B Villanova (as 25/26)
+                if(service.service=="6"&&service.destination=="VILLANOVA"){
+                    service.service="6B";
+                }
+                //7A GOTTARDI -> POLICLINICO GOTTARDI
+                if(service.service=="7"&&service.destination=="GOTTARDI"){
+                    service.destination="POLICLINICO GOTTARDI";
                 }
                 //7A STAZIONE FS -> GOTTARDI
                 if(service.service=="7A"&&service.destination=="STAZIONE FS"){
@@ -187,6 +213,27 @@ app.get('/arrivals/:id', async (req, res) => {
                 if(service.service=="10"&&service.destination=="LA ROCCA"){
                     service.service="10A";
                 }
+                //10S Liceo Sigonio
+                if(service.service=="10"&&service.destination=="LICEO SIGONIO"){
+                    service.service="10S";
+                }
+                //12A Nazioni ma sono dei coglioni di merda
+                if(service.service=="12"&&service.codice_corsa.includes("1280")){
+                    service.service="12A";
+                    service.destination="NAZIONI";
+                }
+                //12/ Fanti FS
+                if(service.service=="12"&&service.destination=="FANTI FS"){
+                    service.service="12/";
+                }
+                //12S Garibaldi (Scuola)
+                if(service.service=="12"&&service.destination=="GARIBALDI"){
+                    service.service="12S";
+                }
+                //13 S.ANNA -> SANT'ANNA (dio rincoglionito e dislessico)
+                if(service.service=="13"&&service.destination=="S.ANNA"){
+                    service.destination="SANT'ANNA";
+                }
                 //13A Carcere
                 if(service.service=="13"&&service.destination=="CARCERI"){
                     service.service="13A";
@@ -194,6 +241,12 @@ app.get('/arrivals/:id', async (req, res) => {
                 //13F Variante di merda
                 if(service.service=="13"&&service.codice_corsa.includes("133")){
                     service.service="13F";
+                }
+                //Varianti vecchie AS 24/25
+                /*
+                //3A Portorico (Domenica)
+                if(service.service=="3"&&service.destination=="PORTORICO"){
+                    service.service="3A";
                 }
                 //14A Nazioni
                 if(service.service=="14"&&service.destination=="NAZIONI"){
@@ -203,6 +256,7 @@ app.get('/arrivals/:id', async (req, res) => {
                 if(service.service=="15"&&service.destination=="SANTI"){
                     service.service="15/";
                 }
+                */
             });
             // Step 1: Mappa i servizi per codice_corsa divisi per tipo
             const plannedMap = new Map();
@@ -424,6 +478,12 @@ async function updateStopCodes(){
             fermata = "Nome Personalizzato";
         }
         */
+        if (valore == "MO149") {
+            fermata = "GOTTARDI (cap. 7)";
+        }
+        if (valore == "MO148") {
+            fermata = "GOTTARDI (cap. 9)";
+        }
         if (valore == "MO6132") {
             fermata = "STAZIONE FS (Corsia 1)";
         }
@@ -486,6 +546,9 @@ async function updateStopCodes(){
         }
         if (valore == "MOPALTEC3") {
             fermata = "NAZIONI CAPOLINEA";
+        }
+        if (valore == "MO6783") {
+            fermata = "POLO LEONARDO (Strada)";
         }
         if (valore == "L A TORRE") {
             fermata = "LA TORRE";
@@ -560,6 +623,10 @@ function fixBusRouteAndNameWimb(response){
         if(service.route_desc=="D AVIA"){
             service.route_desc="D'AVIA";
         }
+        //La torre (Dislessia)
+        if(service.route_desc=="L A TORRE"){
+            service.route_desc="LA TORRE";
+        }
         //1A Modena Est
         if(service.linea=="1"&&service.route_desc=="MODENA EST"){
             service.linea="1A";
@@ -573,29 +640,55 @@ function fixBusRouteAndNameWimb(response){
             service.linea="1B";
             service.route_desc="ARIETE";
         }
+        //1S Autostazione (Scuola)
+        if(service.linea=="1"&&service.route_desc=="AUTOSTAZIONE"){
+            service.linea="1S";
+        }
         //2A San Donnino
         if(service.linea=="2"&&service.route_desc=="SAN DONNINO"){
             service.linea="2A";
         }
-        //3A Vaciglio
+        //3A SANTA CATERINA-MONTEFIORINO (as 25/26)
+        if(service.linea=="3"&&service.codice_corsa.includes("339")){
+            service.linea="3A";
+            service.route_desc="S.CATERINA-MONTEFIORINO";
+        }
+        //3A Vaciglio-Mattarella
         if(service.linea=="3"&&service.route_desc=="VACIGLIO MATTARELLA"){
             service.linea="3A";
         }
-        //3A Portorico (Domenica)
-        if(service.linea=="3"&&service.route_desc=="PORTORICO"){
-            service.linea="3A";
-        }
-        //3A Vaciglio (Domenica)
+        //3A Vaciglio
         if(service.linea=="3"&&service.route_desc=="VACIGLIO"){
             service.linea="3A";
         }
-        //5 Dalla Chiesa -> La Torre
+        //3B Ragazzi 99 (as 25/26)
+        if(service.linea=="3"&&service.route_desc=="RAGAZZI DEL 99"){
+            service.linea="3B";
+            service.route_desc="RAGAZZI 99";
+        }
+        //3B Nonantolana 1010 (as 25/26)
+        if(service.linea=="3"&&service.route_desc=="NONANTOLANA 1010"){
+            service.linea="3B";
+        }
+        //5 Dalla Chiesa -> La Torre              
         if(service.linea=="5"&&service.route_desc=="DALLA CHIESA"){
             service.route_desc="DALLA CHIESA (LA TORRE)";
         }
         //5A Tre Olmi
         if(service.linea=="5"&&service.route_desc=="TRE OLMI"){
             service.linea="5A";
+        }
+        //6A Santi (as 25/26)
+        if(service.linea=="6"&&service.route_desc=="SANTI"){
+            service.linea="6A";
+        }
+        //6B Villanova (as 25/26)
+        if(service.linea=="6"&&service.route_desc=="VILLANOVA"){
+            service.linea="6B";
+        }
+        //7A GOTTARDI -> POLICLINICO GOTTARDI
+        if(service.linea=="7"&&service.route_desc=="GOTTARDI"){
+            service.route_desc="POLICLINICO GOTTARDI";
         }
         //7A STAZIONE FS -> GOTTARDI
         if(service.linea=="7A"&&service.route_desc=="STAZIONE FS"){
@@ -622,6 +715,27 @@ function fixBusRouteAndNameWimb(response){
         if(service.linea=="10"&&service.route_desc=="LA ROCCA"){
             service.linea="10A";
         }
+        //10S Liceo Sigonio
+        if(service.linea=="10"&&service.route_desc=="LICEO SIGONIO"){
+            service.linea="10S";
+        }
+        //12A Nazioni ma sono dei coglioni di merda
+        if(service.linea=="12"&&service.route_code.includes("1280")){
+            service.linea="12A";
+            service.route_desc="NAZIONI";
+        }
+        //12/ Fanti FS
+        if(service.linea=="12"&&service.route_desc=="FANTI FS"){
+            service.linea="12/";
+        }
+        //12S Garibaldi (Scuola)
+        if(service.linea=="12"&&service.route_desc=="GARIBALDI"){
+            service.linea="12S";
+        }
+        //13 S.ANNA -> SANT'ANNA (dio rincoglionito e dislessico)
+        if(service.linea=="13"&&service.route_desc=="S.ANNA"){
+            service.route_desc=="SANT'ANNA";
+        }
         //13A Carcere
         if(service.linea=="13"&&service.route_desc=="CARCERI"){
             service.linea="13A";
@@ -629,6 +743,12 @@ function fixBusRouteAndNameWimb(response){
         //13F Variante di merda
         if(service.linea=="13"&&service.route_code.includes("133")){
             service.linea="13F";
+        }
+        //Varianti vecchie AS 24/25
+        /*
+        //3A Portorico (Domenica)
+        if(service.linea=="3"&&service.route_desc=="PORTORICO"){
+            service.linea="3A";
         }
         //14A Nazioni
         if(service.linea=="14"&&service.route_desc=="NAZIONI"){
@@ -638,10 +758,172 @@ function fixBusRouteAndNameWimb(response){
         if(service.linea=="15"&&service.route_desc=="SANTI"){
             service.linea="15/";
         }
-        //Cambia nomi modello bus
-        if(service.model=="IVECO - URBANWAY MILD HYBRID CNG"){
-            service.model="Iveco Urbanway Hybrid CNG";
+        */
+        //Cambia nomi modello bus (nuovo metodo per numero)
+        //Lotti promiscui vengono messi in alto in modo che se c'è qualcosa di sbagliato (c'è) vengono sistemati poi dopo
+        if(service.vehicle_code >= 300 && service.vehicle_code <= 891){
+            service.model = "Irisbus Crossway";
         }
+        if(service.vehicle_code >= 354 && service.vehicle_code <= 691){
+            service.model = "Mercedes Integro O550";
+        }
+        if(service.vehicle_code >= 651 && service.vehicle_code <= 682){
+            service.model = "Mercedes Citaro O530Ü";
+        }
+        if(service.vehicle_code >= 1 && service.vehicle_code <= 7){
+            service.model = "Neoplan Electroliner";
+        }
+
+        if(service.vehicle_code >= 25 && service.vehicle_code <= 34){
+            service.model = "CAM Busotto NGT";
+        }
+
+        if(service.vehicle_code >= 35 && service.vehicle_code <= 44){
+            service.model = "Solaris Trollino 12 IV";
+        }
+
+        if(service.vehicle_code >= 113 && service.vehicle_code <= 132){
+            service.model = "Mercedes Citaro O530N Diesel";
+        }
+
+        if(service.vehicle_code >= 133 && service.vehicle_code <= 142){
+            service.model = "Irisbus Cityclass CNG ATCM";
+        }
+
+        if(service.vehicle_code >= 143 && service.vehicle_code <= 146){
+            service.model = "Mercedes Citaro O530N CNG";
+        }
+
+        if(service.vehicle_code >= 170 && service.vehicle_code <= 197){
+            service.model = "Irisbus Citelis CNG EEV";
+        }
+
+        if(service.vehicle_code >= 198 && service.vehicle_code <= 200){
+            service.model = "Solaris Urbino 12 III CNG";
+        }
+
+        if(service.vehicle_code >= 271 && service.vehicle_code <= 290){
+            service.model = "MenariniBus Citymood CNG";
+        }
+
+        if(service.vehicle_code >= 4750 && service.vehicle_code <= 4763){
+            service.model = "MenariniBus Citymood LNG";
+        }
+
+        if(service.vehicle_code >= 4770 && service.vehicle_code <= 4799){
+            service.model = "Iveco Urbanway Mild Hybrid CNG";
+        }
+
+        if(service.vehicle_code >= 7901 && service.vehicle_code <= 7912){
+            service.model = "Solaris Urbino 12 IV Hydrogen";
+        }
+
+        if(service.vehicle_code >= 209 && service.vehicle_code <= 212){
+            service.model = "Solaris Urbino 18 III";
+        }
+
+        if(service.vehicle_code >= 323 && service.vehicle_code <= 324){
+            service.model = "Irisbus Crossway LE";
+        }
+
+        if(service.vehicle_code >= 213 && service.vehicle_code <= 216){
+            service.model = "BredaMenariniBus Avancity+ CNG 18";
+        }
+
+        if(service.vehicle_code >= 217 && service.vehicle_code <= 221){
+            service.model = "MAN Lion's City G 3p ex Gamla";
+        }
+
+        if(service.vehicle_code >= 339 && service.vehicle_code <= 379){
+            service.model = "Iveco Crossway LE";
+        }
+
+        if(service.vehicle_code >= 222 && service.vehicle_code <= 224){
+            service.model = "MAN Lion's City G 4p ex Unibuss";
+        }
+
+        if(service.vehicle_code >= 251 && service.vehicle_code <= 270){
+            service.model = "Solaris Urbino 12 III LE";
+        }
+
+        if(service.vehicle_code >= 229 && service.vehicle_code <= 232){
+            service.model = "Mercedes Citaro O530G ex Koln";
+        }
+
+        if(service.vehicle_code >= 380 && service.vehicle_code <= 381){
+            service.model = "MAN Lion's City L CNG ex TronderBilene";
+        }
+
+        if(service.vehicle_code >= 382 && service.vehicle_code <= 387){
+            service.model = "Iveco Crossway LE Bianchi";
+        }
+
+        if(service.vehicle_code >= 4501 && service.vehicle_code <= 4507){
+            service.model = "Setra S415 LE 2p ex Bolzano";
+        }
+
+        if(service.vehicle_code >= 4508 && service.vehicle_code <= 4513){
+            service.model = "Setra S415 LF 3p ex Bolzano";
+        }
+
+        if(service.vehicle_code >= 4621 && service.vehicle_code <= 4628){
+            service.model = "Iveco Crossway LE 14";
+        }
+
+        if(service.vehicle_code >= 4450 && service.vehicle_code <= 4466){
+            service.model = "Iveco Crossway LE 12 CNG";
+        }
+
+        if(service.vehicle_code >= 4467 && service.vehicle_code <= 4468){
+            service.model = "Iveco Crossway Line 12 CNG";
+        }
+
+        if(service.vehicle_code >= 4850 && service.vehicle_code <= 4852){
+            service.model = "MAN Lion's City 19 CNG";
+        }
+
+        if(service.vehicle_code >= 4853 && service.vehicle_code <= 4854){
+            service.model = "Mercedes Citaro O530GÜ ex Tper";
+        }
+
+        if(service.vehicle_code >= 692 && service.vehicle_code <= 699){
+            service.model = "Irisbus Ares SFR117";
+        }
+
+        if(service.vehicle_code >= 354 && service.vehicle_code <= 691){
+            service.model = "Mercedes Integro O550";
+        }
+
+        if(service.vehicle_code == 686){
+            service.model = "Mercedes Integro O550 (Giallo)";
+        }
+
+        if(service.vehicle_code >= 325 && service.vehicle_code <= 334){
+            service.model = "Irisbus Crossway ex Esercito Tedesco";
+        }
+
+        if(service.vehicle_code >= 341 && service.vehicle_code <= 352){
+            service.model = "MAN Lion's Regio";
+        }
+
+        if(service.vehicle_code >= 4401 && service.vehicle_code <= 4426){
+            service.model = "Iveco Crossway Line";
+        }
+
+        if(service.vehicle_code >= 4427 && service.vehicle_code <= 4449){
+            service.model = "Scania Irizar i4 LNG";
+        }
+        if(service.vehicle_code==67){
+            service.model="Mercedes Sprinter";
+        }
+        if(service.vehicle_code==64){
+            service.model="Iveco Daily carr. Indicar";
+        }
+        //Daily e altre cose
+        if(service.model=="SOLARIS - URBINO U 8,9 LE"){
+            service.model="Solaris 9 LE ex Piacenza";
+        }
+        /*
         if(service.model=="IRISBUS - PS09D2"){
             service.model="Irisbus Citelis CNG";
         }
@@ -771,6 +1053,7 @@ function fixBusRouteAndNameWimb(response){
         if(service.model=="IRISBUS - CITYCLASS 491.12.27 CNG"){
             service.model="Irisbus Cityclass CNG ATCM";
         }
+        */
         //Dio filoviario arrostito sulla 750 volt
         if(service.vehicle_code>=35&&service.vehicle_code<=44){
             service.model="Solaris Trollino 12";
@@ -794,7 +1077,7 @@ function fixPlate(response){
         }
         //CW CNG senza targa
         if(element.properties.plate_num.includes("UN")){
-            element.properties.plate_num=element.properties.plate_num=="Non disponibile";
+            element.properties.plate_num="Non disponibile";
         }
     });
 }
