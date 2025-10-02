@@ -16,9 +16,25 @@ const routeNumbersUrl = "https://wimb.setaweb.it/publicmapbe/routes/getroutesinf
 const stopCodesUrl = "https://wimb.setaweb.it/publicmapbe/vehicles/map/MO";
 
 //Intervals for updating data
-const stopcodesInterval = setInterval(updateStopCodes,20000);
-const routecodesInterval = setInterval(updateRouteCodes,600000);
+setInterval(updateStopCodes,20000);
+setInterval(updateRouteCodes,600000);
 cron.schedule("0 */8 * * *",updateRouteNumbers);
+var i=0;
+var j=0;
+setInterval(updateRoutesStops,10000);
+
+//CORS per prevenire errori
+app.use((req, res, next) => {
+  res.header("Access-Control-Allow-Origin", "*"); // oppure specifica un dominio
+  res.header("Access-Control-Allow-Methods", "*");
+  res.header("Access-Control-Allow-Headers", "Content-Type, Authorization");
+  
+  // Gestione preflight OPTIONS
+  if (req.method === "OPTIONS") {
+    return res.sendStatus(200);
+  }
+  next();
+});
 
 app.get('/routenumberslist', async (req, res) => {
     try {
@@ -47,15 +63,7 @@ app.get('/busmodels', async (req, res) => {
 
 app.get('/routestops/:id', async (req, res) => {
     const routeId = req.params.id;
-    try{
-        const stopsPre = await axios.get(`https://wimb.setaweb.it/publicmapbe/waypoints/getroutewaypoints/`+routeId);
-        stops = stopsPre.data;
-        fixStopNames(stops);
-
-        res.json(stops);
-    }catch(error){
-        res.json({"error" : "Percorso non trovato"});
-    }
+    res.json(await updateRouteStops(routeId));
 });
 
 app.get('/nextstops/:id', async (req, res) => {
@@ -146,6 +154,10 @@ app.get('/arrivals/:id', async (req, res) => {
                 if(service.service=="2"&&service.destination=="SAN DONNINO"){
                     service.service="2A";
                 }
+                //2/ Autostazione
+                if(service.service=="2"&&service.destination=="AUTOSTAZIONE"){
+                    service.service="2/";
+                }
                 //3A SANTA CATERINA-MONTEFIORINO (as 25/26)
                 if(service.service=="3"&&service.codice_corsa.includes("339")){
                     service.service="3A";
@@ -167,6 +179,19 @@ app.get('/arrivals/:id', async (req, res) => {
                 //3B Nonantolana 1010 (as 25/26)
                 if(service.service=="3"&&service.destination=="NONANTOLANA 1010"){
                     service.service="3B";
+                }
+                //3/ Stazione FS (as 25/26)
+                if(service.service=="3"&&service.destination=="STAZIONE FS"){
+                    service.service="3/";
+                }
+                //3F MONTEFIORINO-Portorico (Domenica)
+                if(service.service=="3"&&service.destination=="PORTORICO"){
+                    service.service="3F";
+                    service.destination="MONTEFIORINO-PORTORICO";
+                }
+                //4/ Autostazione (as 25/26)
+                if(service.service=="4"&&service.destination=="AUTOSTAZIONE"){
+                    service.service="4/";
                 }
                 //5 Dalla Chiesa -> La Torre              
                 if(service.service=="5"&&service.destination=="DALLA CHIESA"){
@@ -216,6 +241,14 @@ app.get('/arrivals/:id', async (req, res) => {
                 //10S Liceo Sigonio
                 if(service.service=="10"&&service.destination=="LICEO SIGONIO"){
                     service.service="10S";
+                }
+                //10/ AUTOSTAZIONE
+                if(service.service=="10"&&service.destination=="AUTOSTAZIONE"){
+                    service.service="10/";
+                }
+                //11/ Stazione FS
+                if(service.service=="11"&&service.destination=="STAZIONE FS"){
+                    service.service="11/";
                 }
                 //12A Nazioni ma sono dei coglioni di merda
                 if(service.service=="12"&&service.codice_corsa.includes("1280")){
@@ -319,6 +352,7 @@ app.get('/busesinservice', async (req, res) => {
             const response = await axios.get(`https://wimb.setaweb.it/publicmapbe/vehicles/map/MO`);
             //const response = await axios.get(`https://wimb.setaweb.it/publicmapbe/vehicles/map/MO`);
             //Varianti
+            console.log(response.data);
             fixBusRouteAndNameWimb(response);
             // Sort features by numeric part of linea
             response.data.features.sort((a, b) => {
@@ -387,6 +421,75 @@ app.get('/routecodesarchive', async (req, res) => {
     res.json(await updateRouteCodes());
 });
 
+async function updateRoutesStops(){
+    const routeCodes = await updateRouteCodes();
+    const routeId=routeCodes[i].codes[j];
+    if(routeCodes[i].codes[j+1]==undefined){
+        i++;
+        j=0;
+    }else if(routeCodes[i+1]==undefined){
+        i=0;
+        j=0;
+    }else{
+        j++;
+    }
+    if(!routeId.includes("(")){
+        await updateRouteStops(routeId);
+    }
+}
+
+async function updateRouteStops(routeId) {
+    const filePath = './routestops/'+routeId+'.json';
+    try{
+        const stopsPre = await axios.get(`https://wimb.setaweb.it/publicmapbe/waypoints/getroutewaypoints/`+routeId);
+        const remoteStops = stopsPre.data.features;
+
+        // 2. Load local stops file
+        // Assicurati che la cartella esista
+        if (!fs.existsSync('./routestops')) {
+            fs.mkdirSync('./routestops', { recursive: true });
+        }
+
+        // Se il file non esiste, crealo con un array vuoto
+        if (!fs.existsSync(filePath)) {
+            fs.writeFileSync(filePath, '[]', 'utf8');
+        }
+        
+        localStops = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+        //Dislessia
+        fixStopNames(remoteStops)
+
+        // 3. Build a Set of existing stop codes
+        const localStopCodes = new Set(localStops.map(stop => stop.code));
+
+        // 4. Add new stops if not present
+        let added = false;
+        remoteStops.forEach(route => {
+            const desc = route.properties.desc;
+            const code = route.properties.code;
+            const islast = route.properties.islast;
+            if (!localStopCodes.has(code)) {
+                localStops.push({ desc, code, islast });
+                localStopCodes.add(code);
+            }
+        });
+        //Salva
+        fs.writeFileSync(filePath, JSON.stringify(localStops, null, 2), 'utf8');
+        const data = JSON.parse(fs.readFileSync('./routestops/'+routeId+'.json', 'utf8'));
+
+        return(data);
+    }catch(error){
+        if (!fs.existsSync(filePath)) {
+            console.log(error);
+            return({"error" : "Percorso non trovato"});
+        }else{
+            const data = JSON.parse(fs.readFileSync('./routestops/'+routeId+'.json', 'utf8'));
+
+            return(data);
+        }
+    }
+}
+
 async function updateRouteCodes() {
     const response = await axios.get(stopCodesUrl);
     const remoteRC = response.data.features;
@@ -447,7 +550,6 @@ async function updateRouteCodes() {
     if (changed) {
         fs.writeFileSync(filePath, JSON.stringify(newLocalRC, null, 2), 'utf8');
     }
-    console.log("["+new Date()+"] Journey codes updated.");
     return newLocalRC;
 }
 
@@ -568,7 +670,7 @@ async function updateStopCodes(){
     }
 
     const data = JSON.parse(fs.readFileSync('./stoplist_new.json', 'utf8'));
-    console.log("["+new Date()+"] Stop codes updated.");
+    //console.log("["+new Date()+"] Stop codes updated.");
     return(data);
 }
 
@@ -648,8 +750,12 @@ function fixBusRouteAndNameWimb(response){
         if(service.linea=="2"&&service.route_desc=="SAN DONNINO"){
             service.linea="2A";
         }
+        //2/ Autostazione
+        if(service.linea=="2"&&service.route_desc=="AUTOSTAZIONE"){
+            service.linea="2/";
+        }
         //3A SANTA CATERINA-MONTEFIORINO (as 25/26)
-        if(service.linea=="3"&&service.codice_corsa.includes("339")){
+        if(service.linea=="3"&&service.route_code.includes("339")){
             service.linea="3A";
             service.route_desc="S.CATERINA-MONTEFIORINO";
         }
@@ -669,6 +775,19 @@ function fixBusRouteAndNameWimb(response){
         //3B Nonantolana 1010 (as 25/26)
         if(service.linea=="3"&&service.route_desc=="NONANTOLANA 1010"){
             service.linea="3B";
+        }
+        //3/ Stazione FS (as 25/26)
+        if(service.linea=="3"&&service.route_desc=="STAZIONE FS"){
+            service.linea="3/";
+        }
+        //3F MONTEFIORINO-Portorico (Domenica)
+        if(service.linea=="3"&&service.route_desc=="PORTORICO"){
+            service.linea="3F";
+            service.route_desc="MONTEFIORINO-PORTORICO";
+        }
+        //4/ Autostazione (as 25/26)
+        if(service.linea=="4"&&service.route_desc=="AUTOSTAZIONE"){
+            service.linea="4/";
         }
         //5 Dalla Chiesa -> La Torre              
         if(service.linea=="5"&&service.route_desc=="DALLA CHIESA"){
@@ -718,6 +837,14 @@ function fixBusRouteAndNameWimb(response){
         //10S Liceo Sigonio
         if(service.linea=="10"&&service.route_desc=="LICEO SIGONIO"){
             service.linea="10S";
+        }
+        //10/ AUTOSTAZIONE
+        if(service.linea=="10"&&service.route_desc=="AUTOSTAZIONE"){
+            service.linea="10/";
+        }
+        //11/ Stazione FS
+        if(service.linea=="11"&&service.route_desc=="STAZIONE FS"){
+            service.linea="11/";
         }
         //12A Nazioni ma sono dei coglioni di merda
         if(service.linea=="12"&&service.route_code.includes("1280")){
@@ -770,16 +897,15 @@ function fixBusRouteAndNameWimb(response){
         if(service.vehicle_code >= 651 && service.vehicle_code <= 682){
             service.model = "Mercedes Citaro O530Ü";
         }
+        if(service.vehicle_code >= 341 && service.vehicle_code <= 352){
+            service.model = "MAN Lion's Regio";
+        }
         if(service.vehicle_code >= 1 && service.vehicle_code <= 7){
             service.model = "Neoplan Electroliner";
         }
 
         if(service.vehicle_code >= 25 && service.vehicle_code <= 34){
             service.model = "CAM Busotto NGT";
-        }
-
-        if(service.vehicle_code >= 35 && service.vehicle_code <= 44){
-            service.model = "Solaris Trollino 12 IV";
         }
 
         if(service.vehicle_code >= 113 && service.vehicle_code <= 132){
@@ -902,10 +1028,6 @@ function fixBusRouteAndNameWimb(response){
             service.model = "Irisbus Crossway ex Esercito Tedesco";
         }
 
-        if(service.vehicle_code >= 341 && service.vehicle_code <= 352){
-            service.model = "MAN Lion's Regio";
-        }
-
         if(service.vehicle_code >= 4401 && service.vehicle_code <= 4426){
             service.model = "Iveco Crossway Line";
         }
@@ -918,6 +1040,11 @@ function fixBusRouteAndNameWimb(response){
         }
         if(service.vehicle_code==64){
             service.model="Iveco Daily carr. Indicar";
+        }
+        //Dio filoviario arrostito sulla 750 volt
+        if(service.vehicle_code>=35&&service.vehicle_code<=44){
+            service.model="Solaris Trollino 12 IV";
+            service.plate_num="MO0"+service.vehicle_code;
         }
         //Daily e altre cose
         if(service.model=="SOLARIS - URBINO U 8,9 LE"){
@@ -1054,16 +1181,11 @@ function fixBusRouteAndNameWimb(response){
             service.model="Irisbus Cityclass CNG ATCM";
         }
         */
-        //Dio filoviario arrostito sulla 750 volt
-        if(service.vehicle_code>=35&&service.vehicle_code<=44){
-            service.model="Solaris Trollino 12";
-            service.plate_num="MO0"+service.vehicle_code;
-        }
     });
 }
 
 function fixStopNames(stops){
-    stops.features.forEach(element =>{
+    stops.forEach(element =>{
         if(element.properties.desc=="L A TORRE"){
             element.properties.desc="LA TORRE"
         }
@@ -1130,10 +1252,10 @@ async function addNextStop(response,idMezzo){
 //Urbanway e Menarini LNG hanno la pedana
 function fixPedana(response){
     response.data.features.forEach(element => {
-        if(element.properties.model=="Iveco Urbanway Hybrid CNG"){
+        if(element.properties.model=="Iveco Urbanway Mild Hybrid CNG"){
             element.properties.pedana=1;
         }
-        if(element.properties.model=="Menarinibus Citymood LNG"){
+        if(element.properties.model=="MenariniBus Citymood LNG"){
             element.properties.pedana=1;
         }
     });
