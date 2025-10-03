@@ -11,6 +11,7 @@ It operates at :
 - /busmodels for the list of all bus models.
 - /stopcodesarchive the result of the fetch to obtain the bus stops.
 - /routestops/:id where id is the route code of the stop you want to obtain the stops of.
+- /nextstops/:id where id is the journey code of the shift you want to obtain the remaining stops of.
 
 # Setup
 To run it you will need Node.js (at least v22.17.1 LTS).
