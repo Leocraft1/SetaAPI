@@ -150,6 +150,10 @@ app.get('/arrivals/:id', async (req, res) => {
                 if(service.service=="1"&&service.destination=="AUTOSTAZIONE"){
                     service.service="1S";
                 }
+                //1 _ -> Marinuzzi (Scuola)
+                if(service.service=="1"&&service.destination=="_"){
+                    service.destionation="MARINUZZI";
+                }
                 //2A San Donnino
                 if(service.service=="2"&&service.destination=="SAN DONNINO"){
                     service.service="2A";
@@ -274,6 +278,10 @@ app.get('/arrivals/:id', async (req, res) => {
                 //13F Variante di merda
                 if(service.service=="13"&&service.codice_corsa.includes("133")){
                     service.service="13F";
+                }
+                //643 _ -> Polo Scolastico Sassuolo
+                if(service.service=="643"&&service.destination=="_"){
+                    service.destination="POLO SCOLASTICO SASSUOLO";
                 }
                 //Varianti vecchie AS 24/25
                 /*
@@ -746,6 +754,10 @@ function fixBusRouteAndNameWimb(response){
         if(service.linea=="1"&&service.route_desc=="AUTOSTAZIONE"){
             service.linea="1S";
         }
+        //1 _ -> Marinuzzi (Scuola)
+        if(service.linea=="1"&&service.route_desc=="_"){
+            service.route_desc="MARINUZZI";
+        }
         //2A San Donnino
         if(service.linea=="2"&&service.route_desc=="SAN DONNINO"){
             service.linea="2A";
@@ -870,6 +882,10 @@ function fixBusRouteAndNameWimb(response){
         //13F Variante di merda
         if(service.linea=="13"&&service.route_code.includes("133")){
             service.linea="13F";
+        }
+        //643 _ -> Polo Scolastico Sassuolo
+        if(service.linea=="643"&&service.route_desc=="_"){
+            service.route_desc="POLO SCOLASTICO SASSUOLO";
         }
         //Varianti vecchie AS 24/25
         /*
@@ -1028,18 +1044,27 @@ function fixBusRouteAndNameWimb(response){
             service.model = "Irisbus Crossway ex Esercito Tedesco";
         }
 
-        if(service.vehicle_code >= 4401 && service.vehicle_code <= 4426){
+        if(service.vehicle_code >= 4400 && service.vehicle_code <= 4426){
             service.model = "Iveco Crossway Line";
         }
 
         if(service.vehicle_code >= 4427 && service.vehicle_code <= 4449){
             service.model = "Scania Irizar i4 LNG";
         }
-        if(service.vehicle_code==67){
+        if(service.vehicle_code >= 7901 && service.vehicle_code <= 7912){
+            service.model = "Scania Irizar i4 LNG";
+        }
+        if(service.vehicle_code>= 66 && service.vehicle_code<=67){
             service.model="Mercedes Sprinter";
         }
-        if(service.vehicle_code==64){
+        if(service.vehicle_code>= 63 && service.vehicle_code<=64){
             service.model="Iveco Daily carr. Indicar";
+        }
+        if(service.vehicle_code==50){
+            service.model="Iveco Daily";
+        }
+        if(service.vehicle_code==46){
+            service.model="Mercedes Sprinter";
         }
         //Dio filoviario arrostito sulla 750 volt
         if(service.vehicle_code>=35&&service.vehicle_code<=44){
