@@ -1052,7 +1052,17 @@ function fixBusRouteAndNameWimb(response){
             service.model = "Scania Irizar i4 LNG";
         }
         if(service.vehicle_code >= 7901 && service.vehicle_code <= 7912){
-            service.model = "Scania Irizar i4 LNG";
+            service.model = "Solaris Urbino IV Hydrogen";
+        }
+        
+        //Dio filoviario arrostito sulla 750 volt
+        if(service.vehicle_code>=35&&service.vehicle_code<=44){
+            service.model="Solaris Trollino 12 IV";
+            service.plate_num="MO0"+service.vehicle_code;
+        }
+        //Daily e altre cose
+        if(service.model=="SOLARIS - URBINO U 8,9 LE"){
+            service.model="Solaris 9 LE ex Piacenza";
         }
         if(service.vehicle_code>= 66 && service.vehicle_code<=67){
             service.model="Mercedes Sprinter";
@@ -1066,14 +1076,20 @@ function fixBusRouteAndNameWimb(response){
         if(service.vehicle_code==46){
             service.model="Mercedes Sprinter";
         }
-        //Dio filoviario arrostito sulla 750 volt
-        if(service.vehicle_code>=35&&service.vehicle_code<=44){
-            service.model="Solaris Trollino 12 IV";
-            service.plate_num="MO0"+service.vehicle_code;
+        if(service.vehicle_code==961){
+            service.model="Iveco Thesi";
         }
-        //Daily e altre cose
-        if(service.model=="SOLARIS - URBINO U 8,9 LE"){
-            service.model="Solaris 9 LE ex Piacenza";
+        if(service.vehicle_code==962){
+            service.model="Ford Transit";
+        }
+        if(service.vehicle_code==954){
+            service.model="Sprinter carr. Buzola";
+        }
+        if(service.vehicle_code==965){
+            service.model="Iveco Daily";
+        }
+        if(service.vehicle_code==952){
+            service.model="Iveco Daily carr. Gerbus";
         }
         /*
         if(service.model=="IRISBUS - PS09D2"){
