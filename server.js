@@ -25,18 +25,24 @@ setInterval(updateRoutesStops,10000);
 
 //CORS e X-Frame-Options per prevenire errori
 app.use((req, res, next) => {
-  res.header("Access-Control-Allow-Origin", "*"); // oppure specifica un dominio
-  res.header("Access-Control-Allow-Methods", "*");
-  res.header("Access-Control-Allow-Headers", "Content-Type, Authorization");
+    res.header("Access-Control-Allow-Origin", "*"); // oppure specifica un dominio
+    res.header("Access-Control-Allow-Methods", "*");
+    res.header("Access-Control-Allow-Headers", "Content-Type, Authorization");
   
-  // Gestione preflight OPTIONS
-  if (req.method === "OPTIONS") {
-    return res.sendStatus(200);
-  }
-  next();
+    // Gestione preflight OPTIONS
+    if (req.method === "OPTIONS") {
+        return res.sendStatus(200);
+    }
+    helmet({
+        contentSecurityPolicy: {
+            directives: {
+            defaultSrc: ["'self'"],
+            },
+        },
+        frameguard: false,
+        })
+    next();
 });
-
-app.use(helmet.frameguard())
 
 app.get('/routenumberslist', async (req, res) => {
     try {
