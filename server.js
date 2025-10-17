@@ -1,9 +1,9 @@
 const express = require('express');
 const axios = require('axios');
-const cheerio = require('cheerio');
 const cors = require('cors');
 const fs = require('fs');
 const cron = require('node-cron');
+const helmet = require('helmet')
 
 const app = express();
 const port = 5001;
@@ -23,7 +23,7 @@ var i=0;
 var j=0;
 setInterval(updateRoutesStops,10000);
 
-//CORS per prevenire errori
+//CORS e X-Frame-Options per prevenire errori
 app.use((req, res, next) => {
   res.header("Access-Control-Allow-Origin", "*"); // oppure specifica un dominio
   res.header("Access-Control-Allow-Methods", "*");
@@ -35,6 +35,8 @@ app.use((req, res, next) => {
   }
   next();
 });
+
+app.use(helmet.frameguard())
 
 app.get('/routenumberslist', async (req, res) => {
     try {
@@ -152,7 +154,7 @@ app.get('/arrivals/:id', async (req, res) => {
                 }
                 //1 _ -> Marinuzzi (Scuola)
                 if(service.service=="1"&&service.destination=="_"){
-                    service.destionation="MARINUZZI";
+                    service.destination="MARINUZZI";
                 }
                 //2A San Donnino
                 if(service.service=="2"&&service.destination=="SAN DONNINO"){
@@ -199,7 +201,7 @@ app.get('/arrivals/:id', async (req, res) => {
                 }
                 //5 Dalla Chiesa -> La Torre              
                 if(service.service=="5"&&service.destination=="DALLA CHIESA"){
-                    service.destination="DALLA CHIESA (LA TORRE)";
+                    service.destination="LA TORRE";
                 }
                 //5A Tre Olmi
                 if(service.service=="5"&&service.destination=="TRE OLMI"){
@@ -255,7 +257,7 @@ app.get('/arrivals/:id', async (req, res) => {
                     service.service="11/";
                 }
                 //12A Nazioni ma sono dei coglioni di merda
-                if(service.service=="12"&&service.codice_corsa.includes("1280")){
+                if(service.service=="12"&&service.codice_corsa.includes("1280")||service.codice_corsa.includes("1284")){
                     service.service="12A";
                     service.destination="NAZIONI";
                 }
@@ -265,6 +267,10 @@ app.get('/arrivals/:id', async (req, res) => {
                 }
                 //12S Garibaldi (Scuola)
                 if(service.service=="12"&&service.destination=="GARIBALDI"){
+                    service.service="12S";
+                }
+                //12S Largo Garibaldi (Scuola)
+                if(service.service=="12"&&service.destination=="LARGO GARIBALDI"){
                     service.service="12S";
                 }
                 //13 S.ANNA -> SANT'ANNA (dio rincoglionito e dislessico)
@@ -314,7 +320,7 @@ app.get('/arrivals/:id', async (req, res) => {
             // Step 2: Filtra i servizi
             const filteredServices = response.data.arrival.services.filter(service => {
             if (service.type == "realtime") return true;
-            return !realtimeMap.has(service.codice_corsa);
+                return !realtimeMap.has(service.codice_corsa);
             });
 
             // Step 3: Aggiungi "delay" dove possibile
@@ -360,7 +366,6 @@ app.get('/busesinservice', async (req, res) => {
             const response = await axios.get(`https://wimb.setaweb.it/publicmapbe/vehicles/map/MO`);
             //const response = await axios.get(`https://wimb.setaweb.it/publicmapbe/vehicles/map/MO`);
             //Varianti
-            console.log(response.data);
             fixBusRouteAndNameWimb(response);
             // Sort features by numeric part of linea
             response.data.features.sort((a, b) => {
@@ -408,6 +413,7 @@ app.get("/vehicleinfo/:id", async (req, res) => {
         await addPostiTotali(response,id);
         fixPedana(response);
         await addNextStop(response,id);
+        await addNextStopCode(response,id);
         res.json(response.data);
     } catch (error) {
         console.error(error);
@@ -427,6 +433,37 @@ app.get('/stopcodesarchive', async (req, res) => {
 //Machine learning codici percorsi
 app.get('/routecodesarchive', async (req, res) => {
     res.json(await updateRouteCodes());
+});
+
+//Descrizione frequenze e tempi di percorrenza
+app.get('/frequencydescription/:id', async (req, res) => {
+    const id = req.params.id;
+    const descriptions = await getFreqDesc("2025");
+    const response = [{}];
+    descriptions.forEach(element =>{
+        if(element.linea==id){
+            response[0].linea=element.linea;
+            response[0].destinazioni=element.destinazioni;
+            response[0].percorrenza=element.percorrenza;
+            response[0].frequenze=element.frequenze;
+            response[0].linkseta=element.linkseta;
+        }
+    })
+    if(response[0].linea==undefined){
+        res.json(JSON.parse('[{"error":"Descrizione non trovata"}]'))
+    }
+    res.json(response);
+});
+
+//Forward lineedyn_linea_dett_fermate_e_orari.php
+app.get('/lineedyn_linea_dett_percorsi', async (req, res) => {  
+    var response = undefined;
+    if(req.query.dd==undefined){
+        response = await axios.get(`https://www.setaweb.it/lineedyn_linea_dett_percorsi.php?b=`+req.query.b+"&l="+req.query.l+"&v="+req.query.v);
+    }else{
+        response = await axios.get(`https://www.setaweb.it/lineedyn_linea_dett_percorsi.php?b=`+req.query.b+"&l="+req.query.l+"&dd="+req.query.dd+"&v="+req.query.v);
+    }
+    res.end(response.data);
 });
 
 async function updateRoutesStops(){
@@ -803,7 +840,7 @@ function fixBusRouteAndNameWimb(response){
         }
         //5 Dalla Chiesa -> La Torre              
         if(service.linea=="5"&&service.route_desc=="DALLA CHIESA"){
-            service.route_desc="DALLA CHIESA (LA TORRE)";
+            service.route_desc="LA TORRE";
         }
         //5A Tre Olmi
         if(service.linea=="5"&&service.route_desc=="TRE OLMI"){
@@ -859,7 +896,7 @@ function fixBusRouteAndNameWimb(response){
             service.linea="11/";
         }
         //12A Nazioni ma sono dei coglioni di merda
-        if(service.linea=="12"&&service.route_code.includes("1280")){
+        if(service.linea=="12"&&service.route_code.includes("1280")||service.route_code.includes("1284")){
             service.linea="12A";
             service.route_desc="NAZIONI";
         }
@@ -869,6 +906,10 @@ function fixBusRouteAndNameWimb(response){
         }
         //12S Garibaldi (Scuola)
         if(service.linea=="12"&&service.route_desc=="GARIBALDI"){
+            service.linea="12S";
+        }
+        //12S Largo Garibaldi (Scuola)
+        if(service.linea=="12"&&service.route_desc=="LARGO GARIBALDI"){
             service.linea="12S";
         }
         //13 S.ANNA -> SANT'ANNA (dio rincoglionito e dislessico)
@@ -1222,6 +1263,29 @@ function fixBusRouteAndNameWimb(response){
             service.model="Irisbus Cityclass CNG ATCM";
         }
         */
+        if(false){
+            service.linea="99";
+            service.route_desc="Glory to ATCM";
+            service.model="Glory to ATCM";
+            //service.vehicle_code="Glory to ATCM";
+            service.service_tag="Glory to ATCM";
+            service.plate_num="Glory to ATCM";
+            service.num_passeggeri="Glory to ATCM";
+            service.waypoint_code="Glory to ATCM";
+            service.posti_totali="Glory to ATCM";
+            service.journey_code="Glory to ATCM";
+            service.delay="Glory to ATCM";
+            service.occupancy_lstupd="Glory to ATCM";
+            service.wp_desc="Glory to ATCM";
+            service.service_code="Glory to ATCM";
+            service.route_code="Glory to ATCM";
+            service.reached_waypoint_code="Glory to ATCM";
+            service.next_stop="Glory to ATCM";
+            service.next_stop="Glory to ATCM";
+            service.next_stop="Glory to ATCM";
+            service.next_stop="Glory to ATCM";
+            service.next_stop="Glory to ATCM";
+        }
     });
 }
 
@@ -1290,6 +1354,18 @@ async function addNextStop(response,idMezzo){
     });
 }
 
+//Cerca e aggiunge waypoint_code alle info veicolo
+async function addNextStopCode(response,idMezzo){
+    var item=await getBusList();
+    item.features.forEach(element =>{
+        if(element.properties.vehicle_code==idMezzo){
+            response.data.features.forEach(bus =>{
+                bus.properties.waypoint_code=element.properties.waypoint_code;
+            });
+        }
+    });
+}
+
 //Urbanway e Menarini LNG hanno la pedana
 function fixPedana(response){
     response.data.features.forEach(element => {
@@ -1300,6 +1376,15 @@ function fixPedana(response){
             element.properties.pedana=1;
         }
     });
+}
+
+async function getFreqDesc(anno){
+    var content = [];
+    const filePath = "./frequency_desc/"+anno+".json";
+    if (fs.existsSync(filePath)) {
+        content = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+    }
+    return(content);
 }
 
 app.listen(port, () => {
