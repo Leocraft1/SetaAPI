@@ -4,6 +4,7 @@ const cors = require('cors');
 const fs = require('fs');
 const cron = require('node-cron');
 const helmet = require('helmet')
+const scrapeIt = require('scrape-it');
 
 const app = express();
 const port = 5001;
@@ -14,6 +15,7 @@ app.use(express.json());
 //URLs declaration section
 const routeNumbersUrl = "https://wimb.setaweb.it/publicmapbe/routes/getroutesinfo/MO";
 const stopCodesUrl = "https://wimb.setaweb.it/publicmapbe/vehicles/map/MO";
+const newsUrl = "https://www.setaweb.it/mo/news";
 
 //Intervals for updating data
 setInterval(updateStopCodes,20000);
@@ -174,7 +176,7 @@ app.get('/arrivals/:id', async (req, res) => {
                 if(service.service=="3"&&service.codice_corsa.includes("339")){
                     service.service="3A";
                     service.destination="S.CATERINA-MONTEFIORINO";
-                }
+                }               
                 //3A Vaciglio-Mattarella
                 if(service.service=="3"&&service.destination=="VACIGLIO MATTARELLA"){
                     service.service="3A";
@@ -196,7 +198,17 @@ app.get('/arrivals/:id', async (req, res) => {
                 if(service.service=="3"&&service.destination=="STAZIONE FS"){
                     service.service="3/";
                 }
-                //3F MONTEFIORINO-Portorico (Domenica)
+                //3A SANTA CATERINA-MONTEFIORINO NO MALAVOLTI (Domenica, 3F estinto)
+                if(service.service=="3"&&service.codice_corsa.includes("407")){
+                    service.service="3A";
+                    service.destination="S.CATERINA-MONTEFIORINO <br> (NO MALAVOLTI)";
+                }
+                //3B SANTA CATERINA-MONTEFIORINO NO MALAVOLTI (Domenica, 3F estinto)
+                if(service.service=="3B"&&service.codice_corsa.includes("397")){
+                    service.service="3B";
+                    service.destination="NONANTOLANA 1010 <br> (NO TORRAZZI)";
+                }
+                //3F MONTEFIORINO-PORTORICO (Domenica)
                 if(service.service=="3"&&service.destination=="PORTORICO"){
                     service.service="3F";
                     service.destination="MONTEFIORINO-PORTORICO";
@@ -221,12 +233,12 @@ app.get('/arrivals/:id', async (req, res) => {
                 if(service.service=="6"&&service.destination=="VILLANOVA"){
                     service.service="6B";
                 }
-                //7A GOTTARDI -> POLICLINICO GOTTARDI
+                //7 GOTTARDI -> POLICLINICO GOTTARDI
                 if(service.service=="7"&&service.destination=="GOTTARDI"){
                     service.destination="POLICLINICO GOTTARDI";
                 }
                 //7A STAZIONE FS -> GOTTARDI
-                if(service.service=="7A"&&service.destination=="STAZIONE FS"){
+                if(service.service=="7A"&&service.destination=="STAZIONE FS"&&!service.codice_corsa.includes("728")){
                     service.destination="GOTTARDI";
                 }
                 //7/ Stazione FS
@@ -244,6 +256,10 @@ app.get('/arrivals/:id', async (req, res) => {
                 }
                 //9/ Stazione FS
                 if(service.service=="9"&&service.destination=="STAZIONE FS"){
+                    service.service="9/";
+                }
+                //9/ Autostazione
+                if(service.service=="9"&&service.destination=="AUTOSTAZIONE"){
                     service.service="9/";
                 }
                 //10A La Rocca
@@ -441,26 +457,6 @@ app.get('/routecodesarchive', async (req, res) => {
     res.json(await updateRouteCodes());
 });
 
-//Descrizione frequenze e tempi di percorrenza
-app.get('/frequencydescription/:id', async (req, res) => {
-    const id = req.params.id;
-    const descriptions = await getFreqDesc("2025");
-    const response = [{}];
-    descriptions.forEach(element =>{
-        if(element.linea==id){
-            response[0].linea=element.linea;
-            response[0].destinazioni=element.destinazioni;
-            response[0].percorrenza=element.percorrenza;
-            response[0].frequenze=element.frequenze;
-            response[0].linkseta=element.linkseta;
-        }
-    })
-    if(response[0].linea==undefined){
-        res.json(JSON.parse('[{"error":"Descrizione non trovata"}]'))
-    }
-    res.json(response);
-});
-
 //Forward lineedyn_linea_dett_fermate_e_orari.php
 app.get('/lineedyn_linea_dett_percorsi', async (req, res) => {  
     var response = undefined;
@@ -470,6 +466,57 @@ app.get('/lineedyn_linea_dett_percorsi', async (req, res) => {
         response = await axios.get(`https://www.setaweb.it/lineedyn_linea_dett_percorsi.php?b=`+req.query.b+"&l="+req.query.l+"&dd="+req.query.dd+"&v="+req.query.v);
     }
     res.end(response.data);
+});
+
+//API per ottenere l'elenco notizie seta in json
+app.get('/allnews', async (req, res) => {  
+    const response = await axios.get(newsUrl);
+    const data = scrapeIt.scrapeHTML(response.data, {
+        news: {
+            listItem: ".news li div div a",
+            data: {
+                title: ".title",
+                date: ".date-title",
+                link: {
+                    attr: "href", convert: x => "https://www.setaweb.it/"+x,
+                },
+                type: {
+                    selector: ".image-news", attr: "style",convert:x => {
+                        if(x.includes("pericolo.png")){
+                            return "Importante";
+                        }if(x.includes("seta-informa.png")){
+                            return "Informazione";
+                        }if(x.includes("novita.png")){
+                            return "Novità";
+                        }if(x.includes("orari.png")){
+                            return "Orari";
+                        }if(x.includes("autobus-treno.png")){
+                            return "Autobus Treno";
+                        }if(x.includes("tessera.png")){
+                            return "Biglietti";
+                        }if(x.includes("lavori-in-corso.png")){
+                            return "Lavori in corso";
+                        }
+                    }
+                }
+            }
+        }
+    })
+    res.json(data);
+});
+
+//API per ottenere notizia seta in json
+app.get('/news', async (req, res) => {  
+    const link = req.query.link;
+    const response = await axios.get(link);
+    const data = scrapeIt.scrapeHTML(response.data, {
+        title: ".container-title",
+        date: ".container-date-title",
+        content: {
+            selector: ".descrizione",how: "html"
+        },
+    })
+    res.json(data);
 });
 
 async function updateRoutesStops(){
@@ -814,6 +861,11 @@ function fixBusRouteAndNameWimb(response){
             service.linea="3A";
             service.route_desc="S.CATERINA-MONTEFIORINO";
         }
+        //3A SANTA CATERINA-MONTEFIORINO NO MALAVOLTI(as 25/26)
+        if(service.linea=="3"&&service.route_code.includes("407")){
+            service.linea="3A";
+            service.route_desc="S.CATERINA-MONTEFIORINO (NO MALAVOLTI)";
+        }
         //3A Vaciglio-Mattarella
         if(service.linea=="3"&&service.route_desc=="VACIGLIO MATTARELLA"){
             service.linea="3A";
@@ -834,6 +886,16 @@ function fixBusRouteAndNameWimb(response){
         //3/ Stazione FS (as 25/26)
         if(service.linea=="3"&&service.route_desc=="STAZIONE FS"){
             service.linea="3/";
+        }
+        //3A SANTA CATERINA-MONTEFIORINO NO MALAVOLTI (Domenica, 3F estinto)
+        if(service.linea=="3"&&service.route_code.includes("407")){
+            service.linea="3A";
+            service.route_desc="S.CATERINA-MONTEFIORINO <br> (NO MALAVOLTI)";
+        }
+        //3B SANTA CATERINA-MONTEFIORINO NO MALAVOLTI (Domenica, 3F estinto)
+        if(service.linea=="3B"&&service.route_code.includes("397")){
+            service.linea="3B";
+            service.route_desc="NONANTOLANA 1010 <br> (NO TORRAZZI)";
         }
         //3F MONTEFIORINO-Portorico (Domenica)
         if(service.linea=="3"&&service.route_desc=="PORTORICO"){
@@ -860,13 +922,17 @@ function fixBusRouteAndNameWimb(response){
         if(service.linea=="6"&&service.route_desc=="VILLANOVA"){
             service.linea="6B";
         }
-        //7A GOTTARDI -> POLICLINICO GOTTARDI
+        //7 GOTTARDI -> POLICLINICO GOTTARDI
         if(service.linea=="7"&&service.route_desc=="GOTTARDI"){
             service.route_desc="POLICLINICO GOTTARDI";
         }
         //7A STAZIONE FS -> GOTTARDI
-        if(service.linea=="7A"&&service.route_desc=="STAZIONE FS"){
+        if(service.linea=="7A"&&service.route_desc=="STAZIONE FS"&&!service.route_code.includes("728")){
             service.route_desc="GOTTARDI";
+        }
+        //7A/ STAZIONE FS
+        if(service.linea=="7A"&&service.route_desc=="STAZIONE FS"){
+            service.linea="7A/";
         }
         //7/ Stazione FS
         if(service.linea=="7"&&service.route_desc=="STAZIONE FS"){
@@ -883,6 +949,10 @@ function fixBusRouteAndNameWimb(response){
         }
         //9/ Stazione FS
         if(service.linea=="9"&&service.route_desc=="STAZIONE FS"){
+            service.linea="9/";
+        }
+        //9/ Autostazione
+        if(service.linea=="9"&&service.route_desc=="AUTOSTAZIONE"){
             service.linea="9/";
         }
         //10A La Rocca
