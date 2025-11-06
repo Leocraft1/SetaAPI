@@ -16,6 +16,8 @@ app.use(express.json());
 const routeNumbersUrl = "https://wimb.setaweb.it/publicmapbe/routes/getroutesinfo/MO";
 const stopCodesUrl = "https://wimb.setaweb.it/publicmapbe/vehicles/map/MO";
 const newsUrl = "https://www.setaweb.it/mo/news";
+const lineedynUrl = "https://www.setaweb.it/mo/lineedyn";
+const problemsBaseUrl = "https://www.setaweb.it/mo/news/linea/";
 
 //Intervals for updating data
 setInterval(updateStopCodes,20000);
@@ -125,8 +127,18 @@ app.get('/arrivals/:id', async (req, res) => {
         try {
             const response = await axios.get(`https://avm.setaweb.it/SETA_WS/services/arrival/${stopId}`);
             //const response = await axios.get(`http://localhost:5002/SETA_WS/services/arrival/${stopId}`);
+            const problems = await axios.get(`https://setaapi.serverissimo.freeddns.org/routeproblems`);
             //Varianti
             response.data.arrival.services.forEach(service => {
+                //Aggiungi problemi
+                problems.data.codes.forEach(element =>{
+                    if(element.num==service.service){
+                        service.hasProblems=element.hasProblems;
+                    }
+                })
+                //Aggiungi servizio senza variante (per notizie)
+                service.officialService=service.service;
+
                 //Sant'Anna (Dislessia)
                 if(service.destination=="SANT  ANNA"){
                     service.destination="SANT'ANNA";
@@ -203,11 +215,13 @@ app.get('/arrivals/:id', async (req, res) => {
                     service.service="3A";
                     service.destination="S.CATERINA-MONTEFIORINO <br> (NO MALAVOLTI)";
                 }
+                /*
                 //3B SANTA CATERINA-MONTEFIORINO NO MALAVOLTI (Domenica, 3F estinto)
                 if(service.service=="3B"&&service.codice_corsa.includes("397")){
                     service.service="3B";
                     service.destination="NONANTOLANA 1010 <br> (NO TORRAZZI)";
                 }
+                */
                 //3F MONTEFIORINO-PORTORICO (Domenica)
                 if(service.service=="3"&&service.destination=="PORTORICO"){
                     service.service="3F";
@@ -350,8 +364,8 @@ app.get('/arrivals/:id', async (req, res) => {
             if (service.type == "realtime") {
                 const planned = plannedMap.get(service.codice_corsa);
                 if (planned) {
-                const delayMinutes = computeDelay(planned.arrival, service.arrival);
-                service.delay = delayMinutes;
+                    const delayMinutes = computeDelay(planned.arrival, service.arrival);
+                    service.delay = delayMinutes;
                 }
             }
             });
@@ -496,6 +510,8 @@ app.get('/allnews', async (req, res) => {
                             return "Biglietti";
                         }if(x.includes("lavori-in-corso.png")){
                             return "Lavori in corso";
+                        }if(x.includes("controllore.png")){
+                            return "Personale";
                         }
                     }
                 }
@@ -517,6 +533,79 @@ app.get('/news', async (req, res) => {
         },
     })
     res.json(data);
+});
+
+//Ottenere elenco di linee con problemi
+app.get('/routeproblems', async (req, res) => {  
+    const response = await axios.get(lineedynUrl);
+    const data = scrapeIt.scrapeHTML(response.data, {
+        codes: {
+            listItem: ".riga_copertura",
+            data: {
+                num: ".numero",
+                hasProblems: {
+                    selector: ".news_linea",
+                    convert: x => {
+                        if(x!=""){
+                            return true;
+                        }else{
+                            return false;
+                        }
+                    },
+                },
+                shitCode: {
+                    selector: ".testo_per_ricerca",
+                    attr: "data-val"
+                },
+            }
+        }
+    })
+    //Va bene dani
+    data.codes[data.codes.length-1].num="Dani";
+    data.codes[data.codes.length-1].hasProblems=true;
+    data.codes[data.codes.length-1].shitCode="2F";
+    res.json(data)
+});
+
+//Ottenere il dettaglio dei problemi sulla linea
+app.get('/routeproblems/:id', async (req, res) => {  
+    const id = req.params.id;
+    const codiciDiMerda = await getCodiciDiMerda();
+    var sc = "";
+    codiciDiMerda.codes.forEach(element => {
+        if(element.num==id){
+            sc = element.shitCode;
+        }
+    });
+    const problemsUrl = problemsBaseUrl + sc;
+    try{
+        const response = await axios.get(problemsUrl);
+        const data = scrapeIt.scrapeHTML(response.data, {
+            problems: {
+                listItem: ".news-container",
+                data: {
+                    title: ".news-container div",
+                    date: ".date-title",
+                    link: {
+                        closest: "a",
+                        attr: "href",
+                        convert: x => "https://www.setaweb.it/"+x
+                    },
+                },
+            }
+        })
+        res.json(data);
+    }catch(error){
+        console.error(error);
+        res.json({
+            "error" : "Route number is not valid."
+        });
+    } 
+});
+
+//Codici del cazzo del loro sito di merda
+app.get('/shitcodes', async (req, res) => {  
+    res.json(await getCodiciDiMerda());
 });
 
 async function updateRoutesStops(){
@@ -573,15 +662,22 @@ async function updateRouteStops(routeId) {
         });
         //Salva
         fs.writeFileSync(filePath, JSON.stringify(localStops, null, 2), 'utf8');
-        const data = JSON.parse(fs.readFileSync('./routestops/'+routeId+'.json', 'utf8'));
-
+        //Compone stillExists
+        const data = JSON.parse(`{
+            "stillExists" : ${true},
+            "stops" : ${fs.readFileSync('./routestops/'+routeId+'.json', 'utf8')}
+        }`);
+        
         return(data);
     }catch(error){
         if (!fs.existsSync(filePath)) {
             console.log(error);
             return({"error" : "Percorso non trovato"});
         }else{
-            const data = JSON.parse(fs.readFileSync('./routestops/'+routeId+'.json', 'utf8'));
+            const data = JSON.parse(`{
+                "stillExists" : ${false},
+                "stops" : ${fs.readFileSync('./routestops/'+routeId+'.json', 'utf8')}
+            }`);
 
             return(data);
         }
@@ -815,6 +911,10 @@ function fixBusRouteAndNameWimb(response){
         if(service.route_desc=="SANT  ANNA"){
             service.route_desc="SANT'ANNA";
         }
+        //Sant'Anna (Rincoglionimento)
+        if(service.route_desc=="S.ANNA"){
+            service.route_desc="SANT'ANNA";
+        }
         //S.Caterina (Dislessia)
         if(service.route_desc=="S. CATERINA"){
             service.route_desc="S.CATERINA";
@@ -892,11 +992,13 @@ function fixBusRouteAndNameWimb(response){
             service.linea="3A";
             service.route_desc="S.CATERINA-MONTEFIORINO <br> (NO MALAVOLTI)";
         }
+        /*
         //3B SANTA CATERINA-MONTEFIORINO NO MALAVOLTI (Domenica, 3F estinto)
         if(service.linea=="3B"&&service.route_code.includes("397")){
             service.linea="3B";
             service.route_desc="NONANTOLANA 1010 <br> (NO TORRAZZI)";
         }
+        */
         //3F MONTEFIORINO-Portorico (Domenica)
         if(service.linea=="3"&&service.route_desc=="PORTORICO"){
             service.linea="3F";
@@ -1454,13 +1556,22 @@ function fixPedana(response){
     });
 }
 
-async function getFreqDesc(anno){
-    var content = [];
-    const filePath = "./frequency_desc/"+anno+".json";
-    if (fs.existsSync(filePath)) {
-        content = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-    }
-    return(content);
+//Codici di merda delle route nel loro sito del cazzo
+async function getCodiciDiMerda(){
+    const response = await axios.get(lineedynUrl);
+    const data = scrapeIt.scrapeHTML(response.data, {
+        codes: {
+            listItem: ".riga_copertura",
+            data: {
+                num: ".numero",
+                shitCode: {
+                    selector: ".testo_per_ricerca",
+                    attr: "data-val"
+                }
+            }
+        }
+    })
+    return data;
 }
 
 app.listen(port, () => {
