@@ -12,6 +12,9 @@ It operates at :
 - /stopcodesarchive the result of the fetch to obtain the bus stops.
 - /routestops/:id where id is the route code of the stop you want to obtain the stops of.
 - /nextstops/:id where id is the journey code of the shift you want to obtain the remaining stops of.
+- /routeproblems to fetch route problems.
+- /routeproblems/:id where id is the num of the route you want to know the news of.
+- /shitcodes to get the damn horrible hidden codes seta uses to identify routes in his website.
 
 # Setup
 To run it you will need Node.js (at least v22.17.1 LTS).
