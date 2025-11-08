@@ -75,7 +75,8 @@ app.get('/busmodels', async (req, res) => {
 
 app.get('/routestops/:id', async (req, res) => {
     const routeId = req.params.id;
-    res.json(await updateRouteStops(routeId));
+    const trimmed = routeId.split('(')[0].trim();
+    res.json(await updateRouteStops(trimmed));
 });
 
 app.get('/nextstops/:id', async (req, res) => {

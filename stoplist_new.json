@@ -148,12 +148,20 @@
     "valore": "MO1042"
   },
   {
+    "fermata": "Puianello Chiesa",
+    "valore": "MO1043"
+  },
+  {
     "fermata": "Gorzano 1",
     "valore": "MO1044"
   },
   {
     "fermata": "Gorzano 2",
     "valore": "MO1045"
+  },
+  {
+    "fermata": "Puianello",
+    "valore": "MO1049"
   },
   {
     "fermata": "Forli",
@@ -206,6 +214,10 @@
   {
     "fermata": "Il Fiasco",
     "valore": "MO1060"
+  },
+  {
+    "fermata": "Ghiarola",
+    "valore": "MO1061"
   },
   {
     "fermata": "Olmaccio",
@@ -452,6 +464,10 @@
     "valore": "MO1123"
   },
   {
+    "fermata": "Maglificio Tricot",
+    "valore": "MO1124"
+  },
+  {
     "fermata": "Sozzigalli palazzina",
     "valore": "MO1125"
   },
@@ -678,6 +694,10 @@
   {
     "fermata": "Costaglie",
     "valore": "MO1181"
+  },
+  {
+    "fermata": "Caseificio",
+    "valore": "MO1182"
   },
   {
     "fermata": "Banzuola nuova",
@@ -1152,6 +1172,10 @@
     "valore": "MO1301"
   },
   {
+    "fermata": "Ceramica",
+    "valore": "MO1302"
+  },
+  {
     "fermata": "Casa Schianchi",
     "valore": "MO1303"
   },
@@ -1374,6 +1398,10 @@
   {
     "fermata": "Poggio di sotto",
     "valore": "MO1355"
+  },
+  {
+    "fermata": "Stradello",
+    "valore": "MO1356"
   },
   {
     "fermata": "Casa Bellei",
@@ -1888,6 +1916,10 @@
     "valore": "MO1486"
   },
   {
+    "fermata": "Casa Nuova Saletto",
+    "valore": "MO1487"
+  },
+  {
     "fermata": "Dini bv",
     "valore": "MO1488"
   },
@@ -1920,8 +1952,20 @@
     "valore": "MO1494"
   },
   {
+    "fermata": "Le Borre",
+    "valore": "MO1495"
+  },
+  {
+    "fermata": "Ceresola",
+    "valore": "MO1497"
+  },
+  {
     "fermata": "Berlette",
     "valore": "MO1498"
+  },
+  {
+    "fermata": "Croce d'Isola",
+    "valore": "MO1499"
   },
   {
     "fermata": "Formigine",
@@ -1930,6 +1974,10 @@
   {
     "fermata": "Molinella",
     "valore": "MO1502"
+  },
+  {
+    "fermata": "Giunzione",
+    "valore": "MO1503"
   },
   {
     "fermata": "Formigine cartiera",
@@ -2188,8 +2236,16 @@
     "valore": "MO1568"
   },
   {
+    "fermata": "Ronchi",
+    "valore": "MO1569"
+  },
+  {
     "fermata": "Ancora bv",
     "valore": "MO1570"
+  },
+  {
+    "fermata": "Zona B",
+    "valore": "MO1571"
   },
   {
     "fermata": "Sordomuti istituto",
@@ -2608,6 +2664,10 @@
     "valore": "MO1677"
   },
   {
+    "fermata": "Ca' Facchini",
+    "valore": "MO1678"
+  },
+  {
     "fermata": "Bar Cacciatori Solignano",
     "valore": "MO1679"
   },
@@ -2618,6 +2678,10 @@
   {
     "fermata": "Solignano",
     "valore": "MO1680"
+  },
+  {
+    "fermata": "Case Bruciate",
+    "valore": "MO1681"
   },
   {
     "fermata": "Ca' del Fabbro",
@@ -2660,12 +2724,28 @@
     "valore": "MO1690"
   },
   {
+    "fermata": "Spervara",
+    "valore": "MO1691"
+  },
+  {
     "fermata": "Spervara di Sopra",
     "valore": "MO1693"
   },
   {
     "fermata": "Bar Pineta",
     "valore": "MO1696"
+  },
+  {
+    "fermata": "Lasetta",
+    "valore": "MO1697"
+  },
+  {
+    "fermata": "San Scolastica",
+    "valore": "MO1698"
+  },
+  {
+    "fermata": "Romanoro",
+    "valore": "MO1699"
   },
   {
     "fermata": "Ponte Alto",
@@ -2686,6 +2766,22 @@
   {
     "fermata": "Guiglia",
     "valore": "MO1702"
+  },
+  {
+    "fermata": "Mulino",
+    "valore": "MO1703"
+  },
+  {
+    "fermata": "Rovolo",
+    "valore": "MO1704"
+  },
+  {
+    "fermata": "Vallorsara",
+    "valore": "MO1705"
+  },
+  {
+    "fermata": "Muschioso",
+    "valore": "MO1706"
   },
   {
     "fermata": "Serradimigni",
@@ -3416,12 +3512,40 @@
     "valore": "MO188"
   },
   {
+    "fermata": "Crocette",
+    "valore": "MO1881"
+  },
+  {
     "fermata": "San Michele Basso",
     "valore": "MO1882"
   },
   {
+    "fermata": "Campichiara",
+    "valore": "MO1883"
+  },
+  {
     "fermata": "Mulino",
     "valore": "MO1884"
+  },
+  {
+    "fermata": "Vaglio",
+    "valore": "MO1885"
+  },
+  {
+    "fermata": "Piandiscuola",
+    "valore": "MO1886"
+  },
+  {
+    "fermata": "Spinzuola",
+    "valore": "MO1887"
+  },
+  {
+    "fermata": "Benedello",
+    "valore": "MO1888"
+  },
+  {
+    "fermata": "La Croce Benedello",
+    "valore": "MO1889"
   },
   {
     "fermata": "Finzi bv Canaletto",
@@ -3430,6 +3554,22 @@
   {
     "fermata": "Salvarola Terme",
     "valore": "MO1890"
+  },
+  {
+    "fermata": "Carrobbio",
+    "valore": "MO1891"
+  },
+  {
+    "fermata": "Comun Grande",
+    "valore": "MO1892"
+  },
+  {
+    "fermata": "Serretta",
+    "valore": "MO1893"
+  },
+  {
+    "fermata": "Casa Bea",
+    "valore": "MO1894"
   },
   {
     "fermata": "Stadio",
@@ -3728,6 +3868,22 @@
     "valore": "MO1974"
   },
   {
+    "fermata": "Fontanaluccia bv",
+    "valore": "MO1975"
+  },
+  {
+    "fermata": "Solgara",
+    "valore": "MO1976"
+  },
+  {
+    "fermata": "Casa Becchelli",
+    "valore": "MO1977"
+  },
+  {
+    "fermata": "Fontanaluccia garage",
+    "valore": "MO1978"
+  },
+  {
     "fermata": "Ponte di Ferro",
     "valore": "MO1979"
   },
@@ -3740,8 +3896,28 @@
     "valore": "MO1981"
   },
   {
+    "fermata": "Fontanaluccia",
+    "valore": "MO1982"
+  },
+  {
+    "fermata": "Chiesa",
+    "valore": "MO1983"
+  },
+  {
+    "fermata": "Ca' Ferioli",
+    "valore": "MO1985"
+  },
+  {
+    "fermata": "Ghiarola",
+    "valore": "MO1987"
+  },
+  {
     "fermata": "Monte Nuovo",
     "valore": "MO1989"
+  },
+  {
+    "fermata": "Puianello",
+    "valore": "MO1990"
   },
   {
     "fermata": "Monte Vecchio",
@@ -3758,6 +3934,10 @@
   {
     "fermata": "Raggia",
     "valore": "MO1994"
+  },
+  {
+    "fermata": "Spervara bv",
+    "valore": "MO1995"
   },
   {
     "fermata": "Risorgimento",
@@ -4540,6 +4720,10 @@
     "valore": "MO2187"
   },
   {
+    "fermata": "Caseificio",
+    "valore": "MO2188"
+  },
+  {
     "fermata": "Castel D'Aiano",
     "valore": "MO2189"
   },
@@ -4578,6 +4762,10 @@
   {
     "fermata": "Faidello",
     "valore": "MO2197"
+  },
+  {
+    "fermata": "Frassinoro scuole",
+    "valore": "MO2198"
   },
   {
     "fermata": "Teatro Michelangelo",
@@ -6040,6 +6228,10 @@
     "valore": "MO2602"
   },
   {
+    "fermata": "Montese Comune",
+    "valore": "MO2603"
+  },
+  {
     "fermata": "Montese 1",
     "valore": "MO2604"
   },
@@ -6812,6 +7004,10 @@
     "valore": "MO2823"
   },
   {
+    "fermata": "Puianello Chiesa",
+    "valore": "MO2824"
+  },
+  {
     "fermata": "Giardini Donatello",
     "valore": "MO2825"
   },
@@ -7052,16 +7248,32 @@
     "valore": "MO2881"
   },
   {
+    "fermata": "Le Borre",
+    "valore": "MO2882"
+  },
+  {
     "fermata": "Marconi bv Corassori",
     "valore": "MO2883"
+  },
+  {
+    "fermata": "Ceresola",
+    "valore": "MO2884"
   },
   {
     "fermata": "Istituto Cattaneo",
     "valore": "MO2885"
   },
   {
+    "fermata": "Croce d'Isola",
+    "valore": "MO2886"
+  },
+  {
     "fermata": "Istituto Guarini",
     "valore": "MO2887"
+  },
+  {
+    "fermata": "Giunzione",
+    "valore": "MO2888"
   },
   {
     "fermata": "Ugo da Carpi 3",
@@ -7312,6 +7524,10 @@
     "valore": "MO2947"
   },
   {
+    "fermata": "Pianezzo",
+    "valore": "MO2948"
+  },
+  {
     "fermata": "Pomposiana bv S.Donnino",
     "valore": "MO2949"
   },
@@ -7324,8 +7540,44 @@
     "valore": "MO2951"
   },
   {
+    "fermata": "Mulino Calicetti",
+    "valore": "MO2952"
+  },
+  {
+    "fermata": "Lago",
+    "valore": "MO2953"
+  },
+  {
+    "fermata": "Lago bv",
+    "valore": "MO2954"
+  },
+  {
+    "fermata": "Il Sasso",
+    "valore": "MO2955"
+  },
+  {
+    "fermata": "Sassatella",
+    "valore": "MO2956"
+  },
+  {
+    "fermata": "Ronchi",
+    "valore": "MO2957"
+  },
+  {
+    "fermata": "Zona B",
+    "valore": "MO2958"
+  },
+  {
+    "fermata": "Sordomuti istituto",
+    "valore": "MO2959"
+  },
+  {
     "fermata": "Baraccone",
     "valore": "MO296"
+  },
+  {
+    "fermata": "Casola",
+    "valore": "MO2960"
   },
   {
     "fermata": "Pomposiana comunita",
@@ -7704,8 +7956,16 @@
     "valore": "MO3051"
   },
   {
+    "fermata": "Ca' Facchini",
+    "valore": "MO3052"
+  },
+  {
     "fermata": "Bollitora 4",
     "valore": "MO3053"
+  },
+  {
+    "fermata": "Case Bruciate",
+    "valore": "MO3054"
   },
   {
     "fermata": "Colombo",
@@ -7716,8 +7976,20 @@
     "valore": "MO3056"
   },
   {
+    "fermata": "Spervara bv",
+    "valore": "MO3058"
+  },
+  {
     "fermata": "Cavazzona",
     "valore": "MO306"
+  },
+  {
+    "fermata": "Spervara",
+    "valore": "MO3060"
+  },
+  {
+    "fermata": "Spervara di Sopra",
+    "valore": "MO3062"
   },
   {
     "fermata": "Giovanni XXIII",
@@ -7732,16 +8004,32 @@
     "valore": "MO3065"
   },
   {
+    "fermata": "Lasetta",
+    "valore": "MO3066"
+  },
+  {
     "fermata": "Nazionale per Carpi",
     "valore": "MO3067"
+  },
+  {
+    "fermata": "San Scolastica",
+    "valore": "MO3068"
   },
   {
     "fermata": "Centro Senada",
     "valore": "MO3069"
   },
   {
+    "fermata": "Romanoro",
+    "valore": "MO3070"
+  },
+  {
     "fermata": "Colombo",
     "valore": "MO3071"
+  },
+  {
+    "fermata": "Mulino",
+    "valore": "MO3072"
   },
   {
     "fermata": "Emilia Ovest Globo",
@@ -7768,12 +8056,24 @@
     "valore": "MO3078"
   },
   {
+    "fermata": "Rovolo",
+    "valore": "MO3080"
+  },
+  {
     "fermata": "Barchetta bv Ponte Alto nord",
     "valore": "MO3081"
   },
   {
+    "fermata": "Vallorsara",
+    "valore": "MO3082"
+  },
+  {
     "fermata": "Barchetta allevamento",
     "valore": "MO3083"
+  },
+  {
+    "fermata": "Muschioso",
+    "valore": "MO3084"
   },
   {
     "fermata": "Barchetta Progeo",
@@ -8552,6 +8852,10 @@
     "valore": "MO3293"
   },
   {
+    "fermata": "Casa Pianelli",
+    "valore": "MO3294"
+  },
+  {
     "fermata": "Casa Trinelli",
     "valore": "MO3298"
   },
@@ -8992,8 +9296,16 @@
     "valore": "MO342"
   },
   {
+    "fermata": "Fontanaluccia bv",
+    "valore": "MO3420"
+  },
+  {
     "fermata": "Casella",
     "valore": "MO3421"
+  },
+  {
+    "fermata": "Solgara",
+    "valore": "MO3422"
   },
   {
     "fermata": "Frescobaldi",
@@ -9008,20 +9320,40 @@
     "valore": "MO3425"
   },
   {
+    "fermata": "Casa Becchelli",
+    "valore": "MO3426"
+  },
+  {
     "fermata": "Manzoni 2",
     "valore": "MO3427"
+  },
+  {
+    "fermata": "Fontanaluccia garage",
+    "valore": "MO3428"
   },
   {
     "fermata": "Bomporto monumento",
     "valore": "MO343"
   },
   {
+    "fermata": "Fontanaluccia",
+    "valore": "MO3430"
+  },
+  {
     "fermata": "Pezzana 1",
     "valore": "MO3431"
   },
   {
+    "fermata": "Chiesa",
+    "valore": "MO3432"
+  },
+  {
     "fermata": "Camposanto",
     "valore": "MO3433"
+  },
+  {
+    "fermata": "Ca' Ferioli",
+    "valore": "MO3434"
   },
   {
     "fermata": "Pezzana 2",
@@ -9042,6 +9374,10 @@
   {
     "fermata": "MODENA AUTOSTAZIONE (Corriere corsia 4)",
     "valore": "MO344"
+  },
+  {
+    "fermata": "Ca' Stefani",
+    "valore": "MO3440"
   },
   {
     "fermata": "Mulini",
@@ -9304,6 +9640,10 @@
     "valore": "MO3508"
   },
   {
+    "fermata": "La Croce Benedello 1",
+    "valore": "MO3509"
+  },
+  {
     "fermata": "Casa Baraldi",
     "valore": "MO351"
   },
@@ -9560,6 +9900,10 @@
     "valore": "MO3578"
   },
   {
+    "fermata": "Chiesa bv",
+    "valore": "MO3579"
+  },
+  {
     "fermata": "Bottega di Mezzo",
     "valore": "MO358"
   },
@@ -9760,8 +10104,16 @@
     "valore": "MO3626"
   },
   {
+    "fermata": "Casoni di Ravarino",
+    "valore": "MO3627"
+  },
+  {
     "fermata": "La Teggia",
     "valore": "MO3628"
+  },
+  {
+    "fermata": "Frassinoro",
+    "valore": "MO3629"
   },
   {
     "fermata": "Palona",
@@ -10322,6 +10674,10 @@
   {
     "fermata": "Castelluccio",
     "valore": "MO3770"
+  },
+  {
+    "fermata": "Casa Uguccione",
+    "valore": "MO3771"
   },
   {
     "fermata": "Casa Bartolacelli di sotto 1",
@@ -10944,6 +11300,10 @@
     "valore": "MO4215"
   },
   {
+    "fermata": "Vigili del Fuoco",
+    "valore": "MO4216"
+  },
+  {
     "fermata": "Fossa Mulino",
     "valore": "MO422"
   },
@@ -11174,6 +11534,10 @@
   {
     "fermata": "Don Sturzo",
     "valore": "MO4599"
+  },
+  {
+    "fermata": "Gargallo bv",
+    "valore": "MO46"
   },
   {
     "fermata": "Roma bv",
@@ -11924,6 +12288,10 @@
     "valore": "MO5699"
   },
   {
+    "fermata": "Santa Croce",
+    "valore": "MO57"
+  },
+  {
     "fermata": "San Felice stadio",
     "valore": "MO570"
   },
@@ -12390,6 +12758,14 @@
   {
     "fermata": "Montefiorino bv dell'Ossola",
     "valore": "MO6225"
+  },
+  {
+    "fermata": "Mar Tirreno bv Mar Nero",
+    "valore": "MO6226"
+  },
+  {
+    "fermata": "Mar Tirreno asilo",
+    "valore": "MO6227"
   },
   {
     "fermata": "Montefiorino 1",
@@ -14152,6 +14528,10 @@
     "valore": "MO748"
   },
   {
+    "fermata": "Distributore",
+    "valore": "MO749"
+  },
+  {
     "fermata": "ALBARETO",
     "valore": "MO75"
   },
@@ -14166,6 +14546,10 @@
   {
     "fermata": "Turco",
     "valore": "MO752"
+  },
+  {
+    "fermata": "Stabilimento Malavolta",
+    "valore": "MO753"
   },
   {
     "fermata": "Colombarone",
@@ -15380,12 +15764,24 @@
     "valore": "MOPV1001"
   },
   {
+    "fermata": "Madonna Baldaccini",
+    "valore": "MOPV119"
+  },
+  {
+    "fermata": "Chiozza",
+    "valore": "MOPV121"
+  },
+  {
     "fermata": "Sant'Antonio",
     "valore": "MOPV123"
   },
   {
     "fermata": "Sant'Antonio",
     "valore": "MOPV124"
+  },
+  {
+    "fermata": "Il Ronco",
+    "valore": "MOPV125"
   },
   {
     "fermata": "Il Ronco",
@@ -15416,12 +15812,48 @@
     "valore": "MOPV193"
   },
   {
+    "fermata": "Boccaccio",
+    "valore": "MOPV194"
+  },
+  {
+    "fermata": "Sant'Antonio scuole",
+    "valore": "MOPV195"
+  },
+  {
+    "fermata": "Sant'Antonio scuole",
+    "valore": "MOPV196"
+  },
+  {
+    "fermata": "Verica Casa Nuova",
+    "valore": "MOPV203"
+  },
+  {
+    "fermata": "Verica",
+    "valore": "MOPV205"
+  },
+  {
+    "fermata": "Campiano Scuole",
+    "valore": "MOPV221"
+  },
+  {
+    "fermata": "Campi Nuovi",
+    "valore": "MOPV233"
+  },
+  {
     "fermata": "Gneda",
     "valore": "MOPV239"
   },
   {
+    "fermata": "Poggio (oratorio)",
+    "valore": "MOPV270"
+  },
+  {
     "fermata": "Coscogno1",
     "valore": "MOPV343"
+  },
+  {
+    "fermata": "Coscogno1",
+    "valore": "MOPV344"
   },
   {
     "fermata": "Casa Rossa",
@@ -15440,12 +15872,72 @@
     "valore": "MOPV351"
   },
   {
+    "fermata": "Casa Marconi",
+    "valore": "MOPV355"
+  },
+  {
+    "fermata": "Ca Golini",
+    "valore": "MOPV358"
+  },
+  {
+    "fermata": "Comun Grande",
+    "valore": "MOPV506"
+  },
+  {
+    "fermata": "Carrobbio",
+    "valore": "MOPV507"
+  },
+  {
+    "fermata": "Vaglio",
+    "valore": "MOPV519"
+  },
+  {
+    "fermata": "Vaglio",
+    "valore": "MOPV520"
+  },
+  {
+    "fermata": "Crocette",
+    "valore": "MOPV523"
+  },
+  {
+    "fermata": "Crocette",
+    "valore": "MOPV524"
+  },
+  {
     "fermata": "Camurana",
     "valore": "MOPV551"
   },
   {
     "fermata": "Braglia",
     "valore": "MOPV601"
+  },
+  {
+    "fermata": "Braglia",
+    "valore": "MOPV602"
+  },
+  {
+    "fermata": "Pavullo Scuole",
+    "valore": "MOPV603"
+  },
+  {
+    "fermata": "Pavullo Scuole",
+    "valore": "MOPV604"
+  },
+  {
+    "fermata": "San Dalmazio",
+    "valore": "MOPV63"
+  },
+  {
+    "fermata": "San Dalmazio",
+    "valore": "MOPV64"
+  },
+  {
+    "fermata": "Malandrone",
+    "valore": "MOPV65"
+  },
+  {
+    "fermata": "Casa Belloi Boschetti",
+    "valore": "MOPV753"
   },
   {
     "fermata": "Via 22 Aprile",
@@ -15468,12 +15960,32 @@
     "valore": "MOPV907"
   },
   {
+    "fermata": "Serra di Porto",
+    "valore": "MOPV909"
+  },
+  {
+    "fermata": "Serra di Porto",
+    "valore": "MOPV910"
+  },
+  {
     "fermata": "Martiri di Renno",
     "valore": "MOPV911"
   },
   {
     "fermata": "Nuvolari",
     "valore": "MOPV913"
+  },
+  {
+    "fermata": "Zanello",
+    "valore": "MOPV915"
+  },
+  {
+    "fermata": "Garibaldi bv Mazzini",
+    "valore": "MOPV917"
+  },
+  {
+    "fermata": "Garibaldi bv Mazzini",
+    "valore": "MOPV918"
   },
   {
     "fermata": "Garibaldi",
@@ -15500,12 +16012,32 @@
     "valore": "MOPV928"
   },
   {
+    "fermata": "Monti",
+    "valore": "MOPV932"
+  },
+  {
     "fermata": "Mazzini",
     "valore": "MOPV933"
   },
   {
     "fermata": "Gober",
     "valore": "MOPV935"
+  },
+  {
+    "fermata": "Ex Pesa",
+    "valore": "MOPV937"
+  },
+  {
+    "fermata": "Ex Pesa",
+    "valore": "MOPV938"
+  },
+  {
+    "fermata": "Lombardia",
+    "valore": "MOPV939"
+  },
+  {
+    "fermata": "Cottolengo Ospedale",
+    "valore": "MOPV941"
   },
   {
     "fermata": "Ospedale",
@@ -15548,6 +16080,10 @@
     "valore": "MOPV961"
   },
   {
+    "fermata": "Ragazzi 99 1",
+    "valore": "MOPV963"
+  },
+  {
     "fermata": "Po 1",
     "valore": "MOPV965"
   },
@@ -15558,6 +16094,22 @@
   {
     "fermata": "Virgilio",
     "valore": "MOPV969"
+  },
+  {
+    "fermata": "F.lli Bandiera",
+    "valore": "MOPV973"
+  },
+  {
+    "fermata": "Montegrappa 1",
+    "valore": "MOPV987"
+  },
+  {
+    "fermata": "Montegrappa 2",
+    "valore": "MOPV989"
+  },
+  {
+    "fermata": "La Sbrugna",
+    "valore": "MOPV991"
   },
   {
     "fermata": "VILLALUNGA - STAZIONE",
