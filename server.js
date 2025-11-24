@@ -59,7 +59,7 @@ app.get('/routenumberslist', async (req, res) => {
 
 app.get('/busmodels', async (req, res) => {
     // Read setabus.json
-    const setabuspre = await axios.get(`https://ertpl.pages.dev/scripts/setabus.json`);
+    const setabuspre = await axios.get(`https://ertpl.pages.dev/seta_modena/menu/js/setabus.json`);
     setabus = setabuspre.data;
 
     // Extract only the "modello" values, removing duplicates and sort alphabetically
