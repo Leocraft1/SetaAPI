@@ -294,7 +294,7 @@ app.get('/arrivals/:id', async (req, res) => {
                     service.service="11/";
                 }
                 //12A Nazioni ma sono dei coglioni di merda
-                if(service.service=="12"&&service.codice_corsa.includes("1280")||service.codice_corsa.includes("1284")){
+                if(service.service=="12"&&(service.codice_corsa.includes("1280")||service.codice_corsa.includes("1284"))&&service.officialService!="5taxi"){
                     service.service="12A";
                     service.destination="NAZIONI";
                 }
