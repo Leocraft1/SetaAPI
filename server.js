@@ -211,13 +211,13 @@ app.get('/arrivals/:id', async (req, res) => {
                 //3A SANTA CATERINA-MONTEFIORINO NO MALAVOLTI (Domenica)
                 if(service.service=="3"&&service.codice_corsa.includes("407")){
                     service.service="3A";
-                    service.destination="S.CATERINA-MONTEFIORINO <br> (NO MALAVOLTI)";
+                    service.destination="S.CATERINA-MONTEFIORINO (NO MALAVOLTI)";
                 }
                 /*
                 //3B SANTA CATERINA-MONTEFIORINO NO MALAVOLTI (Domenica)
                 if(service.service=="3B"&&service.codice_corsa.includes("397")){
                     service.service="3B";
-                    service.destination="NONANTOLANA 1010 <br> (NO TORRAZZI)";
+                    service.destination="NONANTOLANA 1010 (NO TORRAZZI)";
                 }
                 */
                 //4/ Autostazione (as 25/26)
@@ -985,13 +985,13 @@ function fixBusRouteAndNameWimb(response){
         //3A SANTA CATERINA-MONTEFIORINO NO MALAVOLTI (Domenica)
         if(service.linea=="3"&&service.route_code.includes("407")){
             service.linea="3A";
-            service.route_desc="S.CATERINA-MONTEFIORINO <br> (NO MALAVOLTI)";
+            service.route_desc="S.CATERINA-MONTEFIORINO (NO MALAVOLTI)";
         }
         /*
         //3B SANTA CATERINA-MONTEFIORINO NO MALAVOLTI (Domenica)
         if(service.linea=="3B"&&service.route_code.includes("397")){
             service.linea="3B";
-            service.route_desc="NONANTOLANA 1010 <br> (NO TORRAZZI)";
+            service.route_desc="NONANTOLANA 1010 (NO TORRAZZI)";
         }
         */
         //4/ Autostazione (as 25/26)
