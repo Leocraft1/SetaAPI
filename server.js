@@ -190,8 +190,7 @@ app.get('/arrivals/:id', async (req, res) => {
                 if(service.service=="3"&&service.codice_corsa.includes("339")){
                     service.service="3A";
                     service.destination="S.CATERINA-MONTEFIORINO";
-                }               
-                
+                }
                 //3A Vaciglio
                 if(service.service=="3"&&service.destination=="VACIGLIO"){
                     service.service="3A";
