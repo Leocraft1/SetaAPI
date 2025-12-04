@@ -196,10 +196,9 @@ app.get('/arrivals/:id', async (req, res) => {
                 if(service.service=="3"&&service.destination=="VACIGLIO"){
                     service.service="3A";
                 }
-                //3B Ragazzi 99 (as 25/26)
+                //3B Ragazzi del 99 (as 25/26)
                 if(service.service=="3"&&service.destination=="RAGAZZI DEL 99"){
                     service.service="3B";
-                    service.destination="RAGAZZI 99";
                 }
                 //3B Nonantolana 1010 (as 25/26)
                 if(service.service=="3"&&service.destination=="NONANTOLANA 1010"){
