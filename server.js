@@ -129,6 +129,7 @@ app.get('/arrivals/:id', async (req, res) => {
             const response = await axios.get(`https://avm.setaweb.it/SETA_WS/services/arrival/${stopId}`);
             //const response = await axios.get(`http://localhost:5002/SETA_WS/services/arrival/${stopId}`);
             const problems = await axios.get(`https://setaapi.serverissimo.freeddns.org/routeproblems`);
+            const d = new Date();
             //Varianti
             response.data.arrival.services.forEach(service => {
                 //Aggiungi problemi
@@ -213,13 +214,10 @@ app.get('/arrivals/:id', async (req, res) => {
                     service.service="3A";
                     service.destination="S.CATERINA-MONTEFIORINO (NO MALAVOLTI)";
                 }
-                /*
                 //3B SANTA CATERINA-MONTEFIORINO NO MALAVOLTI (Domenica)
-                if(service.service=="3B"&&service.codice_corsa.includes("397")){
-                    service.service="3B";
+                if(service.service=="3B"&&d.getDay()==6){
                     service.destination="NONANTOLANA 1010 (NO TORRAZZI)";
                 }
-                */
                 //4/ Autostazione (as 25/26)
                 if(service.service=="4"&&service.destination=="AUTOSTAZIONE"){
                     service.service="4/";
@@ -910,6 +908,7 @@ async function updateRouteNumbers(){
 }
 
 function fixBusRouteAndNameWimb(response){
+    const d = new Date();
     response.data.features.forEach(bus => {
         service = bus.properties;
         //Sant'Anna (Dislessia)
@@ -987,13 +986,10 @@ function fixBusRouteAndNameWimb(response){
             service.linea="3A";
             service.route_desc="S.CATERINA-MONTEFIORINO (NO MALAVOLTI)";
         }
-        /*
         //3B SANTA CATERINA-MONTEFIORINO NO MALAVOLTI (Domenica)
-        if(service.linea=="3B"&&service.route_code.includes("397")){
-            service.linea="3B";
+        if(service.linea=="3B"&&d.getDay()==6){
             service.route_desc="NONANTOLANA 1010 (NO TORRAZZI)";
         }
-        */
         //4/ Autostazione (as 25/26)
         if(service.linea=="4"&&service.route_desc=="AUTOSTAZIONE"){
             service.linea="4/";
