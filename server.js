@@ -190,10 +190,7 @@ app.get('/arrivals/:id', async (req, res) => {
                     service.service="3A";
                     service.destination="S.CATERINA-MONTEFIORINO";
                 }               
-                //3A Vaciglio-Mattarella
-                if(service.service=="3"&&service.destination=="VACIGLIO MATTARELLA"){
-                    service.service="3A";
-                }
+                
                 //3A Vaciglio
                 if(service.service=="3"&&service.destination=="VACIGLIO"){
                     service.service="3A";
@@ -211,23 +208,18 @@ app.get('/arrivals/:id', async (req, res) => {
                 if(service.service=="3"&&service.destination=="STAZIONE FS"){
                     service.service="3/";
                 }
-                //3A SANTA CATERINA-MONTEFIORINO NO MALAVOLTI (Domenica, 3F estinto)
+                //3A SANTA CATERINA-MONTEFIORINO NO MALAVOLTI (Domenica)
                 if(service.service=="3"&&service.codice_corsa.includes("407")){
                     service.service="3A";
                     service.destination="S.CATERINA-MONTEFIORINO <br> (NO MALAVOLTI)";
                 }
                 /*
-                //3B SANTA CATERINA-MONTEFIORINO NO MALAVOLTI (Domenica, 3F estinto)
+                //3B SANTA CATERINA-MONTEFIORINO NO MALAVOLTI (Domenica)
                 if(service.service=="3B"&&service.codice_corsa.includes("397")){
                     service.service="3B";
                     service.destination="NONANTOLANA 1010 <br> (NO TORRAZZI)";
                 }
                 */
-                //3F MONTEFIORINO-PORTORICO (Domenica)
-                if(service.service=="3"&&service.destination=="PORTORICO"){
-                    service.service="3F";
-                    service.destination="MONTEFIORINO-PORTORICO";
-                }
                 //4/ Autostazione (as 25/26)
                 if(service.service=="4"&&service.destination=="AUTOSTAZIONE"){
                     service.service="4/";
@@ -328,6 +320,10 @@ app.get('/arrivals/:id', async (req, res) => {
                 }
                 //Varianti vecchie AS 24/25
                 /*
+                //3A Vaciglio-Mattarella
+                if(service.service=="3"&&service.destination=="VACIGLIO MATTARELLA"){
+                    service.service="3A";
+                }
                 //3A Portorico (Domenica)
                 if(service.service=="3"&&service.destination=="PORTORICO"){
                     service.service="3A";
@@ -339,6 +335,14 @@ app.get('/arrivals/:id', async (req, res) => {
                 //15/ Santi
                 if(service.service=="15"&&service.destination=="SANTI"){
                     service.service="15/";
+                }
+                */
+                //Varianti settembre 2025
+                /*
+                //3F MONTEFIORINO-PORTORICO (Domenica)
+                if(service.service=="3"&&service.destination=="PORTORICO"){
+                    service.service="3F";
+                    service.destination="MONTEFIORINO-PORTORICO";
                 }
                 */
             });
@@ -962,23 +966,13 @@ function fixBusRouteAndNameWimb(response){
             service.linea="3A";
             service.route_desc="S.CATERINA-MONTEFIORINO";
         }
-        //3A SANTA CATERINA-MONTEFIORINO NO MALAVOLTI(as 25/26)
-        if(service.linea=="3"&&service.route_code.includes("407")){
-            service.linea="3A";
-            service.route_desc="S.CATERINA-MONTEFIORINO (NO MALAVOLTI)";
-        }
-        //3A Vaciglio-Mattarella
-        if(service.linea=="3"&&service.route_desc=="VACIGLIO MATTARELLA"){
-            service.linea="3A";
-        }
         //3A Vaciglio
         if(service.linea=="3"&&service.route_desc=="VACIGLIO"){
             service.linea="3A";
         }
-        //3B Ragazzi 99 (as 25/26)
+        //3B Ragazzi del 99 (as 25/26)
         if(service.linea=="3"&&service.route_desc=="RAGAZZI DEL 99"){
             service.linea="3B";
-            service.route_desc="RAGAZZI 99";
         }
         //3B Nonantolana 1010 (as 25/26)
         if(service.linea=="3"&&service.route_desc=="NONANTOLANA 1010"){
@@ -988,23 +982,18 @@ function fixBusRouteAndNameWimb(response){
         if(service.linea=="3"&&service.route_desc=="STAZIONE FS"){
             service.linea="3/";
         }
-        //3A SANTA CATERINA-MONTEFIORINO NO MALAVOLTI (Domenica, 3F estinto)
+        //3A SANTA CATERINA-MONTEFIORINO NO MALAVOLTI (Domenica)
         if(service.linea=="3"&&service.route_code.includes("407")){
             service.linea="3A";
             service.route_desc="S.CATERINA-MONTEFIORINO <br> (NO MALAVOLTI)";
         }
         /*
-        //3B SANTA CATERINA-MONTEFIORINO NO MALAVOLTI (Domenica, 3F estinto)
+        //3B SANTA CATERINA-MONTEFIORINO NO MALAVOLTI (Domenica)
         if(service.linea=="3B"&&service.route_code.includes("397")){
             service.linea="3B";
             service.route_desc="NONANTOLANA 1010 <br> (NO TORRAZZI)";
         }
         */
-        //3F MONTEFIORINO-Portorico (Domenica)
-        if(service.linea=="3"&&service.route_desc=="PORTORICO"){
-            service.linea="3F";
-            service.route_desc="MONTEFIORINO-PORTORICO";
-        }
         //4/ Autostazione (as 25/26)
         if(service.linea=="4"&&service.route_desc=="AUTOSTAZIONE"){
             service.linea="4/";
@@ -1109,6 +1098,10 @@ function fixBusRouteAndNameWimb(response){
         }
         //Varianti vecchie AS 24/25
         /*
+        //3A Vaciglio-Mattarella
+        if(service.linea=="3"&&service.route_desc=="VACIGLIO MATTARELLA"){
+            service.linea="3A";
+        }
         //3A Portorico (Domenica)
         if(service.linea=="3"&&service.route_desc=="PORTORICO"){
             service.linea="3A";
@@ -1120,6 +1113,14 @@ function fixBusRouteAndNameWimb(response){
         //15/ Santi
         if(service.linea=="15"&&service.route_desc=="SANTI"){
             service.linea="15/";
+        }
+        */
+        //Varianti settembre 2025
+        /*
+        //3F MONTEFIORINO-Portorico (Domenica)
+        if(service.linea=="3"&&service.route_desc=="PORTORICO"){
+            service.linea="3F";
+            service.route_desc="MONTEFIORINO-PORTORICO";
         }
         */
         //Cambia nomi modello bus (nuovo metodo per numero)
