@@ -1136,6 +1136,9 @@ function fixBusRouteAndNameWimb(response){
         if(service.vehicle_code >= 341 && service.vehicle_code <= 352){
             service.model = "MAN Lion's Regio";
         }
+        if(service.vehicle_code >= 335 && service.vehicle_code <= 338){
+            service.model = "Mercedes Integro O550";
+        }
         if(service.vehicle_code >= 1 && service.vehicle_code <= 7){
             service.model = "Neoplan Electroliner";
         }
