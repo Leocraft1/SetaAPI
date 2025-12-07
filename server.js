@@ -213,7 +213,7 @@ app.get('/arrivals/:id', async (req, res) => {
                     service.destination="S.CATERINA-MONTEFIORINO (NO MALAVOLTI)";
                 }
                 //3B SANTA CATERINA-MONTEFIORINO NO MALAVOLTI (Domenica)
-                if(service.service=="3B"&&d.getDay()==0){
+                if(service.service=="3B"&&service.destination=="NONANTOLANA 1010"&&d.getDay()==0){
                     service.destination="NONANTOLANA 1010 (NO TORRAZZI)";
                 }
                 //4/ Autostazione (as 25/26)
@@ -985,7 +985,7 @@ function fixBusRouteAndNameWimb(response){
             service.route_desc="S.CATERINA-MONTEFIORINO (NO MALAVOLTI)";
         }
         //3B SANTA CATERINA-MONTEFIORINO NO MALAVOLTI (Domenica)
-        if(service.linea=="3B"&&d.getDay()==0){
+        if(service.linea=="3B"&&service.destination=="NONANTOLANA 1010"&&d.getDay()==0){
             service.route_desc="NONANTOLANA 1010 (NO TORRAZZI)";
         }
         //4/ Autostazione (as 25/26)
