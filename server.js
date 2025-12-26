@@ -91,305 +91,276 @@ app.get('/nextstops/:id', async (req, res) => {
     }
 });
 
-app.get('/stoplist', async (req, res) => {
-    /* Vecchio sistema, lista sbagliata
-    try {
-        const url = 'https://www.setaweb.it/mo/quantomanca';
-        const response = await axios.get(url);
-        const $ = cheerio.load(response.data);
-        const results = [];
-		//era l'id del select principale, va a iterare su tutti gli option
-        $('#qm_palina option').each((i, el) => {
-            const element = $(el);
-            const fermata = element.text(); //testo del select
-            const valore = element.attr('value'); //avevo nel select un value="cose", aggiustalo per come ti serve
-            results.push({
-                fermata,
-                valore
-            });
-        });
-
-        res.json(results);
-    } catch (error) {
-        console.error('Errore:', error.message);
-        res.status(500).send('Errore nel recupero dei dati');
-    }
-    */
-    //Nuovo sistema, lista nuova, statica perchè Seta merda
-    const data = JSON.parse(fs.readFileSync('./stoplist07-2025.json', 'utf8'));
-    res.json(data);
-});
-
 app.get('/arrivals/:id', async (req, res) => {
     const stopId = req.params.id;
-    if(stopId=="test"){
-        //Serve per test
-    }else{
-        try {
-            const response = await axios.get(`https://avm.setaweb.it/SETA_WS/services/arrival/${stopId}`);
-            //const response = await axios.get(`http://localhost:5002/SETA_WS/services/arrival/${stopId}`);
-            const problems = await axios.get(`https://setaapi.serverissimo.freeddns.org/routeproblems`);
-            const d = new Date();
-            //Varianti
-            response.data.arrival.services.forEach(service => {
-                //Aggiungi problemi
-                problems.data.codes.forEach(element =>{
-                    if(element.num==service.service){
-                        service.hasProblems=element.hasProblems;
-                    }
-                })
-                //Aggiungi servizio senza variante (per notizie)
-                service.officialService=service.service;
+    const overrideBasePath = 'route_events/override';
+    try {
+        const response = await axios.get(`https://avm.setaweb.it/SETA_WS/services/arrival/${stopId}`);
+        //const response = await axios.get(`http://localhost:5002/SETA_WS/services/arrival/${stopId}`);
+        const problems = await axios.get(`https://setaapi.serverissimo.freeddns.org/routeproblems`);
+        const d = new Date();
+        //Varianti
+        response.data.arrival.services.forEach(service => {
+            //Aggiungi problemi
+            problems.data.codes.forEach(element =>{
+                if(element.num==service.service){
+                    service.hasProblems=element.hasProblems;
+                }
+            })
+            //Aggiungi servizio senza variante (per notizie)
+            service.officialService=service.service;
 
-                //Sant'Anna (Dislessia)
-                if(service.destination=="SANT  ANNA"){
-                    service.destination="SANT'ANNA";
-                }
-                //S.Caterina (Dislessia)
-                if(service.destination=="S. CATERINA"){
-                    service.destination="S.CATERINA";
-                }
-                //D'Avia (Dislessia)
-                if(service.destination=="D AVIA"){
-                    service.destination="D'AVIA";
-                }
-                //La torre (Dislessia)
-                if(service.destination=="L A TORRE"){
-                    service.destination="LA TORRE";
-                }
-                //1A Modena Est
-                if(service.service=="1"&&service.destination=="MODENA EST"){
-                    service.service="1A";
-                }
-                //1A Polo Leonardo
-                if(service.service=="1"&&service.destination=="POLO LEONARDO"){
-                    service.service="1A";
-                }
-                //1B Ariete
-                if(service.service=="1"&&service.destination=="V. ZETA - ARIETE"){
-                    service.service="1B";
-                    service.destination="ARIETE";
-                }
-                //1S Autostazione (Scuola)
-                if(service.service=="1"&&service.destination=="AUTOSTAZIONE"){
-                    service.service="1S";
-                }
-                //1 _ -> Marinuzzi (Scuola)
-                if(service.service=="1"&&service.destination=="_"){
-                    service.destination="MARINUZZI";
-                }
-                //2A San Donnino
-                if(service.service=="2"&&service.destination=="SAN DONNINO"){
-                    service.service="2A";
-                }
-                //2/ Autostazione
-                if(service.service=="2"&&service.destination=="AUTOSTAZIONE"){
-                    service.service="2/";
-                }
-                //3A SANTA CATERINA-MONTEFIORINO (as 25/26)
-                if(service.service=="3"&&service.codice_corsa.includes("339")){
-                    service.service="3A";
-                    service.destination="S.CATERINA-MONTEFIORINO";
-                }
-                //3A Vaciglio
-                if(service.service=="3"&&service.destination=="VACIGLIO"){
-                    service.service="3A";
-                }
-                //3B Ragazzi del 99 (as 25/26)
-                if(service.service=="3"&&service.destination=="RAGAZZI DEL 99"){
-                    service.service="3B";
-                }
-                //3B Nonantolana 1010 (as 25/26)
-                if(service.service=="3"&&service.destination=="NONANTOLANA 1010"){
-                    service.service="3B";
-                }
-                //3/ Stazione FS (as 25/26)
-                if(service.service=="3"&&service.destination=="STAZIONE FS"){
-                    service.service="3/";
-                }
-                //3A SANTA CATERINA-MONTEFIORINO NO MALAVOLTI (Domenica)
-                if(service.service=="3"&&service.codice_corsa.includes("407")){
-                    service.service="3A";
-                    service.destination="S.CATERINA-MONTEFIORINO <br> (NO MALAVOLTI)";
-                }
-                //3B SANTA CATERINA-MONTEFIORINO NO MALAVOLTI (Domenica)
-                if(service.service=="3B"&&service.destination=="NONANTOLANA 1010"&&d.getDay()==0){
-                    service.destination="NONANTOLANA 1010 <br> (NO TORRAZZI)";
-                }
-                //4/ Autostazione (as 25/26)
-                if(service.service=="4"&&service.destination=="AUTOSTAZIONE"){
-                    service.service="4/";
-                }
-                //5 Dalla Chiesa -> La Torre              
-                if(service.service=="5"&&service.destination=="DALLA CHIESA"){
-                    service.destination="LA TORRE";
-                }
-                //5A Tre Olmi
-                if(service.service=="5"&&service.destination=="TRE OLMI"){
-                    service.service="5A";
-                }
-                //6A Santi (as 25/26)
-                if(service.service=="6"&&service.destination=="SANTI"){
-                    service.service="6A";
-                }
-                //6B Villanova (as 25/26)
-                if(service.service=="6"&&service.destination=="VILLANOVA"){
-                    service.service="6B";
-                }
-                //7 GOTTARDI -> POLICLINICO GOTTARDI
-                if(service.service=="7"&&service.destination=="GOTTARDI"){
-                    service.destination="POLICLINICO GOTTARDI";
-                }
-                //7A STAZIONE FS -> GOTTARDI
-                if(service.service=="7A"&&service.destination=="STAZIONE FS"&&!service.codice_corsa.includes("728")){
-                    service.destination="GOTTARDI";
-                }
-                //7/ Stazione FS
-                if(service.service=="7"&&service.destination=="STAZIONE FS"){
-                    service.service="7/";
-                }
-                //9A Marzaglia Nuova
-                if(service.service=="9"&&service.destination=="MARZAGLIA"){
-                    service.service="9A";
-                    service.destination="MARZAGLIA NUOVA";
-                }
-                //9C Rubiera
-                if(service.service=="9"&&service.destination=="RUBIERA"){
-                    service.service="9C";
-                }
-                //9/ Stazione FS
-                if(service.service=="9"&&service.destination=="STAZIONE FS"){
-                    service.service="9/";
-                }
-                //9/ Autostazione
-                if(service.service=="9"&&service.destination=="AUTOSTAZIONE"){
-                    service.service="9/";
-                }
-                //10A La Rocca
-                if(service.service=="10"&&service.destination=="LA ROCCA"){
-                    service.service="10A";
-                }
-                //10S Liceo Sigonio
-                if(service.service=="10"&&service.destination=="LICEO SIGONIO"){
-                    service.service="10S";
-                }
-                //10/ AUTOSTAZIONE
-                if(service.service=="10"&&service.destination=="AUTOSTAZIONE"){
-                    service.service="10/";
-                }
-                //11/ Stazione FS
-                if(service.service=="11"&&service.destination=="STAZIONE FS"){
-                    service.service="11/";
-                }
-                //12A Nazioni ma sono dei coglioni di merda
-                if(service.service=="12"&&(service.codice_corsa.includes("1280")||service.codice_corsa.includes("1284"))&&service.officialService!="5taxi"){
-                    service.service="12A";
-                    service.destination="NAZIONI";
-                }
-                //12/ Fanti FS
-                if(service.service=="12"&&service.destination=="FANTI FS"){
-                    service.service="12/";
-                }
-                //12S Garibaldi (Scuola)
-                if(service.service=="12"&&service.destination=="GARIBALDI"){
-                    service.service="12S";
-                }
-                //12S Largo Garibaldi (Scuola)
-                if(service.service=="12"&&service.destination=="LARGO GARIBALDI"){
-                    service.service="12S";
-                }
-                //13 S.ANNA -> SANT'ANNA (dio rincoglionito e dislessico)
-                if(service.service=="13"&&service.destination=="S.ANNA"){
-                    service.destination="SANT'ANNA";
-                }
-                //13A Carcere
-                if(service.service=="13"&&service.destination=="CARCERI"){
-                    service.service="13A";
-                }
-                //13F Variante di merda
-                if(service.service=="13"&&service.codice_corsa.includes("133")){
-                    service.service="13F";
-                }
-                //643 _ -> Polo Scolastico Sassuolo
-                if(service.service=="643"&&service.destination=="_"){
-                    service.destination="POLO SCOLASTICO SASSUOLO";
-                }
-                //Varianti vecchie AS 24/25
-                /*
-                //3A Vaciglio-Mattarella
-                if(service.service=="3"&&service.destination=="VACIGLIO MATTARELLA"){
-                    service.service="3A";
-                }
-                //3A Portorico (Domenica)
-                if(service.service=="3"&&service.destination=="PORTORICO"){
-                    service.service="3A";
-                }
-                //14A Nazioni
-                if(service.service=="14"&&service.destination=="NAZIONI"){
-                    service.service="14A";
-                }
-                //15/ Santi
-                if(service.service=="15"&&service.destination=="SANTI"){
-                    service.service="15/";
-                }
-                */
-                //Varianti settembre 2025
-                /*
-                //3F MONTEFIORINO-PORTORICO (Domenica)
-                if(service.service=="3"&&service.destination=="PORTORICO"){
-                    service.service="3F";
-                    service.destination="MONTEFIORINO-PORTORICO";
-                }
-                */
-            });
-            // Step 1: Mappa i servizi per codice_corsa divisi per tipo
-            const plannedMap = new Map();
-            const realtimeMap = new Map();
-
-            response.data.arrival.services.forEach(service => {
-            if (service.type == "planned") {
-                plannedMap.set(service.codice_corsa, service);
-            } else if (service.type == "realtime") {
-                realtimeMap.set(service.codice_corsa, service);
+            //Sant'Anna (Dislessia)
+            if(service.destination=="SANT  ANNA"){
+                service.destination="SANT'ANNA";
             }
-            });
-
-            // Step 2: Filtra i servizi
-            const filteredServices = response.data.arrival.services.filter(service => {
-            if (service.type == "realtime") return true;
-                return !realtimeMap.has(service.codice_corsa);
-            });
-
-            // Step 3: Aggiungi "delay" dove possibile
-            filteredServices.forEach(service => {
-            if (service.type == "realtime") {
-                const planned = plannedMap.get(service.codice_corsa);
-                if (planned) {
-                    const delayMinutes = computeDelay(planned.arrival, service.arrival);
-                    service.delay = delayMinutes;
-                }
+            //S.Caterina (Dislessia)
+            if(service.destination=="S. CATERINA"){
+                service.destination="S.CATERINA";
             }
-            });
-
-            // Funzione di utilità per calcolare il ritardo in minuti
-            function computeDelay(plannedTime, realtimeTime) {
-                const [pHour, pMin] = plannedTime.split(":").map(Number);
-                const [rHour, rMin] = realtimeTime.split(":").map(Number);
-                return (rHour * 60 + rMin) - (pHour * 60 + pMin);
+            //D'Avia (Dislessia)
+            if(service.destination=="D AVIA"){
+                service.destination="D'AVIA";
             }
+            //La torre (Dislessia)
+            if(service.destination=="L A TORRE"){
+                service.destination="LA TORRE";
+            }
+            //1A Modena Est
+            if(service.service=="1"&&service.destination=="MODENA EST"){
+                service.service="1A";
+            }
+            //1A Polo Leonardo
+            if(service.service=="1"&&service.destination=="POLO LEONARDO"){
+                service.service="1A";
+            }
+            //1B Ariete
+            if(service.service=="1"&&service.destination=="V. ZETA - ARIETE"){
+                service.service="1B";
+                service.destination="ARIETE";
+            }
+            //1S Autostazione (Scuola)
+            if(service.service=="1"&&service.destination=="AUTOSTAZIONE"){
+                service.service="1S";
+            }
+            //1 _ -> Marinuzzi (Scuola)
+            if(service.service=="1"&&service.destination=="_"){
+                service.destination="MARINUZZI";
+            }
+            //2A San Donnino
+            if(service.service=="2"&&service.destination=="SAN DONNINO"){
+                service.service="2A";
+            }
+            //2/ Autostazione
+            if(service.service=="2"&&service.destination=="AUTOSTAZIONE"){
+                service.service="2/";
+            }
+            //3A SANTA CATERINA-MONTEFIORINO (as 25/26)
+            if(service.service=="3"&&service.codice_corsa.includes("339")){
+                service.service="3A";
+                service.destination="S.CATERINA-MONTEFIORINO";
+            }
+            //3A Vaciglio
+            if(service.service=="3"&&service.destination=="VACIGLIO"){
+                service.service="3A";
+            }
+            //3B Ragazzi del 99 (as 25/26)
+            if(service.service=="3"&&service.destination=="RAGAZZI DEL 99"){
+                service.service="3B";
+            }
+            //3B Nonantolana 1010 (as 25/26)
+            if(service.service=="3"&&service.destination=="NONANTOLANA 1010"){
+                service.service="3B";
+            }
+            //3/ Stazione FS (as 25/26)
+            if(service.service=="3"&&service.destination=="STAZIONE FS"){
+                service.service="3/";
+            }
+            //3A MONTEFIORINO (Domenica)
+            if(service.service=="3"&&service.codice_corsa.includes("407")){
+                service.service="3A";
+                service.destination="MONTEFIORINO";
+            }
+            //3B NONANTOLANA 1010 NO TORRAZZI (Domenica)
+            if(service.service=="3B"&&service.destination=="NONANTOLANA 1010"&&(d.getDay()==0||fs.existsSync(overrideBasePath+"3btorr.txt"))){
+                service.destination="NONANTOLANA 1010 (NO TORRAZZI)";
+                service.br=true;
+                service.destination1="NONANTOLANA 1010";
+                service.destination2="(NO TORRAZZI)";
+            }
+            //4/ Autostazione (as 25/26)
+            if(service.service=="4"&&service.destination=="AUTOSTAZIONE"){
+                service.service="4/";
+            }
+            //5 Dalla Chiesa -> La Torre              
+            if(service.service=="5"&&service.destination=="DALLA CHIESA"){
+                service.destination="LA TORRE";
+            }
+            //5A Tre Olmi
+            if(service.service=="5"&&service.destination=="TRE OLMI"){
+                service.service="5A";
+            }
+            //6A Santi (as 25/26)
+            if(service.service=="6"&&service.destination=="SANTI"){
+                service.service="6A";
+            }
+            //6B Villanova (as 25/26)
+            if(service.service=="6"&&service.destination=="VILLANOVA"){
+                service.service="6B";
+            }
+            //7 GOTTARDI -> POLICLINICO GOTTARDI
+            if(service.service=="7"&&service.destination=="GOTTARDI"){
+                service.destination="POLICLINICO GOTTARDI";
+            }
+            //7A STAZIONE FS -> GOTTARDI
+            if(service.service=="7A"&&service.destination=="STAZIONE FS"&&!service.codice_corsa.includes("728")){
+                service.destination="GOTTARDI";
+            }
+            //7/ Stazione FS
+            if(service.service=="7"&&service.destination=="STAZIONE FS"){
+                service.service="7/";
+            }
+            //9A Marzaglia Nuova
+            if(service.service=="9"&&service.destination=="MARZAGLIA"){
+                service.service="9A";
+                service.destination="MARZAGLIA NUOVA";
+            }
+            //9C Rubiera
+            if(service.service=="9"&&service.destination=="RUBIERA"){
+                service.service="9C";
+            }
+            //9/ Stazione FS
+            if(service.service=="9"&&service.destination=="STAZIONE FS"){
+                service.service="9/";
+            }
+            //9/ Autostazione
+            if(service.service=="9"&&service.destination=="AUTOSTAZIONE"){
+                service.service="9/";
+            }
+            //10A La Rocca
+            if(service.service=="10"&&service.destination=="LA ROCCA"){
+                service.service="10A";
+            }
+            //10S Liceo Sigonio
+            if(service.service=="10"&&service.destination=="LICEO SIGONIO"){
+                service.service="10S";
+            }
+            //10/ AUTOSTAZIONE
+            if(service.service=="10"&&service.destination=="AUTOSTAZIONE"){
+                service.service="10/";
+            }
+            //11/ Stazione FS
+            if(service.service=="11"&&service.destination=="STAZIONE FS"){
+                service.service="11/";
+            }
+            //12A Nazioni ma sono dei coglioni di merda
+            if(service.service=="12"&&(service.codice_corsa.includes("1280")||service.codice_corsa.includes("1284"))&&service.officialService!="5taxi"){
+                service.service="12A";
+                service.destination="NAZIONI";
+            }
+            //12/ Fanti FS
+            if(service.service=="12"&&service.destination=="FANTI FS"){
+                service.service="12/";
+            }
+            //12S Garibaldi (Scuola)
+            if(service.service=="12"&&service.destination=="GARIBALDI"){
+                service.service="12S";
+            }
+            //12S Largo Garibaldi (Scuola)
+            if(service.service=="12"&&service.destination=="LARGO GARIBALDI"){
+                service.service="12S";
+            }
+            //13 S.ANNA -> SANT'ANNA (dio rincoglionito e dislessico)
+            if(service.service=="13"&&service.destination=="S.ANNA"){
+                service.destination="SANT'ANNA";
+            }
+            //13A Carcere
+            if(service.service=="13"&&service.destination=="CARCERI"){
+                service.service="13A";
+            }
+            //13F Variante di merda
+            if(service.service=="13"&&service.codice_corsa.includes("133")){
+                service.service="13F";
+            }
+            //643 _ -> Polo Scolastico Sassuolo
+            if(service.service=="643"&&service.destination=="_"){
+                service.destination="POLO SCOLASTICO SASSUOLO";
+            }
+            //Varianti vecchie AS 24/25
+            /*
+            //3A Vaciglio-Mattarella
+            if(service.service=="3"&&service.destination=="VACIGLIO MATTARELLA"){
+                service.service="3A";
+            }
+            //3A Portorico (Domenica)
+            if(service.service=="3"&&service.destination=="PORTORICO"){
+                service.service="3A";
+            }
+            //14A Nazioni
+            if(service.service=="14"&&service.destination=="NAZIONI"){
+                service.service="14A";
+            }
+            //15/ Santi
+            if(service.service=="15"&&service.destination=="SANTI"){
+                service.service="15/";
+            }
+            */
+            //Varianti settembre 2025
+            /*
+            //3F MONTEFIORINO-PORTORICO (Domenica)
+            if(service.service=="3"&&service.destination=="PORTORICO"){
+                service.service="3F";
+                service.destination="MONTEFIORINO-PORTORICO";
+            }
+            */
+        });
+        // Step 1: Mappa i servizi per codice_corsa divisi per tipo
+        const plannedMap = new Map();
+        const realtimeMap = new Map();
 
-            // Aggiorna i dati
-            response.data.arrival.services = filteredServices;
-            
-            res.json(response.data);
-        } catch (error) {
-            console.error(error);
-            res.json({
-                "arrival" : {
-                    "error" : "no arrivals scheduled in next 90 minutes",
-                }
-            });
+        response.data.arrival.services.forEach(service => {
+        if (service.type == "planned") {
+            plannedMap.set(service.codice_corsa, service);
+        } else if (service.type == "realtime") {
+            realtimeMap.set(service.codice_corsa, service);
         }
+        });
+
+        // Step 2: Filtra i servizi
+        const filteredServices = response.data.arrival.services.filter(service => {
+        if (service.type == "realtime") return true;
+            return !realtimeMap.has(service.codice_corsa);
+        });
+
+        // Step 3: Aggiungi "delay" dove possibile
+        filteredServices.forEach(service => {
+        if (service.type == "realtime") {
+            const planned = plannedMap.get(service.codice_corsa);
+            if (planned) {
+                const delayMinutes = computeDelay(planned.arrival, service.arrival);
+                service.delay = delayMinutes;
+            }
+        }
+        });
+
+        // Funzione di utilità per calcolare il ritardo in minuti
+        function computeDelay(plannedTime, realtimeTime) {
+            const [pHour, pMin] = plannedTime.split(":").map(Number);
+            const [rHour, rMin] = realtimeTime.split(":").map(Number);
+            return (rHour * 60 + rMin) - (pHour * 60 + pMin);
+        }
+
+        // Aggiorna i dati
+        response.data.arrival.services = filteredServices;
+        
+        res.json(response.data);
+    } catch (error) {
+        console.error(error);
+        res.json({
+            "arrival" : {
+                "error" : "no arrivals scheduled in next 90 minutes",
+            }
+        });
     }
 });
 
@@ -979,14 +950,17 @@ function fixBusRouteAndNameWimb(response){
         if(service.linea=="3"&&service.route_desc=="STAZIONE FS"){
             service.linea="3/";
         }
-        //3A SANTA CATERINA-MONTEFIORINO NO MALAVOLTI (Domenica)
+        //3A MONTEFIORINO (Domenica)
         if(service.linea=="3"&&service.route_code.includes("407")){
             service.linea="3A";
-            service.route_desc="S.CATERINA-MONTEFIORINO <br> (NO MALAVOLTI)";
+            service.route_desc="MONTEFIORINO";
         }
-        //3B SANTA CATERINA-MONTEFIORINO NO MALAVOLTI (Domenica)
-        if(service.linea=="3B"&&service.destination=="NONANTOLANA 1010"&&d.getDay()==0){
-            service.route_desc="NONANTOLANA 1010 <br> (NO TORRAZZI)";
+        //3B NONANTOLANA 1010 (NO TORRAZZI) (Domenica)
+        if(service.linea=="3B"&&service.destination=="NONANTOLANA 1010"&&(d.getDay()==0||fs.existsSync(overrideBasePath+"3btorr.txt"))){
+            service.route_desc="NONANTOLANA 1010 (NO TORRAZZI)";
+            service.br=true;
+            service.destination1="NONANTOLANA 1010";
+            service.destination2="(NO TORRAZZI)";
         }
         //4/ Autostazione (as 25/26)
         if(service.linea=="4"&&service.route_desc=="AUTOSTAZIONE"){
