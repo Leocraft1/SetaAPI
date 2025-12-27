@@ -181,7 +181,7 @@ app.get('/arrivals/:id', async (req, res) => {
                 service.service="3/";
             }
             //3A MONTEFIORINO (Domenica)
-            if(service.service=="3"&&service.codice_corsa.includes("407")&&service.codice_corsa.includes("327")){
+            if(service.service=="3"&&(service.codice_corsa.includes("407")||service.codice_corsa.includes("327"))){
                 service.service="3A";
                 service.destination="MONTEFIORINO";
             }
