@@ -956,7 +956,7 @@ function fixBusRouteAndNameWimb(response){
             service.linea="3/";
         }
         //3A MONTEFIORINO (Domenica)
-        if(service.linea=="3"&&(service.route_code.includes("407")||service.codice_corsa.includes("327"))){
+        if(service.linea=="3"&&(service.route_code.includes("407")||service.route_code.includes("327"))){
             service.linea="3A";
             service.route_desc="MONTEFIORINO";
         }
