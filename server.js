@@ -126,6 +126,10 @@ app.get('/arrivals/:id', async (req, res) => {
             if(service.destination=="L A TORRE"){
                 service.destination="LA TORRE";
             }
+            //Ragazzi Del 99 (Dislessia)
+            if(service.destination=="RAGAZZI DEL   99"){
+                service.destination="RAGAZZI DEL 99";
+            }
             //1A Modena Est
             if(service.service=="1"&&service.destination=="MODENA EST"){
                 service.service="1A";
@@ -177,7 +181,7 @@ app.get('/arrivals/:id', async (req, res) => {
                 service.service="3/";
             }
             //3A MONTEFIORINO (Domenica)
-            if(service.service=="3"&&service.codice_corsa.includes("407")){
+            if(service.service=="3"&&service.codice_corsa.includes("407")&&service.codice_corsa.includes("327")){
                 service.service="3A";
                 service.destination="MONTEFIORINO";
             }
@@ -188,6 +192,7 @@ app.get('/arrivals/:id', async (req, res) => {
                 service.destination1="NONANTOLANA 1010";
                 service.destination2="(NO TORRAZZI)";
             }
+            //3B RAGAZZI DEL 99 (NO MATTARELLA) (Vacanza)
             //4/ Autostazione (as 25/26)
             if(service.service=="4"&&service.destination=="AUTOSTAZIONE"){
                 service.service="4/";
