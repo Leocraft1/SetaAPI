@@ -961,7 +961,7 @@ function fixBusRouteAndNameWimb(response){
             service.route_desc="MONTEFIORINO";
         }
         //3B NONANTOLANA 1010 (NO TORRAZZI) (Domenica)
-        if(service.linea=="3B"&&service.destination=="NONANTOLANA 1010"&&(d.getDay()==0||fs.existsSync(overrideBasePath+"3btorr.txt"))){
+        if(service.linea=="3B"&&service.route_desc=="NONANTOLANA 1010"&&(d.getDay()==0||fs.existsSync(overrideBasePath+"3btorr.txt"))){
             service.route_desc="NONANTOLANA 1010 (NO TORRAZZI)";
             service.br=true;
             service.destination1="NONANTOLANA 1010";
