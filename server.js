@@ -905,6 +905,10 @@ function fixBusRouteAndNameWimb(response){
         if(service.route_desc=="L A TORRE"){
             service.route_desc="LA TORRE";
         }
+        //Ragazzi Del 99 (Dislessia)
+        if(service.route_desc=="RAGAZZI DEL   99"){
+            service.route_desc="RAGAZZI DEL 99";
+        }
         //1A Modena Est
         if(service.linea=="1"&&service.route_desc=="MODENA EST"){
             service.linea="1A";
