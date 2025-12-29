@@ -883,6 +883,7 @@ async function updateRouteNumbers(){
 
 function fixBusRouteAndNameWimb(response){
     const d = new Date();
+    const overrideBasePath = 'route_events/override';
     response.data.features.forEach(bus => {
         service = bus.properties;
         //Sant'Anna (Dislessia)
