@@ -1,0 +1,137 @@
+[
+  {
+    "desc": "Piscine",
+    "code": "MO8534",
+    "islast": false
+  },
+  {
+    "desc": "Peruzzi 3",
+    "code": "MO3482",
+    "islast": false
+  },
+  {
+    "desc": "Peruzzi 2",
+    "code": "MO3373",
+    "islast": false
+  },
+  {
+    "desc": "PERUZZI AUTOSTAZIONE",
+    "code": "MO2547",
+    "islast": false
+  },
+  {
+    "desc": "P.le Ramazzini",
+    "code": "MO466",
+    "islast": false
+  },
+  {
+    "desc": "Stadio",
+    "code": "MO8554",
+    "islast": false
+  },
+  {
+    "desc": "Stazione FS",
+    "code": "MO8537",
+    "islast": false
+  },
+  {
+    "desc": "Alghisi 2",
+    "code": "MO3379",
+    "islast": false
+  },
+  {
+    "desc": "Marx",
+    "code": "MO499",
+    "islast": false
+  },
+  {
+    "desc": "Marx 1",
+    "code": "MO8313",
+    "islast": false
+  },
+  {
+    "desc": "Lama 2",
+    "code": "MO8532",
+    "islast": false
+  },
+  {
+    "desc": "Lama 1",
+    "code": "MO1116",
+    "islast": false
+  },
+  {
+    "desc": "Cavalcaferrovia",
+    "code": "MO498",
+    "islast": false
+  },
+  {
+    "desc": "Lama",
+    "code": "MO865",
+    "islast": false
+  },
+  {
+    "desc": "La Baita",
+    "code": "MO864",
+    "islast": false
+  },
+  {
+    "desc": "Roma",
+    "code": "MO863",
+    "islast": false
+  },
+  {
+    "desc": "Limidi",
+    "code": "MO860",
+    "islast": false
+  },
+  {
+    "desc": "Casa Rossa",
+    "code": "MO858",
+    "islast": false
+  },
+  {
+    "desc": "Limidi mulino",
+    "code": "MO856",
+    "islast": false
+  },
+  {
+    "desc": "Sozzigalli Caseificio",
+    "code": "MO854",
+    "islast": false
+  },
+  {
+    "desc": "Sozzigalli centro",
+    "code": "MO853",
+    "islast": false
+  },
+  {
+    "desc": "Sozzigalli chiesa",
+    "code": "MO8350",
+    "islast": false
+  },
+  {
+    "desc": "Sorbara bv",
+    "code": "MO321",
+    "islast": false
+  },
+  {
+    "desc": "Il Cristo",
+    "code": "MO319",
+    "islast": false
+  },
+  {
+    "desc": "Casinone",
+    "code": "MO315",
+    "islast": false
+  },
+  {
+    "desc": "San Pietro bv",
+    "code": "MO309",
+    "islast": false
+  },
+  {
+    "desc": "San Prospero",
+    "code": "MO3900",
+    "islast": true
+  }
+]

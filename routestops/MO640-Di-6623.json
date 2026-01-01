@@ -1,0 +1,207 @@
+[
+  {
+    "desc": "Vignola Autostazione",
+    "code": "MO4507",
+    "islast": false
+  },
+  {
+    "desc": "La Vigna",
+    "code": "MO2410",
+    "islast": false
+  },
+  {
+    "desc": "Campiglio bv",
+    "code": "MO2402",
+    "islast": false
+  },
+  {
+    "desc": "Due Ponti",
+    "code": "MO2399",
+    "islast": false
+  },
+  {
+    "desc": "San Pietro",
+    "code": "MO2398",
+    "islast": false
+  },
+  {
+    "desc": "Ca' Molza",
+    "code": "MO2397",
+    "islast": false
+  },
+  {
+    "desc": "Gatta",
+    "code": "MO365",
+    "islast": false
+  },
+  {
+    "desc": "Palona",
+    "code": "MO363",
+    "islast": false
+  },
+  {
+    "desc": "Giardino",
+    "code": "MO361",
+    "islast": false
+  },
+  {
+    "desc": "Castelvetro",
+    "code": "MO357",
+    "islast": false
+  },
+  {
+    "desc": "Casone",
+    "code": "MO882",
+    "islast": false
+  },
+  {
+    "desc": "Spezzatona",
+    "code": "MO881",
+    "islast": false
+  },
+  {
+    "desc": "Ca' di Sola",
+    "code": "MO879",
+    "islast": false
+  },
+  {
+    "desc": "Gavello Mulino",
+    "code": "MO847",
+    "islast": false
+  },
+  {
+    "desc": "Ca' del Fabbro",
+    "code": "MO846",
+    "islast": false
+  },
+  {
+    "desc": "Solignano",
+    "code": "MO845",
+    "islast": false
+  },
+  {
+    "desc": "Bar Cacciatori Solignano",
+    "code": "MO837",
+    "islast": false
+  },
+  {
+    "desc": "Grillenzone bv",
+    "code": "MO838",
+    "islast": false
+  },
+  {
+    "desc": "Ceramica Sant'Anna",
+    "code": "MO839",
+    "islast": false
+  },
+  {
+    "desc": "Pozza",
+    "code": "MO1650",
+    "islast": false
+  },
+  {
+    "desc": "Crociale Maranello",
+    "code": "MO827",
+    "islast": false
+  },
+  {
+    "desc": "MARANELLO TERMINAL",
+    "code": "MO3471",
+    "islast": false
+  },
+  {
+    "desc": "Maranello Grizzaga",
+    "code": "MO3239",
+    "islast": false
+  },
+  {
+    "desc": "Maranello Claudia",
+    "code": "MO3581",
+    "islast": false
+  },
+  {
+    "desc": "Maranello Scuole",
+    "code": "MO783",
+    "islast": false
+  },
+  {
+    "desc": "Motta",
+    "code": "MO782",
+    "islast": false
+  },
+  {
+    "desc": "Spezzano scuole",
+    "code": "MO814",
+    "islast": false
+  },
+  {
+    "desc": "Spezzano",
+    "code": "MO797",
+    "islast": false
+  },
+  {
+    "desc": "Spezzano Crociale",
+    "code": "MO795",
+    "islast": false
+  },
+  {
+    "desc": "La Corona",
+    "code": "MO793",
+    "islast": false
+  },
+  {
+    "desc": "Case Nuove",
+    "code": "MO789",
+    "islast": false
+  },
+  {
+    "desc": "Fiorano Modenese",
+    "code": "MO4011",
+    "islast": false
+  },
+  {
+    "desc": "Fiorano San Francesco",
+    "code": "MO4007",
+    "islast": false
+  },
+  {
+    "desc": "Cerdisa",
+    "code": "MO780",
+    "islast": false
+  },
+  {
+    "desc": "Mezzavia",
+    "code": "MO781",
+    "islast": false
+  },
+  {
+    "desc": "Ospedale Sassuolo",
+    "code": "MO2786",
+    "islast": false
+  },
+  {
+    "desc": "Largo Verona",
+    "code": "MO2375",
+    "islast": false
+  },
+  {
+    "desc": "Mazzini",
+    "code": "MO2545",
+    "islast": false
+  },
+  {
+    "desc": "Risorgimento",
+    "code": "MO2233",
+    "islast": false
+  },
+  {
+    "desc": "Braida Ist. Baggi",
+    "code": "MO2772",
+    "islast": false
+  },
+  {
+    "desc": "Sassuolo Terminal",
+    "code": "MO4000",
+    "islast": true
+  }
+]

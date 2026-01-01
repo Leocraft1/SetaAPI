@@ -1,0 +1,52 @@
+[
+  {
+    "desc": "Zocca Circonvallazione",
+    "code": "MO1765",
+    "islast": false
+  },
+  {
+    "desc": "Zocca periferia",
+    "code": "MO4702",
+    "islast": false
+  },
+  {
+    "desc": "Pediera",
+    "code": "MO2812",
+    "islast": false
+  },
+  {
+    "desc": "Monteombraro bv",
+    "code": "MO2740",
+    "islast": false
+  },
+  {
+    "desc": "Zocchetta",
+    "code": "MO1417",
+    "islast": false
+  },
+  {
+    "desc": "Sp25 Civ. 1288",
+    "code": "MO4618",
+    "islast": false
+  },
+  {
+    "desc": "Portichetto",
+    "code": "MO1414",
+    "islast": false
+  },
+  {
+    "desc": "Casetta di sopra",
+    "code": "MO2711",
+    "islast": false
+  },
+  {
+    "desc": "Campo Sportivo",
+    "code": "MO2714",
+    "islast": false
+  },
+  {
+    "desc": "Monteombraro Serre",
+    "code": "MO2010",
+    "islast": true
+  }
+]

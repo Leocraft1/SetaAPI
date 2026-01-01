@@ -1,0 +1,107 @@
+[
+  {
+    "desc": "COGNENTO",
+    "code": "MO2907",
+    "islast": false
+  },
+  {
+    "desc": "Beltrami",
+    "code": "MO2905",
+    "islast": false
+  },
+  {
+    "desc": "Contorno",
+    "code": "MO2903",
+    "islast": false
+  },
+  {
+    "desc": "Campagna",
+    "code": "MO2904",
+    "islast": false
+  },
+  {
+    "desc": "D'Avia bv Aristotele",
+    "code": "MO2921",
+    "islast": false
+  },
+  {
+    "desc": "Aristotele",
+    "code": "MO2931",
+    "islast": false
+  },
+  {
+    "desc": "Euclide",
+    "code": "MO2937",
+    "islast": false
+  },
+  {
+    "desc": "POLO LEONARDO 1",
+    "code": "MO2928",
+    "islast": false
+  },
+  {
+    "desc": "Da Vinci bv Newton",
+    "code": "MO6725",
+    "islast": false
+  },
+  {
+    "desc": "Da Vinci bv Curie",
+    "code": "MO2891",
+    "islast": false
+  },
+  {
+    "desc": "Vigili del Fuoco",
+    "code": "MO2917",
+    "islast": false
+  },
+  {
+    "desc": "Formigina bv Archimede",
+    "code": "MO2929",
+    "islast": false
+  },
+  {
+    "desc": "San Faustino",
+    "code": "MO2940",
+    "islast": false
+  },
+  {
+    "desc": "San Faustino Poliambulatorio",
+    "code": "MO2790",
+    "islast": false
+  },
+  {
+    "desc": "Luosi bv San Faustino",
+    "code": "MO6713",
+    "islast": false
+  },
+  {
+    "desc": "Luosi bv Fattori",
+    "code": "MO6709",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Fermi",
+    "code": "MO6720",
+    "islast": false
+  },
+  {
+    "desc": "Barozzi bv Rangoni",
+    "code": "MO6705",
+    "islast": false
+  },
+  {
+    "desc": "Barozzi bv Setti",
+    "code": "MO6703",
+    "islast": false
+  },
+  {
+    "desc": "Barozzi Planetario",
+    "code": "MO6700",
+    "islast": false
+  },
+  {
+    "desc": "MODENA  AUTOSTAZIONE",
+    "code": "MO6120",
+    "islast": true
+  }
+]

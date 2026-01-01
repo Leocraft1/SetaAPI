@@ -1,0 +1,172 @@
+[
+  {
+    "desc": "Pavullo Autostazione",
+    "code": "MO3000",
+    "islast": false
+  },
+  {
+    "desc": "Le Aie",
+    "code": "MO2546",
+    "islast": false
+  },
+  {
+    "desc": "Capanne",
+    "code": "MO2548",
+    "islast": false
+  },
+  {
+    "desc": "Acquabona",
+    "code": "MO2550",
+    "islast": false
+  },
+  {
+    "desc": "Il Ronco",
+    "code": "MO2552",
+    "islast": false
+  },
+  {
+    "desc": "Sant'Antonio",
+    "code": "MO2560",
+    "islast": false
+  },
+  {
+    "desc": "Casa Schianchi",
+    "code": "MO2382",
+    "islast": false
+  },
+  {
+    "desc": "La Villa",
+    "code": "MO2383",
+    "islast": false
+  },
+  {
+    "desc": "La Guardia",
+    "code": "MO2384",
+    "islast": false
+  },
+  {
+    "desc": "Casa Golini",
+    "code": "MO2385",
+    "islast": false
+  },
+  {
+    "desc": "Casa Marconi",
+    "code": "MO2386",
+    "islast": false
+  },
+  {
+    "desc": "Coscogno 1",
+    "code": "MO3278",
+    "islast": false
+  },
+  {
+    "desc": "Coscogno",
+    "code": "MO2390",
+    "islast": false
+  },
+  {
+    "desc": "Chiesa",
+    "code": "MO2392",
+    "islast": false
+  },
+  {
+    "desc": "Coscogno confine",
+    "code": "MO2394",
+    "islast": false
+  },
+  {
+    "desc": "Casa Rossa",
+    "code": "MO2396",
+    "islast": false
+  },
+  {
+    "desc": "Festa'",
+    "code": "MO6911",
+    "islast": false
+  },
+  {
+    "desc": "Casa Cavallaro",
+    "code": "MO2422",
+    "islast": false
+  },
+  {
+    "desc": "Casa Zoppo",
+    "code": "MO2424",
+    "islast": false
+  },
+  {
+    "desc": "Casona bv",
+    "code": "MO2430",
+    "islast": false
+  },
+  {
+    "desc": "Casona",
+    "code": "MO2432",
+    "islast": false
+  },
+  {
+    "desc": "Ristorante Saionara",
+    "code": "MO2433",
+    "islast": false
+  },
+  {
+    "desc": "Provincia 2",
+    "code": "MO2431",
+    "islast": false
+  },
+  {
+    "desc": "Provincia 1",
+    "code": "MO2434",
+    "islast": false
+  },
+  {
+    "desc": "Marano fornace",
+    "code": "MO2435",
+    "islast": false
+  },
+  {
+    "desc": "Via Pavullese",
+    "code": "MO3339",
+    "islast": false
+  },
+  {
+    "desc": "Casa Bonetti 1",
+    "code": "MO2436",
+    "islast": false
+  },
+  {
+    "desc": "Marano",
+    "code": "MO2000",
+    "islast": false
+  },
+  {
+    "desc": "Casa Ricchi",
+    "code": "MO2002",
+    "islast": false
+  },
+  {
+    "desc": "Berso Delle Rose",
+    "code": "MO2003",
+    "islast": false
+  },
+  {
+    "desc": "Tavernelle",
+    "code": "MO2004",
+    "islast": false
+  },
+  {
+    "desc": "Pievina",
+    "code": "MO4610",
+    "islast": false
+  },
+  {
+    "desc": "La Vigna",
+    "code": "MO4616",
+    "islast": false
+  },
+  {
+    "desc": "Vignola Autostazione",
+    "code": "MO4512",
+    "islast": true
+  }
+]

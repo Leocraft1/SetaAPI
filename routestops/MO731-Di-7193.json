@@ -1,0 +1,172 @@
+[
+  {
+    "desc": "MODENA AUTOSTAZIONE",
+    "code": "MO350",
+    "islast": false
+  },
+  {
+    "desc": "Risorgimento",
+    "code": "MO20",
+    "islast": false
+  },
+  {
+    "desc": "Rimembranze ex Questura",
+    "code": "MO42",
+    "islast": false
+  },
+  {
+    "desc": "GARIBALDI",
+    "code": "MO5111",
+    "islast": false
+  },
+  {
+    "desc": "Piazza Manzoni",
+    "code": "MO11",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese bv La Spezia",
+    "code": "MO1364",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese Universita",
+    "code": "MO1362",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese bv Saluzzo",
+    "code": "MO6439",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese Istituto",
+    "code": "MO1360",
+    "islast": false
+  },
+  {
+    "desc": "Patriarca",
+    "code": "MO231",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese bv San Damaso",
+    "code": "MO6460",
+    "islast": false
+  },
+  {
+    "desc": "SAN DONNINO",
+    "code": "MO2619",
+    "islast": false
+  },
+  {
+    "desc": "La Busa",
+    "code": "MO896",
+    "islast": false
+  },
+  {
+    "desc": "Villa San Donnino",
+    "code": "MO895",
+    "islast": false
+  },
+  {
+    "desc": "San Vito",
+    "code": "MO893",
+    "islast": false
+  },
+  {
+    "desc": "San Vito chiesa",
+    "code": "MO891",
+    "islast": false
+  },
+  {
+    "desc": "Spinara",
+    "code": "MO887",
+    "islast": false
+  },
+  {
+    "desc": "Casa Toschi",
+    "code": "MO885",
+    "islast": false
+  },
+  {
+    "desc": "Spilamberto zona artigianale",
+    "code": "MO884",
+    "islast": false
+  },
+  {
+    "desc": "Berlinguer",
+    "code": "MO2998",
+    "islast": false
+  },
+  {
+    "desc": "Spilamberto",
+    "code": "MO4500",
+    "islast": false
+  },
+  {
+    "desc": "San Pellegrino",
+    "code": "MO1098",
+    "islast": false
+  },
+  {
+    "desc": "Sitma",
+    "code": "MO2702",
+    "islast": false
+  },
+  {
+    "desc": "Confine",
+    "code": "MO1103",
+    "islast": false
+  },
+  {
+    "desc": "Centro commerciale",
+    "code": "MO3263",
+    "islast": false
+  },
+  {
+    "desc": "Brodano",
+    "code": "MO2409",
+    "islast": false
+  },
+  {
+    "desc": "Ponte ferrovia",
+    "code": "MO2407",
+    "islast": false
+  },
+  {
+    "desc": "Ospedale Vignola ",
+    "code": "MO2406",
+    "islast": false
+  },
+  {
+    "desc": "Vignola FS",
+    "code": "MO3735",
+    "islast": false
+  },
+  {
+    "desc": "Vignola Centro",
+    "code": "MO1205",
+    "islast": false
+  },
+  {
+    "desc": "Barozzi scuola",
+    "code": "MO2403",
+    "islast": false
+  },
+  {
+    "desc": "Il Gessiere",
+    "code": "MO2404",
+    "islast": false
+  },
+  {
+    "desc": "La Vigna",
+    "code": "MO4616",
+    "islast": false
+  },
+  {
+    "desc": "Vignola Autostazione",
+    "code": "MO4505",
+    "islast": true
+  }
+]

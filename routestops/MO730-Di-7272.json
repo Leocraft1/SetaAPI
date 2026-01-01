@@ -1,0 +1,62 @@
+[
+  {
+    "desc": "Fanano",
+    "code": "MO1100",
+    "islast": false
+  },
+  {
+    "desc": "Monte di Sopra",
+    "code": "MO583",
+    "islast": false
+  },
+  {
+    "desc": "Cima Lotta",
+    "code": "MO2103",
+    "islast": false
+  },
+  {
+    "desc": "Casa Manfrinai",
+    "code": "MO2104",
+    "islast": false
+  },
+  {
+    "desc": "Squizza",
+    "code": "MO2105",
+    "islast": false
+  },
+  {
+    "desc": "Tintoria",
+    "code": "MO2106",
+    "islast": false
+  },
+  {
+    "desc": "Elisoccorso",
+    "code": "MO3576",
+    "islast": false
+  },
+  {
+    "desc": "Poggioraso",
+    "code": "MO2107",
+    "islast": false
+  },
+  {
+    "desc": "Sestola bv scuole",
+    "code": "MO1333",
+    "islast": false
+  },
+  {
+    "desc": "Sestola cimitero",
+    "code": "MO2263",
+    "islast": false
+  },
+  {
+    "desc": "Vivaio",
+    "code": "MO2049",
+    "islast": false
+  },
+  {
+    "desc": "Sestola",
+    "code": "MO4300",
+    "islast": true
+  }
+]

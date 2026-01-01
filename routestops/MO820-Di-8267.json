@@ -1,0 +1,82 @@
+[
+  {
+    "desc": "MARANELLO TERMINAL",
+    "code": "MO3599",
+    "islast": false
+  },
+  {
+    "desc": "Maranello Grizzaga",
+    "code": "MO3239",
+    "islast": false
+  },
+  {
+    "desc": "Maranello T. Speri",
+    "code": "MO3456",
+    "islast": false
+  },
+  {
+    "desc": "Maranello Alta",
+    "code": "MO1009",
+    "islast": false
+  },
+  {
+    "desc": "Gorzano 2",
+    "code": "MO1045",
+    "islast": false
+  },
+  {
+    "desc": "Gorzano 1",
+    "code": "MO1044",
+    "islast": false
+  },
+  {
+    "desc": "Torre Maina bv",
+    "code": "MO1042",
+    "islast": false
+  },
+  {
+    "desc": "Malandrone 1",
+    "code": "MO3356",
+    "islast": false
+  },
+  {
+    "desc": "Madonna Baldaccini",
+    "code": "MO1292",
+    "islast": false
+  },
+  {
+    "desc": "Chiozza",
+    "code": "MO1301",
+    "islast": false
+  },
+  {
+    "desc": "Sant'Antonio",
+    "code": "MO1376",
+    "islast": false
+  },
+  {
+    "desc": "Il Ronco",
+    "code": "MO1375",
+    "islast": false
+  },
+  {
+    "desc": "Acquabona",
+    "code": "MO1374",
+    "islast": false
+  },
+  {
+    "desc": "Capanne",
+    "code": "MO1373",
+    "islast": false
+  },
+  {
+    "desc": "Le Aie",
+    "code": "MO1372",
+    "islast": false
+  },
+  {
+    "desc": "Pavullo Autostazione",
+    "code": "MO1590",
+    "islast": true
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "desc": "CARPI TERMINAL BUS",
+    "code": "MO507",
+    "islast": false
+  },
+  {
+    "desc": "P.le Ramazzini",
+    "code": "MO466",
+    "islast": false
+  },
+  {
+    "desc": "Ugo da Carpi",
+    "code": "MO255",
+    "islast": false
+  },
+  {
+    "desc": "Quartirolo",
+    "code": "MO258",
+    "islast": false
+  },
+  {
+    "desc": "Polizia",
+    "code": "MO3048",
+    "islast": false
+  },
+  {
+    "desc": "Santa Croce",
+    "code": "MO57",
+    "islast": false
+  },
+  {
+    "desc": "Stabilimento Malavolta",
+    "code": "MO753",
+    "islast": false
+  },
+  {
+    "desc": "Distributore",
+    "code": "MO749",
+    "islast": false
+  },
+  {
+    "desc": "Gargallo bv",
+    "code": "MO46",
+    "islast": false
+  },
+  {
+    "desc": "Maglificio Tricot",
+    "code": "MO1124",
+    "islast": false
+  },
+  {
+    "desc": "Stradello",
+    "code": "MO1356",
+    "islast": false
+  },
+  {
+    "desc": "Soliera Industriale",
+    "code": "MO43",
+    "islast": true
+  }
+]

@@ -1,0 +1,87 @@
+[
+  {
+    "desc": "GOTTARDI",
+    "code": "MO149",
+    "islast": false
+  },
+  {
+    "desc": "Gottardi bv Araldi",
+    "code": "MO236",
+    "islast": false
+  },
+  {
+    "desc": "Braghiroli",
+    "code": "MO207",
+    "islast": false
+  },
+  {
+    "desc": "Campi Universita",
+    "code": "MO219",
+    "islast": false
+  },
+  {
+    "desc": "Poliambulatorio",
+    "code": "MO225",
+    "islast": false
+  },
+  {
+    "desc": "Policlinico",
+    "code": "MO6311",
+    "islast": false
+  },
+  {
+    "desc": "Del Pozzo",
+    "code": "MO2659",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est Hotel Fini",
+    "code": "MO624",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est Finanza",
+    "code": "MO2657",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est bv S.Giovanni Bosco",
+    "code": "MO2656",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est Aci",
+    "code": "MO2654",
+    "islast": false
+  },
+  {
+    "desc": "GARIBALDI",
+    "code": "MO5900",
+    "islast": false
+  },
+  {
+    "desc": "Emilia centro Posta",
+    "code": "MO6102",
+    "islast": false
+  },
+  {
+    "desc": "Piazza Mazzini",
+    "code": "MO6101",
+    "islast": false
+  },
+  {
+    "desc": "Piazza Matteotti",
+    "code": "MO6106",
+    "islast": false
+  },
+  {
+    "desc": "Sant'Agostino museo",
+    "code": "MO6109",
+    "islast": false
+  },
+  {
+    "desc": "MODENA  AUTOSTAZIONE",
+    "code": "MO5003",
+    "islast": true
+  }
+]

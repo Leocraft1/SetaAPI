@@ -1,0 +1,177 @@
+[
+  {
+    "desc": "Zocca Circonvallazione",
+    "code": "MO1765",
+    "islast": false
+  },
+  {
+    "desc": "Zocca periferia",
+    "code": "MO4702",
+    "islast": false
+  },
+  {
+    "desc": "Pediera",
+    "code": "MO2812",
+    "islast": false
+  },
+  {
+    "desc": "Monteombraro bv",
+    "code": "MO2740",
+    "islast": false
+  },
+  {
+    "desc": "Derna",
+    "code": "MO2742",
+    "islast": false
+  },
+  {
+    "desc": "Giostra",
+    "code": "MO2744",
+    "islast": false
+  },
+  {
+    "desc": "Ginevra",
+    "code": "MO2746",
+    "islast": false
+  },
+  {
+    "desc": "Samone distributore",
+    "code": "MO1426",
+    "islast": false
+  },
+  {
+    "desc": "Samone",
+    "code": "MO1427",
+    "islast": false
+  },
+  {
+    "desc": "Samone bv Serra",
+    "code": "MO3445",
+    "islast": false
+  },
+  {
+    "desc": "Missano bv",
+    "code": "MO1433",
+    "islast": false
+  },
+  {
+    "desc": "Molino",
+    "code": "MO1435",
+    "islast": false
+  },
+  {
+    "desc": "Monticello",
+    "code": "MO3589",
+    "islast": false
+  },
+  {
+    "desc": "Missano",
+    "code": "MO1436",
+    "islast": false
+  },
+  {
+    "desc": "Molino",
+    "code": "MO2778",
+    "islast": false
+  },
+  {
+    "desc": "Gainazzo bv",
+    "code": "MO1431",
+    "islast": false
+  },
+  {
+    "desc": "Salda",
+    "code": "MO1430",
+    "islast": false
+  },
+  {
+    "desc": "Ponte",
+    "code": "MO1429",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Samone",
+    "code": "MO1334",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Samone",
+    "code": "MO3523",
+    "islast": false
+  },
+  {
+    "desc": "Casa Belvedere",
+    "code": "MO1335",
+    "islast": false
+  },
+  {
+    "desc": "Casa Nuova Castagneto",
+    "code": "MO1336",
+    "islast": false
+  },
+  {
+    "desc": "Casa Baiocchi",
+    "code": "MO1337",
+    "islast": false
+  },
+  {
+    "desc": "Villa Bibone",
+    "code": "MO1338",
+    "islast": false
+  },
+  {
+    "desc": "Castagneto",
+    "code": "MO1339",
+    "islast": false
+  },
+  {
+    "desc": "Pratochiesa",
+    "code": "MO1340",
+    "islast": false
+  },
+  {
+    "desc": "Ca' del Fabbro",
+    "code": "MO1341",
+    "islast": false
+  },
+  {
+    "desc": "Iddiano bv",
+    "code": "MO1342",
+    "islast": false
+  },
+  {
+    "desc": "Cavazzona",
+    "code": "MO1343",
+    "islast": false
+  },
+  {
+    "desc": "Campiano",
+    "code": "MO1344",
+    "islast": false
+  },
+  {
+    "desc": "Campiano scuole",
+    "code": "MO1345",
+    "islast": false
+  },
+  {
+    "desc": "Casa Tre Torri",
+    "code": "MO1347",
+    "islast": false
+  },
+  {
+    "desc": "La Loggia",
+    "code": "MO1348",
+    "islast": false
+  },
+  {
+    "desc": "Corsini cimitero",
+    "code": "MO1593",
+    "islast": false
+  },
+  {
+    "desc": "Pavullo Autostazione",
+    "code": "MO3000",
+    "islast": true
+  }
+]

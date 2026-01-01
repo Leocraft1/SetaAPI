@@ -1,0 +1,142 @@
+[
+  {
+    "desc": "MARANELLO TERMINAL",
+    "code": "MO3455",
+    "islast": false
+  },
+  {
+    "desc": "Maranello Grizzaga",
+    "code": "MO3239",
+    "islast": false
+  },
+  {
+    "desc": "Maranello Claudia",
+    "code": "MO3581",
+    "islast": false
+  },
+  {
+    "desc": "Maranello IPSIA",
+    "code": "MO2562",
+    "islast": false
+  },
+  {
+    "desc": "Maranello Ferrari",
+    "code": "MO3804",
+    "islast": false
+  },
+  {
+    "desc": "Saime",
+    "code": "MO1644",
+    "islast": false
+  },
+  {
+    "desc": "Saicis",
+    "code": "MO1642",
+    "islast": false
+  },
+  {
+    "desc": "Ubersetto",
+    "code": "MO1640",
+    "islast": false
+  },
+  {
+    "desc": "Picchio Rosso",
+    "code": "MO825",
+    "islast": false
+  },
+  {
+    "desc": "Lar",
+    "code": "MO778",
+    "islast": false
+  },
+  {
+    "desc": "Formigine",
+    "code": "MO735",
+    "islast": false
+  },
+  {
+    "desc": "Molinella",
+    "code": "MO1502",
+    "islast": false
+  },
+  {
+    "desc": "Formigine cartiera",
+    "code": "MO1504",
+    "islast": false
+  },
+  {
+    "desc": "Casinalbo",
+    "code": "MO1530",
+    "islast": false
+  },
+  {
+    "desc": "La Bertola",
+    "code": "MO1428",
+    "islast": false
+  },
+  {
+    "desc": "Baggiovara 1",
+    "code": "MO1480",
+    "islast": false
+  },
+  {
+    "desc": "Giardini Simint",
+    "code": "MO667",
+    "islast": false
+  },
+  {
+    "desc": "Giardini Due Mulini",
+    "code": "MO665",
+    "islast": false
+  },
+  {
+    "desc": "Saliceta San Giuliano",
+    "code": "MO663",
+    "islast": false
+  },
+  {
+    "desc": "Giardini carcere",
+    "code": "MO2539",
+    "islast": false
+  },
+  {
+    "desc": "Giardini bv Cimabue",
+    "code": "MO3238",
+    "islast": false
+  },
+  {
+    "desc": "Giardini bv Cimabue 1",
+    "code": "MO3681",
+    "islast": false
+  },
+  {
+    "desc": "Direzionale 70",
+    "code": "MO2827",
+    "islast": false
+  },
+  {
+    "desc": "Croce Blu",
+    "code": "MO662",
+    "islast": false
+  },
+  {
+    "desc": "Teatro Michelangelo",
+    "code": "MO6",
+    "islast": false
+  },
+  {
+    "desc": "Risorgimento",
+    "code": "MO4",
+    "islast": false
+  },
+  {
+    "desc": "Ospedale Estense",
+    "code": "MO2594",
+    "islast": false
+  },
+  {
+    "desc": "MODENA AUTOSTAZIONE",
+    "code": "MO303",
+    "islast": true
+  }
+]

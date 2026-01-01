@@ -1,0 +1,162 @@
+[
+  {
+    "desc": "MODENA AUTOSTAZIONE",
+    "code": "MO346",
+    "islast": false
+  },
+  {
+    "desc": "Monte Kosica FS",
+    "code": "MO6118",
+    "islast": false
+  },
+  {
+    "desc": "Attiraglio",
+    "code": "MO556",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana scuole",
+    "code": "MO2625",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana bv Crocetta",
+    "code": "MO2629",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv Nonantolana",
+    "code": "MO2630",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv Cimone",
+    "code": "MO2632",
+    "islast": false
+  },
+  {
+    "desc": "Albareto scuola Gramsci",
+    "code": "MO2633",
+    "islast": false
+  },
+  {
+    "desc": "Albareto Fini",
+    "code": "MO2653",
+    "islast": false
+  },
+  {
+    "desc": "Mulini Nuovi",
+    "code": "MO2642",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv Sacerdoti",
+    "code": "MO2636",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv Tagliati",
+    "code": "MO2637",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv Bertola",
+    "code": "MO2638",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv Toni",
+    "code": "MO2639",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv Torricella",
+    "code": "MO2640",
+    "islast": false
+  },
+  {
+    "desc": "Albareto polisportiva",
+    "code": "MO2641",
+    "islast": false
+  },
+  {
+    "desc": "Albareto Chiesa",
+    "code": "MO333",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv dell'Acero",
+    "code": "MO334",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv Munarola",
+    "code": "MO2643",
+    "islast": false
+  },
+  {
+    "desc": "Albareto Fertilcoop",
+    "code": "MO2644",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv Dotta",
+    "code": "MO2645",
+    "islast": false
+  },
+  {
+    "desc": "San Clemente",
+    "code": "MO335",
+    "islast": false
+  },
+  {
+    "desc": "Casa Ghelfi",
+    "code": "MO336",
+    "islast": false
+  },
+  {
+    "desc": "Bastiglia Scuole",
+    "code": "MO1592",
+    "islast": false
+  },
+  {
+    "desc": "Bastiglia",
+    "code": "MO100",
+    "islast": false
+  },
+  {
+    "desc": "Sorbara",
+    "code": "MO313",
+    "islast": false
+  },
+  {
+    "desc": "Porcilaia",
+    "code": "MO345",
+    "islast": false
+  },
+  {
+    "desc": "Stazione",
+    "code": "MO788",
+    "islast": false
+  },
+  {
+    "desc": "Villaggio Artigiano",
+    "code": "MO349",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Vecchio",
+    "code": "MO790",
+    "islast": false
+  },
+  {
+    "desc": "Bomporto monumento",
+    "code": "MO770",
+    "islast": false
+  },
+  {
+    "desc": "Bomporto",
+    "code": "MO68",
+    "islast": true
+  }
+]

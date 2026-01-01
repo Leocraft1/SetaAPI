@@ -1,0 +1,67 @@
+[
+  {
+    "desc": "Pavullo Autostazione",
+    "code": "MO1590",
+    "islast": false
+  },
+  {
+    "desc": "San Pellegrino",
+    "code": "MO1349",
+    "islast": false
+  },
+  {
+    "desc": "Campo D'Aviazione",
+    "code": "MO1351",
+    "islast": false
+  },
+  {
+    "desc": "Querciagrossa",
+    "code": "MO1819",
+    "islast": false
+  },
+  {
+    "desc": "Gaiato bv",
+    "code": "MO3249",
+    "islast": false
+  },
+  {
+    "desc": "Pozzaccia",
+    "code": "MO1830",
+    "islast": false
+  },
+  {
+    "desc": "Albareto di Pavullo",
+    "code": "MO1831",
+    "islast": false
+  },
+  {
+    "desc": "Gaiato poste",
+    "code": "MO1833",
+    "islast": false
+  },
+  {
+    "desc": "Casa del Popolo",
+    "code": "MO1843",
+    "islast": false
+  },
+  {
+    "desc": "Cantone bv",
+    "code": "MO3256",
+    "islast": false
+  },
+  {
+    "desc": "Casa Calanca",
+    "code": "MO1847",
+    "islast": false
+  },
+  {
+    "desc": "Gaiato Chiesa",
+    "code": "MO3587",
+    "islast": false
+  },
+  {
+    "desc": "Gaiato caseificio",
+    "code": "MO3258",
+    "islast": true
+  }
+]

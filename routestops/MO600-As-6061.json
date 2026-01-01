@@ -1,0 +1,147 @@
+[
+  {
+    "desc": "Piandelagotti",
+    "code": "MO3710",
+    "islast": false
+  },
+  {
+    "desc": "Piane",
+    "code": "MO3708",
+    "islast": false
+  },
+  {
+    "desc": "Sermighino bv",
+    "code": "MO3706",
+    "islast": false
+  },
+  {
+    "desc": "Caseificio",
+    "code": "MO3705",
+    "islast": false
+  },
+  {
+    "desc": "Casa della Russa",
+    "code": "MO3704",
+    "islast": false
+  },
+  {
+    "desc": "Canalaccia",
+    "code": "MO3702",
+    "islast": false
+  },
+  {
+    "desc": "Raggia",
+    "code": "MO3460",
+    "islast": false
+  },
+  {
+    "desc": "Casa Rurale",
+    "code": "MO3452",
+    "islast": false
+  },
+  {
+    "desc": "Pietravolta",
+    "code": "MO3450",
+    "islast": false
+  },
+  {
+    "desc": "Monte Vecchio",
+    "code": "MO3448",
+    "islast": false
+  },
+  {
+    "desc": "Monte Nuovo",
+    "code": "MO3446",
+    "islast": false
+  },
+  {
+    "desc": "bv Gronda del mare",
+    "code": "MO3789",
+    "islast": false
+  },
+  {
+    "desc": "Ca' di Giannasi",
+    "code": "MO3050",
+    "islast": false
+  },
+  {
+    "desc": "Frassinoro ex scuole",
+    "code": "MO1601",
+    "islast": false
+  },
+  {
+    "desc": "Frassinoro",
+    "code": "MO1600",
+    "islast": false
+  },
+  {
+    "desc": "Tennis bar",
+    "code": "MO1602",
+    "islast": false
+  },
+  {
+    "desc": "Aradonica",
+    "code": "MO3098",
+    "islast": false
+  },
+  {
+    "desc": "Rimessa",
+    "code": "MO3096",
+    "islast": false
+  },
+  {
+    "desc": "Tolara",
+    "code": "MO3094",
+    "islast": false
+  },
+  {
+    "desc": "La Serra",
+    "code": "MO3092",
+    "islast": false
+  },
+  {
+    "desc": "Serradimigni",
+    "code": "MO3090",
+    "islast": false
+  },
+  {
+    "desc": "Lavacchio",
+    "code": "MO2974",
+    "islast": false
+  },
+  {
+    "desc": "Campo Cardero",
+    "code": "MO2972",
+    "islast": false
+  },
+  {
+    "desc": "La Verna",
+    "code": "MO2970",
+    "islast": false
+  },
+  {
+    "desc": "Casa Bocchi",
+    "code": "MO2968",
+    "islast": false
+  },
+  {
+    "desc": "Traghetti",
+    "code": "MO2966",
+    "islast": false
+  },
+  {
+    "desc": "Casa Gigli",
+    "code": "MO2964",
+    "islast": false
+  },
+  {
+    "desc": "Pianellino",
+    "code": "MO2962",
+    "islast": false
+  },
+  {
+    "desc": "Montefiorino",
+    "code": "MO2500",
+    "islast": true
+  }
+]

@@ -1,0 +1,262 @@
+[
+  {
+    "desc": "MODENA AUTOSTAZIONE",
+    "code": "MO346",
+    "islast": false
+  },
+  {
+    "desc": "Monte Kosica FS",
+    "code": "MO6118",
+    "islast": false
+  },
+  {
+    "desc": "Attiraglio",
+    "code": "MO556",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana scuole",
+    "code": "MO2625",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana bv Crocetta",
+    "code": "MO2629",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana",
+    "code": "MO143",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana bv Mar Adriatico",
+    "code": "MO332",
+    "islast": false
+  },
+  {
+    "desc": "Cavo Argine",
+    "code": "MO170",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana bv Cuba",
+    "code": "MO880",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Perlina",
+    "code": "MO888",
+    "islast": false
+  },
+  {
+    "desc": "Navicello scuole",
+    "code": "MO459",
+    "islast": false
+  },
+  {
+    "desc": "Navicello",
+    "code": "MO890",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv",
+    "code": "MO892",
+    "islast": false
+  },
+  {
+    "desc": "Metano",
+    "code": "MO425",
+    "islast": false
+  },
+  {
+    "desc": "Villavara",
+    "code": "MO427",
+    "islast": false
+  },
+  {
+    "desc": "Casa Sasso",
+    "code": "MO428",
+    "islast": false
+  },
+  {
+    "desc": "Ghiacciaia",
+    "code": "MO429",
+    "islast": false
+  },
+  {
+    "desc": "Casa Tosatti",
+    "code": "MO760",
+    "islast": false
+  },
+  {
+    "desc": "Bomporto",
+    "code": "MO68",
+    "islast": false
+  },
+  {
+    "desc": "Garuti",
+    "code": "MO341",
+    "islast": false
+  },
+  {
+    "desc": "Casoni",
+    "code": "MO2620",
+    "islast": false
+  },
+  {
+    "desc": "Casoni di Ravarino",
+    "code": "MO339",
+    "islast": false
+  },
+  {
+    "desc": "Rocchetta bv",
+    "code": "MO369",
+    "islast": false
+  },
+  {
+    "desc": "Rami",
+    "code": "MO373",
+    "islast": false
+  },
+  {
+    "desc": "Loberso",
+    "code": "MO375",
+    "islast": false
+  },
+  {
+    "desc": "Ravarino",
+    "code": "MO1974",
+    "islast": false
+  },
+  {
+    "desc": "Ravarino Dante",
+    "code": "MO824",
+    "islast": false
+  },
+  {
+    "desc": "Segheria",
+    "code": "MO379",
+    "islast": false
+  },
+  {
+    "desc": "Case Nuove",
+    "code": "MO381",
+    "islast": false
+  },
+  {
+    "desc": "Loreto",
+    "code": "MO830",
+    "islast": false
+  },
+  {
+    "desc": "Villa Stuffione",
+    "code": "MO383",
+    "islast": false
+  },
+  {
+    "desc": "Villa di Stuffione 1",
+    "code": "MO3262",
+    "islast": false
+  },
+  {
+    "desc": "Casa Balugani",
+    "code": "MO384",
+    "islast": false
+  },
+  {
+    "desc": "Stuffione",
+    "code": "MO385",
+    "islast": false
+  },
+  {
+    "desc": "Bedagna",
+    "code": "MO386",
+    "islast": false
+  },
+  {
+    "desc": "Casa Malagoli",
+    "code": "MO387",
+    "islast": false
+  },
+  {
+    "desc": "Camposanto Cimitero",
+    "code": "MO402",
+    "islast": false
+  },
+  {
+    "desc": "Camposanto",
+    "code": "MO3433",
+    "islast": false
+  },
+  {
+    "desc": "Passo Vecchio",
+    "code": "MO608",
+    "islast": false
+  },
+  {
+    "desc": "Ghirone",
+    "code": "MO607",
+    "islast": false
+  },
+  {
+    "desc": "Ca' De Coppi",
+    "code": "MO605",
+    "islast": false
+  },
+  {
+    "desc": "Hotel Paradiso",
+    "code": "MO1171",
+    "islast": false
+  },
+  {
+    "desc": "Cantone",
+    "code": "MO1164",
+    "islast": false
+  },
+  {
+    "desc": "Trattoria Marina",
+    "code": "MO1162",
+    "islast": false
+  },
+  {
+    "desc": "Ca' Bianca",
+    "code": "MO1160",
+    "islast": false
+  },
+  {
+    "desc": "Ca' Bianca scuole",
+    "code": "MO1158",
+    "islast": false
+  },
+  {
+    "desc": "San Luigi",
+    "code": "MO596",
+    "islast": false
+  },
+  {
+    "desc": "Ristorante Nuova Luce",
+    "code": "MO595",
+    "islast": false
+  },
+  {
+    "desc": "Canaletto scuole",
+    "code": "MO592",
+    "islast": false
+  },
+  {
+    "desc": "Casette",
+    "code": "MO594",
+    "islast": false
+  },
+  {
+    "desc": "Istituto agrario bv",
+    "code": "MO622",
+    "islast": false
+  },
+  {
+    "desc": "Finale Emilia Autostazione",
+    "code": "MO618",
+    "islast": true
+  }
+]

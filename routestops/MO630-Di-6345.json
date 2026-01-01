@@ -1,0 +1,52 @@
+[
+  {
+    "desc": "Varana",
+    "code": "MO1161",
+    "islast": false
+  },
+  {
+    "desc": "Pescarola bv",
+    "code": "MO1153",
+    "islast": false
+  },
+  {
+    "desc": "Casa Leoni",
+    "code": "MO1154",
+    "islast": false
+  },
+  {
+    "desc": "Palazzina",
+    "code": "MO1155",
+    "islast": false
+  },
+  {
+    "desc": "Serramazzoni bv",
+    "code": "MO1157",
+    "islast": false
+  },
+  {
+    "desc": "La Salda",
+    "code": "MO1159",
+    "islast": false
+  },
+  {
+    "desc": "San Pellegrinetto",
+    "code": "MO1150",
+    "islast": false
+  },
+  {
+    "desc": "Bar Carbonara",
+    "code": "MO1151",
+    "islast": false
+  },
+  {
+    "desc": "Faeto bv",
+    "code": "MO1168",
+    "islast": false
+  },
+  {
+    "desc": "Serramazzoni",
+    "code": "MO2352",
+    "islast": true
+  }
+]

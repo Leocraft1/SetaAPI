@@ -1,0 +1,197 @@
+[
+  {
+    "desc": "Nonantola Terminal",
+    "code": "MO3980",
+    "islast": false
+  },
+  {
+    "desc": "Aldo Moro",
+    "code": "MO3595",
+    "islast": false
+  },
+  {
+    "desc": "Maestra di Redu",
+    "code": "MO3597",
+    "islast": false
+  },
+  {
+    "desc": "Redu",
+    "code": "MO1270",
+    "islast": false
+  },
+  {
+    "desc": "Casinazzo",
+    "code": "MO1268",
+    "islast": false
+  },
+  {
+    "desc": "Recovato Chiesa",
+    "code": "MO1267",
+    "islast": false
+  },
+  {
+    "desc": "Recovato Mulino",
+    "code": "MO1266",
+    "islast": false
+  },
+  {
+    "desc": "Rondine",
+    "code": "MO1265",
+    "islast": false
+  },
+  {
+    "desc": "Al Ponte",
+    "code": "MO1264",
+    "islast": false
+  },
+  {
+    "desc": "La Mela",
+    "code": "MO1263",
+    "islast": false
+  },
+  {
+    "desc": "Pioppa",
+    "code": "MO1055",
+    "islast": false
+  },
+  {
+    "desc": "Panzano",
+    "code": "MO1260",
+    "islast": false
+  },
+  {
+    "desc": "Panzano bv 1",
+    "code": "MO1252",
+    "islast": false
+  },
+  {
+    "desc": "Gaggio",
+    "code": "MO1250",
+    "islast": false
+  },
+  {
+    "desc": "Olmo bv",
+    "code": "MO1244",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Sant'Ambrogio",
+    "code": "MO1234",
+    "islast": false
+  },
+  {
+    "desc": "Emila Est Ford",
+    "code": "MO1232",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est  Amadio",
+    "code": "MO263",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est Fossalta",
+    "code": "MO1230",
+    "islast": false
+  },
+  {
+    "desc": "Emilia est Bompani",
+    "code": "MO6369",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est bv Caduti sul Lavoro",
+    "code": "MO85",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est bv Fusco",
+    "code": "MO712",
+    "islast": false
+  },
+  {
+    "desc": "Direzionale Toscanini",
+    "code": "MO2693",
+    "islast": false
+  },
+  {
+    "desc": "Casa dello Studente",
+    "code": "MO6314",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est Mulino",
+    "code": "MO2671",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est Modena 118",
+    "code": "MO2660",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est Hotel Fini",
+    "code": "MO624",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est Finanza",
+    "code": "MO2657",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est bv S.Giovanni Bosco",
+    "code": "MO2656",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est Aci",
+    "code": "MO2654",
+    "islast": false
+  },
+  {
+    "desc": "GARIBALDI",
+    "code": "MO5112",
+    "islast": false
+  },
+  {
+    "desc": "Rimembranze ex Questura",
+    "code": "MO12",
+    "islast": false
+  },
+  {
+    "desc": "Risorgimento",
+    "code": "MO4",
+    "islast": false
+  },
+  {
+    "desc": "Ospedale Estense",
+    "code": "MO2594",
+    "islast": false
+  },
+  {
+    "desc": "MODENA  AUTOSTAZIONE",
+    "code": "MO5003",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Fermi",
+    "code": "MO2873",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Cattaneo",
+    "code": "MO6704",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Guarini",
+    "code": "MO6721",
+    "islast": false
+  },
+  {
+    "desc": "POLO LEONARDO",
+    "code": "MO217",
+    "islast": true
+  }
+]

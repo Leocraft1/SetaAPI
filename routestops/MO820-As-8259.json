@@ -1,0 +1,117 @@
+[
+  {
+    "desc": "Castelnuovo Rangone",
+    "code": "MO2919",
+    "islast": false
+  },
+  {
+    "desc": "Vilco",
+    "code": "MO1688",
+    "islast": false
+  },
+  {
+    "desc": "Montanara",
+    "code": "MO2983",
+    "islast": false
+  },
+  {
+    "desc": "Colombaro bv",
+    "code": "MO1660",
+    "islast": false
+  },
+  {
+    "desc": "Casa Roncaglia",
+    "code": "MO1466",
+    "islast": false
+  },
+  {
+    "desc": "Quattro Madonne",
+    "code": "MO1464",
+    "islast": false
+  },
+  {
+    "desc": "San Zeno",
+    "code": "MO1462",
+    "islast": false
+  },
+  {
+    "desc": "Montale bv Zenzalose",
+    "code": "MO3312",
+    "islast": false
+  },
+  {
+    "desc": "Montale",
+    "code": "MO1460",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Santa Lucia",
+    "code": "MO1458",
+    "islast": false
+  },
+  {
+    "desc": "San Martino del Mugnano",
+    "code": "MO1456",
+    "islast": false
+  },
+  {
+    "desc": "Santa Maria Mugnano",
+    "code": "MO1454",
+    "islast": false
+  },
+  {
+    "desc": "Santa Maria scuole",
+    "code": "MO1432",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese Istituto",
+    "code": "MO669",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese bv Saluzzo",
+    "code": "MO2741",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese Universita",
+    "code": "MO671",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese bv La Spezia",
+    "code": "MO673",
+    "islast": false
+  },
+  {
+    "desc": "Medaglie D'oro bv Bellinzona",
+    "code": "MO2791",
+    "islast": false
+  },
+  {
+    "desc": "GARIBALDI",
+    "code": "MO5112",
+    "islast": false
+  },
+  {
+    "desc": "Rimembranze ex Questura",
+    "code": "MO12",
+    "islast": false
+  },
+  {
+    "desc": "Risorgimento",
+    "code": "MO4",
+    "islast": false
+  },
+  {
+    "desc": "Ospedale Estense",
+    "code": "MO2594",
+    "islast": false
+  },
+  {
+    "desc": "MODENA AUTOSTAZIONE",
+    "code": "MO303",
+    "islast": true
+  }
+]

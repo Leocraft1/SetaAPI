@@ -1,0 +1,137 @@
+[
+  {
+    "desc": "POLO LEONARDO",
+    "code": "MO224",
+    "islast": false
+  },
+  {
+    "desc": "POLO LEONARDO 1",
+    "code": "MO2928",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Guarini",
+    "code": "MO2887",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Cattaneo",
+    "code": "MO2885",
+    "islast": false
+  },
+  {
+    "desc": "Croce Blu",
+    "code": "MO1346",
+    "islast": false
+  },
+  {
+    "desc": "Direzionale 70",
+    "code": "MO6611",
+    "islast": false
+  },
+  {
+    "desc": "Giardini bv Cimabue 1",
+    "code": "MO3237",
+    "islast": false
+  },
+  {
+    "desc": "Giardini bv Cimabue",
+    "code": "MO24",
+    "islast": false
+  },
+  {
+    "desc": "Giardini carcere",
+    "code": "MO6002",
+    "islast": false
+  },
+  {
+    "desc": "Saliceta San Giuliano",
+    "code": "MO6631",
+    "islast": false
+  },
+  {
+    "desc": "Santa Maria scuole",
+    "code": "MO702",
+    "islast": false
+  },
+  {
+    "desc": "Santa Maria Mugnano",
+    "code": "MO713",
+    "islast": false
+  },
+  {
+    "desc": "San Martino del Mugnano",
+    "code": "MO715",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Santa Lucia",
+    "code": "MO716",
+    "islast": false
+  },
+  {
+    "desc": "Montale",
+    "code": "MO717",
+    "islast": false
+  },
+  {
+    "desc": "Montale bv Zenzalose",
+    "code": "MO3313",
+    "islast": false
+  },
+  {
+    "desc": "San Zeno",
+    "code": "MO719",
+    "islast": false
+  },
+  {
+    "desc": "Quattro Madonne",
+    "code": "MO721",
+    "islast": false
+  },
+  {
+    "desc": "Casa Roncaglia",
+    "code": "MO722",
+    "islast": false
+  },
+  {
+    "desc": "Colombaro centro",
+    "code": "MO836",
+    "islast": false
+  },
+  {
+    "desc": "San Antonio",
+    "code": "MO2635",
+    "islast": false
+  },
+  {
+    "desc": "Colombaro bv",
+    "code": "MO835",
+    "islast": false
+  },
+  {
+    "desc": "Casa Colonica",
+    "code": "MO833",
+    "islast": false
+  },
+  {
+    "desc": "Casa Panini",
+    "code": "MO831",
+    "islast": false
+  },
+  {
+    "desc": "Pozza",
+    "code": "MO1650",
+    "islast": false
+  },
+  {
+    "desc": "Crociale Maranello",
+    "code": "MO827",
+    "islast": false
+  },
+  {
+    "desc": "MARANELLO TERMINAL",
+    "code": "MO3455",
+    "islast": true
+  }
+]

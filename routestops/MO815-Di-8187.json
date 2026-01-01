@@ -1,0 +1,147 @@
+[
+  {
+    "desc": "POLO LEONARDO",
+    "code": "MO224",
+    "islast": false
+  },
+  {
+    "desc": "POLO LEONARDO 1",
+    "code": "MO2928",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Guarini",
+    "code": "MO2887",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Cattaneo",
+    "code": "MO2885",
+    "islast": false
+  },
+  {
+    "desc": "Croce Blu",
+    "code": "MO1346",
+    "islast": false
+  },
+  {
+    "desc": "Direzionale 70",
+    "code": "MO6611",
+    "islast": false
+  },
+  {
+    "desc": "Giardini bv Cimabue 1",
+    "code": "MO3237",
+    "islast": false
+  },
+  {
+    "desc": "Giardini bv Cimabue",
+    "code": "MO24",
+    "islast": false
+  },
+  {
+    "desc": "Giardini carcere",
+    "code": "MO6002",
+    "islast": false
+  },
+  {
+    "desc": "Saliceta San Giuliano",
+    "code": "MO6631",
+    "islast": false
+  },
+  {
+    "desc": "Giardini Due Mulini",
+    "code": "MO6637",
+    "islast": false
+  },
+  {
+    "desc": "Giardini Simint",
+    "code": "MO6639",
+    "islast": false
+  },
+  {
+    "desc": "Baggiovara 1",
+    "code": "MO3487",
+    "islast": false
+  },
+  {
+    "desc": "Baggiovara",
+    "code": "MO726",
+    "islast": false
+  },
+  {
+    "desc": "La Bertola",
+    "code": "MO701",
+    "islast": false
+  },
+  {
+    "desc": "Casinalbo",
+    "code": "MO755",
+    "islast": false
+  },
+  {
+    "desc": "Formigine cartiera",
+    "code": "MO738",
+    "islast": false
+  },
+  {
+    "desc": "Molinella",
+    "code": "MO737",
+    "islast": false
+  },
+  {
+    "desc": "Formigine",
+    "code": "MO1500",
+    "islast": false
+  },
+  {
+    "desc": "Lar",
+    "code": "MO1560",
+    "islast": false
+  },
+  {
+    "desc": "Picchio Rosso",
+    "code": "MO1646",
+    "islast": false
+  },
+  {
+    "desc": "Ubersetto",
+    "code": "MO819",
+    "islast": false
+  },
+  {
+    "desc": "Saicis",
+    "code": "MO821",
+    "islast": false
+  },
+  {
+    "desc": "Saime",
+    "code": "MO823",
+    "islast": false
+  },
+  {
+    "desc": "Maranello Ferrari",
+    "code": "MO3803",
+    "islast": false
+  },
+  {
+    "desc": "Maranello IPSIA",
+    "code": "MO2564",
+    "islast": false
+  },
+  {
+    "desc": "Maranello Giardini",
+    "code": "MO3621",
+    "islast": false
+  },
+  {
+    "desc": "Maranello Grizzaga",
+    "code": "MO3457",
+    "islast": false
+  },
+  {
+    "desc": "MARANELLO TERMINAL",
+    "code": "MO3455",
+    "islast": true
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "desc": "Sassuolo Terminal",
+    "code": "MO2237",
+    "islast": false
+  },
+  {
+    "desc": "Stazione Sassuolo Radici",
+    "code": "MO2388",
+    "islast": false
+  },
+  {
+    "desc": "Radici in Monte bv Magenta",
+    "code": "MO779",
+    "islast": false
+  },
+  {
+    "desc": "Indipendenza",
+    "code": "MO1767",
+    "islast": false
+  },
+  {
+    "desc": "Indipendenza ex Questura",
+    "code": "MO1766",
+    "islast": false
+  },
+  {
+    "desc": "Montanara",
+    "code": "MO1768",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Nuovo",
+    "code": "MO1770",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Alto Nuovo",
+    "code": "MO911",
+    "islast": false
+  },
+  {
+    "desc": "Sarsa",
+    "code": "MO1011",
+    "islast": false
+  },
+  {
+    "desc": "Casa Zironi",
+    "code": "MO1012",
+    "islast": false
+  },
+  {
+    "desc": "Montegibbio",
+    "code": "MO1013",
+    "islast": true
+  }
+]

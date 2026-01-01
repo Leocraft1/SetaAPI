@@ -1,0 +1,27 @@
+[
+  {
+    "desc": "Istituto Guarini",
+    "code": "MO2887",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Cattaneo",
+    "code": "MO2885",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Fermi",
+    "code": "MO6720",
+    "islast": false
+  },
+  {
+    "desc": "Barozzi Planetario",
+    "code": "MO6700",
+    "islast": false
+  },
+  {
+    "desc": "MODENA AUTOSTAZIONE",
+    "code": "MO303",
+    "islast": true
+  }
+]

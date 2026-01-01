@@ -1,0 +1,177 @@
+[
+  {
+    "desc": "SANT'ANNA CAPOLINEA",
+    "code": "MO6910",
+    "islast": false
+  },
+  {
+    "desc": "Suore SETA",
+    "code": "MO6937",
+    "islast": false
+  },
+  {
+    "desc": "Suore bv Tangenziale",
+    "code": "MO3683",
+    "islast": false
+  },
+  {
+    "desc": "Suore bv Parenti",
+    "code": "MO3134",
+    "islast": false
+  },
+  {
+    "desc": "Cassiani",
+    "code": "MO3687",
+    "islast": false
+  },
+  {
+    "desc": "Anderlini asilo",
+    "code": "MO6947",
+    "islast": false
+  },
+  {
+    "desc": "Anderlini centro commerciale",
+    "code": "MO6948",
+    "islast": false
+  },
+  {
+    "desc": "Canaletto cantina Chiarli",
+    "code": "MO6945",
+    "islast": false
+  },
+  {
+    "desc": "Canaletto bv Soratore",
+    "code": "MO70",
+    "islast": false
+  },
+  {
+    "desc": "Scuole Marconi",
+    "code": "MO6915",
+    "islast": false
+  },
+  {
+    "desc": "Canaletto Coop",
+    "code": "MO6014",
+    "islast": false
+  },
+  {
+    "desc": "STAZIONE FS",
+    "code": "MO6119",
+    "islast": false
+  },
+  {
+    "desc": "Vittorio Emanuele",
+    "code": "MO6131",
+    "islast": false
+  },
+  {
+    "desc": "Croce Rossa",
+    "code": "MO6129",
+    "islast": false
+  },
+  {
+    "desc": "Piazza Roma",
+    "code": "MO6139",
+    "islast": false
+  },
+  {
+    "desc": "Canalgrande Biblioteca",
+    "code": "MO6135",
+    "islast": false
+  },
+  {
+    "desc": "Canalgrande bv Emilia Est",
+    "code": "MO6104",
+    "islast": false
+  },
+  {
+    "desc": "Emilia centro Posta",
+    "code": "MO6102",
+    "islast": false
+  },
+  {
+    "desc": "Piazza Mazzini",
+    "code": "MO6101",
+    "islast": false
+  },
+  {
+    "desc": "Piazza Matteotti",
+    "code": "MO6106",
+    "islast": false
+  },
+  {
+    "desc": "Sant'Agostino museo",
+    "code": "MO6109",
+    "islast": false
+  },
+  {
+    "desc": "Ospedale Estense",
+    "code": "MO6173",
+    "islast": false
+  },
+  {
+    "desc": "Vittorio Veneto bv Trombi",
+    "code": "MO6171",
+    "islast": false
+  },
+  {
+    "desc": "Risorgimento",
+    "code": "MO20",
+    "islast": false
+  },
+  {
+    "desc": "Giardini villa Fogliani",
+    "code": "MO6601",
+    "islast": false
+  },
+  {
+    "desc": "Giardini Polizia Stradale",
+    "code": "MO6603",
+    "islast": false
+  },
+  {
+    "desc": "Teatro Michelangelo",
+    "code": "MO22",
+    "islast": false
+  },
+  {
+    "desc": "Giardini Donatello",
+    "code": "MO6607",
+    "islast": false
+  },
+  {
+    "desc": "Croce Blu",
+    "code": "MO1346",
+    "islast": false
+  },
+  {
+    "desc": "Direzionale 70",
+    "code": "MO6611",
+    "islast": false
+  },
+  {
+    "desc": "Giardini bv Cimabue 1",
+    "code": "MO3237",
+    "islast": false
+  },
+  {
+    "desc": "Forlanini",
+    "code": "MO6615",
+    "islast": false
+  },
+  {
+    "desc": "Zodiaco bv Luzzo",
+    "code": "MO6008",
+    "islast": false
+  },
+  {
+    "desc": "Zodiaco bv Varoli",
+    "code": "MO6617",
+    "islast": false
+  },
+  {
+    "desc": "ZODIACO",
+    "code": "MO6618",
+    "islast": true
+  }
+]

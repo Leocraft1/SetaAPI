@@ -1,0 +1,77 @@
+[
+  {
+    "desc": "Serramazzoni",
+    "code": "MO4200",
+    "islast": false
+  },
+  {
+    "desc": "Faeto bv",
+    "code": "MO2160",
+    "islast": false
+  },
+  {
+    "desc": "Bar Carbonara",
+    "code": "MO2132",
+    "islast": false
+  },
+  {
+    "desc": "San Pellegrinetto",
+    "code": "MO2130",
+    "islast": false
+  },
+  {
+    "desc": "La Salda",
+    "code": "MO2148",
+    "islast": false
+  },
+  {
+    "desc": "Serramazzoni bv",
+    "code": "MO2146",
+    "islast": false
+  },
+  {
+    "desc": "Palazzina",
+    "code": "MO2144",
+    "islast": false
+  },
+  {
+    "desc": "Casa Leoni",
+    "code": "MO2142",
+    "islast": false
+  },
+  {
+    "desc": "Pescarola bv",
+    "code": "MO2140",
+    "islast": false
+  },
+  {
+    "desc": "Varana",
+    "code": "MO2150",
+    "islast": false
+  },
+  {
+    "desc": "Croce Di Varana",
+    "code": "MO2152",
+    "islast": false
+  },
+  {
+    "desc": "Casa Marchetti",
+    "code": "MO2154",
+    "islast": false
+  },
+  {
+    "desc": "San Donnino di Varana",
+    "code": "MO2156",
+    "islast": false
+  },
+  {
+    "desc": "La Croce",
+    "code": "MO2158",
+    "islast": false
+  },
+  {
+    "desc": "Montebaranzone",
+    "code": "MO1920",
+    "islast": true
+  }
+]

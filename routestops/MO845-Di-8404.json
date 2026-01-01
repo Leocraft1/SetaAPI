@@ -1,0 +1,87 @@
+[
+  {
+    "desc": "Pievepelago Autostazione",
+    "code": "MO3104",
+    "islast": false
+  },
+  {
+    "desc": "Pievepelago",
+    "code": "MO1714",
+    "islast": false
+  },
+  {
+    "desc": "Pievepelago scuole",
+    "code": "MO1717",
+    "islast": false
+  },
+  {
+    "desc": "Sant'Anna bv",
+    "code": "MO1719",
+    "islast": false
+  },
+  {
+    "desc": "Isola Lunga",
+    "code": "MO2167",
+    "islast": false
+  },
+  {
+    "desc": "Tagliole bv",
+    "code": "MO2166",
+    "islast": false
+  },
+  {
+    "desc": "Cadagnolo",
+    "code": "MO2165",
+    "islast": false
+  },
+  {
+    "desc": "Casa Fossi",
+    "code": "MO2164",
+    "islast": false
+  },
+  {
+    "desc": "Casa Ghinozzi",
+    "code": "MO2163",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Sant'Anna",
+    "code": "MO2162",
+    "islast": false
+  },
+  {
+    "desc": "Torre",
+    "code": "MO2161",
+    "islast": false
+  },
+  {
+    "desc": "Sant'Anna Pelago",
+    "code": "MO2159",
+    "islast": false
+  },
+  {
+    "desc": "Selva Romanesca",
+    "code": "MO3780",
+    "islast": false
+  },
+  {
+    "desc": "Casa bianca",
+    "code": "MO2155",
+    "islast": false
+  },
+  {
+    "desc": "Casa Marco",
+    "code": "MO2153",
+    "islast": false
+  },
+  {
+    "desc": "Sega",
+    "code": "MO2151",
+    "islast": false
+  },
+  {
+    "desc": "Casa Carzoli",
+    "code": "MO2149",
+    "islast": true
+  }
+]

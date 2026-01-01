@@ -1,0 +1,82 @@
+[
+  {
+    "desc": "Torre Delle Oche",
+    "code": "MO1945",
+    "islast": false
+  },
+  {
+    "desc": "Case Bianche",
+    "code": "MO806",
+    "islast": false
+  },
+  {
+    "desc": "San Rocco",
+    "code": "MO799",
+    "islast": false
+  },
+  {
+    "desc": "Bursi scuola",
+    "code": "MO805",
+    "islast": false
+  },
+  {
+    "desc": "Chianca",
+    "code": "MO807",
+    "islast": false
+  },
+  {
+    "desc": "Spezzano asilo",
+    "code": "MO808",
+    "islast": false
+  },
+  {
+    "desc": "Ghiarella",
+    "code": "MO4049",
+    "islast": false
+  },
+  {
+    "desc": "Spezzano Crociale",
+    "code": "MO795",
+    "islast": false
+  },
+  {
+    "desc": "La Corona",
+    "code": "MO793",
+    "islast": false
+  },
+  {
+    "desc": "Case Nuove",
+    "code": "MO789",
+    "islast": false
+  },
+  {
+    "desc": "Fiorano Modenese",
+    "code": "MO4011",
+    "islast": false
+  },
+  {
+    "desc": "Fiorano San Francesco",
+    "code": "MO4007",
+    "islast": false
+  },
+  {
+    "desc": "Po",
+    "code": "MO2463",
+    "islast": false
+  },
+  {
+    "desc": "Braida Lavatoio",
+    "code": "MO2244",
+    "islast": false
+  },
+  {
+    "desc": "Baggi istituto",
+    "code": "MO2839",
+    "islast": false
+  },
+  {
+    "desc": "Sassuolo Terminal",
+    "code": "MO4000",
+    "islast": true
+  }
+]

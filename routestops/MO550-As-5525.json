@@ -1,0 +1,32 @@
+[
+  {
+    "desc": "Correggio",
+    "code": "MO4900",
+    "islast": false
+  },
+  {
+    "desc": "Vittorio Veneto",
+    "code": "MO4903",
+    "islast": false
+  },
+  {
+    "desc": "Cappuccini",
+    "code": "MO4905",
+    "islast": false
+  },
+  {
+    "desc": "Ponte San Biagio",
+    "code": "MO4909",
+    "islast": false
+  },
+  {
+    "desc": "San Martino in Rio",
+    "code": "MO4911",
+    "islast": false
+  },
+  {
+    "desc": "Roma",
+    "code": "MO2553",
+    "islast": true
+  }
+]

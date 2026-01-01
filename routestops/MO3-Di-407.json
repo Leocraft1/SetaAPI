@@ -1,0 +1,222 @@
+[
+  {
+    "desc": "VACIGLIO",
+    "code": "MO3309",
+    "islast": false
+  },
+  {
+    "desc": "Morane",
+    "code": "MO7312",
+    "islast": false
+  },
+  {
+    "desc": "Dalla Chiesa bv Ghiaroni",
+    "code": "MO6555",
+    "islast": false
+  },
+  {
+    "desc": "Dalla Chiesa bv Tobagi",
+    "code": "MO6557",
+    "islast": false
+  },
+  {
+    "desc": "Dalla Chiesa asilo",
+    "code": "MO6552",
+    "islast": false
+  },
+  {
+    "desc": "MATTARELLA",
+    "code": "MO233",
+    "islast": false
+  },
+  {
+    "desc": "Casalegno rotonda",
+    "code": "MO6573",
+    "islast": false
+  },
+  {
+    "desc": "Dalla Chiesa bv Tobagi",
+    "code": "MO2804",
+    "islast": false
+  },
+  {
+    "desc": "Dalla Chiesa bv Ghiaroni",
+    "code": "MO2803",
+    "islast": false
+  },
+  {
+    "desc": "Liguria",
+    "code": "MO2802",
+    "islast": false
+  },
+  {
+    "desc": "Magenta bv del Garda",
+    "code": "MO2801",
+    "islast": false
+  },
+  {
+    "desc": "Magenta bv Vigevano",
+    "code": "MO2799",
+    "islast": false
+  },
+  {
+    "desc": "Ventimiglia bv Torino",
+    "code": "MO2733",
+    "islast": false
+  },
+  {
+    "desc": "Ventimiglia bv Albenga",
+    "code": "MO2732",
+    "islast": false
+  },
+  {
+    "desc": "San Remo",
+    "code": "MO2731",
+    "islast": false
+  },
+  {
+    "desc": "La Spezia bv Oneglia",
+    "code": "MO2729",
+    "islast": false
+  },
+  {
+    "desc": "La Spezia bv Vignolese",
+    "code": "MO2728",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese bv La Spezia",
+    "code": "MO673",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese Gambero",
+    "code": "MO2727",
+    "islast": false
+  },
+  {
+    "desc": "Cucchiari bv Manzoni",
+    "code": "MO135",
+    "islast": false
+  },
+  {
+    "desc": "Medaglie D'oro bv Bellinzona",
+    "code": "MO2791",
+    "islast": false
+  },
+  {
+    "desc": "Medaglie D' oro",
+    "code": "MO164",
+    "islast": false
+  },
+  {
+    "desc": "Fabrizi",
+    "code": "MO3649",
+    "islast": false
+  },
+  {
+    "desc": "Prefettura",
+    "code": "MO6156",
+    "islast": false
+  },
+  {
+    "desc": "GARIBALDI",
+    "code": "MO9",
+    "islast": false
+  },
+  {
+    "desc": "Caduti in guerra",
+    "code": "MO2589",
+    "islast": false
+  },
+  {
+    "desc": "Caduti in guerra orto botanico",
+    "code": "MO2596",
+    "islast": false
+  },
+  {
+    "desc": "Caduti in guerra giardini",
+    "code": "MO2611",
+    "islast": false
+  },
+  {
+    "desc": "Caduti in guerra Tempio",
+    "code": "MO2587",
+    "islast": false
+  },
+  {
+    "desc": "STAZIONE FS",
+    "code": "MO6119",
+    "islast": false
+  },
+  {
+    "desc": "Attiraglio",
+    "code": "MO556",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana scuole",
+    "code": "MO2625",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana bv Cuboni",
+    "code": "MO2627",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana bv Crocetta",
+    "code": "MO2629",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana",
+    "code": "MO143",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana Torrenova",
+    "code": "MO2616",
+    "islast": false
+  },
+  {
+    "desc": "Mar Tirreno bv Mar Nero",
+    "code": "MO2862",
+    "islast": false
+  },
+  {
+    "desc": "Mar Tirreno asilo",
+    "code": "MO187",
+    "islast": false
+  },
+  {
+    "desc": "Santa Caterina bv Mar Tirreno",
+    "code": "MO1718",
+    "islast": false
+  },
+  {
+    "desc": "Santa Caterina",
+    "code": "MO2846",
+    "islast": false
+  },
+  {
+    "desc": "Montefiorino 1",
+    "code": "MO3811",
+    "islast": false
+  },
+  {
+    "desc": "Montefiorino",
+    "code": "MO78",
+    "islast": false
+  },
+  {
+    "desc": "Montefiorino bv dell'Ossola",
+    "code": "MO6225",
+    "islast": false
+  },
+  {
+    "desc": "Cap. MONTEFIORINO",
+    "code": "MO3799",
+    "islast": true
+  }
+]

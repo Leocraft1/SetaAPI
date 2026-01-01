@@ -1,0 +1,157 @@
+[
+  {
+    "desc": "Vignola Autostazione",
+    "code": "MO4507",
+    "islast": false
+  },
+  {
+    "desc": "La Vigna",
+    "code": "MO2410",
+    "islast": false
+  },
+  {
+    "desc": "Il Gessiere",
+    "code": "MO4608",
+    "islast": false
+  },
+  {
+    "desc": "Barozzi scuola",
+    "code": "MO4603",
+    "islast": false
+  },
+  {
+    "desc": "Vignola centro",
+    "code": "MO3709",
+    "islast": false
+  },
+  {
+    "desc": "Vignola FP",
+    "code": "MO3707",
+    "islast": false
+  },
+  {
+    "desc": "Vignola cimitero",
+    "code": "MO3703",
+    "islast": false
+  },
+  {
+    "desc": "Tassoni",
+    "code": "MO3701",
+    "islast": false
+  },
+  {
+    "desc": "Brodano",
+    "code": "MO4614",
+    "islast": false
+  },
+  {
+    "desc": "Centro commerciale",
+    "code": "MO3261",
+    "islast": false
+  },
+  {
+    "desc": "Confine",
+    "code": "MO2040",
+    "islast": false
+  },
+  {
+    "desc": "Sitma",
+    "code": "MO2701",
+    "islast": false
+  },
+  {
+    "desc": "San Pellegrino",
+    "code": "MO2036",
+    "islast": false
+  },
+  {
+    "desc": "Spilamberto",
+    "code": "MO4500",
+    "islast": false
+  },
+  {
+    "desc": "Berlinguer",
+    "code": "MO2987",
+    "islast": false
+  },
+  {
+    "desc": "Cellini",
+    "code": "MO4504",
+    "islast": false
+  },
+  {
+    "desc": "Baranzona",
+    "code": "MO1716",
+    "islast": false
+  },
+  {
+    "desc": "Sant'Eusebio",
+    "code": "MO1720",
+    "islast": false
+  },
+  {
+    "desc": "Belvedere",
+    "code": "MO1722",
+    "islast": false
+  },
+  {
+    "desc": "Settecani",
+    "code": "MO1710",
+    "islast": false
+  },
+  {
+    "desc": "Castelnuovo Case Nuove",
+    "code": "MO4073",
+    "islast": false
+  },
+  {
+    "desc": "Acquedotto",
+    "code": "MO1690",
+    "islast": false
+  },
+  {
+    "desc": "Castelnuovo Rangone",
+    "code": "MO2919",
+    "islast": false
+  },
+  {
+    "desc": "Vilco",
+    "code": "MO1688",
+    "islast": false
+  },
+  {
+    "desc": "Montanara",
+    "code": "MO2983",
+    "islast": false
+  },
+  {
+    "desc": "Colombaro bv",
+    "code": "MO835",
+    "islast": false
+  },
+  {
+    "desc": "Casa Colonica",
+    "code": "MO833",
+    "islast": false
+  },
+  {
+    "desc": "Casa Panini",
+    "code": "MO831",
+    "islast": false
+  },
+  {
+    "desc": "Pozza",
+    "code": "MO1650",
+    "islast": false
+  },
+  {
+    "desc": "Crociale Maranello",
+    "code": "MO827",
+    "islast": false
+  },
+  {
+    "desc": "MARANELLO TERMINAL",
+    "code": "MO3455",
+    "islast": true
+  }
+]

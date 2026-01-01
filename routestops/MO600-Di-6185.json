@@ -1,0 +1,112 @@
+[
+  {
+    "desc": "Montefiorino",
+    "code": "MO2500",
+    "islast": false
+  },
+  {
+    "desc": "USL",
+    "code": "MO1361",
+    "islast": false
+  },
+  {
+    "desc": "Caribe",
+    "code": "MO1562",
+    "islast": false
+  },
+  {
+    "desc": "Casa Volpe",
+    "code": "MO3638",
+    "islast": false
+  },
+  {
+    "desc": "Pianezzo",
+    "code": "MO2948",
+    "islast": false
+  },
+  {
+    "desc": "Casola",
+    "code": "MO2960",
+    "islast": false
+  },
+  {
+    "desc": "Sordomuti istituto",
+    "code": "MO2959",
+    "islast": false
+  },
+  {
+    "desc": "Mulino Calicetti",
+    "code": "MO2952",
+    "islast": false
+  },
+  {
+    "desc": "Lago",
+    "code": "MO2953",
+    "islast": false
+  },
+  {
+    "desc": "Lago bv",
+    "code": "MO2954",
+    "islast": false
+  },
+  {
+    "desc": "Il Sasso",
+    "code": "MO2955",
+    "islast": false
+  },
+  {
+    "desc": "Sassatella",
+    "code": "MO2956",
+    "islast": false
+  },
+  {
+    "desc": "Ronchi",
+    "code": "MO2957",
+    "islast": false
+  },
+  {
+    "desc": "Zona B",
+    "code": "MO2958",
+    "islast": false
+  },
+  {
+    "desc": "Spervara",
+    "code": "MO3060",
+    "islast": false
+  },
+  {
+    "desc": "Spervara bv",
+    "code": "MO3058",
+    "islast": false
+  },
+  {
+    "desc": "Spervara di Sopra",
+    "code": "MO3062",
+    "islast": false
+  },
+  {
+    "desc": "Case Bruciate",
+    "code": "MO3054",
+    "islast": false
+  },
+  {
+    "desc": "Ca' Facchini",
+    "code": "MO3052",
+    "islast": false
+  },
+  {
+    "desc": "Frassinoro scuole",
+    "code": "MO3851",
+    "islast": false
+  },
+  {
+    "desc": "Frassinoro",
+    "code": "MO3629",
+    "islast": false
+  },
+  {
+    "desc": "Frassinoro",
+    "code": "MO784",
+    "islast": true
+  }
+]

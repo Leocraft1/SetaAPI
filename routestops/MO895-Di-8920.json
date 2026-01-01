@@ -1,0 +1,132 @@
+[
+  {
+    "desc": "Pavullo autostazione",
+    "code": "MO1381",
+    "islast": false
+  },
+  {
+    "desc": "Mascagni bv Toscanini",
+    "code": "MO1599",
+    "islast": false
+  },
+  {
+    "desc": "Martiri di Renno",
+    "code": "MO1647",
+    "islast": false
+  },
+  {
+    "desc": "Nuvolari",
+    "code": "MO1603",
+    "islast": false
+  },
+  {
+    "desc": "Zanello",
+    "code": "MO1649",
+    "islast": false
+  },
+  {
+    "desc": "La Sbrugna",
+    "code": "MO3991",
+    "islast": false
+  },
+  {
+    "desc": "Mediana",
+    "code": "MO3760",
+    "islast": false
+  },
+  {
+    "desc": "Verdi",
+    "code": "MO1641",
+    "islast": false
+  },
+  {
+    "desc": "Bellini",
+    "code": "MO1639",
+    "islast": false
+  },
+  {
+    "desc": "San Pellegrino",
+    "code": "MO1349",
+    "islast": false
+  },
+  {
+    "desc": "Garibaldi bv Mazzini",
+    "code": "MO2805",
+    "islast": false
+  },
+  {
+    "desc": "Garibaldi",
+    "code": "MO1656",
+    "islast": false
+  },
+  {
+    "desc": "Budria",
+    "code": "MO1821",
+    "islast": false
+  },
+  {
+    "desc": "Turati",
+    "code": "MO1658",
+    "islast": false
+  },
+  {
+    "desc": "Pastore",
+    "code": "MO1849",
+    "islast": false
+  },
+  {
+    "desc": "Foscolo scuole",
+    "code": "MO3004",
+    "islast": false
+  },
+  {
+    "desc": "Corsini cimitero",
+    "code": "MO1593",
+    "islast": false
+  },
+  {
+    "desc": "Gober",
+    "code": "MO1683",
+    "islast": false
+  },
+  {
+    "desc": "Ex pesa",
+    "code": "MO3468",
+    "islast": false
+  },
+  {
+    "desc": "Ospedale",
+    "code": "MO6964",
+    "islast": false
+  },
+  {
+    "desc": "Martiri elementare",
+    "code": "MO1686",
+    "islast": false
+  },
+  {
+    "desc": "Giardini comunita' montana",
+    "code": "MO1687",
+    "islast": false
+  },
+  {
+    "desc": "Giardini bv Delle Ville",
+    "code": "MO1689",
+    "islast": false
+  },
+  {
+    "desc": "Dante",
+    "code": "MO2793",
+    "islast": false
+  },
+  {
+    "desc": "Bar Pineta",
+    "code": "MO1696",
+    "islast": false
+  },
+  {
+    "desc": "Le Aie",
+    "code": "MO1372",
+    "islast": false
+  }
+]

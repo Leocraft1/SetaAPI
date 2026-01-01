@@ -1,0 +1,117 @@
+[
+  {
+    "desc": "CARPI TERMINAL BUS",
+    "code": "MO519",
+    "islast": false
+  },
+  {
+    "desc": "Peruzzi 3",
+    "code": "MO8330",
+    "islast": false
+  },
+  {
+    "desc": "Guastalla 2",
+    "code": "MO463",
+    "islast": false
+  },
+  {
+    "desc": "Guastalla 1",
+    "code": "MO461",
+    "islast": false
+  },
+  {
+    "desc": "Guastalla",
+    "code": "MO462",
+    "islast": false
+  },
+  {
+    "desc": "Migliarina chiesa",
+    "code": "MO458",
+    "islast": false
+  },
+  {
+    "desc": "Lunga",
+    "code": "MO456",
+    "islast": false
+  },
+  {
+    "desc": "Roma bv",
+    "code": "MO460",
+    "islast": false
+  },
+  {
+    "desc": "Migliarina",
+    "code": "MO455",
+    "islast": false
+  },
+  {
+    "desc": "Budrione bv",
+    "code": "MO4615",
+    "islast": false
+  },
+  {
+    "desc": "Budrione",
+    "code": "MO450",
+    "islast": false
+  },
+  {
+    "desc": "Budrione scuole",
+    "code": "MO454",
+    "islast": false
+  },
+  {
+    "desc": "Mar Nero",
+    "code": "MO139",
+    "islast": false
+  },
+  {
+    "desc": "Fossoli",
+    "code": "MO190",
+    "islast": false
+  },
+  {
+    "desc": "Fossoli zona industriale",
+    "code": "MO1791",
+    "islast": false
+  },
+  {
+    "desc": "Lux",
+    "code": "MO1756",
+    "islast": false
+  },
+  {
+    "desc": "Scuole medie",
+    "code": "MO186",
+    "islast": false
+  },
+  {
+    "desc": "Remesina 3",
+    "code": "MO3209",
+    "islast": false
+  },
+  {
+    "desc": "Remesina 2",
+    "code": "MO3227",
+    "islast": false
+  },
+  {
+    "desc": "Remesina 1",
+    "code": "MO61",
+    "islast": false
+  },
+  {
+    "desc": "Piscine",
+    "code": "MO8534",
+    "islast": false
+  },
+  {
+    "desc": "Peruzzi 3",
+    "code": "MO3482",
+    "islast": false
+  },
+  {
+    "desc": "Peruzzi 2",
+    "code": "MO3373",
+    "islast": false
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "desc": "Vignola Autostazione",
+    "code": "MO4512",
+    "islast": false
+  },
+  {
+    "desc": "La Vigna",
+    "code": "MO2410",
+    "islast": false
+  },
+  {
+    "desc": "Pievina",
+    "code": "MO2405",
+    "islast": false
+  },
+  {
+    "desc": "Tavernelle",
+    "code": "MO1059",
+    "islast": false
+  },
+  {
+    "desc": "Berso Delle Rose",
+    "code": "MO1058",
+    "islast": false
+  },
+  {
+    "desc": "Casa Ricchi",
+    "code": "MO1057",
+    "islast": false
+  },
+  {
+    "desc": "Marano",
+    "code": "MO2000",
+    "islast": false
+  },
+  {
+    "desc": "Piano",
+    "code": "MO4731",
+    "islast": false
+  },
+  {
+    "desc": "Rodiano 1",
+    "code": "MO3816",
+    "islast": false
+  },
+  {
+    "desc": "Rodiano",
+    "code": "MO4729",
+    "islast": false
+  },
+  {
+    "desc": "San Gaetano",
+    "code": "MO4727",
+    "islast": false
+  },
+  {
+    "desc": "Ospitaletto",
+    "code": "MO4725",
+    "islast": false
+  },
+  {
+    "desc": "Siggiola",
+    "code": "MO4721",
+    "islast": false
+  },
+  {
+    "desc": "Crocetta bv",
+    "code": "MO2340",
+    "islast": false
+  },
+  {
+    "desc": "Osteria Vecchia",
+    "code": "MO2212",
+    "islast": false
+  },
+  {
+    "desc": "Ricco",
+    "code": "MO2210",
+    "islast": false
+  },
+  {
+    "desc": "Ricco",
+    "code": "MO4794",
+    "islast": false
+  },
+  {
+    "desc": "Osteria Vecchia",
+    "code": "MO1198",
+    "islast": false
+  },
+  {
+    "desc": "Crocetta bv",
+    "code": "MO1284",
+    "islast": false
+  },
+  {
+    "desc": "San Dalmazio",
+    "code": "MO1285",
+    "islast": false
+  },
+  {
+    "desc": "Malandrone",
+    "code": "MO1283",
+    "islast": false
+  },
+  {
+    "desc": "Casa Rotonda",
+    "code": "MO1281",
+    "islast": false
+  },
+  {
+    "desc": "Casa Cantoniera",
+    "code": "MO1280",
+    "islast": false
+  },
+  {
+    "desc": "Casa Grossi",
+    "code": "MO1279",
+    "islast": false
+  },
+  {
+    "desc": "Casa Piccola scuola",
+    "code": "MO1278",
+    "islast": false
+  },
+  {
+    "desc": "Monfestino bv",
+    "code": "MO1277",
+    "islast": false
+  },
+  {
+    "desc": "Serramazzoni cimitero",
+    "code": "MO4203",
+    "islast": false
+  },
+  {
+    "desc": "Serramazzoni",
+    "code": "MO2352",
+    "islast": true
+  }
+]

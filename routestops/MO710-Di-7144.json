@@ -1,0 +1,87 @@
+[
+  {
+    "desc": "Zocca Circonvallazione",
+    "code": "MO1765",
+    "islast": false
+  },
+  {
+    "desc": "Zocca periferia",
+    "code": "MO4702",
+    "islast": false
+  },
+  {
+    "desc": "Pediera",
+    "code": "MO2812",
+    "islast": false
+  },
+  {
+    "desc": "Monteombraro bv",
+    "code": "MO2740",
+    "islast": false
+  },
+  {
+    "desc": "Derna",
+    "code": "MO2742",
+    "islast": false
+  },
+  {
+    "desc": "Giostra",
+    "code": "MO2744",
+    "islast": false
+  },
+  {
+    "desc": "Ginevra",
+    "code": "MO2746",
+    "islast": false
+  },
+  {
+    "desc": "Samone distributore",
+    "code": "MO1426",
+    "islast": false
+  },
+  {
+    "desc": "Samone",
+    "code": "MO1427",
+    "islast": false
+  },
+  {
+    "desc": "Samone bv Serra",
+    "code": "MO3445",
+    "islast": false
+  },
+  {
+    "desc": "Missano bv",
+    "code": "MO1433",
+    "islast": false
+  },
+  {
+    "desc": "Gainazzo bv",
+    "code": "MO1431",
+    "islast": false
+  },
+  {
+    "desc": "Salda",
+    "code": "MO1430",
+    "islast": false
+  },
+  {
+    "desc": "Ponte",
+    "code": "MO1429",
+    "islast": false
+  },
+  {
+    "desc": "Casolare",
+    "code": "MO1956",
+    "islast": false
+  },
+  {
+    "desc": "Verica casa cantoniera",
+    "code": "MO1955",
+    "islast": false
+  },
+  {
+    "desc": "Ristorante Martino",
+    "code": "MO1938",
+    "islast": true
+  }
+]

@@ -1,0 +1,117 @@
+[
+  {
+    "desc": "Bastiglia",
+    "code": "MO100",
+    "islast": false
+  },
+  {
+    "desc": "Sorbara",
+    "code": "MO313",
+    "islast": false
+  },
+  {
+    "desc": "Sorbara",
+    "code": "MO3514",
+    "islast": false
+  },
+  {
+    "desc": "Sorbara_",
+    "code": "MO3516",
+    "islast": false
+  },
+  {
+    "desc": "Il Cristo",
+    "code": "MO319",
+    "islast": false
+  },
+  {
+    "desc": "Casinone",
+    "code": "MO315",
+    "islast": false
+  },
+  {
+    "desc": "San Pietro in Elda",
+    "code": "MO311",
+    "islast": false
+  },
+  {
+    "desc": "Verdeta caseificio",
+    "code": "MO406",
+    "islast": false
+  },
+  {
+    "desc": "Staggia Stazione",
+    "code": "MO407",
+    "islast": false
+  },
+  {
+    "desc": "Staggia",
+    "code": "MO408",
+    "islast": false
+  },
+  {
+    "desc": "Rovere Caseificio",
+    "code": "MO409",
+    "islast": false
+  },
+  {
+    "desc": "Villafranca scuole",
+    "code": "MO413",
+    "islast": false
+  },
+  {
+    "desc": "Villafranca",
+    "code": "MO415",
+    "islast": false
+  },
+  {
+    "desc": "Villa Romana",
+    "code": "MO416",
+    "islast": false
+  },
+  {
+    "desc": "Medolla Autostazione",
+    "code": "MO488",
+    "islast": false
+  },
+  {
+    "desc": "Medolla",
+    "code": "MO1131",
+    "islast": false
+  },
+  {
+    "desc": "Bruino bv Gandi",
+    "code": "MO3119",
+    "islast": false
+  },
+  {
+    "desc": "Camurana",
+    "code": "MO509",
+    "islast": false
+  },
+  {
+    "desc": "Camurana Stazione",
+    "code": "MO522",
+    "islast": false
+  },
+  {
+    "desc": "Fontana maglificio",
+    "code": "MO521",
+    "islast": false
+  },
+  {
+    "desc": "Carrozzeria Barbi",
+    "code": "MO1064",
+    "islast": false
+  },
+  {
+    "desc": "Barozzi scuole",
+    "code": "MO1187",
+    "islast": false
+  },
+  {
+    "desc": "Mirandola Terminal",
+    "code": "MO3973",
+    "islast": true
+  }
+]

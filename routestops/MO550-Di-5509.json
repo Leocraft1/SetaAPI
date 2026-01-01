@@ -1,0 +1,102 @@
+[
+  {
+    "desc": "MODENA AUTOSTAZIONE",
+    "code": "MO344",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest bv Autodromo",
+    "code": "MO13",
+    "islast": false
+  },
+  {
+    "desc": "Nazionale per Carpi",
+    "code": "MO3067",
+    "islast": false
+  },
+  {
+    "desc": "Nazionale per Carpi bv Bembo",
+    "code": "MO6869",
+    "islast": false
+  },
+  {
+    "desc": "San Pancrazio",
+    "code": "MO18",
+    "islast": false
+  },
+  {
+    "desc": "Cavalcatoia",
+    "code": "MO4928",
+    "islast": false
+  },
+  {
+    "desc": "Quattro Madonne",
+    "code": "MO4932",
+    "islast": false
+  },
+  {
+    "desc": "Europa",
+    "code": "MO4901",
+    "islast": false
+  },
+  {
+    "desc": "Dogana",
+    "code": "MO4930",
+    "islast": false
+  },
+  {
+    "desc": "Campogalliano",
+    "code": "MO4920",
+    "islast": false
+  },
+  {
+    "desc": "San Martino",
+    "code": "MO235",
+    "islast": false
+  },
+  {
+    "desc": "Rubiera bv",
+    "code": "MO4914",
+    "islast": false
+  },
+  {
+    "desc": "Osteriola di San Martino",
+    "code": "MO4912",
+    "islast": false
+  },
+  {
+    "desc": "Mora",
+    "code": "MO4910",
+    "islast": false
+  },
+  {
+    "desc": "Roma",
+    "code": "MO2554",
+    "islast": false
+  },
+  {
+    "desc": "San Martino in Rio",
+    "code": "MO4908",
+    "islast": false
+  },
+  {
+    "desc": "Ponte San Biagio",
+    "code": "MO4906",
+    "islast": false
+  },
+  {
+    "desc": "Cappuccini",
+    "code": "MO4904",
+    "islast": false
+  },
+  {
+    "desc": "Vittorio Veneto",
+    "code": "MO4902",
+    "islast": false
+  },
+  {
+    "desc": "Correggio",
+    "code": "MO4900",
+    "islast": true
+  }
+]

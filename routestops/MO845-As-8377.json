@@ -1,0 +1,232 @@
+[
+  {
+    "desc": "Pievepelago Autostazione",
+    "code": "MO3104",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Fola",
+    "code": "MO3758",
+    "islast": false
+  },
+  {
+    "desc": "Riolunato",
+    "code": "MO3500",
+    "islast": false
+  },
+  {
+    "desc": "Riolino",
+    "code": "MO3536",
+    "islast": false
+  },
+  {
+    "desc": "Bv Le Polle",
+    "code": "MO3588",
+    "islast": false
+  },
+  {
+    "desc": "Borra di Ronco",
+    "code": "MO3538",
+    "islast": false
+  },
+  {
+    "desc": "Magrignana",
+    "code": "MO3540",
+    "islast": false
+  },
+  {
+    "desc": "Strettara bv",
+    "code": "MO3542",
+    "islast": false
+  },
+  {
+    "desc": "Incrocio via del Pozzo",
+    "code": "MO3659",
+    "islast": false
+  },
+  {
+    "desc": "Montecreto forno",
+    "code": "MO4294",
+    "islast": false
+  },
+  {
+    "desc": "Tangenziale Montecreto",
+    "code": "MO3611",
+    "islast": false
+  },
+  {
+    "desc": "Ronco bv",
+    "code": "MO2035",
+    "islast": false
+  },
+  {
+    "desc": "Bandita",
+    "code": "MO2037",
+    "islast": false
+  },
+  {
+    "desc": "Acquaria bv",
+    "code": "MO2039",
+    "islast": false
+  },
+  {
+    "desc": "Roncoscaglia 1",
+    "code": "MO3685",
+    "islast": false
+  },
+  {
+    "desc": "Roncoscaglia",
+    "code": "MO3560",
+    "islast": false
+  },
+  {
+    "desc": "Roncoscaglia 1",
+    "code": "MO3689",
+    "islast": false
+  },
+  {
+    "desc": "Acquaria bv",
+    "code": "MO3549",
+    "islast": false
+  },
+  {
+    "desc": "Maesta",
+    "code": "MO3552",
+    "islast": false
+  },
+  {
+    "desc": "Il Piano",
+    "code": "MO3554",
+    "islast": false
+  },
+  {
+    "desc": "Casa Vernese",
+    "code": "MO3556",
+    "islast": false
+  },
+  {
+    "desc": "Acquaria",
+    "code": "MO3150",
+    "islast": false
+  },
+  {
+    "desc": "Le Sreghe",
+    "code": "MO3152",
+    "islast": false
+  },
+  {
+    "desc": "La Croce",
+    "code": "MO3153",
+    "islast": false
+  },
+  {
+    "desc": "La Villa",
+    "code": "MO3154",
+    "islast": false
+  },
+  {
+    "desc": "Casa Busotto",
+    "code": "MO3155",
+    "islast": false
+  },
+  {
+    "desc": "Caselle",
+    "code": "MO3156",
+    "islast": false
+  },
+  {
+    "desc": "Rovinella",
+    "code": "MO3157",
+    "islast": false
+  },
+  {
+    "desc": "Pian Della Valle",
+    "code": "MO3160",
+    "islast": false
+  },
+  {
+    "desc": "Casa Barduzzi Olina",
+    "code": "MO3162",
+    "islast": false
+  },
+  {
+    "desc": "Baldina",
+    "code": "MO3164",
+    "islast": false
+  },
+  {
+    "desc": "Suore",
+    "code": "MO3165",
+    "islast": false
+  },
+  {
+    "desc": "La Teggia",
+    "code": "MO3167",
+    "islast": false
+  },
+  {
+    "desc": "Ca' D'Olina",
+    "code": "MO3166",
+    "islast": false
+  },
+  {
+    "desc": "Alpino",
+    "code": "MO3168",
+    "islast": false
+  },
+  {
+    "desc": "Olina",
+    "code": "MO3170",
+    "islast": false
+  },
+  {
+    "desc": "Camatta 1",
+    "code": "MO3568",
+    "islast": false
+  },
+  {
+    "desc": "Camatta",
+    "code": "MO3172",
+    "islast": false
+  },
+  {
+    "desc": "Gaianello",
+    "code": "MO3190",
+    "islast": false
+  },
+  {
+    "desc": "Pratolino",
+    "code": "MO3210",
+    "islast": false
+  },
+  {
+    "desc": "Piantacroce",
+    "code": "MO3218",
+    "islast": false
+  },
+  {
+    "desc": "Renno bv",
+    "code": "MO3220",
+    "islast": false
+  },
+  {
+    "desc": "Querciagrossa",
+    "code": "MO3240",
+    "islast": false
+  },
+  {
+    "desc": "Campo D'Aviazione",
+    "code": "MO2482",
+    "islast": false
+  },
+  {
+    "desc": "San Pellegrino",
+    "code": "MO2480",
+    "islast": false
+  },
+  {
+    "desc": "Pavullo Autostazione",
+    "code": "MO3000",
+    "islast": true
+  }
+]

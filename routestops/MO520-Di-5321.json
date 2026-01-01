@@ -1,0 +1,167 @@
+[
+  {
+    "desc": "CARPI TERMINAL BUS",
+    "code": "MO493",
+    "islast": false
+  },
+  {
+    "desc": "P.le Ramazzini",
+    "code": "MO466",
+    "islast": false
+  },
+  {
+    "desc": "Stadio",
+    "code": "MO8554",
+    "islast": false
+  },
+  {
+    "desc": "Alghisi 2",
+    "code": "MO8538",
+    "islast": false
+  },
+  {
+    "desc": "Stazione FS",
+    "code": "MO506",
+    "islast": false
+  },
+  {
+    "desc": "Ariosto",
+    "code": "MO8328",
+    "islast": false
+  },
+  {
+    "desc": "Cibeno farmacia",
+    "code": "MO433",
+    "islast": false
+  },
+  {
+    "desc": "Cibeno",
+    "code": "MO437",
+    "islast": false
+  },
+  {
+    "desc": "San Marino bv",
+    "code": "MO439",
+    "islast": false
+  },
+  {
+    "desc": "San Marino",
+    "code": "MO443",
+    "islast": false
+  },
+  {
+    "desc": "Ponticelli",
+    "code": "MO445",
+    "islast": false
+  },
+  {
+    "desc": "Bottega Guerzoni",
+    "code": "MO446",
+    "islast": false
+  },
+  {
+    "desc": "Rovereto Industriale est",
+    "code": "MO464",
+    "islast": false
+  },
+  {
+    "desc": "Caselle",
+    "code": "MO465",
+    "islast": false
+  },
+  {
+    "desc": "Benzi bv",
+    "code": "MO449",
+    "islast": false
+  },
+  {
+    "desc": "Rovereto",
+    "code": "MO470",
+    "islast": false
+  },
+  {
+    "desc": "25 Aprile",
+    "code": "MO676",
+    "islast": false
+  },
+  {
+    "desc": "Sant'Antonio bv",
+    "code": "MO758",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Pioppa",
+    "code": "MO475",
+    "islast": false
+  },
+  {
+    "desc": "Corte Santa Chiara",
+    "code": "MO477",
+    "islast": false
+  },
+  {
+    "desc": "Forcello",
+    "code": "MO1066",
+    "islast": false
+  },
+  {
+    "desc": "Coop Bellaria",
+    "code": "MO480",
+    "islast": false
+  },
+  {
+    "desc": "Torre Pellacani",
+    "code": "MO1419",
+    "islast": false
+  },
+  {
+    "desc": "Cappelletta",
+    "code": "MO1422",
+    "islast": false
+  },
+  {
+    "desc": "San Possidonio",
+    "code": "MO2191",
+    "islast": false
+  },
+  {
+    "desc": "Malcantone",
+    "code": "MO1434",
+    "islast": false
+  },
+  {
+    "desc": "Battaglia",
+    "code": "MO1439",
+    "islast": false
+  },
+  {
+    "desc": "Palazzo Taccoli",
+    "code": "MO1441",
+    "islast": false
+  },
+  {
+    "desc": "Concordia centro",
+    "code": "MO512",
+    "islast": false
+  },
+  {
+    "desc": "Concordia",
+    "code": "MO1000",
+    "islast": false
+  },
+  {
+    "desc": "Rossello bv",
+    "code": "MO390",
+    "islast": false
+  },
+  {
+    "desc": "Canonica",
+    "code": "MO392",
+    "islast": false
+  },
+  {
+    "desc": "Vallalta",
+    "code": "MO410",
+    "islast": true
+  }
+]

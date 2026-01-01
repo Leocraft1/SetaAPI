@@ -1,0 +1,117 @@
+[
+  {
+    "desc": "Ristorante Martino",
+    "code": "MO3340",
+    "islast": false
+  },
+  {
+    "desc": "Verica casa cantoniera",
+    "code": "MO3352",
+    "islast": false
+  },
+  {
+    "desc": "Casolare",
+    "code": "MO3354",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Samone",
+    "code": "MO1334",
+    "islast": false
+  },
+  {
+    "desc": "Molino Palette",
+    "code": "MO2416",
+    "islast": false
+  },
+  {
+    "desc": "Casa Giannini",
+    "code": "MO2415",
+    "islast": false
+  },
+  {
+    "desc": "Festa casa cantoniera",
+    "code": "MO2414",
+    "islast": false
+  },
+  {
+    "desc": "Casa Bonetti",
+    "code": "MO2412",
+    "islast": false
+  },
+  {
+    "desc": "Casona bv",
+    "code": "MO2430",
+    "islast": false
+  },
+  {
+    "desc": "Casona",
+    "code": "MO2432",
+    "islast": false
+  },
+  {
+    "desc": "Ristorante Saionara",
+    "code": "MO2433",
+    "islast": false
+  },
+  {
+    "desc": "Provincia 2",
+    "code": "MO2431",
+    "islast": false
+  },
+  {
+    "desc": "Provincia 1",
+    "code": "MO2434",
+    "islast": false
+  },
+  {
+    "desc": "Marano fornace",
+    "code": "MO2435",
+    "islast": false
+  },
+  {
+    "desc": "Via Pavullese",
+    "code": "MO3339",
+    "islast": false
+  },
+  {
+    "desc": "Casa Bonetti 1",
+    "code": "MO2436",
+    "islast": false
+  },
+  {
+    "desc": "Marano",
+    "code": "MO2000",
+    "islast": false
+  },
+  {
+    "desc": "Casa Ricchi",
+    "code": "MO2002",
+    "islast": false
+  },
+  {
+    "desc": "Berso Delle Rose",
+    "code": "MO2003",
+    "islast": false
+  },
+  {
+    "desc": "Tavernelle",
+    "code": "MO2004",
+    "islast": false
+  },
+  {
+    "desc": "Pievina",
+    "code": "MO4610",
+    "islast": false
+  },
+  {
+    "desc": "La Vigna",
+    "code": "MO4616",
+    "islast": false
+  },
+  {
+    "desc": "Vignola Autostazione",
+    "code": "MO4600",
+    "islast": true
+  }
+]

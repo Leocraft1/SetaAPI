@@ -1,0 +1,67 @@
+[
+  {
+    "desc": "Mirandola FS",
+    "code": "MO6968",
+    "islast": false
+  },
+  {
+    "desc": "Viale Gramsci Cividale Carrobbio",
+    "code": "MO2223",
+    "islast": false
+  },
+  {
+    "desc": "Viale Gramsci Farmacia",
+    "code": "MO1685",
+    "islast": false
+  },
+  {
+    "desc": "Cividale chiesa",
+    "code": "MO3397",
+    "islast": false
+  },
+  {
+    "desc": "Gramsci bv 2 giugno",
+    "code": "MO3942",
+    "islast": false
+  },
+  {
+    "desc": "Cividale zuccherificio",
+    "code": "MO1079",
+    "islast": false
+  },
+  {
+    "desc": "Viale Gramsci bocciofila",
+    "code": "MO3719",
+    "islast": false
+  },
+  {
+    "desc": "Viale Gramsci mulino rotonda",
+    "code": "MO3724",
+    "islast": false
+  },
+  {
+    "desc": "Mirandola Centro",
+    "code": "MO3531",
+    "islast": false
+  },
+  {
+    "desc": "Mirandola Circonvallazione",
+    "code": "MO8502",
+    "islast": false
+  },
+  {
+    "desc": "Mirandola Ospedale",
+    "code": "MO2203",
+    "islast": false
+  },
+  {
+    "desc": "Barozzi scuole",
+    "code": "MO1187",
+    "islast": false
+  },
+  {
+    "desc": "Mirandola Terminal",
+    "code": "MO3974",
+    "islast": true
+  }
+]

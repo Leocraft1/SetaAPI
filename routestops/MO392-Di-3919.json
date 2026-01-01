@@ -1,0 +1,32 @@
+[
+  {
+    "desc": "MODENA AUTOSTAZIONE",
+    "code": "MO3",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Fermi",
+    "code": "MO2873",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Cattaneo",
+    "code": "MO6704",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Guarini",
+    "code": "MO6721",
+    "islast": false
+  },
+  {
+    "desc": "Formigina bv Cannizzaro",
+    "code": "MO6733",
+    "islast": false
+  },
+  {
+    "desc": "POLO LEONARDO",
+    "code": "MO217",
+    "islast": true
+  }
+]

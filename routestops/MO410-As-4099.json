@@ -1,0 +1,97 @@
+[
+  {
+    "desc": "Camposanto",
+    "code": "MO3433",
+    "islast": false
+  },
+  {
+    "desc": "Camposanto Cimitero",
+    "code": "MO163",
+    "islast": false
+  },
+  {
+    "desc": "Casa Malagoli",
+    "code": "MO844",
+    "islast": false
+  },
+  {
+    "desc": "Bedagna",
+    "code": "MO842",
+    "islast": false
+  },
+  {
+    "desc": "Stuffione",
+    "code": "MO840",
+    "islast": false
+  },
+  {
+    "desc": "Casa Balugani",
+    "code": "MO834",
+    "islast": false
+  },
+  {
+    "desc": "Villa Stuffione",
+    "code": "MO832",
+    "islast": false
+  },
+  {
+    "desc": "Loreto",
+    "code": "MO382",
+    "islast": false
+  },
+  {
+    "desc": "Case Nuove",
+    "code": "MO828",
+    "islast": false
+  },
+  {
+    "desc": "Segheria",
+    "code": "MO826",
+    "islast": false
+  },
+  {
+    "desc": "Ravarino Dante",
+    "code": "MO377",
+    "islast": false
+  },
+  {
+    "desc": "Ravarino",
+    "code": "MO3400",
+    "islast": false
+  },
+  {
+    "desc": "Loberso",
+    "code": "MO822",
+    "islast": false
+  },
+  {
+    "desc": "Rami",
+    "code": "MO820",
+    "islast": false
+  },
+  {
+    "desc": "Rocchetta bv",
+    "code": "MO810",
+    "islast": false
+  },
+  {
+    "desc": "Casoni di Ravarino",
+    "code": "MO2842",
+    "islast": false
+  },
+  {
+    "desc": "Casoni",
+    "code": "MO766",
+    "islast": false
+  },
+  {
+    "desc": "Garuti",
+    "code": "MO768",
+    "islast": false
+  },
+  {
+    "desc": "Bomporto",
+    "code": "MO68",
+    "islast": true
+  }
+]

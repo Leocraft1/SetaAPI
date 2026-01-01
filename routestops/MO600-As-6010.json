@@ -1,0 +1,277 @@
+[
+  {
+    "desc": "Frassinoro",
+    "code": "MO3631",
+    "islast": false
+  },
+  {
+    "desc": "Frassinoro scuole",
+    "code": "MO2198",
+    "islast": false
+  },
+  {
+    "desc": "Ca' Facchini",
+    "code": "MO1678",
+    "islast": false
+  },
+  {
+    "desc": "Case Bruciate",
+    "code": "MO1681",
+    "islast": false
+  },
+  {
+    "desc": "Spervara di Sopra",
+    "code": "MO1693",
+    "islast": false
+  },
+  {
+    "desc": "Spervara bv",
+    "code": "MO1995",
+    "islast": false
+  },
+  {
+    "desc": "Spervara",
+    "code": "MO1691",
+    "islast": false
+  },
+  {
+    "desc": "Zona B",
+    "code": "MO1571",
+    "islast": false
+  },
+  {
+    "desc": "Ronchi",
+    "code": "MO1569",
+    "islast": false
+  },
+  {
+    "desc": "Sassatella",
+    "code": "MO1568",
+    "islast": false
+  },
+  {
+    "desc": "Il Sasso",
+    "code": "MO1567",
+    "islast": false
+  },
+  {
+    "desc": "Lago bv",
+    "code": "MO1566",
+    "islast": false
+  },
+  {
+    "desc": "Lago",
+    "code": "MO1565",
+    "islast": false
+  },
+  {
+    "desc": "Mulino Calicetti",
+    "code": "MO1564",
+    "islast": false
+  },
+  {
+    "desc": "Sordomuti istituto",
+    "code": "MO1572",
+    "islast": false
+  },
+  {
+    "desc": "Casola",
+    "code": "MO1573",
+    "islast": false
+  },
+  {
+    "desc": "Pianezzo",
+    "code": "MO1563",
+    "islast": false
+  },
+  {
+    "desc": "Casa Volpe",
+    "code": "MO3633",
+    "islast": false
+  },
+  {
+    "desc": "Casa Monte",
+    "code": "MO1549",
+    "islast": false
+  },
+  {
+    "desc": "Vitriola bv",
+    "code": "MO1522",
+    "islast": false
+  },
+  {
+    "desc": "Vitriola",
+    "code": "MO1523",
+    "islast": false
+  },
+  {
+    "desc": "Vitriola",
+    "code": "MO2920",
+    "islast": false
+  },
+  {
+    "desc": "Vitriola bv",
+    "code": "MO2910",
+    "islast": false
+  },
+  {
+    "desc": "Boschi",
+    "code": "MO2836",
+    "islast": false
+  },
+  {
+    "desc": "Casa Sabatini",
+    "code": "MO2838",
+    "islast": false
+  },
+  {
+    "desc": "Chilometro 39 e 800",
+    "code": "MO2840",
+    "islast": false
+  },
+  {
+    "desc": "Rubbiano bv",
+    "code": "MO2850",
+    "islast": false
+  },
+  {
+    "desc": "Case Nuove",
+    "code": "MO2834",
+    "islast": false
+  },
+  {
+    "desc": "Montestefano",
+    "code": "MO2833",
+    "islast": false
+  },
+  {
+    "desc": "Casa Quaranta",
+    "code": "MO2832",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Dolo",
+    "code": "MO2830",
+    "islast": false
+  },
+  {
+    "desc": "Le Buche",
+    "code": "MO2059",
+    "islast": false
+  },
+  {
+    "desc": "Ca' Cerredolo",
+    "code": "MO2069",
+    "islast": false
+  },
+  {
+    "desc": "Cerredolo",
+    "code": "MO1839",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Secchia",
+    "code": "MO2242",
+    "islast": false
+  },
+  {
+    "desc": "Poggio del Bue",
+    "code": "MO2062",
+    "islast": false
+  },
+  {
+    "desc": "Muraglione",
+    "code": "MO2063",
+    "islast": false
+  },
+  {
+    "desc": "La Pesa",
+    "code": "MO2065",
+    "islast": false
+  },
+  {
+    "desc": "Casa Nuova",
+    "code": "MO1844",
+    "islast": false
+  },
+  {
+    "desc": "Cavriana",
+    "code": "MO1846",
+    "islast": false
+  },
+  {
+    "desc": "Villabianca",
+    "code": "MO1835",
+    "islast": false
+  },
+  {
+    "desc": "Castellarano",
+    "code": "MO1850",
+    "islast": false
+  },
+  {
+    "desc": "Villaggio",
+    "code": "MO1852",
+    "islast": false
+  },
+  {
+    "desc": "Tressano",
+    "code": "MO1856",
+    "islast": false
+  },
+  {
+    "desc": "Tressano fornace",
+    "code": "MO811",
+    "islast": false
+  },
+  {
+    "desc": "Veggia ceramica",
+    "code": "MO809",
+    "islast": false
+  },
+  {
+    "desc": "Veggia",
+    "code": "MO1760",
+    "islast": false
+  },
+  {
+    "desc": "Indipendenza",
+    "code": "MO1767",
+    "islast": false
+  },
+  {
+    "desc": "Indipendenza ex Questura",
+    "code": "MO1766",
+    "islast": false
+  },
+  {
+    "desc": "Montanara",
+    "code": "MO1768",
+    "islast": false
+  },
+  {
+    "desc": "Piscine",
+    "code": "MO2330",
+    "islast": false
+  },
+  {
+    "desc": "Mazzini",
+    "code": "MO2545",
+    "islast": false
+  },
+  {
+    "desc": "Risorgimento",
+    "code": "MO2233",
+    "islast": false
+  },
+  {
+    "desc": "Braida Ist. Baggi",
+    "code": "MO2772",
+    "islast": false
+  },
+  {
+    "desc": "Sassuolo Terminal",
+    "code": "MO4000",
+    "islast": true
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "desc": "Polo Scolastico",
+    "code": "MO2965",
+    "islast": false
+  },
+  {
+    "desc": "Montanara",
+    "code": "MO908",
+    "islast": false
+  },
+  {
+    "desc": "Indipendenza ex Questura",
+    "code": "MO906",
+    "islast": false
+  },
+  {
+    "desc": "Bologna scuole",
+    "code": "MO904",
+    "islast": false
+  },
+  {
+    "desc": "Ancora bv",
+    "code": "MO1570",
+    "islast": false
+  },
+  {
+    "desc": "Radici in Monte bv Liberta",
+    "code": "MO2391",
+    "islast": false
+  },
+  {
+    "desc": "Sassuolo Terminal",
+    "code": "MO2237",
+    "islast": false
+  },
+  {
+    "desc": "Prampolini",
+    "code": "MO2273",
+    "islast": false
+  },
+  {
+    "desc": "Baggi istituto",
+    "code": "MO2810",
+    "islast": false
+  },
+  {
+    "desc": "Braida Lavatoio",
+    "code": "MO4005",
+    "islast": false
+  },
+  {
+    "desc": "Po",
+    "code": "MO2464",
+    "islast": false
+  },
+  {
+    "desc": "Fiorano San Francesco",
+    "code": "MO4006",
+    "islast": false
+  },
+  {
+    "desc": "Fiorano Modenese",
+    "code": "MO4010",
+    "islast": false
+  },
+  {
+    "desc": "Case Nuove",
+    "code": "MO1608",
+    "islast": false
+  },
+  {
+    "desc": "La Corona",
+    "code": "MO1610",
+    "islast": false
+  },
+  {
+    "desc": "Spezzano Crociale",
+    "code": "MO1612",
+    "islast": false
+  },
+  {
+    "desc": "Ghiarella",
+    "code": "MO4059",
+    "islast": false
+  },
+  {
+    "desc": "Spezzano asilo",
+    "code": "MO1626",
+    "islast": false
+  },
+  {
+    "desc": "Chianca",
+    "code": "MO1625",
+    "islast": false
+  },
+  {
+    "desc": "Bursi scuola",
+    "code": "MO1623",
+    "islast": false
+  },
+  {
+    "desc": "San Rocco",
+    "code": "MO1622",
+    "islast": false
+  },
+  {
+    "desc": "Case Bianche",
+    "code": "MO1624",
+    "islast": false
+  },
+  {
+    "desc": "Ca Mariani",
+    "code": "MO3277",
+    "islast": false
+  },
+  {
+    "desc": "Torre Delle Oche",
+    "code": "MO1945",
+    "islast": true
+  }
+]

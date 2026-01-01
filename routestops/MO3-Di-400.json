@@ -1,0 +1,57 @@
+[
+  {
+    "desc": "STAZIONE FS",
+    "code": "MO6119",
+    "islast": false
+  },
+  {
+    "desc": "Attiraglio",
+    "code": "MO556",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana scuole",
+    "code": "MO2625",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana bv Cuboni",
+    "code": "MO2627",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana bv Crocetta",
+    "code": "MO2629",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana",
+    "code": "MO143",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana Torrenova",
+    "code": "MO2616",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana bv Mar Adriatico",
+    "code": "MO332",
+    "islast": false
+  },
+  {
+    "desc": "Cavo Argine",
+    "code": "MO170",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana bv Cuba",
+    "code": "MO880",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana 1010",
+    "code": "MO6170",
+    "islast": true
+  }
+]

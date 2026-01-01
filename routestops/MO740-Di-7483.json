@@ -1,0 +1,207 @@
+[
+  {
+    "desc": "MODENA AUTOSTAZIONE",
+    "code": "MO303",
+    "islast": false
+  },
+  {
+    "desc": "Risorgimento",
+    "code": "MO20",
+    "islast": false
+  },
+  {
+    "desc": "Rimembranze ex Questura",
+    "code": "MO42",
+    "islast": false
+  },
+  {
+    "desc": "GARIBALDI",
+    "code": "MO5111",
+    "islast": false
+  },
+  {
+    "desc": "Piazza Manzoni",
+    "code": "MO11",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese bv La Spezia",
+    "code": "MO1364",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese Universita",
+    "code": "MO1362",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese bv Saluzzo",
+    "code": "MO6439",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese Istituto",
+    "code": "MO1360",
+    "islast": false
+  },
+  {
+    "desc": "Santa Maria scuole",
+    "code": "MO702",
+    "islast": false
+  },
+  {
+    "desc": "Santa Maria Mugnano",
+    "code": "MO713",
+    "islast": false
+  },
+  {
+    "desc": "San Martino del Mugnano",
+    "code": "MO715",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Santa Lucia",
+    "code": "MO716",
+    "islast": false
+  },
+  {
+    "desc": "Montale",
+    "code": "MO717",
+    "islast": false
+  },
+  {
+    "desc": "Montale bv Zenzalose",
+    "code": "MO3313",
+    "islast": false
+  },
+  {
+    "desc": "San Zeno",
+    "code": "MO719",
+    "islast": false
+  },
+  {
+    "desc": "Quattro Madonne",
+    "code": "MO721",
+    "islast": false
+  },
+  {
+    "desc": "Casa Roncaglia",
+    "code": "MO722",
+    "islast": false
+  },
+  {
+    "desc": "Colombaro bv",
+    "code": "MO835",
+    "islast": false
+  },
+  {
+    "desc": "Casa Colonica",
+    "code": "MO833",
+    "islast": false
+  },
+  {
+    "desc": "Casa Panini",
+    "code": "MO831",
+    "islast": false
+  },
+  {
+    "desc": "Ceramica Sant'Anna",
+    "code": "MO1668",
+    "islast": false
+  },
+  {
+    "desc": "Grillenzone bv",
+    "code": "MO1666",
+    "islast": false
+  },
+  {
+    "desc": "Bar Cacciatori Solignano",
+    "code": "MO1679",
+    "islast": false
+  },
+  {
+    "desc": "Solignano",
+    "code": "MO1680",
+    "islast": false
+  },
+  {
+    "desc": "Ca' del Fabbro",
+    "code": "MO1682",
+    "islast": false
+  },
+  {
+    "desc": "Statale 569",
+    "code": "MO2835",
+    "islast": false
+  },
+  {
+    "desc": "Gavello Mulino",
+    "code": "MO1684",
+    "islast": false
+  },
+  {
+    "desc": "Ca' di Sola",
+    "code": "MO1730",
+    "islast": false
+  },
+  {
+    "desc": "Spezzatona",
+    "code": "MO1732",
+    "islast": false
+  },
+  {
+    "desc": "Casone",
+    "code": "MO1734",
+    "islast": false
+  },
+  {
+    "desc": "Castelvetro",
+    "code": "MO800",
+    "islast": false
+  },
+  {
+    "desc": "Giardino",
+    "code": "MO802",
+    "islast": false
+  },
+  {
+    "desc": "Palona",
+    "code": "MO803",
+    "islast": false
+  },
+  {
+    "desc": "Gatta",
+    "code": "MO804",
+    "islast": false
+  },
+  {
+    "desc": "Ca' Molza",
+    "code": "MO4594",
+    "islast": false
+  },
+  {
+    "desc": "San Pietro",
+    "code": "MO4596",
+    "islast": false
+  },
+  {
+    "desc": "Due Ponti",
+    "code": "MO4598",
+    "islast": false
+  },
+  {
+    "desc": "Campiglio bv",
+    "code": "MO4602",
+    "islast": false
+  },
+  {
+    "desc": "La Vigna",
+    "code": "MO4616",
+    "islast": false
+  },
+  {
+    "desc": "Vignola Autostazione",
+    "code": "MO4506",
+    "islast": true
+  }
+]

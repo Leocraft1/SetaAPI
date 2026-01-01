@@ -1,0 +1,782 @@
+[
+  {
+    "desc": "Autostazione",
+    "code": "MOPV1000",
+    "islast": false
+  },
+  {
+    "desc": "Ospedale",
+    "code": "MOPV942",
+    "islast": false
+  },
+  {
+    "desc": "Martiri elementare",
+    "code": "MOPV943",
+    "islast": false
+  },
+  {
+    "desc": "Borelli piazza",
+    "code": "MOPV959",
+    "islast": false
+  },
+  {
+    "desc": "Pavullo Scuole",
+    "code": "MOPV603",
+    "islast": false
+  },
+  {
+    "desc": "Pavullo Scuole",
+    "code": "MOPV604",
+    "islast": false
+  },
+  {
+    "desc": "Giannelli Poste",
+    "code": "MOPV957",
+    "islast": false
+  },
+  {
+    "desc": "F.lli Bandiera",
+    "code": "MOPV973",
+    "islast": false
+  },
+  {
+    "desc": "Mameli",
+    "code": "MOPV999",
+    "islast": false
+  },
+  {
+    "desc": "Bellei",
+    "code": "MOPV955",
+    "islast": false
+  },
+  {
+    "desc": "Le Aie",
+    "code": "MOPV132",
+    "islast": false
+  },
+  {
+    "desc": "Le Aie",
+    "code": "MOPV131",
+    "islast": false
+  },
+  {
+    "desc": "Comunita montana",
+    "code": "MOPV946",
+    "islast": false
+  },
+  {
+    "desc": "Giardini comunita' montana",
+    "code": "MOPV947",
+    "islast": false
+  },
+  {
+    "desc": "GiardinI bv Delle Ville",
+    "code": "MOPV949",
+    "islast": false
+  },
+  {
+    "desc": "Bar Pineta",
+    "code": "MOPV953",
+    "islast": false
+  },
+  {
+    "desc": "Bar Pineta",
+    "code": "MOPV952",
+    "islast": false
+  },
+  {
+    "desc": "Capanne",
+    "code": "MOPV129",
+    "islast": false
+  },
+  {
+    "desc": "Capanne",
+    "code": "MOPV130",
+    "islast": false
+  },
+  {
+    "desc": "Dante",
+    "code": "MOPV951",
+    "islast": false
+  },
+  {
+    "desc": "Piave 2",
+    "code": "MOPV971",
+    "islast": false
+  },
+  {
+    "desc": "Piave 1",
+    "code": "MOPV997",
+    "islast": false
+  },
+  {
+    "desc": "Po 1",
+    "code": "MOPV965",
+    "islast": false
+  },
+  {
+    "desc": "Po 2",
+    "code": "MOPV967",
+    "islast": false
+  },
+  {
+    "desc": "Virgilio",
+    "code": "MOPV969",
+    "islast": false
+  },
+  {
+    "desc": "Ragazzi 99 1",
+    "code": "MOPV961",
+    "islast": false
+  },
+  {
+    "desc": "Ragazzi 99 1",
+    "code": "MOPV963",
+    "islast": false
+  },
+  {
+    "desc": "Ex Pesa",
+    "code": "MOPV937",
+    "islast": false
+  },
+  {
+    "desc": "Ex Pesa",
+    "code": "MOPV938",
+    "islast": false
+  },
+  {
+    "desc": "Cottolengo Ospedale",
+    "code": "MOPV941",
+    "islast": false
+  },
+  {
+    "desc": "Lombardia",
+    "code": "MOPV939",
+    "islast": false
+  },
+  {
+    "desc": "Sardegna 1",
+    "code": "MOPV977",
+    "islast": false
+  },
+  {
+    "desc": "Sardegna 2",
+    "code": "MOPV979",
+    "islast": false
+  },
+  {
+    "desc": "Gober",
+    "code": "MOPV935",
+    "islast": false
+  },
+  {
+    "desc": "Corsini cimitero",
+    "code": "MOPV227",
+    "islast": false
+  },
+  {
+    "desc": "Corsini Cimitero",
+    "code": "MOPV931",
+    "islast": false
+  },
+  {
+    "desc": "La Loggia",
+    "code": "MOPV225",
+    "islast": false
+  },
+  {
+    "desc": "La Loggia",
+    "code": "MOPV226",
+    "islast": false
+  },
+  {
+    "desc": "Casa Tre Torri",
+    "code": "MOPV223",
+    "islast": false
+  },
+  {
+    "desc": "Casa Tre Torri",
+    "code": "MOPV224",
+    "islast": false
+  },
+  {
+    "desc": "Campiano Scuole",
+    "code": "MOPV221",
+    "islast": false
+  },
+  {
+    "desc": "Campiano Scuole",
+    "code": "MOPV222",
+    "islast": false
+  },
+  {
+    "desc": "Campiano",
+    "code": "MOPV220",
+    "islast": false
+  },
+  {
+    "desc": "Campiano",
+    "code": "MOPV219",
+    "islast": false
+  },
+  {
+    "desc": "Bivio Niviano Alto",
+    "code": "MOPV281",
+    "islast": false
+  },
+  {
+    "desc": "Strada Niviano Alto",
+    "code": "MOPV283",
+    "islast": false
+  },
+  {
+    "desc": "Cavazzona",
+    "code": "MOPV217",
+    "islast": false
+  },
+  {
+    "desc": "Cavazzona",
+    "code": "MOPV218",
+    "islast": false
+  },
+  {
+    "desc": "Iddiano bv",
+    "code": "MOPV215",
+    "islast": false
+  },
+  {
+    "desc": "Iddiano bv",
+    "code": "MOPV216",
+    "islast": false
+  },
+  {
+    "desc": "Ca' del Fabbro",
+    "code": "MOPV214",
+    "islast": false
+  },
+  {
+    "desc": "Ca' del Fabbro",
+    "code": "MOPV213",
+    "islast": false
+  },
+  {
+    "desc": "Pratochiesa",
+    "code": "MOPV276",
+    "islast": false
+  },
+  {
+    "desc": "Pratochiesa",
+    "code": "MOPV275",
+    "islast": false
+  },
+  {
+    "desc": "Cerreto di sotto",
+    "code": "MOPV273",
+    "islast": false
+  },
+  {
+    "desc": "Cerreto di sotto",
+    "code": "MOPV274",
+    "islast": false
+  },
+  {
+    "desc": "Poggio (oratorio)",
+    "code": "MOPV270",
+    "islast": false
+  },
+  {
+    "desc": "Poggio (oratorio)",
+    "code": "MOPV272",
+    "islast": false
+  },
+  {
+    "desc": "Iddiano",
+    "code": "MOPV271",
+    "islast": false
+  },
+  {
+    "desc": "Villa Bibone",
+    "code": "MOPV279",
+    "islast": false
+  },
+  {
+    "desc": "Casa Nuova Castagneto",
+    "code": "MOPV286",
+    "islast": false
+  },
+  {
+    "desc": "Casa Baiocchi",
+    "code": "MOPV285",
+    "islast": false
+  },
+  {
+    "desc": "Villa Bibone",
+    "code": "MOPV280",
+    "islast": false
+  },
+  {
+    "desc": "Castagneto",
+    "code": "MOPV278",
+    "islast": false
+  },
+  {
+    "desc": "Castagneto",
+    "code": "MOPV277",
+    "islast": false
+  },
+  {
+    "desc": "Sassoguidano bv",
+    "code": "MOPV212",
+    "islast": false
+  },
+  {
+    "desc": "Sassoguidano bv",
+    "code": "MOPV211",
+    "islast": false
+  },
+  {
+    "desc": "Tavina",
+    "code": "MOPV261",
+    "islast": false
+  },
+  {
+    "desc": "Tavina",
+    "code": "MOPV262",
+    "islast": false
+  },
+  {
+    "desc": "Polecchia",
+    "code": "MOPV260",
+    "islast": false
+  },
+  {
+    "desc": "Polecchia",
+    "code": "MOPV259",
+    "islast": false
+  },
+  {
+    "desc": "Caselline",
+    "code": "MOPV258",
+    "islast": false
+  },
+  {
+    "desc": "Casellino",
+    "code": "MOPV257",
+    "islast": false
+  },
+  {
+    "desc": "Croce di Brocco",
+    "code": "MOPV255",
+    "islast": false
+  },
+  {
+    "desc": "Verica Stazione",
+    "code": "MOPV208",
+    "islast": false
+  },
+  {
+    "desc": "Verica Stazione",
+    "code": "MOPV207",
+    "islast": false
+  },
+  {
+    "desc": "Casa dell'Oste",
+    "code": "MOPV209",
+    "islast": false
+  },
+  {
+    "desc": "Casa dell'Oste",
+    "code": "MOPV210",
+    "islast": false
+  },
+  {
+    "desc": "Verica Cimitero",
+    "code": "MOPV201",
+    "islast": false
+  },
+  {
+    "desc": "Verica Cimitero",
+    "code": "MOPV202",
+    "islast": false
+  },
+  {
+    "desc": "Verica",
+    "code": "MOPV206",
+    "islast": false
+  },
+  {
+    "desc": "Verica",
+    "code": "MOPV205",
+    "islast": false
+  },
+  {
+    "desc": "Verica Casa Nuova",
+    "code": "MOPV204",
+    "islast": false
+  },
+  {
+    "desc": "Verica Casa Nuova",
+    "code": "MOPV203",
+    "islast": false
+  },
+  {
+    "desc": "Campidello",
+    "code": "MOPV240",
+    "islast": false
+  },
+  {
+    "desc": "Campidello",
+    "code": "MOPV241",
+    "islast": false
+  },
+  {
+    "desc": "Gneda",
+    "code": "MOPV239",
+    "islast": false
+  },
+  {
+    "desc": "Gneda",
+    "code": "MOPV238",
+    "islast": false
+  },
+  {
+    "desc": "Monticello",
+    "code": "MOPV237",
+    "islast": false
+  },
+  {
+    "desc": "Monticello",
+    "code": "MOPV236",
+    "islast": false
+  },
+  {
+    "desc": "Casa Calcina",
+    "code": "MOPV234",
+    "islast": false
+  },
+  {
+    "desc": "Casa Calcina",
+    "code": "MOPV235",
+    "islast": false
+  },
+  {
+    "desc": "Campi Nuovi",
+    "code": "MOPV233",
+    "islast": false
+  },
+  {
+    "desc": "Campi nuovi",
+    "code": "MOPV232",
+    "islast": false
+  },
+  {
+    "desc": "Casa Tocco",
+    "code": "MOPV230",
+    "islast": false
+  },
+  {
+    "desc": "Casa Tocco",
+    "code": "MOPV231",
+    "islast": false
+  },
+  {
+    "desc": "Bivio S.P. Verica Fondovalle",
+    "code": "MOPV229",
+    "islast": false
+  },
+  {
+    "desc": "Bar Fontanaccia",
+    "code": "MOPV251",
+    "islast": false
+  },
+  {
+    "desc": "Casa Lorenzone (Casellette)",
+    "code": "MOPV252",
+    "islast": false
+  },
+  {
+    "desc": "Paganello",
+    "code": "MOPV253",
+    "islast": false
+  },
+  {
+    "desc": "Vernano",
+    "code": "MOPV856",
+    "islast": false
+  },
+  {
+    "desc": "Niviano Chiesa",
+    "code": "MOPV854",
+    "islast": false
+  },
+  {
+    "desc": "Beneverchio",
+    "code": "MOPV853",
+    "islast": false
+  },
+  {
+    "desc": "Beneverchio",
+    "code": "MOPV852",
+    "islast": false
+  },
+  {
+    "desc": "Casa Vitali",
+    "code": "MOPV806",
+    "islast": false
+  },
+  {
+    "desc": "Niviano bv",
+    "code": "MOPV809",
+    "islast": false
+  },
+  {
+    "desc": "Niviano bv",
+    "code": "MOPV810",
+    "islast": false
+  },
+  {
+    "desc": "La Borretta",
+    "code": "MOPV807",
+    "islast": false
+  },
+  {
+    "desc": "La Borretta",
+    "code": "MOPV808",
+    "islast": false
+  },
+  {
+    "desc": "Garibaldi",
+    "code": "MOPV920",
+    "islast": false
+  },
+  {
+    "desc": "Garibaldi bv Mazzini",
+    "code": "MOPV918",
+    "islast": false
+  },
+  {
+    "desc": "Garibaldi bv Mazzini",
+    "code": "MOPV917",
+    "islast": false
+  },
+  {
+    "desc": "Garibaldi",
+    "code": "MOPV919",
+    "islast": false
+  },
+  {
+    "desc": "Budria",
+    "code": "MOPV922",
+    "islast": false
+  },
+  {
+    "desc": "Budria",
+    "code": "MOPV921",
+    "islast": false
+  },
+  {
+    "desc": "Turati",
+    "code": "MOPV924",
+    "islast": false
+  },
+  {
+    "desc": "Turati",
+    "code": "MOPV923",
+    "islast": false
+  },
+  {
+    "desc": "Di Vittorio",
+    "code": "MOPV928",
+    "islast": false
+  },
+  {
+    "desc": "Di Vittorio",
+    "code": "MOPV927",
+    "islast": false
+  },
+  {
+    "desc": "Fanin",
+    "code": "MOPV925",
+    "islast": false
+  },
+  {
+    "desc": "Fanin",
+    "code": "MOPV926",
+    "islast": false
+  },
+  {
+    "desc": "Alfieri parcheggio",
+    "code": "MOPV986",
+    "islast": false
+  },
+  {
+    "desc": "Alfieri parcheggio",
+    "code": "MOPV985",
+    "islast": false
+  },
+  {
+    "desc": "Alfieri",
+    "code": "MOPV984",
+    "islast": false
+  },
+  {
+    "desc": "Pastore",
+    "code": "MOPV983",
+    "islast": false
+  },
+  {
+    "desc": "Foscolo Scuole",
+    "code": "MOPV981",
+    "islast": false
+  },
+  {
+    "desc": "Foscolo Scuole",
+    "code": "MOPV982",
+    "islast": false
+  },
+  {
+    "desc": "Manzoni",
+    "code": "MOPV930",
+    "islast": false
+  },
+  {
+    "desc": "Manzoni",
+    "code": "MOPV929",
+    "islast": false
+  },
+  {
+    "desc": "22 Aprile bv Manzoni",
+    "code": "MOPV803",
+    "islast": false
+  },
+  {
+    "desc": "Via 22 Aprile",
+    "code": "MOPV801",
+    "islast": false
+  },
+  {
+    "desc": "Mazzini",
+    "code": "MOPV933",
+    "islast": false
+  },
+  {
+    "desc": "Monti",
+    "code": "MOPV932",
+    "islast": false
+  },
+  {
+    "desc": "Montegrappa 2",
+    "code": "MOPV989",
+    "islast": false
+  },
+  {
+    "desc": "Montegrappa 1",
+    "code": "MOPV987",
+    "islast": false
+  },
+  {
+    "desc": "San Pellegrino",
+    "code": "MOPV136",
+    "islast": false
+  },
+  {
+    "desc": "San Pellegrino",
+    "code": "MOPV135",
+    "islast": false
+  },
+  {
+    "desc": "Campanella Conad",
+    "code": "MOPV945",
+    "islast": false
+  },
+  {
+    "desc": "La Sbrugna",
+    "code": "MOPV991",
+    "islast": false
+  },
+  {
+    "desc": "Zanello",
+    "code": "MOPV915",
+    "islast": false
+  },
+  {
+    "desc": "Zanello",
+    "code": "MOPV916",
+    "islast": false
+  },
+  {
+    "desc": "Verdi",
+    "code": "MOPV907",
+    "islast": false
+  },
+  {
+    "desc": "Bellini",
+    "code": "MOPV905",
+    "islast": false
+  },
+  {
+    "desc": "Serra di Porto",
+    "code": "MOPV909",
+    "islast": false
+  },
+  {
+    "desc": "Serra di Porto",
+    "code": "MOPV910",
+    "islast": false
+  },
+  {
+    "desc": "Martiri di Renno",
+    "code": "MOPV911",
+    "islast": false
+  },
+  {
+    "desc": "Nuvolari",
+    "code": "MOPV914",
+    "islast": false
+  },
+  {
+    "desc": "Nuvolari",
+    "code": "MOPV913",
+    "islast": false
+  },
+  {
+    "desc": "Casolare 2",
+    "code": "MOPV899",
+    "islast": false
+  },
+  {
+    "desc": "Casolare 1",
+    "code": "MOPV897",
+    "islast": false
+  },
+  {
+    "desc": "Braglia",
+    "code": "MOPV601",
+    "islast": false
+  },
+  {
+    "desc": "Braglia",
+    "code": "MOPV602",
+    "islast": false
+  },
+  {
+    "desc": "Mascagni bv Toscanini",
+    "code": "MOPV903",
+    "islast": false
+  },
+  {
+    "desc": "V. Matteotti",
+    "code": "MOPV901",
+    "islast": false
+  },
+  {
+    "desc": "V. Matteotti",
+    "code": "MOPV902",
+    "islast": false
+  },
+  {
+    "desc": "Pavullo Autostazione",
+    "code": "MOPV1001",
+    "islast": true
+  }
+]

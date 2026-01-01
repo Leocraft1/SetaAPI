@@ -1,0 +1,192 @@
+[
+  {
+    "desc": "MODENA AUTOSTAZIONE",
+    "code": "MO344",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest bv Autodromo",
+    "code": "MO13",
+    "islast": false
+  },
+  {
+    "desc": "Nazionale per Carpi",
+    "code": "MO3067",
+    "islast": false
+  },
+  {
+    "desc": "Nazionale per Carpi bv Bembo",
+    "code": "MO6869",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Alto",
+    "code": "MO17",
+    "islast": false
+  },
+  {
+    "desc": "San Pancrazio Chiesa",
+    "code": "MO474",
+    "islast": false
+  },
+  {
+    "desc": "Villanova scuole",
+    "code": "MO1002",
+    "islast": false
+  },
+  {
+    "desc": "Villanova",
+    "code": "MO95",
+    "islast": false
+  },
+  {
+    "desc": "Bottega di Mezzo",
+    "code": "MO1004",
+    "islast": false
+  },
+  {
+    "desc": "Villanova Cimitero",
+    "code": "MO1022",
+    "islast": false
+  },
+  {
+    "desc": "Olmaccio",
+    "code": "MO1062",
+    "islast": false
+  },
+  {
+    "desc": "Passo Uccellino",
+    "code": "MO1083",
+    "islast": false
+  },
+  {
+    "desc": "Setti",
+    "code": "MO1111",
+    "islast": false
+  },
+  {
+    "desc": "Bottega Secchia",
+    "code": "MO1118",
+    "islast": false
+  },
+  {
+    "desc": "Secchia",
+    "code": "MO7314",
+    "islast": false
+  },
+  {
+    "desc": "Soliera bv",
+    "code": "MO1119",
+    "islast": false
+  },
+  {
+    "desc": "Caseificio Secchia",
+    "code": "MO1121",
+    "islast": false
+  },
+  {
+    "desc": "Santa Maria",
+    "code": "MO1122",
+    "islast": false
+  },
+  {
+    "desc": "Dotti bv",
+    "code": "MO1123",
+    "islast": false
+  },
+  {
+    "desc": "Sozzigalli",
+    "code": "MO108",
+    "islast": false
+  },
+  {
+    "desc": "Sozzigalli centro",
+    "code": "MO391",
+    "islast": false
+  },
+  {
+    "desc": "Sozzigalli Caseificio",
+    "code": "MO393",
+    "islast": false
+  },
+  {
+    "desc": "Limidi mulino",
+    "code": "MO395",
+    "islast": false
+  },
+  {
+    "desc": "Casa Rossa",
+    "code": "MO397",
+    "islast": false
+  },
+  {
+    "desc": "Limidi",
+    "code": "MO398",
+    "islast": false
+  },
+  {
+    "desc": "Roma",
+    "code": "MO399",
+    "islast": false
+  },
+  {
+    "desc": "La Baita",
+    "code": "MO401",
+    "islast": false
+  },
+  {
+    "desc": "Lama",
+    "code": "MO405",
+    "islast": false
+  },
+  {
+    "desc": "Cavalcaferrovia",
+    "code": "MO249",
+    "islast": false
+  },
+  {
+    "desc": "Lama 1",
+    "code": "MO264",
+    "islast": false
+  },
+  {
+    "desc": "Lama 2",
+    "code": "MO3232",
+    "islast": false
+  },
+  {
+    "desc": "Marx 1",
+    "code": "MO3214",
+    "islast": false
+  },
+  {
+    "desc": "Marx",
+    "code": "MO251",
+    "islast": false
+  },
+  {
+    "desc": "Stadio",
+    "code": "MO8553",
+    "islast": false
+  },
+  {
+    "desc": "P.le Ramazzini",
+    "code": "MO502",
+    "islast": false
+  },
+  {
+    "desc": "Peruzzi 2",
+    "code": "MO8535",
+    "islast": false
+  },
+  {
+    "desc": "Peruzzi 3",
+    "code": "MO8330",
+    "islast": false
+  },
+  {
+    "desc": "Piscine",
+    "code": "MO8534",
+    "islast": true
+  }
+]

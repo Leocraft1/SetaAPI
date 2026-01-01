@@ -1,0 +1,202 @@
+[
+  {
+    "desc": "Pavullo Autostazione",
+    "code": "MO1590",
+    "islast": false
+  },
+  {
+    "desc": "Corsini cimitero",
+    "code": "MO3002",
+    "islast": false
+  },
+  {
+    "desc": "La Loggia",
+    "code": "MO2476",
+    "islast": false
+  },
+  {
+    "desc": "Casa Tre Torri",
+    "code": "MO2474",
+    "islast": false
+  },
+  {
+    "desc": "Campiano scuole",
+    "code": "MO2472",
+    "islast": false
+  },
+  {
+    "desc": "Campiano",
+    "code": "MO2470",
+    "islast": false
+  },
+  {
+    "desc": "Cavazzona",
+    "code": "MO2468",
+    "islast": false
+  },
+  {
+    "desc": "Iddiano bv",
+    "code": "MO2466",
+    "islast": false
+  },
+  {
+    "desc": "Ca' del Fabbro",
+    "code": "MO2460",
+    "islast": false
+  },
+  {
+    "desc": "Sassoguidano bv",
+    "code": "MO1653",
+    "islast": false
+  },
+  {
+    "desc": "Casa Dell'Oste",
+    "code": "MO1655",
+    "islast": false
+  },
+  {
+    "desc": "Verica Stazione",
+    "code": "MO1657",
+    "islast": false
+  },
+  {
+    "desc": "Verica parcheggio",
+    "code": "MO3997",
+    "islast": false
+  },
+  {
+    "desc": "Verica",
+    "code": "MO1659",
+    "islast": false
+  },
+  {
+    "desc": "Verica Casa Nuova",
+    "code": "MO1663",
+    "islast": false
+  },
+  {
+    "desc": "Campidello",
+    "code": "MO1664",
+    "islast": false
+  },
+  {
+    "desc": "Gneda",
+    "code": "MO1665",
+    "islast": false
+  },
+  {
+    "desc": "Monticello",
+    "code": "MO1667",
+    "islast": false
+  },
+  {
+    "desc": "Casa Calcina",
+    "code": "MO1669",
+    "islast": false
+  },
+  {
+    "desc": "Campi nuovi",
+    "code": "MO1671",
+    "islast": false
+  },
+  {
+    "desc": "Casa Tocco",
+    "code": "MO1672",
+    "islast": false
+  },
+  {
+    "desc": "Ristorante Martino",
+    "code": "MO1938",
+    "islast": false
+  },
+  {
+    "desc": "Ponte",
+    "code": "MO1925",
+    "islast": false
+  },
+  {
+    "desc": "Docciola Vecchia",
+    "code": "MO1927",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Saburano",
+    "code": "MO1929",
+    "islast": false
+  },
+  {
+    "desc": "Antoniano",
+    "code": "MO1931",
+    "islast": false
+  },
+  {
+    "desc": "Casa Bussoli",
+    "code": "MO1935",
+    "islast": false
+  },
+  {
+    "desc": "Caseificio",
+    "code": "MO1936",
+    "islast": false
+  },
+  {
+    "desc": "San Rocco",
+    "code": "MO1937",
+    "islast": false
+  },
+  {
+    "desc": "San Giacomo Maggiore",
+    "code": "MO1957",
+    "islast": false
+  },
+  {
+    "desc": "Casa Fabbro",
+    "code": "MO1958",
+    "islast": false
+  },
+  {
+    "desc": "Maglificio",
+    "code": "MO1959",
+    "islast": false
+  },
+  {
+    "desc": "San Martino",
+    "code": "MO1961",
+    "islast": false
+  },
+  {
+    "desc": "Fucina",
+    "code": "MO1962",
+    "islast": false
+  },
+  {
+    "desc": "Lavatoio",
+    "code": "MO1963",
+    "islast": false
+  },
+  {
+    "desc": "Salto Chiesa",
+    "code": "MO1964",
+    "islast": false
+  },
+  {
+    "desc": "Bertocchi Bar",
+    "code": "MO1965",
+    "islast": false
+  },
+  {
+    "desc": "Casa Zocco",
+    "code": "MO3368",
+    "islast": false
+  },
+  {
+    "desc": "Alienda",
+    "code": "MO3369",
+    "islast": false
+  },
+  {
+    "desc": "Montese",
+    "code": "MO2600",
+    "islast": true
+  }
+]

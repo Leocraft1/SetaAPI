@@ -1,0 +1,107 @@
+[
+  {
+    "desc": "Castelfranco FS",
+    "code": "MO491",
+    "islast": false
+  },
+  {
+    "desc": "Castelfranco teatro",
+    "code": "MO1468",
+    "islast": false
+  },
+  {
+    "desc": "Centro commerciale",
+    "code": "MO1438",
+    "islast": false
+  },
+  {
+    "desc": "Pioppa",
+    "code": "MO644",
+    "islast": false
+  },
+  {
+    "desc": "La Mela",
+    "code": "MO645",
+    "islast": false
+  },
+  {
+    "desc": "Al Ponte",
+    "code": "MO646",
+    "islast": false
+  },
+  {
+    "desc": "Rondine",
+    "code": "MO647",
+    "islast": false
+  },
+  {
+    "desc": "Recovato Mulino",
+    "code": "MO648",
+    "islast": false
+  },
+  {
+    "desc": "Recovato Chiesa",
+    "code": "MO649",
+    "islast": false
+  },
+  {
+    "desc": "Casinazzo",
+    "code": "MO651",
+    "islast": false
+  },
+  {
+    "desc": "Redu",
+    "code": "MO652",
+    "islast": false
+  },
+  {
+    "desc": "Maestra di Redu",
+    "code": "MO3596",
+    "islast": false
+  },
+  {
+    "desc": "Aldo Moro",
+    "code": "MO3594",
+    "islast": false
+  },
+  {
+    "desc": "Nonantola Terminal",
+    "code": "MO3980",
+    "islast": false
+  },
+  {
+    "desc": "Nonantola Casette",
+    "code": "MO3669",
+    "islast": false
+  },
+  {
+    "desc": "Nonantola casette 2",
+    "code": "MO3667",
+    "islast": false
+  },
+  {
+    "desc": "Stabilimento Borsari",
+    "code": "MO3664",
+    "islast": false
+  },
+  {
+    "desc": "Casa Ponte Fossa",
+    "code": "MO3657",
+    "islast": false
+  },
+  {
+    "desc": "Casa Grenzi",
+    "code": "MO3645",
+    "islast": false
+  },
+  {
+    "desc": "La Grande",
+    "code": "MO3591",
+    "islast": false
+  },
+  {
+    "desc": "Casoni di Ravarino",
+    "code": "MO3627",
+    "islast": true
+  }
+]

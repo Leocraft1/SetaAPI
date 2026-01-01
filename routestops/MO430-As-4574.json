@@ -1,0 +1,137 @@
+[
+  {
+    "desc": "Finale Emilia Autostazione",
+    "code": "MO626",
+    "islast": false
+  },
+  {
+    "desc": "Istituto agrario bv",
+    "code": "MO1206",
+    "islast": false
+  },
+  {
+    "desc": "Casette",
+    "code": "MO1134",
+    "islast": false
+  },
+  {
+    "desc": "Canaletto scuole",
+    "code": "MO1132",
+    "islast": false
+  },
+  {
+    "desc": "Canaletto",
+    "code": "MO1130",
+    "islast": false
+  },
+  {
+    "desc": "Canalazzo",
+    "code": "MO1120",
+    "islast": false
+  },
+  {
+    "desc": "Marsala",
+    "code": "MO1112",
+    "islast": false
+  },
+  {
+    "desc": "Massa Finalese",
+    "code": "MO1110",
+    "islast": false
+  },
+  {
+    "desc": "Massa Finalese stazione",
+    "code": "MO1108",
+    "islast": false
+  },
+  {
+    "desc": "Rivara",
+    "code": "MO560",
+    "islast": false
+  },
+  {
+    "desc": "Mulino Ariani",
+    "code": "MO3698",
+    "islast": false
+  },
+  {
+    "desc": "San Felice sul Panaro",
+    "code": "MO3700",
+    "islast": false
+  },
+  {
+    "desc": "San Felice stadio",
+    "code": "MO570",
+    "islast": false
+  },
+  {
+    "desc": "Ospedale San Felice",
+    "code": "MO572",
+    "islast": false
+  },
+  {
+    "desc": "San Felice polo industriale",
+    "code": "MO298",
+    "islast": false
+  },
+  {
+    "desc": "La Buca",
+    "code": "MO299",
+    "islast": false
+  },
+  {
+    "desc": "Malcantone scuole",
+    "code": "MO300",
+    "islast": false
+  },
+  {
+    "desc": "Malcantone",
+    "code": "MO301",
+    "islast": false
+  },
+  {
+    "desc": "Medolla Autostazione",
+    "code": "MO488",
+    "islast": false
+  },
+  {
+    "desc": "Medolla",
+    "code": "MO1131",
+    "islast": false
+  },
+  {
+    "desc": "Bruino bv Gandi",
+    "code": "MO3119",
+    "islast": false
+  },
+  {
+    "desc": "Camurana",
+    "code": "MO509",
+    "islast": false
+  },
+  {
+    "desc": "Camurana Stazione",
+    "code": "MO522",
+    "islast": false
+  },
+  {
+    "desc": "Fontana maglificio",
+    "code": "MO521",
+    "islast": false
+  },
+  {
+    "desc": "Carrozzeria Barbi",
+    "code": "MO1064",
+    "islast": false
+  },
+  {
+    "desc": "Barozzi scuole",
+    "code": "MO1187",
+    "islast": false
+  },
+  {
+    "desc": "Mirandola Terminal",
+    "code": "MO3971",
+    "islast": true
+  }
+]

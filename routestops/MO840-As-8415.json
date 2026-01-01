@@ -1,0 +1,192 @@
+[
+  {
+    "desc": "Sestola",
+    "code": "MO4300",
+    "islast": false
+  },
+  {
+    "desc": "Vivaio",
+    "code": "MO3564",
+    "islast": false
+  },
+  {
+    "desc": "Sestola cimitero",
+    "code": "MO2259",
+    "islast": false
+  },
+  {
+    "desc": "Sestola bv scuole",
+    "code": "MO2439",
+    "islast": false
+  },
+  {
+    "desc": "Bv Sestola medie",
+    "code": "MO3526",
+    "islast": false
+  },
+  {
+    "desc": "Sestola medie",
+    "code": "MO2376",
+    "islast": false
+  },
+  {
+    "desc": "Poggioraso",
+    "code": "MO3651",
+    "islast": false
+  },
+  {
+    "desc": "Le Pioppe",
+    "code": "MO3652",
+    "islast": false
+  },
+  {
+    "desc": "Famadiccia",
+    "code": "MO3654",
+    "islast": false
+  },
+  {
+    "desc": "Vesale bv",
+    "code": "MO3570",
+    "islast": false
+  },
+  {
+    "desc": "Stabilimento Amica",
+    "code": "MO3622",
+    "islast": false
+  },
+  {
+    "desc": "Le Macchie",
+    "code": "MO3624",
+    "islast": false
+  },
+  {
+    "desc": "Tabina bv",
+    "code": "MO3625",
+    "islast": false
+  },
+  {
+    "desc": "Bacconi",
+    "code": "MO3626",
+    "islast": false
+  },
+  {
+    "desc": "Bv Zoppo",
+    "code": "MO4723",
+    "islast": false
+  },
+  {
+    "desc": "La Teggia",
+    "code": "MO3628",
+    "islast": false
+  },
+  {
+    "desc": "Castellaro",
+    "code": "MO3630",
+    "islast": false
+  },
+  {
+    "desc": "Falegnameria",
+    "code": "MO3632",
+    "islast": false
+  },
+  {
+    "desc": "Rovinaccia 1",
+    "code": "MO3634",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Tole",
+    "code": "MO3636",
+    "islast": false
+  },
+  {
+    "desc": "Sant'Antonio bv",
+    "code": "MO3637",
+    "islast": false
+  },
+  {
+    "desc": "Casine",
+    "code": "MO3640",
+    "islast": false
+  },
+  {
+    "desc": "La Maesta",
+    "code": "MO3326",
+    "islast": false
+  },
+  {
+    "desc": "Casa Bettini",
+    "code": "MO3325",
+    "islast": false
+  },
+  {
+    "desc": "Casa Pattarozzi",
+    "code": "MO3317",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Prugneto",
+    "code": "MO3322",
+    "islast": false
+  },
+  {
+    "desc": "Prugneto",
+    "code": "MO3320",
+    "islast": false
+  },
+  {
+    "desc": "Ca Vignali",
+    "code": "MO3316",
+    "islast": false
+  },
+  {
+    "desc": "Cantoniera Vecchia",
+    "code": "MO4797",
+    "islast": false
+  },
+  {
+    "desc": "Casa Ferrari",
+    "code": "MO3315",
+    "islast": false
+  },
+  {
+    "desc": "La Torre Renno",
+    "code": "MO3314",
+    "islast": false
+  },
+  {
+    "desc": "Renno",
+    "code": "MO3230",
+    "islast": false
+  },
+  {
+    "desc": "Pastinella",
+    "code": "MO3222",
+    "islast": false
+  },
+  {
+    "desc": "Renno bv",
+    "code": "MO3220",
+    "islast": false
+  },
+  {
+    "desc": "Querciagrossa",
+    "code": "MO3240",
+    "islast": false
+  },
+  {
+    "desc": "Campo D'Aviazione",
+    "code": "MO2482",
+    "islast": false
+  },
+  {
+    "desc": "San Pellegrino",
+    "code": "MO2480",
+    "islast": false
+  },
+  {
+    "desc": "Pavullo Autostazione",
+    "code": "MO3000",
+    "islast": true
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "desc": "San Giovanni in Persiceto",
+    "code": "MO5703",
+    "islast": false
+  },
+  {
+    "desc": "Benzinaio",
+    "code": "MO5715",
+    "islast": false
+  },
+  {
+    "desc": "Rastellino Mulino",
+    "code": "MO657",
+    "islast": false
+  },
+  {
+    "desc": "Riolo",
+    "code": "MO1310",
+    "islast": false
+  },
+  {
+    "desc": "Riolo Mulino",
+    "code": "MO1308",
+    "islast": false
+  },
+  {
+    "desc": "Fossa di Manzolino",
+    "code": "MO659",
+    "islast": false
+  },
+  {
+    "desc": "Manzolino",
+    "code": "MO1330",
+    "islast": false
+  },
+  {
+    "desc": "Cavazzona",
+    "code": "MO603",
+    "islast": false
+  },
+  {
+    "desc": "Casa Cantoniera",
+    "code": "MO602",
+    "islast": false
+  },
+  {
+    "desc": "Verdi",
+    "code": "MO3743",
+    "islast": false
+  },
+  {
+    "desc": "Castelfranco FS",
+    "code": "MO491",
+    "islast": true
+  }
+]

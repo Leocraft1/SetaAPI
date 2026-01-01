@@ -1,0 +1,112 @@
+[
+  {
+    "desc": "CARPI TERMINAL BUS",
+    "code": "MO404",
+    "islast": false
+  },
+  {
+    "desc": "Peruzzi 3",
+    "code": "MO8330",
+    "islast": false
+  },
+  {
+    "desc": "Piscine",
+    "code": "MO8534",
+    "islast": false
+  },
+  {
+    "desc": "Lux",
+    "code": "MO817",
+    "islast": false
+  },
+  {
+    "desc": "Dei trasporti",
+    "code": "MO205",
+    "islast": false
+  },
+  {
+    "desc": "Fossoli zona industriale",
+    "code": "MO851",
+    "islast": false
+  },
+  {
+    "desc": "Fossoli",
+    "code": "MO66",
+    "islast": false
+  },
+  {
+    "desc": "CA' Del Vento",
+    "code": "MO883",
+    "islast": false
+  },
+  {
+    "desc": "Bruciate",
+    "code": "MO923",
+    "islast": false
+  },
+  {
+    "desc": "Piave",
+    "code": "MO926",
+    "islast": false
+  },
+  {
+    "desc": "Incompiuta",
+    "code": "MO946",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Pietra",
+    "code": "MO948",
+    "islast": false
+  },
+  {
+    "desc": "Serragli",
+    "code": "MO970",
+    "islast": false
+  },
+  {
+    "desc": "Rolo Stazione",
+    "code": "MO2449",
+    "islast": false
+  },
+  {
+    "desc": "Rolo bv",
+    "code": "MO971",
+    "islast": false
+  },
+  {
+    "desc": "Villafranca",
+    "code": "MO976",
+    "islast": false
+  },
+  {
+    "desc": "Uris bar",
+    "code": "MO977",
+    "islast": false
+  },
+  {
+    "desc": "Novi",
+    "code": "MO1445",
+    "islast": false
+  },
+  {
+    "desc": "Giardino",
+    "code": "MO984",
+    "islast": false
+  },
+  {
+    "desc": "Ponte di Ferro",
+    "code": "MO981",
+    "islast": false
+  },
+  {
+    "desc": "Dogana",
+    "code": "MO979",
+    "islast": false
+  },
+  {
+    "desc": "Moglia",
+    "code": "MO1775",
+    "islast": true
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "desc": "Campogalliano",
+    "code": "MO4921",
+    "islast": false
+  },
+  {
+    "desc": "Dogana",
+    "code": "MO4907",
+    "islast": false
+  },
+  {
+    "desc": "Europa",
+    "code": "MO4931",
+    "islast": false
+  },
+  {
+    "desc": "Quattro Madonne",
+    "code": "MO4933",
+    "islast": false
+  },
+  {
+    "desc": "Cavalcatoia",
+    "code": "MO4929",
+    "islast": false
+  },
+  {
+    "desc": "San Pancrazio",
+    "code": "MO56",
+    "islast": false
+  },
+  {
+    "desc": "Nazionale per Carpi bv Bembo",
+    "code": "MO3097",
+    "islast": false
+  },
+  {
+    "desc": "Nazionale per Carpi",
+    "code": "MO6830",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest bv Autodromo",
+    "code": "MO48",
+    "islast": false
+  },
+  {
+    "desc": "MODENA AUTOSTAZIONE",
+    "code": "MO344",
+    "islast": true
+  }
+]

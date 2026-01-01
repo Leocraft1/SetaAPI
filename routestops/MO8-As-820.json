@@ -1,0 +1,102 @@
+[
+  {
+    "desc": "GARIBALDI",
+    "code": "MO30",
+    "islast": false
+  },
+  {
+    "desc": "Verdi ACI",
+    "code": "MO6211",
+    "islast": false
+  },
+  {
+    "desc": "Verdi Bocciofila",
+    "code": "MO6201",
+    "islast": false
+  },
+  {
+    "desc": "Verdi bv Donizetti",
+    "code": "MO6215",
+    "islast": false
+  },
+  {
+    "desc": "Verdi scuola",
+    "code": "MO6219",
+    "islast": false
+  },
+  {
+    "desc": "Montegrappa asilo",
+    "code": "MO6217",
+    "islast": false
+  },
+  {
+    "desc": "Montegrappa bv S.Giovanni Bosco",
+    "code": "MO6213",
+    "islast": false
+  },
+  {
+    "desc": "Divisione Acqui Questura",
+    "code": "MO6385",
+    "islast": false
+  },
+  {
+    "desc": "Palasport",
+    "code": "MO6391",
+    "islast": false
+  },
+  {
+    "desc": "Divisione Acqui i Portali",
+    "code": "MO6327",
+    "islast": false
+  },
+  {
+    "desc": "Indipendenza bv Resistenza",
+    "code": "MO6331",
+    "islast": false
+  },
+  {
+    "desc": "Indipendenza polisportiva",
+    "code": "MO6341",
+    "islast": false
+  },
+  {
+    "desc": "Artigianato bv Ceramisti",
+    "code": "MO6345",
+    "islast": false
+  },
+  {
+    "desc": "Artigianato bv Imprenditori",
+    "code": "MO6370",
+    "islast": false
+  },
+  {
+    "desc": "Caduti sul Lavoro BNL",
+    "code": "MO6336",
+    "islast": false
+  },
+  {
+    "desc": "Caduti sul Lavoro bv Romano",
+    "code": "MO6351",
+    "islast": false
+  },
+  {
+    "desc": "Stradello Romano",
+    "code": "MO2897",
+    "islast": false
+  },
+  {
+    "desc": "Maestri del Lavoro",
+    "code": "MO2899",
+    "islast": false
+  },
+  {
+    "desc": "Maestri del Lavoro bv Gazzotti",
+    "code": "MO2906",
+    "islast": false
+  },
+  {
+    "desc": "GAZZOTTI",
+    "code": "MO6374",
+    "islast": true
+  }
+]

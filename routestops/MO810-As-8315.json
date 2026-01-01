@@ -1,0 +1,27 @@
+[
+  {
+    "desc": "Fiumalbo",
+    "code": "MO1400",
+    "islast": false
+  },
+  {
+    "desc": "Passo San Michele",
+    "code": "MO3756",
+    "islast": false
+  },
+  {
+    "desc": "Le Lazze",
+    "code": "MO3757",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Modino",
+    "code": "MO3755",
+    "islast": false
+  },
+  {
+    "desc": "Pievepelago Autostazione",
+    "code": "MO3104",
+    "islast": true
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "desc": "Pavullo Autostazione",
+    "code": "MO3000",
+    "islast": false
+  },
+  {
+    "desc": "Le Aie",
+    "code": "MO2546",
+    "islast": false
+  },
+  {
+    "desc": "Capanne",
+    "code": "MO2548",
+    "islast": false
+  },
+  {
+    "desc": "Acquabona",
+    "code": "MO2550",
+    "islast": false
+  },
+  {
+    "desc": "Il Ronco",
+    "code": "MO2552",
+    "islast": false
+  },
+  {
+    "desc": "Sant'Antonio",
+    "code": "MO2560",
+    "islast": false
+  },
+  {
+    "desc": "Chiozza",
+    "code": "MO2380",
+    "islast": false
+  },
+  {
+    "desc": "Madonna Baldaccini",
+    "code": "MO2360",
+    "islast": false
+  },
+  {
+    "desc": "Lo Stallone",
+    "code": "MO2362",
+    "islast": false
+  },
+  {
+    "desc": "Forno",
+    "code": "MO2363",
+    "islast": false
+  },
+  {
+    "desc": "Casa Mazzanti",
+    "code": "MO2364",
+    "islast": false
+  },
+  {
+    "desc": "Il Prato",
+    "code": "MO2365",
+    "islast": false
+  },
+  {
+    "desc": "Montebonello",
+    "code": "MO2367",
+    "islast": true
+  }
+]

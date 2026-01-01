@@ -1,0 +1,12 @@
+[
+  {
+    "desc": "Baggi istituto",
+    "code": "MO2839",
+    "islast": false
+  },
+  {
+    "desc": "Sassuolo Terminal",
+    "code": "MO4000",
+    "islast": true
+  }
+]

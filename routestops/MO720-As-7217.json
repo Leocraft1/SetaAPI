@@ -1,0 +1,107 @@
+[
+  {
+    "desc": "Montese Torre",
+    "code": "MO2602",
+    "islast": false
+  },
+  {
+    "desc": "Montese 1",
+    "code": "MO2604",
+    "islast": false
+  },
+  {
+    "desc": "Montese",
+    "code": "MO1377",
+    "islast": false
+  },
+  {
+    "desc": "Alienda",
+    "code": "MO1967",
+    "islast": false
+  },
+  {
+    "desc": "Casa Zocco",
+    "code": "MO1966",
+    "islast": false
+  },
+  {
+    "desc": "Bertocchi bar",
+    "code": "MO3367",
+    "islast": false
+  },
+  {
+    "desc": "Salto Chiesa",
+    "code": "MO3366",
+    "islast": false
+  },
+  {
+    "desc": "Lavatoio",
+    "code": "MO3365",
+    "islast": false
+  },
+  {
+    "desc": "Fucina",
+    "code": "MO3364",
+    "islast": false
+  },
+  {
+    "desc": "San Martino",
+    "code": "MO3363",
+    "islast": false
+  },
+  {
+    "desc": "Maglificio",
+    "code": "MO3362",
+    "islast": false
+  },
+  {
+    "desc": "Casa Fabbro",
+    "code": "MO3361",
+    "islast": false
+  },
+  {
+    "desc": "San Giacomo Maggiore",
+    "code": "MO3360",
+    "islast": false
+  },
+  {
+    "desc": "San Rocco",
+    "code": "MO3338",
+    "islast": false
+  },
+  {
+    "desc": "Caseificio",
+    "code": "MO3337",
+    "islast": false
+  },
+  {
+    "desc": "Casa Bussoli",
+    "code": "MO3336",
+    "islast": false
+  },
+  {
+    "desc": "Antoniano",
+    "code": "MO3335",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Saburano",
+    "code": "MO3334",
+    "islast": false
+  },
+  {
+    "desc": "Docciola Vecchia",
+    "code": "MO3333",
+    "islast": false
+  },
+  {
+    "desc": "Ponte",
+    "code": "MO3332",
+    "islast": false
+  },
+  {
+    "desc": "Ristorante Martino",
+    "code": "MO1938",
+    "islast": true
+  }
+]

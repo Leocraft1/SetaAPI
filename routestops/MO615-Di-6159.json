@@ -1,0 +1,172 @@
+[
+  {
+    "desc": "Pavullo Autostazione",
+    "code": "MO1590",
+    "islast": false
+  },
+  {
+    "desc": "San Pellegrino",
+    "code": "MO1349",
+    "islast": false
+  },
+  {
+    "desc": "Campo D'Aviazione",
+    "code": "MO1351",
+    "islast": false
+  },
+  {
+    "desc": "Querciagrossa",
+    "code": "MO1819",
+    "islast": false
+  },
+  {
+    "desc": "Renno bv",
+    "code": "MO1816",
+    "islast": false
+  },
+  {
+    "desc": "Piantacroce",
+    "code": "MO1815",
+    "islast": false
+  },
+  {
+    "desc": "Pratolino",
+    "code": "MO1813",
+    "islast": false
+  },
+  {
+    "desc": "Gaianello",
+    "code": "MO1798",
+    "islast": false
+  },
+  {
+    "desc": "Monzone bv",
+    "code": "MO1797",
+    "islast": false
+  },
+  {
+    "desc": "Belvedere",
+    "code": "MO3483",
+    "islast": false
+  },
+  {
+    "desc": "Budrigone",
+    "code": "MO1796",
+    "islast": false
+  },
+  {
+    "desc": "Montecenere",
+    "code": "MO1795",
+    "islast": false
+  },
+  {
+    "desc": "Monte Scarpone",
+    "code": "MO1794",
+    "islast": false
+  },
+  {
+    "desc": "Monte Ritorno",
+    "code": "MO1793",
+    "islast": false
+  },
+  {
+    "desc": "Pradina",
+    "code": "MO1792",
+    "islast": false
+  },
+  {
+    "desc": "Lama Bassa",
+    "code": "MO929",
+    "islast": false
+  },
+  {
+    "desc": "Casa Pasini",
+    "code": "MO931",
+    "islast": false
+  },
+  {
+    "desc": "Ca' Dell'Aglio",
+    "code": "MO933",
+    "islast": false
+  },
+  {
+    "desc": "Mocogno",
+    "code": "MO935",
+    "islast": false
+  },
+  {
+    "desc": "Torre di Cadignano",
+    "code": "MO1583",
+    "islast": false
+  },
+  {
+    "desc": "Cadignano",
+    "code": "MO1584",
+    "islast": false
+  },
+  {
+    "desc": "Casa Borelli",
+    "code": "MO1585",
+    "islast": false
+  },
+  {
+    "desc": "Fontana D'Arco",
+    "code": "MO2990",
+    "islast": false
+  },
+  {
+    "desc": "Fagiolo",
+    "code": "MO2992",
+    "islast": false
+  },
+  {
+    "desc": "Molino Grillo",
+    "code": "MO2994",
+    "islast": false
+  },
+  {
+    "desc": "Roncole",
+    "code": "MO2996",
+    "islast": false
+  },
+  {
+    "desc": "Montemolino",
+    "code": "MO3130",
+    "islast": false
+  },
+  {
+    "desc": "Casa Cinqui",
+    "code": "MO3128",
+    "islast": false
+  },
+  {
+    "desc": "Casa Cecchino",
+    "code": "MO3126",
+    "islast": false
+  },
+  {
+    "desc": "Abetone ceramica",
+    "code": "MO3124",
+    "islast": false
+  },
+  {
+    "desc": "La Ferrara",
+    "code": "MO3110",
+    "islast": false
+  },
+  {
+    "desc": "Pianacci",
+    "code": "MO3109",
+    "islast": false
+  },
+  {
+    "desc": "Palagano Municipio",
+    "code": "MO2902",
+    "islast": false
+  },
+  {
+    "desc": "Palagano",
+    "code": "MO1507",
+    "islast": true
+  }
+]

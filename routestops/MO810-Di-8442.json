@@ -1,0 +1,127 @@
+[
+  {
+    "desc": "Pievepelago Autostazione",
+    "code": "MO3104",
+    "islast": false
+  },
+  {
+    "desc": "Pievepelago",
+    "code": "MO1714",
+    "islast": false
+  },
+  {
+    "desc": "Pievepelago scuole",
+    "code": "MO1717",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Battistella",
+    "code": "MO2168",
+    "islast": false
+  },
+  {
+    "desc": "Bucaneve",
+    "code": "MO2169",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Modino",
+    "code": "MO2170",
+    "islast": false
+  },
+  {
+    "desc": "Le Lazze",
+    "code": "MO2172",
+    "islast": false
+  },
+  {
+    "desc": "Passo San Michele",
+    "code": "MO2171",
+    "islast": false
+  },
+  {
+    "desc": "Fiumalbo",
+    "code": "MO689",
+    "islast": false
+  },
+  {
+    "desc": "Fiumalbo Zona Artigianale",
+    "code": "MO2843",
+    "islast": false
+  },
+  {
+    "desc": "Fenecchio",
+    "code": "MO2192",
+    "islast": false
+  },
+  {
+    "desc": "Villaggio artigiano",
+    "code": "MO2193",
+    "islast": false
+  },
+  {
+    "desc": "Sorgente",
+    "code": "MO2194",
+    "islast": false
+  },
+  {
+    "desc": "Giardini 188",
+    "code": "MO3814",
+    "islast": false
+  },
+  {
+    "desc": "Dogana Nuova",
+    "code": "MO2195",
+    "islast": false
+  },
+  {
+    "desc": "Borgo Nuovo",
+    "code": "MO2196",
+    "islast": false
+  },
+  {
+    "desc": "Faidello",
+    "code": "MO2197",
+    "islast": false
+  },
+  {
+    "desc": "La Fiorita",
+    "code": "MO2423",
+    "islast": false
+  },
+  {
+    "desc": "Casa Cantoniera",
+    "code": "MO2426",
+    "islast": false
+  },
+  {
+    "desc": "Chiarofonte",
+    "code": "MO2427",
+    "islast": false
+  },
+  {
+    "desc": "Lo Scoglietto",
+    "code": "MO2428",
+    "islast": false
+  },
+  {
+    "desc": "Abetone",
+    "code": "MO4204",
+    "islast": false
+  },
+  {
+    "desc": "Abetone piazza",
+    "code": "MO4793",
+    "islast": false
+  },
+  {
+    "desc": "Ponte alle Lime",
+    "code": "MO3829",
+    "islast": false
+  },
+  {
+    "desc": "Le Regine",
+    "code": "MO3823",
+    "islast": true
+  }
+]

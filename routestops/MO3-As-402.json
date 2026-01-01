@@ -1,0 +1,192 @@
+[
+  {
+    "desc": "PORTORICO",
+    "code": "MO6238",
+    "islast": false
+  },
+  {
+    "desc": "Cavo Argine bv Portorico",
+    "code": "MO6280",
+    "islast": false
+  },
+  {
+    "desc": "Cavo Argine bv Uruguay",
+    "code": "MO6234",
+    "islast": false
+  },
+  {
+    "desc": "Cavo Argine bv Nonantolana",
+    "code": "MO6232",
+    "islast": false
+  },
+  {
+    "desc": "Cavo Argine",
+    "code": "MO220",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana bv Mar Adriatico",
+    "code": "MO718",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana Torrenova",
+    "code": "MO6223",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana",
+    "code": "MO145",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana bv Crocetta",
+    "code": "MO6243",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana bv Cuboni",
+    "code": "MO6241",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana scuole",
+    "code": "MO6239",
+    "islast": false
+  },
+  {
+    "desc": "Attiraglio",
+    "code": "MO555",
+    "islast": false
+  },
+  {
+    "desc": "STAZIONE FS",
+    "code": "MO6134",
+    "islast": false
+  },
+  {
+    "desc": "Caduti in guerra Tempio",
+    "code": "MO6148",
+    "islast": false
+  },
+  {
+    "desc": "Caduti in guerra giardini",
+    "code": "MO6182",
+    "islast": false
+  },
+  {
+    "desc": "Caduti in guerra orto botanico",
+    "code": "MO6150",
+    "islast": false
+  },
+  {
+    "desc": "Caduti in guerra",
+    "code": "MO6152",
+    "islast": false
+  },
+  {
+    "desc": "GARIBALDI",
+    "code": "MO5111",
+    "islast": false
+  },
+  {
+    "desc": "Fabrizi",
+    "code": "MO181",
+    "islast": false
+  },
+  {
+    "desc": "Medaglie D'oro",
+    "code": "MO165",
+    "islast": false
+  },
+  {
+    "desc": "Medaglie D'oro bv Bellinzona",
+    "code": "MO156",
+    "islast": false
+  },
+  {
+    "desc": "Piazza Manzoni",
+    "code": "MO11",
+    "islast": false
+  },
+  {
+    "desc": "Cucchiari bv Manzoni",
+    "code": "MO111",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese Gambero",
+    "code": "MO6412",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese bv La Spezia",
+    "code": "MO1364",
+    "islast": false
+  },
+  {
+    "desc": "La Spezia bv Vignolese",
+    "code": "MO6413",
+    "islast": false
+  },
+  {
+    "desc": "La Spezia bv Oneglia",
+    "code": "MO6415",
+    "islast": false
+  },
+  {
+    "desc": "San Remo",
+    "code": "MO6417",
+    "islast": false
+  },
+  {
+    "desc": "Ventimiglia bv Albenga",
+    "code": "MO6419",
+    "islast": false
+  },
+  {
+    "desc": "Ventimiglia bv Torino",
+    "code": "MO6421",
+    "islast": false
+  },
+  {
+    "desc": "Magenta bv Vigevano",
+    "code": "MO6549",
+    "islast": false
+  },
+  {
+    "desc": "Magenta bv del Garda",
+    "code": "MO6551",
+    "islast": false
+  },
+  {
+    "desc": "Liguria",
+    "code": "MO6553",
+    "islast": false
+  },
+  {
+    "desc": "Casalegno rotonda",
+    "code": "MO6573",
+    "islast": false
+  },
+  {
+    "desc": "Dalla Chiesa bv Tobagi",
+    "code": "MO2804",
+    "islast": false
+  },
+  {
+    "desc": "Ghiaroni bv Firenze",
+    "code": "MO7306",
+    "islast": false
+  },
+  {
+    "desc": "Ghiaroni bv Pistoia",
+    "code": "MO7308",
+    "islast": false
+  },
+  {
+    "desc": "RAGAZZI DEL 99",
+    "code": "MO7310",
+    "islast": true
+  }
+]

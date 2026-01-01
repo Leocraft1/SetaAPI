@@ -1,0 +1,142 @@
+[
+  {
+    "desc": "Serramazzoni",
+    "code": "MO4200",
+    "islast": false
+  },
+  {
+    "desc": "Serramazzoni cimitero",
+    "code": "MO4201",
+    "islast": false
+  },
+  {
+    "desc": "Monfestino bv",
+    "code": "MO2314",
+    "islast": false
+  },
+  {
+    "desc": "Casa Piccola scuola",
+    "code": "MO2316",
+    "islast": false
+  },
+  {
+    "desc": "Casa Grossi",
+    "code": "MO2318",
+    "islast": false
+  },
+  {
+    "desc": "Casa Cantoniera",
+    "code": "MO2322",
+    "islast": false
+  },
+  {
+    "desc": "Casa Rotonda",
+    "code": "MO2324",
+    "islast": false
+  },
+  {
+    "desc": "Malandrone",
+    "code": "MO2327",
+    "islast": false
+  },
+  {
+    "desc": "San Dalmazio",
+    "code": "MO2350",
+    "islast": false
+  },
+  {
+    "desc": "Crocetta bv",
+    "code": "MO2340",
+    "islast": false
+  },
+  {
+    "desc": "Osteria Vecchia",
+    "code": "MO2212",
+    "islast": false
+  },
+  {
+    "desc": "Ricco",
+    "code": "MO2210",
+    "islast": false
+  },
+  {
+    "desc": "Ricco",
+    "code": "MO4794",
+    "islast": false
+  },
+  {
+    "desc": "Osteria Vecchia",
+    "code": "MO1198",
+    "islast": false
+  },
+  {
+    "desc": "Crocetta bv",
+    "code": "MO1284",
+    "islast": false
+  },
+  {
+    "desc": "Siggiola",
+    "code": "MO4722",
+    "islast": false
+  },
+  {
+    "desc": "Ospitaletto",
+    "code": "MO4724",
+    "islast": false
+  },
+  {
+    "desc": "San Gaetano",
+    "code": "MO4726",
+    "islast": false
+  },
+  {
+    "desc": "Rodiano",
+    "code": "MO4728",
+    "islast": false
+  },
+  {
+    "desc": "Rodiano 1",
+    "code": "MO3815",
+    "islast": false
+  },
+  {
+    "desc": "Piano",
+    "code": "MO4730",
+    "islast": false
+  },
+  {
+    "desc": "Marano",
+    "code": "MO2000",
+    "islast": false
+  },
+  {
+    "desc": "Casa Ricchi",
+    "code": "MO2002",
+    "islast": false
+  },
+  {
+    "desc": "Berso Delle Rose",
+    "code": "MO2003",
+    "islast": false
+  },
+  {
+    "desc": "Tavernelle",
+    "code": "MO2004",
+    "islast": false
+  },
+  {
+    "desc": "Pievina",
+    "code": "MO4610",
+    "islast": false
+  },
+  {
+    "desc": "La Vigna",
+    "code": "MO4616",
+    "islast": false
+  },
+  {
+    "desc": "Vignola Autostazione",
+    "code": "MO4512",
+    "islast": true
+  }
+]

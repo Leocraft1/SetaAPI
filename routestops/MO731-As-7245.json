@@ -1,0 +1,107 @@
+[
+  {
+    "desc": "Acquedotto",
+    "code": "MO1690",
+    "islast": false
+  },
+  {
+    "desc": "Castelnuovo Rangone",
+    "code": "MO2919",
+    "islast": false
+  },
+  {
+    "desc": "Vilco",
+    "code": "MO1688",
+    "islast": false
+  },
+  {
+    "desc": "Cabianca",
+    "code": "MO1448",
+    "islast": false
+  },
+  {
+    "desc": "Portile Madonnina",
+    "code": "MO1446",
+    "islast": false
+  },
+  {
+    "desc": "Portile centro",
+    "code": "MO1450",
+    "islast": false
+  },
+  {
+    "desc": "Portile farmacia",
+    "code": "MO2328",
+    "islast": false
+  },
+  {
+    "desc": "Botteghetto",
+    "code": "MO1444",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Ghiotto",
+    "code": "MO1442",
+    "islast": false
+  },
+  {
+    "desc": "Cantone di Mugnano",
+    "code": "MO1440",
+    "islast": false
+  },
+  {
+    "desc": "Santa Maria scuole",
+    "code": "MO1432",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese Istituto",
+    "code": "MO669",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese bv Saluzzo",
+    "code": "MO2741",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese Universita",
+    "code": "MO671",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese bv La Spezia",
+    "code": "MO673",
+    "islast": false
+  },
+  {
+    "desc": "Medaglie D'oro bv Bellinzona",
+    "code": "MO2791",
+    "islast": false
+  },
+  {
+    "desc": "GARIBALDI",
+    "code": "MO5112",
+    "islast": false
+  },
+  {
+    "desc": "Rimembranze ex Questura",
+    "code": "MO12",
+    "islast": false
+  },
+  {
+    "desc": "Risorgimento",
+    "code": "MO4",
+    "islast": false
+  },
+  {
+    "desc": "Ospedale Estense",
+    "code": "MO2594",
+    "islast": false
+  },
+  {
+    "desc": "MODENA AUTOSTAZIONE",
+    "code": "MO350",
+    "islast": true
+  }
+]

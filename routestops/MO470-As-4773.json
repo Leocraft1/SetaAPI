@@ -1,0 +1,102 @@
+[
+  {
+    "desc": "Camposanto",
+    "code": "MO3433",
+    "islast": false
+  },
+  {
+    "desc": "Camposanto Cimitero",
+    "code": "MO163",
+    "islast": false
+  },
+  {
+    "desc": "Granai",
+    "code": "MO288",
+    "islast": false
+  },
+  {
+    "desc": "Vallicella",
+    "code": "MO289",
+    "islast": false
+  },
+  {
+    "desc": "Ascari",
+    "code": "MO3773",
+    "islast": false
+  },
+  {
+    "desc": "San Felice sul Panaro",
+    "code": "MO3700",
+    "islast": false
+  },
+  {
+    "desc": "San Felice stadio",
+    "code": "MO570",
+    "islast": false
+  },
+  {
+    "desc": "Ospedale San Felice",
+    "code": "MO572",
+    "islast": false
+  },
+  {
+    "desc": "San Felice polo industriale",
+    "code": "MO298",
+    "islast": false
+  },
+  {
+    "desc": "La Buca",
+    "code": "MO299",
+    "islast": false
+  },
+  {
+    "desc": "Malcantone scuole",
+    "code": "MO300",
+    "islast": false
+  },
+  {
+    "desc": "Malcantone",
+    "code": "MO301",
+    "islast": false
+  },
+  {
+    "desc": "Medolla",
+    "code": "MO1131",
+    "islast": false
+  },
+  {
+    "desc": "Bruino bv Gandi",
+    "code": "MO3119",
+    "islast": false
+  },
+  {
+    "desc": "Camurana",
+    "code": "MO509",
+    "islast": false
+  },
+  {
+    "desc": "Camurana Stazione",
+    "code": "MO522",
+    "islast": false
+  },
+  {
+    "desc": "Fontana maglificio",
+    "code": "MO521",
+    "islast": false
+  },
+  {
+    "desc": "Carrozzeria Barbi",
+    "code": "MO1064",
+    "islast": false
+  },
+  {
+    "desc": "Barozzi scuole",
+    "code": "MO1187",
+    "islast": false
+  },
+  {
+    "desc": "Mirandola Terminal",
+    "code": "MO3972",
+    "islast": true
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "desc": "Nonantolana scuole",
+    "code": "MO6239",
+    "islast": false
+  },
+  {
+    "desc": "Attiraglio",
+    "code": "MO555",
+    "islast": false
+  },
+  {
+    "desc": "Monte Kosica FS",
+    "code": "MO2576",
+    "islast": false
+  },
+  {
+    "desc": "Monte Kosica bv Ganaceto",
+    "code": "MO2575",
+    "islast": false
+  },
+  {
+    "desc": "Monte Kosica stadio",
+    "code": "MO2579",
+    "islast": false
+  },
+  {
+    "desc": "Monte Kosica Barozzi",
+    "code": "MO2578",
+    "islast": false
+  },
+  {
+    "desc": "MODENA  AUTOSTAZIONE",
+    "code": "MO10",
+    "islast": true
+  }
+]

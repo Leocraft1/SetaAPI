@@ -1,0 +1,72 @@
+[
+  {
+    "desc": "Roteglia",
+    "code": "MO1840",
+    "islast": false
+  },
+  {
+    "desc": "Roteglia cimitero",
+    "code": "MO1842",
+    "islast": false
+  },
+  {
+    "desc": "Casa Nuova",
+    "code": "MO1844",
+    "islast": false
+  },
+  {
+    "desc": "Cavriana",
+    "code": "MO1846",
+    "islast": false
+  },
+  {
+    "desc": "Villabianca",
+    "code": "MO1835",
+    "islast": false
+  },
+  {
+    "desc": "Castellarano",
+    "code": "MO1850",
+    "islast": false
+  },
+  {
+    "desc": "Villaggio",
+    "code": "MO1852",
+    "islast": false
+  },
+  {
+    "desc": "Tressano",
+    "code": "MO1856",
+    "islast": false
+  },
+  {
+    "desc": "Tressano fornace",
+    "code": "MO811",
+    "islast": false
+  },
+  {
+    "desc": "Veggia ceramica",
+    "code": "MO809",
+    "islast": false
+  },
+  {
+    "desc": "Veggia",
+    "code": "MO1760",
+    "islast": false
+  },
+  {
+    "desc": "Ancora bv",
+    "code": "MO1570",
+    "islast": false
+  },
+  {
+    "desc": "Radici in Monte bv Liberta",
+    "code": "MO2391",
+    "islast": false
+  },
+  {
+    "desc": "Sassuolo Terminal",
+    "code": "MO4000",
+    "islast": true
+  }
+]

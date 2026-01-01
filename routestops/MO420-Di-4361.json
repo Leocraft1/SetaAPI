@@ -1,0 +1,57 @@
+[
+  {
+    "desc": "San Prospero",
+    "code": "MO3900",
+    "islast": false
+  },
+  {
+    "desc": "Casa Malverti",
+    "code": "MO307",
+    "islast": false
+  },
+  {
+    "desc": "Casa Beltrami",
+    "code": "MO4934",
+    "islast": false
+  },
+  {
+    "desc": "San Martino passo",
+    "code": "MO308",
+    "islast": false
+  },
+  {
+    "desc": "San Martino Bottega",
+    "code": "MO1354",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Nuovo",
+    "code": "MO126",
+    "islast": false
+  },
+  {
+    "desc": "Uccivello",
+    "code": "MO1378",
+    "islast": false
+  },
+  {
+    "desc": "Uccivello scuole",
+    "code": "MO762",
+    "islast": false
+  },
+  {
+    "desc": "Voltone",
+    "code": "MO773",
+    "islast": false
+  },
+  {
+    "desc": "Bellicina",
+    "code": "MO777",
+    "islast": false
+  },
+  {
+    "desc": "Cavezzo Autostazione",
+    "code": "MO490",
+    "islast": true
+  }
+]

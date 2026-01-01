@@ -1,0 +1,47 @@
+[
+  {
+    "desc": "Sestola",
+    "code": "MO4300",
+    "islast": false
+  },
+  {
+    "desc": "Dogana",
+    "code": "MO3562",
+    "islast": false
+  },
+  {
+    "desc": "Roncoscaglia",
+    "code": "MO3560",
+    "islast": false
+  },
+  {
+    "desc": "Roncoscaglia 1",
+    "code": "MO3689",
+    "islast": false
+  },
+  {
+    "desc": "Acquaria bv",
+    "code": "MO3550",
+    "islast": false
+  },
+  {
+    "desc": "Bandita",
+    "code": "MO3546",
+    "islast": false
+  },
+  {
+    "desc": "Ronco bv",
+    "code": "MO3544",
+    "islast": false
+  },
+  {
+    "desc": "Montecreto",
+    "code": "MO2400",
+    "islast": false
+  },
+  {
+    "desc": "Montecreto forno",
+    "code": "MO4294",
+    "islast": true
+  }
+]

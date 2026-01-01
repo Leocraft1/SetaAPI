@@ -1,0 +1,77 @@
+[
+  {
+    "desc": "Bazzano FP",
+    "code": "MO3545",
+    "islast": false
+  },
+  {
+    "desc": "Bazzano confine",
+    "code": "MO1127",
+    "islast": false
+  },
+  {
+    "desc": "Savignano Mulino",
+    "code": "MO2030",
+    "islast": false
+  },
+  {
+    "desc": "Savignano Trattoria",
+    "code": "MO2351",
+    "islast": false
+  },
+  {
+    "desc": "Savignano sul Panaro",
+    "code": "MO2348",
+    "islast": false
+  },
+  {
+    "desc": "Doccia",
+    "code": "MO2341",
+    "islast": false
+  },
+  {
+    "desc": "Casa Bighini",
+    "code": "MO1199",
+    "islast": false
+  },
+  {
+    "desc": "Campiglio bv",
+    "code": "MO1201",
+    "islast": false
+  },
+  {
+    "desc": "Zocca bv",
+    "code": "MO2219",
+    "islast": false
+  },
+  {
+    "desc": "Formica",
+    "code": "MO2218",
+    "islast": false
+  },
+  {
+    "desc": "Vignola Centro",
+    "code": "MO2911",
+    "islast": false
+  },
+  {
+    "desc": "Barozzi scuola",
+    "code": "MO2403",
+    "islast": false
+  },
+  {
+    "desc": "Il Gessiere",
+    "code": "MO2404",
+    "islast": false
+  },
+  {
+    "desc": "La Vigna",
+    "code": "MO4616",
+    "islast": false
+  },
+  {
+    "desc": "Vignola Autostazione",
+    "code": "MO4508",
+    "islast": true
+  }
+]

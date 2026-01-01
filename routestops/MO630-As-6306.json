@@ -1,0 +1,152 @@
+[
+  {
+    "desc": "Serramazzoni",
+    "code": "MO4200",
+    "islast": false
+  },
+  {
+    "desc": "Faeto bv",
+    "code": "MO2160",
+    "islast": false
+  },
+  {
+    "desc": "Bar Carbonara",
+    "code": "MO2132",
+    "islast": false
+  },
+  {
+    "desc": "San Pellegrinetto",
+    "code": "MO2130",
+    "islast": false
+  },
+  {
+    "desc": "La Salda",
+    "code": "MO2148",
+    "islast": false
+  },
+  {
+    "desc": "Serramazzoni bv",
+    "code": "MO2146",
+    "islast": false
+  },
+  {
+    "desc": "Palazzina",
+    "code": "MO2144",
+    "islast": false
+  },
+  {
+    "desc": "Casa Leoni",
+    "code": "MO2142",
+    "islast": false
+  },
+  {
+    "desc": "Pescarola bv",
+    "code": "MO2140",
+    "islast": false
+  },
+  {
+    "desc": "Varana",
+    "code": "MO2150",
+    "islast": false
+  },
+  {
+    "desc": "Croce Di Varana",
+    "code": "MO2152",
+    "islast": false
+  },
+  {
+    "desc": "Casa Marchetti",
+    "code": "MO2154",
+    "islast": false
+  },
+  {
+    "desc": "San Donnino di Varana",
+    "code": "MO2156",
+    "islast": false
+  },
+  {
+    "desc": "La Croce",
+    "code": "MO2158",
+    "islast": false
+  },
+  {
+    "desc": "Montebaranzone",
+    "code": "MO1920",
+    "islast": false
+  },
+  {
+    "desc": "Sterpatelli",
+    "code": "MO1918",
+    "islast": false
+  },
+  {
+    "desc": "Bompanara",
+    "code": "MO1916",
+    "islast": false
+  },
+  {
+    "desc": "Marzola",
+    "code": "MO1914",
+    "islast": false
+  },
+  {
+    "desc": "Bocca di Borre",
+    "code": "MO1912",
+    "islast": false
+  },
+  {
+    "desc": "Montegibbio",
+    "code": "MO1910",
+    "islast": false
+  },
+  {
+    "desc": "Casa Zironi",
+    "code": "MO1908",
+    "islast": false
+  },
+  {
+    "desc": "Sarsa",
+    "code": "MO1906",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Alto Nuovo",
+    "code": "MO1772",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Nuovo",
+    "code": "MO909",
+    "islast": false
+  },
+  {
+    "desc": "Montanara",
+    "code": "MO908",
+    "islast": false
+  },
+  {
+    "desc": "Indipendenza ex Questura",
+    "code": "MO906",
+    "islast": false
+  },
+  {
+    "desc": "Bologna scuole",
+    "code": "MO904",
+    "islast": false
+  },
+  {
+    "desc": "Radici in Monte bv Magenta",
+    "code": "MO2401",
+    "islast": false
+  },
+  {
+    "desc": "Radici in Monte bv Liberta",
+    "code": "MO2391",
+    "islast": false
+  },
+  {
+    "desc": "Sassuolo Terminal",
+    "code": "MO4000",
+    "islast": true
+  }
+]

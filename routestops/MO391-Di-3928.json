@@ -1,0 +1,117 @@
+[
+  {
+    "desc": "POLO LEONARDO",
+    "code": "MO218",
+    "islast": false
+  },
+  {
+    "desc": "POLO LEONARDO 1",
+    "code": "MO2928",
+    "islast": false
+  },
+  {
+    "desc": "Da Vinci bv Newton",
+    "code": "MO6725",
+    "islast": false
+  },
+  {
+    "desc": "Da Vinci bv Curie",
+    "code": "MO2891",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Guarini",
+    "code": "MO2887",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Cattaneo",
+    "code": "MO2885",
+    "islast": false
+  },
+  {
+    "desc": "Croce Blu",
+    "code": "MO1346",
+    "islast": false
+  },
+  {
+    "desc": "Direzionale 70",
+    "code": "MO6611",
+    "islast": false
+  },
+  {
+    "desc": "Amendola bv Nievo",
+    "code": "MO6676",
+    "islast": false
+  },
+  {
+    "desc": "Amendola la Baracchina",
+    "code": "MO613",
+    "islast": false
+  },
+  {
+    "desc": "Amendola",
+    "code": "MO6678",
+    "islast": false
+  },
+  {
+    "desc": "Amendola bv Tamburini",
+    "code": "MO6040",
+    "islast": false
+  },
+  {
+    "desc": "Don Minzoni USL",
+    "code": "MO6566",
+    "islast": false
+  },
+  {
+    "desc": "Gobetti",
+    "code": "MO2808",
+    "islast": false
+  },
+  {
+    "desc": "Piazza Manzoni",
+    "code": "MO11",
+    "islast": false
+  },
+  {
+    "desc": "Cucchiari bv Manzoni",
+    "code": "MO111",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese Gambero",
+    "code": "MO6412",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese bv La Spezia",
+    "code": "MO1364",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese Punta",
+    "code": "MO6433",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese bv Campi",
+    "code": "MO2739",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese Universita",
+    "code": "MO1362",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese bv Saluzzo",
+    "code": "MO6439",
+    "islast": false
+  },
+  {
+    "desc": "GOTTARDI",
+    "code": "MO90",
+    "islast": true
+  }
+]

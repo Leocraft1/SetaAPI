@@ -1,0 +1,62 @@
+[
+  {
+    "desc": "Formigine",
+    "code": "MO735",
+    "islast": false
+  },
+  {
+    "desc": "Molinella",
+    "code": "MO1502",
+    "islast": false
+  },
+  {
+    "desc": "Formigine cartiera",
+    "code": "MO1504",
+    "islast": false
+  },
+  {
+    "desc": "Casinalbo",
+    "code": "MO1530",
+    "islast": false
+  },
+  {
+    "desc": "La Bertola",
+    "code": "MO1428",
+    "islast": false
+  },
+  {
+    "desc": "Da Porto bv Cavezzo",
+    "code": "MO3655",
+    "islast": false
+  },
+  {
+    "desc": "Da Porto chiesa",
+    "code": "MO3656",
+    "islast": false
+  },
+  {
+    "desc": "POLO LEONARDO 1",
+    "code": "MO2928",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Guarini",
+    "code": "MO2887",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Cattaneo",
+    "code": "MO2885",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Fermi",
+    "code": "MO6720",
+    "islast": false
+  },
+  {
+    "desc": "MODENA AUTOSTAZIONE",
+    "code": "MO303",
+    "islast": true
+  }
+]

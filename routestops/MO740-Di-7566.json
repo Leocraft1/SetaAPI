@@ -1,0 +1,192 @@
+[
+  {
+    "desc": "MODENA AUTOSTAZIONE",
+    "code": "MO350",
+    "islast": false
+  },
+  {
+    "desc": "Risorgimento",
+    "code": "MO20",
+    "islast": false
+  },
+  {
+    "desc": "Rimembranze ex Questura",
+    "code": "MO42",
+    "islast": false
+  },
+  {
+    "desc": "GARIBALDI",
+    "code": "MO5111",
+    "islast": false
+  },
+  {
+    "desc": "Piazza Manzoni",
+    "code": "MO11",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese bv La Spezia",
+    "code": "MO1364",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese Universita",
+    "code": "MO1362",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese bv Saluzzo",
+    "code": "MO6439",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese Istituto",
+    "code": "MO1360",
+    "islast": false
+  },
+  {
+    "desc": "VACIGLIO",
+    "code": "MO7313",
+    "islast": false
+  },
+  {
+    "desc": "Gherbella 2",
+    "code": "MO2231",
+    "islast": false
+  },
+  {
+    "desc": "Gherbella 1",
+    "code": "MO2303",
+    "islast": false
+  },
+  {
+    "desc": "Gherbella",
+    "code": "MO699",
+    "islast": false
+  },
+  {
+    "desc": "Paganine Unibon",
+    "code": "MO723",
+    "islast": false
+  },
+  {
+    "desc": "Paganine centro",
+    "code": "MO724",
+    "islast": false
+  },
+  {
+    "desc": "Portile farmacia",
+    "code": "MO2332",
+    "islast": false
+  },
+  {
+    "desc": "Portile centro",
+    "code": "MO709",
+    "islast": false
+  },
+  {
+    "desc": "Portile Madonnina",
+    "code": "MO707",
+    "islast": false
+  },
+  {
+    "desc": "Cabianca",
+    "code": "MO708",
+    "islast": false
+  },
+  {
+    "desc": "Vilco",
+    "code": "MO848",
+    "islast": false
+  },
+  {
+    "desc": "Castelnuovo Rangone",
+    "code": "MO330",
+    "islast": false
+  },
+  {
+    "desc": "Acquedotto",
+    "code": "MO849",
+    "islast": false
+  },
+  {
+    "desc": "Castelnuovo Case Nuove",
+    "code": "MO4071",
+    "islast": false
+  },
+  {
+    "desc": "Settecani",
+    "code": "MO862",
+    "islast": false
+  },
+  {
+    "desc": "Italtractor",
+    "code": "MO867",
+    "islast": false
+  },
+  {
+    "desc": "Ca' di Sola",
+    "code": "MO1730",
+    "islast": false
+  },
+  {
+    "desc": "Spezzatona",
+    "code": "MO1732",
+    "islast": false
+  },
+  {
+    "desc": "Casone",
+    "code": "MO1734",
+    "islast": false
+  },
+  {
+    "desc": "Castelvetro",
+    "code": "MO800",
+    "islast": false
+  },
+  {
+    "desc": "Giardino",
+    "code": "MO802",
+    "islast": false
+  },
+  {
+    "desc": "Palona",
+    "code": "MO803",
+    "islast": false
+  },
+  {
+    "desc": "Gatta",
+    "code": "MO804",
+    "islast": false
+  },
+  {
+    "desc": "Ca' Molza",
+    "code": "MO4594",
+    "islast": false
+  },
+  {
+    "desc": "San Pietro",
+    "code": "MO4596",
+    "islast": false
+  },
+  {
+    "desc": "Due Ponti",
+    "code": "MO4598",
+    "islast": false
+  },
+  {
+    "desc": "Campiglio bv",
+    "code": "MO4602",
+    "islast": false
+  },
+  {
+    "desc": "La Vigna",
+    "code": "MO4616",
+    "islast": false
+  },
+  {
+    "desc": "Vignola Autostazione",
+    "code": "MO4506",
+    "islast": true
+  }
+]

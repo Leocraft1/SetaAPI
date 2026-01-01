@@ -1,0 +1,207 @@
+[
+  {
+    "desc": "MODENA AUTOSTAZIONE",
+    "code": "MO342",
+    "islast": false
+  },
+  {
+    "desc": "Risorgimento",
+    "code": "MO20",
+    "islast": false
+  },
+  {
+    "desc": "Teatro Michelangelo",
+    "code": "MO22",
+    "islast": false
+  },
+  {
+    "desc": "Croce Blu",
+    "code": "MO1346",
+    "islast": false
+  },
+  {
+    "desc": "Direzionale 70",
+    "code": "MO6611",
+    "islast": false
+  },
+  {
+    "desc": "Giardini bv Cimabue 1",
+    "code": "MO3237",
+    "islast": false
+  },
+  {
+    "desc": "Giardini bv Cimabue",
+    "code": "MO24",
+    "islast": false
+  },
+  {
+    "desc": "Giardini carcere",
+    "code": "MO6002",
+    "islast": false
+  },
+  {
+    "desc": "Saliceta San Giuliano",
+    "code": "MO6631",
+    "islast": false
+  },
+  {
+    "desc": "Giardini Due Mulini",
+    "code": "MO6637",
+    "islast": false
+  },
+  {
+    "desc": "Giardini Simint",
+    "code": "MO6639",
+    "islast": false
+  },
+  {
+    "desc": "Baggiovara 1",
+    "code": "MO3487",
+    "islast": false
+  },
+  {
+    "desc": "Baggiovara",
+    "code": "MO726",
+    "islast": false
+  },
+  {
+    "desc": "La Bertola",
+    "code": "MO701",
+    "islast": false
+  },
+  {
+    "desc": "Casinalbo",
+    "code": "MO755",
+    "islast": false
+  },
+  {
+    "desc": "Formigine cartiera",
+    "code": "MO738",
+    "islast": false
+  },
+  {
+    "desc": "Molinella",
+    "code": "MO737",
+    "islast": false
+  },
+  {
+    "desc": "Formigine",
+    "code": "MO1500",
+    "islast": false
+  },
+  {
+    "desc": "Lar",
+    "code": "MO1560",
+    "islast": false
+  },
+  {
+    "desc": "Picchio Rosso",
+    "code": "MO1646",
+    "islast": false
+  },
+  {
+    "desc": "Ubersetto",
+    "code": "MO819",
+    "islast": false
+  },
+  {
+    "desc": "Viazza",
+    "code": "MO813",
+    "islast": false
+  },
+  {
+    "desc": "Villa Vicini",
+    "code": "MO816",
+    "islast": false
+  },
+  {
+    "desc": "Borgo",
+    "code": "MO815",
+    "islast": false
+  },
+  {
+    "desc": "Spezzano scuole",
+    "code": "MO814",
+    "islast": false
+  },
+  {
+    "desc": "San Rocco",
+    "code": "MO3275",
+    "islast": false
+  },
+  {
+    "desc": "Bursi scuola",
+    "code": "MO805",
+    "islast": false
+  },
+  {
+    "desc": "Chianca",
+    "code": "MO807",
+    "islast": false
+  },
+  {
+    "desc": "Spezzano asilo",
+    "code": "MO808",
+    "islast": false
+  },
+  {
+    "desc": "Ghiarella",
+    "code": "MO4049",
+    "islast": false
+  },
+  {
+    "desc": "Spezzano Crociale",
+    "code": "MO795",
+    "islast": false
+  },
+  {
+    "desc": "La Corona",
+    "code": "MO793",
+    "islast": false
+  },
+  {
+    "desc": "Case Nuove",
+    "code": "MO789",
+    "islast": false
+  },
+  {
+    "desc": "Fiorano Modenese",
+    "code": "MO4011",
+    "islast": false
+  },
+  {
+    "desc": "Fiorano San Francesco",
+    "code": "MO4007",
+    "islast": false
+  },
+  {
+    "desc": "Cerdisa",
+    "code": "MO780",
+    "islast": false
+  },
+  {
+    "desc": "Mezzavia",
+    "code": "MO781",
+    "islast": false
+  },
+  {
+    "desc": "Mazzini",
+    "code": "MO2545",
+    "islast": false
+  },
+  {
+    "desc": "Risorgimento",
+    "code": "MO2233",
+    "islast": false
+  },
+  {
+    "desc": "Braida Ist. Baggi",
+    "code": "MO2772",
+    "islast": false
+  },
+  {
+    "desc": "Sassuolo Terminal",
+    "code": "MO4000",
+    "islast": true
+  }
+]

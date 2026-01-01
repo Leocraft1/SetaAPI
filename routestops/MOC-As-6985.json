@@ -1,0 +1,92 @@
+[
+  {
+    "desc": "San Michele Socche",
+    "code": "MO2329",
+    "islast": false
+  },
+  {
+    "desc": "San Michele Centro",
+    "code": "MO2658",
+    "islast": false
+  },
+  {
+    "desc": "San Michele Basso",
+    "code": "MO998",
+    "islast": false
+  },
+  {
+    "desc": "Mulino",
+    "code": "MO999",
+    "islast": false
+  },
+  {
+    "desc": "Vallurbana",
+    "code": "MO917",
+    "islast": false
+  },
+  {
+    "desc": "Superchia",
+    "code": "MO2773",
+    "islast": false
+  },
+  {
+    "desc": "Salvarola bv",
+    "code": "MO916",
+    "islast": false
+  },
+  {
+    "desc": "Varana bv",
+    "code": "MO1780",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Nuovo",
+    "code": "MO909",
+    "islast": false
+  },
+  {
+    "desc": "Ospedale Sassuolo",
+    "code": "MO2786",
+    "islast": false
+  },
+  {
+    "desc": "Rometta",
+    "code": "MO2225",
+    "islast": false
+  },
+  {
+    "desc": "Torino",
+    "code": "MO2497",
+    "islast": false
+  },
+  {
+    "desc": "Cairoli",
+    "code": "MO2532",
+    "islast": false
+  },
+  {
+    "desc": "Gorizia",
+    "code": "MO2315",
+    "islast": false
+  },
+  {
+    "desc": "Mazzini",
+    "code": "MO2545",
+    "islast": false
+  },
+  {
+    "desc": "Risorgimento",
+    "code": "MO2233",
+    "islast": false
+  },
+  {
+    "desc": "Braida Ist. Baggi",
+    "code": "MO2309",
+    "islast": false
+  },
+  {
+    "desc": "Sassuolo Terminal",
+    "code": "MO2306",
+    "islast": true
+  }
+]

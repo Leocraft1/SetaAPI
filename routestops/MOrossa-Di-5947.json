@@ -1,0 +1,147 @@
+[
+  {
+    "desc": "Industriale 2",
+    "code": "MO3592",
+    "islast": false
+  },
+  {
+    "desc": "Losi",
+    "code": "MO3029",
+    "islast": false
+  },
+  {
+    "desc": "Piscine",
+    "code": "MO8534",
+    "islast": false
+  },
+  {
+    "desc": "Peruzzi 3",
+    "code": "MO3482",
+    "islast": false
+  },
+  {
+    "desc": "Peruzzi 2",
+    "code": "MO3373",
+    "islast": false
+  },
+  {
+    "desc": "PERUZZI AUTOSTAZIONE",
+    "code": "MO2547",
+    "islast": false
+  },
+  {
+    "desc": "Peruzzi 1",
+    "code": "MO3375",
+    "islast": false
+  },
+  {
+    "desc": "3 Febbraio",
+    "code": "MO174",
+    "islast": false
+  },
+  {
+    "desc": "Parco",
+    "code": "MO1677",
+    "islast": false
+  },
+  {
+    "desc": "Fanti 2",
+    "code": "MO8519",
+    "islast": false
+  },
+  {
+    "desc": "Fanti 1",
+    "code": "MO8520",
+    "islast": false
+  },
+  {
+    "desc": "Cabassi",
+    "code": "MO3459",
+    "islast": false
+  },
+  {
+    "desc": "Stazione FS",
+    "code": "MO8537",
+    "islast": false
+  },
+  {
+    "desc": "Alghisi 2",
+    "code": "MO3379",
+    "islast": false
+  },
+  {
+    "desc": "Alghisi 1",
+    "code": "MO3381",
+    "islast": false
+  },
+  {
+    "desc": "De Rosa",
+    "code": "MO3001",
+    "islast": false
+  },
+  {
+    "desc": "Moro 2",
+    "code": "MO3219",
+    "islast": false
+  },
+  {
+    "desc": "Moro 1",
+    "code": "MO3032",
+    "islast": false
+  },
+  {
+    "desc": "Carabinieri",
+    "code": "MO3033",
+    "islast": false
+  },
+  {
+    "desc": "Sigonio",
+    "code": "MO8544",
+    "islast": false
+  },
+  {
+    "desc": "Lama 1",
+    "code": "MO3034",
+    "islast": false
+  },
+  {
+    "desc": "Meloni",
+    "code": "MO3035",
+    "islast": false
+  },
+  {
+    "desc": "Minghetti",
+    "code": "MO3037",
+    "islast": false
+  },
+  {
+    "desc": "Lama 2",
+    "code": "MO3232",
+    "islast": false
+  },
+  {
+    "desc": "Quartirolo",
+    "code": "MO258",
+    "islast": false
+  },
+  {
+    "desc": "Liguria",
+    "code": "MO3039",
+    "islast": false
+  },
+  {
+    "desc": "Polizia",
+    "code": "MO3048",
+    "islast": false
+  },
+  {
+    "desc": "Pini",
+    "code": "MO3049",
+    "islast": false
+  },
+  {
+    "desc": "Cattania",
+    "code": "MO3003",
+    "islast": true
+  }
+]

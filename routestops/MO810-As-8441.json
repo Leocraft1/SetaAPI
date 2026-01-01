@@ -1,0 +1,107 @@
+[
+  {
+    "desc": "Le Regine",
+    "code": "MO3823",
+    "islast": false
+  },
+  {
+    "desc": "Ponte alle Lime",
+    "code": "MO3828",
+    "islast": false
+  },
+  {
+    "desc": "Abetone piazza",
+    "code": "MO4800",
+    "islast": false
+  },
+  {
+    "desc": "Abetone",
+    "code": "MO4212",
+    "islast": false
+  },
+  {
+    "desc": "Lo Scoglietto",
+    "code": "MO4798",
+    "islast": false
+  },
+  {
+    "desc": "Chiarofonte",
+    "code": "MO4796",
+    "islast": false
+  },
+  {
+    "desc": "Casa Cantoniera",
+    "code": "MO4795",
+    "islast": false
+  },
+  {
+    "desc": "La Fiorita",
+    "code": "MO4792",
+    "islast": false
+  },
+  {
+    "desc": "Faidello",
+    "code": "MO3820",
+    "islast": false
+  },
+  {
+    "desc": "Borgo Nuovo",
+    "code": "MO3812",
+    "islast": false
+  },
+  {
+    "desc": "Dogana Nuova",
+    "code": "MO3810",
+    "islast": false
+  },
+  {
+    "desc": "Giardini 188",
+    "code": "MO3813",
+    "islast": false
+  },
+  {
+    "desc": "Sorgente",
+    "code": "MO3808",
+    "islast": false
+  },
+  {
+    "desc": "Villaggio artigiano",
+    "code": "MO3807",
+    "islast": false
+  },
+  {
+    "desc": "Fenecchio",
+    "code": "MO3806",
+    "islast": false
+  },
+  {
+    "desc": "Fiumalbo Zona Artigianale",
+    "code": "MO2844",
+    "islast": false
+  },
+  {
+    "desc": "Fiumalbo",
+    "code": "MO1400",
+    "islast": false
+  },
+  {
+    "desc": "Passo San Michele",
+    "code": "MO3756",
+    "islast": false
+  },
+  {
+    "desc": "Le Lazze",
+    "code": "MO3757",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Modino",
+    "code": "MO3755",
+    "islast": false
+  },
+  {
+    "desc": "Pievepelago Autostazione",
+    "code": "MO3104",
+    "islast": true
+  }
+]

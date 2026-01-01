@@ -1,0 +1,147 @@
+[
+  {
+    "desc": "POLO LEONARDO",
+    "code": "MO6783",
+    "islast": false
+  },
+  {
+    "desc": "POLO LEONARDO 1",
+    "code": "MO2928",
+    "islast": false
+  },
+  {
+    "desc": "Da Vinci bv Newton",
+    "code": "MO6725",
+    "islast": false
+  },
+  {
+    "desc": "Da Vinci bv Curie",
+    "code": "MO2891",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Guarini",
+    "code": "MO2887",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Cattaneo",
+    "code": "MO2885",
+    "islast": false
+  },
+  {
+    "desc": "Croce Blu",
+    "code": "MO1346",
+    "islast": false
+  },
+  {
+    "desc": "Direzionale 70",
+    "code": "MO6611",
+    "islast": false
+  },
+  {
+    "desc": "Giardini bv Cimabue 1",
+    "code": "MO3237",
+    "islast": false
+  },
+  {
+    "desc": "Giardini bv Cimabue",
+    "code": "MO24",
+    "islast": false
+  },
+  {
+    "desc": "Panni bv Giambellino",
+    "code": "MO2615",
+    "islast": false
+  },
+  {
+    "desc": "MATTARELLA",
+    "code": "MO233",
+    "islast": false
+  },
+  {
+    "desc": "Casalegno rotonda",
+    "code": "MO6573",
+    "islast": false
+  },
+  {
+    "desc": "Dalla Chiesa bv Tobagi",
+    "code": "MO2804",
+    "islast": false
+  },
+  {
+    "desc": "Dalla Chiesa bv Ghiaroni",
+    "code": "MO2803",
+    "islast": false
+  },
+  {
+    "desc": "Liguria",
+    "code": "MO2802",
+    "islast": false
+  },
+  {
+    "desc": "Magenta bv del Garda",
+    "code": "MO2801",
+    "islast": false
+  },
+  {
+    "desc": "Magenta bv Vigevano",
+    "code": "MO2799",
+    "islast": false
+  },
+  {
+    "desc": "Pavia bv Milano",
+    "code": "MO2798",
+    "islast": false
+  },
+  {
+    "desc": "Morane bv Pavia",
+    "code": "MO2797",
+    "islast": false
+  },
+  {
+    "desc": "Morane Hesperia",
+    "code": "MO2796",
+    "islast": false
+  },
+  {
+    "desc": "Morane bv Bolzano",
+    "code": "MO88",
+    "islast": false
+  },
+  {
+    "desc": "Morane bv Gobetti",
+    "code": "MO2794",
+    "islast": false
+  },
+  {
+    "desc": "Morane bv Bellincini",
+    "code": "MO2789",
+    "islast": false
+  },
+  {
+    "desc": "Morane bv Sigonio",
+    "code": "MO112",
+    "islast": false
+  },
+  {
+    "desc": "Parco della creativita",
+    "code": "MO7042",
+    "islast": false
+  },
+  {
+    "desc": "Sigonio bv Tamburini",
+    "code": "MO2776",
+    "islast": false
+  },
+  {
+    "desc": "Sigonio bv Guarini",
+    "code": "MO2848",
+    "islast": false
+  },
+  {
+    "desc": "Pietro Giannone",
+    "code": "MO6647",
+    "islast": true
+  }
+]

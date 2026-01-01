@@ -1,0 +1,32 @@
+[
+  {
+    "desc": "Pavullo Autostazione",
+    "code": "MO3000",
+    "islast": false
+  },
+  {
+    "desc": "Le Aie",
+    "code": "MO2546",
+    "islast": false
+  },
+  {
+    "desc": "Capanne",
+    "code": "MO2548",
+    "islast": false
+  },
+  {
+    "desc": "Acquabona",
+    "code": "MO2550",
+    "islast": false
+  },
+  {
+    "desc": "Il Ronco",
+    "code": "MO2552",
+    "islast": false
+  },
+  {
+    "desc": "Sant'Antonio",
+    "code": "MO2560",
+    "islast": true
+  }
+]

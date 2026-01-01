@@ -1,0 +1,17 @@
+[
+  {
+    "desc": "Novi",
+    "code": "MO2800",
+    "islast": false
+  },
+  {
+    "desc": "Concordia centro",
+    "code": "MO512",
+    "islast": false
+  },
+  {
+    "desc": "Concordia",
+    "code": "MO1000",
+    "islast": true
+  }
+]

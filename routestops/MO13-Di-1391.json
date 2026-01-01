@@ -1,0 +1,107 @@
+[
+  {
+    "desc": "MODENA  AUTOSTAZIONE",
+    "code": "MO6121",
+    "islast": false
+  },
+  {
+    "desc": "Ospedale Estense",
+    "code": "MO6173",
+    "islast": false
+  },
+  {
+    "desc": "Vittorio Veneto bv Trombi",
+    "code": "MO6171",
+    "islast": false
+  },
+  {
+    "desc": "Risorgimento",
+    "code": "MO20",
+    "islast": false
+  },
+  {
+    "desc": "Giardini villa Fogliani",
+    "code": "MO6601",
+    "islast": false
+  },
+  {
+    "desc": "Giardini Polizia Stradale",
+    "code": "MO6603",
+    "islast": false
+  },
+  {
+    "desc": "Teatro Michelangelo",
+    "code": "MO22",
+    "islast": false
+  },
+  {
+    "desc": "Giardini Donatello",
+    "code": "MO6607",
+    "islast": false
+  },
+  {
+    "desc": "Croce Blu",
+    "code": "MO1346",
+    "islast": false
+  },
+  {
+    "desc": "Direzionale 70",
+    "code": "MO6611",
+    "islast": false
+  },
+  {
+    "desc": "Giardini bv Cimabue 1",
+    "code": "MO3237",
+    "islast": false
+  },
+  {
+    "desc": "Giardini bv Cimabue",
+    "code": "MO24",
+    "islast": false
+  },
+  {
+    "desc": "Giardini carcere",
+    "code": "MO6002",
+    "islast": false
+  },
+  {
+    "desc": "Giardini bv chiesa S.Giuliano",
+    "code": "MO6623",
+    "islast": false
+  },
+  {
+    "desc": "Giardini bv San Marone",
+    "code": "MO6629",
+    "islast": false
+  },
+  {
+    "desc": "Saliceta San Giuliano",
+    "code": "MO6631",
+    "islast": false
+  },
+  {
+    "desc": "Giardini La Bugia",
+    "code": "MO6635",
+    "islast": false
+  },
+  {
+    "desc": "Giardini Due Mulini",
+    "code": "MO6637",
+    "islast": false
+  },
+  {
+    "desc": "Giardini Simint",
+    "code": "MO6639",
+    "islast": false
+  },
+  {
+    "desc": "Camere Ardenti",
+    "code": "MO3605",
+    "islast": false
+  },
+  {
+    "desc": "OSPEDALE BAGGIOVARA",
+    "code": "MO2530",
+    "islast": true
+  }
+]

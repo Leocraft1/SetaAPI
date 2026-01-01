@@ -1,0 +1,112 @@
+[
+  {
+    "desc": "Finale Emilia Autostazione",
+    "code": "MO661",
+    "islast": false
+  },
+  {
+    "desc": "Istituto agrario bv",
+    "code": "MO1206",
+    "islast": false
+  },
+  {
+    "desc": "Casette",
+    "code": "MO1134",
+    "islast": false
+  },
+  {
+    "desc": "Canaletto scuole",
+    "code": "MO1132",
+    "islast": false
+  },
+  {
+    "desc": "Canaletto",
+    "code": "MO1130",
+    "islast": false
+  },
+  {
+    "desc": "Canalazzo",
+    "code": "MO1120",
+    "islast": false
+  },
+  {
+    "desc": "Marsala",
+    "code": "MO1112",
+    "islast": false
+  },
+  {
+    "desc": "Massa Finalese",
+    "code": "MO1110",
+    "islast": false
+  },
+  {
+    "desc": "Massa Finalese stazione",
+    "code": "MO1108",
+    "islast": false
+  },
+  {
+    "desc": "Rivara",
+    "code": "MO560",
+    "islast": false
+  },
+  {
+    "desc": "Mulino Ariani",
+    "code": "MO3698",
+    "islast": false
+  },
+  {
+    "desc": "San Felice sul Panaro",
+    "code": "MO3700",
+    "islast": false
+  },
+  {
+    "desc": "San Felice stadio",
+    "code": "MO570",
+    "islast": false
+  },
+  {
+    "desc": "Casarino",
+    "code": "MO3699",
+    "islast": false
+  },
+  {
+    "desc": "Ca' Bianca",
+    "code": "MO1040",
+    "islast": false
+  },
+  {
+    "desc": "Ponte San Pellegrino",
+    "code": "MO3759",
+    "islast": false
+  },
+  {
+    "desc": "Camil",
+    "code": "MO554",
+    "islast": false
+  },
+  {
+    "desc": "Mortizzuolo",
+    "code": "MO538",
+    "islast": false
+  },
+  {
+    "desc": "Cazzuola",
+    "code": "MO1072",
+    "islast": false
+  },
+  {
+    "desc": "Borgnetto",
+    "code": "MO1074",
+    "islast": false
+  },
+  {
+    "desc": "Nuvolari bv Barozzi",
+    "code": "MO3983",
+    "islast": false
+  },
+  {
+    "desc": "Mirandola Terminal",
+    "code": "MO3971",
+    "islast": true
+  }
+]

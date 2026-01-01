@@ -1,0 +1,157 @@
+[
+  {
+    "desc": "Concordia",
+    "code": "MO1000",
+    "islast": false
+  },
+  {
+    "desc": "Concordia centro",
+    "code": "MO510",
+    "islast": false
+  },
+  {
+    "desc": "San Giovanni Bosco",
+    "code": "MO380",
+    "islast": false
+  },
+  {
+    "desc": "Due Colonne",
+    "code": "MO962",
+    "islast": false
+  },
+  {
+    "desc": "Viazzolo",
+    "code": "MO964",
+    "islast": false
+  },
+  {
+    "desc": "Terzi",
+    "code": "MO966",
+    "islast": false
+  },
+  {
+    "desc": "Caseificio",
+    "code": "MO968",
+    "islast": false
+  },
+  {
+    "desc": "Bottega sei",
+    "code": "MO972",
+    "islast": false
+  },
+  {
+    "desc": "Palazzo Pio",
+    "code": "MO963",
+    "islast": false
+  },
+  {
+    "desc": "Borgo Ferro",
+    "code": "MO961",
+    "islast": false
+  },
+  {
+    "desc": "Sant'Antonio Mercadello",
+    "code": "MO960",
+    "islast": false
+  },
+  {
+    "desc": "Candia",
+    "code": "MO955",
+    "islast": false
+  },
+  {
+    "desc": "Santa Maria",
+    "code": "MO957",
+    "islast": false
+  },
+  {
+    "desc": "Tenuta Delfina",
+    "code": "MO953",
+    "islast": false
+  },
+  {
+    "desc": "Case Nuove Rovereto",
+    "code": "MO952",
+    "islast": false
+  },
+  {
+    "desc": "Gabella",
+    "code": "MO951",
+    "islast": false
+  },
+  {
+    "desc": "Rovereto",
+    "code": "MO950",
+    "islast": false
+  },
+  {
+    "desc": "Benzi bv",
+    "code": "MO938",
+    "islast": false
+  },
+  {
+    "desc": "Lugli scuole",
+    "code": "MO937",
+    "islast": false
+  },
+  {
+    "desc": "Rovereto Industriale ovest",
+    "code": "MO936",
+    "islast": false
+  },
+  {
+    "desc": "Ponticelli",
+    "code": "MO932",
+    "islast": false
+  },
+  {
+    "desc": "San Marino",
+    "code": "MO930",
+    "islast": false
+  },
+  {
+    "desc": "San Marino bv",
+    "code": "MO921",
+    "islast": false
+  },
+  {
+    "desc": "Cibeno",
+    "code": "MO920",
+    "islast": false
+  },
+  {
+    "desc": "Cibeno farmacia",
+    "code": "MO918",
+    "islast": false
+  },
+  {
+    "desc": "Ariosto",
+    "code": "MO3473",
+    "islast": false
+  },
+  {
+    "desc": "Stazione FS",
+    "code": "MO8537",
+    "islast": false
+  },
+  {
+    "desc": "Alghisi 2",
+    "code": "MO3379",
+    "islast": false
+  },
+  {
+    "desc": "Stadio",
+    "code": "MO8553",
+    "islast": false
+  },
+  {
+    "desc": "P.le Ramazzini",
+    "code": "MO502",
+    "islast": false
+  },
+  {
+    "desc": "CARPI TERMINAL BUS",
+    "code": "MO495",
+    "islast": true
+  }
+]

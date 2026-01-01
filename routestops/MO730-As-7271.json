@@ -1,0 +1,82 @@
+[
+  {
+    "desc": "Fanano",
+    "code": "MO1100",
+    "islast": false
+  },
+  {
+    "desc": "Ospitale bv",
+    "code": "MO3617",
+    "islast": false
+  },
+  {
+    "desc": "Fanano zona artigianale",
+    "code": "MO1101",
+    "islast": false
+  },
+  {
+    "desc": "Santa Croce",
+    "code": "MO3618",
+    "islast": false
+  },
+  {
+    "desc": "Casa Pilino",
+    "code": "MO3612",
+    "islast": false
+  },
+  {
+    "desc": "Rocchetta Sandri bv",
+    "code": "MO3610",
+    "islast": false
+  },
+  {
+    "desc": "Ca' Ivo",
+    "code": "MO3613",
+    "islast": false
+  },
+  {
+    "desc": "Casa Mazzini",
+    "code": "MO3614",
+    "islast": false
+  },
+  {
+    "desc": "Cartiera",
+    "code": "MO3615",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Scoltenna",
+    "code": "MO3620",
+    "islast": false
+  },
+  {
+    "desc": "Baita Panaro",
+    "code": "MO3348",
+    "islast": false
+  },
+  {
+    "desc": "La Borra",
+    "code": "MO3346",
+    "islast": false
+  },
+  {
+    "desc": "Il Frantoio",
+    "code": "MO3345",
+    "islast": false
+  },
+  {
+    "desc": "Chiozzo",
+    "code": "MO3344",
+    "islast": false
+  },
+  {
+    "desc": "Lido Panaro",
+    "code": "MO3342",
+    "islast": false
+  },
+  {
+    "desc": "Ristorante Martino",
+    "code": "MO3340",
+    "islast": true
+  }
+]

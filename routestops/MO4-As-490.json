@@ -1,0 +1,72 @@
+[
+  {
+    "desc": "MODENA  AUTOSTAZIONE",
+    "code": "MO5003",
+    "islast": false
+  },
+  {
+    "desc": "Palazzo Europa",
+    "code": "MO2993",
+    "islast": false
+  },
+  {
+    "desc": "Caserma Pisacane",
+    "code": "MO2995",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest bv Ruffini",
+    "code": "MO2997",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest bv Autodromo",
+    "code": "MO13",
+    "islast": false
+  },
+  {
+    "desc": "Cabassi",
+    "code": "MO6812",
+    "islast": false
+  },
+  {
+    "desc": "Emilio Po bv Leoni",
+    "code": "MO6814",
+    "islast": false
+  },
+  {
+    "desc": "Emilio Po bv De Gavasseti",
+    "code": "MO2989",
+    "islast": false
+  },
+  {
+    "desc": "Emilio Po Panini",
+    "code": "MO2991",
+    "islast": false
+  },
+  {
+    "desc": "Corassori polisportiva",
+    "code": "MO2918",
+    "islast": false
+  },
+  {
+    "desc": "Da Vinci bv Newton",
+    "code": "MO2892",
+    "islast": false
+  },
+  {
+    "desc": "Galilei bv Cartesio",
+    "code": "MO2894",
+    "islast": false
+  },
+  {
+    "desc": "Galilei Forum",
+    "code": "MO2895",
+    "islast": false
+  },
+  {
+    "desc": "GALILEI",
+    "code": "MO6722",
+    "islast": true
+  }
+]

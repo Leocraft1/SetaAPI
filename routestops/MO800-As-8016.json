@@ -1,0 +1,92 @@
+[
+  {
+    "desc": "MARANELLO TERMINAL",
+    "code": "MO3599",
+    "islast": false
+  },
+  {
+    "desc": "Maranello Ferrari Nord",
+    "code": "MO3824",
+    "islast": false
+  },
+  {
+    "desc": "Maranello Bivio Nuvolari",
+    "code": "MO3826",
+    "islast": false
+  },
+  {
+    "desc": "Saime",
+    "code": "MO1644",
+    "islast": false
+  },
+  {
+    "desc": "Saicis",
+    "code": "MO1642",
+    "islast": false
+  },
+  {
+    "desc": "Ubersetto",
+    "code": "MO1640",
+    "islast": false
+  },
+  {
+    "desc": "Picchio Rosso",
+    "code": "MO825",
+    "islast": false
+  },
+  {
+    "desc": "Lar",
+    "code": "MO778",
+    "islast": false
+  },
+  {
+    "desc": "Formigine",
+    "code": "MO735",
+    "islast": false
+  },
+  {
+    "desc": "Molinella",
+    "code": "MO1502",
+    "islast": false
+  },
+  {
+    "desc": "Formigine cartiera",
+    "code": "MO1504",
+    "islast": false
+  },
+  {
+    "desc": "Casinalbo",
+    "code": "MO1530",
+    "islast": false
+  },
+  {
+    "desc": "La Bertola",
+    "code": "MO1428",
+    "islast": false
+  },
+  {
+    "desc": "Baggiovara 1",
+    "code": "MO1480",
+    "islast": false
+  },
+  {
+    "desc": "POLO LEONARDO 1",
+    "code": "MO2928",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Guarini",
+    "code": "MO2887",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Cattaneo",
+    "code": "MO2885",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Fermi",
+    "code": "MO6720",
+    "islast": true
+  }
+]

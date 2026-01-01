@@ -1,0 +1,117 @@
+[
+  {
+    "desc": "STAZIONE FS",
+    "code": "MO6133",
+    "islast": false
+  },
+  {
+    "desc": "Monte Kosica bv Ganaceto",
+    "code": "MO2575",
+    "islast": false
+  },
+  {
+    "desc": "Monte Kosica stadio",
+    "code": "MO2579",
+    "islast": false
+  },
+  {
+    "desc": "Monte Kosica Barozzi",
+    "code": "MO2578",
+    "islast": false
+  },
+  {
+    "desc": "MODENA  AUTOSTAZIONE",
+    "code": "MO10",
+    "islast": false
+  },
+  {
+    "desc": "Palazzo Europa",
+    "code": "MO2993",
+    "islast": false
+  },
+  {
+    "desc": "Caserma Pisacane",
+    "code": "MO2995",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest bv Ruffini",
+    "code": "MO2997",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest bv Autodromo",
+    "code": "MO13",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest Madonnina",
+    "code": "MO14",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest Hotel Eden",
+    "code": "MO2999",
+    "islast": false
+  },
+  {
+    "desc": "Centro Commerciale 2000",
+    "code": "MO3121",
+    "islast": false
+  },
+  {
+    "desc": "Centro Senada",
+    "code": "MO3069",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest Globo",
+    "code": "MO3073",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest Comet",
+    "code": "MO3093",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest Bruciata",
+    "code": "MO609",
+    "islast": false
+  },
+  {
+    "desc": "Virgilio Metro",
+    "code": "MO6875",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest bv Virgilio",
+    "code": "MO614",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest Grandemilia",
+    "code": "MO611",
+    "islast": false
+  },
+  {
+    "desc": "Cittanova centro",
+    "code": "MO1180",
+    "islast": false
+  },
+  {
+    "desc": "MARZAGLIA VECCHIA",
+    "code": "MO3745",
+    "islast": false
+  },
+  {
+    "desc": "Marzaglia Nuova",
+    "code": "MO147",
+    "islast": false
+  },
+  {
+    "desc": "MARZAGLIA N",
+    "code": "MO1032",
+    "islast": true
+  }
+]

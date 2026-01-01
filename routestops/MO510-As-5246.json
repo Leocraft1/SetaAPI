@@ -1,0 +1,112 @@
+[
+  {
+    "desc": "Novi",
+    "code": "MO2800",
+    "islast": false
+  },
+  {
+    "desc": "Uris Bar",
+    "code": "MO1721",
+    "islast": false
+  },
+  {
+    "desc": "Villafranca",
+    "code": "MO1701",
+    "islast": false
+  },
+  {
+    "desc": "Rolo bv",
+    "code": "MO1674",
+    "islast": false
+  },
+  {
+    "desc": "Rolo Stazione",
+    "code": "MO2449",
+    "islast": false
+  },
+  {
+    "desc": "Serragli",
+    "code": "MO1662",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Pietra",
+    "code": "MO1661",
+    "islast": false
+  },
+  {
+    "desc": "Incompiuta",
+    "code": "MO1559",
+    "islast": false
+  },
+  {
+    "desc": "Piave",
+    "code": "MO1555",
+    "islast": false
+  },
+  {
+    "desc": "Bruciate",
+    "code": "MO711",
+    "islast": false
+  },
+  {
+    "desc": "CA' Del Vento",
+    "code": "MO1970",
+    "islast": false
+  },
+  {
+    "desc": "Fossoli",
+    "code": "MO190",
+    "islast": false
+  },
+  {
+    "desc": "Fossoli zona industriale",
+    "code": "MO1791",
+    "islast": false
+  },
+  {
+    "desc": "Lux",
+    "code": "MO1756",
+    "islast": false
+  },
+  {
+    "desc": "Scuole medie",
+    "code": "MO186",
+    "islast": false
+  },
+  {
+    "desc": "Remesina 3",
+    "code": "MO3209",
+    "islast": false
+  },
+  {
+    "desc": "Remesina 2",
+    "code": "MO3227",
+    "islast": false
+  },
+  {
+    "desc": "Remesina 1",
+    "code": "MO61",
+    "islast": false
+  },
+  {
+    "desc": "Pronto Soccorso",
+    "code": "MO3466",
+    "islast": false
+  },
+  {
+    "desc": "Parco",
+    "code": "MO775",
+    "islast": false
+  },
+  {
+    "desc": "3 Febbraio",
+    "code": "MO58",
+    "islast": false
+  },
+  {
+    "desc": "CARPI TERMINAL BUS",
+    "code": "MO489",
+    "islast": true
+  }
+]

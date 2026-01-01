@@ -1,0 +1,232 @@
+[
+  {
+    "desc": "COGNENTO",
+    "code": "MO2907",
+    "islast": false
+  },
+  {
+    "desc": "Beltrami",
+    "code": "MO2905",
+    "islast": false
+  },
+  {
+    "desc": "Contorno",
+    "code": "MO2903",
+    "islast": false
+  },
+  {
+    "desc": "Campagna",
+    "code": "MO2904",
+    "islast": false
+  },
+  {
+    "desc": "D'Avia bv Aristotele",
+    "code": "MO2921",
+    "islast": false
+  },
+  {
+    "desc": "Aristotele",
+    "code": "MO2931",
+    "islast": false
+  },
+  {
+    "desc": "Euclide",
+    "code": "MO2937",
+    "islast": false
+  },
+  {
+    "desc": "POLO LEONARDO 1",
+    "code": "MO2928",
+    "islast": false
+  },
+  {
+    "desc": "Da Vinci bv Newton",
+    "code": "MO6725",
+    "islast": false
+  },
+  {
+    "desc": "Da Vinci bv Curie",
+    "code": "MO2891",
+    "islast": false
+  },
+  {
+    "desc": "Vigili del Fuoco",
+    "code": "MO2917",
+    "islast": false
+  },
+  {
+    "desc": "Formigina bv Archimede",
+    "code": "MO2929",
+    "islast": false
+  },
+  {
+    "desc": "San Faustino",
+    "code": "MO2940",
+    "islast": false
+  },
+  {
+    "desc": "San Faustino Poliambulatorio",
+    "code": "MO2790",
+    "islast": false
+  },
+  {
+    "desc": "Luosi bv San Faustino",
+    "code": "MO6713",
+    "islast": false
+  },
+  {
+    "desc": "Luosi bv Fattori",
+    "code": "MO6709",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Fermi",
+    "code": "MO6720",
+    "islast": false
+  },
+  {
+    "desc": "Barozzi bv Rangoni",
+    "code": "MO6705",
+    "islast": false
+  },
+  {
+    "desc": "Barozzi bv Setti",
+    "code": "MO6703",
+    "islast": false
+  },
+  {
+    "desc": "Barozzi Planetario",
+    "code": "MO6700",
+    "islast": false
+  },
+  {
+    "desc": "MODENA  AUTOSTAZIONE",
+    "code": "MO6120",
+    "islast": false
+  },
+  {
+    "desc": "Monte Kosica Barozzi",
+    "code": "MO6123",
+    "islast": false
+  },
+  {
+    "desc": "Monte Kosica stadio",
+    "code": "MO6126",
+    "islast": false
+  },
+  {
+    "desc": "Monte Kosica bv Ganaceto",
+    "code": "MO6117",
+    "islast": false
+  },
+  {
+    "desc": "Monte Kosica FS",
+    "code": "MO6118",
+    "islast": false
+  },
+  {
+    "desc": "Canaletto Coop",
+    "code": "MO25",
+    "islast": false
+  },
+  {
+    "desc": "Scuole Marconi",
+    "code": "MO3132",
+    "islast": false
+  },
+  {
+    "desc": "Attiraglio",
+    "code": "MO556",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana scuole",
+    "code": "MO2625",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana bv Cuboni",
+    "code": "MO2627",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana bv Crocetta",
+    "code": "MO2629",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv Nonantolana",
+    "code": "MO2630",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv Cimone",
+    "code": "MO2632",
+    "islast": false
+  },
+  {
+    "desc": "Albareto scuola Gramsci",
+    "code": "MO2633",
+    "islast": false
+  },
+  {
+    "desc": "Albareto Fini",
+    "code": "MO2653",
+    "islast": false
+  },
+  {
+    "desc": "Mulini Nuovi",
+    "code": "MO2642",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv Sacerdoti",
+    "code": "MO2636",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv Tagliati",
+    "code": "MO2637",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv Bertola",
+    "code": "MO2638",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv Toni",
+    "code": "MO2639",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv Torricella",
+    "code": "MO2640",
+    "islast": false
+  },
+  {
+    "desc": "Albareto polisportiva",
+    "code": "MO2641",
+    "islast": false
+  },
+  {
+    "desc": "Albareto Chiesa",
+    "code": "MO333",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv dell'Acero",
+    "code": "MO334",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv Munarola",
+    "code": "MO2643",
+    "islast": false
+  },
+  {
+    "desc": "ALBARETO",
+    "code": "MO75",
+    "islast": true
+  }
+]

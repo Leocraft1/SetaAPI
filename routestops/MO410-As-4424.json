@@ -1,0 +1,257 @@
+[
+  {
+    "desc": "Finale Emilia Autostazione",
+    "code": "MO598",
+    "islast": false
+  },
+  {
+    "desc": "Istituto agrario bv",
+    "code": "MO1206",
+    "islast": false
+  },
+  {
+    "desc": "Casette",
+    "code": "MO1134",
+    "islast": false
+  },
+  {
+    "desc": "Canaletto scuole",
+    "code": "MO1132",
+    "islast": false
+  },
+  {
+    "desc": "Ristorante Nuova Luce",
+    "code": "MO1140",
+    "islast": false
+  },
+  {
+    "desc": "San Luigi",
+    "code": "MO1156",
+    "islast": false
+  },
+  {
+    "desc": "Ca' Bianca scuole",
+    "code": "MO597",
+    "islast": false
+  },
+  {
+    "desc": "Ca' Bianca",
+    "code": "MO599",
+    "islast": false
+  },
+  {
+    "desc": "Trattoria Marina",
+    "code": "MO601",
+    "islast": false
+  },
+  {
+    "desc": "Cantone",
+    "code": "MO604",
+    "islast": false
+  },
+  {
+    "desc": "Hotel Paradiso",
+    "code": "MO606",
+    "islast": false
+  },
+  {
+    "desc": "Ca' De Coppi",
+    "code": "MO1170",
+    "islast": false
+  },
+  {
+    "desc": "Ghirone",
+    "code": "MO1172",
+    "islast": false
+  },
+  {
+    "desc": "Passo Vecchio",
+    "code": "MO1174",
+    "islast": false
+  },
+  {
+    "desc": "Camposanto",
+    "code": "MO3433",
+    "islast": false
+  },
+  {
+    "desc": "Camposanto Cimitero",
+    "code": "MO163",
+    "islast": false
+  },
+  {
+    "desc": "Camposanto Ind.",
+    "code": "MO2246",
+    "islast": false
+  },
+  {
+    "desc": "Sant'Anna",
+    "code": "MO852",
+    "islast": false
+  },
+  {
+    "desc": "Solara",
+    "code": "MO388",
+    "islast": false
+  },
+  {
+    "desc": "San Michele",
+    "code": "MO798",
+    "islast": false
+  },
+  {
+    "desc": "Gorghetto",
+    "code": "MO796",
+    "islast": false
+  },
+  {
+    "desc": "Casa Baraldi",
+    "code": "MO792",
+    "islast": false
+  },
+  {
+    "desc": "Bomporto zona industriale",
+    "code": "MO3129",
+    "islast": false
+  },
+  {
+    "desc": "Villaggio Artigiano",
+    "code": "MO349",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Vecchio",
+    "code": "MO790",
+    "islast": false
+  },
+  {
+    "desc": "Bomporto monumento",
+    "code": "MO770",
+    "islast": false
+  },
+  {
+    "desc": "Bomporto",
+    "code": "MO68",
+    "islast": false
+  },
+  {
+    "desc": "Casa Tosatti",
+    "code": "MO337",
+    "islast": false
+  },
+  {
+    "desc": "Ghiacciaia",
+    "code": "MO914",
+    "islast": false
+  },
+  {
+    "desc": "Casa Sasso",
+    "code": "MO912",
+    "islast": false
+  },
+  {
+    "desc": "Villavara",
+    "code": "MO910",
+    "islast": false
+  },
+  {
+    "desc": "Metano",
+    "code": "MO894",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv",
+    "code": "MO424",
+    "islast": false
+  },
+  {
+    "desc": "Navicello",
+    "code": "MO423",
+    "islast": false
+  },
+  {
+    "desc": "Navicello scuole",
+    "code": "MO421",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Perlina",
+    "code": "MO419",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana bv Cuba",
+    "code": "MO417",
+    "islast": false
+  },
+  {
+    "desc": "Cavo Argine",
+    "code": "MO220",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana bv Mar Adriatico",
+    "code": "MO718",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana",
+    "code": "MO145",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana bv Crocetta",
+    "code": "MO6243",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana scuole",
+    "code": "MO6239",
+    "islast": false
+  },
+  {
+    "desc": "Attiraglio",
+    "code": "MO555",
+    "islast": false
+  },
+  {
+    "desc": "Monte Kosica FS",
+    "code": "MO2576",
+    "islast": false
+  },
+  {
+    "desc": "STAZIONE FS",
+    "code": "MO6133",
+    "islast": false
+  },
+  {
+    "desc": "Ospedale Sant'Agostino",
+    "code": "MO2572",
+    "islast": false
+  },
+  {
+    "desc": "MODENA  AUTOSTAZIONE",
+    "code": "MO5003",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Fermi",
+    "code": "MO2873",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Cattaneo",
+    "code": "MO6704",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Guarini",
+    "code": "MO6721",
+    "islast": false
+  },
+  {
+    "desc": "POLO LEONARDO",
+    "code": "MO217",
+    "islast": true
+  }
+]

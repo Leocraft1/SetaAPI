@@ -1,0 +1,227 @@
+[
+  {
+    "desc": "OSPEDALE BAGGIOVARA",
+    "code": "MO2530",
+    "islast": false
+  },
+  {
+    "desc": "Baggiovara FP",
+    "code": "MO2710",
+    "islast": false
+  },
+  {
+    "desc": "AUSL Centro Servizi",
+    "code": "MO3776",
+    "islast": false
+  },
+  {
+    "desc": "Cavezzo bv Jori",
+    "code": "MO6041",
+    "islast": false
+  },
+  {
+    "desc": "Da Porto bv Cavezzo",
+    "code": "MO3655",
+    "islast": false
+  },
+  {
+    "desc": "Da Porto chiesa",
+    "code": "MO3656",
+    "islast": false
+  },
+  {
+    "desc": "Monastero",
+    "code": "MO2429",
+    "islast": false
+  },
+  {
+    "desc": "Giardini Simint",
+    "code": "MO667",
+    "islast": false
+  },
+  {
+    "desc": "Giardini Due Mulini",
+    "code": "MO665",
+    "islast": false
+  },
+  {
+    "desc": "Giardini La Bugia",
+    "code": "MO3671",
+    "islast": false
+  },
+  {
+    "desc": "Saliceta San Giuliano",
+    "code": "MO663",
+    "islast": false
+  },
+  {
+    "desc": "Giardini bv San Marone",
+    "code": "MO3675",
+    "islast": false
+  },
+  {
+    "desc": "Giardini bv chiesa S.Giuliano",
+    "code": "MO3679",
+    "islast": false
+  },
+  {
+    "desc": "Giardini carcere",
+    "code": "MO2539",
+    "islast": false
+  },
+  {
+    "desc": "Giardini bv Cimabue",
+    "code": "MO3238",
+    "islast": false
+  },
+  {
+    "desc": "Giardini bv Cimabue 1",
+    "code": "MO3681",
+    "islast": false
+  },
+  {
+    "desc": "Direzionale 70",
+    "code": "MO2827",
+    "islast": false
+  },
+  {
+    "desc": "Croce Blu",
+    "code": "MO662",
+    "islast": false
+  },
+  {
+    "desc": "Giardini Donatello",
+    "code": "MO2825",
+    "islast": false
+  },
+  {
+    "desc": "Teatro Michelangelo",
+    "code": "MO6",
+    "islast": false
+  },
+  {
+    "desc": "Giardini Polizia Stradale",
+    "code": "MO2823",
+    "islast": false
+  },
+  {
+    "desc": "Giardini villa Fogliani",
+    "code": "MO2822",
+    "islast": false
+  },
+  {
+    "desc": "Risorgimento",
+    "code": "MO4",
+    "islast": false
+  },
+  {
+    "desc": "Vittorio Veneto bv Trombi",
+    "code": "MO2593",
+    "islast": false
+  },
+  {
+    "desc": "Ospedale Estense",
+    "code": "MO2594",
+    "islast": false
+  },
+  {
+    "desc": "MODENA  AUTOSTAZIONE",
+    "code": "MO5003",
+    "islast": false
+  },
+  {
+    "desc": "Monte Kosica Barozzi",
+    "code": "MO6123",
+    "islast": false
+  },
+  {
+    "desc": "Monte Kosica stadio",
+    "code": "MO6126",
+    "islast": false
+  },
+  {
+    "desc": "Monte Kosica bv Ganaceto",
+    "code": "MO6117",
+    "islast": false
+  },
+  {
+    "desc": "STAZIONE FS",
+    "code": "MO6119",
+    "islast": false
+  },
+  {
+    "desc": "Canaletto Coop",
+    "code": "MO25",
+    "islast": false
+  },
+  {
+    "desc": "Scuole Marconi",
+    "code": "MO3132",
+    "islast": false
+  },
+  {
+    "desc": "Canaletto bv Soratore",
+    "code": "MO23",
+    "islast": false
+  },
+  {
+    "desc": "Canaletto cantina Chiarli",
+    "code": "MO3151",
+    "islast": false
+  },
+  {
+    "desc": "Don Monari bv Canaletto",
+    "code": "MO6944",
+    "islast": false
+  },
+  {
+    "desc": "Don Monari Chiesa",
+    "code": "MO6956",
+    "islast": false
+  },
+  {
+    "desc": "Don Monari bv Cassiani",
+    "code": "MO6960",
+    "islast": false
+  },
+  {
+    "desc": "Cassiani",
+    "code": "MO6920",
+    "islast": false
+  },
+  {
+    "desc": "Parenti Fiat",
+    "code": "MO29",
+    "islast": false
+  },
+  {
+    "desc": "Ramelli bv Della Mirandola",
+    "code": "MO3137",
+    "islast": false
+  },
+  {
+    "desc": "EX VINACCE",
+    "code": "MO3559",
+    "islast": false
+  },
+  {
+    "desc": "Sant'Anna bv Suore",
+    "code": "MO6938",
+    "islast": false
+  },
+  {
+    "desc": "SANT'ANNA",
+    "code": "MO3236",
+    "islast": false
+  },
+  {
+    "desc": "Strada Sant' Anna",
+    "code": "MO6346",
+    "islast": false
+  },
+  {
+    "desc": "Carceri",
+    "code": "MO6880",
+    "islast": true
+  }
+]

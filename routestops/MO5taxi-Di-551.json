@@ -1,0 +1,77 @@
+[
+  {
+    "desc": "Ganaceto",
+    "code": "MO130",
+    "islast": false
+  },
+  {
+    "desc": "Ganaceto 1",
+    "code": "MO155",
+    "islast": false
+  },
+  {
+    "desc": "Forghieri",
+    "code": "MO123",
+    "islast": false
+  },
+  {
+    "desc": "Villanova",
+    "code": "MO230",
+    "islast": false
+  },
+  {
+    "desc": "Lesignana Centro",
+    "code": "MO2549",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Alto",
+    "code": "MO55",
+    "islast": false
+  },
+  {
+    "desc": "Strada Nuova Freto",
+    "code": "MO72",
+    "islast": false
+  },
+  {
+    "desc": "Barchetta Progeo",
+    "code": "MO3086",
+    "islast": false
+  },
+  {
+    "desc": "Barchetta Tre Olmi centro",
+    "code": "MO3087",
+    "islast": false
+  },
+  {
+    "desc": "Barchetta Progeo",
+    "code": "MO6855",
+    "islast": false
+  },
+  {
+    "desc": "Strada Nuova Freto",
+    "code": "MO73",
+    "islast": false
+  },
+  {
+    "desc": "Freto",
+    "code": "MO141",
+    "islast": false
+  },
+  {
+    "desc": "Capitani",
+    "code": "MO114",
+    "islast": false
+  },
+  {
+    "desc": "MODENA  AUTOSTAZIONE",
+    "code": "MO6120",
+    "islast": false
+  },
+  {
+    "desc": "STAZIONE FS",
+    "code": "MO6119",
+    "islast": true
+  }
+]

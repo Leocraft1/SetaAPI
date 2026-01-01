@@ -1,0 +1,17 @@
+[
+  {
+    "desc": "Manzolino",
+    "code": "MO3751",
+    "islast": false
+  },
+  {
+    "desc": "Fossa di Manzolino",
+    "code": "MO1328",
+    "islast": false
+  },
+  {
+    "desc": "Castelfranco FS",
+    "code": "MO491",
+    "islast": true
+  }
+]

@@ -1,0 +1,117 @@
+[
+  {
+    "desc": "MODENA AUTOSTAZIONE",
+    "code": "MO3",
+    "islast": false
+  },
+  {
+    "desc": "Risorgimento",
+    "code": "MO20",
+    "islast": false
+  },
+  {
+    "desc": "Rimembranze ex Questura",
+    "code": "MO42",
+    "islast": false
+  },
+  {
+    "desc": "GARIBALDI",
+    "code": "MO5111",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est Aci",
+    "code": "MO6301",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est bv S.Giovanni Bosco",
+    "code": "MO6303",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est Finanza",
+    "code": "MO6305",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est Hotel Fini",
+    "code": "MO1214",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est Modena 118",
+    "code": "MO6315",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est Mulino",
+    "code": "MO6321",
+    "islast": false
+  },
+  {
+    "desc": "Casa dello Studente",
+    "code": "MO6312",
+    "islast": false
+  },
+  {
+    "desc": "Direzionale Toscanini",
+    "code": "MO6344",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est bv Fusco",
+    "code": "MO653",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est Bompani",
+    "code": "MO698",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est Fossalta",
+    "code": "MO631",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est  Amadio",
+    "code": "MO6360",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est Same",
+    "code": "MO632",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Sant'Ambrogio",
+    "code": "MO633",
+    "islast": false
+  },
+  {
+    "desc": "Olmo bv",
+    "code": "MO639",
+    "islast": false
+  },
+  {
+    "desc": "Gaggio",
+    "code": "MO641",
+    "islast": false
+  },
+  {
+    "desc": "Panzano bv 1",
+    "code": "MO642",
+    "islast": false
+  },
+  {
+    "desc": "Panzano",
+    "code": "MO643",
+    "islast": false
+  },
+  {
+    "desc": "Pioppa",
+    "code": "MO1056",
+    "islast": true
+  }
+]

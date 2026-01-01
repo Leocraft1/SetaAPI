@@ -1,0 +1,82 @@
+[
+  {
+    "desc": "Prignano Secchia",
+    "code": "MO1899",
+    "islast": false
+  },
+  {
+    "desc": "Prignano",
+    "code": "MO1898",
+    "islast": false
+  },
+  {
+    "desc": "Prignano Poste",
+    "code": "MO3300",
+    "islast": false
+  },
+  {
+    "desc": "Casa Trinelli",
+    "code": "MO3298",
+    "islast": false
+  },
+  {
+    "desc": "Riviera",
+    "code": "MO2123",
+    "islast": false
+  },
+  {
+    "desc": "Casa Bortolini",
+    "code": "MO2124",
+    "islast": false
+  },
+  {
+    "desc": "La Pietra 2",
+    "code": "MO2134",
+    "islast": false
+  },
+  {
+    "desc": "La Pietra",
+    "code": "MO2125",
+    "islast": false
+  },
+  {
+    "desc": "Moncerato chiesa",
+    "code": "MO3329",
+    "islast": false
+  },
+  {
+    "desc": "Moncerato",
+    "code": "MO2126",
+    "islast": false
+  },
+  {
+    "desc": "Casa Matteazzi bv",
+    "code": "MO2127",
+    "islast": false
+  },
+  {
+    "desc": "La Borra",
+    "code": "MO2128",
+    "islast": false
+  },
+  {
+    "desc": "San Pellegrinetto",
+    "code": "MO1150",
+    "islast": false
+  },
+  {
+    "desc": "Bar Carbonara",
+    "code": "MO1151",
+    "islast": false
+  },
+  {
+    "desc": "Faeto bv",
+    "code": "MO1168",
+    "islast": false
+  },
+  {
+    "desc": "Serramazzoni",
+    "code": "MO2352",
+    "islast": true
+  }
+]

@@ -1,0 +1,337 @@
+[
+  {
+    "desc": "Vignola Autostazione",
+    "code": "MO4510",
+    "islast": false
+  },
+  {
+    "desc": "La Vigna",
+    "code": "MO2410",
+    "islast": false
+  },
+  {
+    "desc": "Il Gessiere",
+    "code": "MO4608",
+    "islast": false
+  },
+  {
+    "desc": "Barozzi scuola",
+    "code": "MO4603",
+    "islast": false
+  },
+  {
+    "desc": "Vignola Centro",
+    "code": "MO4601",
+    "islast": false
+  },
+  {
+    "desc": "Formica",
+    "code": "MO1203",
+    "islast": false
+  },
+  {
+    "desc": "Caselline",
+    "code": "MO3475",
+    "islast": false
+  },
+  {
+    "desc": "Caselline 1",
+    "code": "MO4607",
+    "islast": false
+  },
+  {
+    "desc": "Zinzano",
+    "code": "MO4604",
+    "islast": false
+  },
+  {
+    "desc": "Garofano",
+    "code": "MO4606",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Borlengo",
+    "code": "MO1211",
+    "islast": false
+  },
+  {
+    "desc": "Torre scuole",
+    "code": "MO1212",
+    "islast": false
+  },
+  {
+    "desc": "La Torre",
+    "code": "MO1213",
+    "islast": false
+  },
+  {
+    "desc": "Fornace",
+    "code": "MO1215",
+    "islast": false
+  },
+  {
+    "desc": "Serravalle bv",
+    "code": "MO1216",
+    "islast": false
+  },
+  {
+    "desc": "Guiglia",
+    "code": "MO861",
+    "islast": false
+  },
+  {
+    "desc": "Guiglia centro",
+    "code": "MO1700",
+    "islast": false
+  },
+  {
+    "desc": "Guiglia via Repubblica",
+    "code": "MO2408",
+    "islast": false
+  },
+  {
+    "desc": "Braglia",
+    "code": "MO1384",
+    "islast": false
+  },
+  {
+    "desc": "bv San Rocco",
+    "code": "MO3513",
+    "islast": false
+  },
+  {
+    "desc": "Oratorio",
+    "code": "MO1385",
+    "islast": false
+  },
+  {
+    "desc": "Monteorsello",
+    "code": "MO1386",
+    "islast": false
+  },
+  {
+    "desc": "Monte Cresce",
+    "code": "MO1387",
+    "islast": false
+  },
+  {
+    "desc": "Tagliata",
+    "code": "MO1388",
+    "islast": false
+  },
+  {
+    "desc": "Rocca Malatina",
+    "code": "MO1389",
+    "islast": false
+  },
+  {
+    "desc": "Casa Sassi",
+    "code": "MO1395",
+    "islast": false
+  },
+  {
+    "desc": "Montecorone bv",
+    "code": "MO1397",
+    "islast": false
+  },
+  {
+    "desc": "Samone bv",
+    "code": "MO1425",
+    "islast": false
+  },
+  {
+    "desc": "Ginevra",
+    "code": "MO1424",
+    "islast": false
+  },
+  {
+    "desc": "Giostra",
+    "code": "MO1423",
+    "islast": false
+  },
+  {
+    "desc": "Derna",
+    "code": "MO1421",
+    "islast": false
+  },
+  {
+    "desc": "Monteombraro",
+    "code": "MO1418",
+    "islast": false
+  },
+  {
+    "desc": "Pediera",
+    "code": "MO1449",
+    "islast": false
+  },
+  {
+    "desc": "Zocca periferia",
+    "code": "MO2413",
+    "islast": false
+  },
+  {
+    "desc": "Zocca",
+    "code": "MO3988",
+    "islast": false
+  },
+  {
+    "desc": "Zocca USL",
+    "code": "MO1758",
+    "islast": false
+  },
+  {
+    "desc": "Le Coste",
+    "code": "MO2417",
+    "islast": false
+  },
+  {
+    "desc": "Fogna",
+    "code": "MO1452",
+    "islast": false
+  },
+  {
+    "desc": "Cava bv",
+    "code": "MO2418",
+    "islast": false
+  },
+  {
+    "desc": "Villa Pianazzi",
+    "code": "MO1459",
+    "islast": false
+  },
+  {
+    "desc": "Casa Bognino",
+    "code": "MO2419",
+    "islast": false
+  },
+  {
+    "desc": "Supermarket Frigo",
+    "code": "MO2421",
+    "islast": false
+  },
+  {
+    "desc": "Lame",
+    "code": "MO1461",
+    "islast": false
+  },
+  {
+    "desc": "Casa Sansone",
+    "code": "MO1463",
+    "islast": false
+  },
+  {
+    "desc": "Ceretolo",
+    "code": "MO1465",
+    "islast": false
+  },
+  {
+    "desc": "La Trappola",
+    "code": "MO1968",
+    "islast": false
+  },
+  {
+    "desc": "Ristorante La Trappola",
+    "code": "MO1969",
+    "islast": false
+  },
+  {
+    "desc": "Casa Miro",
+    "code": "MO1971",
+    "islast": false
+  },
+  {
+    "desc": "Civico 226",
+    "code": "MO1972",
+    "islast": false
+  },
+  {
+    "desc": "Mezzuola",
+    "code": "MO1973",
+    "islast": false
+  },
+  {
+    "desc": "Bocca dei Ravari",
+    "code": "MO3390",
+    "islast": false
+  },
+  {
+    "desc": "Serra",
+    "code": "MO3392",
+    "islast": false
+  },
+  {
+    "desc": "L'Ombrina",
+    "code": "MO3394",
+    "islast": false
+  },
+  {
+    "desc": "La Croce",
+    "code": "MO3396",
+    "islast": false
+  },
+  {
+    "desc": "Castel D'Aiano",
+    "code": "MO3529",
+    "islast": false
+  },
+  {
+    "desc": "Poggetto",
+    "code": "MO3696",
+    "islast": false
+  },
+  {
+    "desc": "Casa Cristina",
+    "code": "MO3695",
+    "islast": false
+  },
+  {
+    "desc": "Bozza",
+    "code": "MO3694",
+    "islast": false
+  },
+  {
+    "desc": "Canovetta",
+    "code": "MO3693",
+    "islast": false
+  },
+  {
+    "desc": "Bettolino di Montese",
+    "code": "MO3692",
+    "islast": false
+  },
+  {
+    "desc": "Canavaccia",
+    "code": "MO3690",
+    "islast": false
+  },
+  {
+    "desc": "Scanello",
+    "code": "MO2133",
+    "islast": false
+  },
+  {
+    "desc": "Polacci",
+    "code": "MO2131",
+    "islast": false
+  },
+  {
+    "desc": "Cerro bv",
+    "code": "MO2129",
+    "islast": false
+  },
+  {
+    "desc": "Montese scuole",
+    "code": "MO1383",
+    "islast": false
+  },
+  {
+    "desc": "Montese 1",
+    "code": "MO2604",
+    "islast": false
+  },
+  {
+    "desc": "Montese",
+    "code": "MO1377",
+    "islast": true
+  }
+]

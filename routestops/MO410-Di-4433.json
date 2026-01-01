@@ -1,0 +1,107 @@
+[
+  {
+    "desc": "MODENA AUTOSTAZIONE",
+    "code": "MO346",
+    "islast": false
+  },
+  {
+    "desc": "Monte Kosica FS",
+    "code": "MO6118",
+    "islast": false
+  },
+  {
+    "desc": "Attiraglio",
+    "code": "MO556",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana scuole",
+    "code": "MO2625",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana bv Crocetta",
+    "code": "MO2629",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana",
+    "code": "MO143",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana bv Mar Adriatico",
+    "code": "MO332",
+    "islast": false
+  },
+  {
+    "desc": "Cavo Argine",
+    "code": "MO170",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana bv Cuba",
+    "code": "MO880",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Perlina",
+    "code": "MO888",
+    "islast": false
+  },
+  {
+    "desc": "Navicello scuole",
+    "code": "MO459",
+    "islast": false
+  },
+  {
+    "desc": "Navicello",
+    "code": "MO890",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv",
+    "code": "MO892",
+    "islast": false
+  },
+  {
+    "desc": "Metano",
+    "code": "MO425",
+    "islast": false
+  },
+  {
+    "desc": "Villavara",
+    "code": "MO427",
+    "islast": false
+  },
+  {
+    "desc": "Casa Sasso",
+    "code": "MO428",
+    "islast": false
+  },
+  {
+    "desc": "Ghiacciaia",
+    "code": "MO429",
+    "islast": false
+  },
+  {
+    "desc": "Casa Tosatti",
+    "code": "MO760",
+    "islast": false
+  },
+  {
+    "desc": "Bomporto",
+    "code": "MO68",
+    "islast": false
+  },
+  {
+    "desc": "Bomporto monumento",
+    "code": "MO343",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Vecchio",
+    "code": "MO347",
+    "islast": true
+  }
+]

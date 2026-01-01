@@ -1,0 +1,87 @@
+[
+  {
+    "desc": "Crociale Maranello",
+    "code": "MO1648",
+    "islast": false
+  },
+  {
+    "desc": "Pozza",
+    "code": "MO829",
+    "islast": false
+  },
+  {
+    "desc": "Casa Panini",
+    "code": "MO1652",
+    "islast": false
+  },
+  {
+    "desc": "Casa Colonica",
+    "code": "MO1654",
+    "islast": false
+  },
+  {
+    "desc": "Colombaro bv",
+    "code": "MO1660",
+    "islast": false
+  },
+  {
+    "desc": "Casa Roncaglia",
+    "code": "MO1466",
+    "islast": false
+  },
+  {
+    "desc": "Quattro Madonne",
+    "code": "MO1464",
+    "islast": false
+  },
+  {
+    "desc": "San Zeno",
+    "code": "MO1462",
+    "islast": false
+  },
+  {
+    "desc": "Montale bv Zenzalose",
+    "code": "MO3312",
+    "islast": false
+  },
+  {
+    "desc": "Montale",
+    "code": "MO1460",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Santa Lucia",
+    "code": "MO1458",
+    "islast": false
+  },
+  {
+    "desc": "San Martino del Mugnano",
+    "code": "MO1456",
+    "islast": false
+  },
+  {
+    "desc": "Santa Maria Mugnano",
+    "code": "MO1454",
+    "islast": false
+  },
+  {
+    "desc": "POLO LEONARDO 1",
+    "code": "MO2928",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Guarini",
+    "code": "MO2887",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Cattaneo",
+    "code": "MO2885",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Fermi",
+    "code": "MO6720",
+    "islast": true
+  }
+]

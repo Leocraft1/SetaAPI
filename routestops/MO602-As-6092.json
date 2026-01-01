@@ -1,0 +1,102 @@
+[
+  {
+    "desc": "Palagano",
+    "code": "MO1507",
+    "islast": false
+  },
+  {
+    "desc": "Casa Bernini",
+    "code": "MO2936",
+    "islast": false
+  },
+  {
+    "desc": "La Preda",
+    "code": "MO2935",
+    "islast": false
+  },
+  {
+    "desc": "Casa Lenzotti",
+    "code": "MO2934",
+    "islast": false
+  },
+  {
+    "desc": "Fornace Savoniero",
+    "code": "MO2933",
+    "islast": false
+  },
+  {
+    "desc": "Savoniero bv",
+    "code": "MO2932",
+    "islast": false
+  },
+  {
+    "desc": "Savoniero",
+    "code": "MO4215",
+    "islast": false
+  },
+  {
+    "desc": "Casone",
+    "code": "MO2927",
+    "islast": false
+  },
+  {
+    "desc": "Ca' Maggio",
+    "code": "MO2926",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Dragone",
+    "code": "MO2925",
+    "islast": false
+  },
+  {
+    "desc": "Campo Lungo",
+    "code": "MO2924",
+    "islast": false
+  },
+  {
+    "desc": "Ca' Giampellegrino",
+    "code": "MO2923",
+    "islast": false
+  },
+  {
+    "desc": "Casa Bonci",
+    "code": "MO2922",
+    "islast": false
+  },
+  {
+    "desc": "Vitriola",
+    "code": "MO2920",
+    "islast": false
+  },
+  {
+    "desc": "Vitriola bv",
+    "code": "MO2910",
+    "islast": false
+  },
+  {
+    "desc": "Casa Monte",
+    "code": "MO2944",
+    "islast": false
+  },
+  {
+    "desc": "Casa Volpe",
+    "code": "MO2890",
+    "islast": false
+  },
+  {
+    "desc": "Caribe",
+    "code": "MO2946",
+    "islast": false
+  },
+  {
+    "desc": "USL",
+    "code": "MO2504",
+    "islast": false
+  },
+  {
+    "desc": "Montefiorino",
+    "code": "MO2500",
+    "islast": true
+  }
+]

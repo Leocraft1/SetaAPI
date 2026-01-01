@@ -1,0 +1,182 @@
+[
+  {
+    "desc": "Pavullo Autostazione",
+    "code": "MO1590",
+    "islast": false
+  },
+  {
+    "desc": "San Pellegrino",
+    "code": "MO1349",
+    "islast": false
+  },
+  {
+    "desc": "Campo D'Aviazione",
+    "code": "MO1351",
+    "islast": false
+  },
+  {
+    "desc": "Querciagrossa",
+    "code": "MO1819",
+    "islast": false
+  },
+  {
+    "desc": "Renno bv",
+    "code": "MO1816",
+    "islast": false
+  },
+  {
+    "desc": "Pastinella",
+    "code": "MO1817",
+    "islast": false
+  },
+  {
+    "desc": "Renno",
+    "code": "MO1818",
+    "islast": false
+  },
+  {
+    "desc": "La Torre Renno",
+    "code": "MO1909",
+    "islast": false
+  },
+  {
+    "desc": "Casa Ferrari",
+    "code": "MO1911",
+    "islast": false
+  },
+  {
+    "desc": "Cantoniera Vecchia",
+    "code": "MO4799",
+    "islast": false
+  },
+  {
+    "desc": "Ca Vignali",
+    "code": "MO1913",
+    "islast": false
+  },
+  {
+    "desc": "Prugneto",
+    "code": "MO1917",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Prugneto",
+    "code": "MO1919",
+    "islast": false
+  },
+  {
+    "desc": "Casa Pattarozzi",
+    "code": "MO1915",
+    "islast": false
+  },
+  {
+    "desc": "Casa Bettini",
+    "code": "MO1921",
+    "islast": false
+  },
+  {
+    "desc": "La Maesta",
+    "code": "MO1923",
+    "islast": false
+  },
+  {
+    "desc": "Casine",
+    "code": "MO2102",
+    "islast": false
+  },
+  {
+    "desc": "Sant'Antonio bv",
+    "code": "MO2101",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Tole",
+    "code": "MO2099",
+    "islast": false
+  },
+  {
+    "desc": "Rovinaccia 1",
+    "code": "MO2097",
+    "islast": false
+  },
+  {
+    "desc": "Falegnameria",
+    "code": "MO2096",
+    "islast": false
+  },
+  {
+    "desc": "Castellaro",
+    "code": "MO2095",
+    "islast": false
+  },
+  {
+    "desc": "La Teggia",
+    "code": "MO2094",
+    "islast": false
+  },
+  {
+    "desc": "Bv Zoppo",
+    "code": "MO4739",
+    "islast": false
+  },
+  {
+    "desc": "Bacconi",
+    "code": "MO2093",
+    "islast": false
+  },
+  {
+    "desc": "Tabina bv",
+    "code": "MO2092",
+    "islast": false
+  },
+  {
+    "desc": "Le Macchie",
+    "code": "MO2091",
+    "islast": false
+  },
+  {
+    "desc": "Stabilimento Amica",
+    "code": "MO2090",
+    "islast": false
+  },
+  {
+    "desc": "Vesale bv",
+    "code": "MO2051",
+    "islast": false
+  },
+  {
+    "desc": "Famadiccia",
+    "code": "MO2109",
+    "islast": false
+  },
+  {
+    "desc": "Le Pioppe",
+    "code": "MO2108",
+    "islast": false
+  },
+  {
+    "desc": "Poggioraso",
+    "code": "MO3653",
+    "islast": false
+  },
+  {
+    "desc": "Sestola bv scuole",
+    "code": "MO1333",
+    "islast": false
+  },
+  {
+    "desc": "Sestola cimitero",
+    "code": "MO2263",
+    "islast": false
+  },
+  {
+    "desc": "Vivaio",
+    "code": "MO2049",
+    "islast": false
+  },
+  {
+    "desc": "Sestola",
+    "code": "MO4300",
+    "islast": true
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "desc": "Castelfranco FS",
+    "code": "MO491",
+    "islast": false
+  },
+  {
+    "desc": "Castelfranco teatro",
+    "code": "MO1468",
+    "islast": false
+  },
+  {
+    "desc": "Fossa di Manzolino",
+    "code": "MO659",
+    "islast": false
+  },
+  {
+    "desc": "Manzolino",
+    "code": "MO1330",
+    "islast": false
+  },
+  {
+    "desc": "Fossa di Manzolino",
+    "code": "MO1328",
+    "islast": false
+  },
+  {
+    "desc": "Benzinaio",
+    "code": "MO5708",
+    "islast": false
+  },
+  {
+    "desc": "Circonvalazione Dante",
+    "code": "MO6892",
+    "islast": false
+  },
+  {
+    "desc": "San Giovanni in Persiceto",
+    "code": "MO5703",
+    "islast": true
+  }
+]

@@ -1,0 +1,192 @@
+[
+  {
+    "desc": "MODENA AUTOSTAZIONE",
+    "code": "MO342",
+    "islast": false
+  },
+  {
+    "desc": "Risorgimento",
+    "code": "MO20",
+    "islast": false
+  },
+  {
+    "desc": "Teatro Michelangelo",
+    "code": "MO22",
+    "islast": false
+  },
+  {
+    "desc": "Croce Blu",
+    "code": "MO1346",
+    "islast": false
+  },
+  {
+    "desc": "Direzionale 70",
+    "code": "MO6611",
+    "islast": false
+  },
+  {
+    "desc": "Giardini bv Cimabue 1",
+    "code": "MO3237",
+    "islast": false
+  },
+  {
+    "desc": "Giardini bv Cimabue",
+    "code": "MO24",
+    "islast": false
+  },
+  {
+    "desc": "Giardini carcere",
+    "code": "MO6002",
+    "islast": false
+  },
+  {
+    "desc": "Saliceta San Giuliano",
+    "code": "MO6631",
+    "islast": false
+  },
+  {
+    "desc": "Giardini Due Mulini",
+    "code": "MO6637",
+    "islast": false
+  },
+  {
+    "desc": "Giardini Simint",
+    "code": "MO6639",
+    "islast": false
+  },
+  {
+    "desc": "Baggiovara 1",
+    "code": "MO3487",
+    "islast": false
+  },
+  {
+    "desc": "Baggiovara",
+    "code": "MO726",
+    "islast": false
+  },
+  {
+    "desc": "La Bertola",
+    "code": "MO701",
+    "islast": false
+  },
+  {
+    "desc": "Casinalbo",
+    "code": "MO755",
+    "islast": false
+  },
+  {
+    "desc": "Copernico",
+    "code": "MO757",
+    "islast": false
+  },
+  {
+    "desc": "Romano",
+    "code": "MO2339",
+    "islast": false
+  },
+  {
+    "desc": "Mulinetto",
+    "code": "MO759",
+    "islast": false
+  },
+  {
+    "desc": "Corlo",
+    "code": "MO763",
+    "islast": false
+  },
+  {
+    "desc": "Grazia",
+    "code": "MO764",
+    "islast": false
+  },
+  {
+    "desc": "Albergo",
+    "code": "MO2723",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Fossa",
+    "code": "MO765",
+    "islast": false
+  },
+  {
+    "desc": "Edilcuoghi",
+    "code": "MO767",
+    "islast": false
+  },
+  {
+    "desc": "Radici in Piano bv Piemonte",
+    "code": "MO769",
+    "islast": false
+  },
+  {
+    "desc": "Radici in Piano bv Sella",
+    "code": "MO771",
+    "islast": false
+  },
+  {
+    "desc": "Radici in Piano bv  Montegrappa",
+    "code": "MO772",
+    "islast": false
+  },
+  {
+    "desc": "Panorama",
+    "code": "MO774",
+    "islast": false
+  },
+  {
+    "desc": "Quattroponti",
+    "code": "MO2685",
+    "islast": false
+  },
+  {
+    "desc": "Madonna di Sotto",
+    "code": "MO2295",
+    "islast": false
+  },
+  {
+    "desc": "Radici in Piano bv I Maggio",
+    "code": "MO776",
+    "islast": false
+  },
+  {
+    "desc": "Sassuolo Terminal",
+    "code": "MO4000",
+    "islast": false
+  },
+  {
+    "desc": "Prampolini",
+    "code": "MO2273",
+    "islast": false
+  },
+  {
+    "desc": "Risorgimento",
+    "code": "MO3998",
+    "islast": false
+  },
+  {
+    "desc": "Mazzini",
+    "code": "MO2313",
+    "islast": false
+  },
+  {
+    "desc": "Mezzavia",
+    "code": "MO1578",
+    "islast": false
+  },
+  {
+    "desc": "Cerdisa",
+    "code": "MO1576",
+    "islast": false
+  },
+  {
+    "desc": "Fiorano San Francesco",
+    "code": "MO4006",
+    "islast": false
+  },
+  {
+    "desc": "Fiorano Modenese",
+    "code": "MO4010",
+    "islast": true
+  }
+]

@@ -1,0 +1,237 @@
+[
+  {
+    "desc": "MODENA AUTOSTAZIONE",
+    "code": "MO346",
+    "islast": false
+  },
+  {
+    "desc": "Monte Kosica FS",
+    "code": "MO6118",
+    "islast": false
+  },
+  {
+    "desc": "Attiraglio",
+    "code": "MO556",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana scuole",
+    "code": "MO2625",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana bv Crocetta",
+    "code": "MO2629",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv Nonantolana",
+    "code": "MO2630",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv Cimone",
+    "code": "MO2632",
+    "islast": false
+  },
+  {
+    "desc": "Albareto scuola Gramsci",
+    "code": "MO2633",
+    "islast": false
+  },
+  {
+    "desc": "Albareto Fini",
+    "code": "MO2653",
+    "islast": false
+  },
+  {
+    "desc": "Mulini Nuovi",
+    "code": "MO2642",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv Sacerdoti",
+    "code": "MO2636",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv Tagliati",
+    "code": "MO2637",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv Bertola",
+    "code": "MO2638",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv Toni",
+    "code": "MO2639",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv Torricella",
+    "code": "MO2640",
+    "islast": false
+  },
+  {
+    "desc": "Albareto polisportiva",
+    "code": "MO2641",
+    "islast": false
+  },
+  {
+    "desc": "Albareto Chiesa",
+    "code": "MO333",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv dell'Acero",
+    "code": "MO334",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv Munarola",
+    "code": "MO2643",
+    "islast": false
+  },
+  {
+    "desc": "Albareto Fertilcoop",
+    "code": "MO2644",
+    "islast": false
+  },
+  {
+    "desc": "LA ROCCA",
+    "code": "MO3805",
+    "islast": false
+  },
+  {
+    "desc": "San Clemente",
+    "code": "MO335",
+    "islast": false
+  },
+  {
+    "desc": "Casa Ghelfi",
+    "code": "MO336",
+    "islast": false
+  },
+  {
+    "desc": "Bastiglia Scuole",
+    "code": "MO1592",
+    "islast": false
+  },
+  {
+    "desc": "Bastiglia",
+    "code": "MO100",
+    "islast": false
+  },
+  {
+    "desc": "Sorbara",
+    "code": "MO313",
+    "islast": false
+  },
+  {
+    "desc": "Sorbara",
+    "code": "MO3514",
+    "islast": false
+  },
+  {
+    "desc": "Sorbara_",
+    "code": "MO3516",
+    "islast": false
+  },
+  {
+    "desc": "Il Cristo",
+    "code": "MO319",
+    "islast": false
+  },
+  {
+    "desc": "Casinone",
+    "code": "MO315",
+    "islast": false
+  },
+  {
+    "desc": "San Pietro in Elda",
+    "code": "MO311",
+    "islast": false
+  },
+  {
+    "desc": "Verdeta caseificio",
+    "code": "MO406",
+    "islast": false
+  },
+  {
+    "desc": "Staggia Stazione",
+    "code": "MO407",
+    "islast": false
+  },
+  {
+    "desc": "Staggia",
+    "code": "MO408",
+    "islast": false
+  },
+  {
+    "desc": "Rovere Caseificio",
+    "code": "MO409",
+    "islast": false
+  },
+  {
+    "desc": "Villafranca scuole",
+    "code": "MO413",
+    "islast": false
+  },
+  {
+    "desc": "Villafranca",
+    "code": "MO415",
+    "islast": false
+  },
+  {
+    "desc": "Villa Romana",
+    "code": "MO416",
+    "islast": false
+  },
+  {
+    "desc": "Medolla Autostazione",
+    "code": "MO488",
+    "islast": false
+  },
+  {
+    "desc": "Medolla",
+    "code": "MO1131",
+    "islast": false
+  },
+  {
+    "desc": "Bruino bv Gandi",
+    "code": "MO3119",
+    "islast": false
+  },
+  {
+    "desc": "Camurana",
+    "code": "MO509",
+    "islast": false
+  },
+  {
+    "desc": "Camurana Stazione",
+    "code": "MO522",
+    "islast": false
+  },
+  {
+    "desc": "Fontana maglificio",
+    "code": "MO521",
+    "islast": false
+  },
+  {
+    "desc": "Carrozzeria Barbi",
+    "code": "MO1064",
+    "islast": false
+  },
+  {
+    "desc": "Barozzi scuole",
+    "code": "MO1187",
+    "islast": false
+  },
+  {
+    "desc": "Mirandola Terminal",
+    "code": "MO3973",
+    "islast": true
+  }
+]

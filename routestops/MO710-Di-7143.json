@@ -1,0 +1,142 @@
+[
+  {
+    "desc": "Zocca Circonvallazione",
+    "code": "MO1765",
+    "islast": false
+  },
+  {
+    "desc": "Zocca periferia",
+    "code": "MO4702",
+    "islast": false
+  },
+  {
+    "desc": "Pediera",
+    "code": "MO2812",
+    "islast": false
+  },
+  {
+    "desc": "Monteombraro bv",
+    "code": "MO2740",
+    "islast": false
+  },
+  {
+    "desc": "Zocchetta",
+    "code": "MO1417",
+    "islast": false
+  },
+  {
+    "desc": "Sp25 Civ. 1288",
+    "code": "MO4617",
+    "islast": false
+  },
+  {
+    "desc": "Portichetto",
+    "code": "MO1414",
+    "islast": false
+  },
+  {
+    "desc": "Casetta di sopra",
+    "code": "MO2711",
+    "islast": false
+  },
+  {
+    "desc": "Campo Sportivo",
+    "code": "MO2714",
+    "islast": false
+  },
+  {
+    "desc": "Monteombraro Serre",
+    "code": "MO2010",
+    "islast": false
+  },
+  {
+    "desc": "Campo Sportivo",
+    "code": "MO1416",
+    "islast": false
+  },
+  {
+    "desc": "Casetta di Sopra",
+    "code": "MO1412",
+    "islast": false
+  },
+  {
+    "desc": "Portichetto",
+    "code": "MO2712",
+    "islast": false
+  },
+  {
+    "desc": "Braglie 518",
+    "code": "MO2694",
+    "islast": false
+  },
+  {
+    "desc": "Braglie 1265",
+    "code": "MO2692",
+    "islast": false
+  },
+  {
+    "desc": "Montecorone",
+    "code": "MO2690",
+    "islast": false
+  },
+  {
+    "desc": "Acqua Sulfurea bv",
+    "code": "MO2688",
+    "islast": false
+  },
+  {
+    "desc": "Casa Paderno",
+    "code": "MO2686",
+    "islast": false
+  },
+  {
+    "desc": "Casa Spina",
+    "code": "MO2684",
+    "islast": false
+  },
+  {
+    "desc": "Samone bv",
+    "code": "MO1425",
+    "islast": false
+  },
+  {
+    "desc": "Samone distributore",
+    "code": "MO1426",
+    "islast": false
+  },
+  {
+    "desc": "Samone",
+    "code": "MO1427",
+    "islast": false
+  },
+  {
+    "desc": "Samone bv Serra",
+    "code": "MO3445",
+    "islast": false
+  },
+  {
+    "desc": "Missano bv",
+    "code": "MO1433",
+    "islast": false
+  },
+  {
+    "desc": "Gainazzo bv",
+    "code": "MO1431",
+    "islast": false
+  },
+  {
+    "desc": "Salda",
+    "code": "MO1430",
+    "islast": false
+  },
+  {
+    "desc": "Ponte",
+    "code": "MO1429",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Samone",
+    "code": "MO1334",
+    "islast": true
+  }
+]

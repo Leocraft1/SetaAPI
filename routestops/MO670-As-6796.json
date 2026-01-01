@@ -1,0 +1,177 @@
+[
+  {
+    "desc": "Sassuolo Terminal",
+    "code": "MO2237",
+    "islast": false
+  },
+  {
+    "desc": "Stazione Sassuolo Radici",
+    "code": "MO2388",
+    "islast": false
+  },
+  {
+    "desc": "Radici in Monte bv Magenta",
+    "code": "MO779",
+    "islast": false
+  },
+  {
+    "desc": "Pizzeria",
+    "code": "MO1517",
+    "islast": false
+  },
+  {
+    "desc": "Calatafimi",
+    "code": "MO1515",
+    "islast": false
+  },
+  {
+    "desc": "Sottovia",
+    "code": "MO1514",
+    "islast": false
+  },
+  {
+    "desc": "Ciemme",
+    "code": "MO1513",
+    "islast": false
+  },
+  {
+    "desc": "Quattro Colonne",
+    "code": "MO1512",
+    "islast": false
+  },
+  {
+    "desc": "Ancora 299",
+    "code": "MO1511",
+    "islast": false
+  },
+  {
+    "desc": "Berlette",
+    "code": "MO1498",
+    "islast": false
+  },
+  {
+    "desc": "Casa Corradini",
+    "code": "MO1494",
+    "islast": false
+  },
+  {
+    "desc": "Magreta",
+    "code": "MO1510",
+    "islast": false
+  },
+  {
+    "desc": "Campo Sportivo",
+    "code": "MO742",
+    "islast": false
+  },
+  {
+    "desc": "Mazzacavallo",
+    "code": "MO4701",
+    "islast": false
+  },
+  {
+    "desc": "Corlo edicola",
+    "code": "MO741",
+    "islast": false
+  },
+  {
+    "desc": "Corlo",
+    "code": "MO1540",
+    "islast": false
+  },
+  {
+    "desc": "Formigine stazione",
+    "code": "MO1506",
+    "islast": false
+  },
+  {
+    "desc": "Molinella",
+    "code": "MO1502",
+    "islast": false
+  },
+  {
+    "desc": "Formigine cartiera",
+    "code": "MO1504",
+    "islast": false
+  },
+  {
+    "desc": "Casinalbo",
+    "code": "MO1530",
+    "islast": false
+  },
+  {
+    "desc": "La Bertola",
+    "code": "MO1428",
+    "islast": false
+  },
+  {
+    "desc": "Baggiovara 1",
+    "code": "MO1480",
+    "islast": false
+  },
+  {
+    "desc": "Giardini Simint",
+    "code": "MO667",
+    "islast": false
+  },
+  {
+    "desc": "Giardini Due Mulini",
+    "code": "MO665",
+    "islast": false
+  },
+  {
+    "desc": "Saliceta San Giuliano",
+    "code": "MO663",
+    "islast": false
+  },
+  {
+    "desc": "Giardini carcere",
+    "code": "MO2539",
+    "islast": false
+  },
+  {
+    "desc": "Giardini bv Cimabue",
+    "code": "MO3238",
+    "islast": false
+  },
+  {
+    "desc": "Giardini bv Cimabue 1",
+    "code": "MO3681",
+    "islast": false
+  },
+  {
+    "desc": "Direzionale 70",
+    "code": "MO2827",
+    "islast": false
+  },
+  {
+    "desc": "Croce Blu",
+    "code": "MO662",
+    "islast": false
+  },
+  {
+    "desc": "Teatro Michelangelo",
+    "code": "MO6",
+    "islast": false
+  },
+  {
+    "desc": "Risorgimento",
+    "code": "MO4",
+    "islast": false
+  },
+  {
+    "desc": "Ospedale Estense",
+    "code": "MO2594",
+    "islast": false
+  },
+  {
+    "desc": "MODENA AUTOSTAZIONE",
+    "code": "MO342",
+    "islast": false
+  },
+  {
+    "desc": "Fanti FS",
+    "code": "MO125",
+    "islast": true
+  }
+]

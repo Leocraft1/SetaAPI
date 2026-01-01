@@ -1,0 +1,37 @@
+[
+  {
+    "desc": "Marano",
+    "code": "MO2000",
+    "islast": false
+  },
+  {
+    "desc": "Casa Ricchi",
+    "code": "MO2002",
+    "islast": false
+  },
+  {
+    "desc": "Berso Delle Rose",
+    "code": "MO2003",
+    "islast": false
+  },
+  {
+    "desc": "Tavernelle",
+    "code": "MO2004",
+    "islast": false
+  },
+  {
+    "desc": "Pievina",
+    "code": "MO4610",
+    "islast": false
+  },
+  {
+    "desc": "La Vigna",
+    "code": "MO4616",
+    "islast": false
+  },
+  {
+    "desc": "Vignola Autostazione",
+    "code": "MO4600",
+    "islast": true
+  }
+]

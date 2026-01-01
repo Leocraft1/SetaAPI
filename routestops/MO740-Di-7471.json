@@ -1,0 +1,52 @@
+[
+  {
+    "desc": "Castelvetro",
+    "code": "MO800",
+    "islast": false
+  },
+  {
+    "desc": "Giardino",
+    "code": "MO802",
+    "islast": false
+  },
+  {
+    "desc": "Palona",
+    "code": "MO803",
+    "islast": false
+  },
+  {
+    "desc": "Gatta",
+    "code": "MO804",
+    "islast": false
+  },
+  {
+    "desc": "Ca' Molza",
+    "code": "MO4594",
+    "islast": false
+  },
+  {
+    "desc": "San Pietro",
+    "code": "MO4596",
+    "islast": false
+  },
+  {
+    "desc": "Due Ponti",
+    "code": "MO4598",
+    "islast": false
+  },
+  {
+    "desc": "Campiglio bv",
+    "code": "MO4602",
+    "islast": false
+  },
+  {
+    "desc": "La Vigna",
+    "code": "MO4616",
+    "islast": false
+  },
+  {
+    "desc": "Vignola Autostazione",
+    "code": "MO4506",
+    "islast": true
+  }
+]

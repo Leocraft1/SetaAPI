@@ -1,0 +1,247 @@
+[
+  {
+    "desc": "Concordia",
+    "code": "MO1000",
+    "islast": false
+  },
+  {
+    "desc": "Concordia centro",
+    "code": "MO510",
+    "islast": false
+  },
+  {
+    "desc": "Palazzo Taccoli",
+    "code": "MO378",
+    "islast": false
+  },
+  {
+    "desc": "Battaglia",
+    "code": "MO376",
+    "islast": false
+  },
+  {
+    "desc": "Malcantone",
+    "code": "MO374",
+    "islast": false
+  },
+  {
+    "desc": "San Possidonio",
+    "code": "MO3800",
+    "islast": false
+  },
+  {
+    "desc": "Cappelletta",
+    "code": "MO372",
+    "islast": false
+  },
+  {
+    "desc": "Don Sturzo",
+    "code": "MO4599",
+    "islast": false
+  },
+  {
+    "desc": "Ponte di  Pietra",
+    "code": "MO364",
+    "islast": false
+  },
+  {
+    "desc": "Madonna di Disvetro",
+    "code": "MO362",
+    "islast": false
+  },
+  {
+    "desc": "Disvetro",
+    "code": "MO360",
+    "islast": false
+  },
+  {
+    "desc": "Bottega di Mezzo",
+    "code": "MO859",
+    "islast": false
+  },
+  {
+    "desc": "Cavezzo bv",
+    "code": "MO356",
+    "islast": false
+  },
+  {
+    "desc": "Cavezzo Istituto Masi",
+    "code": "MO3832",
+    "islast": false
+  },
+  {
+    "desc": "Cavezzo Autostazione",
+    "code": "MO490",
+    "islast": false
+  },
+  {
+    "desc": "Bellicina",
+    "code": "MO322",
+    "islast": false
+  },
+  {
+    "desc": "Voltone",
+    "code": "MO320",
+    "islast": false
+  },
+  {
+    "desc": "Voltone 1",
+    "code": "MO3639",
+    "islast": false
+  },
+  {
+    "desc": "Bisighini bv",
+    "code": "MO310",
+    "islast": false
+  },
+  {
+    "desc": "Baraccone",
+    "code": "MO296",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Motta",
+    "code": "MO294",
+    "islast": false
+  },
+  {
+    "desc": "Castello Fantini",
+    "code": "MO292",
+    "islast": false
+  },
+  {
+    "desc": "San Martino Secchia bv",
+    "code": "MO290",
+    "islast": false
+  },
+  {
+    "desc": "Cortile scuole",
+    "code": "MO280",
+    "islast": false
+  },
+  {
+    "desc": "Mulino Cortile",
+    "code": "MO272",
+    "islast": false
+  },
+  {
+    "desc": "Cortile",
+    "code": "MO270",
+    "islast": false
+  },
+  {
+    "desc": "Cortile Calanca",
+    "code": "MO256",
+    "islast": false
+  },
+  {
+    "desc": "Castello",
+    "code": "MO254",
+    "islast": false
+  },
+  {
+    "desc": "Sozzigalli palazzina",
+    "code": "MO252",
+    "islast": false
+  },
+  {
+    "desc": "Sozzigalli via Canale",
+    "code": "MO250",
+    "islast": false
+  },
+  {
+    "desc": "Dotti bv",
+    "code": "MO248",
+    "islast": false
+  },
+  {
+    "desc": "Santa Maria",
+    "code": "MO247",
+    "islast": false
+  },
+  {
+    "desc": "Secchia caseificio",
+    "code": "MO246",
+    "islast": false
+  },
+  {
+    "desc": "Soliera bv",
+    "code": "MO245",
+    "islast": false
+  },
+  {
+    "desc": "Secchia",
+    "code": "MO7315",
+    "islast": false
+  },
+  {
+    "desc": "Bottega Secchia",
+    "code": "MO244",
+    "islast": false
+  },
+  {
+    "desc": "Setti",
+    "code": "MO243",
+    "islast": false
+  },
+  {
+    "desc": "Passo Uccellino",
+    "code": "MO242",
+    "islast": false
+  },
+  {
+    "desc": "Olmaccio",
+    "code": "MO240",
+    "islast": false
+  },
+  {
+    "desc": "Villanova Cimitero",
+    "code": "MO2326",
+    "islast": false
+  },
+  {
+    "desc": "Bottega di Mezzo",
+    "code": "MO2308",
+    "islast": false
+  },
+  {
+    "desc": "Villanova",
+    "code": "MO230",
+    "islast": false
+  },
+  {
+    "desc": "Villanova scuole",
+    "code": "MO2281",
+    "islast": false
+  },
+  {
+    "desc": "San Pancrazio Chiesa",
+    "code": "MO469",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Alto",
+    "code": "MO55",
+    "islast": false
+  },
+  {
+    "desc": "Nazionale per Carpi bv Bembo",
+    "code": "MO3097",
+    "islast": false
+  },
+  {
+    "desc": "Nazionale per Carpi",
+    "code": "MO6830",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest bv Autodromo",
+    "code": "MO48",
+    "islast": false
+  },
+  {
+    "desc": "MODENA AUTOSTAZIONE",
+    "code": "MO344",
+    "islast": true
+  }
+]

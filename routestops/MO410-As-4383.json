@@ -1,0 +1,132 @@
+[
+  {
+    "desc": "Polo Finale",
+    "code": "MO3809",
+    "islast": false
+  },
+  {
+    "desc": "Istituto agrario bv",
+    "code": "MO1206",
+    "islast": false
+  },
+  {
+    "desc": "Casette",
+    "code": "MO1134",
+    "islast": false
+  },
+  {
+    "desc": "Canaletto scuole",
+    "code": "MO1132",
+    "islast": false
+  },
+  {
+    "desc": "Ristorante Nuova Luce",
+    "code": "MO1140",
+    "islast": false
+  },
+  {
+    "desc": "San Luigi",
+    "code": "MO1156",
+    "islast": false
+  },
+  {
+    "desc": "Ca' Bianca scuole",
+    "code": "MO597",
+    "islast": false
+  },
+  {
+    "desc": "Ca' Bianca",
+    "code": "MO599",
+    "islast": false
+  },
+  {
+    "desc": "Trattoria Marina",
+    "code": "MO601",
+    "islast": false
+  },
+  {
+    "desc": "Cantone",
+    "code": "MO604",
+    "islast": false
+  },
+  {
+    "desc": "Hotel Paradiso",
+    "code": "MO606",
+    "islast": false
+  },
+  {
+    "desc": "Ca' De Coppi",
+    "code": "MO1170",
+    "islast": false
+  },
+  {
+    "desc": "Ghirone",
+    "code": "MO1172",
+    "islast": false
+  },
+  {
+    "desc": "Passo Vecchio",
+    "code": "MO1174",
+    "islast": false
+  },
+  {
+    "desc": "Camposanto",
+    "code": "MO3433",
+    "islast": false
+  },
+  {
+    "desc": "Camposanto Cimitero",
+    "code": "MO163",
+    "islast": false
+  },
+  {
+    "desc": "Casa Malagoli",
+    "code": "MO844",
+    "islast": false
+  },
+  {
+    "desc": "Bedagna",
+    "code": "MO842",
+    "islast": false
+  },
+  {
+    "desc": "Stuffione",
+    "code": "MO840",
+    "islast": false
+  },
+  {
+    "desc": "Casa Balugani",
+    "code": "MO834",
+    "islast": false
+  },
+  {
+    "desc": "Villa Stuffione",
+    "code": "MO832",
+    "islast": false
+  },
+  {
+    "desc": "Loreto",
+    "code": "MO382",
+    "islast": false
+  },
+  {
+    "desc": "Case Nuove",
+    "code": "MO828",
+    "islast": false
+  },
+  {
+    "desc": "Segheria",
+    "code": "MO826",
+    "islast": false
+  },
+  {
+    "desc": "Ravarino Dante",
+    "code": "MO377",
+    "islast": false
+  },
+  {
+    "desc": "Ravarino",
+    "code": "MO3400",
+    "islast": true
+  }
+]

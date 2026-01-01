@@ -1,0 +1,152 @@
+[
+  {
+    "desc": "LA TORRE",
+    "code": "MO6559",
+    "islast": false
+  },
+  {
+    "desc": "Dalla Chiesa bv Tobagi",
+    "code": "MO6557",
+    "islast": false
+  },
+  {
+    "desc": "Casalegno rotonda",
+    "code": "MO2813",
+    "islast": false
+  },
+  {
+    "desc": "Morane bv Pavia",
+    "code": "MO2797",
+    "islast": false
+  },
+  {
+    "desc": "Morane Hesperia",
+    "code": "MO2796",
+    "islast": false
+  },
+  {
+    "desc": "Morane bv Bolzano",
+    "code": "MO88",
+    "islast": false
+  },
+  {
+    "desc": "Morane esselunga",
+    "code": "MO2795",
+    "islast": false
+  },
+  {
+    "desc": "Morane bv Gobetti",
+    "code": "MO2794",
+    "islast": false
+  },
+  {
+    "desc": "Morane bv Bellincini",
+    "code": "MO2789",
+    "islast": false
+  },
+  {
+    "desc": "Morane bv Sigonio",
+    "code": "MO112",
+    "islast": false
+  },
+  {
+    "desc": "Cinema estivo",
+    "code": "MO2788",
+    "islast": false
+  },
+  {
+    "desc": "Rimembranze bv Selmi",
+    "code": "MO2591",
+    "islast": false
+  },
+  {
+    "desc": "Rimembranze bv Canalchiaro",
+    "code": "MO2592",
+    "islast": false
+  },
+  {
+    "desc": "Risorgimento",
+    "code": "MO4",
+    "islast": false
+  },
+  {
+    "desc": "Vittorio Veneto bv Trombi",
+    "code": "MO2593",
+    "islast": false
+  },
+  {
+    "desc": "Ospedale Estense",
+    "code": "MO2594",
+    "islast": false
+  },
+  {
+    "desc": "MODENA  AUTOSTAZIONE",
+    "code": "MO5003",
+    "islast": false
+  },
+  {
+    "desc": "Palazzo Europa",
+    "code": "MO2993",
+    "islast": false
+  },
+  {
+    "desc": "Caserma Pisacane",
+    "code": "MO2995",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest bv Ruffini",
+    "code": "MO2997",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest bv Autodromo",
+    "code": "MO13",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest Madonnina",
+    "code": "MO14",
+    "islast": false
+  },
+  {
+    "desc": "Barchetta asilo",
+    "code": "MO3074",
+    "islast": false
+  },
+  {
+    "desc": "Barchetta Nelson",
+    "code": "MO3075",
+    "islast": false
+  },
+  {
+    "desc": "Barchetta",
+    "code": "MO184",
+    "islast": false
+  },
+  {
+    "desc": "Barchetta bv Anesino",
+    "code": "MO3077",
+    "islast": false
+  },
+  {
+    "desc": "Salgari",
+    "code": "MO3078",
+    "islast": false
+  },
+  {
+    "desc": "D'Avia bv Silone",
+    "code": "MO3115",
+    "islast": false
+  },
+  {
+    "desc": "D'Avia bv Toscanelli",
+    "code": "MO3117",
+    "islast": false
+  },
+  {
+    "desc": "D'AVIA",
+    "code": "MO6888",
+    "islast": true
+  }
+]

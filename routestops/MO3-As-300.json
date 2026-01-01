@@ -1,0 +1,47 @@
+[
+  {
+    "desc": "Cap. MONTEFIORINO",
+    "code": "MO3799",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana bv Mar Adriatico",
+    "code": "MO718",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana Torrenova",
+    "code": "MO6223",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana",
+    "code": "MO145",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana bv Crocetta",
+    "code": "MO6243",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana bv Cuboni",
+    "code": "MO6241",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana scuole",
+    "code": "MO6239",
+    "islast": false
+  },
+  {
+    "desc": "Attiraglio",
+    "code": "MO555",
+    "islast": false
+  },
+  {
+    "desc": "STAZIONE FS",
+    "code": "MO6134",
+    "islast": true
+  }
+]

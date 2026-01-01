@@ -1,0 +1,92 @@
+[
+  {
+    "desc": "GARIBALDI",
+    "code": "MO5900",
+    "islast": false
+  },
+  {
+    "desc": "Prefettura",
+    "code": "MO2590",
+    "islast": false
+  },
+  {
+    "desc": "Rimembranze ex Questura",
+    "code": "MO12",
+    "islast": false
+  },
+  {
+    "desc": "Rimembranze bv Selmi",
+    "code": "MO2591",
+    "islast": false
+  },
+  {
+    "desc": "Rimembranze bv Canalchiaro",
+    "code": "MO2592",
+    "islast": false
+  },
+  {
+    "desc": "Sigonio bv Guarini",
+    "code": "MO6649",
+    "islast": false
+  },
+  {
+    "desc": "Guarini bv Lana",
+    "code": "MO2849",
+    "islast": false
+  },
+  {
+    "desc": "Guarini bv Venturi",
+    "code": "MO2851",
+    "islast": false
+  },
+  {
+    "desc": "Guarini bv della Pace",
+    "code": "MO2852",
+    "islast": false
+  },
+  {
+    "desc": "Guarini bv Bianchi Ferrari",
+    "code": "MO2853",
+    "islast": false
+  },
+  {
+    "desc": "Nievo bv Tiziano",
+    "code": "MO2854",
+    "islast": false
+  },
+  {
+    "desc": "Nievo bv Amendola",
+    "code": "MO2855",
+    "islast": false
+  },
+  {
+    "desc": "Amendola bv Nievo",
+    "code": "MO2864",
+    "islast": false
+  },
+  {
+    "desc": "Pisano",
+    "code": "MO2857",
+    "islast": false
+  },
+  {
+    "desc": "Ribera Conad",
+    "code": "MO2859",
+    "islast": false
+  },
+  {
+    "desc": "Ribera bv Panni",
+    "code": "MO2861",
+    "islast": false
+  },
+  {
+    "desc": "Panni bv Giambellino",
+    "code": "MO2615",
+    "islast": false
+  },
+  {
+    "desc": "PANNI",
+    "code": "MO6675",
+    "islast": true
+  }
+]

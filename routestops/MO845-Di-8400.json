@@ -1,0 +1,97 @@
+[
+  {
+    "desc": "Sestola",
+    "code": "MO4300",
+    "islast": false
+  },
+  {
+    "desc": "Dogana",
+    "code": "MO3562",
+    "islast": false
+  },
+  {
+    "desc": "Roncoscaglia",
+    "code": "MO3560",
+    "islast": false
+  },
+  {
+    "desc": "Roncoscaglia 1",
+    "code": "MO3689",
+    "islast": false
+  },
+  {
+    "desc": "Acquaria bv",
+    "code": "MO3550",
+    "islast": false
+  },
+  {
+    "desc": "Bandita",
+    "code": "MO3546",
+    "islast": false
+  },
+  {
+    "desc": "Ronco bv",
+    "code": "MO3544",
+    "islast": false
+  },
+  {
+    "desc": "Montecreto",
+    "code": "MO2400",
+    "islast": false
+  },
+  {
+    "desc": "Incrocio via del Pozzo",
+    "code": "MO3658",
+    "islast": false
+  },
+  {
+    "desc": "Strettara bv",
+    "code": "MO2033",
+    "islast": false
+  },
+  {
+    "desc": "Magrignana",
+    "code": "MO2032",
+    "islast": false
+  },
+  {
+    "desc": "Borra di Ronco",
+    "code": "MO2028",
+    "islast": false
+  },
+  {
+    "desc": "Bv Le Polle",
+    "code": "MO2031",
+    "islast": false
+  },
+  {
+    "desc": "Riolino",
+    "code": "MO2027",
+    "islast": false
+  },
+  {
+    "desc": "Riolunato",
+    "code": "MO2009",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Fola",
+    "code": "MO2173",
+    "islast": false
+  },
+  {
+    "desc": "Pievepelago Autostazione",
+    "code": "MO3104",
+    "islast": false
+  },
+  {
+    "desc": "Pievepelago",
+    "code": "MO1714",
+    "islast": false
+  },
+  {
+    "desc": "Pievepelago scuole",
+    "code": "MO1717",
+    "islast": true
+  }
+]

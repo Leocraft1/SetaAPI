@@ -1,0 +1,117 @@
+[
+  {
+    "desc": "Bomporto",
+    "code": "MO68",
+    "islast": false
+  },
+  {
+    "desc": "Garuti",
+    "code": "MO341",
+    "islast": false
+  },
+  {
+    "desc": "Casoni",
+    "code": "MO2620",
+    "islast": false
+  },
+  {
+    "desc": "La Grande",
+    "code": "MO3623",
+    "islast": false
+  },
+  {
+    "desc": "Casa Grenzi",
+    "code": "MO3647",
+    "islast": false
+  },
+  {
+    "desc": "Casa Ponte Fossa",
+    "code": "MO3663",
+    "islast": false
+  },
+  {
+    "desc": "Stabilimento Borsari",
+    "code": "MO3665",
+    "islast": false
+  },
+  {
+    "desc": "Nonantola casette 2",
+    "code": "MO3668",
+    "islast": false
+  },
+  {
+    "desc": "Nonantola Casette",
+    "code": "MO3670",
+    "islast": false
+  },
+  {
+    "desc": "Nonantola Terminal",
+    "code": "MO3980",
+    "islast": false
+  },
+  {
+    "desc": "Aldo Moro",
+    "code": "MO3595",
+    "islast": false
+  },
+  {
+    "desc": "Maestra di Redu",
+    "code": "MO3597",
+    "islast": false
+  },
+  {
+    "desc": "Redu",
+    "code": "MO1270",
+    "islast": false
+  },
+  {
+    "desc": "Casinazzo",
+    "code": "MO1268",
+    "islast": false
+  },
+  {
+    "desc": "Recovato Chiesa",
+    "code": "MO1267",
+    "islast": false
+  },
+  {
+    "desc": "Recovato Mulino",
+    "code": "MO1266",
+    "islast": false
+  },
+  {
+    "desc": "Rondine",
+    "code": "MO1265",
+    "islast": false
+  },
+  {
+    "desc": "Al Ponte",
+    "code": "MO1264",
+    "islast": false
+  },
+  {
+    "desc": "La Mela",
+    "code": "MO1263",
+    "islast": false
+  },
+  {
+    "desc": "Pioppa",
+    "code": "MO1262",
+    "islast": false
+  },
+  {
+    "desc": "Centro commerciale",
+    "code": "MO1437",
+    "islast": false
+  },
+  {
+    "desc": "Castelfranco teatro",
+    "code": "MO1467",
+    "islast": false
+  },
+  {
+    "desc": "Castelfranco FS",
+    "code": "MO491",
+    "islast": true
+  }
+]

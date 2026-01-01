@@ -1,0 +1,77 @@
+[
+  {
+    "desc": "Montefiorino",
+    "code": "MO2500",
+    "islast": false
+  },
+  {
+    "desc": "Pianellino",
+    "code": "MO1574",
+    "islast": false
+  },
+  {
+    "desc": "Casa Gigli",
+    "code": "MO1575",
+    "islast": false
+  },
+  {
+    "desc": "Traghetti",
+    "code": "MO2577",
+    "islast": false
+  },
+  {
+    "desc": "Casa Bocchi",
+    "code": "MO1579",
+    "islast": false
+  },
+  {
+    "desc": "La Verna",
+    "code": "MO1580",
+    "islast": false
+  },
+  {
+    "desc": "Campo Cardero",
+    "code": "MO1581",
+    "islast": false
+  },
+  {
+    "desc": "Lavacchio",
+    "code": "MO1582",
+    "islast": false
+  },
+  {
+    "desc": "Serradimigni",
+    "code": "MO1707",
+    "islast": false
+  },
+  {
+    "desc": "La Serra",
+    "code": "MO1708",
+    "islast": false
+  },
+  {
+    "desc": "Tolara",
+    "code": "MO1709",
+    "islast": false
+  },
+  {
+    "desc": "Rimessa",
+    "code": "MO1711",
+    "islast": false
+  },
+  {
+    "desc": "Aradonica",
+    "code": "MO1713",
+    "islast": false
+  },
+  {
+    "desc": "Tennis bar",
+    "code": "MO787",
+    "islast": false
+  },
+  {
+    "desc": "Frassinoro",
+    "code": "MO3631",
+    "islast": true
+  }
+]

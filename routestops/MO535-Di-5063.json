@@ -1,0 +1,52 @@
+[
+  {
+    "desc": "CARPI TERMINAL BUS",
+    "code": "MO523",
+    "islast": false
+  },
+  {
+    "desc": "P.le Ramazzini",
+    "code": "MO466",
+    "islast": false
+  },
+  {
+    "desc": "Ugo da Carpi",
+    "code": "MO255",
+    "islast": false
+  },
+  {
+    "desc": "Ugo da Carpi 3",
+    "code": "MO2889",
+    "islast": false
+  },
+  {
+    "desc": "Santa Croce bv",
+    "code": "MO3319",
+    "islast": false
+  },
+  {
+    "desc": "Mulini 2",
+    "code": "MO265",
+    "islast": false
+  },
+  {
+    "desc": "Gargallo",
+    "code": "MO239",
+    "islast": false
+  },
+  {
+    "desc": "Panzano Carpi",
+    "code": "MO2358",
+    "islast": false
+  },
+  {
+    "desc": "Gramsci",
+    "code": "MO4918",
+    "islast": false
+  },
+  {
+    "desc": "Campogalliano",
+    "code": "MO4921",
+    "islast": true
+  }
+]

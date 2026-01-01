@@ -1,0 +1,92 @@
+[
+  {
+    "desc": "Pavullo Autostazione",
+    "code": "MO3000",
+    "islast": false
+  },
+  {
+    "desc": "Le Aie",
+    "code": "MO2546",
+    "islast": false
+  },
+  {
+    "desc": "Capanne",
+    "code": "MO2548",
+    "islast": false
+  },
+  {
+    "desc": "Acquabona",
+    "code": "MO2550",
+    "islast": false
+  },
+  {
+    "desc": "Boccaccio 1",
+    "code": "MO4717",
+    "islast": false
+  },
+  {
+    "desc": "Sant'Antonio scuole",
+    "code": "MO4718",
+    "islast": false
+  },
+  {
+    "desc": "Boccaccio",
+    "code": "MO4719",
+    "islast": false
+  },
+  {
+    "desc": "Ceramica",
+    "code": "MO1299",
+    "islast": false
+  },
+  {
+    "desc": "Bortolucci",
+    "code": "MO2381",
+    "islast": false
+  },
+  {
+    "desc": "Ceramica",
+    "code": "MO1302",
+    "islast": false
+  },
+  {
+    "desc": "Madonna Baldaccini",
+    "code": "MO2360",
+    "islast": false
+  },
+  {
+    "desc": "Lo Stallone",
+    "code": "MO2362",
+    "islast": false
+  },
+  {
+    "desc": "Forno",
+    "code": "MO2363",
+    "islast": false
+  },
+  {
+    "desc": "Casa Mazzanti",
+    "code": "MO2364",
+    "islast": false
+  },
+  {
+    "desc": "Il Prato",
+    "code": "MO2365",
+    "islast": false
+  },
+  {
+    "desc": "Casa Rossa",
+    "code": "MO2366",
+    "islast": false
+  },
+  {
+    "desc": "Casa Venturelli",
+    "code": "MO2368",
+    "islast": false
+  },
+  {
+    "desc": "Montebonello",
+    "code": "MO2367",
+    "islast": true
+  }
+]

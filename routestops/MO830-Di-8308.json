@@ -1,0 +1,172 @@
+[
+  {
+    "desc": "Vignola Autostazione",
+    "code": "MO4512",
+    "islast": false
+  },
+  {
+    "desc": "La Vigna",
+    "code": "MO2410",
+    "islast": false
+  },
+  {
+    "desc": "Pievina",
+    "code": "MO2405",
+    "islast": false
+  },
+  {
+    "desc": "Tavernelle",
+    "code": "MO1059",
+    "islast": false
+  },
+  {
+    "desc": "Berso Delle Rose",
+    "code": "MO1058",
+    "islast": false
+  },
+  {
+    "desc": "Casa Ricchi",
+    "code": "MO1057",
+    "islast": false
+  },
+  {
+    "desc": "Marano",
+    "code": "MO2000",
+    "islast": false
+  },
+  {
+    "desc": "Casa Bonetti 1",
+    "code": "MO1332",
+    "islast": false
+  },
+  {
+    "desc": "Via Pavullese",
+    "code": "MO3331",
+    "islast": false
+  },
+  {
+    "desc": "Marano fornace",
+    "code": "MO1331",
+    "islast": false
+  },
+  {
+    "desc": "Provincia 1",
+    "code": "MO1329",
+    "islast": false
+  },
+  {
+    "desc": "Provincia 2",
+    "code": "MO1325",
+    "islast": false
+  },
+  {
+    "desc": "Ristorante Saionara",
+    "code": "MO1327",
+    "islast": false
+  },
+  {
+    "desc": "Casona",
+    "code": "MO1326",
+    "islast": false
+  },
+  {
+    "desc": "Casona bv",
+    "code": "MO1324",
+    "islast": false
+  },
+  {
+    "desc": "Casa Zoppo",
+    "code": "MO1323",
+    "islast": false
+  },
+  {
+    "desc": "Casa Cavallaro",
+    "code": "MO1322",
+    "islast": false
+  },
+  {
+    "desc": "Festa",
+    "code": "MO2420",
+    "islast": false
+  },
+  {
+    "desc": "Casa Rossa",
+    "code": "MO1314",
+    "islast": false
+  },
+  {
+    "desc": "Coscogno confine",
+    "code": "MO1313",
+    "islast": false
+  },
+  {
+    "desc": "Chiesa",
+    "code": "MO1311",
+    "islast": false
+  },
+  {
+    "desc": "Coscogno",
+    "code": "MO1309",
+    "islast": false
+  },
+  {
+    "desc": "Coscogno 1",
+    "code": "MO3453",
+    "islast": false
+  },
+  {
+    "desc": "Casa Marconi",
+    "code": "MO1307",
+    "islast": false
+  },
+  {
+    "desc": "Casa Golini",
+    "code": "MO1306",
+    "islast": false
+  },
+  {
+    "desc": "La Guardia",
+    "code": "MO1305",
+    "islast": false
+  },
+  {
+    "desc": "La Villa",
+    "code": "MO1304",
+    "islast": false
+  },
+  {
+    "desc": "Casa Schianchi",
+    "code": "MO1303",
+    "islast": false
+  },
+  {
+    "desc": "Sant'Antonio",
+    "code": "MO1376",
+    "islast": false
+  },
+  {
+    "desc": "Il Ronco",
+    "code": "MO1375",
+    "islast": false
+  },
+  {
+    "desc": "Acquabona",
+    "code": "MO1374",
+    "islast": false
+  },
+  {
+    "desc": "Capanne",
+    "code": "MO1373",
+    "islast": false
+  },
+  {
+    "desc": "Le Aie",
+    "code": "MO1372",
+    "islast": false
+  },
+  {
+    "desc": "Pavullo autostazione",
+    "code": "MO1381",
+    "islast": true
+  }
+]

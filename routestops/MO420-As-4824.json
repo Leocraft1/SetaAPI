@@ -1,0 +1,172 @@
+[
+  {
+    "desc": "Mirandola Terminal",
+    "code": "MO3973",
+    "islast": false
+  },
+  {
+    "desc": "Barozzi scuole",
+    "code": "MO2202",
+    "islast": false
+  },
+  {
+    "desc": "Mirandola ex scuole",
+    "code": "MO1186",
+    "islast": false
+  },
+  {
+    "desc": "Mirandola Ospedale",
+    "code": "MO2203",
+    "islast": false
+  },
+  {
+    "desc": "Carrozzeria Barbi",
+    "code": "MO2012",
+    "islast": false
+  },
+  {
+    "desc": "Fontana maglificio",
+    "code": "MO1010",
+    "islast": false
+  },
+  {
+    "desc": "Camurana stazione",
+    "code": "MO1020",
+    "islast": false
+  },
+  {
+    "desc": "Camurana",
+    "code": "MO990",
+    "islast": false
+  },
+  {
+    "desc": "Bruino bv Gandi",
+    "code": "MO3111",
+    "islast": false
+  },
+  {
+    "desc": "Medolla",
+    "code": "MO2100",
+    "islast": false
+  },
+  {
+    "desc": "Medolla Autostazione",
+    "code": "MO488",
+    "islast": false
+  },
+  {
+    "desc": "Cavezzo stazione",
+    "code": "MO340",
+    "islast": false
+  },
+  {
+    "desc": "Cavezzo Centro",
+    "code": "MO6970",
+    "islast": false
+  },
+  {
+    "desc": "Cavezzo Autostazione",
+    "code": "MO490",
+    "islast": false
+  },
+  {
+    "desc": "San Silvestro",
+    "code": "MO352",
+    "islast": false
+  },
+  {
+    "desc": "San Prospero",
+    "code": "MO2209",
+    "islast": false
+  },
+  {
+    "desc": "San Pietro bv",
+    "code": "MO640",
+    "islast": false
+  },
+  {
+    "desc": "Casinone",
+    "code": "MO664",
+    "islast": false
+  },
+  {
+    "desc": "Il Cristo",
+    "code": "MO668",
+    "islast": false
+  },
+  {
+    "desc": "Sorbara bv",
+    "code": "MO670",
+    "islast": false
+  },
+  {
+    "desc": "Bar Belfiore",
+    "code": "MO672",
+    "islast": false
+  },
+  {
+    "desc": "Bastiglia bv",
+    "code": "MO680",
+    "islast": false
+  },
+  {
+    "desc": "Bastiglia statale",
+    "code": "MO687",
+    "islast": false
+  },
+  {
+    "desc": "Bastiglia Cantone",
+    "code": "MO684",
+    "islast": false
+  },
+  {
+    "desc": "Monumento",
+    "code": "MO686",
+    "islast": false
+  },
+  {
+    "desc": "Villa Zuccoli",
+    "code": "MO688",
+    "islast": false
+  },
+  {
+    "desc": "San Matteo 1",
+    "code": "MO690",
+    "islast": false
+  },
+  {
+    "desc": "Villa Nasi",
+    "code": "MO692",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Basso",
+    "code": "MO710",
+    "islast": false
+  },
+  {
+    "desc": "Suore bv Parenti",
+    "code": "MO3134",
+    "islast": false
+  },
+  {
+    "desc": "Canaletto bv Soratore",
+    "code": "MO70",
+    "islast": false
+  },
+  {
+    "desc": "Canaletto Coop",
+    "code": "MO6014",
+    "islast": false
+  },
+  {
+    "desc": "Monte Kosica FS",
+    "code": "MO2576",
+    "islast": false
+  },
+  {
+    "desc": "MODENA AUTOSTAZIONE",
+    "code": "MO346",
+    "islast": true
+  }
+]

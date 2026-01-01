@@ -1,0 +1,27 @@
+[
+  {
+    "desc": "Rolo Stazione",
+    "code": "MO2449",
+    "islast": false
+  },
+  {
+    "desc": "Rolo bv",
+    "code": "MO971",
+    "islast": false
+  },
+  {
+    "desc": "Villafranca",
+    "code": "MO976",
+    "islast": false
+  },
+  {
+    "desc": "Uris bar",
+    "code": "MO977",
+    "islast": false
+  },
+  {
+    "desc": "Novi",
+    "code": "MO1445",
+    "islast": true
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "desc": "Serramazzoni",
+    "code": "MO2352",
+    "islast": false
+  },
+  {
+    "desc": "Spinara",
+    "code": "MO1276",
+    "islast": false
+  },
+  {
+    "desc": "Casa Quattrini",
+    "code": "MO1275",
+    "islast": false
+  },
+  {
+    "desc": "Riotorto Selva",
+    "code": "MO1286",
+    "islast": false
+  },
+  {
+    "desc": "Casa Fontanazzi",
+    "code": "MO1287",
+    "islast": false
+  },
+  {
+    "desc": "La Monta",
+    "code": "MO1288",
+    "islast": false
+  },
+  {
+    "desc": "Casa Bosi",
+    "code": "MO1289",
+    "islast": false
+  },
+  {
+    "desc": "Madonna Baldaccini",
+    "code": "MO1292",
+    "islast": false
+  },
+  {
+    "desc": "Chiozza",
+    "code": "MO1301",
+    "islast": false
+  },
+  {
+    "desc": "Sant'Antonio",
+    "code": "MO1376",
+    "islast": false
+  },
+  {
+    "desc": "Il Ronco",
+    "code": "MO1375",
+    "islast": false
+  },
+  {
+    "desc": "Acquabona",
+    "code": "MO1374",
+    "islast": false
+  },
+  {
+    "desc": "Capanne",
+    "code": "MO1373",
+    "islast": false
+  },
+  {
+    "desc": "Le Aie",
+    "code": "MO1372",
+    "islast": false
+  },
+  {
+    "desc": "Pavullo autostazione",
+    "code": "MO1381",
+    "islast": true
+  }
+]

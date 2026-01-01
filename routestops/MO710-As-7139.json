@@ -1,0 +1,102 @@
+[
+  {
+    "desc": "Ponte Samone",
+    "code": "MO1334",
+    "islast": false
+  },
+  {
+    "desc": "Ponte",
+    "code": "MO2764",
+    "islast": false
+  },
+  {
+    "desc": "Salda",
+    "code": "MO2766",
+    "islast": false
+  },
+  {
+    "desc": "Gainazzo bv",
+    "code": "MO2768",
+    "islast": false
+  },
+  {
+    "desc": "Molino",
+    "code": "MO1435",
+    "islast": false
+  },
+  {
+    "desc": "Monticello",
+    "code": "MO3589",
+    "islast": false
+  },
+  {
+    "desc": "Missano",
+    "code": "MO1436",
+    "islast": false
+  },
+  {
+    "desc": "Molino",
+    "code": "MO2778",
+    "islast": false
+  },
+  {
+    "desc": "Missano bv",
+    "code": "MO2770",
+    "islast": false
+  },
+  {
+    "desc": "Samone bv Serra",
+    "code": "MO3443",
+    "islast": false
+  },
+  {
+    "desc": "Samone",
+    "code": "MO2760",
+    "islast": false
+  },
+  {
+    "desc": "Samone distributore",
+    "code": "MO2758",
+    "islast": false
+  },
+  {
+    "desc": "Samone bv",
+    "code": "MO2750",
+    "islast": false
+  },
+  {
+    "desc": "Ginevra",
+    "code": "MO1424",
+    "islast": false
+  },
+  {
+    "desc": "Giostra",
+    "code": "MO1423",
+    "islast": false
+  },
+  {
+    "desc": "Derna",
+    "code": "MO1421",
+    "islast": false
+  },
+  {
+    "desc": "Monteombraro",
+    "code": "MO1418",
+    "islast": false
+  },
+  {
+    "desc": "Pediera",
+    "code": "MO1449",
+    "islast": false
+  },
+  {
+    "desc": "Zocca periferia",
+    "code": "MO2413",
+    "islast": false
+  },
+  {
+    "desc": "Zocca",
+    "code": "MO3988",
+    "islast": true
+  }
+]

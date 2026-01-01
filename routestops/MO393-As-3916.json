@@ -1,0 +1,32 @@
+[
+  {
+    "desc": "STAZIONE FS",
+    "code": "MO6119",
+    "islast": false
+  },
+  {
+    "desc": "Costa sottopasso cimitero",
+    "code": "MO2980",
+    "islast": false
+  },
+  {
+    "desc": "POLO LEONARDO",
+    "code": "MO217",
+    "islast": false
+  },
+  {
+    "desc": "Formigina bv Cannizzaro",
+    "code": "MO6733",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Guarini",
+    "code": "MO2887",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Cattaneo",
+    "code": "MO2885",
+    "islast": true
+  }
+]

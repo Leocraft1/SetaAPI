@@ -1,0 +1,142 @@
+[
+  {
+    "desc": "CHINNICI",
+    "code": "MO106",
+    "islast": false
+  },
+  {
+    "desc": "Forli",
+    "code": "MO6580",
+    "islast": false
+  },
+  {
+    "desc": "Forli' bv F.lli Rosselli",
+    "code": "MO2819",
+    "islast": false
+  },
+  {
+    "desc": "La Carovana scuole",
+    "code": "MO237",
+    "islast": false
+  },
+  {
+    "desc": "F.lli Rosselli bv Pelloni",
+    "code": "MO2821",
+    "islast": false
+  },
+  {
+    "desc": "F.lli Rosselli bv Conco",
+    "code": "MO2784",
+    "islast": false
+  },
+  {
+    "desc": "F.lli Rosselli villa Rosa",
+    "code": "MO2783",
+    "islast": false
+  },
+  {
+    "desc": "Buon Pastore bv Amendola",
+    "code": "MO2782",
+    "islast": false
+  },
+  {
+    "desc": "Buon Pastore bv Domenichino",
+    "code": "MO2781",
+    "islast": false
+  },
+  {
+    "desc": "Buon Pastore Portici",
+    "code": "MO2779",
+    "islast": false
+  },
+  {
+    "desc": "Buon Pastore bv Peretti",
+    "code": "MO2777",
+    "islast": false
+  },
+  {
+    "desc": "Sigonio bv Tamburini",
+    "code": "MO2776",
+    "islast": false
+  },
+  {
+    "desc": "Sigonio bv Guarini",
+    "code": "MO2848",
+    "islast": false
+  },
+  {
+    "desc": "Pietro Giannone",
+    "code": "MO6647",
+    "islast": false
+  },
+  {
+    "desc": "Risorgimento",
+    "code": "MO4",
+    "islast": false
+  },
+  {
+    "desc": "Vittorio Veneto bv Trombi",
+    "code": "MO2593",
+    "islast": false
+  },
+  {
+    "desc": "Ospedale Estense",
+    "code": "MO2594",
+    "islast": false
+  },
+  {
+    "desc": "BACCHINI AUTOSTAZIONE",
+    "code": "MO6600",
+    "islast": false
+  },
+  {
+    "desc": "Storchi Sacro Cuore",
+    "code": "MO2973",
+    "islast": false
+  },
+  {
+    "desc": "Storchi Cialdini",
+    "code": "MO2975",
+    "islast": false
+  },
+  {
+    "desc": "Galaverna",
+    "code": "MO3099",
+    "islast": false
+  },
+  {
+    "desc": "Paolo Ruffini",
+    "code": "MO2977",
+    "islast": false
+  },
+  {
+    "desc": "Cesari",
+    "code": "MO6806",
+    "islast": false
+  },
+  {
+    "desc": "SAN CATALDO CIMITERO",
+    "code": "MO3095",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Alto",
+    "code": "MO17",
+    "islast": false
+  },
+  {
+    "desc": "San Pancrazio Chiesa",
+    "code": "MO474",
+    "islast": false
+  },
+  {
+    "desc": "Villanova scuole",
+    "code": "MO1002",
+    "islast": false
+  },
+  {
+    "desc": "Villanova centro",
+    "code": "MO16",
+    "islast": true
+  }
+]

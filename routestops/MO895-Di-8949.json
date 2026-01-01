@@ -1,0 +1,22 @@
+[
+  {
+    "desc": "Pavullo autostazione",
+    "code": "MO1381",
+    "islast": false
+  },
+  {
+    "desc": "Mascagni bv Toscanini",
+    "code": "MO1599",
+    "islast": false
+  },
+  {
+    "desc": "Budria",
+    "code": "MO1821",
+    "islast": false
+  },
+  {
+    "desc": "Turati",
+    "code": "MO1658",
+    "islast": true
+  }
+]

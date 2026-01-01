@@ -1,0 +1,57 @@
+[
+  {
+    "desc": "Pavullo scuole",
+    "code": "MO1352",
+    "islast": false
+  },
+  {
+    "desc": "Pavullo autostazione",
+    "code": "MO1381",
+    "islast": false
+  },
+  {
+    "desc": "Mascagni bv Toscanini",
+    "code": "MO1599",
+    "islast": false
+  },
+  {
+    "desc": "La Sbrugna",
+    "code": "MO3991",
+    "islast": false
+  },
+  {
+    "desc": "Mediana",
+    "code": "MO3760",
+    "islast": false
+  },
+  {
+    "desc": "Verdi",
+    "code": "MO1641",
+    "islast": false
+  },
+  {
+    "desc": "Bellini",
+    "code": "MO1639",
+    "islast": false
+  },
+  {
+    "desc": "22 Aprile",
+    "code": "MO1820",
+    "islast": false
+  },
+  {
+    "desc": "22 Aprile bv Manzoni",
+    "code": "MO1673",
+    "islast": false
+  },
+  {
+    "desc": "Monti",
+    "code": "MO1851",
+    "islast": false
+  },
+  {
+    "desc": "Mazzini",
+    "code": "MO3242",
+    "islast": true
+  }
+]

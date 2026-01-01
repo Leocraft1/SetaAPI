@@ -1,0 +1,247 @@
+[
+  {
+    "desc": "MODENA AUTOSTAZIONE",
+    "code": "MO344",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest bv Autodromo",
+    "code": "MO13",
+    "islast": false
+  },
+  {
+    "desc": "Nazionale per Carpi",
+    "code": "MO3067",
+    "islast": false
+  },
+  {
+    "desc": "Nazionale per Carpi bv Bembo",
+    "code": "MO6869",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Alto",
+    "code": "MO17",
+    "islast": false
+  },
+  {
+    "desc": "San Pancrazio Chiesa",
+    "code": "MO474",
+    "islast": false
+  },
+  {
+    "desc": "Villanova scuole",
+    "code": "MO1002",
+    "islast": false
+  },
+  {
+    "desc": "Villanova",
+    "code": "MO95",
+    "islast": false
+  },
+  {
+    "desc": "Bottega di Mezzo",
+    "code": "MO1004",
+    "islast": false
+  },
+  {
+    "desc": "Villanova Cimitero",
+    "code": "MO1022",
+    "islast": false
+  },
+  {
+    "desc": "Olmaccio",
+    "code": "MO1062",
+    "islast": false
+  },
+  {
+    "desc": "Passo Uccellino",
+    "code": "MO1083",
+    "islast": false
+  },
+  {
+    "desc": "Setti",
+    "code": "MO1111",
+    "islast": false
+  },
+  {
+    "desc": "Bottega Secchia",
+    "code": "MO1118",
+    "islast": false
+  },
+  {
+    "desc": "Secchia",
+    "code": "MO7314",
+    "islast": false
+  },
+  {
+    "desc": "Soliera bv",
+    "code": "MO1119",
+    "islast": false
+  },
+  {
+    "desc": "Caseificio Secchia",
+    "code": "MO1121",
+    "islast": false
+  },
+  {
+    "desc": "Santa Maria",
+    "code": "MO1122",
+    "islast": false
+  },
+  {
+    "desc": "Dotti bv",
+    "code": "MO1123",
+    "islast": false
+  },
+  {
+    "desc": "Sozzigalli",
+    "code": "MO108",
+    "islast": false
+  },
+  {
+    "desc": "Sozzigalli palazzina",
+    "code": "MO1125",
+    "islast": false
+  },
+  {
+    "desc": "Castello",
+    "code": "MO1189",
+    "islast": false
+  },
+  {
+    "desc": "Cortile Calanca",
+    "code": "MO1191",
+    "islast": false
+  },
+  {
+    "desc": "Cortile",
+    "code": "MO115",
+    "islast": false
+  },
+  {
+    "desc": "Mulino Cortile",
+    "code": "MO1220",
+    "islast": false
+  },
+  {
+    "desc": "Cortile scuole",
+    "code": "MO1222",
+    "islast": false
+  },
+  {
+    "desc": "San Martino Secchia bv",
+    "code": "MO1224",
+    "islast": false
+  },
+  {
+    "desc": "Castello Fantini",
+    "code": "MO1225",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Motta",
+    "code": "MO1290",
+    "islast": false
+  },
+  {
+    "desc": "Baraccone",
+    "code": "MO1321",
+    "islast": false
+  },
+  {
+    "desc": "Bisighini bv",
+    "code": "MO124",
+    "islast": false
+  },
+  {
+    "desc": "Voltone 1",
+    "code": "MO3643",
+    "islast": false
+  },
+  {
+    "desc": "Voltone",
+    "code": "MO773",
+    "islast": false
+  },
+  {
+    "desc": "Bellicina",
+    "code": "MO777",
+    "islast": false
+  },
+  {
+    "desc": "Cavezzo Autostazione",
+    "code": "MO490",
+    "islast": false
+  },
+  {
+    "desc": "Cavezzo Istituto Masi",
+    "code": "MO3833",
+    "islast": false
+  },
+  {
+    "desc": "Cavezzo bv",
+    "code": "MO907",
+    "islast": false
+  },
+  {
+    "desc": "Bottega di Mezzo",
+    "code": "MO358",
+    "islast": false
+  },
+  {
+    "desc": "Disvetro",
+    "code": "MO1219",
+    "islast": false
+  },
+  {
+    "desc": "Madonna di Disvetro",
+    "code": "MO1353",
+    "islast": false
+  },
+  {
+    "desc": "Ponte di  Pietra",
+    "code": "MO1282",
+    "islast": false
+  },
+  {
+    "desc": "Don Sturzo",
+    "code": "MO4597",
+    "islast": false
+  },
+  {
+    "desc": "Cappelletta",
+    "code": "MO1422",
+    "islast": false
+  },
+  {
+    "desc": "San Possidonio",
+    "code": "MO2191",
+    "islast": false
+  },
+  {
+    "desc": "Malcantone",
+    "code": "MO1434",
+    "islast": false
+  },
+  {
+    "desc": "Battaglia",
+    "code": "MO1439",
+    "islast": false
+  },
+  {
+    "desc": "Palazzo Taccoli",
+    "code": "MO1441",
+    "islast": false
+  },
+  {
+    "desc": "Concordia centro",
+    "code": "MO512",
+    "islast": false
+  },
+  {
+    "desc": "Concordia",
+    "code": "MO1000",
+    "islast": true
+  }
+]

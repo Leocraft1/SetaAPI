@@ -1,0 +1,107 @@
+[
+  {
+    "desc": "STAZIONE FS",
+    "code": "MO6119",
+    "islast": false
+  },
+  {
+    "desc": "Attiraglio",
+    "code": "MO556",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana scuole",
+    "code": "MO2625",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana bv Cuboni",
+    "code": "MO2627",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana bv Crocetta",
+    "code": "MO2629",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana",
+    "code": "MO143",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana Torrenova",
+    "code": "MO2616",
+    "islast": false
+  },
+  {
+    "desc": "Mar Tirreno bv Mar Nero",
+    "code": "MO2862",
+    "islast": false
+  },
+  {
+    "desc": "Mar Tirreno asilo",
+    "code": "MO187",
+    "islast": false
+  },
+  {
+    "desc": "Santa Caterina bv Mar Tirreno",
+    "code": "MO1718",
+    "islast": false
+  },
+  {
+    "desc": "Santa Caterina",
+    "code": "MO2846",
+    "islast": false
+  },
+  {
+    "desc": "Santa Caterina bv Montefiorino",
+    "code": "MO183",
+    "islast": false
+  },
+  {
+    "desc": "Malavolti",
+    "code": "MO557",
+    "islast": false
+  },
+  {
+    "desc": "Malavolti CNA",
+    "code": "MO7201",
+    "islast": false
+  },
+  {
+    "desc": "Malavolti 1",
+    "code": "MO2689",
+    "islast": false
+  },
+  {
+    "desc": "Dalton",
+    "code": "MO6879",
+    "islast": false
+  },
+  {
+    "desc": "Santa Caterina bv Montefiorino",
+    "code": "MO182",
+    "islast": false
+  },
+  {
+    "desc": "Montefiorino 1",
+    "code": "MO3811",
+    "islast": false
+  },
+  {
+    "desc": "Montefiorino",
+    "code": "MO78",
+    "islast": false
+  },
+  {
+    "desc": "Montefiorino bv dell'Ossola",
+    "code": "MO6225",
+    "islast": false
+  },
+  {
+    "desc": "Cap. MONTEFIORINO",
+    "code": "MO3799",
+    "islast": true
+  }
+]

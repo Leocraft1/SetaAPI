@@ -1,0 +1,162 @@
+[
+  {
+    "desc": "Vignola Autostazione",
+    "code": "MO4508",
+    "islast": false
+  },
+  {
+    "desc": "La Vigna",
+    "code": "MO2410",
+    "islast": false
+  },
+  {
+    "desc": "Il Gessiere",
+    "code": "MO4608",
+    "islast": false
+  },
+  {
+    "desc": "Barozzi scuola",
+    "code": "MO4603",
+    "islast": false
+  },
+  {
+    "desc": "Vignola Centro",
+    "code": "MO4601",
+    "islast": false
+  },
+  {
+    "desc": "Formica",
+    "code": "MO1203",
+    "islast": false
+  },
+  {
+    "desc": "Zocca bv",
+    "code": "MO1210",
+    "islast": false
+  },
+  {
+    "desc": "Campiglio bv",
+    "code": "MO2216",
+    "islast": false
+  },
+  {
+    "desc": "Casa Bighini",
+    "code": "MO2214",
+    "islast": false
+  },
+  {
+    "desc": "Doccia",
+    "code": "MO4101",
+    "islast": false
+  },
+  {
+    "desc": "Savignano sul Panaro",
+    "code": "MO4100",
+    "islast": false
+  },
+  {
+    "desc": "Savignano Trattoria",
+    "code": "MO4102",
+    "islast": false
+  },
+  {
+    "desc": "Savignano Mulino",
+    "code": "MO1076",
+    "islast": false
+  },
+  {
+    "desc": "Bazzano confine",
+    "code": "MO2067",
+    "islast": false
+  },
+  {
+    "desc": "Industriale Bazzano",
+    "code": "MO5698",
+    "islast": false
+  },
+  {
+    "desc": "Magazzino bv",
+    "code": "MO5700",
+    "islast": false
+  },
+  {
+    "desc": "Bazzano zuccherificio",
+    "code": "MO5699",
+    "islast": false
+  },
+  {
+    "desc": "California",
+    "code": "MO1824",
+    "islast": false
+  },
+  {
+    "desc": "Piumazzo stazione",
+    "code": "MO1788",
+    "islast": false
+  },
+  {
+    "desc": "Torrazzo",
+    "code": "MO927",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Fiume",
+    "code": "MO1786",
+    "islast": false
+  },
+  {
+    "desc": "San Cesario Case Nuove",
+    "code": "MO1785",
+    "islast": false
+  },
+  {
+    "desc": "San Cesario scuole",
+    "code": "MO3603",
+    "islast": false
+  },
+  {
+    "desc": "Stazione Bar",
+    "code": "MO3601",
+    "islast": false
+  },
+  {
+    "desc": "San Cesario",
+    "code": "MO3600",
+    "islast": false
+  },
+  {
+    "desc": "Cavalcavia",
+    "code": "MO1394",
+    "islast": false
+  },
+  {
+    "desc": "Cabina",
+    "code": "MO1393",
+    "islast": false
+  },
+  {
+    "desc": "Beccastecca",
+    "code": "MO1392",
+    "islast": false
+  },
+  {
+    "desc": "Loda",
+    "code": "MO7040",
+    "islast": false
+  },
+  {
+    "desc": "Centro commerciale",
+    "code": "MO1391",
+    "islast": false
+  },
+  {
+    "desc": "Castelfranco teatro",
+    "code": "MO1467",
+    "islast": false
+  },
+  {
+    "desc": "Castelfranco FS",
+    "code": "MO491",
+    "islast": true
+  }
+]

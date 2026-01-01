@@ -1,0 +1,97 @@
+[
+  {
+    "desc": "Ponte Samone",
+    "code": "MO2440",
+    "islast": false
+  },
+  {
+    "desc": "Casolare",
+    "code": "MO1956",
+    "islast": false
+  },
+  {
+    "desc": "Verica casa cantoniera",
+    "code": "MO1955",
+    "islast": false
+  },
+  {
+    "desc": "Ristorante Martino",
+    "code": "MO1938",
+    "islast": false
+  },
+  {
+    "desc": "Lido Panaro",
+    "code": "MO1941",
+    "islast": false
+  },
+  {
+    "desc": "Chiozzo",
+    "code": "MO1943",
+    "islast": false
+  },
+  {
+    "desc": "Il Frantoio",
+    "code": "MO1951",
+    "islast": false
+  },
+  {
+    "desc": "La Borra",
+    "code": "MO1952",
+    "islast": false
+  },
+  {
+    "desc": "Baita Panaro",
+    "code": "MO1953",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Scoltenna",
+    "code": "MO2089",
+    "islast": false
+  },
+  {
+    "desc": "Cartiera",
+    "code": "MO2085",
+    "islast": false
+  },
+  {
+    "desc": "Casa Mazzini",
+    "code": "MO2084",
+    "islast": false
+  },
+  {
+    "desc": "Ca' Ivo",
+    "code": "MO2083",
+    "islast": false
+  },
+  {
+    "desc": "Rocchetta Sandri bv",
+    "code": "MO2079",
+    "islast": false
+  },
+  {
+    "desc": "Casa Pilino",
+    "code": "MO2081",
+    "islast": false
+  },
+  {
+    "desc": "Santa Croce",
+    "code": "MO2088",
+    "islast": false
+  },
+  {
+    "desc": "Fanano zona artigianale",
+    "code": "MO581",
+    "islast": false
+  },
+  {
+    "desc": "Ospitale bv",
+    "code": "MO2087",
+    "islast": false
+  },
+  {
+    "desc": "Fanano",
+    "code": "MO1100",
+    "islast": true
+  }
+]

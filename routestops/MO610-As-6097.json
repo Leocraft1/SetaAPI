@@ -1,0 +1,277 @@
+[
+  {
+    "desc": "Sassuolo Terminal",
+    "code": "MO4000",
+    "islast": false
+  },
+  {
+    "desc": "Stazione Sassuolo Radici",
+    "code": "MO2388",
+    "islast": false
+  },
+  {
+    "desc": "Radici in Monte bv Magenta",
+    "code": "MO779",
+    "islast": false
+  },
+  {
+    "desc": "_",
+    "code": "MOG2",
+    "islast": false
+  },
+  {
+    "desc": "_",
+    "code": "MOG6",
+    "islast": false
+  },
+  {
+    "desc": "VILLALUNGA - STAZIONE",
+    "code": "MORE396539",
+    "islast": false
+  },
+  {
+    "desc": "Veggia",
+    "code": "MO3489",
+    "islast": false
+  },
+  {
+    "desc": "Veggia ceramica",
+    "code": "MO974",
+    "islast": false
+  },
+  {
+    "desc": "Tressano fornace",
+    "code": "MO975",
+    "islast": false
+  },
+  {
+    "desc": "Tressano",
+    "code": "MO3508",
+    "islast": false
+  },
+  {
+    "desc": "Villaggio",
+    "code": "MO1939",
+    "islast": false
+  },
+  {
+    "desc": "Castellarano",
+    "code": "MO3504",
+    "islast": false
+  },
+  {
+    "desc": "Villabianca",
+    "code": "MO3502",
+    "islast": false
+  },
+  {
+    "desc": "Cavriana",
+    "code": "MO3501",
+    "islast": false
+  },
+  {
+    "desc": "Casa Nuova",
+    "code": "MO1873",
+    "islast": false
+  },
+  {
+    "desc": "Roteglia cimitero",
+    "code": "MO1863",
+    "islast": false
+  },
+  {
+    "desc": "Roteglia",
+    "code": "MO3497",
+    "islast": false
+  },
+  {
+    "desc": "Bora",
+    "code": "MO3495",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Lucenta",
+    "code": "MO1862",
+    "islast": false
+  },
+  {
+    "desc": "La Pesa",
+    "code": "MO3499",
+    "islast": false
+  },
+  {
+    "desc": "Muraglione",
+    "code": "MO3503",
+    "islast": false
+  },
+  {
+    "desc": "Poggio del Bue",
+    "code": "MO3505",
+    "islast": false
+  },
+  {
+    "desc": "Casa Geti",
+    "code": "MO3507",
+    "islast": false
+  },
+  {
+    "desc": "Lugo",
+    "code": "MO2064",
+    "islast": false
+  },
+  {
+    "desc": "La Volta",
+    "code": "MO1128",
+    "islast": false
+  },
+  {
+    "desc": "Saltino poste",
+    "code": "MO2249",
+    "islast": false
+  },
+  {
+    "desc": "Saltino",
+    "code": "MO2250",
+    "islast": false
+  },
+  {
+    "desc": "Casa Aloia",
+    "code": "MO2252",
+    "islast": false
+  },
+  {
+    "desc": "La Curva",
+    "code": "MO2253",
+    "islast": false
+  },
+  {
+    "desc": "Pugnago",
+    "code": "MO2254",
+    "islast": false
+  },
+  {
+    "desc": "Ca' De Villa",
+    "code": "MO2255",
+    "islast": false
+  },
+  {
+    "desc": "Croce di Monchio",
+    "code": "MO2256",
+    "islast": false
+  },
+  {
+    "desc": "Le Piane",
+    "code": "MO2257",
+    "islast": false
+  },
+  {
+    "desc": "Monchio bv XXV Aprile",
+    "code": "MO3830",
+    "islast": false
+  },
+  {
+    "desc": "Casa Ponci",
+    "code": "MO2258",
+    "islast": false
+  },
+  {
+    "desc": "Monchio",
+    "code": "MO2260",
+    "islast": false
+  },
+  {
+    "desc": "Casa Sistoni",
+    "code": "MO2262",
+    "islast": false
+  },
+  {
+    "desc": "San Martino bv",
+    "code": "MO2264",
+    "islast": false
+  },
+  {
+    "desc": "Mulino Lama",
+    "code": "MO2266",
+    "islast": false
+  },
+  {
+    "desc": "Lama di Monchio",
+    "code": "MO2270",
+    "islast": false
+  },
+  {
+    "desc": "Case Popolari",
+    "code": "MO2272",
+    "islast": false
+  },
+  {
+    "desc": "Casa Badoglio",
+    "code": "MO2274",
+    "islast": false
+  },
+  {
+    "desc": "Costrignano coop",
+    "code": "MO2941",
+    "islast": false
+  },
+  {
+    "desc": "Casa Barbati",
+    "code": "MO2945",
+    "islast": false
+  },
+  {
+    "desc": "Costrignano",
+    "code": "MO2939",
+    "islast": false
+  },
+  {
+    "desc": "La Buca Susano",
+    "code": "MO2943",
+    "islast": false
+  },
+  {
+    "desc": "Susano",
+    "code": "MO2942",
+    "islast": false
+  },
+  {
+    "desc": "Stradello Fontana",
+    "code": "MO2938",
+    "islast": false
+  },
+  {
+    "desc": "Savoniero",
+    "code": "MO2930",
+    "islast": false
+  },
+  {
+    "desc": "Savoniero bv",
+    "code": "MO1533",
+    "islast": false
+  },
+  {
+    "desc": "Fornace Savoniero",
+    "code": "MO1535",
+    "islast": false
+  },
+  {
+    "desc": "Casa Lenzotti",
+    "code": "MO1537",
+    "islast": false
+  },
+  {
+    "desc": "La Preda",
+    "code": "MO1541",
+    "islast": false
+  },
+  {
+    "desc": "Casa Bernini",
+    "code": "MO1542",
+    "islast": false
+  },
+  {
+    "desc": "Palagano",
+    "code": "MO1507",
+    "islast": true
+  }
+]

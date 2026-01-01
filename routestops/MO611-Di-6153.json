@@ -1,0 +1,67 @@
+[
+  {
+    "desc": "Palagano",
+    "code": "MO1507",
+    "islast": false
+  },
+  {
+    "desc": "Palagano Municipio",
+    "code": "MO1521",
+    "islast": false
+  },
+  {
+    "desc": "Pianacci",
+    "code": "MO1724",
+    "islast": false
+  },
+  {
+    "desc": "La Ferrara",
+    "code": "MO1725",
+    "islast": false
+  },
+  {
+    "desc": "Raggiola",
+    "code": "MO1726",
+    "islast": false
+  },
+  {
+    "desc": "Le Lame",
+    "code": "MO1727",
+    "islast": false
+  },
+  {
+    "desc": "Macinelle",
+    "code": "MO1728",
+    "islast": false
+  },
+  {
+    "desc": "Case Rosse",
+    "code": "MO1729",
+    "islast": false
+  },
+  {
+    "desc": "Boccassuolo",
+    "code": "MO1731",
+    "islast": false
+  },
+  {
+    "desc": "Casa Mingucci",
+    "code": "MO1996",
+    "islast": false
+  },
+  {
+    "desc": "Castellano Boccasuolo",
+    "code": "MO1997",
+    "islast": false
+  },
+  {
+    "desc": "Sassorosso bv",
+    "code": "MO1998",
+    "islast": false
+  },
+  {
+    "desc": "Casa Guiglia",
+    "code": "MO1999",
+    "islast": true
+  }
+]

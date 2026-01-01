@@ -1,0 +1,217 @@
+[
+  {
+    "desc": "SANT'ANNA CAPOLINEA",
+    "code": "MO6910",
+    "islast": false
+  },
+  {
+    "desc": "Sant'Anna bv Suore",
+    "code": "MO3147",
+    "islast": false
+  },
+  {
+    "desc": "SAN CATALDO CIMITERO",
+    "code": "MO3095",
+    "islast": false
+  },
+  {
+    "desc": "Nazionale per Carpi bv Bembo",
+    "code": "MO3097",
+    "islast": false
+  },
+  {
+    "desc": "Nazionale per Carpi",
+    "code": "MO6830",
+    "islast": false
+  },
+  {
+    "desc": "San Cataldo",
+    "code": "MO6811",
+    "islast": false
+  },
+  {
+    "desc": "Costa  sottopasso cimitero",
+    "code": "MO6809",
+    "islast": false
+  },
+  {
+    "desc": "Costa bv Corradini",
+    "code": "MO6807",
+    "islast": false
+  },
+  {
+    "desc": "Paolo Ruffini",
+    "code": "MO6805",
+    "islast": false
+  },
+  {
+    "desc": "Galaverna",
+    "code": "MO6871",
+    "islast": false
+  },
+  {
+    "desc": "Storchi Cialdini",
+    "code": "MO6803",
+    "islast": false
+  },
+  {
+    "desc": "Storchi Sacro Cuore",
+    "code": "MO6801",
+    "islast": false
+  },
+  {
+    "desc": "MODENA  AUTOSTAZIONE",
+    "code": "MO6121",
+    "islast": false
+  },
+  {
+    "desc": "Ospedale Estense",
+    "code": "MO6173",
+    "islast": false
+  },
+  {
+    "desc": "Vittorio Veneto bv Trombi",
+    "code": "MO6171",
+    "islast": false
+  },
+  {
+    "desc": "Risorgimento",
+    "code": "MO20",
+    "islast": false
+  },
+  {
+    "desc": "Rimembranze bv Canalchiaro",
+    "code": "MO6166",
+    "islast": false
+  },
+  {
+    "desc": "Rimembranze bv Selmi",
+    "code": "MO6165",
+    "islast": false
+  },
+  {
+    "desc": "Rimembranze ex Questura",
+    "code": "MO42",
+    "islast": false
+  },
+  {
+    "desc": "Prefettura",
+    "code": "MO6156",
+    "islast": false
+  },
+  {
+    "desc": "GARIBALDI",
+    "code": "MO5111",
+    "islast": false
+  },
+  {
+    "desc": "Trento Trieste",
+    "code": "MO6401",
+    "islast": false
+  },
+  {
+    "desc": "Moreali bv Sabatini",
+    "code": "MO6402",
+    "islast": false
+  },
+  {
+    "desc": "Moreali bv Valdrighi",
+    "code": "MO6403",
+    "islast": false
+  },
+  {
+    "desc": "Moreali bv Dei Bononcini",
+    "code": "MO6411",
+    "islast": false
+  },
+  {
+    "desc": "Moreali bv Cucchiari",
+    "code": "MO6409",
+    "islast": false
+  },
+  {
+    "desc": "Marzabotto",
+    "code": "MO6408",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese bv La Spezia",
+    "code": "MO1364",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese Punta",
+    "code": "MO6433",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese bv Campi",
+    "code": "MO2739",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese Universita",
+    "code": "MO1362",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese bv Saluzzo",
+    "code": "MO6439",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese Istituto",
+    "code": "MO1360",
+    "islast": false
+  },
+  {
+    "desc": "Patriarca",
+    "code": "MO231",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese bv Barchessa",
+    "code": "MO6447",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese la Fornace",
+    "code": "MO6449",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese bv Bacelliera",
+    "code": "MO6451",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese Enel",
+    "code": "MO6453",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese la Fenice",
+    "code": "MO6455",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese bv San Damaso",
+    "code": "MO6460",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese bv degli Alpini",
+    "code": "MO6465",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese bv del Mulino",
+    "code": "MO6466",
+    "islast": false
+  },
+  {
+    "desc": "SAN DONNINO",
+    "code": "MO675",
+    "islast": true
+  }
+]

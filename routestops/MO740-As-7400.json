@@ -1,0 +1,92 @@
+[
+  {
+    "desc": "Vignola Autostazione",
+    "code": "MO4506",
+    "islast": false
+  },
+  {
+    "desc": "La Vigna",
+    "code": "MO2410",
+    "islast": false
+  },
+  {
+    "desc": "Campiglio bv",
+    "code": "MO2402",
+    "islast": false
+  },
+  {
+    "desc": "Due Ponti",
+    "code": "MO2399",
+    "islast": false
+  },
+  {
+    "desc": "San Pietro",
+    "code": "MO2398",
+    "islast": false
+  },
+  {
+    "desc": "Ca' Molza",
+    "code": "MO2397",
+    "islast": false
+  },
+  {
+    "desc": "Gatta",
+    "code": "MO365",
+    "islast": false
+  },
+  {
+    "desc": "Palona",
+    "code": "MO363",
+    "islast": false
+  },
+  {
+    "desc": "Giardino",
+    "code": "MO361",
+    "islast": false
+  },
+  {
+    "desc": "Castelvetro",
+    "code": "MO800",
+    "islast": false
+  },
+  {
+    "desc": "Chierichina",
+    "code": "MO359",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Legno",
+    "code": "MO1073",
+    "islast": false
+  },
+  {
+    "desc": "Fornace Cavallini",
+    "code": "MO1071",
+    "islast": false
+  },
+  {
+    "desc": "Bell'Italia",
+    "code": "MO1069",
+    "islast": false
+  },
+  {
+    "desc": "Serra di Levizzano",
+    "code": "MO1068",
+    "islast": false
+  },
+  {
+    "desc": "Laghetto",
+    "code": "MO1067",
+    "islast": false
+  },
+  {
+    "desc": "Casa Duchi",
+    "code": "MO1065",
+    "islast": false
+  },
+  {
+    "desc": "Levizzano",
+    "code": "MO2568",
+    "islast": true
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "desc": "Torrazzo",
+    "code": "MO1790",
+    "islast": false
+  },
+  {
+    "desc": "Piumazzo stazione",
+    "code": "MO925",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Rosso",
+    "code": "MO941",
+    "islast": false
+  },
+  {
+    "desc": "Altola'",
+    "code": "MO695",
+    "islast": false
+  },
+  {
+    "desc": "Spilamberto",
+    "code": "MO4500",
+    "islast": false
+  },
+  {
+    "desc": "San Pellegrino",
+    "code": "MO1098",
+    "islast": false
+  },
+  {
+    "desc": "Sitma",
+    "code": "MO2702",
+    "islast": false
+  },
+  {
+    "desc": "Confine",
+    "code": "MO1103",
+    "islast": false
+  },
+  {
+    "desc": "Centro commerciale",
+    "code": "MO3263",
+    "islast": false
+  },
+  {
+    "desc": "Brodano",
+    "code": "MO2409",
+    "islast": false
+  },
+  {
+    "desc": "Ponte ferrovia",
+    "code": "MO2407",
+    "islast": false
+  },
+  {
+    "desc": "Ospedale Vignola ",
+    "code": "MO2406",
+    "islast": false
+  },
+  {
+    "desc": "Vignola FS",
+    "code": "MO3735",
+    "islast": false
+  },
+  {
+    "desc": "Vignola Centro",
+    "code": "MO1205",
+    "islast": false
+  },
+  {
+    "desc": "Barozzi scuola",
+    "code": "MO2403",
+    "islast": false
+  },
+  {
+    "desc": "Il Gessiere",
+    "code": "MO2404",
+    "islast": false
+  },
+  {
+    "desc": "La Vigna",
+    "code": "MO4616",
+    "islast": false
+  },
+  {
+    "desc": "Vignola Autostazione",
+    "code": "MO4508",
+    "islast": true
+  }
+]

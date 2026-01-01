@@ -1,0 +1,47 @@
+[
+  {
+    "desc": "Pievepelago Autostazione",
+    "code": "MO3104",
+    "islast": false
+  },
+  {
+    "desc": "Pievepelago",
+    "code": "MO1714",
+    "islast": false
+  },
+  {
+    "desc": "Pievepelago scuole",
+    "code": "MO1717",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Battistella",
+    "code": "MO2168",
+    "islast": false
+  },
+  {
+    "desc": "Bucaneve",
+    "code": "MO2169",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Modino",
+    "code": "MO2170",
+    "islast": false
+  },
+  {
+    "desc": "Le Lazze",
+    "code": "MO2172",
+    "islast": false
+  },
+  {
+    "desc": "Passo San Michele",
+    "code": "MO2171",
+    "islast": false
+  },
+  {
+    "desc": "Fiumalbo",
+    "code": "MO689",
+    "islast": true
+  }
+]

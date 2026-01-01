@@ -1,0 +1,132 @@
+[
+  {
+    "desc": "Vaciglio Nord",
+    "code": "MO3571",
+    "islast": false
+  },
+  {
+    "desc": "Vaciglio bv Oristano",
+    "code": "MO2913",
+    "islast": false
+  },
+  {
+    "desc": "Vaciglio bv Nuoro",
+    "code": "MO6432",
+    "islast": false
+  },
+  {
+    "desc": "Vaciglio bv Viterbo",
+    "code": "MO6478",
+    "islast": false
+  },
+  {
+    "desc": "Vaciglio Sacra Famiglia",
+    "code": "MO2735",
+    "islast": false
+  },
+  {
+    "desc": "Vaciglio bv Boccabati",
+    "code": "MO2787",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese bv Campi",
+    "code": "MO6435",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese Punta",
+    "code": "MO2738",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese bv La Spezia",
+    "code": "MO673",
+    "islast": false
+  },
+  {
+    "desc": "Marzabotto",
+    "code": "MO2724",
+    "islast": false
+  },
+  {
+    "desc": "Moreali bv Cucchiari",
+    "code": "MO2725",
+    "islast": false
+  },
+  {
+    "desc": "Moreali bv Dei Bononcini",
+    "code": "MO2726",
+    "islast": false
+  },
+  {
+    "desc": "Moreali bv Valdrighi",
+    "code": "MO2722",
+    "islast": false
+  },
+  {
+    "desc": "Moreali bv Sabatini",
+    "code": "MO2721",
+    "islast": false
+  },
+  {
+    "desc": "Trento Trieste",
+    "code": "MO2719",
+    "islast": false
+  },
+  {
+    "desc": "GARIBALDI",
+    "code": "MO5900",
+    "islast": false
+  },
+  {
+    "desc": "Caduti in guerra",
+    "code": "MO2589",
+    "islast": false
+  },
+  {
+    "desc": "Caduti in guerra orto botanico",
+    "code": "MO2596",
+    "islast": false
+  },
+  {
+    "desc": "Caduti in guerra giardini",
+    "code": "MO2611",
+    "islast": false
+  },
+  {
+    "desc": "Caduti in guerra Tempio",
+    "code": "MO2587",
+    "islast": false
+  },
+  {
+    "desc": "STAZIONE FS",
+    "code": "MO6133",
+    "islast": false
+  },
+  {
+    "desc": "Monte Kosica bv Ganaceto",
+    "code": "MO2575",
+    "islast": false
+  },
+  {
+    "desc": "Fontanelli",
+    "code": "MO2574",
+    "islast": false
+  },
+  {
+    "desc": "Berengario Universita",
+    "code": "MO2573",
+    "islast": false
+  },
+  {
+    "desc": "Ospedale Sant'Agostino",
+    "code": "MO2572",
+    "islast": false
+  },
+  {
+    "desc": "MODENA  AUTOSTAZIONE",
+    "code": "MO5003",
+    "islast": true
+  }
+]

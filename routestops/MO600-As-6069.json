@@ -1,0 +1,262 @@
+[
+  {
+    "desc": "Piandelagotti",
+    "code": "MO3710",
+    "islast": false
+  },
+  {
+    "desc": "Piane",
+    "code": "MO3708",
+    "islast": false
+  },
+  {
+    "desc": "Sermighino bv",
+    "code": "MO3706",
+    "islast": false
+  },
+  {
+    "desc": "Caseificio",
+    "code": "MO3705",
+    "islast": false
+  },
+  {
+    "desc": "Casa della Russa",
+    "code": "MO3704",
+    "islast": false
+  },
+  {
+    "desc": "Canalaccia",
+    "code": "MO3702",
+    "islast": false
+  },
+  {
+    "desc": "Raggia",
+    "code": "MO3460",
+    "islast": false
+  },
+  {
+    "desc": "Casa Rurale",
+    "code": "MO3452",
+    "islast": false
+  },
+  {
+    "desc": "Pietravolta",
+    "code": "MO3450",
+    "islast": false
+  },
+  {
+    "desc": "Monte Vecchio",
+    "code": "MO3448",
+    "islast": false
+  },
+  {
+    "desc": "Monte Nuovo",
+    "code": "MO3446",
+    "islast": false
+  },
+  {
+    "desc": "bv Gronda del mare",
+    "code": "MO3789",
+    "islast": false
+  },
+  {
+    "desc": "Ca' di Giannasi",
+    "code": "MO3050",
+    "islast": false
+  },
+  {
+    "desc": "Frassinoro ex scuole",
+    "code": "MO1601",
+    "islast": false
+  },
+  {
+    "desc": "Frassinoro",
+    "code": "MO1600",
+    "islast": false
+  },
+  {
+    "desc": "Tennis bar",
+    "code": "MO1602",
+    "islast": false
+  },
+  {
+    "desc": "Aradonica",
+    "code": "MO3098",
+    "islast": false
+  },
+  {
+    "desc": "Rimessa",
+    "code": "MO3096",
+    "islast": false
+  },
+  {
+    "desc": "Tolara",
+    "code": "MO3094",
+    "islast": false
+  },
+  {
+    "desc": "La Serra",
+    "code": "MO3092",
+    "islast": false
+  },
+  {
+    "desc": "Serradimigni",
+    "code": "MO3090",
+    "islast": false
+  },
+  {
+    "desc": "Lavacchio",
+    "code": "MO2974",
+    "islast": false
+  },
+  {
+    "desc": "Campo Cardero",
+    "code": "MO2972",
+    "islast": false
+  },
+  {
+    "desc": "La Verna",
+    "code": "MO2970",
+    "islast": false
+  },
+  {
+    "desc": "Casa Bocchi",
+    "code": "MO2968",
+    "islast": false
+  },
+  {
+    "desc": "Traghetti",
+    "code": "MO2966",
+    "islast": false
+  },
+  {
+    "desc": "Casa Gigli",
+    "code": "MO2964",
+    "islast": false
+  },
+  {
+    "desc": "Pianellino",
+    "code": "MO2962",
+    "islast": false
+  },
+  {
+    "desc": "Montefiorino",
+    "code": "MO2500",
+    "islast": false
+  },
+  {
+    "desc": "USL",
+    "code": "MO1361",
+    "islast": false
+  },
+  {
+    "desc": "Caribe",
+    "code": "MO1562",
+    "islast": false
+  },
+  {
+    "desc": "Casa Volpe",
+    "code": "MO3638",
+    "islast": false
+  },
+  {
+    "desc": "Casa Monte",
+    "code": "MO1549",
+    "islast": false
+  },
+  {
+    "desc": "Vitriola bv",
+    "code": "MO1522",
+    "islast": false
+  },
+  {
+    "desc": "Vitriola",
+    "code": "MO1523",
+    "islast": false
+  },
+  {
+    "desc": "Vitriola",
+    "code": "MO2920",
+    "islast": false
+  },
+  {
+    "desc": "Vitriola bv",
+    "code": "MO2910",
+    "islast": false
+  },
+  {
+    "desc": "Boschi",
+    "code": "MO2836",
+    "islast": false
+  },
+  {
+    "desc": "Casa Sabatini",
+    "code": "MO2838",
+    "islast": false
+  },
+  {
+    "desc": "Chilometro 39 e 800",
+    "code": "MO2840",
+    "islast": false
+  },
+  {
+    "desc": "Rubbiano bv",
+    "code": "MO2850",
+    "islast": false
+  },
+  {
+    "desc": "Case Nuove",
+    "code": "MO2834",
+    "islast": false
+  },
+  {
+    "desc": "Montestefano",
+    "code": "MO2833",
+    "islast": false
+  },
+  {
+    "desc": "Casa Quaranta",
+    "code": "MO2832",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Dolo",
+    "code": "MO2830",
+    "islast": false
+  },
+  {
+    "desc": "Le Buche",
+    "code": "MO2059",
+    "islast": false
+  },
+  {
+    "desc": "Ca' Cerredolo",
+    "code": "MO2069",
+    "islast": false
+  },
+  {
+    "desc": "Cerredolo",
+    "code": "MO1839",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Secchia",
+    "code": "MO2242",
+    "islast": false
+  },
+  {
+    "desc": "Poggio del Bue",
+    "code": "MO2062",
+    "islast": false
+  },
+  {
+    "desc": "Muraglione",
+    "code": "MO2063",
+    "islast": false
+  },
+  {
+    "desc": "La Pesa",
+    "code": "MO2065",
+    "islast": true
+  }
+]

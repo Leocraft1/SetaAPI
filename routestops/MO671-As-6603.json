@@ -1,0 +1,122 @@
+[
+  {
+    "desc": "Fiorano Modenese",
+    "code": "MO4010",
+    "islast": false
+  },
+  {
+    "desc": "Case Nuove",
+    "code": "MO1608",
+    "islast": false
+  },
+  {
+    "desc": "La Corona",
+    "code": "MO1610",
+    "islast": false
+  },
+  {
+    "desc": "Spezzano Crociale",
+    "code": "MO1612",
+    "islast": false
+  },
+  {
+    "desc": "Spezzano",
+    "code": "MO1620",
+    "islast": false
+  },
+  {
+    "desc": "Spezzano scuole",
+    "code": "MO1630",
+    "islast": false
+  },
+  {
+    "desc": "Borgo",
+    "code": "MO1632",
+    "islast": false
+  },
+  {
+    "desc": "Villa Vicini",
+    "code": "MO1634",
+    "islast": false
+  },
+  {
+    "desc": "Viazza",
+    "code": "MO1637",
+    "islast": false
+  },
+  {
+    "desc": "Ubersetto",
+    "code": "MO1640",
+    "islast": false
+  },
+  {
+    "desc": "Picchio Rosso",
+    "code": "MO825",
+    "islast": false
+  },
+  {
+    "desc": "Lar",
+    "code": "MO778",
+    "islast": false
+  },
+  {
+    "desc": "Formigine",
+    "code": "MO735",
+    "islast": false
+  },
+  {
+    "desc": "Molinella",
+    "code": "MO1502",
+    "islast": false
+  },
+  {
+    "desc": "Formigine cartiera",
+    "code": "MO1504",
+    "islast": false
+  },
+  {
+    "desc": "Casinalbo",
+    "code": "MO1530",
+    "islast": false
+  },
+  {
+    "desc": "La Bertola",
+    "code": "MO1428",
+    "islast": false
+  },
+  {
+    "desc": "Baggiovara 1",
+    "code": "MO1480",
+    "islast": false
+  },
+  {
+    "desc": "POLO LEONARDO 1",
+    "code": "MO2928",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Guarini",
+    "code": "MO2887",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Cattaneo",
+    "code": "MO2885",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Fermi",
+    "code": "MO6720",
+    "islast": false
+  },
+  {
+    "desc": "Barozzi Planetario",
+    "code": "MO6700",
+    "islast": false
+  },
+  {
+    "desc": "MODENA AUTOSTAZIONE",
+    "code": "MO342",
+    "islast": true
+  }
+]

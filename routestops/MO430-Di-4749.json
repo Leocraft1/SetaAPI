@@ -1,0 +1,112 @@
+[
+  {
+    "desc": "Mirandola Terminal",
+    "code": "MO3971",
+    "islast": false
+  },
+  {
+    "desc": "Barozzi scuole",
+    "code": "MO2202",
+    "islast": false
+  },
+  {
+    "desc": "Mirandola ex scuole",
+    "code": "MO1186",
+    "islast": false
+  },
+  {
+    "desc": "La Picca",
+    "code": "MO537",
+    "islast": false
+  },
+  {
+    "desc": "Case Quattro Frati",
+    "code": "MO535",
+    "islast": false
+  },
+  {
+    "desc": "Il Fiasco",
+    "code": "MO541",
+    "islast": false
+  },
+  {
+    "desc": "Mortizzuolo",
+    "code": "MO1070",
+    "islast": false
+  },
+  {
+    "desc": "Mortizzuolo",
+    "code": "MO539",
+    "islast": false
+  },
+  {
+    "desc": "Camil",
+    "code": "MO286",
+    "islast": false
+  },
+  {
+    "desc": "Ponte San Pellegrino",
+    "code": "MO285",
+    "islast": false
+  },
+  {
+    "desc": "Confine",
+    "code": "MO284",
+    "islast": false
+  },
+  {
+    "desc": "Pavignane",
+    "code": "MO4298",
+    "islast": false
+  },
+  {
+    "desc": "Pavignane",
+    "code": "MO283",
+    "islast": false
+  },
+  {
+    "desc": "Barbieri",
+    "code": "MO1114",
+    "islast": false
+  },
+  {
+    "desc": "Massa Finalese",
+    "code": "MO586",
+    "islast": false
+  },
+  {
+    "desc": "Marsala",
+    "code": "MO587",
+    "islast": false
+  },
+  {
+    "desc": "Canalazzo",
+    "code": "MO589",
+    "islast": false
+  },
+  {
+    "desc": "Canaletto",
+    "code": "MO591",
+    "islast": false
+  },
+  {
+    "desc": "Canaletto scuole",
+    "code": "MO592",
+    "islast": false
+  },
+  {
+    "desc": "Casette",
+    "code": "MO594",
+    "islast": false
+  },
+  {
+    "desc": "Istituto agrario bv",
+    "code": "MO622",
+    "islast": false
+  },
+  {
+    "desc": "Finale Emilia Autostazione",
+    "code": "MO626",
+    "islast": true
+  }
+]

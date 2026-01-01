@@ -1,0 +1,742 @@
+[
+  {
+    "desc": "Casa Rossa",
+    "code": "MOPV345",
+    "islast": false
+  },
+  {
+    "desc": "Coscogno",
+    "code": "MOPV348",
+    "islast": false
+  },
+  {
+    "desc": "Coscogno",
+    "code": "MOPV347",
+    "islast": false
+  },
+  {
+    "desc": "Casa Chiezzi",
+    "code": "MOPV350",
+    "islast": false
+  },
+  {
+    "desc": "Casa Chiezzi",
+    "code": "MOPV349",
+    "islast": false
+  },
+  {
+    "desc": "Coscogno Chiesa",
+    "code": "MOPV352",
+    "islast": false
+  },
+  {
+    "desc": "Coscogno Chiesa",
+    "code": "MOPV351",
+    "islast": false
+  },
+  {
+    "desc": "Coscogno",
+    "code": "MOPV353",
+    "islast": false
+  },
+  {
+    "desc": "Coscogno",
+    "code": "MOPV354",
+    "islast": false
+  },
+  {
+    "desc": "Coscogno1",
+    "code": "MOPV343",
+    "islast": false
+  },
+  {
+    "desc": "Coscogno1",
+    "code": "MOPV344",
+    "islast": false
+  },
+  {
+    "desc": "Casa Marconi",
+    "code": "MOPV356",
+    "islast": false
+  },
+  {
+    "desc": "Casa Marconi",
+    "code": "MOPV355",
+    "islast": false
+  },
+  {
+    "desc": "Ca Golini",
+    "code": "MOPV357",
+    "islast": false
+  },
+  {
+    "desc": "Ca Golini",
+    "code": "MOPV358",
+    "islast": false
+  },
+  {
+    "desc": "Le Coste",
+    "code": "MOPV382",
+    "islast": false
+  },
+  {
+    "desc": "Le Coste",
+    "code": "MOPV381",
+    "islast": false
+  },
+  {
+    "desc": "Casa Golini",
+    "code": "MOPV384",
+    "islast": false
+  },
+  {
+    "desc": "Casa Golini",
+    "code": "MOPV383",
+    "islast": false
+  },
+  {
+    "desc": "La Guardia",
+    "code": "MOPV360",
+    "islast": false
+  },
+  {
+    "desc": "La Guardia",
+    "code": "MOPV359",
+    "islast": false
+  },
+  {
+    "desc": "La Villa",
+    "code": "MOPV361",
+    "islast": false
+  },
+  {
+    "desc": "La Villa",
+    "code": "MOPV362",
+    "islast": false
+  },
+  {
+    "desc": "Casa Schianchi",
+    "code": "MOPV364",
+    "islast": false
+  },
+  {
+    "desc": "Bv. Case Trentino",
+    "code": "MOPV365",
+    "islast": false
+  },
+  {
+    "desc": "Casa Schianchi",
+    "code": "MOPV363",
+    "islast": false
+  },
+  {
+    "desc": "Ricco",
+    "code": "MOPV58",
+    "islast": false
+  },
+  {
+    "desc": "Ricco",
+    "code": "MOPV57",
+    "islast": false
+  },
+  {
+    "desc": "Osteria Vecchia",
+    "code": "MOPV59",
+    "islast": false
+  },
+  {
+    "desc": "Osteria Vecchia",
+    "code": "MOPV60",
+    "islast": false
+  },
+  {
+    "desc": "Crocetta bv",
+    "code": "MOPV62",
+    "islast": false
+  },
+  {
+    "desc": "Crocetta bv",
+    "code": "MOPV61",
+    "islast": false
+  },
+  {
+    "desc": "San Dalmazio",
+    "code": "MOPV63",
+    "islast": false
+  },
+  {
+    "desc": "San Dalmazio",
+    "code": "MOPV64",
+    "islast": false
+  },
+  {
+    "desc": "Malandrone",
+    "code": "MOPV66",
+    "islast": false
+  },
+  {
+    "desc": "Malandrone",
+    "code": "MOPV65",
+    "islast": false
+  },
+  {
+    "desc": "Malandrone 1",
+    "code": "MOPV67",
+    "islast": false
+  },
+  {
+    "desc": "Malandrone 1",
+    "code": "MOPV68",
+    "islast": false
+  },
+  {
+    "desc": "Case Gianaroli",
+    "code": "MOPV721",
+    "islast": false
+  },
+  {
+    "desc": "Casa Bosi",
+    "code": "MOPV118",
+    "islast": false
+  },
+  {
+    "desc": "Casa Bosi",
+    "code": "MOPV117",
+    "islast": false
+  },
+  {
+    "desc": "La Monta",
+    "code": "MOPV116",
+    "islast": false
+  },
+  {
+    "desc": "La Monta",
+    "code": "MOPV115",
+    "islast": false
+  },
+  {
+    "desc": "Selva",
+    "code": "MOPV191",
+    "islast": false
+  },
+  {
+    "desc": "Casa Fontanazzi",
+    "code": "MOPV113",
+    "islast": false
+  },
+  {
+    "desc": "Casa Fontanazzi",
+    "code": "MOPV114",
+    "islast": false
+  },
+  {
+    "desc": "Riotorto Selva",
+    "code": "MOPV111",
+    "islast": false
+  },
+  {
+    "desc": "Riotorto Selva",
+    "code": "MOPV112",
+    "islast": false
+  },
+  {
+    "desc": "Casa Quattrini",
+    "code": "MOPV109",
+    "islast": false
+  },
+  {
+    "desc": "Casa Quattrini",
+    "code": "MOPV110",
+    "islast": false
+  },
+  {
+    "desc": "Spinara",
+    "code": "MOPV107",
+    "islast": false
+  },
+  {
+    "desc": "Spinara",
+    "code": "MOPV108",
+    "islast": false
+  },
+  {
+    "desc": "Serramazzoni",
+    "code": "MOPV105",
+    "islast": false
+  },
+  {
+    "desc": "Largo Verona",
+    "code": "MOPV701",
+    "islast": false
+  },
+  {
+    "desc": "Casa Rossa",
+    "code": "MOPV703",
+    "islast": false
+  },
+  {
+    "desc": "Casa Rossa",
+    "code": "MOPV704",
+    "islast": false
+  },
+  {
+    "desc": "Il Prato",
+    "code": "MOPV710",
+    "islast": false
+  },
+  {
+    "desc": "Il Prato",
+    "code": "MOPV709",
+    "islast": false
+  },
+  {
+    "desc": "Casa Mazzanti",
+    "code": "MOPV712",
+    "islast": false
+  },
+  {
+    "desc": "Casa Mazzanti",
+    "code": "MOPV711",
+    "islast": false
+  },
+  {
+    "desc": "Forno",
+    "code": "MOPV713",
+    "islast": false
+  },
+  {
+    "desc": "Forno",
+    "code": "MOPV714",
+    "islast": false
+  },
+  {
+    "desc": "Lo Stallone",
+    "code": "MOPV716",
+    "islast": false
+  },
+  {
+    "desc": "Lo Stallone",
+    "code": "MOPV715",
+    "islast": false
+  },
+  {
+    "desc": "Madonna Baldaccini",
+    "code": "MOPV120",
+    "islast": false
+  },
+  {
+    "desc": "Madonna Baldaccini",
+    "code": "MOPV119",
+    "islast": false
+  },
+  {
+    "desc": "Chiozza",
+    "code": "MOPV122",
+    "islast": false
+  },
+  {
+    "desc": "Chiozza",
+    "code": "MOPV121",
+    "islast": false
+  },
+  {
+    "desc": "Ceramica",
+    "code": "MOPV718",
+    "islast": false
+  },
+  {
+    "desc": "Ceramica",
+    "code": "MOPV717",
+    "islast": false
+  },
+  {
+    "desc": "Casa Bortolucci",
+    "code": "MOPV720",
+    "islast": false
+  },
+  {
+    "desc": "Bortolucci",
+    "code": "MOPV719",
+    "islast": false
+  },
+  {
+    "desc": "Bottegone",
+    "code": "MOPV755",
+    "islast": false
+  },
+  {
+    "desc": "Bivio Casa Geminiano",
+    "code": "MOPV708",
+    "islast": false
+  },
+  {
+    "desc": "Bivio Casa Geminiano",
+    "code": "MOPV707",
+    "islast": false
+  },
+  {
+    "desc": "Casa Baracca",
+    "code": "MOPV761",
+    "islast": false
+  },
+  {
+    "desc": "Casa Maestri",
+    "code": "MOPV751",
+    "islast": false
+  },
+  {
+    "desc": "Casa Venturelli",
+    "code": "MOPV705",
+    "islast": false
+  },
+  {
+    "desc": "Casa Borelli",
+    "code": "MOPV756",
+    "islast": false
+  },
+  {
+    "desc": "Casa Borelli",
+    "code": "MOPV757",
+    "islast": false
+  },
+  {
+    "desc": "Casa Belloi Boschetti",
+    "code": "MOPV753",
+    "islast": false
+  },
+  {
+    "desc": "Casa Tandera",
+    "code": "MOPV671",
+    "islast": false
+  },
+  {
+    "desc": "Mulino Battistoni",
+    "code": "MOPV722",
+    "islast": false
+  },
+  {
+    "desc": "Frassineti",
+    "code": "MOPV666",
+    "islast": false
+  },
+  {
+    "desc": "Frassineti",
+    "code": "MOPV665",
+    "islast": false
+  },
+  {
+    "desc": "Casa Teodoro",
+    "code": "MOPV663",
+    "islast": false
+  },
+  {
+    "desc": "Casa Teodoro",
+    "code": "MOPV664",
+    "islast": false
+  },
+  {
+    "desc": "Cogorno",
+    "code": "MOPV661",
+    "islast": false
+  },
+  {
+    "desc": "Cogorno",
+    "code": "MOPV662",
+    "islast": false
+  },
+  {
+    "desc": "Casa Sovrano",
+    "code": "MOPV660",
+    "islast": false
+  },
+  {
+    "desc": "Casa Sovrano",
+    "code": "MOPV659",
+    "islast": false
+  },
+  {
+    "desc": "Molino Pompei",
+    "code": "MOPV658",
+    "islast": false
+  },
+  {
+    "desc": "Molino Pompei",
+    "code": "MOPV657",
+    "islast": false
+  },
+  {
+    "desc": "Caseificio",
+    "code": "MOPV651",
+    "islast": false
+  },
+  {
+    "desc": "Caseificio",
+    "code": "MOPV652",
+    "islast": false
+  },
+  {
+    "desc": "Miceno",
+    "code": "MOPV655",
+    "islast": false
+  },
+  {
+    "desc": "Miceno",
+    "code": "MOPV656",
+    "islast": false
+  },
+  {
+    "desc": "Ca Luppo",
+    "code": "MOPV723",
+    "islast": false
+  },
+  {
+    "desc": "Bivio Ca Luppo",
+    "code": "MOPV613",
+    "islast": false
+  },
+  {
+    "desc": "Bivio Ca Luppo",
+    "code": "MOPV614",
+    "islast": false
+  },
+  {
+    "desc": "Casa Oppi",
+    "code": "MOPV611",
+    "islast": false
+  },
+  {
+    "desc": "Casa Oppi",
+    "code": "MOPV612",
+    "islast": false
+  },
+  {
+    "desc": "Malandrone",
+    "code": "MOPV610",
+    "islast": false
+  },
+  {
+    "desc": "Malandrone",
+    "code": "MOPV609",
+    "islast": false
+  },
+  {
+    "desc": "Casa Bellei",
+    "code": "MOPV607",
+    "islast": false
+  },
+  {
+    "desc": "Casa Bellei",
+    "code": "MOPV608",
+    "islast": false
+  },
+  {
+    "desc": "Poggio di Sotto",
+    "code": "MOPV606",
+    "islast": false
+  },
+  {
+    "desc": "Poggio di Sotto",
+    "code": "MOPV605",
+    "islast": false
+  },
+  {
+    "desc": "Ca del Vento",
+    "code": "MOPV975",
+    "islast": false
+  },
+  {
+    "desc": "Miceno Castello",
+    "code": "MOPV653",
+    "islast": false
+  },
+  {
+    "desc": "Acquabona",
+    "code": "MOPV127",
+    "islast": false
+  },
+  {
+    "desc": "Acquabona",
+    "code": "MOPV128",
+    "islast": false
+  },
+  {
+    "desc": "Crocette",
+    "code": "MOPV524",
+    "islast": false
+  },
+  {
+    "desc": "Crocette",
+    "code": "MOPV523",
+    "islast": false
+  },
+  {
+    "desc": "Campichiara",
+    "code": "MOPV521",
+    "islast": false
+  },
+  {
+    "desc": "Campichiara",
+    "code": "MOPV522",
+    "islast": false
+  },
+  {
+    "desc": "Vaglio",
+    "code": "MOPV519",
+    "islast": false
+  },
+  {
+    "desc": "Vaglio",
+    "code": "MOPV520",
+    "islast": false
+  },
+  {
+    "desc": "Piandiscuola",
+    "code": "MOPV517",
+    "islast": false
+  },
+  {
+    "desc": "Piandiscuola",
+    "code": "MOPV518",
+    "islast": false
+  },
+  {
+    "desc": "Spinzuola",
+    "code": "MOPV515",
+    "islast": false
+  },
+  {
+    "desc": "Spinzuola",
+    "code": "MOPV516",
+    "islast": false
+  },
+  {
+    "desc": "Benedello",
+    "code": "MOPV513",
+    "islast": false
+  },
+  {
+    "desc": "Benedello",
+    "code": "MOPV514",
+    "islast": false
+  },
+  {
+    "desc": "Serretta",
+    "code": "MOPV511",
+    "islast": false
+  },
+  {
+    "desc": "Serretta",
+    "code": "MOPV512",
+    "islast": false
+  },
+  {
+    "desc": "La Croce Benedello",
+    "code": "MOPV509",
+    "islast": false
+  },
+  {
+    "desc": "La Croce Benedello",
+    "code": "MOPV510",
+    "islast": false
+  },
+  {
+    "desc": "La Croce Benedello 1",
+    "code": "MOPV527",
+    "islast": false
+  },
+  {
+    "desc": "La Croce Benedello 1",
+    "code": "MOPV528",
+    "islast": false
+  },
+  {
+    "desc": "Carrobbio",
+    "code": "MOPV507",
+    "islast": false
+  },
+  {
+    "desc": "Carrobbio",
+    "code": "MOPV508",
+    "islast": false
+  },
+  {
+    "desc": "Casa Pianelli",
+    "code": "MOPV501",
+    "islast": false
+  },
+  {
+    "desc": "Casa Bea",
+    "code": "MOPV504",
+    "islast": false
+  },
+  {
+    "desc": "Casa Bea",
+    "code": "MOPV503",
+    "islast": false
+  },
+  {
+    "desc": "Comun Grande",
+    "code": "MOPV505",
+    "islast": false
+  },
+  {
+    "desc": "Comun Grande",
+    "code": "MOPV506",
+    "islast": false
+  },
+  {
+    "desc": "Camurana",
+    "code": "MOPV551",
+    "islast": false
+  },
+  {
+    "desc": "Il Ronco",
+    "code": "MOPV125",
+    "islast": false
+  },
+  {
+    "desc": "Il Ronco",
+    "code": "MOPV126",
+    "islast": false
+  },
+  {
+    "desc": "Boccaccio 1",
+    "code": "MOPV197",
+    "islast": false
+  },
+  {
+    "desc": "Boccaccio 1",
+    "code": "MOPV198",
+    "islast": false
+  },
+  {
+    "desc": "Sant'Antonio scuole",
+    "code": "MOPV195",
+    "islast": false
+  },
+  {
+    "desc": "Sant'Antonio scuole",
+    "code": "MOPV196",
+    "islast": false
+  },
+  {
+    "desc": "Boccaccio",
+    "code": "MOPV193",
+    "islast": false
+  },
+  {
+    "desc": "Boccaccio",
+    "code": "MOPV194",
+    "islast": false
+  },
+  {
+    "desc": "Sant'Antonio",
+    "code": "MOPV124",
+    "islast": false
+  },
+  {
+    "desc": "Sant'Antonio",
+    "code": "MOPV123",
+    "islast": true
+  }
+]

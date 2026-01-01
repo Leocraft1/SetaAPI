@@ -1,0 +1,142 @@
+[
+  {
+    "desc": "25 aprile",
+    "code": "MO3161",
+    "islast": false
+  },
+  {
+    "desc": "Guaitoli",
+    "code": "MO3451",
+    "islast": false
+  },
+  {
+    "desc": "Malpighi",
+    "code": "MO3447",
+    "islast": false
+  },
+  {
+    "desc": "Ramazzini 2",
+    "code": "MO2565",
+    "islast": false
+  },
+  {
+    "desc": "Ramazzini 1",
+    "code": "MO3444",
+    "islast": false
+  },
+  {
+    "desc": "Roosevelt",
+    "code": "MO3442",
+    "islast": false
+  },
+  {
+    "desc": "Bracciano",
+    "code": "MO3439",
+    "islast": false
+  },
+  {
+    "desc": "Pezzana 3",
+    "code": "MO3437",
+    "islast": false
+  },
+  {
+    "desc": "Pezzana 2",
+    "code": "MO3435",
+    "islast": false
+  },
+  {
+    "desc": "Pezzana 1",
+    "code": "MO3431",
+    "islast": false
+  },
+  {
+    "desc": "Manzoni 2",
+    "code": "MO3427",
+    "islast": false
+  },
+  {
+    "desc": "Manzoni 1",
+    "code": "MO3424",
+    "islast": false
+  },
+  {
+    "desc": "Ariosto",
+    "code": "MO3473",
+    "islast": false
+  },
+  {
+    "desc": "Stazione FS",
+    "code": "MO8537",
+    "islast": false
+  },
+  {
+    "desc": "Alghisi 2",
+    "code": "MO3379",
+    "islast": false
+  },
+  {
+    "desc": "Alghisi 1",
+    "code": "MO3381",
+    "islast": false
+  },
+  {
+    "desc": "De Rosa",
+    "code": "MO3001",
+    "islast": false
+  },
+  {
+    "desc": "Stadio",
+    "code": "MO8553",
+    "islast": false
+  },
+  {
+    "desc": "Cavallotti",
+    "code": "MO8524",
+    "islast": false
+  },
+  {
+    "desc": "P.le Ramazzini",
+    "code": "MO502",
+    "islast": false
+  },
+  {
+    "desc": "Catellani",
+    "code": "MO3184",
+    "islast": false
+  },
+  {
+    "desc": "Cimitero",
+    "code": "MO8008",
+    "islast": false
+  },
+  {
+    "desc": "Lenin 2",
+    "code": "MO3187",
+    "islast": false
+  },
+  {
+    "desc": "Nuova Ponente",
+    "code": "MO8521",
+    "islast": false
+  },
+  {
+    "desc": "Mozart",
+    "code": "MO3189",
+    "islast": false
+  },
+  {
+    "desc": "Parigi",
+    "code": "MO3196",
+    "islast": false
+  },
+  {
+    "desc": "Londra",
+    "code": "MO3192",
+    "islast": false
+  },
+  {
+    "desc": "Lenin 1",
+    "code": "MO3194",
+    "islast": true
+  }
+]

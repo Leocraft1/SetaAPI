@@ -1,0 +1,147 @@
+[
+  {
+    "desc": "Mondine",
+    "code": "MO3411",
+    "islast": false
+  },
+  {
+    "desc": "Parmenide",
+    "code": "MO3414",
+    "islast": false
+  },
+  {
+    "desc": "Losi",
+    "code": "MO3029",
+    "islast": false
+  },
+  {
+    "desc": "Piscine",
+    "code": "MO8534",
+    "islast": false
+  },
+  {
+    "desc": "Peruzzi 3",
+    "code": "MO3482",
+    "islast": false
+  },
+  {
+    "desc": "Peruzzi 2",
+    "code": "MO3373",
+    "islast": false
+  },
+  {
+    "desc": "PERUZZI AUTOSTAZIONE",
+    "code": "MO2547",
+    "islast": false
+  },
+  {
+    "desc": "Peruzzi 1",
+    "code": "MO3375",
+    "islast": false
+  },
+  {
+    "desc": "3 Febbraio",
+    "code": "MO174",
+    "islast": false
+  },
+  {
+    "desc": "Parco",
+    "code": "MO1677",
+    "islast": false
+  },
+  {
+    "desc": "Fanti 2",
+    "code": "MO8519",
+    "islast": false
+  },
+  {
+    "desc": "Duomo",
+    "code": "MO4713",
+    "islast": false
+  },
+  {
+    "desc": "Ariosto",
+    "code": "MO3473",
+    "islast": false
+  },
+  {
+    "desc": "Stazione FS",
+    "code": "MO8537",
+    "islast": false
+  },
+  {
+    "desc": "Alghisi 2",
+    "code": "MO3379",
+    "islast": false
+  },
+  {
+    "desc": "Alghisi 1",
+    "code": "MO3381",
+    "islast": false
+  },
+  {
+    "desc": "De Rosa",
+    "code": "MO3001",
+    "islast": false
+  },
+  {
+    "desc": "Moro 2",
+    "code": "MO3219",
+    "islast": false
+  },
+  {
+    "desc": "Israelitico",
+    "code": "MO3385",
+    "islast": false
+  },
+  {
+    "desc": "Lucrezio 2",
+    "code": "MO3389",
+    "islast": false
+  },
+  {
+    "desc": "Lucrezio 1",
+    "code": "MO3391",
+    "islast": false
+  },
+  {
+    "desc": "G.Cesare 2",
+    "code": "MO3393",
+    "islast": false
+  },
+  {
+    "desc": "Catullo",
+    "code": "MO7024",
+    "islast": false
+  },
+  {
+    "desc": "Due Ponti",
+    "code": "MO7011",
+    "islast": false
+  },
+  {
+    "desc": "G.Cesare 1",
+    "code": "MO7009",
+    "islast": false
+  },
+  {
+    "desc": "Fedro",
+    "code": "MO7006",
+    "islast": false
+  },
+  {
+    "desc": "Arno",
+    "code": "MO7022",
+    "islast": false
+  },
+  {
+    "desc": "Po",
+    "code": "MO7015",
+    "islast": false
+  },
+  {
+    "desc": "Venturelli",
+    "code": "MO7012",
+    "islast": true
+  }
+]

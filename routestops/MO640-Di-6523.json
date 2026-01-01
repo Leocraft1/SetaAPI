@@ -1,0 +1,92 @@
+[
+  {
+    "desc": "Vignola Autostazione",
+    "code": "MO4507",
+    "islast": false
+  },
+  {
+    "desc": "Stabilimento Fabbri",
+    "code": "MO1117",
+    "islast": false
+  },
+  {
+    "desc": "Bettolino scuole",
+    "code": "MO1115",
+    "islast": false
+  },
+  {
+    "desc": "Bettolino",
+    "code": "MO1113",
+    "islast": false
+  },
+  {
+    "desc": "Confine di Bettolino",
+    "code": "MO1109",
+    "islast": false
+  },
+  {
+    "desc": "Santa Liberata bv",
+    "code": "MO1107",
+    "islast": false
+  },
+  {
+    "desc": "Caseificio Rola",
+    "code": "MO1106",
+    "islast": false
+  },
+  {
+    "desc": "Sant'Eusebio bv",
+    "code": "MO1105",
+    "islast": false
+  },
+  {
+    "desc": "Ca' di Sola",
+    "code": "MO411",
+    "islast": false
+  },
+  {
+    "desc": "Gavello Mulino",
+    "code": "MO847",
+    "islast": false
+  },
+  {
+    "desc": "Ca' del Fabbro",
+    "code": "MO846",
+    "islast": false
+  },
+  {
+    "desc": "Solignano",
+    "code": "MO845",
+    "islast": false
+  },
+  {
+    "desc": "Bar Cacciatori Solignano",
+    "code": "MO837",
+    "islast": false
+  },
+  {
+    "desc": "Grillenzone bv",
+    "code": "MO838",
+    "islast": false
+  },
+  {
+    "desc": "Ceramica Sant'Anna",
+    "code": "MO839",
+    "islast": false
+  },
+  {
+    "desc": "Pozza",
+    "code": "MO1650",
+    "islast": false
+  },
+  {
+    "desc": "Crociale Maranello",
+    "code": "MO827",
+    "islast": false
+  },
+  {
+    "desc": "MARANELLO TERMINAL",
+    "code": "MO3455",
+    "islast": true
+  }
+]

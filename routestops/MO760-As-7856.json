@@ -1,0 +1,82 @@
+[
+  {
+    "desc": "Spilamberto",
+    "code": "MO4500",
+    "islast": false
+  },
+  {
+    "desc": "Altola'",
+    "code": "MO1406",
+    "islast": false
+  },
+  {
+    "desc": "Piumazzo stazione",
+    "code": "MO1788",
+    "islast": false
+  },
+  {
+    "desc": "Torrazzo",
+    "code": "MO927",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Fiume",
+    "code": "MO1786",
+    "islast": false
+  },
+  {
+    "desc": "San Cesario Case Nuove",
+    "code": "MO1785",
+    "islast": false
+  },
+  {
+    "desc": "San Cesario scuole",
+    "code": "MO3603",
+    "islast": false
+  },
+  {
+    "desc": "Stazione Bar",
+    "code": "MO3601",
+    "islast": false
+  },
+  {
+    "desc": "San Cesario",
+    "code": "MO3600",
+    "islast": false
+  },
+  {
+    "desc": "Cavalcavia",
+    "code": "MO1394",
+    "islast": false
+  },
+  {
+    "desc": "Cabina",
+    "code": "MO1393",
+    "islast": false
+  },
+  {
+    "desc": "Beccastecca",
+    "code": "MO1392",
+    "islast": false
+  },
+  {
+    "desc": "Loda",
+    "code": "MO7040",
+    "islast": false
+  },
+  {
+    "desc": "Centro commerciale",
+    "code": "MO1391",
+    "islast": false
+  },
+  {
+    "desc": "Castelfranco teatro",
+    "code": "MO1467",
+    "islast": false
+  },
+  {
+    "desc": "Castelfranco FS",
+    "code": "MO491",
+    "islast": true
+  }
+]

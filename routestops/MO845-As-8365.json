@@ -1,0 +1,92 @@
+[
+  {
+    "desc": "Pievepelago Autostazione",
+    "code": "MO3104",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Fola",
+    "code": "MO3758",
+    "islast": false
+  },
+  {
+    "desc": "Riolunato",
+    "code": "MO3500",
+    "islast": false
+  },
+  {
+    "desc": "Riolino",
+    "code": "MO3536",
+    "islast": false
+  },
+  {
+    "desc": "Bv Le Polle",
+    "code": "MO3588",
+    "islast": false
+  },
+  {
+    "desc": "Borra di Ronco",
+    "code": "MO3538",
+    "islast": false
+  },
+  {
+    "desc": "Magrignana",
+    "code": "MO3540",
+    "islast": false
+  },
+  {
+    "desc": "Strettara bv",
+    "code": "MO3542",
+    "islast": false
+  },
+  {
+    "desc": "Incrocio via del Pozzo",
+    "code": "MO3659",
+    "islast": false
+  },
+  {
+    "desc": "Montecreto forno",
+    "code": "MO4294",
+    "islast": false
+  },
+  {
+    "desc": "Tangenziale Montecreto",
+    "code": "MO3611",
+    "islast": false
+  },
+  {
+    "desc": "Ronco bv",
+    "code": "MO2035",
+    "islast": false
+  },
+  {
+    "desc": "Bandita",
+    "code": "MO2037",
+    "islast": false
+  },
+  {
+    "desc": "Acquaria bv",
+    "code": "MO2039",
+    "islast": false
+  },
+  {
+    "desc": "Roncoscaglia 1",
+    "code": "MO3685",
+    "islast": false
+  },
+  {
+    "desc": "Roncoscaglia",
+    "code": "MO2045",
+    "islast": false
+  },
+  {
+    "desc": "Dogana",
+    "code": "MO2047",
+    "islast": false
+  },
+  {
+    "desc": "Sestola",
+    "code": "MO4300",
+    "islast": true
+  }
+]

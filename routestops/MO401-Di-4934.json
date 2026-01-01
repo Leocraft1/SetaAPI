@@ -1,0 +1,32 @@
+[
+  {
+    "desc": "Mirandola FS",
+    "code": "MO6968",
+    "islast": false
+  },
+  {
+    "desc": "Viale Gramsci Cividale Carrobbio",
+    "code": "MO2223",
+    "islast": false
+  },
+  {
+    "desc": "Viale Gramsci Farmacia",
+    "code": "MO1685",
+    "islast": false
+  },
+  {
+    "desc": "Cividale chiesa",
+    "code": "MO3397",
+    "islast": false
+  },
+  {
+    "desc": "Gramsci bv 2 giugno",
+    "code": "MO3942",
+    "islast": false
+  },
+  {
+    "desc": "Mirandola Terminal",
+    "code": "MO3974",
+    "islast": true
+  }
+]

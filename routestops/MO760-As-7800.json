@@ -1,0 +1,22 @@
+[
+  {
+    "desc": "Spilamberto",
+    "code": "MO4500",
+    "islast": false
+  },
+  {
+    "desc": "Altola'",
+    "code": "MO1406",
+    "islast": false
+  },
+  {
+    "desc": "Piumazzo stazione",
+    "code": "MO1788",
+    "islast": false
+  },
+  {
+    "desc": "Torrazzo",
+    "code": "MO927",
+    "islast": true
+  }
+]

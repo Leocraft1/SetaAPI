@@ -1,0 +1,147 @@
+[
+  {
+    "desc": "Gorizia",
+    "code": "MO3224",
+    "islast": false
+  },
+  {
+    "desc": "Cuneo 2",
+    "code": "MO8547",
+    "islast": false
+  },
+  {
+    "desc": "Bollitora 1",
+    "code": "MO8548",
+    "islast": false
+  },
+  {
+    "desc": "Bollitora 2",
+    "code": "MO8310",
+    "islast": false
+  },
+  {
+    "desc": "Bollitora 3",
+    "code": "MO3051",
+    "islast": false
+  },
+  {
+    "desc": "Bollitora 4",
+    "code": "MO3053",
+    "islast": false
+  },
+  {
+    "desc": "Leopardi",
+    "code": "MO8526",
+    "islast": false
+  },
+  {
+    "desc": "Colombo",
+    "code": "MO3055",
+    "islast": false
+  },
+  {
+    "desc": "Ugo da Carpi",
+    "code": "MO501",
+    "islast": false
+  },
+  {
+    "desc": "Cervi",
+    "code": "MO3056",
+    "islast": false
+  },
+  {
+    "desc": "Marx",
+    "code": "MO251",
+    "islast": false
+  },
+  {
+    "desc": "Carducci",
+    "code": "MO4936",
+    "islast": false
+  },
+  {
+    "desc": "Gramsci",
+    "code": "MO4937",
+    "islast": false
+  },
+  {
+    "desc": "Stazione FS",
+    "code": "MO506",
+    "islast": false
+  },
+  {
+    "desc": "Cabassi",
+    "code": "MO8321",
+    "islast": false
+  },
+  {
+    "desc": "Fanti 1",
+    "code": "MO3308",
+    "islast": false
+  },
+  {
+    "desc": "Fanti 2",
+    "code": "MO3306",
+    "islast": false
+  },
+  {
+    "desc": "Parco",
+    "code": "MO8322",
+    "islast": false
+  },
+  {
+    "desc": "Ospedale",
+    "code": "MO8323",
+    "islast": false
+  },
+  {
+    "desc": "Casa Protetta",
+    "code": "MO8324",
+    "islast": false
+  },
+  {
+    "desc": "Grimelli",
+    "code": "MO8325",
+    "islast": false
+  },
+  {
+    "desc": "Govi",
+    "code": "MO8518",
+    "islast": false
+  },
+  {
+    "desc": "Giovanni XXIII",
+    "code": "MO3061",
+    "islast": false
+  },
+  {
+    "desc": "Remesina 1",
+    "code": "MO178",
+    "islast": false
+  },
+  {
+    "desc": "Remesina 2",
+    "code": "MO8528",
+    "islast": false
+  },
+  {
+    "desc": "Remesina 3",
+    "code": "MO8307",
+    "islast": false
+  },
+  {
+    "desc": "Magazzeno",
+    "code": "MO64",
+    "islast": false
+  },
+  {
+    "desc": "Brunelleschi",
+    "code": "MO3557",
+    "islast": false
+  },
+  {
+    "desc": "Palladio",
+    "code": "MO7033",
+    "islast": true
+  }
+]

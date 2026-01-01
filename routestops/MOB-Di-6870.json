@@ -1,0 +1,152 @@
+[
+  {
+    "desc": "Esselunga",
+    "code": "MO6500",
+    "islast": false
+  },
+  {
+    "desc": "San Pio X",
+    "code": "MO2221",
+    "islast": false
+  },
+  {
+    "desc": "San Bernardo",
+    "code": "MO2215",
+    "islast": false
+  },
+  {
+    "desc": "San Simone bv San Pietro",
+    "code": "MO2211",
+    "islast": false
+  },
+  {
+    "desc": "Della Fornace",
+    "code": "MO2462",
+    "islast": false
+  },
+  {
+    "desc": "Po",
+    "code": "MO3717",
+    "islast": false
+  },
+  {
+    "desc": "Adige",
+    "code": "MO3714",
+    "islast": false
+  },
+  {
+    "desc": "Braida bv Adige",
+    "code": "MO2465",
+    "islast": false
+  },
+  {
+    "desc": "Mezzavia",
+    "code": "MO781",
+    "islast": false
+  },
+  {
+    "desc": "Adda",
+    "code": "MO3351",
+    "islast": false
+  },
+  {
+    "desc": "Questura",
+    "code": "MO2471",
+    "islast": false
+  },
+  {
+    "desc": "Divisione Acqui",
+    "code": "MO3350",
+    "islast": false
+  },
+  {
+    "desc": "San Carlo",
+    "code": "MO2762",
+    "islast": false
+  },
+  {
+    "desc": "28 Settembre",
+    "code": "MO2749",
+    "islast": false
+  },
+  {
+    "desc": "Matteotti bv 2 Madonne",
+    "code": "MO2507",
+    "islast": false
+  },
+  {
+    "desc": "Matteotti bv Manzoni",
+    "code": "MO2481",
+    "islast": false
+  },
+  {
+    "desc": "Braida Ist. Baggi",
+    "code": "MO2309",
+    "islast": false
+  },
+  {
+    "desc": "Sassuolo Terminal",
+    "code": "MO2306",
+    "islast": false
+  },
+  {
+    "desc": "Liberta'",
+    "code": "MO2239",
+    "islast": false
+  },
+  {
+    "desc": "Pia",
+    "code": "MO2487",
+    "islast": false
+  },
+  {
+    "desc": "Palazzo Ducale",
+    "code": "MO2491",
+    "islast": false
+  },
+  {
+    "desc": "Legnago",
+    "code": "MO4051",
+    "islast": false
+  },
+  {
+    "desc": "Venezia",
+    "code": "MO2495",
+    "islast": false
+  },
+  {
+    "desc": "Indipendenza ex Questura",
+    "code": "MO1766",
+    "islast": false
+  },
+  {
+    "desc": "Montanara",
+    "code": "MO1768",
+    "islast": false
+  },
+  {
+    "desc": "Montanara 1",
+    "code": "MO3377",
+    "islast": false
+  },
+  {
+    "desc": "Tasso",
+    "code": "MO2558",
+    "islast": false
+  },
+  {
+    "desc": "De Sanctis",
+    "code": "MO2523",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Nuovo",
+    "code": "MO909",
+    "islast": false
+  },
+  {
+    "desc": "Polo Scolastico",
+    "code": "MO2965",
+    "islast": true
+  }
+]

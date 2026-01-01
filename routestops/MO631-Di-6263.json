@@ -1,0 +1,72 @@
+[
+  {
+    "desc": "scuole medie Ligorzano",
+    "code": "MO3834",
+    "islast": false
+  },
+  {
+    "desc": "Serramazzoni",
+    "code": "MO2352",
+    "islast": false
+  },
+  {
+    "desc": "Spinara",
+    "code": "MO1276",
+    "islast": false
+  },
+  {
+    "desc": "Casa Quattrini",
+    "code": "MO1275",
+    "islast": false
+  },
+  {
+    "desc": "Casa Benventi",
+    "code": "MO2374",
+    "islast": false
+  },
+  {
+    "desc": "La Borra",
+    "code": "MO2373",
+    "islast": false
+  },
+  {
+    "desc": "Casa Casoni Pompeano",
+    "code": "MO2371",
+    "islast": false
+  },
+  {
+    "desc": "Botteghino",
+    "code": "MO2372",
+    "islast": false
+  },
+  {
+    "desc": "Casa Nuova Pompeano",
+    "code": "MO2370",
+    "islast": false
+  },
+  {
+    "desc": "La Barbona",
+    "code": "MO4296",
+    "islast": false
+  },
+  {
+    "desc": "bv Casa Storto",
+    "code": "MO2369",
+    "islast": false
+  },
+  {
+    "desc": "Forno",
+    "code": "MO4297",
+    "islast": false
+  },
+  {
+    "desc": "La Curva",
+    "code": "MO2361",
+    "islast": false
+  },
+  {
+    "desc": "Pompeano",
+    "code": "MO4205",
+    "islast": true
+  }
+]

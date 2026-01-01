@@ -1,0 +1,62 @@
+[
+  {
+    "desc": "San Pietro in Elda",
+    "code": "MO311",
+    "islast": false
+  },
+  {
+    "desc": "Verdeta caseificio",
+    "code": "MO406",
+    "islast": false
+  },
+  {
+    "desc": "Staggia Stazione",
+    "code": "MO407",
+    "islast": false
+  },
+  {
+    "desc": "Staggia",
+    "code": "MO408",
+    "islast": false
+  },
+  {
+    "desc": "Cavezzo zona industriale",
+    "code": "MO3307",
+    "islast": false
+  },
+  {
+    "desc": "Cavezzo Autostazione",
+    "code": "MO490",
+    "islast": false
+  },
+  {
+    "desc": "Santa Liberata",
+    "code": "MO527",
+    "islast": false
+  },
+  {
+    "desc": "San Giacomo Roncole",
+    "code": "MO1030",
+    "islast": false
+  },
+  {
+    "desc": "Fontana maglificio",
+    "code": "MO521",
+    "islast": false
+  },
+  {
+    "desc": "Carrozzeria Barbi",
+    "code": "MO1064",
+    "islast": false
+  },
+  {
+    "desc": "Barozzi scuole",
+    "code": "MO1187",
+    "islast": false
+  },
+  {
+    "desc": "Mirandola Terminal",
+    "code": "MO3973",
+    "islast": true
+  }
+]

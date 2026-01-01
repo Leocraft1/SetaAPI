@@ -1,0 +1,327 @@
+[
+  {
+    "desc": "Palagano",
+    "code": "MO1507",
+    "islast": false
+  },
+  {
+    "desc": "Palagano Municipio",
+    "code": "MO1521",
+    "islast": false
+  },
+  {
+    "desc": "Pianacci",
+    "code": "MO1724",
+    "islast": false
+  },
+  {
+    "desc": "La Ferrara",
+    "code": "MO1725",
+    "islast": false
+  },
+  {
+    "desc": "Abetone ceramica",
+    "code": "MO1733",
+    "islast": false
+  },
+  {
+    "desc": "Casa Cecchino",
+    "code": "MO1735",
+    "islast": false
+  },
+  {
+    "desc": "Casa Cinqui",
+    "code": "MO1736",
+    "islast": false
+  },
+  {
+    "desc": "Montemolino",
+    "code": "MO1737",
+    "islast": false
+  },
+  {
+    "desc": "Roncole",
+    "code": "MO1589",
+    "islast": false
+  },
+  {
+    "desc": "Molino Grillo",
+    "code": "MO1588",
+    "islast": false
+  },
+  {
+    "desc": "Fagiolo",
+    "code": "MO1587",
+    "islast": false
+  },
+  {
+    "desc": "Fontana d'Arco",
+    "code": "MO1577",
+    "islast": false
+  },
+  {
+    "desc": "Montecerreto",
+    "code": "MO1811",
+    "islast": false
+  },
+  {
+    "desc": "Villa Grimaldi",
+    "code": "MO1810",
+    "islast": false
+  },
+  {
+    "desc": "Pianorso posta",
+    "code": "MO1809",
+    "islast": false
+  },
+  {
+    "desc": "Pianorso",
+    "code": "MO1808",
+    "islast": false
+  },
+  {
+    "desc": "Celia",
+    "code": "MO1807",
+    "islast": false
+  },
+  {
+    "desc": "Polinago",
+    "code": "MO1805",
+    "islast": false
+  },
+  {
+    "desc": "Polinago scuole",
+    "code": "MO1799",
+    "islast": false
+  },
+  {
+    "desc": "Casa Casoni Polinago",
+    "code": "MO1812",
+    "islast": false
+  },
+  {
+    "desc": "Ca' del Merlo",
+    "code": "MO1613",
+    "islast": false
+  },
+  {
+    "desc": "Casa Marini",
+    "code": "MO1611",
+    "islast": false
+  },
+  {
+    "desc": "Casa Giannini",
+    "code": "MO1609",
+    "islast": false
+  },
+  {
+    "desc": "Colombaia",
+    "code": "MO1607",
+    "islast": false
+  },
+  {
+    "desc": "Casa Cabri",
+    "code": "MO1605",
+    "islast": false
+  },
+  {
+    "desc": "Casa nuova Gombola",
+    "code": "MO1274",
+    "islast": false
+  },
+  {
+    "desc": "Piana",
+    "code": "MO1273",
+    "islast": false
+  },
+  {
+    "desc": "Torella",
+    "code": "MO1272",
+    "islast": false
+  },
+  {
+    "desc": "Casa Cappelli",
+    "code": "MO1271",
+    "islast": false
+  },
+  {
+    "desc": "Gombola",
+    "code": "MO1269",
+    "islast": false
+  },
+  {
+    "desc": "Gombola poste",
+    "code": "MO1261",
+    "islast": false
+  },
+  {
+    "desc": "Casa Giovannetti",
+    "code": "MO1259",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Cervaro",
+    "code": "MO1258",
+    "islast": false
+  },
+  {
+    "desc": "Casa Matteazzi",
+    "code": "MO1257",
+    "islast": false
+  },
+  {
+    "desc": "Talbignano rimessa",
+    "code": "MO1256",
+    "islast": false
+  },
+  {
+    "desc": "Talbignano",
+    "code": "MO1255",
+    "islast": false
+  },
+  {
+    "desc": "Talbignano poste",
+    "code": "MO1254",
+    "islast": false
+  },
+  {
+    "desc": "Pioppa Talbignano",
+    "code": "MO1253",
+    "islast": false
+  },
+  {
+    "desc": "Casa Lugari",
+    "code": "MO1251",
+    "islast": false
+  },
+  {
+    "desc": "Casa Duca",
+    "code": "MO1137",
+    "islast": false
+  },
+  {
+    "desc": "Sassofosco",
+    "code": "MO1136",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Prignano",
+    "code": "MO1135",
+    "islast": false
+  },
+  {
+    "desc": "Il Frantoio",
+    "code": "MO1129",
+    "islast": false
+  },
+  {
+    "desc": "La Volta",
+    "code": "MO2080",
+    "islast": false
+  },
+  {
+    "desc": "Lugo",
+    "code": "MO2060",
+    "islast": false
+  },
+  {
+    "desc": "Casa Geti",
+    "code": "MO2061",
+    "islast": false
+  },
+  {
+    "desc": "Poggio del Bue",
+    "code": "MO2062",
+    "islast": false
+  },
+  {
+    "desc": "Muraglione",
+    "code": "MO2063",
+    "islast": false
+  },
+  {
+    "desc": "La Pesa",
+    "code": "MO2065",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Lucenta",
+    "code": "MO1837",
+    "islast": false
+  },
+  {
+    "desc": "Bora",
+    "code": "MO1838",
+    "islast": false
+  },
+  {
+    "desc": "Roteglia",
+    "code": "MO1840",
+    "islast": false
+  },
+  {
+    "desc": "Roteglia cimitero",
+    "code": "MO1842",
+    "islast": false
+  },
+  {
+    "desc": "Casa Nuova",
+    "code": "MO1844",
+    "islast": false
+  },
+  {
+    "desc": "Cavriana",
+    "code": "MO1846",
+    "islast": false
+  },
+  {
+    "desc": "Villabianca",
+    "code": "MO1835",
+    "islast": false
+  },
+  {
+    "desc": "Castellarano",
+    "code": "MO1850",
+    "islast": false
+  },
+  {
+    "desc": "Villaggio",
+    "code": "MO1852",
+    "islast": false
+  },
+  {
+    "desc": "Tressano",
+    "code": "MO1856",
+    "islast": false
+  },
+  {
+    "desc": "Tressano fornace",
+    "code": "MO811",
+    "islast": false
+  },
+  {
+    "desc": "Veggia ceramica",
+    "code": "MO809",
+    "islast": false
+  },
+  {
+    "desc": "Veggia",
+    "code": "MO1760",
+    "islast": false
+  },
+  {
+    "desc": "Ancora bv",
+    "code": "MO1570",
+    "islast": false
+  },
+  {
+    "desc": "Radici in Monte bv Liberta",
+    "code": "MO2391",
+    "islast": false
+  },
+  {
+    "desc": "Sassuolo Terminal",
+    "code": "MO4000",
+    "islast": true
+  }
+]

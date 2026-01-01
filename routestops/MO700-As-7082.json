@@ -1,0 +1,107 @@
+[
+  {
+    "desc": "Castel D'Aiano",
+    "code": "MO2189",
+    "islast": false
+  },
+  {
+    "desc": "La Croce",
+    "code": "MO5709",
+    "islast": false
+  },
+  {
+    "desc": "L'Ombrina",
+    "code": "MO5707",
+    "islast": false
+  },
+  {
+    "desc": "Serra",
+    "code": "MO5706",
+    "islast": false
+  },
+  {
+    "desc": "Bocca dei Ravari",
+    "code": "MO873",
+    "islast": false
+  },
+  {
+    "desc": "Mezzuola",
+    "code": "MO3388",
+    "islast": false
+  },
+  {
+    "desc": "Civico 226",
+    "code": "MO3386",
+    "islast": false
+  },
+  {
+    "desc": "Casa Miro",
+    "code": "MO3384",
+    "islast": false
+  },
+  {
+    "desc": "Ristorante La Trappola",
+    "code": "MO3383",
+    "islast": false
+  },
+  {
+    "desc": "La Trappola",
+    "code": "MO3370",
+    "islast": false
+  },
+  {
+    "desc": "Ceretolo",
+    "code": "MO2815",
+    "islast": false
+  },
+  {
+    "desc": "Casa Sansone",
+    "code": "MO2820",
+    "islast": false
+  },
+  {
+    "desc": "Lame",
+    "code": "MO2818",
+    "islast": false
+  },
+  {
+    "desc": "Supermarket Frigo",
+    "code": "MO4716",
+    "islast": false
+  },
+  {
+    "desc": "Casa Bognino",
+    "code": "MO4714",
+    "islast": false
+  },
+  {
+    "desc": "Villa Pianazzi",
+    "code": "MO2816",
+    "islast": false
+  },
+  {
+    "desc": "Cava bv",
+    "code": "MO4712",
+    "islast": false
+  },
+  {
+    "desc": "Fogna",
+    "code": "MO2814",
+    "islast": false
+  },
+  {
+    "desc": "Le Coste",
+    "code": "MO4710",
+    "islast": false
+  },
+  {
+    "desc": "Zocca USL",
+    "code": "MO1761",
+    "islast": false
+  },
+  {
+    "desc": "Zocca Circonvallazione",
+    "code": "MO1765",
+    "islast": true
+  }
+]

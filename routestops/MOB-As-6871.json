@@ -1,0 +1,137 @@
+[
+  {
+    "desc": "Polo Scolastico",
+    "code": "MO2965",
+    "islast": false
+  },
+  {
+    "desc": "Montanara 1",
+    "code": "MO3376",
+    "islast": false
+  },
+  {
+    "desc": "Montanara",
+    "code": "MO908",
+    "islast": false
+  },
+  {
+    "desc": "Indipendenza ex Questura",
+    "code": "MO906",
+    "islast": false
+  },
+  {
+    "desc": "Venezia",
+    "code": "MO2496",
+    "islast": false
+  },
+  {
+    "desc": "Legnago",
+    "code": "MO2325",
+    "islast": false
+  },
+  {
+    "desc": "Palazzo Ducale",
+    "code": "MO2492",
+    "islast": false
+  },
+  {
+    "desc": "Monzambano",
+    "code": "MO2493",
+    "islast": false
+  },
+  {
+    "desc": "Sassuolo Terminal",
+    "code": "MO2306",
+    "islast": false
+  },
+  {
+    "desc": "Prampolini",
+    "code": "MO2273",
+    "islast": false
+  },
+  {
+    "desc": "Braida Ist. Baggi",
+    "code": "MO2772",
+    "islast": false
+  },
+  {
+    "desc": "Matteotti bv Manzoni",
+    "code": "MO2477",
+    "islast": false
+  },
+  {
+    "desc": "Matteotti bv 2 Madonne",
+    "code": "MO2275",
+    "islast": false
+  },
+  {
+    "desc": "28 Settembre",
+    "code": "MO2277",
+    "islast": false
+  },
+  {
+    "desc": "San Carlo",
+    "code": "MO2279",
+    "islast": false
+  },
+  {
+    "desc": "Divisione Acqui",
+    "code": "MO3349",
+    "islast": false
+  },
+  {
+    "desc": "Questura",
+    "code": "MO2473",
+    "islast": false
+  },
+  {
+    "desc": "Adda",
+    "code": "MO3353",
+    "islast": false
+  },
+  {
+    "desc": "Mezzavia",
+    "code": "MO1578",
+    "islast": false
+  },
+  {
+    "desc": "Braida bv Adige",
+    "code": "MO2469",
+    "islast": false
+  },
+  {
+    "desc": "Adige",
+    "code": "MO3715",
+    "islast": false
+  },
+  {
+    "desc": "Po",
+    "code": "MO3716",
+    "islast": false
+  },
+  {
+    "desc": "Della Fornace",
+    "code": "MO2459",
+    "islast": false
+  },
+  {
+    "desc": "San Simone bv San Pietro",
+    "code": "MO2204",
+    "islast": false
+  },
+  {
+    "desc": "San Bernardo",
+    "code": "MO2213",
+    "islast": false
+  },
+  {
+    "desc": "San Pio X",
+    "code": "MO2217",
+    "islast": false
+  },
+  {
+    "desc": "Esselunga",
+    "code": "MO6500",
+    "islast": true
+  }
+]

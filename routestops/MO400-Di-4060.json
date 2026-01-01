@@ -1,0 +1,107 @@
+[
+  {
+    "desc": "Cavezzo Autostazione",
+    "code": "MO490",
+    "islast": false
+  },
+  {
+    "desc": "Cavezzo stazione",
+    "code": "MO133",
+    "islast": false
+  },
+  {
+    "desc": "Medolla Autostazione",
+    "code": "MO488",
+    "islast": false
+  },
+  {
+    "desc": "Malcantone",
+    "code": "MO584",
+    "islast": false
+  },
+  {
+    "desc": "Malcantone scuole",
+    "code": "MO582",
+    "islast": false
+  },
+  {
+    "desc": "La Buca",
+    "code": "MO580",
+    "islast": false
+  },
+  {
+    "desc": "San Felice polo Industriale",
+    "code": "MO578",
+    "islast": false
+  },
+  {
+    "desc": "Centro Sanitario",
+    "code": "MO4935",
+    "islast": false
+  },
+  {
+    "desc": "Ascari",
+    "code": "MO3773",
+    "islast": false
+  },
+  {
+    "desc": "San Felice sul Panaro",
+    "code": "MO2137",
+    "islast": false
+  },
+  {
+    "desc": "Mulino Ariani",
+    "code": "MO2135",
+    "islast": false
+  },
+  {
+    "desc": "Rivara",
+    "code": "MO287",
+    "islast": false
+  },
+  {
+    "desc": "Massa Finalese stazione",
+    "code": "MO585",
+    "islast": false
+  },
+  {
+    "desc": "Massa Finalese",
+    "code": "MO586",
+    "islast": false
+  },
+  {
+    "desc": "Marsala",
+    "code": "MO587",
+    "islast": false
+  },
+  {
+    "desc": "Canalazzo",
+    "code": "MO589",
+    "islast": false
+  },
+  {
+    "desc": "Canaletto",
+    "code": "MO591",
+    "islast": false
+  },
+  {
+    "desc": "Canaletto scuole",
+    "code": "MO592",
+    "islast": false
+  },
+  {
+    "desc": "Casette",
+    "code": "MO594",
+    "islast": false
+  },
+  {
+    "desc": "Istituto agrario bv",
+    "code": "MO622",
+    "islast": false
+  },
+  {
+    "desc": "Finale Emilia Autostazione",
+    "code": "MO621",
+    "islast": true
+  }
+]

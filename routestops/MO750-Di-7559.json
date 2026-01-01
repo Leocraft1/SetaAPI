@@ -1,0 +1,22 @@
+[
+  {
+    "desc": "Castelfranco FS",
+    "code": "MO491",
+    "islast": false
+  },
+  {
+    "desc": "Verdi",
+    "code": "MO3739",
+    "islast": false
+  },
+  {
+    "desc": "Fossa di Manzolino",
+    "code": "MO659",
+    "islast": false
+  },
+  {
+    "desc": "Manzolino",
+    "code": "MO1330",
+    "islast": true
+  }
+]

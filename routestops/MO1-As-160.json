@@ -1,0 +1,77 @@
+[
+  {
+    "desc": "POLO LEONARDO",
+    "code": "MO6783",
+    "islast": false
+  },
+  {
+    "desc": "POLO LEONARDO 1",
+    "code": "MO2928",
+    "islast": false
+  },
+  {
+    "desc": "Da Vinci bv Newton",
+    "code": "MO6725",
+    "islast": false
+  },
+  {
+    "desc": "Da Vinci bv Curie",
+    "code": "MO2891",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Guarini",
+    "code": "MO2887",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Cattaneo",
+    "code": "MO2885",
+    "islast": false
+  },
+  {
+    "desc": "Marconi bv Corassori",
+    "code": "MO6717",
+    "islast": false
+  },
+  {
+    "desc": "Palestra San Faustino",
+    "code": "MO6711",
+    "islast": false
+  },
+  {
+    "desc": "Luosi bv San Faustino",
+    "code": "MO6713",
+    "islast": false
+  },
+  {
+    "desc": "Luosi bv Fattori",
+    "code": "MO6709",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Fermi",
+    "code": "MO6720",
+    "islast": false
+  },
+  {
+    "desc": "Barozzi bv Rangoni",
+    "code": "MO6705",
+    "islast": false
+  },
+  {
+    "desc": "Barozzi bv Setti",
+    "code": "MO6703",
+    "islast": false
+  },
+  {
+    "desc": "Barozzi Planetario",
+    "code": "MO6700",
+    "islast": false
+  },
+  {
+    "desc": "MODENA  AUTOSTAZIONE",
+    "code": "MO6121",
+    "islast": true
+  }
+]

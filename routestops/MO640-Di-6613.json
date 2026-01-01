@@ -1,0 +1,112 @@
+[
+  {
+    "desc": "Pozza",
+    "code": "MO1650",
+    "islast": false
+  },
+  {
+    "desc": "Crociale Maranello",
+    "code": "MO827",
+    "islast": false
+  },
+  {
+    "desc": "MARANELLO TERMINAL",
+    "code": "MO3471",
+    "islast": false
+  },
+  {
+    "desc": "Maranello Grizzaga",
+    "code": "MO3239",
+    "islast": false
+  },
+  {
+    "desc": "Maranello Claudia",
+    "code": "MO3581",
+    "islast": false
+  },
+  {
+    "desc": "Maranello Scuole",
+    "code": "MO783",
+    "islast": false
+  },
+  {
+    "desc": "Motta",
+    "code": "MO782",
+    "islast": false
+  },
+  {
+    "desc": "Spezzano scuole",
+    "code": "MO814",
+    "islast": false
+  },
+  {
+    "desc": "Spezzano",
+    "code": "MO797",
+    "islast": false
+  },
+  {
+    "desc": "Spezzano Crociale",
+    "code": "MO795",
+    "islast": false
+  },
+  {
+    "desc": "La Corona",
+    "code": "MO793",
+    "islast": false
+  },
+  {
+    "desc": "Case Nuove",
+    "code": "MO789",
+    "islast": false
+  },
+  {
+    "desc": "Fiorano Modenese",
+    "code": "MO4011",
+    "islast": false
+  },
+  {
+    "desc": "Fiorano San Francesco",
+    "code": "MO4007",
+    "islast": false
+  },
+  {
+    "desc": "Cerdisa",
+    "code": "MO780",
+    "islast": false
+  },
+  {
+    "desc": "Mezzavia",
+    "code": "MO781",
+    "islast": false
+  },
+  {
+    "desc": "Ospedale Sassuolo",
+    "code": "MO2786",
+    "islast": false
+  },
+  {
+    "desc": "Largo Verona",
+    "code": "MO2375",
+    "islast": false
+  },
+  {
+    "desc": "Mazzini",
+    "code": "MO2545",
+    "islast": false
+  },
+  {
+    "desc": "Risorgimento",
+    "code": "MO2233",
+    "islast": false
+  },
+  {
+    "desc": "Braida Ist. Baggi",
+    "code": "MO2772",
+    "islast": false
+  },
+  {
+    "desc": "Sassuolo Terminal",
+    "code": "MO4000",
+    "islast": true
+  }
+]

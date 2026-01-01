@@ -1,0 +1,37 @@
+[
+  {
+    "desc": "Polo Scolastico",
+    "code": "MO2965",
+    "islast": false
+  },
+  {
+    "desc": "Montanara",
+    "code": "MO908",
+    "islast": false
+  },
+  {
+    "desc": "Indipendenza ex Questura",
+    "code": "MO906",
+    "islast": false
+  },
+  {
+    "desc": "Bologna scuole",
+    "code": "MO904",
+    "islast": false
+  },
+  {
+    "desc": "Ancora bv",
+    "code": "MO1570",
+    "islast": false
+  },
+  {
+    "desc": "Radici in Monte bv Liberta",
+    "code": "MO2391",
+    "islast": false
+  },
+  {
+    "desc": "Sassuolo Terminal",
+    "code": "MO4000",
+    "islast": true
+  }
+]

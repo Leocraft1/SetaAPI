@@ -1,0 +1,87 @@
+[
+  {
+    "desc": "Mirandola Terminal",
+    "code": "MO3970",
+    "islast": false
+  },
+  {
+    "desc": "Barozzi scuole",
+    "code": "MO2202",
+    "islast": false
+  },
+  {
+    "desc": "Mirandola ex scuole",
+    "code": "MO1186",
+    "islast": false
+  },
+  {
+    "desc": "Mirandola Centro",
+    "code": "MO3533",
+    "islast": false
+  },
+  {
+    "desc": "Mirandola mercato",
+    "code": "MO1195",
+    "islast": false
+  },
+  {
+    "desc": "Carrozzeria Pico",
+    "code": "MO1814",
+    "islast": false
+  },
+  {
+    "desc": "Caseificio Boschina",
+    "code": "MO1740",
+    "islast": false
+  },
+  {
+    "desc": "Verzola bv",
+    "code": "MO1723",
+    "islast": false
+  },
+  {
+    "desc": "Fossa",
+    "code": "MO175",
+    "islast": false
+  },
+  {
+    "desc": "Fossa Mulino",
+    "code": "MO1643",
+    "islast": false
+  },
+  {
+    "desc": "Mazzalupo",
+    "code": "MO1628",
+    "islast": false
+  },
+  {
+    "desc": "Villetta",
+    "code": "MO1594",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Gavello",
+    "code": "MO1591",
+    "islast": false
+  },
+  {
+    "desc": "Vallalta",
+    "code": "MO166",
+    "islast": false
+  },
+  {
+    "desc": "Canonica",
+    "code": "MO1532",
+    "islast": false
+  },
+  {
+    "desc": "Rossello bv",
+    "code": "MO1519",
+    "islast": false
+  },
+  {
+    "desc": "Concordia",
+    "code": "MO1000",
+    "islast": true
+  }
+]

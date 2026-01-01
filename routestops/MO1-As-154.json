@@ -1,0 +1,212 @@
+[
+  {
+    "desc": "VILLAGGIO Z",
+    "code": "MO3682",
+    "islast": false
+  },
+  {
+    "desc": "Formigina bv Cannizzaro",
+    "code": "MO6733",
+    "islast": false
+  },
+  {
+    "desc": "Formigina bv Lagrange",
+    "code": "MO6731",
+    "islast": false
+  },
+  {
+    "desc": "Formigina bv Corassori",
+    "code": "MO6729",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Guarini",
+    "code": "MO2887",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Cattaneo",
+    "code": "MO2885",
+    "islast": false
+  },
+  {
+    "desc": "Marconi bv Corassori",
+    "code": "MO6717",
+    "islast": false
+  },
+  {
+    "desc": "Palestra San Faustino",
+    "code": "MO6711",
+    "islast": false
+  },
+  {
+    "desc": "Luosi bv San Faustino",
+    "code": "MO6713",
+    "islast": false
+  },
+  {
+    "desc": "Luosi bv Fattori",
+    "code": "MO6709",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Fermi",
+    "code": "MO6720",
+    "islast": false
+  },
+  {
+    "desc": "Barozzi bv Rangoni",
+    "code": "MO6705",
+    "islast": false
+  },
+  {
+    "desc": "Barozzi bv Setti",
+    "code": "MO6703",
+    "islast": false
+  },
+  {
+    "desc": "Barozzi Planetario",
+    "code": "MO6700",
+    "islast": false
+  },
+  {
+    "desc": "MODENA  AUTOSTAZIONE",
+    "code": "MO6121",
+    "islast": false
+  },
+  {
+    "desc": "Ospedale Sant'Agostino",
+    "code": "MO6110",
+    "islast": false
+  },
+  {
+    "desc": "Berengario Universita'",
+    "code": "MO6113",
+    "islast": false
+  },
+  {
+    "desc": "Fontanelli",
+    "code": "MO6115",
+    "islast": false
+  },
+  {
+    "desc": "Monte Kosica bv Ganaceto",
+    "code": "MO6117",
+    "islast": false
+  },
+  {
+    "desc": "STAZIONE FS",
+    "code": "MO6134",
+    "islast": false
+  },
+  {
+    "desc": "Caduti in guerra Tempio",
+    "code": "MO6148",
+    "islast": false
+  },
+  {
+    "desc": "Caduti in guerra giardini",
+    "code": "MO6182",
+    "islast": false
+  },
+  {
+    "desc": "Caduti in guerra orto botanico",
+    "code": "MO6150",
+    "islast": false
+  },
+  {
+    "desc": "Grimelli",
+    "code": "MO3480",
+    "islast": false
+  },
+  {
+    "desc": "Tagliazucchi",
+    "code": "MO6175",
+    "islast": false
+  },
+  {
+    "desc": "Puccini bv Verdi",
+    "code": "MO6203",
+    "islast": false
+  },
+  {
+    "desc": "Puccini bv S. Giovanni Bosco",
+    "code": "MO6205",
+    "islast": false
+  },
+  {
+    "desc": "Bonacini",
+    "code": "MO6208",
+    "islast": false
+  },
+  {
+    "desc": "Pelusia",
+    "code": "MO6207",
+    "islast": false
+  },
+  {
+    "desc": "Pelusia AUSL",
+    "code": "MO3801",
+    "islast": false
+  },
+  {
+    "desc": "Saliceto Panaro bv Borri",
+    "code": "MO92",
+    "islast": false
+  },
+  {
+    "desc": "Pancaldi bv Cimarosa",
+    "code": "MO6322",
+    "islast": false
+  },
+  {
+    "desc": "Pancaldi bv Ponchielli",
+    "code": "MO6325",
+    "islast": false
+  },
+  {
+    "desc": "Toscanini",
+    "code": "MO6366",
+    "islast": false
+  },
+  {
+    "desc": "Direzionale Toscanini",
+    "code": "MO6344",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est bv Fusco",
+    "code": "MO6398",
+    "islast": false
+  },
+  {
+    "desc": "Respighi",
+    "code": "MO6348",
+    "islast": false
+  },
+  {
+    "desc": "Marinuzzi bv Scarlatti",
+    "code": "MO6350",
+    "islast": false
+  },
+  {
+    "desc": "Degli Scarlatti",
+    "code": "MO98",
+    "islast": false
+  },
+  {
+    "desc": "9 Gennaio 1950",
+    "code": "MO97",
+    "islast": false
+  },
+  {
+    "desc": "Caduti sul Lavoro bv Wagner",
+    "code": "MO6353",
+    "islast": false
+  },
+  {
+    "desc": "MARINUZZI",
+    "code": "MO2703",
+    "islast": true
+  }
+]

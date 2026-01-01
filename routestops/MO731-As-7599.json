@@ -1,0 +1,222 @@
+[
+  {
+    "desc": "Vignola Autostazione",
+    "code": "MO4506",
+    "islast": false
+  },
+  {
+    "desc": "La Vigna",
+    "code": "MO2410",
+    "islast": false
+  },
+  {
+    "desc": "Il Gessiere",
+    "code": "MO4608",
+    "islast": false
+  },
+  {
+    "desc": "Barozzi scuola",
+    "code": "MO4603",
+    "islast": false
+  },
+  {
+    "desc": "Vignola centro",
+    "code": "MO3709",
+    "islast": false
+  },
+  {
+    "desc": "Vignola FP",
+    "code": "MO3707",
+    "islast": false
+  },
+  {
+    "desc": "Vignola cimitero",
+    "code": "MO3703",
+    "islast": false
+  },
+  {
+    "desc": "Tassoni",
+    "code": "MO3701",
+    "islast": false
+  },
+  {
+    "desc": "Brodano",
+    "code": "MO4614",
+    "islast": false
+  },
+  {
+    "desc": "Centro commerciale",
+    "code": "MO3261",
+    "islast": false
+  },
+  {
+    "desc": "Confine",
+    "code": "MO2040",
+    "islast": false
+  },
+  {
+    "desc": "Sitma",
+    "code": "MO2701",
+    "islast": false
+  },
+  {
+    "desc": "San Pellegrino",
+    "code": "MO2036",
+    "islast": false
+  },
+  {
+    "desc": "Spilamberto",
+    "code": "MO4500",
+    "islast": false
+  },
+  {
+    "desc": "Berlinguer",
+    "code": "MO2987",
+    "islast": false
+  },
+  {
+    "desc": "Cellini",
+    "code": "MO4504",
+    "islast": false
+  },
+  {
+    "desc": "Baranzona",
+    "code": "MO1716",
+    "islast": false
+  },
+  {
+    "desc": "Sant'Eusebio",
+    "code": "MO1720",
+    "islast": false
+  },
+  {
+    "desc": "Belvedere",
+    "code": "MO1722",
+    "islast": false
+  },
+  {
+    "desc": "Settecani",
+    "code": "MO1710",
+    "islast": false
+  },
+  {
+    "desc": "Castelnuovo Case Nuove",
+    "code": "MO4073",
+    "islast": false
+  },
+  {
+    "desc": "Acquedotto",
+    "code": "MO1690",
+    "islast": false
+  },
+  {
+    "desc": "Castelnuovo Rangone",
+    "code": "MO2919",
+    "islast": false
+  },
+  {
+    "desc": "Vilco",
+    "code": "MO1688",
+    "islast": false
+  },
+  {
+    "desc": "Cabianca",
+    "code": "MO1448",
+    "islast": false
+  },
+  {
+    "desc": "Portile Madonnina",
+    "code": "MO1446",
+    "islast": false
+  },
+  {
+    "desc": "Portile centro",
+    "code": "MO1450",
+    "islast": false
+  },
+  {
+    "desc": "Portile farmacia",
+    "code": "MO2328",
+    "islast": false
+  },
+  {
+    "desc": "Paganine centro",
+    "code": "MO724",
+    "islast": false
+  },
+  {
+    "desc": "Paganine Unibon",
+    "code": "MO3310",
+    "islast": false
+  },
+  {
+    "desc": "Gherbella",
+    "code": "MO3311",
+    "islast": false
+  },
+  {
+    "desc": "Gherbella 1",
+    "code": "MO2235",
+    "islast": false
+  },
+  {
+    "desc": "Gherbella 2",
+    "code": "MO2222",
+    "islast": false
+  },
+  {
+    "desc": "VACIGLIO",
+    "code": "MO697",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese Istituto",
+    "code": "MO669",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese bv Saluzzo",
+    "code": "MO2741",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese Universita",
+    "code": "MO671",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese bv La Spezia",
+    "code": "MO673",
+    "islast": false
+  },
+  {
+    "desc": "Medaglie D'oro bv Bellinzona",
+    "code": "MO2791",
+    "islast": false
+  },
+  {
+    "desc": "GARIBALDI",
+    "code": "MO5112",
+    "islast": false
+  },
+  {
+    "desc": "Rimembranze ex Questura",
+    "code": "MO12",
+    "islast": false
+  },
+  {
+    "desc": "Risorgimento",
+    "code": "MO4",
+    "islast": false
+  },
+  {
+    "desc": "Ospedale Estense",
+    "code": "MO2594",
+    "islast": false
+  },
+  {
+    "desc": "MODENA AUTOSTAZIONE",
+    "code": "MO350",
+    "islast": true
+  }
+]

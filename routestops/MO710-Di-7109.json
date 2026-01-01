@@ -1,0 +1,107 @@
+[
+  {
+    "desc": "Guiglia centro",
+    "code": "MO1700",
+    "islast": false
+  },
+  {
+    "desc": "Guiglia via Repubblica",
+    "code": "MO2408",
+    "islast": false
+  },
+  {
+    "desc": "Braglia",
+    "code": "MO1384",
+    "islast": false
+  },
+  {
+    "desc": "bv San Rocco",
+    "code": "MO3513",
+    "islast": false
+  },
+  {
+    "desc": "Oratorio",
+    "code": "MO1385",
+    "islast": false
+  },
+  {
+    "desc": "Monteorsello",
+    "code": "MO1386",
+    "islast": false
+  },
+  {
+    "desc": "Monte Cresce",
+    "code": "MO1387",
+    "islast": false
+  },
+  {
+    "desc": "Tagliata",
+    "code": "MO1388",
+    "islast": false
+  },
+  {
+    "desc": "Rocca Malatina",
+    "code": "MO1389",
+    "islast": false
+  },
+  {
+    "desc": "Casa Sassi",
+    "code": "MO1395",
+    "islast": false
+  },
+  {
+    "desc": "Montecorone bv",
+    "code": "MO1397",
+    "islast": false
+  },
+  {
+    "desc": "Casa Spina",
+    "code": "MO1401",
+    "islast": false
+  },
+  {
+    "desc": "Casa Paderno",
+    "code": "MO1405",
+    "islast": false
+  },
+  {
+    "desc": "Acqua Sulfurea bv",
+    "code": "MO1407",
+    "islast": false
+  },
+  {
+    "desc": "Montecorone",
+    "code": "MO1408",
+    "islast": false
+  },
+  {
+    "desc": "Braglie 1265",
+    "code": "MO1409",
+    "islast": false
+  },
+  {
+    "desc": "Braglie 518",
+    "code": "MO1411",
+    "islast": false
+  },
+  {
+    "desc": "Portichetto",
+    "code": "MO1414",
+    "islast": false
+  },
+  {
+    "desc": "Casetta di sopra",
+    "code": "MO2711",
+    "islast": false
+  },
+  {
+    "desc": "Campo Sportivo",
+    "code": "MO2714",
+    "islast": false
+  },
+  {
+    "desc": "Monteombraro Serre",
+    "code": "MO2010",
+    "islast": true
+  }
+]

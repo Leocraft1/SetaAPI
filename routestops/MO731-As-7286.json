@@ -1,0 +1,157 @@
+[
+  {
+    "desc": "Vignola Autostazione",
+    "code": "MO4506",
+    "islast": false
+  },
+  {
+    "desc": "Vignola tangenziale",
+    "code": "MOTECVI1",
+    "islast": false
+  },
+  {
+    "desc": "Tassoni",
+    "code": "MO3701",
+    "islast": false
+  },
+  {
+    "desc": "Brodano",
+    "code": "MO4614",
+    "islast": false
+  },
+  {
+    "desc": "Centro commerciale",
+    "code": "MO3261",
+    "islast": false
+  },
+  {
+    "desc": "Confine",
+    "code": "MO2040",
+    "islast": false
+  },
+  {
+    "desc": "Sitma",
+    "code": "MO2701",
+    "islast": false
+  },
+  {
+    "desc": "San Pellegrino",
+    "code": "MO2036",
+    "islast": false
+  },
+  {
+    "desc": "Spilamberto",
+    "code": "MO4500",
+    "islast": false
+  },
+  {
+    "desc": "Berlinguer",
+    "code": "MO2987",
+    "islast": false
+  },
+  {
+    "desc": "Cellini",
+    "code": "MO4504",
+    "islast": false
+  },
+  {
+    "desc": "Baranzona",
+    "code": "MO1716",
+    "islast": false
+  },
+  {
+    "desc": "Sant'Eusebio",
+    "code": "MO1720",
+    "islast": false
+  },
+  {
+    "desc": "Belvedere",
+    "code": "MO1722",
+    "islast": false
+  },
+  {
+    "desc": "Settecani",
+    "code": "MO1710",
+    "islast": false
+  },
+  {
+    "desc": "Castelnuovo Case Nuove",
+    "code": "MO4073",
+    "islast": false
+  },
+  {
+    "desc": "Acquedotto",
+    "code": "MO1690",
+    "islast": false
+  },
+  {
+    "desc": "Castelnuovo Rangone",
+    "code": "MO2919",
+    "islast": false
+  },
+  {
+    "desc": "Vilco",
+    "code": "MO1688",
+    "islast": false
+  },
+  {
+    "desc": "Cabianca",
+    "code": "MO1448",
+    "islast": false
+  },
+  {
+    "desc": "Portile Madonnina",
+    "code": "MO1446",
+    "islast": false
+  },
+  {
+    "desc": "Portile centro",
+    "code": "MO1450",
+    "islast": false
+  },
+  {
+    "desc": "Portile farmacia",
+    "code": "MO2328",
+    "islast": false
+  },
+  {
+    "desc": "Botteghetto",
+    "code": "MO1444",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Ghiotto",
+    "code": "MO1442",
+    "islast": false
+  },
+  {
+    "desc": "Cantone di Mugnano",
+    "code": "MO1440",
+    "islast": false
+  },
+  {
+    "desc": "POLO LEONARDO 1",
+    "code": "MO2928",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Guarini",
+    "code": "MO2887",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Cattaneo",
+    "code": "MO2885",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Fermi",
+    "code": "MO6720",
+    "islast": false
+  },
+  {
+    "desc": "MODENA AUTOSTAZIONE",
+    "code": "MO350",
+    "islast": true
+  }
+]

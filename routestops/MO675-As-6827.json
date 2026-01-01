@@ -1,0 +1,107 @@
+[
+  {
+    "desc": "Colombarone",
+    "code": "MO754",
+    "islast": false
+  },
+  {
+    "desc": "Turco",
+    "code": "MO752",
+    "islast": false
+  },
+  {
+    "desc": "Magreta",
+    "code": "MO1510",
+    "islast": false
+  },
+  {
+    "desc": "Magreta crociale",
+    "code": "MO1492",
+    "islast": false
+  },
+  {
+    "desc": "Tabina",
+    "code": "MO1490",
+    "islast": false
+  },
+  {
+    "desc": "Dini bv",
+    "code": "MO1488",
+    "islast": false
+  },
+  {
+    "desc": "Cavezzo",
+    "code": "MO1486",
+    "islast": false
+  },
+  {
+    "desc": "Da Porto bv Cavezzo",
+    "code": "MO3655",
+    "islast": false
+  },
+  {
+    "desc": "Da Porto chiesa",
+    "code": "MO3656",
+    "islast": false
+  },
+  {
+    "desc": "Giardini Simint",
+    "code": "MO667",
+    "islast": false
+  },
+  {
+    "desc": "Giardini Due Mulini",
+    "code": "MO665",
+    "islast": false
+  },
+  {
+    "desc": "Saliceta San Giuliano",
+    "code": "MO663",
+    "islast": false
+  },
+  {
+    "desc": "Giardini carcere",
+    "code": "MO2539",
+    "islast": false
+  },
+  {
+    "desc": "Giardini bv Cimabue",
+    "code": "MO3238",
+    "islast": false
+  },
+  {
+    "desc": "Giardini bv Cimabue 1",
+    "code": "MO3681",
+    "islast": false
+  },
+  {
+    "desc": "Direzionale 70",
+    "code": "MO2827",
+    "islast": false
+  },
+  {
+    "desc": "Croce Blu",
+    "code": "MO662",
+    "islast": false
+  },
+  {
+    "desc": "Teatro Michelangelo",
+    "code": "MO6",
+    "islast": false
+  },
+  {
+    "desc": "Risorgimento",
+    "code": "MO4",
+    "islast": false
+  },
+  {
+    "desc": "Ospedale Estense",
+    "code": "MO2594",
+    "islast": false
+  },
+  {
+    "desc": "MODENA AUTOSTAZIONE",
+    "code": "MO342",
+    "islast": true
+  }
+]

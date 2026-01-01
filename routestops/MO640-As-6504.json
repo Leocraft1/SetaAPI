@@ -1,0 +1,117 @@
+[
+  {
+    "desc": "MARANELLO TERMINAL",
+    "code": "MO3471",
+    "islast": false
+  },
+  {
+    "desc": "Crociale Maranello",
+    "code": "MO1648",
+    "islast": false
+  },
+  {
+    "desc": "Pozza",
+    "code": "MO829",
+    "islast": false
+  },
+  {
+    "desc": "Ceramica Sant'Anna",
+    "code": "MO1668",
+    "islast": false
+  },
+  {
+    "desc": "Grillenzone bv",
+    "code": "MO1666",
+    "islast": false
+  },
+  {
+    "desc": "Bar Cacciatori Solignano",
+    "code": "MO1679",
+    "islast": false
+  },
+  {
+    "desc": "Solignano",
+    "code": "MO1680",
+    "islast": false
+  },
+  {
+    "desc": "Ca' del Fabbro",
+    "code": "MO1682",
+    "islast": false
+  },
+  {
+    "desc": "Statale 569",
+    "code": "MO2835",
+    "islast": false
+  },
+  {
+    "desc": "Gavello Mulino",
+    "code": "MO1684",
+    "islast": false
+  },
+  {
+    "desc": "Ca' di Sola",
+    "code": "MO1730",
+    "islast": false
+  },
+  {
+    "desc": "Spezzatona",
+    "code": "MO1732",
+    "islast": false
+  },
+  {
+    "desc": "Casone",
+    "code": "MO1734",
+    "islast": false
+  },
+  {
+    "desc": "Castelvetro",
+    "code": "MO800",
+    "islast": false
+  },
+  {
+    "desc": "Giardino",
+    "code": "MO802",
+    "islast": false
+  },
+  {
+    "desc": "Palona",
+    "code": "MO803",
+    "islast": false
+  },
+  {
+    "desc": "Gatta",
+    "code": "MO804",
+    "islast": false
+  },
+  {
+    "desc": "Ca' Molza",
+    "code": "MO4594",
+    "islast": false
+  },
+  {
+    "desc": "San Pietro",
+    "code": "MO4596",
+    "islast": false
+  },
+  {
+    "desc": "Due Ponti",
+    "code": "MO4598",
+    "islast": false
+  },
+  {
+    "desc": "Campiglio bv",
+    "code": "MO4602",
+    "islast": false
+  },
+  {
+    "desc": "La Vigna",
+    "code": "MO4616",
+    "islast": false
+  },
+  {
+    "desc": "Vignola Autostazione",
+    "code": "MO4507",
+    "islast": true
+  }
+]

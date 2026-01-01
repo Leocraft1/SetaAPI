@@ -1,0 +1,152 @@
+[
+  {
+    "desc": "CARPI TERMINAL BUS",
+    "code": "MO403",
+    "islast": false
+  },
+  {
+    "desc": "P.le Ramazzini",
+    "code": "MO466",
+    "islast": false
+  },
+  {
+    "desc": "Stadio",
+    "code": "MO8554",
+    "islast": false
+  },
+  {
+    "desc": "Alghisi 2",
+    "code": "MO8538",
+    "islast": false
+  },
+  {
+    "desc": "Stazione FS",
+    "code": "MO506",
+    "islast": false
+  },
+  {
+    "desc": "Ariosto",
+    "code": "MO8328",
+    "islast": false
+  },
+  {
+    "desc": "Cibeno farmacia",
+    "code": "MO433",
+    "islast": false
+  },
+  {
+    "desc": "Cibeno",
+    "code": "MO437",
+    "islast": false
+  },
+  {
+    "desc": "San Marino bv",
+    "code": "MO439",
+    "islast": false
+  },
+  {
+    "desc": "Cacciatori trattoria",
+    "code": "MO440",
+    "islast": false
+  },
+  {
+    "desc": "Griduzza scuole",
+    "code": "MO1193",
+    "islast": false
+  },
+  {
+    "desc": "San Pellegrino Cortile",
+    "code": "MO1217",
+    "islast": false
+  },
+  {
+    "desc": "Cortile",
+    "code": "MO115",
+    "islast": false
+  },
+  {
+    "desc": "Mulino Cortile",
+    "code": "MO1220",
+    "islast": false
+  },
+  {
+    "desc": "Cortile scuole",
+    "code": "MO1222",
+    "islast": false
+  },
+  {
+    "desc": "San Martino Secchia bv",
+    "code": "MO1224",
+    "islast": false
+  },
+  {
+    "desc": "Castello Fantini",
+    "code": "MO1225",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Motta",
+    "code": "MO1290",
+    "islast": false
+  },
+  {
+    "desc": "Baraccone",
+    "code": "MO1321",
+    "islast": false
+  },
+  {
+    "desc": "Bisighini bv",
+    "code": "MO124",
+    "islast": false
+  },
+  {
+    "desc": "Voltone 1",
+    "code": "MO3643",
+    "islast": false
+  },
+  {
+    "desc": "Voltone",
+    "code": "MO773",
+    "islast": false
+  },
+  {
+    "desc": "Bellicina",
+    "code": "MO777",
+    "islast": false
+  },
+  {
+    "desc": "Cavezzo Autostazione",
+    "code": "MO490",
+    "islast": false
+  },
+  {
+    "desc": "Santa Liberata",
+    "code": "MO527",
+    "islast": false
+  },
+  {
+    "desc": "San Giacomo Roncole",
+    "code": "MO1030",
+    "islast": false
+  },
+  {
+    "desc": "Fontana maglificio",
+    "code": "MO521",
+    "islast": false
+  },
+  {
+    "desc": "Carrozzeria Barbi",
+    "code": "MO1064",
+    "islast": false
+  },
+  {
+    "desc": "Barozzi scuole",
+    "code": "MO1187",
+    "islast": false
+  },
+  {
+    "desc": "Mirandola Terminal",
+    "code": "MO3972",
+    "islast": true
+  }
+]

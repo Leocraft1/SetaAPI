@@ -1,0 +1,87 @@
+[
+  {
+    "desc": "Virgilio capolinea",
+    "code": "MO6873",
+    "islast": false
+  },
+  {
+    "desc": "ovidio 1",
+    "code": "MO6876",
+    "islast": false
+  },
+  {
+    "desc": "ovidio 2",
+    "code": "MO6877",
+    "islast": false
+  },
+  {
+    "desc": "Virgilio Metro",
+    "code": "MO6875",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest Bruciata",
+    "code": "MO1177",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest Comet",
+    "code": "MO6865",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest Orlandi",
+    "code": "MO6835",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest Globo",
+    "code": "MO6837",
+    "islast": false
+  },
+  {
+    "desc": "Centro Senada",
+    "code": "MO6833",
+    "islast": false
+  },
+  {
+    "desc": "Centro Commerciale 2000",
+    "code": "MO6891",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest Hotel Eden",
+    "code": "MO6829",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest Madonnina",
+    "code": "MO52",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest bv Autodromo",
+    "code": "MO48",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest bv Ruffini",
+    "code": "MO6823",
+    "islast": false
+  },
+  {
+    "desc": "Caserma Pisacane",
+    "code": "MO6821",
+    "islast": false
+  },
+  {
+    "desc": "Palazzo Europa",
+    "code": "MO6819",
+    "islast": false
+  },
+  {
+    "desc": "MODENA  AUTOSTAZIONE",
+    "code": "MO6120",
+    "islast": true
+  }
+]

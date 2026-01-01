@@ -1,0 +1,27 @@
+[
+  {
+    "desc": "MARANELLO TERMINAL",
+    "code": "MO3599",
+    "islast": false
+  },
+  {
+    "desc": "Maranello Grizzaga",
+    "code": "MO3239",
+    "islast": false
+  },
+  {
+    "desc": "Maranello T. Speri",
+    "code": "MO3456",
+    "islast": false
+  },
+  {
+    "desc": "Maranello Alta",
+    "code": "MO1009",
+    "islast": false
+  },
+  {
+    "desc": "Gorzano 1",
+    "code": "MO1980",
+    "islast": true
+  }
+]

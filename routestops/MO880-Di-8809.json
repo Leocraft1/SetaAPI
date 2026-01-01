@@ -1,0 +1,47 @@
+[
+  {
+    "desc": "Villa Pineta",
+    "code": "MO3259",
+    "islast": false
+  },
+  {
+    "desc": "Gaiato poste",
+    "code": "MO3252",
+    "islast": false
+  },
+  {
+    "desc": "Albareto di Pavullo",
+    "code": "MO3251",
+    "islast": false
+  },
+  {
+    "desc": "Pozzaccia",
+    "code": "MO3250",
+    "islast": false
+  },
+  {
+    "desc": "Gaiato bv",
+    "code": "MO1829",
+    "islast": false
+  },
+  {
+    "desc": "Querciagrossa",
+    "code": "MO3240",
+    "islast": false
+  },
+  {
+    "desc": "Campo D'Aviazione",
+    "code": "MO2482",
+    "islast": false
+  },
+  {
+    "desc": "San Pellegrino",
+    "code": "MO2480",
+    "islast": false
+  },
+  {
+    "desc": "Pavullo Autostazione",
+    "code": "MO3000",
+    "islast": true
+  }
+]

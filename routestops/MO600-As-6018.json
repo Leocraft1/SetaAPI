@@ -1,0 +1,262 @@
+[
+  {
+    "desc": "Frassinoro",
+    "code": "MO3631",
+    "islast": false
+  },
+  {
+    "desc": "Tennis bar",
+    "code": "MO1602",
+    "islast": false
+  },
+  {
+    "desc": "Aradonica",
+    "code": "MO3098",
+    "islast": false
+  },
+  {
+    "desc": "Rimessa",
+    "code": "MO3096",
+    "islast": false
+  },
+  {
+    "desc": "Tolara",
+    "code": "MO3094",
+    "islast": false
+  },
+  {
+    "desc": "La Serra",
+    "code": "MO3092",
+    "islast": false
+  },
+  {
+    "desc": "Serradimigni",
+    "code": "MO3090",
+    "islast": false
+  },
+  {
+    "desc": "Lavacchio",
+    "code": "MO2974",
+    "islast": false
+  },
+  {
+    "desc": "Campo Cardero",
+    "code": "MO2972",
+    "islast": false
+  },
+  {
+    "desc": "La Verna",
+    "code": "MO2970",
+    "islast": false
+  },
+  {
+    "desc": "Casa Bocchi",
+    "code": "MO2968",
+    "islast": false
+  },
+  {
+    "desc": "Traghetti",
+    "code": "MO2966",
+    "islast": false
+  },
+  {
+    "desc": "Casa Gigli",
+    "code": "MO2964",
+    "islast": false
+  },
+  {
+    "desc": "Pianellino",
+    "code": "MO2962",
+    "islast": false
+  },
+  {
+    "desc": "Montefiorino",
+    "code": "MO2500",
+    "islast": false
+  },
+  {
+    "desc": "Ca' Bocci",
+    "code": "MO1485",
+    "islast": false
+  },
+  {
+    "desc": "Saletto",
+    "code": "MO1484",
+    "islast": false
+  },
+  {
+    "desc": "Casa Nuova Saletto",
+    "code": "MO1487",
+    "islast": false
+  },
+  {
+    "desc": "Gusciola",
+    "code": "MO1489",
+    "islast": false
+  },
+  {
+    "desc": "Mulino Porcella",
+    "code": "MO1491",
+    "islast": false
+  },
+  {
+    "desc": "Farneta",
+    "code": "MO1493",
+    "islast": false
+  },
+  {
+    "desc": "Farneta",
+    "code": "MO2880",
+    "islast": false
+  },
+  {
+    "desc": "Mulino Porcella",
+    "code": "MO2878",
+    "islast": false
+  },
+  {
+    "desc": "Gusciola",
+    "code": "MO2876",
+    "islast": false
+  },
+  {
+    "desc": "Casa Nuova Saletto",
+    "code": "MO2874",
+    "islast": false
+  },
+  {
+    "desc": "Pieve",
+    "code": "MO2860",
+    "islast": false
+  },
+  {
+    "desc": "Albero",
+    "code": "MO2858",
+    "islast": false
+  },
+  {
+    "desc": "Rubbiano",
+    "code": "MO2856",
+    "islast": false
+  },
+  {
+    "desc": "Rubbiano bv",
+    "code": "MO2850",
+    "islast": false
+  },
+  {
+    "desc": "Case Nuove",
+    "code": "MO2834",
+    "islast": false
+  },
+  {
+    "desc": "Montestefano",
+    "code": "MO2833",
+    "islast": false
+  },
+  {
+    "desc": "Casa Quaranta",
+    "code": "MO2832",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Dolo",
+    "code": "MO2830",
+    "islast": false
+  },
+  {
+    "desc": "Le Buche",
+    "code": "MO2059",
+    "islast": false
+  },
+  {
+    "desc": "Ca' Cerredolo",
+    "code": "MO2069",
+    "islast": false
+  },
+  {
+    "desc": "Cerredolo",
+    "code": "MO1839",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Secchia",
+    "code": "MO2242",
+    "islast": false
+  },
+  {
+    "desc": "Poggio del Bue",
+    "code": "MO2062",
+    "islast": false
+  },
+  {
+    "desc": "Muraglione",
+    "code": "MO2063",
+    "islast": false
+  },
+  {
+    "desc": "La Pesa",
+    "code": "MO2065",
+    "islast": false
+  },
+  {
+    "desc": "Casa Nuova",
+    "code": "MO1844",
+    "islast": false
+  },
+  {
+    "desc": "Cavriana",
+    "code": "MO1846",
+    "islast": false
+  },
+  {
+    "desc": "Villabianca",
+    "code": "MO1835",
+    "islast": false
+  },
+  {
+    "desc": "Castellarano",
+    "code": "MO1850",
+    "islast": false
+  },
+  {
+    "desc": "Villaggio",
+    "code": "MO1852",
+    "islast": false
+  },
+  {
+    "desc": "Tressano",
+    "code": "MO1856",
+    "islast": false
+  },
+  {
+    "desc": "Tressano fornace",
+    "code": "MO811",
+    "islast": false
+  },
+  {
+    "desc": "Veggia ceramica",
+    "code": "MO809",
+    "islast": false
+  },
+  {
+    "desc": "Veggia",
+    "code": "MO1760",
+    "islast": false
+  },
+  {
+    "desc": "Ancora bv",
+    "code": "MO1570",
+    "islast": false
+  },
+  {
+    "desc": "Radici in Monte bv Liberta",
+    "code": "MO2391",
+    "islast": false
+  },
+  {
+    "desc": "Sassuolo Terminal",
+    "code": "MO4000",
+    "islast": true
+  }
+]

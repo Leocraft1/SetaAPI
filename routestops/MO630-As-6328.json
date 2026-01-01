@@ -1,0 +1,262 @@
+[
+  {
+    "desc": "Serramazzoni",
+    "code": "MO4200",
+    "islast": false
+  },
+  {
+    "desc": "Faeto bv",
+    "code": "MO2160",
+    "islast": false
+  },
+  {
+    "desc": "Bar Carbonara",
+    "code": "MO2132",
+    "islast": false
+  },
+  {
+    "desc": "San Pellegrinetto",
+    "code": "MO2130",
+    "islast": false
+  },
+  {
+    "desc": "La Borra",
+    "code": "MO1149",
+    "islast": false
+  },
+  {
+    "desc": "Casa Matteazzi bv",
+    "code": "MO1148",
+    "islast": false
+  },
+  {
+    "desc": "Moncerato",
+    "code": "MO1147",
+    "islast": false
+  },
+  {
+    "desc": "Moncerato chiesa",
+    "code": "MO3323",
+    "islast": false
+  },
+  {
+    "desc": "La Pietra",
+    "code": "MO1146",
+    "islast": false
+  },
+  {
+    "desc": "La Pietra 2",
+    "code": "MO1152",
+    "islast": false
+  },
+  {
+    "desc": "Casa Bortolini",
+    "code": "MO1145",
+    "islast": false
+  },
+  {
+    "desc": "Riviera",
+    "code": "MO1144",
+    "islast": false
+  },
+  {
+    "desc": "Casa Trinelli",
+    "code": "MO1896",
+    "islast": false
+  },
+  {
+    "desc": "Prignano Poste",
+    "code": "MO1897",
+    "islast": false
+  },
+  {
+    "desc": "Prignano",
+    "code": "MO3301",
+    "islast": false
+  },
+  {
+    "desc": "Prignano Secchia",
+    "code": "MO1899",
+    "islast": false
+  },
+  {
+    "desc": "Serra di Prignano",
+    "code": "MO3303",
+    "islast": false
+  },
+  {
+    "desc": "Casa Battistini",
+    "code": "MO3304",
+    "islast": false
+  },
+  {
+    "desc": "Canneto",
+    "code": "MO2115",
+    "islast": false
+  },
+  {
+    "desc": "Croce di Canneto",
+    "code": "MO2116",
+    "islast": false
+  },
+  {
+    "desc": "Casa Sartori",
+    "code": "MO2118",
+    "islast": false
+  },
+  {
+    "desc": "Castelvecchio",
+    "code": "MO2120",
+    "islast": false
+  },
+  {
+    "desc": "Poggio Bianco",
+    "code": "MO2122",
+    "islast": false
+  },
+  {
+    "desc": "Casa Tomaria",
+    "code": "MO1853",
+    "islast": false
+  },
+  {
+    "desc": "Ca' Del Bosco",
+    "code": "MO1855",
+    "islast": false
+  },
+  {
+    "desc": "Selpiano",
+    "code": "MO1857",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Legara",
+    "code": "MO1858",
+    "islast": false
+  },
+  {
+    "desc": "Casa Azzoni",
+    "code": "MO1860",
+    "islast": false
+  },
+  {
+    "desc": "Casa Sarto",
+    "code": "MO1866",
+    "islast": false
+  },
+  {
+    "desc": "Fredda",
+    "code": "MO1868",
+    "islast": false
+  },
+  {
+    "desc": "Pescale Enel",
+    "code": "MO1869",
+    "islast": false
+  },
+  {
+    "desc": "Casa Candelli",
+    "code": "MO1872",
+    "islast": false
+  },
+  {
+    "desc": "Casa Botti",
+    "code": "MO1874",
+    "islast": false
+  },
+  {
+    "desc": "Magazzeno",
+    "code": "MO1876",
+    "islast": false
+  },
+  {
+    "desc": "Ardinale",
+    "code": "MO1878",
+    "islast": false
+  },
+  {
+    "desc": "San Michele Centro",
+    "code": "MO2658",
+    "islast": false
+  },
+  {
+    "desc": "San Michele Basso",
+    "code": "MO998",
+    "islast": false
+  },
+  {
+    "desc": "Mulino",
+    "code": "MO999",
+    "islast": false
+  },
+  {
+    "desc": "Vallurbana",
+    "code": "MO917",
+    "islast": false
+  },
+  {
+    "desc": "Superchia",
+    "code": "MO2773",
+    "islast": false
+  },
+  {
+    "desc": "Salvarola bv",
+    "code": "MO916",
+    "islast": false
+  },
+  {
+    "desc": "Salvarola Terme",
+    "code": "MO2461",
+    "islast": false
+  },
+  {
+    "desc": "Casa Serena",
+    "code": "MO2551",
+    "islast": false
+  },
+  {
+    "desc": "Salvarola Terme",
+    "code": "MO1890",
+    "islast": false
+  },
+  {
+    "desc": "Varana bv",
+    "code": "MO1780",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Nuovo",
+    "code": "MO909",
+    "islast": false
+  },
+  {
+    "desc": "Montanara",
+    "code": "MO908",
+    "islast": false
+  },
+  {
+    "desc": "Indipendenza ex Questura",
+    "code": "MO906",
+    "islast": false
+  },
+  {
+    "desc": "Bologna scuole",
+    "code": "MO904",
+    "islast": false
+  },
+  {
+    "desc": "Radici in Monte bv Magenta",
+    "code": "MO2401",
+    "islast": false
+  },
+  {
+    "desc": "Radici in Monte bv Liberta",
+    "code": "MO2391",
+    "islast": false
+  },
+  {
+    "desc": "Sassuolo Terminal",
+    "code": "MO4000",
+    "islast": true
+  }
+]

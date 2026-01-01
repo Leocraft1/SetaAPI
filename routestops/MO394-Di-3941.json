@@ -1,0 +1,242 @@
+[
+  {
+    "desc": "POLO LEONARDO",
+    "code": "MO6783",
+    "islast": false
+  },
+  {
+    "desc": "POLO LEONARDO 1",
+    "code": "MO2928",
+    "islast": false
+  },
+  {
+    "desc": "Da Vinci bv Newton",
+    "code": "MO6725",
+    "islast": false
+  },
+  {
+    "desc": "Da Vinci bv Curie",
+    "code": "MO2891",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Guarini",
+    "code": "MO2887",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Cattaneo",
+    "code": "MO2885",
+    "islast": false
+  },
+  {
+    "desc": "Croce Blu",
+    "code": "MO1346",
+    "islast": false
+  },
+  {
+    "desc": "Direzionale 70",
+    "code": "MO6611",
+    "islast": false
+  },
+  {
+    "desc": "Giardini bv Cimabue 1",
+    "code": "MO3237",
+    "islast": false
+  },
+  {
+    "desc": "Giardini bv Cimabue",
+    "code": "MO24",
+    "islast": false
+  },
+  {
+    "desc": "Panni bv Giambellino",
+    "code": "MO2615",
+    "islast": false
+  },
+  {
+    "desc": "MATTARELLA",
+    "code": "MO233",
+    "islast": false
+  },
+  {
+    "desc": "Casalegno rotonda",
+    "code": "MO6573",
+    "islast": false
+  },
+  {
+    "desc": "Dalla Chiesa bv Tobagi",
+    "code": "MO2804",
+    "islast": false
+  },
+  {
+    "desc": "Dalla Chiesa bv Ghiaroni",
+    "code": "MO2803",
+    "islast": false
+  },
+  {
+    "desc": "Liguria",
+    "code": "MO2802",
+    "islast": false
+  },
+  {
+    "desc": "Magenta bv del Garda",
+    "code": "MO2801",
+    "islast": false
+  },
+  {
+    "desc": "Magenta bv Vigevano",
+    "code": "MO2799",
+    "islast": false
+  },
+  {
+    "desc": "Pavia bv Milano",
+    "code": "MO2798",
+    "islast": false
+  },
+  {
+    "desc": "Morane bv Pavia",
+    "code": "MO2797",
+    "islast": false
+  },
+  {
+    "desc": "Morane Hesperia",
+    "code": "MO2796",
+    "islast": false
+  },
+  {
+    "desc": "Morane bv Bolzano",
+    "code": "MO88",
+    "islast": false
+  },
+  {
+    "desc": "Morane bv Gobetti",
+    "code": "MO2794",
+    "islast": false
+  },
+  {
+    "desc": "Morane bv Bellincini",
+    "code": "MO2789",
+    "islast": false
+  },
+  {
+    "desc": "Morane bv Sigonio",
+    "code": "MO112",
+    "islast": false
+  },
+  {
+    "desc": "Parco della creativita",
+    "code": "MO7042",
+    "islast": false
+  },
+  {
+    "desc": "Sigonio bv Tamburini",
+    "code": "MO2776",
+    "islast": false
+  },
+  {
+    "desc": "Sigonio bv Guarini",
+    "code": "MO2848",
+    "islast": false
+  },
+  {
+    "desc": "Pietro Giannone",
+    "code": "MO6647",
+    "islast": false
+  },
+  {
+    "desc": "Rimembranze bv Canalchiaro",
+    "code": "MO6166",
+    "islast": false
+  },
+  {
+    "desc": "Rimembranze bv Selmi",
+    "code": "MO6165",
+    "islast": false
+  },
+  {
+    "desc": "Rimembranze ex Questura",
+    "code": "MO42",
+    "islast": false
+  },
+  {
+    "desc": "Prefettura",
+    "code": "MO6156",
+    "islast": false
+  },
+  {
+    "desc": "GARIBALDI",
+    "code": "MO9",
+    "islast": false
+  },
+  {
+    "desc": "Caduti in guerra",
+    "code": "MO2589",
+    "islast": false
+  },
+  {
+    "desc": "Caduti in guerra orto botanico",
+    "code": "MO2596",
+    "islast": false
+  },
+  {
+    "desc": "Caduti in guerra giardini",
+    "code": "MO2611",
+    "islast": false
+  },
+  {
+    "desc": "Caduti in guerra Tempio",
+    "code": "MO2587",
+    "islast": false
+  },
+  {
+    "desc": "Attiraglio",
+    "code": "MO556",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana scuole",
+    "code": "MO2625",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana bv Cuboni",
+    "code": "MO2627",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana bv Crocetta",
+    "code": "MO2629",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana",
+    "code": "MO143",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana Torrenova",
+    "code": "MO2616",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana bv Mar Adriatico",
+    "code": "MO332",
+    "islast": false
+  },
+  {
+    "desc": "Montefiorino bv dell'Ossola",
+    "code": "MO2617",
+    "islast": false
+  },
+  {
+    "desc": "Montefiorino 2",
+    "code": "MO79",
+    "islast": false
+  },
+  {
+    "desc": "Santa Caterina",
+    "code": "MO2845",
+    "islast": true
+  }
+]

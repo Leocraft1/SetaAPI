@@ -1,0 +1,247 @@
+[
+  {
+    "desc": "Sestola",
+    "code": "MO4300",
+    "islast": false
+  },
+  {
+    "desc": "Vivaio",
+    "code": "MO3564",
+    "islast": false
+  },
+  {
+    "desc": "Sestola cimitero",
+    "code": "MO2259",
+    "islast": false
+  },
+  {
+    "desc": "Sestola bv scuole",
+    "code": "MO2439",
+    "islast": false
+  },
+  {
+    "desc": "Poggioraso",
+    "code": "MO3650",
+    "islast": false
+  },
+  {
+    "desc": "Elisoccorso",
+    "code": "MO3575",
+    "islast": false
+  },
+  {
+    "desc": "Tintoria",
+    "code": "MO3648",
+    "islast": false
+  },
+  {
+    "desc": "Squizza",
+    "code": "MO3646",
+    "islast": false
+  },
+  {
+    "desc": "Casa Manfrinai",
+    "code": "MO3644",
+    "islast": false
+  },
+  {
+    "desc": "Cima Lotta",
+    "code": "MO3642",
+    "islast": false
+  },
+  {
+    "desc": "Monte di Sopra",
+    "code": "MO1102",
+    "islast": false
+  },
+  {
+    "desc": "Fanano",
+    "code": "MO1100",
+    "islast": false
+  },
+  {
+    "desc": "Ospitale bv",
+    "code": "MO3617",
+    "islast": false
+  },
+  {
+    "desc": "Fanano zona artigianale",
+    "code": "MO1101",
+    "islast": false
+  },
+  {
+    "desc": "Santa Croce",
+    "code": "MO3618",
+    "islast": false
+  },
+  {
+    "desc": "Casa Pilino",
+    "code": "MO3612",
+    "islast": false
+  },
+  {
+    "desc": "Rocchetta Sandri bv",
+    "code": "MO3610",
+    "islast": false
+  },
+  {
+    "desc": "Ca' Ivo",
+    "code": "MO3613",
+    "islast": false
+  },
+  {
+    "desc": "Casa Mazzini",
+    "code": "MO3614",
+    "islast": false
+  },
+  {
+    "desc": "Cartiera",
+    "code": "MO3615",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Scoltenna",
+    "code": "MO3620",
+    "islast": false
+  },
+  {
+    "desc": "Baita Panaro",
+    "code": "MO3348",
+    "islast": false
+  },
+  {
+    "desc": "La Borra",
+    "code": "MO3346",
+    "islast": false
+  },
+  {
+    "desc": "Il Frantoio",
+    "code": "MO3345",
+    "islast": false
+  },
+  {
+    "desc": "Chiozzo",
+    "code": "MO3344",
+    "islast": false
+  },
+  {
+    "desc": "Lido Panaro",
+    "code": "MO3342",
+    "islast": false
+  },
+  {
+    "desc": "Ristorante Martino",
+    "code": "MO3340",
+    "islast": false
+  },
+  {
+    "desc": "Verica casa cantoniera",
+    "code": "MO3352",
+    "islast": false
+  },
+  {
+    "desc": "Casolare",
+    "code": "MO3354",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Samone",
+    "code": "MO1334",
+    "islast": false
+  },
+  {
+    "desc": "Molino Palette",
+    "code": "MO2416",
+    "islast": false
+  },
+  {
+    "desc": "Casa Giannini",
+    "code": "MO2415",
+    "islast": false
+  },
+  {
+    "desc": "Festa casa cantoniera",
+    "code": "MO2414",
+    "islast": false
+  },
+  {
+    "desc": "Casa Bonetti",
+    "code": "MO2412",
+    "islast": false
+  },
+  {
+    "desc": "Casona bv",
+    "code": "MO2430",
+    "islast": false
+  },
+  {
+    "desc": "Casona",
+    "code": "MO2432",
+    "islast": false
+  },
+  {
+    "desc": "Ristorante Saionara",
+    "code": "MO2433",
+    "islast": false
+  },
+  {
+    "desc": "Provincia 2",
+    "code": "MO2431",
+    "islast": false
+  },
+  {
+    "desc": "Provincia 1",
+    "code": "MO2434",
+    "islast": false
+  },
+  {
+    "desc": "Marano fornace",
+    "code": "MO2435",
+    "islast": false
+  },
+  {
+    "desc": "Via Pavullese",
+    "code": "MO3339",
+    "islast": false
+  },
+  {
+    "desc": "Casa Bonetti 1",
+    "code": "MO2436",
+    "islast": false
+  },
+  {
+    "desc": "Marano",
+    "code": "MO2000",
+    "islast": false
+  },
+  {
+    "desc": "Casa Ricchi",
+    "code": "MO2002",
+    "islast": false
+  },
+  {
+    "desc": "Berso Delle Rose",
+    "code": "MO2003",
+    "islast": false
+  },
+  {
+    "desc": "Tavernelle",
+    "code": "MO2004",
+    "islast": false
+  },
+  {
+    "desc": "Pievina",
+    "code": "MO4610",
+    "islast": false
+  },
+  {
+    "desc": "La Vigna",
+    "code": "MO4616",
+    "islast": false
+  },
+  {
+    "desc": "Vignola Autostazione",
+    "code": "MO4600",
+    "islast": true
+  }
+]

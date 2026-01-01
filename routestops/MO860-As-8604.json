@@ -1,0 +1,52 @@
+[
+  {
+    "desc": "Lama Mocogno",
+    "code": "MO1800",
+    "islast": false
+  },
+  {
+    "desc": "Pradina",
+    "code": "MO3174",
+    "islast": false
+  },
+  {
+    "desc": "Monte Ritorno",
+    "code": "MO3175",
+    "islast": false
+  },
+  {
+    "desc": "Monte Scarpone",
+    "code": "MO3176",
+    "islast": false
+  },
+  {
+    "desc": "Montecenere",
+    "code": "MO3177",
+    "islast": false
+  },
+  {
+    "desc": "Budrigone",
+    "code": "MO3178",
+    "islast": false
+  },
+  {
+    "desc": "Belvedere",
+    "code": "MO3484",
+    "islast": false
+  },
+  {
+    "desc": "Monzone bv",
+    "code": "MO3180",
+    "islast": false
+  },
+  {
+    "desc": "Santa Maria",
+    "code": "MO3267",
+    "islast": false
+  },
+  {
+    "desc": "Monzone",
+    "code": "MO1865",
+    "islast": true
+  }
+]

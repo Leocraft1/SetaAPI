@@ -1,0 +1,187 @@
+[
+  {
+    "desc": "TRE OLMI",
+    "code": "MO6859",
+    "islast": false
+  },
+  {
+    "desc": "Barchetta Tre Olmi centro",
+    "code": "MO6857",
+    "islast": false
+  },
+  {
+    "desc": "Barchetta Progeo",
+    "code": "MO6855",
+    "islast": false
+  },
+  {
+    "desc": "Barchetta allevamento",
+    "code": "MO6851",
+    "islast": false
+  },
+  {
+    "desc": "Barchetta bv Ponte Alto nord",
+    "code": "MO6849",
+    "islast": false
+  },
+  {
+    "desc": "Barchetta bv Monti",
+    "code": "MO6847",
+    "islast": false
+  },
+  {
+    "desc": "Barchetta bv Anesino",
+    "code": "MO6845",
+    "islast": false
+  },
+  {
+    "desc": "Centro Commerciale 2000",
+    "code": "MO3121",
+    "islast": false
+  },
+  {
+    "desc": "D'Avia bv Silone",
+    "code": "MO3115",
+    "islast": false
+  },
+  {
+    "desc": "D'Avia bv Toscanelli",
+    "code": "MO3117",
+    "islast": false
+  },
+  {
+    "desc": "D'AVIA",
+    "code": "MO6888",
+    "islast": false
+  },
+  {
+    "desc": "D'Avia bv Toscanelli",
+    "code": "MO6887",
+    "islast": false
+  },
+  {
+    "desc": "D'Avia bv Silone",
+    "code": "MO6886",
+    "islast": false
+  },
+  {
+    "desc": "Salgari",
+    "code": "MO6846",
+    "islast": false
+  },
+  {
+    "desc": "Barchetta bv Giglio",
+    "code": "MO6841",
+    "islast": false
+  },
+  {
+    "desc": "Barchetta asilo",
+    "code": "MO6839",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest Madonnina",
+    "code": "MO52",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest bv Autodromo",
+    "code": "MO48",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest bv Ruffini",
+    "code": "MO6823",
+    "islast": false
+  },
+  {
+    "desc": "Caserma Pisacane",
+    "code": "MO6821",
+    "islast": false
+  },
+  {
+    "desc": "Palazzo Europa",
+    "code": "MO6819",
+    "islast": false
+  },
+  {
+    "desc": "MODENA  AUTOSTAZIONE",
+    "code": "MO6121",
+    "islast": false
+  },
+  {
+    "desc": "Ospedale Estense",
+    "code": "MO6173",
+    "islast": false
+  },
+  {
+    "desc": "Vittorio Veneto bv Trombi",
+    "code": "MO6171",
+    "islast": false
+  },
+  {
+    "desc": "Risorgimento",
+    "code": "MO20",
+    "islast": false
+  },
+  {
+    "desc": "Rimembranze bv Canalchiaro",
+    "code": "MO6166",
+    "islast": false
+  },
+  {
+    "desc": "Rimembranze bv Selmi",
+    "code": "MO6165",
+    "islast": false
+  },
+  {
+    "desc": "Cinema estivo",
+    "code": "MO6525",
+    "islast": false
+  },
+  {
+    "desc": "Morane bv Sigonio",
+    "code": "MO116",
+    "islast": false
+  },
+  {
+    "desc": "Morane bv Bellincini",
+    "code": "MO6527",
+    "islast": false
+  },
+  {
+    "desc": "Morane bv Gobetti",
+    "code": "MO6539",
+    "islast": false
+  },
+  {
+    "desc": "Morane esselunga",
+    "code": "MO6541",
+    "islast": false
+  },
+  {
+    "desc": "Morane bv Bolzano",
+    "code": "MO87",
+    "islast": false
+  },
+  {
+    "desc": "Morane Hesperia",
+    "code": "MO6543",
+    "islast": false
+  },
+  {
+    "desc": "Morane bv Pavia",
+    "code": "MO6545",
+    "islast": false
+  },
+  {
+    "desc": "Casalegno rotonda",
+    "code": "MO6573",
+    "islast": false
+  },
+  {
+    "desc": "LA TORRE",
+    "code": "MO6559",
+    "islast": true
+  }
+]

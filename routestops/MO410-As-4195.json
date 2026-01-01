@@ -1,0 +1,57 @@
+[
+  {
+    "desc": "Camposanto",
+    "code": "MO3433",
+    "islast": false
+  },
+  {
+    "desc": "Camposanto Cimitero",
+    "code": "MO163",
+    "islast": false
+  },
+  {
+    "desc": "Camposanto Ind.",
+    "code": "MO2246",
+    "islast": false
+  },
+  {
+    "desc": "Sant'Anna",
+    "code": "MO852",
+    "islast": false
+  },
+  {
+    "desc": "Solara",
+    "code": "MO388",
+    "islast": false
+  },
+  {
+    "desc": "San Michele",
+    "code": "MO798",
+    "islast": false
+  },
+  {
+    "desc": "Gorghetto",
+    "code": "MO796",
+    "islast": false
+  },
+  {
+    "desc": "Casa Baraldi",
+    "code": "MO792",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Vecchio",
+    "code": "MO790",
+    "islast": false
+  },
+  {
+    "desc": "Bomporto monumento",
+    "code": "MO770",
+    "islast": false
+  },
+  {
+    "desc": "Bomporto",
+    "code": "MO68",
+    "islast": true
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "desc": "Rastellino Mulino",
+    "code": "MO1312",
+    "islast": false
+  },
+  {
+    "desc": "Riolo",
+    "code": "MO1310",
+    "islast": false
+  },
+  {
+    "desc": "Riolo Mulino",
+    "code": "MO1308",
+    "islast": false
+  },
+  {
+    "desc": "Fossa di Manzolino",
+    "code": "MO659",
+    "islast": false
+  },
+  {
+    "desc": "Manzolino",
+    "code": "MO1330",
+    "islast": false
+  },
+  {
+    "desc": "Fossa di Manzolino",
+    "code": "MO1328",
+    "islast": false
+  },
+  {
+    "desc": "Castelfranco teatro",
+    "code": "MO1468",
+    "islast": true
+  }
+]

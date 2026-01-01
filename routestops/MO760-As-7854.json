@@ -1,0 +1,337 @@
+[
+  {
+    "desc": "Vignola Autostazione",
+    "code": "MO4508",
+    "islast": false
+  },
+  {
+    "desc": "La Vigna",
+    "code": "MO2410",
+    "islast": false
+  },
+  {
+    "desc": "Il Gessiere",
+    "code": "MO4608",
+    "islast": false
+  },
+  {
+    "desc": "Barozzi scuola",
+    "code": "MO4603",
+    "islast": false
+  },
+  {
+    "desc": "Vignola Centro",
+    "code": "MO4601",
+    "islast": false
+  },
+  {
+    "desc": "Formica",
+    "code": "MO1203",
+    "islast": false
+  },
+  {
+    "desc": "Zocca bv",
+    "code": "MO1210",
+    "islast": false
+  },
+  {
+    "desc": "Campiglio bv",
+    "code": "MO2216",
+    "islast": false
+  },
+  {
+    "desc": "Casa Bighini",
+    "code": "MO2214",
+    "islast": false
+  },
+  {
+    "desc": "Doccia",
+    "code": "MO4101",
+    "islast": false
+  },
+  {
+    "desc": "Savignano sul Panaro",
+    "code": "MO4100",
+    "islast": false
+  },
+  {
+    "desc": "Savignano Trattoria",
+    "code": "MO4102",
+    "islast": false
+  },
+  {
+    "desc": "Savignano Mulino",
+    "code": "MO1076",
+    "islast": false
+  },
+  {
+    "desc": "Franchini",
+    "code": "MO1075",
+    "islast": false
+  },
+  {
+    "desc": "Cartiera Santi",
+    "code": "MO947",
+    "islast": false
+  },
+  {
+    "desc": "Perla Verde",
+    "code": "MO944",
+    "islast": false
+  },
+  {
+    "desc": "Marani",
+    "code": "MO943",
+    "islast": false
+  },
+  {
+    "desc": "Magazzino",
+    "code": "MO3541",
+    "islast": false
+  },
+  {
+    "desc": "Magazzino bv",
+    "code": "MO5700",
+    "islast": false
+  },
+  {
+    "desc": "Bazzano zuccherificio",
+    "code": "MO5699",
+    "islast": false
+  },
+  {
+    "desc": "California",
+    "code": "MO1824",
+    "islast": false
+  },
+  {
+    "desc": "Piumazzo stazione",
+    "code": "MO1788",
+    "islast": false
+  },
+  {
+    "desc": "Torrazzo",
+    "code": "MO927",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Fiume",
+    "code": "MO1786",
+    "islast": false
+  },
+  {
+    "desc": "San Cesario Case Nuove",
+    "code": "MO1785",
+    "islast": false
+  },
+  {
+    "desc": "San Cesario scuole",
+    "code": "MO3603",
+    "islast": false
+  },
+  {
+    "desc": "Stazione Bar",
+    "code": "MO3601",
+    "islast": false
+  },
+  {
+    "desc": "San Cesario",
+    "code": "MO3600",
+    "islast": false
+  },
+  {
+    "desc": "Cavalcavia",
+    "code": "MO1394",
+    "islast": false
+  },
+  {
+    "desc": "Cabina",
+    "code": "MO1393",
+    "islast": false
+  },
+  {
+    "desc": "Beccastecca",
+    "code": "MO1392",
+    "islast": false
+  },
+  {
+    "desc": "Loda",
+    "code": "MO7040",
+    "islast": false
+  },
+  {
+    "desc": "Centro commerciale",
+    "code": "MO1391",
+    "islast": false
+  },
+  {
+    "desc": "Castelfranco teatro",
+    "code": "MO1467",
+    "islast": false
+  },
+  {
+    "desc": "Castelfranco FS",
+    "code": "MO491",
+    "islast": false
+  },
+  {
+    "desc": "Castelfranco teatro",
+    "code": "MO1468",
+    "islast": false
+  },
+  {
+    "desc": "Centro commerciale",
+    "code": "MO1438",
+    "islast": false
+  },
+  {
+    "desc": "Ospedale Castelfranco",
+    "code": "MO634",
+    "islast": false
+  },
+  {
+    "desc": "Madonna degli Angeli",
+    "code": "MO1236",
+    "islast": false
+  },
+  {
+    "desc": "Sant'Anna bv",
+    "code": "MO897",
+    "islast": false
+  },
+  {
+    "desc": "Panzano bv",
+    "code": "MO1238",
+    "islast": false
+  },
+  {
+    "desc": "Bottega Nuova",
+    "code": "MO1240",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Sant'Ambrogio",
+    "code": "MO1234",
+    "islast": false
+  },
+  {
+    "desc": "Emila Est Ford",
+    "code": "MO1232",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est  Amadio",
+    "code": "MO263",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est Fossalta",
+    "code": "MO1230",
+    "islast": false
+  },
+  {
+    "desc": "Emilia est Bompani",
+    "code": "MO6369",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est bv Caduti sul Lavoro",
+    "code": "MO85",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est bv Fusco",
+    "code": "MO712",
+    "islast": false
+  },
+  {
+    "desc": "Direzionale Toscanini",
+    "code": "MO2693",
+    "islast": false
+  },
+  {
+    "desc": "Casa dello Studente",
+    "code": "MO6314",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est Mulino",
+    "code": "MO2671",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est Modena 118",
+    "code": "MO2660",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est Hotel Fini",
+    "code": "MO624",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est Finanza",
+    "code": "MO2657",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est bv S.Giovanni Bosco",
+    "code": "MO2656",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est Aci",
+    "code": "MO2654",
+    "islast": false
+  },
+  {
+    "desc": "GARIBALDI",
+    "code": "MO9",
+    "islast": false
+  },
+  {
+    "desc": "Caduti in guerra",
+    "code": "MO2589",
+    "islast": false
+  },
+  {
+    "desc": "Caduti in guerra orto botanico",
+    "code": "MO2596",
+    "islast": false
+  },
+  {
+    "desc": "Caduti in guerra giardini",
+    "code": "MO2611",
+    "islast": false
+  },
+  {
+    "desc": "Caduti in guerra Tempio",
+    "code": "MO2587",
+    "islast": false
+  },
+  {
+    "desc": "Monte Kosica FS",
+    "code": "MO2576",
+    "islast": false
+  },
+  {
+    "desc": "Monte Kosica bv Ganaceto",
+    "code": "MO2575",
+    "islast": false
+  },
+  {
+    "desc": "Monte Kosica stadio",
+    "code": "MO2579",
+    "islast": false
+  },
+  {
+    "desc": "Monte Kosica Barozzi",
+    "code": "MO2578",
+    "islast": false
+  },
+  {
+    "desc": "MODENA AUTOSTAZIONE",
+    "code": "MO3",
+    "islast": true
+  }
+]

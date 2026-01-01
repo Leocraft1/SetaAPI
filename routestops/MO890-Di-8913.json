@@ -1,0 +1,132 @@
+[
+  {
+    "desc": "Sestola",
+    "code": "MO4300",
+    "islast": false
+  },
+  {
+    "desc": "Vivaio",
+    "code": "MO3564",
+    "islast": false
+  },
+  {
+    "desc": "Sestola cimitero",
+    "code": "MO2259",
+    "islast": false
+  },
+  {
+    "desc": "Sestola bv scuole",
+    "code": "MO2439",
+    "islast": false
+  },
+  {
+    "desc": "Poggioraso",
+    "code": "MO3651",
+    "islast": false
+  },
+  {
+    "desc": "Le Pioppe",
+    "code": "MO3652",
+    "islast": false
+  },
+  {
+    "desc": "Famadiccia",
+    "code": "MO3654",
+    "islast": false
+  },
+  {
+    "desc": "Vesale bv",
+    "code": "MO3570",
+    "islast": false
+  },
+  {
+    "desc": "Casa Doddi",
+    "code": "MO2055",
+    "islast": false
+  },
+  {
+    "desc": "Chiesa bv",
+    "code": "MO3579",
+    "islast": false
+  },
+  {
+    "desc": "Chiesa bv",
+    "code": "MO2068",
+    "islast": false
+  },
+  {
+    "desc": "Burgone",
+    "code": "MO2070",
+    "islast": false
+  },
+  {
+    "desc": "Sasso Bianco",
+    "code": "MO3583",
+    "islast": false
+  },
+  {
+    "desc": "Voltata Bagni",
+    "code": "MO3584",
+    "islast": false
+  },
+  {
+    "desc": "Caseificio Rocchetta",
+    "code": "MO3722",
+    "islast": false
+  },
+  {
+    "desc": "Mulino Rocchetta",
+    "code": "MO3585",
+    "islast": false
+  },
+  {
+    "desc": "Casa Nuova",
+    "code": "MO3586",
+    "islast": false
+  },
+  {
+    "desc": "Rocchetta Sandri",
+    "code": "MO3590",
+    "islast": false
+  },
+  {
+    "desc": "Ca' Ciocchi",
+    "code": "MO3607",
+    "islast": false
+  },
+  {
+    "desc": "Trentino bv",
+    "code": "MO2078",
+    "islast": false
+  },
+  {
+    "desc": "Rocchetta Sandri bv",
+    "code": "MO3729",
+    "islast": false
+  },
+  {
+    "desc": "Casa Pilino",
+    "code": "MO2081",
+    "islast": false
+  },
+  {
+    "desc": "Santa Croce",
+    "code": "MO2088",
+    "islast": false
+  },
+  {
+    "desc": "Fanano zona artigianale",
+    "code": "MO581",
+    "islast": false
+  },
+  {
+    "desc": "Ospitale bv",
+    "code": "MO2087",
+    "islast": false
+  },
+  {
+    "desc": "Fanano",
+    "code": "MO1100",
+    "islast": true
+  }
+]

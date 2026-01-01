@@ -1,0 +1,282 @@
+[
+  {
+    "desc": "Pavullo Autostazione",
+    "code": "MO3000",
+    "islast": false
+  },
+  {
+    "desc": "Le Aie",
+    "code": "MO2546",
+    "islast": false
+  },
+  {
+    "desc": "Capanne",
+    "code": "MO2548",
+    "islast": false
+  },
+  {
+    "desc": "Acquabona",
+    "code": "MO2550",
+    "islast": false
+  },
+  {
+    "desc": "Il Ronco",
+    "code": "MO2552",
+    "islast": false
+  },
+  {
+    "desc": "Sant'Antonio",
+    "code": "MO2560",
+    "islast": false
+  },
+  {
+    "desc": "Chiozza",
+    "code": "MO2380",
+    "islast": false
+  },
+  {
+    "desc": "Madonna Baldaccini",
+    "code": "MO2360",
+    "islast": false
+  },
+  {
+    "desc": "Casa Bosi",
+    "code": "MO2357",
+    "islast": false
+  },
+  {
+    "desc": "La Monta",
+    "code": "MO2356",
+    "islast": false
+  },
+  {
+    "desc": "Casa Fontanazzi",
+    "code": "MO2355",
+    "islast": false
+  },
+  {
+    "desc": "Riotorto Selva",
+    "code": "MO2354",
+    "islast": false
+  },
+  {
+    "desc": "Casa Quattrini",
+    "code": "MO2310",
+    "islast": false
+  },
+  {
+    "desc": "Spinara",
+    "code": "MO2312",
+    "islast": false
+  },
+  {
+    "desc": "Serramazzoni",
+    "code": "MO4200",
+    "islast": false
+  },
+  {
+    "desc": "Hermitage",
+    "code": "MO4202",
+    "islast": false
+  },
+  {
+    "desc": "Ligorzano",
+    "code": "MO2174",
+    "islast": false
+  },
+  {
+    "desc": "Fontana",
+    "code": "MO2176",
+    "islast": false
+  },
+  {
+    "desc": "Casa Bartolacelli",
+    "code": "MO2178",
+    "islast": false
+  },
+  {
+    "desc": "Casa Bartolacelli di sotto",
+    "code": "MO3265",
+    "islast": false
+  },
+  {
+    "desc": "Casa Bartolacelli di sotto 1",
+    "code": "MO3260",
+    "islast": false
+  },
+  {
+    "desc": "Stella",
+    "code": "MO2180",
+    "islast": false
+  },
+  {
+    "desc": "Costaglie",
+    "code": "MO2182",
+    "islast": false
+  },
+  {
+    "desc": "Cantoniera",
+    "code": "MO1922",
+    "islast": false
+  },
+  {
+    "desc": "Montardone",
+    "code": "MO1924",
+    "islast": false
+  },
+  {
+    "desc": "Montardoncino",
+    "code": "MO1926",
+    "islast": false
+  },
+  {
+    "desc": "Montagnana di Sopra",
+    "code": "MO1928",
+    "islast": false
+  },
+  {
+    "desc": "Montagnana",
+    "code": "MO1930",
+    "islast": false
+  },
+  {
+    "desc": "Soprataglio",
+    "code": "MO1932",
+    "islast": false
+  },
+  {
+    "desc": "Cavana",
+    "code": "MO1933",
+    "islast": false
+  },
+  {
+    "desc": "Il Poggio",
+    "code": "MO1934",
+    "islast": false
+  },
+  {
+    "desc": "San Venanzio",
+    "code": "MO1940",
+    "islast": false
+  },
+  {
+    "desc": "Cai",
+    "code": "MO1942",
+    "islast": false
+  },
+  {
+    "desc": "San Venanzio svolta",
+    "code": "MO1944",
+    "islast": false
+  },
+  {
+    "desc": "Maranello Vecchia",
+    "code": "MO1904",
+    "islast": false
+  },
+  {
+    "desc": "Maranello Auditorium",
+    "code": "MO3850",
+    "islast": false
+  },
+  {
+    "desc": "Maranello Grizzaga",
+    "code": "MO3457",
+    "islast": false
+  },
+  {
+    "desc": "MARANELLO TERMINAL",
+    "code": "MO3455",
+    "islast": false
+  },
+  {
+    "desc": "Maranello Ferrari Nord",
+    "code": "MO3824",
+    "islast": false
+  },
+  {
+    "desc": "Maranello Bivio Nuvolari",
+    "code": "MO3826",
+    "islast": false
+  },
+  {
+    "desc": "Saime",
+    "code": "MO1644",
+    "islast": false
+  },
+  {
+    "desc": "Saicis",
+    "code": "MO1642",
+    "islast": false
+  },
+  {
+    "desc": "Ubersetto",
+    "code": "MO1640",
+    "islast": false
+  },
+  {
+    "desc": "Picchio Rosso",
+    "code": "MO825",
+    "islast": false
+  },
+  {
+    "desc": "Lar",
+    "code": "MO778",
+    "islast": false
+  },
+  {
+    "desc": "Formigine",
+    "code": "MO735",
+    "islast": false
+  },
+  {
+    "desc": "Molinella",
+    "code": "MO1502",
+    "islast": false
+  },
+  {
+    "desc": "Formigine cartiera",
+    "code": "MO1504",
+    "islast": false
+  },
+  {
+    "desc": "Casinalbo",
+    "code": "MO1530",
+    "islast": false
+  },
+  {
+    "desc": "La Bertola",
+    "code": "MO1428",
+    "islast": false
+  },
+  {
+    "desc": "Baggiovara 1",
+    "code": "MO1480",
+    "islast": false
+  },
+  {
+    "desc": "POLO LEONARDO 1",
+    "code": "MO2928",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Guarini",
+    "code": "MO2887",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Cattaneo",
+    "code": "MO2885",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Fermi",
+    "code": "MO6720",
+    "islast": false
+  },
+  {
+    "desc": "MODENA AUTOSTAZIONE",
+    "code": "MO303",
+    "islast": true
+  }
+]

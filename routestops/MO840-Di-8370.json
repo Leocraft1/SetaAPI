@@ -1,0 +1,47 @@
+[
+  {
+    "desc": "Montecreto forno",
+    "code": "MO4294",
+    "islast": false
+  },
+  {
+    "desc": "Tangenziale Montecreto",
+    "code": "MO3611",
+    "islast": false
+  },
+  {
+    "desc": "Ronco bv",
+    "code": "MO2035",
+    "islast": false
+  },
+  {
+    "desc": "Bandita",
+    "code": "MO2037",
+    "islast": false
+  },
+  {
+    "desc": "Acquaria bv",
+    "code": "MO2039",
+    "islast": false
+  },
+  {
+    "desc": "Roncoscaglia 1",
+    "code": "MO3685",
+    "islast": false
+  },
+  {
+    "desc": "Roncoscaglia",
+    "code": "MO2045",
+    "islast": false
+  },
+  {
+    "desc": "Dogana",
+    "code": "MO2047",
+    "islast": false
+  },
+  {
+    "desc": "Sestola",
+    "code": "MO4300",
+    "islast": true
+  }
+]

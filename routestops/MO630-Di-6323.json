@@ -1,0 +1,252 @@
+[
+  {
+    "desc": "Sassuolo Terminal",
+    "code": "MO2237",
+    "islast": false
+  },
+  {
+    "desc": "Stazione Sassuolo Radici",
+    "code": "MO2388",
+    "islast": false
+  },
+  {
+    "desc": "Radici in Monte bv Magenta",
+    "code": "MO779",
+    "islast": false
+  },
+  {
+    "desc": "Indipendenza",
+    "code": "MO1767",
+    "islast": false
+  },
+  {
+    "desc": "Indipendenza ex Questura",
+    "code": "MO1766",
+    "islast": false
+  },
+  {
+    "desc": "Montanara",
+    "code": "MO1768",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Nuovo",
+    "code": "MO1770",
+    "islast": false
+  },
+  {
+    "desc": "Varana bv",
+    "code": "MO915",
+    "islast": false
+  },
+  {
+    "desc": "Salvarola bv",
+    "code": "MO1782",
+    "islast": false
+  },
+  {
+    "desc": "Superchia",
+    "code": "MO993",
+    "islast": false
+  },
+  {
+    "desc": "Vallurbana",
+    "code": "MO1784",
+    "islast": false
+  },
+  {
+    "desc": "Mulino",
+    "code": "MO1884",
+    "islast": false
+  },
+  {
+    "desc": "San Michele Basso",
+    "code": "MO1882",
+    "islast": false
+  },
+  {
+    "desc": "San Michele Centro",
+    "code": "MO2675",
+    "islast": false
+  },
+  {
+    "desc": "Ardinale",
+    "code": "MO996",
+    "islast": false
+  },
+  {
+    "desc": "Magazzeno",
+    "code": "MO995",
+    "islast": false
+  },
+  {
+    "desc": "Casa Botti",
+    "code": "MO994",
+    "islast": false
+  },
+  {
+    "desc": "Casa Candelli",
+    "code": "MO992",
+    "islast": false
+  },
+  {
+    "desc": "Pescale",
+    "code": "MO991",
+    "islast": false
+  },
+  {
+    "desc": "Pescale Enel",
+    "code": "MO989",
+    "islast": false
+  },
+  {
+    "desc": "Fredda",
+    "code": "MO988",
+    "islast": false
+  },
+  {
+    "desc": "Casa Sarto",
+    "code": "MO987",
+    "islast": false
+  },
+  {
+    "desc": "Casa Azzoni",
+    "code": "MO986",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Legara",
+    "code": "MO983",
+    "islast": false
+  },
+  {
+    "desc": "Selpiano",
+    "code": "MO982",
+    "islast": false
+  },
+  {
+    "desc": "Ca' Del Bosco",
+    "code": "MO980",
+    "islast": false
+  },
+  {
+    "desc": "Casa Tomaria",
+    "code": "MO978",
+    "islast": false
+  },
+  {
+    "desc": "Poggio Bianco",
+    "code": "MO1143",
+    "islast": false
+  },
+  {
+    "desc": "Castelvecchio",
+    "code": "MO1142",
+    "islast": false
+  },
+  {
+    "desc": "Casa Sartori",
+    "code": "MO1141",
+    "islast": false
+  },
+  {
+    "desc": "Croce di Canneto",
+    "code": "MO1139",
+    "islast": false
+  },
+  {
+    "desc": "Canneto",
+    "code": "MO1138",
+    "islast": false
+  },
+  {
+    "desc": "Casa Battistini",
+    "code": "MO1907",
+    "islast": false
+  },
+  {
+    "desc": "Serra di Prignano",
+    "code": "MO1901",
+    "islast": false
+  },
+  {
+    "desc": "Prignano Secchia",
+    "code": "MO1899",
+    "islast": false
+  },
+  {
+    "desc": "Prignano",
+    "code": "MO1898",
+    "islast": false
+  },
+  {
+    "desc": "Prignano Poste",
+    "code": "MO3300",
+    "islast": false
+  },
+  {
+    "desc": "Casa Trinelli",
+    "code": "MO3298",
+    "islast": false
+  },
+  {
+    "desc": "Riviera",
+    "code": "MO2123",
+    "islast": false
+  },
+  {
+    "desc": "Casa Bortolini",
+    "code": "MO2124",
+    "islast": false
+  },
+  {
+    "desc": "La Pietra 2",
+    "code": "MO2134",
+    "islast": false
+  },
+  {
+    "desc": "La Pietra",
+    "code": "MO2125",
+    "islast": false
+  },
+  {
+    "desc": "Moncerato chiesa",
+    "code": "MO3329",
+    "islast": false
+  },
+  {
+    "desc": "Moncerato",
+    "code": "MO2126",
+    "islast": false
+  },
+  {
+    "desc": "Casa Matteazzi bv",
+    "code": "MO2127",
+    "islast": false
+  },
+  {
+    "desc": "La Borra",
+    "code": "MO2128",
+    "islast": false
+  },
+  {
+    "desc": "San Pellegrinetto",
+    "code": "MO1150",
+    "islast": false
+  },
+  {
+    "desc": "Bar Carbonara",
+    "code": "MO1151",
+    "islast": false
+  },
+  {
+    "desc": "Faeto bv",
+    "code": "MO1168",
+    "islast": false
+  },
+  {
+    "desc": "Serramazzoni",
+    "code": "MO2352",
+    "islast": true
+  }
+]

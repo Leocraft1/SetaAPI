@@ -1,0 +1,37 @@
+[
+  {
+    "desc": "Sassuolo Terminal",
+    "code": "MO2237",
+    "islast": false
+  },
+  {
+    "desc": "Stazione Sassuolo Radici",
+    "code": "MO2388",
+    "islast": false
+  },
+  {
+    "desc": "Radici in Monte bv Magenta",
+    "code": "MO779",
+    "islast": false
+  },
+  {
+    "desc": "Indipendenza",
+    "code": "MO1767",
+    "islast": false
+  },
+  {
+    "desc": "Indipendenza ex Questura",
+    "code": "MO1766",
+    "islast": false
+  },
+  {
+    "desc": "Montanara",
+    "code": "MO1768",
+    "islast": false
+  },
+  {
+    "desc": "Polo Scolastico",
+    "code": "MO2965",
+    "islast": true
+  }
+]

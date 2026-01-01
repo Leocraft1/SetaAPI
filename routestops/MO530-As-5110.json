@@ -1,0 +1,187 @@
+[
+  {
+    "desc": "CARPI TERMINAL BUS",
+    "code": "MO508",
+    "islast": false
+  },
+  {
+    "desc": "P.le Ramazzini",
+    "code": "MO466",
+    "islast": false
+  },
+  {
+    "desc": "Stadio",
+    "code": "MO8554",
+    "islast": false
+  },
+  {
+    "desc": "Marx",
+    "code": "MO499",
+    "islast": false
+  },
+  {
+    "desc": "Marx 1",
+    "code": "MO8313",
+    "islast": false
+  },
+  {
+    "desc": "Lama 2",
+    "code": "MO8532",
+    "islast": false
+  },
+  {
+    "desc": "Lama 1",
+    "code": "MO1116",
+    "islast": false
+  },
+  {
+    "desc": "Cavalcaferrovia",
+    "code": "MO498",
+    "islast": false
+  },
+  {
+    "desc": "Lama",
+    "code": "MO865",
+    "islast": false
+  },
+  {
+    "desc": "La Baita",
+    "code": "MO864",
+    "islast": false
+  },
+  {
+    "desc": "Roma",
+    "code": "MO863",
+    "islast": false
+  },
+  {
+    "desc": "Limidi",
+    "code": "MO860",
+    "islast": false
+  },
+  {
+    "desc": "Casa Rossa",
+    "code": "MO858",
+    "islast": false
+  },
+  {
+    "desc": "Limidi mulino",
+    "code": "MO856",
+    "islast": false
+  },
+  {
+    "desc": "Sozzigalli Caseificio",
+    "code": "MO854",
+    "islast": false
+  },
+  {
+    "desc": "Sozzigalli centro",
+    "code": "MO853",
+    "islast": false
+  },
+  {
+    "desc": "Sozzigalli chiesa",
+    "code": "MO8350",
+    "islast": false
+  },
+  {
+    "desc": "Sozzigalli via Canale",
+    "code": "MO250",
+    "islast": false
+  },
+  {
+    "desc": "Dotti bv",
+    "code": "MO248",
+    "islast": false
+  },
+  {
+    "desc": "Santa Maria",
+    "code": "MO247",
+    "islast": false
+  },
+  {
+    "desc": "Secchia caseificio",
+    "code": "MO246",
+    "islast": false
+  },
+  {
+    "desc": "Soliera bv",
+    "code": "MO245",
+    "islast": false
+  },
+  {
+    "desc": "Secchia",
+    "code": "MO7315",
+    "islast": false
+  },
+  {
+    "desc": "Bottega Secchia",
+    "code": "MO244",
+    "islast": false
+  },
+  {
+    "desc": "Setti",
+    "code": "MO243",
+    "islast": false
+  },
+  {
+    "desc": "Passo Uccellino",
+    "code": "MO242",
+    "islast": false
+  },
+  {
+    "desc": "Olmaccio",
+    "code": "MO240",
+    "islast": false
+  },
+  {
+    "desc": "Villanova Cimitero",
+    "code": "MO2326",
+    "islast": false
+  },
+  {
+    "desc": "Bottega di Mezzo",
+    "code": "MO2308",
+    "islast": false
+  },
+  {
+    "desc": "Villanova",
+    "code": "MO230",
+    "islast": false
+  },
+  {
+    "desc": "Villanova scuole",
+    "code": "MO2281",
+    "islast": false
+  },
+  {
+    "desc": "San Pancrazio Chiesa",
+    "code": "MO469",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Alto",
+    "code": "MO55",
+    "islast": false
+  },
+  {
+    "desc": "Nazionale per Carpi bv Bembo",
+    "code": "MO3097",
+    "islast": false
+  },
+  {
+    "desc": "Nazionale per Carpi",
+    "code": "MO6830",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest bv Autodromo",
+    "code": "MO48",
+    "islast": false
+  },
+  {
+    "desc": "MODENA AUTOSTAZIONE",
+    "code": "MO344",
+    "islast": true
+  }
+]

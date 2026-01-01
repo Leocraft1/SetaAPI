@@ -1,0 +1,262 @@
+[
+  {
+    "desc": "Mirandola Terminal",
+    "code": "MO3973",
+    "islast": false
+  },
+  {
+    "desc": "Barozzi scuole",
+    "code": "MO2202",
+    "islast": false
+  },
+  {
+    "desc": "Mirandola ex scuole",
+    "code": "MO1186",
+    "islast": false
+  },
+  {
+    "desc": "Mirandola Ospedale",
+    "code": "MO2203",
+    "islast": false
+  },
+  {
+    "desc": "Carrozzeria Barbi",
+    "code": "MO2012",
+    "islast": false
+  },
+  {
+    "desc": "Fontana maglificio",
+    "code": "MO1010",
+    "islast": false
+  },
+  {
+    "desc": "Camurana stazione",
+    "code": "MO1020",
+    "islast": false
+  },
+  {
+    "desc": "Camurana",
+    "code": "MO990",
+    "islast": false
+  },
+  {
+    "desc": "Bruino bv Gandi",
+    "code": "MO3111",
+    "islast": false
+  },
+  {
+    "desc": "Medolla",
+    "code": "MO2100",
+    "islast": false
+  },
+  {
+    "desc": "Medolla Autostazione",
+    "code": "MO488",
+    "islast": false
+  },
+  {
+    "desc": "Cavezzo stazione",
+    "code": "MO340",
+    "islast": false
+  },
+  {
+    "desc": "San Silvestro",
+    "code": "MO352",
+    "islast": false
+  },
+  {
+    "desc": "San Prospero",
+    "code": "MO2209",
+    "islast": false
+  },
+  {
+    "desc": "San Pietro bv",
+    "code": "MO640",
+    "islast": false
+  },
+  {
+    "desc": "Casinone",
+    "code": "MO664",
+    "islast": false
+  },
+  {
+    "desc": "Il Cristo",
+    "code": "MO668",
+    "islast": false
+  },
+  {
+    "desc": "Sorbara",
+    "code": "MO3517",
+    "islast": false
+  },
+  {
+    "desc": "Sorbara",
+    "code": "MO3515",
+    "islast": false
+  },
+  {
+    "desc": "Sorbara",
+    "code": "MO660",
+    "islast": false
+  },
+  {
+    "desc": "Bastiglia",
+    "code": "MO100",
+    "islast": false
+  },
+  {
+    "desc": "Bastiglia Scuole",
+    "code": "MO756",
+    "islast": false
+  },
+  {
+    "desc": "Casa Ghelfi",
+    "code": "MO750",
+    "islast": false
+  },
+  {
+    "desc": "San Clemente",
+    "code": "MO740",
+    "islast": false
+  },
+  {
+    "desc": "LA ROCCA",
+    "code": "MO3233",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv Dotta",
+    "code": "MO6273",
+    "islast": false
+  },
+  {
+    "desc": "Albareto Fertilcoop",
+    "code": "MO6271",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv Munarola",
+    "code": "MO6269",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv dell'Acero",
+    "code": "MO730",
+    "islast": false
+  },
+  {
+    "desc": "Albareto Chiesa",
+    "code": "MO6265",
+    "islast": false
+  },
+  {
+    "desc": "Albareto polisportiva",
+    "code": "MO6263",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv Torricella",
+    "code": "MO6261",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv Toni",
+    "code": "MO6259",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv Bertola",
+    "code": "MO6257",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv Tagliati",
+    "code": "MO6255",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv Sacerdoti",
+    "code": "MO6267",
+    "islast": false
+  },
+  {
+    "desc": "Mulini Nuovi",
+    "code": "MO6253",
+    "islast": false
+  },
+  {
+    "desc": "Albareto Fini",
+    "code": "MO6251",
+    "islast": false
+  },
+  {
+    "desc": "Albareto scuola Gramsci",
+    "code": "MO6249",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv Cimone",
+    "code": "MO6247",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv Nonatolana",
+    "code": "MO6250",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana bv Crocetta",
+    "code": "MO6243",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana scuole",
+    "code": "MO6239",
+    "islast": false
+  },
+  {
+    "desc": "Attiraglio",
+    "code": "MO555",
+    "islast": false
+  },
+  {
+    "desc": "Monte Kosica FS",
+    "code": "MO2576",
+    "islast": false
+  },
+  {
+    "desc": "STAZIONE FS",
+    "code": "MO6133",
+    "islast": false
+  },
+  {
+    "desc": "Ospedale Sant'Agostino",
+    "code": "MO2572",
+    "islast": false
+  },
+  {
+    "desc": "MODENA  AUTOSTAZIONE",
+    "code": "MO5003",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Fermi",
+    "code": "MO2873",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Cattaneo",
+    "code": "MO6704",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Guarini",
+    "code": "MO6721",
+    "islast": false
+  },
+  {
+    "desc": "POLO LEONARDO",
+    "code": "MO217",
+    "islast": true
+  }
+]

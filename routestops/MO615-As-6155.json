@@ -1,0 +1,102 @@
+[
+  {
+    "desc": "Palagano",
+    "code": "MO1507",
+    "islast": false
+  },
+  {
+    "desc": "Palagano Municipio",
+    "code": "MO1521",
+    "islast": false
+  },
+  {
+    "desc": "Pianacci",
+    "code": "MO1724",
+    "islast": false
+  },
+  {
+    "desc": "La Ferrara",
+    "code": "MO1725",
+    "islast": false
+  },
+  {
+    "desc": "Abetone ceramica",
+    "code": "MO1733",
+    "islast": false
+  },
+  {
+    "desc": "Casa Cecchino",
+    "code": "MO1735",
+    "islast": false
+  },
+  {
+    "desc": "Casa Cinqui",
+    "code": "MO1736",
+    "islast": false
+  },
+  {
+    "desc": "Montemolino",
+    "code": "MO1737",
+    "islast": false
+  },
+  {
+    "desc": "Roncole",
+    "code": "MO1589",
+    "islast": false
+  },
+  {
+    "desc": "Molino Grillo",
+    "code": "MO1588",
+    "islast": false
+  },
+  {
+    "desc": "Fagiolo",
+    "code": "MO1587",
+    "islast": false
+  },
+  {
+    "desc": "Fontana D'Arco",
+    "code": "MO1586",
+    "islast": false
+  },
+  {
+    "desc": "Casa Borelli",
+    "code": "MO2988",
+    "islast": false
+  },
+  {
+    "desc": "Cadignano",
+    "code": "MO2986",
+    "islast": false
+  },
+  {
+    "desc": "Torre di Cadignano",
+    "code": "MO2984",
+    "islast": false
+  },
+  {
+    "desc": "Mocogno",
+    "code": "MO1804",
+    "islast": false
+  },
+  {
+    "desc": "Ca' Dell'Aglio",
+    "code": "MO1803",
+    "islast": false
+  },
+  {
+    "desc": "Casa Pasini",
+    "code": "MO1802",
+    "islast": false
+  },
+  {
+    "desc": "Lama Bassa",
+    "code": "MO1801",
+    "islast": false
+  },
+  {
+    "desc": "Lama Mocogno",
+    "code": "MO1800",
+    "islast": true
+  }
+]

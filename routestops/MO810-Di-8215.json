@@ -1,0 +1,82 @@
+[
+  {
+    "desc": "Pavullo Autostazione",
+    "code": "MO1590",
+    "islast": false
+  },
+  {
+    "desc": "San Pellegrino",
+    "code": "MO1349",
+    "islast": false
+  },
+  {
+    "desc": "Campo D'Aviazione",
+    "code": "MO1351",
+    "islast": false
+  },
+  {
+    "desc": "Querciagrossa",
+    "code": "MO1819",
+    "islast": false
+  },
+  {
+    "desc": "Renno bv",
+    "code": "MO1816",
+    "islast": false
+  },
+  {
+    "desc": "Piantacroce",
+    "code": "MO1815",
+    "islast": false
+  },
+  {
+    "desc": "Pratolino",
+    "code": "MO1813",
+    "islast": false
+  },
+  {
+    "desc": "Gaianello",
+    "code": "MO1798",
+    "islast": false
+  },
+  {
+    "desc": "Monzone bv",
+    "code": "MO1797",
+    "islast": false
+  },
+  {
+    "desc": "Belvedere",
+    "code": "MO3483",
+    "islast": false
+  },
+  {
+    "desc": "Budrigone",
+    "code": "MO1796",
+    "islast": false
+  },
+  {
+    "desc": "Montecenere",
+    "code": "MO1795",
+    "islast": false
+  },
+  {
+    "desc": "Monte Scarpone",
+    "code": "MO1794",
+    "islast": false
+  },
+  {
+    "desc": "Monte Ritorno",
+    "code": "MO1793",
+    "islast": false
+  },
+  {
+    "desc": "Pradina",
+    "code": "MO1792",
+    "islast": false
+  },
+  {
+    "desc": "Lama Mocogno",
+    "code": "MO3477",
+    "islast": true
+  }
+]

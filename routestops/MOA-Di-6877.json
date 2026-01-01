@@ -1,0 +1,117 @@
+[
+  {
+    "desc": "Cimitero Nuovo",
+    "code": "MO2291",
+    "islast": false
+  },
+  {
+    "desc": "Madre Teresa",
+    "code": "MO2447",
+    "islast": false
+  },
+  {
+    "desc": "Panorama",
+    "code": "MO2441",
+    "islast": false
+  },
+  {
+    "desc": "Quattroponti",
+    "code": "MO2685",
+    "islast": false
+  },
+  {
+    "desc": "Madonna di Sotto",
+    "code": "MO2295",
+    "islast": false
+  },
+  {
+    "desc": "Vittime 11 Settembre bv Tobagi",
+    "code": "MO2437",
+    "islast": false
+  },
+  {
+    "desc": "Vittime 11 Settembre",
+    "code": "MO2297",
+    "islast": false
+  },
+  {
+    "desc": "Ancora",
+    "code": "MO2299",
+    "islast": false
+  },
+  {
+    "desc": "Staffette Partigiane",
+    "code": "MO2300",
+    "islast": false
+  },
+  {
+    "desc": "Marzabotto",
+    "code": "MO2301",
+    "islast": false
+  },
+  {
+    "desc": "Borgo Venezia",
+    "code": "MO2451",
+    "islast": false
+  },
+  {
+    "desc": "Radici in Monte bv Magenta",
+    "code": "MO2401",
+    "islast": false
+  },
+  {
+    "desc": "Radici in Monte bv Liberta",
+    "code": "MO2391",
+    "islast": false
+  },
+  {
+    "desc": "Sassuolo Terminal",
+    "code": "MO2306",
+    "islast": false
+  },
+  {
+    "desc": "Prampolini",
+    "code": "MO2273",
+    "islast": false
+  },
+  {
+    "desc": "Gramsci",
+    "code": "MO2311",
+    "islast": false
+  },
+  {
+    "desc": "Municipio Sassuolo",
+    "code": "MO2453",
+    "islast": false
+  },
+  {
+    "desc": "20 settembre",
+    "code": "MO2454",
+    "islast": false
+  },
+  {
+    "desc": "Cimitero Vecchio",
+    "code": "MO2455",
+    "islast": false
+  },
+  {
+    "desc": "Largo Verona",
+    "code": "MO2377",
+    "islast": false
+  },
+  {
+    "desc": "Rometta",
+    "code": "MO2515",
+    "islast": false
+  },
+  {
+    "desc": "Ospedale Sassuolo",
+    "code": "MO2786",
+    "islast": false
+  },
+  {
+    "desc": "Refice scuole",
+    "code": "MO2522",
+    "islast": true
+  }
+]

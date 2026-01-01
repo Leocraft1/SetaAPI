@@ -1,0 +1,142 @@
+[
+  {
+    "desc": "Venturelli",
+    "code": "MO7012",
+    "islast": false
+  },
+  {
+    "desc": "Po",
+    "code": "MO7014",
+    "islast": false
+  },
+  {
+    "desc": "Arno",
+    "code": "MO7023",
+    "islast": false
+  },
+  {
+    "desc": "Fedro",
+    "code": "MO7007",
+    "islast": false
+  },
+  {
+    "desc": "G.Cesare 1",
+    "code": "MO7008",
+    "islast": false
+  },
+  {
+    "desc": "Due Ponti",
+    "code": "MO7010",
+    "islast": false
+  },
+  {
+    "desc": "Catullo",
+    "code": "MO7025",
+    "islast": false
+  },
+  {
+    "desc": "G.Cesare 2",
+    "code": "MO8543",
+    "islast": false
+  },
+  {
+    "desc": "Lucrezio 1",
+    "code": "MO8542",
+    "islast": false
+  },
+  {
+    "desc": "Lucrezio 2",
+    "code": "MO8541",
+    "islast": false
+  },
+  {
+    "desc": "Israelitico",
+    "code": "MO8540",
+    "islast": false
+  },
+  {
+    "desc": "Moro 2",
+    "code": "MO3221",
+    "islast": false
+  },
+  {
+    "desc": "De Rosa",
+    "code": "MO3028",
+    "islast": false
+  },
+  {
+    "desc": "Alghisi 1",
+    "code": "MO8539",
+    "islast": false
+  },
+  {
+    "desc": "Alghisi 2",
+    "code": "MO8538",
+    "islast": false
+  },
+  {
+    "desc": "Stazione FS",
+    "code": "MO506",
+    "islast": false
+  },
+  {
+    "desc": "Ariosto",
+    "code": "MO8328",
+    "islast": false
+  },
+  {
+    "desc": "Fontana",
+    "code": "MO7029",
+    "islast": false
+  },
+  {
+    "desc": "Parco",
+    "code": "MO8322",
+    "islast": false
+  },
+  {
+    "desc": "3 Febbraio",
+    "code": "MO58",
+    "islast": false
+  },
+  {
+    "desc": "Peruzzi 1",
+    "code": "MO8536",
+    "islast": false
+  },
+  {
+    "desc": "PERUZZI AUTOSTAZIONE",
+    "code": "MO2681",
+    "islast": false
+  },
+  {
+    "desc": "Peruzzi 2",
+    "code": "MO8535",
+    "islast": false
+  },
+  {
+    "desc": "Peruzzi 3",
+    "code": "MO8330",
+    "islast": false
+  },
+  {
+    "desc": "Rezdore",
+    "code": "MO3418",
+    "islast": false
+  },
+  {
+    "desc": "Magliaie",
+    "code": "MO3417",
+    "islast": false
+  },
+  {
+    "desc": "Zappiano",
+    "code": "MO3416",
+    "islast": false
+  },
+  {
+    "desc": "Mondine",
+    "code": "MO3411",
+    "islast": true
+  }
+]

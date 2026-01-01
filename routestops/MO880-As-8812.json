@@ -1,0 +1,67 @@
+[
+  {
+    "desc": "Pavullo Autostazione",
+    "code": "MO1590",
+    "islast": false
+  },
+  {
+    "desc": "22 Aprile",
+    "code": "MO1820",
+    "islast": false
+  },
+  {
+    "desc": "Budria",
+    "code": "MO1821",
+    "islast": false
+  },
+  {
+    "desc": "La Borretta",
+    "code": "MO3244",
+    "islast": false
+  },
+  {
+    "desc": "Niviano bv",
+    "code": "MO3245",
+    "islast": false
+  },
+  {
+    "desc": "Belvedere di Pavullo",
+    "code": "MO1826",
+    "islast": false
+  },
+  {
+    "desc": "Casa Tadolini",
+    "code": "MO1827",
+    "islast": false
+  },
+  {
+    "desc": "Cerro",
+    "code": "MO1828",
+    "islast": false
+  },
+  {
+    "desc": "Gaiato bv",
+    "code": "MO3249",
+    "islast": false
+  },
+  {
+    "desc": "Pozzaccia",
+    "code": "MO1830",
+    "islast": false
+  },
+  {
+    "desc": "Albareto di Pavullo",
+    "code": "MO1831",
+    "islast": false
+  },
+  {
+    "desc": "Gaiato poste",
+    "code": "MO1833",
+    "islast": false
+  },
+  {
+    "desc": "Villa Pineta",
+    "code": "MO3259",
+    "islast": true
+  }
+]

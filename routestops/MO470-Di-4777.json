@@ -1,0 +1,87 @@
+[
+  {
+    "desc": "Mirandola Terminal",
+    "code": "MO3972",
+    "islast": false
+  },
+  {
+    "desc": "Barozzi scuole",
+    "code": "MO2202",
+    "islast": false
+  },
+  {
+    "desc": "Mirandola ex scuole",
+    "code": "MO1186",
+    "islast": false
+  },
+  {
+    "desc": "Borgnetto",
+    "code": "MO547",
+    "islast": false
+  },
+  {
+    "desc": "Cazzuola",
+    "code": "MO546",
+    "islast": false
+  },
+  {
+    "desc": "Mortizzuolo",
+    "code": "MO539",
+    "islast": false
+  },
+  {
+    "desc": "Camil",
+    "code": "MO286",
+    "islast": false
+  },
+  {
+    "desc": "Ponte San Pellegrino",
+    "code": "MO3779",
+    "islast": false
+  },
+  {
+    "desc": "Ca' Bianca",
+    "code": "MO529",
+    "islast": false
+  },
+  {
+    "desc": "Casarino",
+    "code": "MO2136",
+    "islast": false
+  },
+  {
+    "desc": "San Felice sul Panaro",
+    "code": "MO2137",
+    "islast": false
+  },
+  {
+    "desc": "San Felice stadio",
+    "code": "MO570",
+    "islast": false
+  },
+  {
+    "desc": "Ospedale San Felice",
+    "code": "MO572",
+    "islast": false
+  },
+  {
+    "desc": "Vallicella",
+    "code": "MO568",
+    "islast": false
+  },
+  {
+    "desc": "Granai",
+    "code": "MO566",
+    "islast": false
+  },
+  {
+    "desc": "Camposanto Cimitero",
+    "code": "MO402",
+    "islast": false
+  },
+  {
+    "desc": "Camposanto",
+    "code": "MO3433",
+    "islast": true
+  }
+]

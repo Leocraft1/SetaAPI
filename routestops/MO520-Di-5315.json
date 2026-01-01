@@ -1,0 +1,162 @@
+[
+  {
+    "desc": "CARPI TERMINAL BUS",
+    "code": "MO495",
+    "islast": false
+  },
+  {
+    "desc": "P.le Ramazzini",
+    "code": "MO466",
+    "islast": false
+  },
+  {
+    "desc": "Stadio",
+    "code": "MO8554",
+    "islast": false
+  },
+  {
+    "desc": "Alghisi 2",
+    "code": "MO8538",
+    "islast": false
+  },
+  {
+    "desc": "Stazione FS",
+    "code": "MO506",
+    "islast": false
+  },
+  {
+    "desc": "Ariosto",
+    "code": "MO8328",
+    "islast": false
+  },
+  {
+    "desc": "Cibeno farmacia",
+    "code": "MO433",
+    "islast": false
+  },
+  {
+    "desc": "Cibeno",
+    "code": "MO437",
+    "islast": false
+  },
+  {
+    "desc": "San Marino bv",
+    "code": "MO439",
+    "islast": false
+  },
+  {
+    "desc": "San Marino",
+    "code": "MO443",
+    "islast": false
+  },
+  {
+    "desc": "Ponticelli",
+    "code": "MO445",
+    "islast": false
+  },
+  {
+    "desc": "Bottega Guerzoni",
+    "code": "MO446",
+    "islast": false
+  },
+  {
+    "desc": "Rovereto Industriale ovest",
+    "code": "MO447",
+    "islast": false
+  },
+  {
+    "desc": "Lugli scuole",
+    "code": "MO448",
+    "islast": false
+  },
+  {
+    "desc": "Benzi bv",
+    "code": "MO449",
+    "islast": false
+  },
+  {
+    "desc": "Rovereto",
+    "code": "MO470",
+    "islast": false
+  },
+  {
+    "desc": "Gabella",
+    "code": "MO471",
+    "islast": false
+  },
+  {
+    "desc": "Case Nuove Rovereto",
+    "code": "MO472",
+    "islast": false
+  },
+  {
+    "desc": "Tenuta Delfina",
+    "code": "MO473",
+    "islast": false
+  },
+  {
+    "desc": "Santa Maria",
+    "code": "MO478",
+    "islast": false
+  },
+  {
+    "desc": "Candia",
+    "code": "MO476",
+    "islast": false
+  },
+  {
+    "desc": "Sant'Antonio Mercadello",
+    "code": "MO481",
+    "islast": false
+  },
+  {
+    "desc": "Borgo Ferro",
+    "code": "MO482",
+    "islast": false
+  },
+  {
+    "desc": "Palazzo Pio",
+    "code": "MO484",
+    "islast": false
+  },
+  {
+    "desc": "Bottega sei",
+    "code": "MO492",
+    "islast": false
+  },
+  {
+    "desc": "Caseificio",
+    "code": "MO487",
+    "islast": false
+  },
+  {
+    "desc": "Terzi",
+    "code": "MO486",
+    "islast": false
+  },
+  {
+    "desc": "Viazzolo",
+    "code": "MO485",
+    "islast": false
+  },
+  {
+    "desc": "Due Colonne",
+    "code": "MO483",
+    "islast": false
+  },
+  {
+    "desc": "San Giovanni Bosco",
+    "code": "MO1443",
+    "islast": false
+  },
+  {
+    "desc": "Concordia centro",
+    "code": "MO512",
+    "islast": false
+  },
+  {
+    "desc": "Concordia",
+    "code": "MO1000",
+    "islast": true
+  }
+]

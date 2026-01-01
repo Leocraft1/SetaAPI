@@ -1,0 +1,157 @@
+[
+  {
+    "desc": "Bomporto",
+    "code": "MO68",
+    "islast": false
+  },
+  {
+    "desc": "Bomporto monumento",
+    "code": "MO343",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Vecchio",
+    "code": "MO347",
+    "islast": false
+  },
+  {
+    "desc": "Villaggio Artigiano",
+    "code": "MO791",
+    "islast": false
+  },
+  {
+    "desc": "Sorbara",
+    "code": "MO660",
+    "islast": false
+  },
+  {
+    "desc": "Bastiglia",
+    "code": "MO100",
+    "islast": false
+  },
+  {
+    "desc": "Bastiglia Scuole",
+    "code": "MO756",
+    "islast": false
+  },
+  {
+    "desc": "Casa Ghelfi",
+    "code": "MO750",
+    "islast": false
+  },
+  {
+    "desc": "San Clemente",
+    "code": "MO740",
+    "islast": false
+  },
+  {
+    "desc": "LA ROCCA",
+    "code": "MO3233",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv Dotta",
+    "code": "MO6273",
+    "islast": false
+  },
+  {
+    "desc": "Albareto Fertilcoop",
+    "code": "MO6271",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv Munarola",
+    "code": "MO6269",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv dell'Acero",
+    "code": "MO730",
+    "islast": false
+  },
+  {
+    "desc": "Albareto Chiesa",
+    "code": "MO6265",
+    "islast": false
+  },
+  {
+    "desc": "Albareto polisportiva",
+    "code": "MO6263",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv Torricella",
+    "code": "MO6261",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv Toni",
+    "code": "MO6259",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv Bertola",
+    "code": "MO6257",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv Tagliati",
+    "code": "MO6255",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv Sacerdoti",
+    "code": "MO6267",
+    "islast": false
+  },
+  {
+    "desc": "Mulini Nuovi",
+    "code": "MO6253",
+    "islast": false
+  },
+  {
+    "desc": "Albareto Fini",
+    "code": "MO6251",
+    "islast": false
+  },
+  {
+    "desc": "Albareto scuola Gramsci",
+    "code": "MO6249",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv Cimone",
+    "code": "MO6247",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv Nonatolana",
+    "code": "MO6250",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana bv Crocetta",
+    "code": "MO6243",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana scuole",
+    "code": "MO6239",
+    "islast": false
+  },
+  {
+    "desc": "Attiraglio",
+    "code": "MO555",
+    "islast": false
+  },
+  {
+    "desc": "Monte Kosica FS",
+    "code": "MO2576",
+    "islast": false
+  },
+  {
+    "desc": "MODENA AUTOSTAZIONE",
+    "code": "MO346",
+    "islast": true
+  }
+]

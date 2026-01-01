@@ -1,0 +1,137 @@
+[
+  {
+    "desc": "Lenin 1",
+    "code": "MO3194",
+    "islast": false
+  },
+  {
+    "desc": "Asioli",
+    "code": "MO3403",
+    "islast": false
+  },
+  {
+    "desc": "Vecchi",
+    "code": "MO3412",
+    "islast": false
+  },
+  {
+    "desc": "Nuova Ponente",
+    "code": "MO8533",
+    "islast": false
+  },
+  {
+    "desc": "Lenin 2",
+    "code": "MO3113",
+    "islast": false
+  },
+  {
+    "desc": "Cimitero",
+    "code": "MO3195",
+    "islast": false
+  },
+  {
+    "desc": "Catellani",
+    "code": "MO3149",
+    "islast": false
+  },
+  {
+    "desc": "P.le Ramazzini",
+    "code": "MO466",
+    "islast": false
+  },
+  {
+    "desc": "Cavallotti",
+    "code": "MO257",
+    "islast": false
+  },
+  {
+    "desc": "Stadio",
+    "code": "MO8554",
+    "islast": false
+  },
+  {
+    "desc": "De Rosa",
+    "code": "MO3028",
+    "islast": false
+  },
+  {
+    "desc": "Alghisi 1",
+    "code": "MO8539",
+    "islast": false
+  },
+  {
+    "desc": "Alghisi 2",
+    "code": "MO8538",
+    "islast": false
+  },
+  {
+    "desc": "Stazione FS",
+    "code": "MO506",
+    "islast": false
+  },
+  {
+    "desc": "Ariosto",
+    "code": "MO8328",
+    "islast": false
+  },
+  {
+    "desc": "Manzoni 1",
+    "code": "MO8550",
+    "islast": false
+  },
+  {
+    "desc": "Manzoni 2",
+    "code": "MO8551",
+    "islast": false
+  },
+  {
+    "desc": "Pezzana 1",
+    "code": "MO8308",
+    "islast": false
+  },
+  {
+    "desc": "Pezzana 2",
+    "code": "MO8309",
+    "islast": false
+  },
+  {
+    "desc": "Pezzana 3",
+    "code": "MO8311",
+    "islast": false
+  },
+  {
+    "desc": "Bracciano",
+    "code": "MO8312",
+    "islast": false
+  },
+  {
+    "desc": "Roosevelt",
+    "code": "MO8314",
+    "islast": false
+  },
+  {
+    "desc": "Ramazzini 1",
+    "code": "MO8315",
+    "islast": false
+  },
+  {
+    "desc": "Ramazzini 2",
+    "code": "MO3076",
+    "islast": false
+  },
+  {
+    "desc": "Malpighi",
+    "code": "MO8316",
+    "islast": false
+  },
+  {
+    "desc": "Guaitoli",
+    "code": "MO8317",
+    "islast": false
+  },
+  {
+    "desc": "25 aprile",
+    "code": "MO3161",
+    "islast": true
+  }
+]

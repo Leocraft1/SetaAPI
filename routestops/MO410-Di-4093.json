@@ -1,0 +1,102 @@
+[
+  {
+    "desc": "Bomporto",
+    "code": "MO68",
+    "islast": false
+  },
+  {
+    "desc": "Garuti",
+    "code": "MO341",
+    "islast": false
+  },
+  {
+    "desc": "Casoni",
+    "code": "MO2620",
+    "islast": false
+  },
+  {
+    "desc": "Casoni di Ravarino",
+    "code": "MO339",
+    "islast": false
+  },
+  {
+    "desc": "Rocchetta bv",
+    "code": "MO369",
+    "islast": false
+  },
+  {
+    "desc": "Rami",
+    "code": "MO373",
+    "islast": false
+  },
+  {
+    "desc": "Loberso",
+    "code": "MO375",
+    "islast": false
+  },
+  {
+    "desc": "Ravarino",
+    "code": "MO1974",
+    "islast": false
+  },
+  {
+    "desc": "Ravarino Dante",
+    "code": "MO824",
+    "islast": false
+  },
+  {
+    "desc": "Segheria",
+    "code": "MO379",
+    "islast": false
+  },
+  {
+    "desc": "Case Nuove",
+    "code": "MO381",
+    "islast": false
+  },
+  {
+    "desc": "Loreto",
+    "code": "MO830",
+    "islast": false
+  },
+  {
+    "desc": "Villa Stuffione",
+    "code": "MO383",
+    "islast": false
+  },
+  {
+    "desc": "Villa di Stuffione 1",
+    "code": "MO3262",
+    "islast": false
+  },
+  {
+    "desc": "Casa Balugani",
+    "code": "MO384",
+    "islast": false
+  },
+  {
+    "desc": "Stuffione",
+    "code": "MO385",
+    "islast": false
+  },
+  {
+    "desc": "Bedagna",
+    "code": "MO386",
+    "islast": false
+  },
+  {
+    "desc": "Casa Malagoli",
+    "code": "MO387",
+    "islast": false
+  },
+  {
+    "desc": "Camposanto Cimitero",
+    "code": "MO402",
+    "islast": false
+  },
+  {
+    "desc": "Camposanto",
+    "code": "MO3433",
+    "islast": true
+  }
+]

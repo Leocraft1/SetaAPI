@@ -1,0 +1,82 @@
+[
+  {
+    "desc": "Magreta",
+    "code": "MO1510",
+    "islast": false
+  },
+  {
+    "desc": "Magreta crociale",
+    "code": "MO1492",
+    "islast": false
+  },
+  {
+    "desc": "Tabina",
+    "code": "MO1490",
+    "islast": false
+  },
+  {
+    "desc": "Dini bv",
+    "code": "MO1488",
+    "islast": false
+  },
+  {
+    "desc": "Cavezzo",
+    "code": "MO1486",
+    "islast": false
+  },
+  {
+    "desc": "Da Porto bv Cavezzo",
+    "code": "MO3655",
+    "islast": false
+  },
+  {
+    "desc": "Da Porto chiesa",
+    "code": "MO3656",
+    "islast": false
+  },
+  {
+    "desc": "POLO LEONARDO 1",
+    "code": "MO2928",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Guarini",
+    "code": "MO2887",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Cattaneo",
+    "code": "MO2885",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Fermi",
+    "code": "MO6720",
+    "islast": false
+  },
+  {
+    "desc": "Barozzi Planetario",
+    "code": "MO6700",
+    "islast": false
+  },
+  {
+    "desc": "MODENA  AUTOSTAZIONE",
+    "code": "MO6120",
+    "islast": false
+  },
+  {
+    "desc": "Monte Kosica FS",
+    "code": "MO6118",
+    "islast": false
+  },
+  {
+    "desc": "Caduti in guerra Tempio",
+    "code": "MO6148",
+    "islast": false
+  },
+  {
+    "desc": "Caduti in guerra orto botanico",
+    "code": "MO6150",
+    "islast": true
+  }
+]

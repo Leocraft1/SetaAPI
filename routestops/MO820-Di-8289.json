@@ -1,0 +1,237 @@
+[
+  {
+    "desc": "MODENA AUTOSTAZIONE",
+    "code": "MO303",
+    "islast": false
+  },
+  {
+    "desc": "Risorgimento",
+    "code": "MO20",
+    "islast": false
+  },
+  {
+    "desc": "Rimembranze ex Questura",
+    "code": "MO42",
+    "islast": false
+  },
+  {
+    "desc": "GARIBALDI",
+    "code": "MO5111",
+    "islast": false
+  },
+  {
+    "desc": "Piazza Manzoni",
+    "code": "MO11",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese bv La Spezia",
+    "code": "MO1364",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese Universita",
+    "code": "MO1362",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese bv Saluzzo",
+    "code": "MO6439",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese Istituto",
+    "code": "MO1360",
+    "islast": false
+  },
+  {
+    "desc": "Santa Maria scuole",
+    "code": "MO702",
+    "islast": false
+  },
+  {
+    "desc": "Santa Maria Mugnano",
+    "code": "MO713",
+    "islast": false
+  },
+  {
+    "desc": "San Martino del Mugnano",
+    "code": "MO715",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Santa Lucia",
+    "code": "MO716",
+    "islast": false
+  },
+  {
+    "desc": "Montale",
+    "code": "MO717",
+    "islast": false
+  },
+  {
+    "desc": "Montale bv Zenzalose",
+    "code": "MO3313",
+    "islast": false
+  },
+  {
+    "desc": "San Zeno",
+    "code": "MO719",
+    "islast": false
+  },
+  {
+    "desc": "Quattro Madonne",
+    "code": "MO721",
+    "islast": false
+  },
+  {
+    "desc": "Casa Roncaglia",
+    "code": "MO722",
+    "islast": false
+  },
+  {
+    "desc": "Colombaro centro",
+    "code": "MO836",
+    "islast": false
+  },
+  {
+    "desc": "San Antonio",
+    "code": "MO2635",
+    "islast": false
+  },
+  {
+    "desc": "Colombaro bv",
+    "code": "MO835",
+    "islast": false
+  },
+  {
+    "desc": "Casa Colonica",
+    "code": "MO833",
+    "islast": false
+  },
+  {
+    "desc": "Casa Panini",
+    "code": "MO831",
+    "islast": false
+  },
+  {
+    "desc": "Pozza",
+    "code": "MO1650",
+    "islast": false
+  },
+  {
+    "desc": "Crociale Maranello",
+    "code": "MO827",
+    "islast": false
+  },
+  {
+    "desc": "MARANELLO TERMINAL",
+    "code": "MO3599",
+    "islast": false
+  },
+  {
+    "desc": "Maranello Grizzaga",
+    "code": "MO3239",
+    "islast": false
+  },
+  {
+    "desc": "Maranello T. Speri",
+    "code": "MO3456",
+    "islast": false
+  },
+  {
+    "desc": "Maranello Alta",
+    "code": "MO1009",
+    "islast": false
+  },
+  {
+    "desc": "Gorzano 2",
+    "code": "MO1045",
+    "islast": false
+  },
+  {
+    "desc": "Gorzano 1",
+    "code": "MO1044",
+    "islast": false
+  },
+  {
+    "desc": "Torre Maina bv",
+    "code": "MO1042",
+    "islast": false
+  },
+  {
+    "desc": "Torre Maina chiesa",
+    "code": "MO1041",
+    "islast": false
+  },
+  {
+    "desc": "Torre Maina cimitero",
+    "code": "MO2626",
+    "islast": false
+  },
+  {
+    "desc": "Torre Maina chiesa",
+    "code": "MO1960",
+    "islast": false
+  },
+  {
+    "desc": "Ricco",
+    "code": "MO4794",
+    "islast": false
+  },
+  {
+    "desc": "Osteria Vecchia",
+    "code": "MO1198",
+    "islast": false
+  },
+  {
+    "desc": "Crocetta bv",
+    "code": "MO1284",
+    "islast": false
+  },
+  {
+    "desc": "San Dalmazio",
+    "code": "MO1285",
+    "islast": false
+  },
+  {
+    "desc": "Malandrone",
+    "code": "MO1283",
+    "islast": false
+  },
+  {
+    "desc": "Casa Rotonda",
+    "code": "MO1281",
+    "islast": false
+  },
+  {
+    "desc": "Casa Cantoniera",
+    "code": "MO1280",
+    "islast": false
+  },
+  {
+    "desc": "Casa Grossi",
+    "code": "MO1279",
+    "islast": false
+  },
+  {
+    "desc": "Casa Piccola scuola",
+    "code": "MO1278",
+    "islast": false
+  },
+  {
+    "desc": "Monfestino bv",
+    "code": "MO1277",
+    "islast": false
+  },
+  {
+    "desc": "Serramazzoni cimitero",
+    "code": "MO4203",
+    "islast": false
+  },
+  {
+    "desc": "Serramazzoni",
+    "code": "MO2352",
+    "islast": true
+  }
+]

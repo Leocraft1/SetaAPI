@@ -1,0 +1,82 @@
+[
+  {
+    "desc": "Ospedale San Felice",
+    "code": "MO293",
+    "islast": false
+  },
+  {
+    "desc": "San Felice stadio",
+    "code": "MO291",
+    "islast": false
+  },
+  {
+    "desc": "San Felice sul Panaro",
+    "code": "MO3700",
+    "islast": false
+  },
+  {
+    "desc": "Mulino Ariani",
+    "code": "MO2135",
+    "islast": false
+  },
+  {
+    "desc": "Rivara",
+    "code": "MO4503",
+    "islast": false
+  },
+  {
+    "desc": "Pavignane",
+    "code": "MO4299",
+    "islast": false
+  },
+  {
+    "desc": "Confine",
+    "code": "MO550",
+    "islast": false
+  },
+  {
+    "desc": "Ponte San Pellegrino",
+    "code": "MO552",
+    "islast": false
+  },
+  {
+    "desc": "Camil",
+    "code": "MO554",
+    "islast": false
+  },
+  {
+    "desc": "Mortizzuolo",
+    "code": "MO538",
+    "islast": false
+  },
+  {
+    "desc": "Mortizzuolo",
+    "code": "MO545",
+    "islast": false
+  },
+  {
+    "desc": "Il Fiasco",
+    "code": "MO1060",
+    "islast": false
+  },
+  {
+    "desc": "Case Quattro Frati",
+    "code": "MO1052",
+    "islast": false
+  },
+  {
+    "desc": "La Picca",
+    "code": "MO1054",
+    "islast": false
+  },
+  {
+    "desc": "Nuvolari bv Barozzi",
+    "code": "MO3983",
+    "islast": false
+  },
+  {
+    "desc": "Mirandola Terminal",
+    "code": "MO3971",
+    "islast": true
+  }
+]

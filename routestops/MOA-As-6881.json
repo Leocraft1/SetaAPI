@@ -1,0 +1,82 @@
+[
+  {
+    "desc": "Refice scuole",
+    "code": "MO2522",
+    "islast": false
+  },
+  {
+    "desc": "Refice parco",
+    "code": "MO3395",
+    "islast": false
+  },
+  {
+    "desc": "Refice Parco",
+    "code": "MO3402",
+    "islast": false
+  },
+  {
+    "desc": "Casella",
+    "code": "MO3421",
+    "islast": false
+  },
+  {
+    "desc": "Frescobaldi",
+    "code": "MO3423",
+    "islast": false
+  },
+  {
+    "desc": "Giordano 1",
+    "code": "MO3398",
+    "islast": false
+  },
+  {
+    "desc": "Rometta alta",
+    "code": "MO3425",
+    "islast": false
+  },
+  {
+    "desc": "Ospedale Sassuolo",
+    "code": "MO2786",
+    "islast": false
+  },
+  {
+    "desc": "Rometta",
+    "code": "MO2225",
+    "islast": false
+  },
+  {
+    "desc": "Largo Verona",
+    "code": "MO2375",
+    "islast": false
+  },
+  {
+    "desc": "Cimitero Vecchio",
+    "code": "MO2267",
+    "islast": false
+  },
+  {
+    "desc": "Pace",
+    "code": "MO2379",
+    "islast": false
+  },
+  {
+    "desc": "Aravecchia",
+    "code": "MO2268",
+    "islast": false
+  },
+  {
+    "desc": "Risorgimento",
+    "code": "MO2233",
+    "islast": false
+  },
+  {
+    "desc": "Braida Ist. Baggi",
+    "code": "MO2309",
+    "islast": false
+  },
+  {
+    "desc": "Sassuolo Terminal",
+    "code": "MO2306",
+    "islast": true
+  }
+]

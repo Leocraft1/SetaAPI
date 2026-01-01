@@ -1,0 +1,107 @@
+[
+  {
+    "desc": "San Prospero",
+    "code": "MO2209",
+    "islast": false
+  },
+  {
+    "desc": "San Pietro bv",
+    "code": "MO640",
+    "islast": false
+  },
+  {
+    "desc": "Casinone",
+    "code": "MO664",
+    "islast": false
+  },
+  {
+    "desc": "Il Cristo",
+    "code": "MO668",
+    "islast": false
+  },
+  {
+    "desc": "Sorbara bv",
+    "code": "MO670",
+    "islast": false
+  },
+  {
+    "desc": "Sozzigalli centro",
+    "code": "MO391",
+    "islast": false
+  },
+  {
+    "desc": "Sozzigalli Caseificio",
+    "code": "MO393",
+    "islast": false
+  },
+  {
+    "desc": "Limidi mulino",
+    "code": "MO395",
+    "islast": false
+  },
+  {
+    "desc": "Casa Rossa",
+    "code": "MO397",
+    "islast": false
+  },
+  {
+    "desc": "Limidi",
+    "code": "MO398",
+    "islast": false
+  },
+  {
+    "desc": "Roma",
+    "code": "MO399",
+    "islast": false
+  },
+  {
+    "desc": "La Baita",
+    "code": "MO401",
+    "islast": false
+  },
+  {
+    "desc": "Lama",
+    "code": "MO405",
+    "islast": false
+  },
+  {
+    "desc": "Cavalcaferrovia",
+    "code": "MO249",
+    "islast": false
+  },
+  {
+    "desc": "Lama 1",
+    "code": "MO264",
+    "islast": false
+  },
+  {
+    "desc": "Lama 2",
+    "code": "MO3232",
+    "islast": false
+  },
+  {
+    "desc": "Marx 1",
+    "code": "MO3214",
+    "islast": false
+  },
+  {
+    "desc": "Marx",
+    "code": "MO251",
+    "islast": false
+  },
+  {
+    "desc": "Stadio",
+    "code": "MO8553",
+    "islast": false
+  },
+  {
+    "desc": "P.le Ramazzini",
+    "code": "MO502",
+    "islast": false
+  },
+  {
+    "desc": "CARPI TERMINAL BUS",
+    "code": "MO508",
+    "islast": true
+  }
+]

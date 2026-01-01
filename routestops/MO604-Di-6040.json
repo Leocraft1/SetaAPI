@@ -1,0 +1,197 @@
+[
+  {
+    "desc": "Rubbiano",
+    "code": "MO1481",
+    "islast": false
+  },
+  {
+    "desc": "Albero",
+    "code": "MO1482",
+    "islast": false
+  },
+  {
+    "desc": "Pieve",
+    "code": "MO1483",
+    "islast": false
+  },
+  {
+    "desc": "Casa Nuova Saletto",
+    "code": "MO1487",
+    "islast": false
+  },
+  {
+    "desc": "Gusciola",
+    "code": "MO1489",
+    "islast": false
+  },
+  {
+    "desc": "Mulino Porcella",
+    "code": "MO1491",
+    "islast": false
+  },
+  {
+    "desc": "Farneta",
+    "code": "MO1493",
+    "islast": false
+  },
+  {
+    "desc": "Le Borre",
+    "code": "MO1495",
+    "islast": false
+  },
+  {
+    "desc": "Ceresola",
+    "code": "MO1497",
+    "islast": false
+  },
+  {
+    "desc": "Croce d'Isola",
+    "code": "MO1499",
+    "islast": false
+  },
+  {
+    "desc": "Giunzione",
+    "code": "MO1503",
+    "islast": false
+  },
+  {
+    "desc": "Lasetta",
+    "code": "MO1697",
+    "islast": false
+  },
+  {
+    "desc": "San Scolastica",
+    "code": "MO1698",
+    "islast": false
+  },
+  {
+    "desc": "Romanoro",
+    "code": "MO1699",
+    "islast": false
+  },
+  {
+    "desc": "Mulino",
+    "code": "MO1703",
+    "islast": false
+  },
+  {
+    "desc": "Rovolo",
+    "code": "MO1704",
+    "islast": false
+  },
+  {
+    "desc": "Vallorsara",
+    "code": "MO1705",
+    "islast": false
+  },
+  {
+    "desc": "Muschioso",
+    "code": "MO1706",
+    "islast": false
+  },
+  {
+    "desc": "Fontanaluccia bv",
+    "code": "MO1975",
+    "islast": false
+  },
+  {
+    "desc": "Casa Becchelli",
+    "code": "MO1977",
+    "islast": false
+  },
+  {
+    "desc": "Fontanaluccia garage",
+    "code": "MO1978",
+    "islast": false
+  },
+  {
+    "desc": "Fontanaluccia",
+    "code": "MO1982",
+    "islast": false
+  },
+  {
+    "desc": "Chiesa",
+    "code": "MO1983",
+    "islast": false
+  },
+  {
+    "desc": "Ca' Ferioli",
+    "code": "MO1985",
+    "islast": false
+  },
+  {
+    "desc": "Ca' Stefani",
+    "code": "MO3440",
+    "islast": false
+  },
+  {
+    "desc": "Ca' Ferioli",
+    "code": "MO3434",
+    "islast": false
+  },
+  {
+    "desc": "Chiesa",
+    "code": "MO3432",
+    "islast": false
+  },
+  {
+    "desc": "Fontanaluccia",
+    "code": "MO3430",
+    "islast": false
+  },
+  {
+    "desc": "Fontanaluccia garage",
+    "code": "MO3428",
+    "islast": false
+  },
+  {
+    "desc": "Casa Becchelli",
+    "code": "MO3426",
+    "islast": false
+  },
+  {
+    "desc": "Fontanaluccia bv",
+    "code": "MO3420",
+    "islast": false
+  },
+  {
+    "desc": "Solgara",
+    "code": "MO1976",
+    "islast": false
+  },
+  {
+    "desc": "Pietravolta",
+    "code": "MO3450",
+    "islast": false
+  },
+  {
+    "desc": "Monte Vecchio",
+    "code": "MO3448",
+    "islast": false
+  },
+  {
+    "desc": "Monte Nuovo",
+    "code": "MO3446",
+    "islast": false
+  },
+  {
+    "desc": "bv Gronda del mare",
+    "code": "MO3789",
+    "islast": false
+  },
+  {
+    "desc": "Ca' di Giannasi",
+    "code": "MO3050",
+    "islast": false
+  },
+  {
+    "desc": "Frassinoro ex scuole",
+    "code": "MO1601",
+    "islast": false
+  },
+  {
+    "desc": "Frassinoro",
+    "code": "MO1600",
+    "islast": true
+  }
+]

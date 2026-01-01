@@ -1,0 +1,192 @@
+[
+  {
+    "desc": "Vignola Autostazione",
+    "code": "MO4511",
+    "islast": false
+  },
+  {
+    "desc": "La Vigna",
+    "code": "MO2410",
+    "islast": false
+  },
+  {
+    "desc": "Pievina",
+    "code": "MO2405",
+    "islast": false
+  },
+  {
+    "desc": "Tavernelle",
+    "code": "MO1059",
+    "islast": false
+  },
+  {
+    "desc": "Berso Delle Rose",
+    "code": "MO1058",
+    "islast": false
+  },
+  {
+    "desc": "Casa Ricchi",
+    "code": "MO1057",
+    "islast": false
+  },
+  {
+    "desc": "Marano",
+    "code": "MO2000",
+    "islast": false
+  },
+  {
+    "desc": "Casa Bonetti 1",
+    "code": "MO1332",
+    "islast": false
+  },
+  {
+    "desc": "Via Pavullese",
+    "code": "MO3331",
+    "islast": false
+  },
+  {
+    "desc": "Marano fornace",
+    "code": "MO1331",
+    "islast": false
+  },
+  {
+    "desc": "Provincia 1",
+    "code": "MO1329",
+    "islast": false
+  },
+  {
+    "desc": "Provincia 2",
+    "code": "MO1325",
+    "islast": false
+  },
+  {
+    "desc": "Ristorante Saionara",
+    "code": "MO1327",
+    "islast": false
+  },
+  {
+    "desc": "Casona",
+    "code": "MO1326",
+    "islast": false
+  },
+  {
+    "desc": "Casona bv",
+    "code": "MO1324",
+    "islast": false
+  },
+  {
+    "desc": "Casa Bonetti",
+    "code": "MO1316",
+    "islast": false
+  },
+  {
+    "desc": "Festa casa cantoniera",
+    "code": "MO1317",
+    "islast": false
+  },
+  {
+    "desc": "Casa Giannini",
+    "code": "MO1318",
+    "islast": false
+  },
+  {
+    "desc": "Molino Palette",
+    "code": "MO1319",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Samone",
+    "code": "MO2440",
+    "islast": false
+  },
+  {
+    "desc": "Casolare",
+    "code": "MO1956",
+    "islast": false
+  },
+  {
+    "desc": "Verica casa cantoniera",
+    "code": "MO1955",
+    "islast": false
+  },
+  {
+    "desc": "Ristorante Martino",
+    "code": "MO1938",
+    "islast": false
+  },
+  {
+    "desc": "Lido Panaro",
+    "code": "MO1941",
+    "islast": false
+  },
+  {
+    "desc": "Chiozzo",
+    "code": "MO1943",
+    "islast": false
+  },
+  {
+    "desc": "Il Frantoio",
+    "code": "MO1951",
+    "islast": false
+  },
+  {
+    "desc": "La Borra",
+    "code": "MO1952",
+    "islast": false
+  },
+  {
+    "desc": "Baita Panaro",
+    "code": "MO1953",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Scoltenna",
+    "code": "MO2089",
+    "islast": false
+  },
+  {
+    "desc": "Cartiera",
+    "code": "MO2085",
+    "islast": false
+  },
+  {
+    "desc": "Casa Mazzini",
+    "code": "MO2084",
+    "islast": false
+  },
+  {
+    "desc": "Ca' Ivo",
+    "code": "MO2083",
+    "islast": false
+  },
+  {
+    "desc": "Rocchetta Sandri bv",
+    "code": "MO2079",
+    "islast": false
+  },
+  {
+    "desc": "Casa Pilino",
+    "code": "MO2081",
+    "islast": false
+  },
+  {
+    "desc": "Santa Croce",
+    "code": "MO2088",
+    "islast": false
+  },
+  {
+    "desc": "Fanano zona artigianale",
+    "code": "MO581",
+    "islast": false
+  },
+  {
+    "desc": "Ospitale bv",
+    "code": "MO2087",
+    "islast": false
+  },
+  {
+    "desc": "Fanano",
+    "code": "MO1100",
+    "islast": true
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "desc": "Castelfranco FS",
+    "code": "MO491",
+    "islast": false
+  },
+  {
+    "desc": "Castelfranco teatro",
+    "code": "MO1468",
+    "islast": false
+  },
+  {
+    "desc": "Centro commerciale",
+    "code": "MO678",
+    "islast": false
+  },
+  {
+    "desc": "Loda",
+    "code": "MO7041",
+    "islast": false
+  },
+  {
+    "desc": "Beccastecca",
+    "code": "MO679",
+    "islast": false
+  },
+  {
+    "desc": "Cabina",
+    "code": "MO681",
+    "islast": false
+  },
+  {
+    "desc": "Cavalcavia",
+    "code": "MO682",
+    "islast": false
+  },
+  {
+    "desc": "San Cesario",
+    "code": "MO2076",
+    "islast": false
+  },
+  {
+    "desc": "Fa l'Alba",
+    "code": "MO693",
+    "islast": false
+  },
+  {
+    "desc": "Sant'Adriano frigo",
+    "code": "MO694",
+    "islast": false
+  },
+  {
+    "desc": "Altola'",
+    "code": "MO695",
+    "islast": false
+  },
+  {
+    "desc": "Spilamberto",
+    "code": "MO4500",
+    "islast": true
+  }
+]

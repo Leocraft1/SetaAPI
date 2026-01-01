@@ -1,0 +1,107 @@
+[
+  {
+    "desc": "Vignola Autostazione",
+    "code": "MO4508",
+    "islast": false
+  },
+  {
+    "desc": "La Vigna",
+    "code": "MO2410",
+    "islast": false
+  },
+  {
+    "desc": "Il Gessiere",
+    "code": "MO4608",
+    "islast": false
+  },
+  {
+    "desc": "Barozzi scuola",
+    "code": "MO4603",
+    "islast": false
+  },
+  {
+    "desc": "Vignola Centro",
+    "code": "MO4601",
+    "islast": false
+  },
+  {
+    "desc": "Formica",
+    "code": "MO1203",
+    "islast": false
+  },
+  {
+    "desc": "Zocca bv",
+    "code": "MO1210",
+    "islast": false
+  },
+  {
+    "desc": "Campiglio bv",
+    "code": "MO2216",
+    "islast": false
+  },
+  {
+    "desc": "Casa Bighini",
+    "code": "MO2214",
+    "islast": false
+  },
+  {
+    "desc": "Doccia",
+    "code": "MO4101",
+    "islast": false
+  },
+  {
+    "desc": "Savignano sul Panaro",
+    "code": "MO4100",
+    "islast": false
+  },
+  {
+    "desc": "Savignano Trattoria",
+    "code": "MO4102",
+    "islast": false
+  },
+  {
+    "desc": "Savignano Mulino",
+    "code": "MO1076",
+    "islast": false
+  },
+  {
+    "desc": "Franchini",
+    "code": "MO1075",
+    "islast": false
+  },
+  {
+    "desc": "Cartiera Santi",
+    "code": "MO947",
+    "islast": false
+  },
+  {
+    "desc": "Perla Verde",
+    "code": "MO944",
+    "islast": false
+  },
+  {
+    "desc": "Marani",
+    "code": "MO943",
+    "islast": false
+  },
+  {
+    "desc": "Magazzino",
+    "code": "MO5701",
+    "islast": false
+  },
+  {
+    "desc": "Sant'Adriano frigo",
+    "code": "MO1404",
+    "islast": false
+  },
+  {
+    "desc": "Fa l'Alba",
+    "code": "MO1403",
+    "islast": false
+  },
+  {
+    "desc": "San Cesario",
+    "code": "MO3600",
+    "islast": true
+  }
+]

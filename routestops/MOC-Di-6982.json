@@ -1,0 +1,157 @@
+[
+  {
+    "desc": "Monte Santo",
+    "code": "MO7320",
+    "islast": false
+  },
+  {
+    "desc": "Radici in Piano Montegrappa",
+    "code": "MO1554",
+    "islast": false
+  },
+  {
+    "desc": "Radici in Piano bv Sella",
+    "code": "MO1553",
+    "islast": false
+  },
+  {
+    "desc": "Piemonte",
+    "code": "MO2537",
+    "islast": false
+  },
+  {
+    "desc": "Toscana",
+    "code": "MO2541",
+    "islast": false
+  },
+  {
+    "desc": "Valle D'Aosta",
+    "code": "MO3967",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Romagna",
+    "code": "MO3968",
+    "islast": false
+  },
+  {
+    "desc": "Ca Marta",
+    "code": "MO3782",
+    "islast": false
+  },
+  {
+    "desc": "Regina Pacis",
+    "code": "MO3784",
+    "islast": false
+  },
+  {
+    "desc": "Vittime 11 Settembre bv Tobagi",
+    "code": "MO2438",
+    "islast": false
+  },
+  {
+    "desc": "Radici",
+    "code": "MO3341",
+    "islast": false
+  },
+  {
+    "desc": "Radici in Piano bv I Maggio",
+    "code": "MO776",
+    "islast": false
+  },
+  {
+    "desc": "Radici in Piano bv San Lorenzo",
+    "code": "MO2535",
+    "islast": false
+  },
+  {
+    "desc": "Sassuolo Terminal",
+    "code": "MO2306",
+    "islast": false
+  },
+  {
+    "desc": "Prampolini",
+    "code": "MO2273",
+    "islast": false
+  },
+  {
+    "desc": "Risorgimento",
+    "code": "MO3998",
+    "islast": false
+  },
+  {
+    "desc": "Mazzini",
+    "code": "MO2313",
+    "islast": false
+  },
+  {
+    "desc": "Gorizia",
+    "code": "MO2534",
+    "islast": false
+  },
+  {
+    "desc": "Cairoli",
+    "code": "MO2533",
+    "islast": false
+  },
+  {
+    "desc": "Torino",
+    "code": "MO2499",
+    "islast": false
+  },
+  {
+    "desc": "Rometta",
+    "code": "MO2515",
+    "islast": false
+  },
+  {
+    "desc": "Ospedale Sassuolo",
+    "code": "MO2786",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Nuovo",
+    "code": "MO1770",
+    "islast": false
+  },
+  {
+    "desc": "Varana bv",
+    "code": "MO915",
+    "islast": false
+  },
+  {
+    "desc": "Salvarola bv",
+    "code": "MO1782",
+    "islast": false
+  },
+  {
+    "desc": "Superchia",
+    "code": "MO993",
+    "islast": false
+  },
+  {
+    "desc": "Vallurbana",
+    "code": "MO1784",
+    "islast": false
+  },
+  {
+    "desc": "Mulino",
+    "code": "MO1884",
+    "islast": false
+  },
+  {
+    "desc": "San Michele Basso",
+    "code": "MO1882",
+    "islast": false
+  },
+  {
+    "desc": "San Michele Centro",
+    "code": "MO2675",
+    "islast": false
+  },
+  {
+    "desc": "San Michele Socche",
+    "code": "MO2329",
+    "islast": true
+  }
+]

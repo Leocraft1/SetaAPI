@@ -1,0 +1,87 @@
+[
+  {
+    "desc": "Sassuolo Terminal",
+    "code": "MO2237",
+    "islast": false
+  },
+  {
+    "desc": "Stazione Sassuolo Radici",
+    "code": "MO2388",
+    "islast": false
+  },
+  {
+    "desc": "Radici in Monte bv Magenta",
+    "code": "MO779",
+    "islast": false
+  },
+  {
+    "desc": "Veggia",
+    "code": "MO3489",
+    "islast": false
+  },
+  {
+    "desc": "Veggia ceramica",
+    "code": "MO974",
+    "islast": false
+  },
+  {
+    "desc": "Tressano fornace",
+    "code": "MO975",
+    "islast": false
+  },
+  {
+    "desc": "Tressano",
+    "code": "MO3508",
+    "islast": false
+  },
+  {
+    "desc": "Villaggio",
+    "code": "MO1939",
+    "islast": false
+  },
+  {
+    "desc": "Castellarano",
+    "code": "MO3504",
+    "islast": false
+  },
+  {
+    "desc": "Villabianca",
+    "code": "MO3502",
+    "islast": false
+  },
+  {
+    "desc": "Cavriana",
+    "code": "MO3501",
+    "islast": false
+  },
+  {
+    "desc": "Casa Nuova",
+    "code": "MO1873",
+    "islast": false
+  },
+  {
+    "desc": "Roteglia cimitero",
+    "code": "MO1863",
+    "islast": false
+  },
+  {
+    "desc": "Roteglia",
+    "code": "MO3497",
+    "islast": false
+  },
+  {
+    "desc": "Bora",
+    "code": "MO3495",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Lucenta",
+    "code": "MO1862",
+    "islast": false
+  },
+  {
+    "desc": "La Pesa",
+    "code": "MO3499",
+    "islast": true
+  }
+]

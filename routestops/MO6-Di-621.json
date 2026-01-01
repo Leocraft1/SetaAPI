@@ -1,0 +1,112 @@
+[
+  {
+    "desc": "SANTI",
+    "code": "MO6804",
+    "islast": false
+  },
+  {
+    "desc": "Paolo Ruffini",
+    "code": "MO6805",
+    "islast": false
+  },
+  {
+    "desc": "Galaverna",
+    "code": "MO6871",
+    "islast": false
+  },
+  {
+    "desc": "Storchi Cialdini",
+    "code": "MO6803",
+    "islast": false
+  },
+  {
+    "desc": "Storchi Sacro Cuore",
+    "code": "MO6801",
+    "islast": false
+  },
+  {
+    "desc": "MODENA  AUTOSTAZIONE",
+    "code": "MO6121",
+    "islast": false
+  },
+  {
+    "desc": "Ospedale Estense",
+    "code": "MO6173",
+    "islast": false
+  },
+  {
+    "desc": "Vittorio Veneto bv Trombi",
+    "code": "MO6171",
+    "islast": false
+  },
+  {
+    "desc": "Risorgimento",
+    "code": "MO20",
+    "islast": false
+  },
+  {
+    "desc": "Sigonio bv Guarini",
+    "code": "MO6649",
+    "islast": false
+  },
+  {
+    "desc": "Sigonio bv Tamburini",
+    "code": "MO6501",
+    "islast": false
+  },
+  {
+    "desc": "Buon Pastore bv Peretti",
+    "code": "MO6503",
+    "islast": false
+  },
+  {
+    "desc": "Buon Pastore Portici",
+    "code": "MO6505",
+    "islast": false
+  },
+  {
+    "desc": "Buon Pastore bv Domenichino",
+    "code": "MO6507",
+    "islast": false
+  },
+  {
+    "desc": "Buon Pastore bv Amendola",
+    "code": "MO6508",
+    "islast": false
+  },
+  {
+    "desc": "F.lli Rosselli villa Rosa",
+    "code": "MO6510",
+    "islast": false
+  },
+  {
+    "desc": "F.lli Rosselli bv Conco",
+    "code": "MO6513",
+    "islast": false
+  },
+  {
+    "desc": "F.lli Rosselli bv Pelloni",
+    "code": "MO6582",
+    "islast": false
+  },
+  {
+    "desc": "La Carovana scuole",
+    "code": "MO6743",
+    "islast": false
+  },
+  {
+    "desc": "Forli' bv F.lli Rosselli",
+    "code": "MO6581",
+    "islast": false
+  },
+  {
+    "desc": "Forli",
+    "code": "MO105",
+    "islast": false
+  },
+  {
+    "desc": "CHINNICI",
+    "code": "MO106",
+    "islast": true
+  }
+]

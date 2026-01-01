@@ -1,0 +1,132 @@
+[
+  {
+    "desc": "Sassuolo Terminal",
+    "code": "MO2237",
+    "islast": false
+  },
+  {
+    "desc": "Pizzeria",
+    "code": "MO1517",
+    "islast": false
+  },
+  {
+    "desc": "Calatafimi",
+    "code": "MO1515",
+    "islast": false
+  },
+  {
+    "desc": "Sottovia",
+    "code": "MO1514",
+    "islast": false
+  },
+  {
+    "desc": "Ciemme",
+    "code": "MO1513",
+    "islast": false
+  },
+  {
+    "desc": "Quattro Colonne",
+    "code": "MO1512",
+    "islast": false
+  },
+  {
+    "desc": "Ancora 299",
+    "code": "MO1511",
+    "islast": false
+  },
+  {
+    "desc": "Berlette",
+    "code": "MO1498",
+    "islast": false
+  },
+  {
+    "desc": "Casa Corradini",
+    "code": "MO1494",
+    "islast": false
+  },
+  {
+    "desc": "Magreta",
+    "code": "MO1510",
+    "islast": false
+  },
+  {
+    "desc": "Campo Sportivo",
+    "code": "MO742",
+    "islast": false
+  },
+  {
+    "desc": "Mazzacavallo",
+    "code": "MO4701",
+    "islast": false
+  },
+  {
+    "desc": "Corlo edicola",
+    "code": "MO741",
+    "islast": false
+  },
+  {
+    "desc": "Corlo",
+    "code": "MO763",
+    "islast": false
+  },
+  {
+    "desc": "Grazia",
+    "code": "MO764",
+    "islast": false
+  },
+  {
+    "desc": "Albergo",
+    "code": "MO2723",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Fossa",
+    "code": "MO765",
+    "islast": false
+  },
+  {
+    "desc": "Edilcuoghi",
+    "code": "MO767",
+    "islast": false
+  },
+  {
+    "desc": "Radici in Piano bv Piemonte",
+    "code": "MO769",
+    "islast": false
+  },
+  {
+    "desc": "Radici in Piano bv Sella",
+    "code": "MO771",
+    "islast": false
+  },
+  {
+    "desc": "Radici in Piano bv  Montegrappa",
+    "code": "MO772",
+    "islast": false
+  },
+  {
+    "desc": "Panorama",
+    "code": "MO774",
+    "islast": false
+  },
+  {
+    "desc": "Quattroponti",
+    "code": "MO2685",
+    "islast": false
+  },
+  {
+    "desc": "Madonna di Sotto",
+    "code": "MO2295",
+    "islast": false
+  },
+  {
+    "desc": "Radici in Piano bv I Maggio",
+    "code": "MO776",
+    "islast": false
+  },
+  {
+    "desc": "Sassuolo Terminal",
+    "code": "MO4000",
+    "islast": true
+  }
+]

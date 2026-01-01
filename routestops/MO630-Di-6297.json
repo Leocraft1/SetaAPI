@@ -1,0 +1,157 @@
+[
+  {
+    "desc": "Sassuolo Terminal",
+    "code": "MO2237",
+    "islast": false
+  },
+  {
+    "desc": "Stazione Sassuolo Radici",
+    "code": "MO2388",
+    "islast": false
+  },
+  {
+    "desc": "Radici in Monte bv Magenta",
+    "code": "MO779",
+    "islast": false
+  },
+  {
+    "desc": "Indipendenza",
+    "code": "MO1767",
+    "islast": false
+  },
+  {
+    "desc": "Indipendenza ex Questura",
+    "code": "MO1766",
+    "islast": false
+  },
+  {
+    "desc": "Montanara",
+    "code": "MO1768",
+    "islast": false
+  },
+  {
+    "desc": "Polo Scolastico",
+    "code": "MO2965",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Nuovo",
+    "code": "MO1770",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Alto Nuovo",
+    "code": "MO911",
+    "islast": false
+  },
+  {
+    "desc": "Sarsa",
+    "code": "MO1011",
+    "islast": false
+  },
+  {
+    "desc": "Casa Zironi",
+    "code": "MO1012",
+    "islast": false
+  },
+  {
+    "desc": "Montegibbio",
+    "code": "MO1013",
+    "islast": false
+  },
+  {
+    "desc": "Bocca di Borre",
+    "code": "MO1014",
+    "islast": false
+  },
+  {
+    "desc": "Marzola",
+    "code": "MO1015",
+    "islast": false
+  },
+  {
+    "desc": "Bompanara",
+    "code": "MO1016",
+    "islast": false
+  },
+  {
+    "desc": "Sterpatelli",
+    "code": "MO1017",
+    "islast": false
+  },
+  {
+    "desc": "Montebaranzone",
+    "code": "MO1018",
+    "islast": false
+  },
+  {
+    "desc": "La Croce",
+    "code": "MO1167",
+    "islast": false
+  },
+  {
+    "desc": "San Donnino di Varana",
+    "code": "MO1166",
+    "islast": false
+  },
+  {
+    "desc": "Casa Marchetti",
+    "code": "MO1165",
+    "islast": false
+  },
+  {
+    "desc": "Croce Di Varana",
+    "code": "MO1163",
+    "islast": false
+  },
+  {
+    "desc": "Varana",
+    "code": "MO1161",
+    "islast": false
+  },
+  {
+    "desc": "Pescarola bv",
+    "code": "MO1153",
+    "islast": false
+  },
+  {
+    "desc": "Casa Leoni",
+    "code": "MO1154",
+    "islast": false
+  },
+  {
+    "desc": "Palazzina",
+    "code": "MO1155",
+    "islast": false
+  },
+  {
+    "desc": "Serramazzoni bv",
+    "code": "MO1157",
+    "islast": false
+  },
+  {
+    "desc": "La Salda",
+    "code": "MO1159",
+    "islast": false
+  },
+  {
+    "desc": "San Pellegrinetto",
+    "code": "MO1150",
+    "islast": false
+  },
+  {
+    "desc": "Bar Carbonara",
+    "code": "MO1151",
+    "islast": false
+  },
+  {
+    "desc": "Faeto bv",
+    "code": "MO1168",
+    "islast": false
+  },
+  {
+    "desc": "Serramazzoni",
+    "code": "MO2352",
+    "islast": true
+  }
+]

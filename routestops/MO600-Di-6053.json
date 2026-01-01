@@ -1,0 +1,317 @@
+[
+  {
+    "desc": "Sassuolo Terminal",
+    "code": "MO4000",
+    "islast": false
+  },
+  {
+    "desc": "Stazione Sassuolo Radici",
+    "code": "MO2388",
+    "islast": false
+  },
+  {
+    "desc": "Radici in Monte bv Magenta",
+    "code": "MO779",
+    "islast": false
+  },
+  {
+    "desc": "Piscine",
+    "code": "MO2330",
+    "islast": false
+  },
+  {
+    "desc": "Bologna scuole",
+    "code": "MO904",
+    "islast": false
+  },
+  {
+    "desc": "Veggia",
+    "code": "MO3489",
+    "islast": false
+  },
+  {
+    "desc": "Veggia ceramica",
+    "code": "MO974",
+    "islast": false
+  },
+  {
+    "desc": "Tressano fornace",
+    "code": "MO975",
+    "islast": false
+  },
+  {
+    "desc": "Tressano",
+    "code": "MO3508",
+    "islast": false
+  },
+  {
+    "desc": "Villaggio",
+    "code": "MO1939",
+    "islast": false
+  },
+  {
+    "desc": "Castellarano",
+    "code": "MO3504",
+    "islast": false
+  },
+  {
+    "desc": "Villabianca",
+    "code": "MO3502",
+    "islast": false
+  },
+  {
+    "desc": "Cavriana",
+    "code": "MO3501",
+    "islast": false
+  },
+  {
+    "desc": "Casa Nuova",
+    "code": "MO1873",
+    "islast": false
+  },
+  {
+    "desc": "Roteglia cimitero",
+    "code": "MO1863",
+    "islast": false
+  },
+  {
+    "desc": "Roteglia",
+    "code": "MO3497",
+    "islast": false
+  },
+  {
+    "desc": "Bora",
+    "code": "MO3495",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Lucenta",
+    "code": "MO1862",
+    "islast": false
+  },
+  {
+    "desc": "La Pesa",
+    "code": "MO3499",
+    "islast": false
+  },
+  {
+    "desc": "Muraglione",
+    "code": "MO3503",
+    "islast": false
+  },
+  {
+    "desc": "Poggio del Bue",
+    "code": "MO3505",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Secchia",
+    "code": "MO1854",
+    "islast": false
+  },
+  {
+    "desc": "Cerredolo",
+    "code": "MO3521",
+    "islast": false
+  },
+  {
+    "desc": "Ca' Cerredolo",
+    "code": "MO1861",
+    "islast": false
+  },
+  {
+    "desc": "Le Buche",
+    "code": "MO3527",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Dolo",
+    "code": "MO1471",
+    "islast": false
+  },
+  {
+    "desc": "Casa Quaranta",
+    "code": "MO1473",
+    "islast": false
+  },
+  {
+    "desc": "Montestefano",
+    "code": "MO1474",
+    "islast": false
+  },
+  {
+    "desc": "Case Nuove",
+    "code": "MO1475",
+    "islast": false
+  },
+  {
+    "desc": "Rubbiano bv",
+    "code": "MO1479",
+    "islast": false
+  },
+  {
+    "desc": "Chilometro 39 e 800",
+    "code": "MO1478",
+    "islast": false
+  },
+  {
+    "desc": "Casa Sabatini",
+    "code": "MO1477",
+    "islast": false
+  },
+  {
+    "desc": "Boschi",
+    "code": "MO1476",
+    "islast": false
+  },
+  {
+    "desc": "Vitriola bv",
+    "code": "MO1522",
+    "islast": false
+  },
+  {
+    "desc": "Vitriola",
+    "code": "MO1523",
+    "islast": false
+  },
+  {
+    "desc": "Vitriola",
+    "code": "MO2920",
+    "islast": false
+  },
+  {
+    "desc": "Vitriola bv",
+    "code": "MO2910",
+    "islast": false
+  },
+  {
+    "desc": "Casa Monte",
+    "code": "MO2944",
+    "islast": false
+  },
+  {
+    "desc": "Casa Volpe",
+    "code": "MO2890",
+    "islast": false
+  },
+  {
+    "desc": "Caribe",
+    "code": "MO2946",
+    "islast": false
+  },
+  {
+    "desc": "USL",
+    "code": "MO2504",
+    "islast": false
+  },
+  {
+    "desc": "Montefiorino",
+    "code": "MO2500",
+    "islast": false
+  },
+  {
+    "desc": "USL",
+    "code": "MO1361",
+    "islast": false
+  },
+  {
+    "desc": "Caribe",
+    "code": "MO1562",
+    "islast": false
+  },
+  {
+    "desc": "Casa Volpe",
+    "code": "MO3638",
+    "islast": false
+  },
+  {
+    "desc": "Pianezzo",
+    "code": "MO2948",
+    "islast": false
+  },
+  {
+    "desc": "Casola",
+    "code": "MO2960",
+    "islast": false
+  },
+  {
+    "desc": "Sordomuti istituto",
+    "code": "MO2959",
+    "islast": false
+  },
+  {
+    "desc": "Mulino Calicetti",
+    "code": "MO2952",
+    "islast": false
+  },
+  {
+    "desc": "Lago",
+    "code": "MO2953",
+    "islast": false
+  },
+  {
+    "desc": "Lago bv",
+    "code": "MO2954",
+    "islast": false
+  },
+  {
+    "desc": "Il Sasso",
+    "code": "MO2955",
+    "islast": false
+  },
+  {
+    "desc": "Sassatella",
+    "code": "MO2956",
+    "islast": false
+  },
+  {
+    "desc": "Ronchi",
+    "code": "MO2957",
+    "islast": false
+  },
+  {
+    "desc": "Zona B",
+    "code": "MO2958",
+    "islast": false
+  },
+  {
+    "desc": "Spervara",
+    "code": "MO3060",
+    "islast": false
+  },
+  {
+    "desc": "Spervara bv",
+    "code": "MO3058",
+    "islast": false
+  },
+  {
+    "desc": "Spervara di Sopra",
+    "code": "MO3062",
+    "islast": false
+  },
+  {
+    "desc": "Case Bruciate",
+    "code": "MO3054",
+    "islast": false
+  },
+  {
+    "desc": "Ca' Facchini",
+    "code": "MO3052",
+    "islast": false
+  },
+  {
+    "desc": "Frassinoro scuole",
+    "code": "MO3851",
+    "islast": false
+  },
+  {
+    "desc": "Frassinoro",
+    "code": "MO3629",
+    "islast": false
+  },
+  {
+    "desc": "Frassinoro",
+    "code": "MO784",
+    "islast": true
+  }
+]

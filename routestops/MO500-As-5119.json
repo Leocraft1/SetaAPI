@@ -1,0 +1,197 @@
+[
+  {
+    "desc": "CARPI TERMINAL BUS",
+    "code": "MO504",
+    "islast": false
+  },
+  {
+    "desc": "Stadio",
+    "code": "MO8554",
+    "islast": false
+  },
+  {
+    "desc": "Marx",
+    "code": "MO499",
+    "islast": false
+  },
+  {
+    "desc": "Marx 1",
+    "code": "MO8313",
+    "islast": false
+  },
+  {
+    "desc": "Lama 2",
+    "code": "MO8532",
+    "islast": false
+  },
+  {
+    "desc": "Lama 1",
+    "code": "MO1116",
+    "islast": false
+  },
+  {
+    "desc": "Cavalcaferrovia",
+    "code": "MO498",
+    "islast": false
+  },
+  {
+    "desc": "Lama",
+    "code": "MO865",
+    "islast": false
+  },
+  {
+    "desc": "La Baita",
+    "code": "MO864",
+    "islast": false
+  },
+  {
+    "desc": "Roma",
+    "code": "MO863",
+    "islast": false
+  },
+  {
+    "desc": "Limidi",
+    "code": "MO860",
+    "islast": false
+  },
+  {
+    "desc": "Casa Rossa",
+    "code": "MO858",
+    "islast": false
+  },
+  {
+    "desc": "Limidi mulino",
+    "code": "MO856",
+    "islast": false
+  },
+  {
+    "desc": "Sozzigalli Caseificio",
+    "code": "MO854",
+    "islast": false
+  },
+  {
+    "desc": "Sozzigalli centro",
+    "code": "MO853",
+    "islast": false
+  },
+  {
+    "desc": "Sozzigalli via Canale",
+    "code": "MO250",
+    "islast": false
+  },
+  {
+    "desc": "Sozzigalli centro",
+    "code": "MO391",
+    "islast": false
+  },
+  {
+    "desc": "Sozzigalli Caseificio",
+    "code": "MO393",
+    "islast": false
+  },
+  {
+    "desc": "Limidi mulino",
+    "code": "MO395",
+    "islast": false
+  },
+  {
+    "desc": "Casa Rossa",
+    "code": "MO397",
+    "islast": false
+  },
+  {
+    "desc": "Papotti",
+    "code": "MO3491",
+    "islast": false
+  },
+  {
+    "desc": "Due Colonne",
+    "code": "MO857",
+    "islast": false
+  },
+  {
+    "desc": "Viazzolo",
+    "code": "MO855",
+    "islast": false
+  },
+  {
+    "desc": "La Corte",
+    "code": "MO1402",
+    "islast": false
+  },
+  {
+    "desc": "Soliera",
+    "code": "MO4400",
+    "islast": false
+  },
+  {
+    "desc": "Arginetto",
+    "code": "MO4402",
+    "islast": false
+  },
+  {
+    "desc": "Villa di Soliera",
+    "code": "MO1398",
+    "islast": false
+  },
+  {
+    "desc": "Smalteria",
+    "code": "MO1399",
+    "islast": false
+  },
+  {
+    "desc": "Cavalcaferrovia",
+    "code": "MO144",
+    "islast": false
+  },
+  {
+    "desc": "Appalto",
+    "code": "MO1003",
+    "islast": false
+  },
+  {
+    "desc": "Ganaceto scuole",
+    "code": "MO786",
+    "islast": false
+  },
+  {
+    "desc": "Ganaceto",
+    "code": "MO130",
+    "islast": false
+  },
+  {
+    "desc": "Cantina",
+    "code": "MO1298",
+    "islast": false
+  },
+  {
+    "desc": "Lesignana",
+    "code": "MO120",
+    "islast": false
+  },
+  {
+    "desc": "San Pancrazio",
+    "code": "MO56",
+    "islast": false
+  },
+  {
+    "desc": "Nazionale per Carpi bv Bembo",
+    "code": "MO3097",
+    "islast": false
+  },
+  {
+    "desc": "Nazionale per Carpi",
+    "code": "MO6830",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest bv Autodromo",
+    "code": "MO48",
+    "islast": false
+  },
+  {
+    "desc": "MODENA AUTOSTAZIONE",
+    "code": "MO344",
+    "islast": true
+  }
+]

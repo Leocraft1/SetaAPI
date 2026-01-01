@@ -1,0 +1,92 @@
+[
+  {
+    "desc": "GOTTARDI",
+    "code": "MO149",
+    "islast": false
+  },
+  {
+    "desc": "Gottardi bv Araldi",
+    "code": "MO236",
+    "islast": false
+  },
+  {
+    "desc": "Braghiroli",
+    "code": "MO207",
+    "islast": false
+  },
+  {
+    "desc": "Campi Universita",
+    "code": "MO219",
+    "islast": false
+  },
+  {
+    "desc": "Poliambulatorio",
+    "code": "MO225",
+    "islast": false
+  },
+  {
+    "desc": "Policlinico",
+    "code": "MO6311",
+    "islast": false
+  },
+  {
+    "desc": "Del Pozzo",
+    "code": "MO2659",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est Hotel Fini",
+    "code": "MO624",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est Finanza",
+    "code": "MO2657",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est bv S.Giovanni Bosco",
+    "code": "MO2656",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est Aci",
+    "code": "MO2654",
+    "islast": false
+  },
+  {
+    "desc": "GARIBALDI",
+    "code": "MO5900",
+    "islast": false
+  },
+  {
+    "desc": "Canalgrande bv Emilia Est",
+    "code": "MO2569",
+    "islast": false
+  },
+  {
+    "desc": "Canalgrande Biblioteca",
+    "code": "MO2582",
+    "islast": false
+  },
+  {
+    "desc": "Piazza Roma",
+    "code": "MO2583",
+    "islast": false
+  },
+  {
+    "desc": "Croce Rossa",
+    "code": "MO2580",
+    "islast": false
+  },
+  {
+    "desc": "Vittorio Emanuele",
+    "code": "MO2581",
+    "islast": false
+  },
+  {
+    "desc": "STAZIONE FS",
+    "code": "MO6132",
+    "islast": true
+  }
+]

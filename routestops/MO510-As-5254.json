@@ -1,0 +1,47 @@
+[
+  {
+    "desc": "Moglia",
+    "code": "MO1775",
+    "islast": false
+  },
+  {
+    "desc": "Dogana",
+    "code": "MO1954",
+    "islast": false
+  },
+  {
+    "desc": "Ponte di Ferro",
+    "code": "MO1979",
+    "islast": false
+  },
+  {
+    "desc": "Giardino",
+    "code": "MO2057",
+    "islast": false
+  },
+  {
+    "desc": "Novi",
+    "code": "MO2800",
+    "islast": false
+  },
+  {
+    "desc": "Uris Bar",
+    "code": "MO1721",
+    "islast": false
+  },
+  {
+    "desc": "Villafranca",
+    "code": "MO1701",
+    "islast": false
+  },
+  {
+    "desc": "Rolo bv",
+    "code": "MO1674",
+    "islast": false
+  },
+  {
+    "desc": "Rolo Stazione",
+    "code": "MO2449",
+    "islast": true
+  }
+]

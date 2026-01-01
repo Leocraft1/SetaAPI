@@ -1,0 +1,32 @@
+[
+  {
+    "desc": "Bomporto",
+    "code": "MO68",
+    "islast": false
+  },
+  {
+    "desc": "Bomporto monumento",
+    "code": "MO343",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Vecchio",
+    "code": "MO347",
+    "islast": false
+  },
+  {
+    "desc": "Villaggio Artigiano",
+    "code": "MO791",
+    "islast": false
+  },
+  {
+    "desc": "Sorbara",
+    "code": "MO660",
+    "islast": false
+  },
+  {
+    "desc": "Bastiglia",
+    "code": "MO100",
+    "islast": true
+  }
+]

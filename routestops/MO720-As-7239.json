@@ -1,0 +1,72 @@
+[
+  {
+    "desc": "Verica",
+    "code": "MO3040",
+    "islast": false
+  },
+  {
+    "desc": "Verica parcheggio",
+    "code": "MO3777",
+    "islast": false
+  },
+  {
+    "desc": "Verica Stazione",
+    "code": "MO3038",
+    "islast": false
+  },
+  {
+    "desc": "Casa Dell'Oste",
+    "code": "MO3036",
+    "islast": false
+  },
+  {
+    "desc": "Sassoguidano bv",
+    "code": "MO3030",
+    "islast": false
+  },
+  {
+    "desc": "Ca' del Fabbro",
+    "code": "MO1341",
+    "islast": false
+  },
+  {
+    "desc": "Iddiano bv",
+    "code": "MO1342",
+    "islast": false
+  },
+  {
+    "desc": "Cavazzona",
+    "code": "MO1343",
+    "islast": false
+  },
+  {
+    "desc": "Campiano",
+    "code": "MO1344",
+    "islast": false
+  },
+  {
+    "desc": "Campiano scuole",
+    "code": "MO1345",
+    "islast": false
+  },
+  {
+    "desc": "Casa Tre Torri",
+    "code": "MO1347",
+    "islast": false
+  },
+  {
+    "desc": "La Loggia",
+    "code": "MO1348",
+    "islast": false
+  },
+  {
+    "desc": "Corsini cimitero",
+    "code": "MO1593",
+    "islast": false
+  },
+  {
+    "desc": "Pavullo Autostazione",
+    "code": "MO3000",
+    "islast": true
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "desc": "Ospedale San Felice",
+    "code": "MO293",
+    "islast": false
+  },
+  {
+    "desc": "San Felice stadio",
+    "code": "MO291",
+    "islast": false
+  },
+  {
+    "desc": "San Felice sul Panaro",
+    "code": "MO3700",
+    "islast": false
+  },
+  {
+    "desc": "Casarino",
+    "code": "MO3699",
+    "islast": false
+  },
+  {
+    "desc": "Ca' Bianca",
+    "code": "MO1040",
+    "islast": false
+  },
+  {
+    "desc": "San Biagio",
+    "code": "MO1050",
+    "islast": false
+  },
+  {
+    "desc": "Carrobbio",
+    "code": "MO1051",
+    "islast": false
+  },
+  {
+    "desc": "Il Fiasco",
+    "code": "MO541",
+    "islast": false
+  },
+  {
+    "desc": "Mortizzuolo",
+    "code": "MO1070",
+    "islast": false
+  },
+  {
+    "desc": "Cazzuola",
+    "code": "MO1072",
+    "islast": false
+  },
+  {
+    "desc": "Borgnetto",
+    "code": "MO1074",
+    "islast": false
+  },
+  {
+    "desc": "Nuvolari bv Barozzi",
+    "code": "MO3983",
+    "islast": false
+  },
+  {
+    "desc": "Mirandola Terminal",
+    "code": "MO3971",
+    "islast": true
+  }
+]

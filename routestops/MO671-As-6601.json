@@ -1,0 +1,152 @@
+[
+  {
+    "desc": "Fiorano Modenese",
+    "code": "MO4010",
+    "islast": false
+  },
+  {
+    "desc": "Case Nuove",
+    "code": "MO1608",
+    "islast": false
+  },
+  {
+    "desc": "La Corona",
+    "code": "MO1610",
+    "islast": false
+  },
+  {
+    "desc": "Spezzano Crociale",
+    "code": "MO1612",
+    "islast": false
+  },
+  {
+    "desc": "Spezzano",
+    "code": "MO1620",
+    "islast": false
+  },
+  {
+    "desc": "Spezzano scuole",
+    "code": "MO1630",
+    "islast": false
+  },
+  {
+    "desc": "Borgo",
+    "code": "MO1632",
+    "islast": false
+  },
+  {
+    "desc": "Villa Vicini",
+    "code": "MO1634",
+    "islast": false
+  },
+  {
+    "desc": "Viazza",
+    "code": "MO1637",
+    "islast": false
+  },
+  {
+    "desc": "Ubersetto",
+    "code": "MO1640",
+    "islast": false
+  },
+  {
+    "desc": "Picchio Rosso",
+    "code": "MO825",
+    "islast": false
+  },
+  {
+    "desc": "Lar",
+    "code": "MO778",
+    "islast": false
+  },
+  {
+    "desc": "Formigine",
+    "code": "MO735",
+    "islast": false
+  },
+  {
+    "desc": "Molinella",
+    "code": "MO1502",
+    "islast": false
+  },
+  {
+    "desc": "Formigine cartiera",
+    "code": "MO1504",
+    "islast": false
+  },
+  {
+    "desc": "Casinalbo",
+    "code": "MO1530",
+    "islast": false
+  },
+  {
+    "desc": "La Bertola",
+    "code": "MO1428",
+    "islast": false
+  },
+  {
+    "desc": "Baggiovara 1",
+    "code": "MO1480",
+    "islast": false
+  },
+  {
+    "desc": "Giardini Simint",
+    "code": "MO667",
+    "islast": false
+  },
+  {
+    "desc": "Giardini Due Mulini",
+    "code": "MO665",
+    "islast": false
+  },
+  {
+    "desc": "Saliceta San Giuliano",
+    "code": "MO663",
+    "islast": false
+  },
+  {
+    "desc": "Giardini carcere",
+    "code": "MO2539",
+    "islast": false
+  },
+  {
+    "desc": "Giardini bv Cimabue",
+    "code": "MO3238",
+    "islast": false
+  },
+  {
+    "desc": "Giardini bv Cimabue 1",
+    "code": "MO3681",
+    "islast": false
+  },
+  {
+    "desc": "Direzionale 70",
+    "code": "MO2827",
+    "islast": false
+  },
+  {
+    "desc": "Croce Blu",
+    "code": "MO662",
+    "islast": false
+  },
+  {
+    "desc": "Teatro Michelangelo",
+    "code": "MO6",
+    "islast": false
+  },
+  {
+    "desc": "Risorgimento",
+    "code": "MO4",
+    "islast": false
+  },
+  {
+    "desc": "Ospedale Estense",
+    "code": "MO2594",
+    "islast": false
+  },
+  {
+    "desc": "MODENA AUTOSTAZIONE",
+    "code": "MO342",
+    "islast": true
+  }
+]

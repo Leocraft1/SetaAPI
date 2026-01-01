@@ -1,0 +1,157 @@
+[
+  {
+    "desc": "MODENA AUTOSTAZIONE",
+    "code": "MO346",
+    "islast": false
+  },
+  {
+    "desc": "Monte Kosica FS",
+    "code": "MO6118",
+    "islast": false
+  },
+  {
+    "desc": "Canaletto Coop",
+    "code": "MO25",
+    "islast": false
+  },
+  {
+    "desc": "Canaletto bv Soratore",
+    "code": "MO23",
+    "islast": false
+  },
+  {
+    "desc": "Suore bv Parenti",
+    "code": "MO6923",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Basso",
+    "code": "MO331",
+    "islast": false
+  },
+  {
+    "desc": "Canaletto Fiat",
+    "code": "MO576",
+    "islast": false
+  },
+  {
+    "desc": "Villa Nasi",
+    "code": "MO329",
+    "islast": false
+  },
+  {
+    "desc": "San Matteo 1",
+    "code": "MO328",
+    "islast": false
+  },
+  {
+    "desc": "Villa Zuccoli",
+    "code": "MO327",
+    "islast": false
+  },
+  {
+    "desc": "Monumento",
+    "code": "MO326",
+    "islast": false
+  },
+  {
+    "desc": "Bastiglia Cantone",
+    "code": "MO325",
+    "islast": false
+  },
+  {
+    "desc": "Bastiglia statale",
+    "code": "MO338",
+    "islast": false
+  },
+  {
+    "desc": "Bastiglia bv",
+    "code": "MO324",
+    "islast": false
+  },
+  {
+    "desc": "Bar Belfiore",
+    "code": "MO323",
+    "islast": false
+  },
+  {
+    "desc": "Sorbara bv",
+    "code": "MO321",
+    "islast": false
+  },
+  {
+    "desc": "Il Cristo",
+    "code": "MO319",
+    "islast": false
+  },
+  {
+    "desc": "Casinone",
+    "code": "MO315",
+    "islast": false
+  },
+  {
+    "desc": "San Pietro bv",
+    "code": "MO309",
+    "islast": false
+  },
+  {
+    "desc": "San Prospero",
+    "code": "MO3900",
+    "islast": false
+  },
+  {
+    "desc": "San Silvestro",
+    "code": "MO902",
+    "islast": false
+  },
+  {
+    "desc": "Cavezzo zona industriale",
+    "code": "MO3307",
+    "islast": false
+  },
+  {
+    "desc": "Cavezzo Autostazione",
+    "code": "MO490",
+    "islast": false
+  },
+  {
+    "desc": "Cavezzo Centro",
+    "code": "MO6971",
+    "islast": false
+  },
+  {
+    "desc": "Cavezzo stazione",
+    "code": "MO133",
+    "islast": false
+  },
+  {
+    "desc": "Medolla Autostazione",
+    "code": "MO488",
+    "islast": false
+  },
+  {
+    "desc": "San Giacomo Roncole",
+    "code": "MO1030",
+    "islast": false
+  },
+  {
+    "desc": "Fontana maglificio",
+    "code": "MO521",
+    "islast": false
+  },
+  {
+    "desc": "Carrozzeria Barbi",
+    "code": "MO1064",
+    "islast": false
+  },
+  {
+    "desc": "Barozzi scuole",
+    "code": "MO1187",
+    "islast": false
+  },
+  {
+    "desc": "Mirandola Terminal",
+    "code": "MO3973",
+    "islast": true
+  }
+]

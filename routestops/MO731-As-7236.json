@@ -1,0 +1,172 @@
+[
+  {
+    "desc": "Vignola Autostazione",
+    "code": "MO4505",
+    "islast": false
+  },
+  {
+    "desc": "La Vigna",
+    "code": "MO2410",
+    "islast": false
+  },
+  {
+    "desc": "Il Gessiere",
+    "code": "MO4608",
+    "islast": false
+  },
+  {
+    "desc": "Barozzi scuola",
+    "code": "MO4603",
+    "islast": false
+  },
+  {
+    "desc": "Vignola centro",
+    "code": "MO3709",
+    "islast": false
+  },
+  {
+    "desc": "Vignola FP",
+    "code": "MO3707",
+    "islast": false
+  },
+  {
+    "desc": "Vignola cimitero",
+    "code": "MO3703",
+    "islast": false
+  },
+  {
+    "desc": "Tassoni",
+    "code": "MO3701",
+    "islast": false
+  },
+  {
+    "desc": "Brodano",
+    "code": "MO4614",
+    "islast": false
+  },
+  {
+    "desc": "Centro commerciale",
+    "code": "MO3261",
+    "islast": false
+  },
+  {
+    "desc": "Confine",
+    "code": "MO2040",
+    "islast": false
+  },
+  {
+    "desc": "Sitma",
+    "code": "MO2701",
+    "islast": false
+  },
+  {
+    "desc": "San Pellegrino",
+    "code": "MO2036",
+    "islast": false
+  },
+  {
+    "desc": "Spilamberto",
+    "code": "MO4500",
+    "islast": false
+  },
+  {
+    "desc": "Modenese",
+    "code": "MO3226",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Re",
+    "code": "MO1410",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Guerro",
+    "code": "MO1390",
+    "islast": false
+  },
+  {
+    "desc": "SAN DONNINO",
+    "code": "MO1380",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese bv San Damaso",
+    "code": "MO1370",
+    "islast": false
+  },
+  {
+    "desc": "Patriarca",
+    "code": "MO232",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese Istituto",
+    "code": "MO669",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese bv Saluzzo",
+    "code": "MO2741",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese Universita",
+    "code": "MO671",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese bv La Spezia",
+    "code": "MO673",
+    "islast": false
+  },
+  {
+    "desc": "Piazza Manzoni",
+    "code": "MO40",
+    "islast": false
+  },
+  {
+    "desc": "Amendola bv Tamburini",
+    "code": "MO2811",
+    "islast": false
+  },
+  {
+    "desc": "Amendola",
+    "code": "MO2563",
+    "islast": false
+  },
+  {
+    "desc": "Amendola la Baracchina",
+    "code": "MO168",
+    "islast": false
+  },
+  {
+    "desc": "Amendola bv Nievo",
+    "code": "MO2864",
+    "islast": false
+  },
+  {
+    "desc": "Direzionale 70",
+    "code": "MO2827",
+    "islast": false
+  },
+  {
+    "desc": "Croce Blu",
+    "code": "MO662",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Cattaneo",
+    "code": "MO6704",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Guarini",
+    "code": "MO6721",
+    "islast": false
+  },
+  {
+    "desc": "POLO LEONARDO",
+    "code": "MO217",
+    "islast": true
+  }
+]

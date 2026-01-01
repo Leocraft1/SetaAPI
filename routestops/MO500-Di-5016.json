@@ -1,0 +1,117 @@
+[
+  {
+    "desc": "Soliera Industriale",
+    "code": "MO43",
+    "islast": false
+  },
+  {
+    "desc": "Smalteria",
+    "code": "MO683",
+    "islast": false
+  },
+  {
+    "desc": "Villa di Soliera",
+    "code": "MO685",
+    "islast": false
+  },
+  {
+    "desc": "Arginetto",
+    "code": "MO2387",
+    "islast": false
+  },
+  {
+    "desc": "Soliera",
+    "code": "MO2378",
+    "islast": false
+  },
+  {
+    "desc": "La Corte",
+    "code": "MO691",
+    "islast": false
+  },
+  {
+    "desc": "Viazzolo",
+    "code": "MO394",
+    "islast": false
+  },
+  {
+    "desc": "Due Colonne",
+    "code": "MO396",
+    "islast": false
+  },
+  {
+    "desc": "Papotti",
+    "code": "MO3469",
+    "islast": false
+  },
+  {
+    "desc": "Limidi",
+    "code": "MO398",
+    "islast": false
+  },
+  {
+    "desc": "Roma",
+    "code": "MO399",
+    "islast": false
+  },
+  {
+    "desc": "La Baita",
+    "code": "MO401",
+    "islast": false
+  },
+  {
+    "desc": "Lama",
+    "code": "MO405",
+    "islast": false
+  },
+  {
+    "desc": "Cavalcaferrovia",
+    "code": "MO249",
+    "islast": false
+  },
+  {
+    "desc": "Lama 1",
+    "code": "MO264",
+    "islast": false
+  },
+  {
+    "desc": "Lama 2",
+    "code": "MO3232",
+    "islast": false
+  },
+  {
+    "desc": "Marx 1",
+    "code": "MO3214",
+    "islast": false
+  },
+  {
+    "desc": "Marx",
+    "code": "MO251",
+    "islast": false
+  },
+  {
+    "desc": "Alghisi 2",
+    "code": "MO8538",
+    "islast": false
+  },
+  {
+    "desc": "Stazione FS",
+    "code": "MO506",
+    "islast": false
+  },
+  {
+    "desc": "Stadio",
+    "code": "MO8553",
+    "islast": false
+  },
+  {
+    "desc": "P.le Ramazzini",
+    "code": "MO502",
+    "islast": false
+  },
+  {
+    "desc": "CARPI TERMINAL BUS",
+    "code": "MO504",
+    "islast": true
+  }
+]

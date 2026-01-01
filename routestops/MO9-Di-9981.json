@@ -1,0 +1,197 @@
+[
+  {
+    "desc": "GOTTARDI",
+    "code": "MO148",
+    "islast": false
+  },
+  {
+    "desc": "Saffi",
+    "code": "MO2715",
+    "islast": false
+  },
+  {
+    "desc": "Speri autolavaggio",
+    "code": "MO2716",
+    "islast": false
+  },
+  {
+    "desc": "Speri Jaguar",
+    "code": "MO2669",
+    "islast": false
+  },
+  {
+    "desc": "Araldi bv Speri",
+    "code": "MO2661",
+    "islast": false
+  },
+  {
+    "desc": "Allegretti",
+    "code": "MO101",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est Mulino",
+    "code": "MO2671",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est Modena 118",
+    "code": "MO2660",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est Hotel Fini",
+    "code": "MO624",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est Finanza",
+    "code": "MO2657",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est bv S.Giovanni Bosco",
+    "code": "MO2656",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est Aci",
+    "code": "MO2654",
+    "islast": false
+  },
+  {
+    "desc": "Menotti bv Emilia Est",
+    "code": "MO132",
+    "islast": false
+  },
+  {
+    "desc": "Menotti bv Puccini",
+    "code": "MO131",
+    "islast": false
+  },
+  {
+    "desc": "Menotti bv Morselli",
+    "code": "MO129",
+    "islast": false
+  },
+  {
+    "desc": "Ferrari",
+    "code": "MO171",
+    "islast": false
+  },
+  {
+    "desc": "Ferrari bv Soli",
+    "code": "MO2863",
+    "islast": false
+  },
+  {
+    "desc": "Piave",
+    "code": "MO238",
+    "islast": false
+  },
+  {
+    "desc": "STAZIONE FS",
+    "code": "MO6133",
+    "islast": false
+  },
+  {
+    "desc": "Monte Kosica bv Ganaceto",
+    "code": "MO2575",
+    "islast": false
+  },
+  {
+    "desc": "Monte Kosica stadio",
+    "code": "MO2579",
+    "islast": false
+  },
+  {
+    "desc": "Monte Kosica Barozzi",
+    "code": "MO2578",
+    "islast": false
+  },
+  {
+    "desc": "MODENA  AUTOSTAZIONE",
+    "code": "MO10",
+    "islast": false
+  },
+  {
+    "desc": "Palazzo Europa",
+    "code": "MO2993",
+    "islast": false
+  },
+  {
+    "desc": "Caserma Pisacane",
+    "code": "MO2995",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest bv Ruffini",
+    "code": "MO2997",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest bv Autodromo",
+    "code": "MO13",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest Madonnina",
+    "code": "MO14",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest Hotel Eden",
+    "code": "MO2999",
+    "islast": false
+  },
+  {
+    "desc": "Centro Commerciale 2000",
+    "code": "MO3121",
+    "islast": false
+  },
+  {
+    "desc": "Centro Senada",
+    "code": "MO3069",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest Globo",
+    "code": "MO3073",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest Comet",
+    "code": "MO3093",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest Bruciata",
+    "code": "MO609",
+    "islast": false
+  },
+  {
+    "desc": "Virgilio Fiera",
+    "code": "MO3107",
+    "islast": false
+  },
+  {
+    "desc": "Virgilio Metro",
+    "code": "MO6875",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest bv Virgilio",
+    "code": "MO614",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest Grandemilia",
+    "code": "MO611",
+    "islast": false
+  },
+  {
+    "desc": "CITTANOVA",
+    "code": "MO612",
+    "islast": true
+  }
+]

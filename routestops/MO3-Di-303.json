@@ -1,0 +1,132 @@
+[
+  {
+    "desc": "RAGAZZI DEL 99",
+    "code": "MO7310",
+    "islast": false
+  },
+  {
+    "desc": "Ghiaroni bv Pistoia",
+    "code": "MO7309",
+    "islast": false
+  },
+  {
+    "desc": "Ghiaroni bv Firenze",
+    "code": "MO7307",
+    "islast": false
+  },
+  {
+    "desc": "Dalla Chiesa bv Tobagi",
+    "code": "MO6557",
+    "islast": false
+  },
+  {
+    "desc": "Casalegno rotonda",
+    "code": "MO2813",
+    "islast": false
+  },
+  {
+    "desc": "Liguria",
+    "code": "MO2802",
+    "islast": false
+  },
+  {
+    "desc": "Magenta bv del Garda",
+    "code": "MO2801",
+    "islast": false
+  },
+  {
+    "desc": "Magenta bv Vigevano",
+    "code": "MO2799",
+    "islast": false
+  },
+  {
+    "desc": "Ventimiglia bv Torino",
+    "code": "MO2733",
+    "islast": false
+  },
+  {
+    "desc": "Ventimiglia bv Albenga",
+    "code": "MO2732",
+    "islast": false
+  },
+  {
+    "desc": "San Remo",
+    "code": "MO2731",
+    "islast": false
+  },
+  {
+    "desc": "La Spezia bv Oneglia",
+    "code": "MO2729",
+    "islast": false
+  },
+  {
+    "desc": "La Spezia bv Vignolese",
+    "code": "MO2728",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese bv La Spezia",
+    "code": "MO673",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese Gambero",
+    "code": "MO2727",
+    "islast": false
+  },
+  {
+    "desc": "Cucchiari bv Manzoni",
+    "code": "MO135",
+    "islast": false
+  },
+  {
+    "desc": "Medaglie D'oro bv Bellinzona",
+    "code": "MO2791",
+    "islast": false
+  },
+  {
+    "desc": "Medaglie D' oro",
+    "code": "MO164",
+    "islast": false
+  },
+  {
+    "desc": "Fabrizi",
+    "code": "MO3649",
+    "islast": false
+  },
+  {
+    "desc": "Prefettura",
+    "code": "MO6156",
+    "islast": false
+  },
+  {
+    "desc": "GARIBALDI",
+    "code": "MO9",
+    "islast": false
+  },
+  {
+    "desc": "Caduti in guerra",
+    "code": "MO2589",
+    "islast": false
+  },
+  {
+    "desc": "Caduti in guerra orto botanico",
+    "code": "MO2596",
+    "islast": false
+  },
+  {
+    "desc": "Caduti in guerra giardini",
+    "code": "MO2611",
+    "islast": false
+  },
+  {
+    "desc": "Caduti in guerra Tempio",
+    "code": "MO2587",
+    "islast": false
+  },
+  {
+    "desc": "STAZIONE FS",
+    "code": "MO6119",
+    "islast": true
+  }
+]

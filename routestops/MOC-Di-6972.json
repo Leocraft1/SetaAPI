@@ -1,0 +1,67 @@
+[
+  {
+    "desc": "Sassuolo Terminal",
+    "code": "MO2306",
+    "islast": false
+  },
+  {
+    "desc": "Prampolini",
+    "code": "MO2273",
+    "islast": false
+  },
+  {
+    "desc": "Risorgimento",
+    "code": "MO3998",
+    "islast": false
+  },
+  {
+    "desc": "Mazzini",
+    "code": "MO2313",
+    "islast": false
+  },
+  {
+    "desc": "Gorizia",
+    "code": "MO2534",
+    "islast": false
+  },
+  {
+    "desc": "Cairoli",
+    "code": "MO2533",
+    "islast": false
+  },
+  {
+    "desc": "Torino",
+    "code": "MO2499",
+    "islast": false
+  },
+  {
+    "desc": "Rometta",
+    "code": "MO2515",
+    "islast": false
+  },
+  {
+    "desc": "Ospedale Sassuolo",
+    "code": "MO2786",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Nuovo",
+    "code": "MO1770",
+    "islast": false
+  },
+  {
+    "desc": "Varana bv",
+    "code": "MO915",
+    "islast": false
+  },
+  {
+    "desc": "Salvarola Terme",
+    "code": "MO2461",
+    "islast": false
+  },
+  {
+    "desc": "Casa Serena",
+    "code": "MO2551",
+    "islast": true
+  }
+]

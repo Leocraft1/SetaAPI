@@ -1,0 +1,227 @@
+[
+  {
+    "desc": "MODENA AUTOSTAZIONE",
+    "code": "MO346",
+    "islast": false
+  },
+  {
+    "desc": "Monte Kosica FS",
+    "code": "MO6118",
+    "islast": false
+  },
+  {
+    "desc": "Canaletto Coop",
+    "code": "MO25",
+    "islast": false
+  },
+  {
+    "desc": "Canaletto bv Soratore",
+    "code": "MO23",
+    "islast": false
+  },
+  {
+    "desc": "Suore bv Parenti",
+    "code": "MO6923",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Basso",
+    "code": "MO331",
+    "islast": false
+  },
+  {
+    "desc": "Canaletto Fiat",
+    "code": "MO576",
+    "islast": false
+  },
+  {
+    "desc": "Villa Nasi",
+    "code": "MO329",
+    "islast": false
+  },
+  {
+    "desc": "San Matteo 1",
+    "code": "MO328",
+    "islast": false
+  },
+  {
+    "desc": "Villa Zuccoli",
+    "code": "MO327",
+    "islast": false
+  },
+  {
+    "desc": "Monumento",
+    "code": "MO326",
+    "islast": false
+  },
+  {
+    "desc": "Bastiglia Cantone",
+    "code": "MO325",
+    "islast": false
+  },
+  {
+    "desc": "Bastiglia statale",
+    "code": "MO338",
+    "islast": false
+  },
+  {
+    "desc": "Bastiglia bv",
+    "code": "MO324",
+    "islast": false
+  },
+  {
+    "desc": "Bar Belfiore",
+    "code": "MO323",
+    "islast": false
+  },
+  {
+    "desc": "Sorbara bv",
+    "code": "MO321",
+    "islast": false
+  },
+  {
+    "desc": "Il Cristo",
+    "code": "MO319",
+    "islast": false
+  },
+  {
+    "desc": "Casinone",
+    "code": "MO315",
+    "islast": false
+  },
+  {
+    "desc": "San Pietro bv",
+    "code": "MO309",
+    "islast": false
+  },
+  {
+    "desc": "San Prospero",
+    "code": "MO3900",
+    "islast": false
+  },
+  {
+    "desc": "San Silvestro",
+    "code": "MO902",
+    "islast": false
+  },
+  {
+    "desc": "Cavezzo zona industriale",
+    "code": "MO3307",
+    "islast": false
+  },
+  {
+    "desc": "Cavezzo Autostazione",
+    "code": "MO490",
+    "islast": false
+  },
+  {
+    "desc": "Cavezzo Centro",
+    "code": "MO6971",
+    "islast": false
+  },
+  {
+    "desc": "Cavezzo stazione",
+    "code": "MO133",
+    "islast": false
+  },
+  {
+    "desc": "Medolla Autostazione",
+    "code": "MO488",
+    "islast": false
+  },
+  {
+    "desc": "Malcantone",
+    "code": "MO584",
+    "islast": false
+  },
+  {
+    "desc": "Malcantone scuole",
+    "code": "MO582",
+    "islast": false
+  },
+  {
+    "desc": "La Buca",
+    "code": "MO580",
+    "islast": false
+  },
+  {
+    "desc": "San Felice polo Industriale",
+    "code": "MO578",
+    "islast": false
+  },
+  {
+    "desc": "Ospedale San Felice",
+    "code": "MO293",
+    "islast": false
+  },
+  {
+    "desc": "San Felice stadio",
+    "code": "MO291",
+    "islast": false
+  },
+  {
+    "desc": "San Felice sul Panaro",
+    "code": "MO2137",
+    "islast": false
+  },
+  {
+    "desc": "Mulino Ariani",
+    "code": "MO2135",
+    "islast": false
+  },
+  {
+    "desc": "Rivara",
+    "code": "MO287",
+    "islast": false
+  },
+  {
+    "desc": "Massa Finalese stazione",
+    "code": "MO585",
+    "islast": false
+  },
+  {
+    "desc": "Massa Finalese",
+    "code": "MO586",
+    "islast": false
+  },
+  {
+    "desc": "Marsala",
+    "code": "MO587",
+    "islast": false
+  },
+  {
+    "desc": "Canalazzo",
+    "code": "MO589",
+    "islast": false
+  },
+  {
+    "desc": "Canaletto",
+    "code": "MO591",
+    "islast": false
+  },
+  {
+    "desc": "Canaletto scuole",
+    "code": "MO592",
+    "islast": false
+  },
+  {
+    "desc": "Casette",
+    "code": "MO594",
+    "islast": false
+  },
+  {
+    "desc": "Istituto agrario bv",
+    "code": "MO622",
+    "islast": false
+  },
+  {
+    "desc": "Polo Finale",
+    "code": "MO3809",
+    "islast": false
+  },
+  {
+    "desc": "Finale Emilia Autostazione",
+    "code": "MO621",
+    "islast": true
+  }
+]

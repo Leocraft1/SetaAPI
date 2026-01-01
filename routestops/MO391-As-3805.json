@@ -1,0 +1,92 @@
+[
+  {
+    "desc": "GARIBALDI",
+    "code": "MO5112",
+    "islast": false
+  },
+  {
+    "desc": "Fabrizi",
+    "code": "MO181",
+    "islast": false
+  },
+  {
+    "desc": "Medaglie D'oro",
+    "code": "MO165",
+    "islast": false
+  },
+  {
+    "desc": "Medaglie D'oro bv Bellinzona",
+    "code": "MO156",
+    "islast": false
+  },
+  {
+    "desc": "Piazza Manzoni",
+    "code": "MO40",
+    "islast": false
+  },
+  {
+    "desc": "Gobetti",
+    "code": "MO6564",
+    "islast": false
+  },
+  {
+    "desc": "Don Minzoni USL",
+    "code": "MO2809",
+    "islast": false
+  },
+  {
+    "desc": "Amendola bv Tamburini",
+    "code": "MO2811",
+    "islast": false
+  },
+  {
+    "desc": "Amendola",
+    "code": "MO2563",
+    "islast": false
+  },
+  {
+    "desc": "Amendola la Baracchina",
+    "code": "MO168",
+    "islast": false
+  },
+  {
+    "desc": "Amendola bv Nievo",
+    "code": "MO2864",
+    "islast": false
+  },
+  {
+    "desc": "Direzionale 70",
+    "code": "MO2827",
+    "islast": false
+  },
+  {
+    "desc": "Croce Blu",
+    "code": "MO662",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Cattaneo",
+    "code": "MO6704",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Guarini",
+    "code": "MO6721",
+    "islast": false
+  },
+  {
+    "desc": "Da Vinci bv Curie",
+    "code": "MO6723",
+    "islast": false
+  },
+  {
+    "desc": "Da Vinci bv Newton",
+    "code": "MO2892",
+    "islast": false
+  },
+  {
+    "desc": "POLO LEONARDO",
+    "code": "MO217",
+    "islast": true
+  }
+]

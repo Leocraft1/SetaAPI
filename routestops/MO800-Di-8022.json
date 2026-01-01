@@ -1,0 +1,322 @@
+[
+  {
+    "desc": "MODENA AUTOSTAZIONE",
+    "code": "MO303",
+    "islast": false
+  },
+  {
+    "desc": "Risorgimento",
+    "code": "MO20",
+    "islast": false
+  },
+  {
+    "desc": "Teatro Michelangelo",
+    "code": "MO22",
+    "islast": false
+  },
+  {
+    "desc": "Croce Blu",
+    "code": "MO1346",
+    "islast": false
+  },
+  {
+    "desc": "Direzionale 70",
+    "code": "MO6611",
+    "islast": false
+  },
+  {
+    "desc": "Giardini bv Cimabue 1",
+    "code": "MO3237",
+    "islast": false
+  },
+  {
+    "desc": "Giardini bv Cimabue",
+    "code": "MO24",
+    "islast": false
+  },
+  {
+    "desc": "Giardini carcere",
+    "code": "MO6002",
+    "islast": false
+  },
+  {
+    "desc": "Saliceta San Giuliano",
+    "code": "MO6631",
+    "islast": false
+  },
+  {
+    "desc": "Giardini Due Mulini",
+    "code": "MO6637",
+    "islast": false
+  },
+  {
+    "desc": "Giardini Simint",
+    "code": "MO6639",
+    "islast": false
+  },
+  {
+    "desc": "Baggiovara 1",
+    "code": "MO3487",
+    "islast": false
+  },
+  {
+    "desc": "Baggiovara",
+    "code": "MO726",
+    "islast": false
+  },
+  {
+    "desc": "La Bertola",
+    "code": "MO701",
+    "islast": false
+  },
+  {
+    "desc": "Casinalbo",
+    "code": "MO755",
+    "islast": false
+  },
+  {
+    "desc": "Formigine cartiera",
+    "code": "MO738",
+    "islast": false
+  },
+  {
+    "desc": "Molinella",
+    "code": "MO737",
+    "islast": false
+  },
+  {
+    "desc": "Formigine",
+    "code": "MO1500",
+    "islast": false
+  },
+  {
+    "desc": "Lar",
+    "code": "MO1560",
+    "islast": false
+  },
+  {
+    "desc": "Picchio Rosso",
+    "code": "MO1646",
+    "islast": false
+  },
+  {
+    "desc": "Ubersetto",
+    "code": "MO819",
+    "islast": false
+  },
+  {
+    "desc": "Saicis",
+    "code": "MO821",
+    "islast": false
+  },
+  {
+    "desc": "Saime",
+    "code": "MO823",
+    "islast": false
+  },
+  {
+    "desc": "Maranello bivio Nuvolari",
+    "code": "MO3827",
+    "islast": false
+  },
+  {
+    "desc": "Maranello Ferrari Nord",
+    "code": "MO3825",
+    "islast": false
+  },
+  {
+    "desc": "MARANELLO TERMINAL",
+    "code": "MO3599",
+    "islast": false
+  },
+  {
+    "desc": "Maranello Grizzaga",
+    "code": "MO3239",
+    "islast": false
+  },
+  {
+    "desc": "Maranello Auditorium",
+    "code": "MO1005",
+    "islast": false
+  },
+  {
+    "desc": "Maranello Vecchia",
+    "code": "MO1008",
+    "islast": false
+  },
+  {
+    "desc": "San Venanzio svolta",
+    "code": "MO1033",
+    "islast": false
+  },
+  {
+    "desc": "Cai",
+    "code": "MO1031",
+    "islast": false
+  },
+  {
+    "desc": "San Venanzio",
+    "code": "MO1029",
+    "islast": false
+  },
+  {
+    "desc": "Il Poggio",
+    "code": "MO1028",
+    "islast": false
+  },
+  {
+    "desc": "Cavana",
+    "code": "MO1027",
+    "islast": false
+  },
+  {
+    "desc": "Soprataglio",
+    "code": "MO1026",
+    "islast": false
+  },
+  {
+    "desc": "Montagnana",
+    "code": "MO1025",
+    "islast": false
+  },
+  {
+    "desc": "Montagnana di Sopra",
+    "code": "MO1024",
+    "islast": false
+  },
+  {
+    "desc": "Montardoncino",
+    "code": "MO1023",
+    "islast": false
+  },
+  {
+    "desc": "Montardone",
+    "code": "MO1021",
+    "islast": false
+  },
+  {
+    "desc": "Cantoniera",
+    "code": "MO1019",
+    "islast": false
+  },
+  {
+    "desc": "Costaglie",
+    "code": "MO1181",
+    "islast": false
+  },
+  {
+    "desc": "Stella",
+    "code": "MO1176",
+    "islast": false
+  },
+  {
+    "desc": "Casa Bartolacelli di sotto 1",
+    "code": "MO3772",
+    "islast": false
+  },
+  {
+    "desc": "Casa Bartolacelli di sotto",
+    "code": "MO3253",
+    "islast": false
+  },
+  {
+    "desc": "Casa Bartolacelli",
+    "code": "MO1175",
+    "islast": false
+  },
+  {
+    "desc": "Fontana",
+    "code": "MO1173",
+    "islast": false
+  },
+  {
+    "desc": "scuole medie Ligorzano",
+    "code": "MO3834",
+    "islast": false
+  },
+  {
+    "desc": "Ligorzano",
+    "code": "MO1169",
+    "islast": false
+  },
+  {
+    "desc": "Hermitage",
+    "code": "MO2353",
+    "islast": false
+  },
+  {
+    "desc": "Serramazzoni",
+    "code": "MO2352",
+    "islast": false
+  },
+  {
+    "desc": "Spinara",
+    "code": "MO1276",
+    "islast": false
+  },
+  {
+    "desc": "Casa Quattrini",
+    "code": "MO1275",
+    "islast": false
+  },
+  {
+    "desc": "Riotorto Selva",
+    "code": "MO1286",
+    "islast": false
+  },
+  {
+    "desc": "Casa Fontanazzi",
+    "code": "MO1287",
+    "islast": false
+  },
+  {
+    "desc": "La Monta",
+    "code": "MO1288",
+    "islast": false
+  },
+  {
+    "desc": "Casa Bosi",
+    "code": "MO1289",
+    "islast": false
+  },
+  {
+    "desc": "Madonna Baldaccini",
+    "code": "MO1292",
+    "islast": false
+  },
+  {
+    "desc": "Chiozza",
+    "code": "MO1301",
+    "islast": false
+  },
+  {
+    "desc": "Sant'Antonio",
+    "code": "MO1376",
+    "islast": false
+  },
+  {
+    "desc": "Il Ronco",
+    "code": "MO1375",
+    "islast": false
+  },
+  {
+    "desc": "Acquabona",
+    "code": "MO1374",
+    "islast": false
+  },
+  {
+    "desc": "Capanne",
+    "code": "MO1373",
+    "islast": false
+  },
+  {
+    "desc": "Le Aie",
+    "code": "MO1372",
+    "islast": false
+  },
+  {
+    "desc": "Pavullo autostazione",
+    "code": "MO1381",
+    "islast": true
+  }
+]

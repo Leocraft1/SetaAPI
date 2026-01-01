@@ -1,0 +1,192 @@
+[
+  {
+    "desc": "SANT'ANNA CAPOLINEA",
+    "code": "MO6910",
+    "islast": false
+  },
+  {
+    "desc": "Suore SETA",
+    "code": "MO6937",
+    "islast": false
+  },
+  {
+    "desc": "Suore bv Tangenziale",
+    "code": "MO3683",
+    "islast": false
+  },
+  {
+    "desc": "Cialdini",
+    "code": "MO6872",
+    "islast": false
+  },
+  {
+    "desc": "Italia",
+    "code": "MO511",
+    "islast": false
+  },
+  {
+    "desc": "Tangenziale Neruda",
+    "code": "MO167",
+    "islast": false
+  },
+  {
+    "desc": "Giardini bv Cimabue 1",
+    "code": "MO3237",
+    "islast": false
+  },
+  {
+    "desc": "Giardini bv Cimabue",
+    "code": "MO24",
+    "islast": false
+  },
+  {
+    "desc": "Panni bv Giambellino",
+    "code": "MO2615",
+    "islast": false
+  },
+  {
+    "desc": "Dalla Chiesa bv Tobagi",
+    "code": "MO2804",
+    "islast": false
+  },
+  {
+    "desc": "Dalla Chiesa bv Ghiaroni",
+    "code": "MO2803",
+    "islast": false
+  },
+  {
+    "desc": "Liguria",
+    "code": "MO2802",
+    "islast": false
+  },
+  {
+    "desc": "Magenta bv del Garda",
+    "code": "MO2801",
+    "islast": false
+  },
+  {
+    "desc": "Magenta bv Vigevano",
+    "code": "MO2799",
+    "islast": false
+  },
+  {
+    "desc": "Morane bv Pavia",
+    "code": "MO2797",
+    "islast": false
+  },
+  {
+    "desc": "Morane Hesperia",
+    "code": "MO2796",
+    "islast": false
+  },
+  {
+    "desc": "Morane bv Bolzano",
+    "code": "MO88",
+    "islast": false
+  },
+  {
+    "desc": "Morane esselunga",
+    "code": "MO2795",
+    "islast": false
+  },
+  {
+    "desc": "Morane bv Gobetti",
+    "code": "MO2794",
+    "islast": false
+  },
+  {
+    "desc": "Morane bv Bellincini",
+    "code": "MO2789",
+    "islast": false
+  },
+  {
+    "desc": "Morane bv Sigonio",
+    "code": "MO112",
+    "islast": false
+  },
+  {
+    "desc": "Parco della creativita",
+    "code": "MO7042",
+    "islast": false
+  },
+  {
+    "desc": "Sigonio bv Tamburini",
+    "code": "MO2776",
+    "islast": false
+  },
+  {
+    "desc": "Sigonio bv Guarini",
+    "code": "MO2848",
+    "islast": false
+  },
+  {
+    "desc": "Pietro Giannone",
+    "code": "MO6647",
+    "islast": false
+  },
+  {
+    "desc": "Giardini villa Fogliani",
+    "code": "MO6601",
+    "islast": false
+  },
+  {
+    "desc": "Giardini Polizia Stradale",
+    "code": "MO6603",
+    "islast": false
+  },
+  {
+    "desc": "Teatro Michelangelo",
+    "code": "MO22",
+    "islast": false
+  },
+  {
+    "desc": "Giardini Donatello",
+    "code": "MO6607",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Cattaneo",
+    "code": "MO6704",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Guarini",
+    "code": "MO6721",
+    "islast": false
+  },
+  {
+    "desc": "Da Vinci bv Curie",
+    "code": "MO6723",
+    "islast": false
+  },
+  {
+    "desc": "Da Vinci bv Newton",
+    "code": "MO2892",
+    "islast": false
+  },
+  {
+    "desc": "POLO LEONARDO",
+    "code": "MO6783",
+    "islast": false
+  },
+  {
+    "desc": "D'Avia bv Aristotele",
+    "code": "MO6782",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest Comet",
+    "code": "MO6865",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest Orlandi",
+    "code": "MO6835",
+    "islast": false
+  },
+  {
+    "desc": "TETRA PAK",
+    "code": "MO1218",
+    "islast": true
+  }
+]

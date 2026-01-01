@@ -1,0 +1,72 @@
+[
+  {
+    "desc": "Concordia",
+    "code": "MO1000",
+    "islast": false
+  },
+  {
+    "desc": "Concordia centro",
+    "code": "MO510",
+    "islast": false
+  },
+  {
+    "desc": "Palazzo Taccoli",
+    "code": "MO378",
+    "islast": false
+  },
+  {
+    "desc": "Battaglia",
+    "code": "MO376",
+    "islast": false
+  },
+  {
+    "desc": "Malcantone",
+    "code": "MO374",
+    "islast": false
+  },
+  {
+    "desc": "San Possidonio",
+    "code": "MO3800",
+    "islast": false
+  },
+  {
+    "desc": "Sabbioncello",
+    "code": "MO431",
+    "islast": false
+  },
+  {
+    "desc": "Magonza caseificio",
+    "code": "MO435",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Rovere",
+    "code": "MO436",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Santa Maria",
+    "code": "MO438",
+    "islast": false
+  },
+  {
+    "desc": "Mirandola Centro",
+    "code": "MO3531",
+    "islast": false
+  },
+  {
+    "desc": "Mirandola Ospedale",
+    "code": "MO2203",
+    "islast": false
+  },
+  {
+    "desc": "Barozzi scuole",
+    "code": "MO1187",
+    "islast": false
+  },
+  {
+    "desc": "Mirandola Terminal",
+    "code": "MO3970",
+    "islast": true
+  }
+]

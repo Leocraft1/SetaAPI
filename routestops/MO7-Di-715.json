@@ -1,0 +1,107 @@
+[
+  {
+    "desc": "STAZIONE FS",
+    "code": "MO6132",
+    "islast": false
+  },
+  {
+    "desc": "Monte Kosica bv Ganaceto",
+    "code": "MO2575",
+    "islast": false
+  },
+  {
+    "desc": "Monte Kosica stadio",
+    "code": "MO2579",
+    "islast": false
+  },
+  {
+    "desc": "Monte Kosica Barozzi",
+    "code": "MO2578",
+    "islast": false
+  },
+  {
+    "desc": "MODENA  AUTOSTAZIONE",
+    "code": "MO6121",
+    "islast": false
+  },
+  {
+    "desc": "Sant'Agostino museo",
+    "code": "MO2571",
+    "islast": false
+  },
+  {
+    "desc": "Piazza Matteotti",
+    "code": "MO2570",
+    "islast": false
+  },
+  {
+    "desc": "Piazza Mazzini",
+    "code": "MO2566",
+    "islast": false
+  },
+  {
+    "desc": "Emilia centro Posta",
+    "code": "MO2567",
+    "islast": false
+  },
+  {
+    "desc": "GARIBALDI",
+    "code": "MO30",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est Aci",
+    "code": "MO6301",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est bv S.Giovanni Bosco",
+    "code": "MO6303",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est Finanza",
+    "code": "MO6305",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est Hotel Fini",
+    "code": "MO1214",
+    "islast": false
+  },
+  {
+    "desc": "Del Pozzo",
+    "code": "MO6313",
+    "islast": false
+  },
+  {
+    "desc": "Policlinico",
+    "code": "MO259",
+    "islast": false
+  },
+  {
+    "desc": "Poliambulatorio",
+    "code": "MO241",
+    "islast": false
+  },
+  {
+    "desc": "Campi Universita",
+    "code": "MO223",
+    "islast": false
+  },
+  {
+    "desc": "Braghiroli",
+    "code": "MO208",
+    "islast": false
+  },
+  {
+    "desc": "Gottardi bv Araldi",
+    "code": "MO234",
+    "islast": false
+  },
+  {
+    "desc": "GOTTARDI",
+    "code": "MO149",
+    "islast": true
+  }
+]

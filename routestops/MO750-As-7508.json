@@ -1,0 +1,32 @@
+[
+  {
+    "desc": "Rastellino",
+    "code": "MO1447",
+    "islast": false
+  },
+  {
+    "desc": "Rastellino Mulino",
+    "code": "MO1312",
+    "islast": false
+  },
+  {
+    "desc": "Riolo",
+    "code": "MO1310",
+    "islast": false
+  },
+  {
+    "desc": "Riolo Mulino",
+    "code": "MO1308",
+    "islast": false
+  },
+  {
+    "desc": "Verdi",
+    "code": "MO3743",
+    "islast": false
+  },
+  {
+    "desc": "Castelfranco FS",
+    "code": "MO491",
+    "islast": true
+  }
+]

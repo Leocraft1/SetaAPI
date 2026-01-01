@@ -1,0 +1,92 @@
+[
+  {
+    "desc": "MODENA AUTOSTAZIONE",
+    "code": "MO342",
+    "islast": false
+  },
+  {
+    "desc": "Risorgimento",
+    "code": "MO20",
+    "islast": false
+  },
+  {
+    "desc": "Teatro Michelangelo",
+    "code": "MO22",
+    "islast": false
+  },
+  {
+    "desc": "Croce Blu",
+    "code": "MO1346",
+    "islast": false
+  },
+  {
+    "desc": "Direzionale 70",
+    "code": "MO6611",
+    "islast": false
+  },
+  {
+    "desc": "Giardini bv Cimabue 1",
+    "code": "MO3237",
+    "islast": false
+  },
+  {
+    "desc": "Giardini bv Cimabue",
+    "code": "MO24",
+    "islast": false
+  },
+  {
+    "desc": "Giardini carcere",
+    "code": "MO6002",
+    "islast": false
+  },
+  {
+    "desc": "Saliceta San Giuliano",
+    "code": "MO6631",
+    "islast": false
+  },
+  {
+    "desc": "Giardini Due Mulini",
+    "code": "MO6637",
+    "islast": false
+  },
+  {
+    "desc": "Giardini Simint",
+    "code": "MO6639",
+    "islast": false
+  },
+  {
+    "desc": "Da Porto chiesa",
+    "code": "MO6636",
+    "islast": false
+  },
+  {
+    "desc": "Da Porto bv Cavezzo",
+    "code": "MO6645",
+    "islast": false
+  },
+  {
+    "desc": "Cavezzo",
+    "code": "MO727",
+    "islast": false
+  },
+  {
+    "desc": "Dini bv",
+    "code": "MO728",
+    "islast": false
+  },
+  {
+    "desc": "Tabina",
+    "code": "MO729",
+    "islast": false
+  },
+  {
+    "desc": "Magreta crociale",
+    "code": "MO731",
+    "islast": false
+  },
+  {
+    "desc": "Magreta",
+    "code": "MO743",
+    "islast": true
+  }
+]

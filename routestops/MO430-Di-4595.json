@@ -1,0 +1,77 @@
+[
+  {
+    "desc": "Mirandola Terminal",
+    "code": "MO3971",
+    "islast": false
+  },
+  {
+    "desc": "Barozzi scuole",
+    "code": "MO2202",
+    "islast": false
+  },
+  {
+    "desc": "Mirandola ex scuole",
+    "code": "MO1186",
+    "islast": false
+  },
+  {
+    "desc": "Mirandola Ospedale",
+    "code": "MO2203",
+    "islast": false
+  },
+  {
+    "desc": "Carrozzeria Barbi",
+    "code": "MO2012",
+    "islast": false
+  },
+  {
+    "desc": "Fontana maglificio",
+    "code": "MO1010",
+    "islast": false
+  },
+  {
+    "desc": "San Giacomo Roncole",
+    "code": "MO525",
+    "islast": false
+  },
+  {
+    "desc": "Medolla Autostazione",
+    "code": "MO488",
+    "islast": false
+  },
+  {
+    "desc": "Malcantone",
+    "code": "MO584",
+    "islast": false
+  },
+  {
+    "desc": "Malcantone scuole",
+    "code": "MO582",
+    "islast": false
+  },
+  {
+    "desc": "La Buca",
+    "code": "MO580",
+    "islast": false
+  },
+  {
+    "desc": "San Felice polo Industriale",
+    "code": "MO578",
+    "islast": false
+  },
+  {
+    "desc": "Ospedale San Felice",
+    "code": "MO293",
+    "islast": false
+  },
+  {
+    "desc": "San Felice stadio",
+    "code": "MO291",
+    "islast": false
+  },
+  {
+    "desc": "San Felice sul Panaro",
+    "code": "MO2137",
+    "islast": true
+  }
+]

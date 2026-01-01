@@ -1,0 +1,82 @@
+[
+  {
+    "desc": "Castelnuovo Case Nuove",
+    "code": "MO4073",
+    "islast": false
+  },
+  {
+    "desc": "Acquedotto",
+    "code": "MO1690",
+    "islast": false
+  },
+  {
+    "desc": "Castelnuovo Rangone",
+    "code": "MO2919",
+    "islast": false
+  },
+  {
+    "desc": "Vilco",
+    "code": "MO1688",
+    "islast": false
+  },
+  {
+    "desc": "Cabianca",
+    "code": "MO1448",
+    "islast": false
+  },
+  {
+    "desc": "Portile Madonnina",
+    "code": "MO1446",
+    "islast": false
+  },
+  {
+    "desc": "Portile centro",
+    "code": "MO1450",
+    "islast": false
+  },
+  {
+    "desc": "Portile farmacia",
+    "code": "MO2328",
+    "islast": false
+  },
+  {
+    "desc": "Botteghetto",
+    "code": "MO1444",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Ghiotto",
+    "code": "MO1442",
+    "islast": false
+  },
+  {
+    "desc": "Cantone di Mugnano",
+    "code": "MO1440",
+    "islast": false
+  },
+  {
+    "desc": "POLO LEONARDO 1",
+    "code": "MO2928",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Guarini",
+    "code": "MO2887",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Cattaneo",
+    "code": "MO2885",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Fermi",
+    "code": "MO6720",
+    "islast": false
+  },
+  {
+    "desc": "MODENA AUTOSTAZIONE",
+    "code": "MO350",
+    "islast": true
+  }
+]

@@ -1,0 +1,87 @@
+[
+  {
+    "desc": "Novi",
+    "code": "MO2800",
+    "islast": false
+  },
+  {
+    "desc": "Uris Bar",
+    "code": "MO1721",
+    "islast": false
+  },
+  {
+    "desc": "Villafranca",
+    "code": "MO1701",
+    "islast": false
+  },
+  {
+    "desc": "Rolo bv",
+    "code": "MO1674",
+    "islast": false
+  },
+  {
+    "desc": "Serragli",
+    "code": "MO1662",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Pietra",
+    "code": "MO1661",
+    "islast": false
+  },
+  {
+    "desc": "Incompiuta",
+    "code": "MO1559",
+    "islast": false
+  },
+  {
+    "desc": "Piave",
+    "code": "MO1555",
+    "islast": false
+  },
+  {
+    "desc": "Bruciate",
+    "code": "MO711",
+    "islast": false
+  },
+  {
+    "desc": "CA' Del Vento",
+    "code": "MO1970",
+    "islast": false
+  },
+  {
+    "desc": "Fossoli",
+    "code": "MO190",
+    "islast": false
+  },
+  {
+    "desc": "Fossoli zona industriale",
+    "code": "MO1791",
+    "islast": false
+  },
+  {
+    "desc": "Lux",
+    "code": "MO1756",
+    "islast": false
+  },
+  {
+    "desc": "Piscine",
+    "code": "MO8534",
+    "islast": false
+  },
+  {
+    "desc": "Peruzzi 3",
+    "code": "MO3482",
+    "islast": false
+  },
+  {
+    "desc": "Peruzzi 2",
+    "code": "MO3373",
+    "islast": false
+  },
+  {
+    "desc": "CARPI TERMINAL BUS",
+    "code": "MO489",
+    "islast": true
+  }
+]

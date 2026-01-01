@@ -1,0 +1,47 @@
+[
+  {
+    "desc": "Piandelagotti",
+    "code": "MO3710",
+    "islast": false
+  },
+  {
+    "desc": "Piane",
+    "code": "MO3708",
+    "islast": false
+  },
+  {
+    "desc": "Sermighino bv",
+    "code": "MO3706",
+    "islast": false
+  },
+  {
+    "desc": "Caseificio",
+    "code": "MO3705",
+    "islast": false
+  },
+  {
+    "desc": "Casa della Russa",
+    "code": "MO3704",
+    "islast": false
+  },
+  {
+    "desc": "Canalaccia",
+    "code": "MO3702",
+    "islast": false
+  },
+  {
+    "desc": "Riccovolto",
+    "code": "MO5754",
+    "islast": false
+  },
+  {
+    "desc": "Cargedolo",
+    "code": "MO5755",
+    "islast": false
+  },
+  {
+    "desc": "Spervara di Sopra",
+    "code": "MO3062",
+    "islast": true
+  }
+]

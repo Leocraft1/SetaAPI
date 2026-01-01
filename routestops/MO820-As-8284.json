@@ -1,0 +1,47 @@
+[
+  {
+    "desc": "Torre Maina cimitero",
+    "code": "MO2626",
+    "islast": false
+  },
+  {
+    "desc": "Torre Maina chiesa",
+    "code": "MO1960",
+    "islast": false
+  },
+  {
+    "desc": "Torre Maina bv",
+    "code": "MO2847",
+    "islast": false
+  },
+  {
+    "desc": "Gorzano 1",
+    "code": "MO1980",
+    "islast": false
+  },
+  {
+    "desc": "Gorzano 2",
+    "code": "MO1981",
+    "islast": false
+  },
+  {
+    "desc": "Maranello Alta",
+    "code": "MO1905",
+    "islast": false
+  },
+  {
+    "desc": "Maranello T. Speri",
+    "code": "MO3454",
+    "islast": false
+  },
+  {
+    "desc": "Maranello Grizzaga",
+    "code": "MO3457",
+    "islast": false
+  },
+  {
+    "desc": "MARANELLO TERMINAL",
+    "code": "MO3470",
+    "islast": true
+  }
+]

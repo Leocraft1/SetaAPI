@@ -1,0 +1,22 @@
+[
+  {
+    "desc": "San Giovanni in Persiceto",
+    "code": "MO5703",
+    "islast": false
+  },
+  {
+    "desc": "Benzinaio",
+    "code": "MO5715",
+    "islast": false
+  },
+  {
+    "desc": "Verdi",
+    "code": "MO3743",
+    "islast": false
+  },
+  {
+    "desc": "Castelfranco FS",
+    "code": "MO491",
+    "islast": true
+  }
+]

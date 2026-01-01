@@ -1,0 +1,157 @@
+[
+  {
+    "desc": "Pavullo Autostazione",
+    "code": "MO3000",
+    "islast": false
+  },
+  {
+    "desc": "Le Aie",
+    "code": "MO2546",
+    "islast": false
+  },
+  {
+    "desc": "Capanne",
+    "code": "MO2548",
+    "islast": false
+  },
+  {
+    "desc": "Acquabona",
+    "code": "MO2550",
+    "islast": false
+  },
+  {
+    "desc": "Il Ronco",
+    "code": "MO2552",
+    "islast": false
+  },
+  {
+    "desc": "Sant'Antonio",
+    "code": "MO2560",
+    "islast": false
+  },
+  {
+    "desc": "Chiozza",
+    "code": "MO2380",
+    "islast": false
+  },
+  {
+    "desc": "Madonna Baldaccini",
+    "code": "MO2360",
+    "islast": false
+  },
+  {
+    "desc": "Casa Bosi",
+    "code": "MO2357",
+    "islast": false
+  },
+  {
+    "desc": "La Monta",
+    "code": "MO2356",
+    "islast": false
+  },
+  {
+    "desc": "Casa Fontanazzi",
+    "code": "MO2355",
+    "islast": false
+  },
+  {
+    "desc": "Riotorto Selva",
+    "code": "MO2354",
+    "islast": false
+  },
+  {
+    "desc": "Casa Quattrini",
+    "code": "MO2310",
+    "islast": false
+  },
+  {
+    "desc": "Spinara",
+    "code": "MO2312",
+    "islast": false
+  },
+  {
+    "desc": "Serramazzoni",
+    "code": "MO4200",
+    "islast": false
+  },
+  {
+    "desc": "scuole medie Ligorzano",
+    "code": "MO3834",
+    "islast": false
+  },
+  {
+    "desc": "Serramazzoni cimitero",
+    "code": "MO4201",
+    "islast": false
+  },
+  {
+    "desc": "Monfestino bv",
+    "code": "MO2314",
+    "islast": false
+  },
+  {
+    "desc": "Casa Piccola scuola",
+    "code": "MO2316",
+    "islast": false
+  },
+  {
+    "desc": "Casa Grossi",
+    "code": "MO2318",
+    "islast": false
+  },
+  {
+    "desc": "Casa Cantoniera",
+    "code": "MO2322",
+    "islast": false
+  },
+  {
+    "desc": "Casa Rotonda",
+    "code": "MO2324",
+    "islast": false
+  },
+  {
+    "desc": "Malandrone",
+    "code": "MO2327",
+    "islast": false
+  },
+  {
+    "desc": "San Dalmazio",
+    "code": "MO2350",
+    "islast": false
+  },
+  {
+    "desc": "Crocetta bv",
+    "code": "MO2340",
+    "islast": false
+  },
+  {
+    "desc": "Osteria Vecchia",
+    "code": "MO2212",
+    "islast": false
+  },
+  {
+    "desc": "Ricco",
+    "code": "MO2210",
+    "islast": false
+  },
+  {
+    "desc": "La Macchia",
+    "code": "MO2208",
+    "islast": false
+  },
+  {
+    "desc": "Casa Ventura",
+    "code": "MO2206",
+    "islast": false
+  },
+  {
+    "desc": "Poggio Olmaccio",
+    "code": "MO3941",
+    "islast": false
+  },
+  {
+    "desc": "Banzuola nuova",
+    "code": "MO2190",
+    "islast": true
+  }
+]

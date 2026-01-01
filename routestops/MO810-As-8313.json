@@ -1,0 +1,227 @@
+[
+  {
+    "desc": "Pievepelago Autostazione",
+    "code": "MO3104",
+    "islast": false
+  },
+  {
+    "desc": "Pievepelago scuole",
+    "code": "MO1717",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Battistella",
+    "code": "MO2168",
+    "islast": false
+  },
+  {
+    "desc": "Bucaneve",
+    "code": "MO2169",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Modino",
+    "code": "MO2170",
+    "islast": false
+  },
+  {
+    "desc": "Pievepelago",
+    "code": "MO1714",
+    "islast": false
+  },
+  {
+    "desc": "Hotel Pineta",
+    "code": "MO3101",
+    "islast": false
+  },
+  {
+    "desc": "Sant'Andrea bv",
+    "code": "MO3535",
+    "islast": false
+  },
+  {
+    "desc": "Cerreto",
+    "code": "MO3534",
+    "islast": false
+  },
+  {
+    "desc": "Pero Grande",
+    "code": "MO3532",
+    "islast": false
+  },
+  {
+    "desc": "Pievepelago capannone",
+    "code": "MO3530",
+    "islast": false
+  },
+  {
+    "desc": "Rimessa Serpiano",
+    "code": "MO3524",
+    "islast": false
+  },
+  {
+    "desc": "Morandina",
+    "code": "MO3522",
+    "islast": false
+  },
+  {
+    "desc": "Serpiano",
+    "code": "MO3520",
+    "islast": false
+  },
+  {
+    "desc": "Passetto",
+    "code": "MO3518",
+    "islast": false
+  },
+  {
+    "desc": "Barigazzo 1",
+    "code": "MO3822",
+    "islast": false
+  },
+  {
+    "desc": "Barigazzo",
+    "code": "MO3510",
+    "islast": false
+  },
+  {
+    "desc": "San Giorgio",
+    "code": "MO3496",
+    "islast": false
+  },
+  {
+    "desc": "Borella bv",
+    "code": "MO3494",
+    "islast": false
+  },
+  {
+    "desc": "Fontane",
+    "code": "MO3492",
+    "islast": false
+  },
+  {
+    "desc": "Santona",
+    "code": "MO3490",
+    "islast": false
+  },
+  {
+    "desc": "Vena Grossa",
+    "code": "MO3488",
+    "islast": false
+  },
+  {
+    "desc": "Fignola",
+    "code": "MO3148",
+    "islast": false
+  },
+  {
+    "desc": "Baracche",
+    "code": "MO3146",
+    "islast": false
+  },
+  {
+    "desc": "Selva Pini",
+    "code": "MO3144",
+    "islast": false
+  },
+  {
+    "desc": "Borra alta",
+    "code": "MO3142",
+    "islast": false
+  },
+  {
+    "desc": "Borra",
+    "code": "MO3140",
+    "islast": false
+  },
+  {
+    "desc": "Santoncina",
+    "code": "MO3138",
+    "islast": false
+  },
+  {
+    "desc": "Casa Canovi",
+    "code": "MO3136",
+    "islast": false
+  },
+  {
+    "desc": "Lama Mocogno",
+    "code": "MO1800",
+    "islast": false
+  },
+  {
+    "desc": "Pradina",
+    "code": "MO3174",
+    "islast": false
+  },
+  {
+    "desc": "Monte Ritorno",
+    "code": "MO3175",
+    "islast": false
+  },
+  {
+    "desc": "Monte Scarpone",
+    "code": "MO3176",
+    "islast": false
+  },
+  {
+    "desc": "Montecenere",
+    "code": "MO3177",
+    "islast": false
+  },
+  {
+    "desc": "Budrigone",
+    "code": "MO3178",
+    "islast": false
+  },
+  {
+    "desc": "Belvedere",
+    "code": "MO3484",
+    "islast": false
+  },
+  {
+    "desc": "Monzone bv",
+    "code": "MO3180",
+    "islast": false
+  },
+  {
+    "desc": "Gaianello",
+    "code": "MO3190",
+    "islast": false
+  },
+  {
+    "desc": "Pratolino",
+    "code": "MO3210",
+    "islast": false
+  },
+  {
+    "desc": "Piantacroce",
+    "code": "MO3218",
+    "islast": false
+  },
+  {
+    "desc": "Renno bv",
+    "code": "MO3220",
+    "islast": false
+  },
+  {
+    "desc": "Querciagrossa",
+    "code": "MO3240",
+    "islast": false
+  },
+  {
+    "desc": "Campo D'Aviazione",
+    "code": "MO2482",
+    "islast": false
+  },
+  {
+    "desc": "San Pellegrino",
+    "code": "MO2480",
+    "islast": false
+  },
+  {
+    "desc": "Pavullo Autostazione",
+    "code": "MO3000",
+    "islast": true
+  }
+]

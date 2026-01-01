@@ -1,0 +1,82 @@
+[
+  {
+    "desc": "Casa Pianelli",
+    "code": "MO3294",
+    "islast": false
+  },
+  {
+    "desc": "Casa Bea",
+    "code": "MO1894",
+    "islast": false
+  },
+  {
+    "desc": "Comun Grande",
+    "code": "MO1892",
+    "islast": false
+  },
+  {
+    "desc": "Carrobbio",
+    "code": "MO1891",
+    "islast": false
+  },
+  {
+    "desc": "La Croce Benedello 1",
+    "code": "MO3509",
+    "islast": false
+  },
+  {
+    "desc": "La Croce Benedello",
+    "code": "MO1889",
+    "islast": false
+  },
+  {
+    "desc": "Serretta",
+    "code": "MO1893",
+    "islast": false
+  },
+  {
+    "desc": "Benedello",
+    "code": "MO1888",
+    "islast": false
+  },
+  {
+    "desc": "Spinzuola",
+    "code": "MO1887",
+    "islast": false
+  },
+  {
+    "desc": "Piandiscuola",
+    "code": "MO1886",
+    "islast": false
+  },
+  {
+    "desc": "Vaglio",
+    "code": "MO1885",
+    "islast": false
+  },
+  {
+    "desc": "Campichiara",
+    "code": "MO1883",
+    "islast": false
+  },
+  {
+    "desc": "Crocette",
+    "code": "MO1881",
+    "islast": false
+  },
+  {
+    "desc": "Capanne",
+    "code": "MO1373",
+    "islast": false
+  },
+  {
+    "desc": "Le Aie",
+    "code": "MO1372",
+    "islast": false
+  },
+  {
+    "desc": "Pavullo Autostazione",
+    "code": "MO1590",
+    "islast": true
+  }
+]

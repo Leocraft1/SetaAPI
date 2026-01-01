@@ -1,0 +1,247 @@
+[
+  {
+    "desc": "MARZAGLIA N",
+    "code": "MO1032",
+    "islast": false
+  },
+  {
+    "desc": "Pomposiana Camper Caravan",
+    "code": "MO6795",
+    "islast": false
+  },
+  {
+    "desc": "Pomposiana comunita",
+    "code": "MO6794",
+    "islast": false
+  },
+  {
+    "desc": "Pomposiana bv Giarola",
+    "code": "MO6793",
+    "islast": false
+  },
+  {
+    "desc": "Pomposiana chiesetta",
+    "code": "MO6792",
+    "islast": false
+  },
+  {
+    "desc": "Pomposiana bv S.Donnino",
+    "code": "MO6791",
+    "islast": false
+  },
+  {
+    "desc": "Pomposiana caseificio",
+    "code": "MO6790",
+    "islast": false
+  },
+  {
+    "desc": "Cittanova scuole",
+    "code": "MO6798",
+    "islast": false
+  },
+  {
+    "desc": "Cittanova della ghiaia",
+    "code": "MO1179",
+    "islast": false
+  },
+  {
+    "desc": "Cittanova centro",
+    "code": "MO1184",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest Grandemilia",
+    "code": "MO1178",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest bv Virgilio",
+    "code": "MO1185",
+    "islast": false
+  },
+  {
+    "desc": "Virgilio Metro",
+    "code": "MO6875",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest Bruciata",
+    "code": "MO1177",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest Comet",
+    "code": "MO6865",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest Orlandi",
+    "code": "MO6835",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest Globo",
+    "code": "MO6837",
+    "islast": false
+  },
+  {
+    "desc": "Centro Senada",
+    "code": "MO6833",
+    "islast": false
+  },
+  {
+    "desc": "Centro Commerciale 2000",
+    "code": "MO6891",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest Hotel Eden",
+    "code": "MO6829",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest Madonnina",
+    "code": "MO52",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest bv Autodromo",
+    "code": "MO48",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest bv Ruffini",
+    "code": "MO6823",
+    "islast": false
+  },
+  {
+    "desc": "Caserma Pisacane",
+    "code": "MO6821",
+    "islast": false
+  },
+  {
+    "desc": "Palazzo Europa",
+    "code": "MO6819",
+    "islast": false
+  },
+  {
+    "desc": "MODENA  AUTOSTAZIONE",
+    "code": "MO6120",
+    "islast": false
+  },
+  {
+    "desc": "Monte Kosica Barozzi",
+    "code": "MO6123",
+    "islast": false
+  },
+  {
+    "desc": "Monte Kosica stadio",
+    "code": "MO6126",
+    "islast": false
+  },
+  {
+    "desc": "Monte Kosica bv Ganaceto",
+    "code": "MO6117",
+    "islast": false
+  },
+  {
+    "desc": "STAZIONE FS",
+    "code": "MO6134",
+    "islast": false
+  },
+  {
+    "desc": "Caduti in guerra Tempio",
+    "code": "MO6148",
+    "islast": false
+  },
+  {
+    "desc": "Caduti in guerra giardini",
+    "code": "MO6182",
+    "islast": false
+  },
+  {
+    "desc": "Reiter",
+    "code": "MO138",
+    "islast": false
+  },
+  {
+    "desc": "Ferrari",
+    "code": "MO169",
+    "islast": false
+  },
+  {
+    "desc": "Menotti bv Morselli",
+    "code": "MO137",
+    "islast": false
+  },
+  {
+    "desc": "Menotti bv Puccini",
+    "code": "MO136",
+    "islast": false
+  },
+  {
+    "desc": "Menotti bv Emilia Est",
+    "code": "MO134",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est Aci",
+    "code": "MO6301",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est bv S.Giovanni Bosco",
+    "code": "MO6303",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est Finanza",
+    "code": "MO6305",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est Hotel Fini",
+    "code": "MO1214",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est Modena 118",
+    "code": "MO6315",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est Mulino",
+    "code": "MO6321",
+    "islast": false
+  },
+  {
+    "desc": "Casa dello Studente",
+    "code": "MO6312",
+    "islast": false
+  },
+  {
+    "desc": "Araldi bv Emilia Est",
+    "code": "MO2867",
+    "islast": false
+  },
+  {
+    "desc": "Speri Jaguar",
+    "code": "MO6320",
+    "islast": false
+  },
+  {
+    "desc": "Speri autolavaggio",
+    "code": "MO6364",
+    "islast": false
+  },
+  {
+    "desc": "Saffi",
+    "code": "MO6393",
+    "islast": false
+  },
+  {
+    "desc": "GOTTARDI",
+    "code": "MO148",
+    "islast": true
+  }
+]

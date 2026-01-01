@@ -1,0 +1,267 @@
+[
+  {
+    "desc": "ALBARETO",
+    "code": "MO75",
+    "islast": false
+  },
+  {
+    "desc": "Delle Messi",
+    "code": "MO77",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv dell'Acero",
+    "code": "MO730",
+    "islast": false
+  },
+  {
+    "desc": "Albareto Chiesa",
+    "code": "MO6265",
+    "islast": false
+  },
+  {
+    "desc": "Albareto polisportiva",
+    "code": "MO6263",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv Torricella",
+    "code": "MO6261",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv Toni",
+    "code": "MO6259",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv Bertola",
+    "code": "MO6257",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv Tagliati",
+    "code": "MO6255",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv Sacerdoti",
+    "code": "MO6267",
+    "islast": false
+  },
+  {
+    "desc": "Mulini Nuovi",
+    "code": "MO6253",
+    "islast": false
+  },
+  {
+    "desc": "Albareto Fini",
+    "code": "MO6251",
+    "islast": false
+  },
+  {
+    "desc": "Albareto scuola Gramsci",
+    "code": "MO6249",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv Cimone",
+    "code": "MO6247",
+    "islast": false
+  },
+  {
+    "desc": "Albareto bv Nonatolana",
+    "code": "MO6250",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana bv Crocetta",
+    "code": "MO6243",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana bv Cuboni",
+    "code": "MO6241",
+    "islast": false
+  },
+  {
+    "desc": "Nonantolana scuole",
+    "code": "MO6239",
+    "islast": false
+  },
+  {
+    "desc": "Attiraglio",
+    "code": "MO555",
+    "islast": false
+  },
+  {
+    "desc": "Monte Kosica FS",
+    "code": "MO2576",
+    "islast": false
+  },
+  {
+    "desc": "Monte Kosica bv Ganaceto",
+    "code": "MO2575",
+    "islast": false
+  },
+  {
+    "desc": "Monte Kosica stadio",
+    "code": "MO2579",
+    "islast": false
+  },
+  {
+    "desc": "Monte Kosica Barozzi",
+    "code": "MO2578",
+    "islast": false
+  },
+  {
+    "desc": "MODENA  AUTOSTAZIONE",
+    "code": "MO10",
+    "islast": false
+  },
+  {
+    "desc": "Barozzi Planetario",
+    "code": "MO2868",
+    "islast": false
+  },
+  {
+    "desc": "Barozzi bv Setti",
+    "code": "MO2869",
+    "islast": false
+  },
+  {
+    "desc": "Barozzi bv Rangoni",
+    "code": "MO2871",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Fermi",
+    "code": "MO2873",
+    "islast": false
+  },
+  {
+    "desc": "Luosi bv Fattori",
+    "code": "MO2875",
+    "islast": false
+  },
+  {
+    "desc": "Luosi bv San Faustino",
+    "code": "MO2879",
+    "islast": false
+  },
+  {
+    "desc": "San Faustino Poliambulatorio",
+    "code": "MO2807",
+    "islast": false
+  },
+  {
+    "desc": "San Faustino",
+    "code": "MO6789",
+    "islast": false
+  },
+  {
+    "desc": "Formigina bv Archimede",
+    "code": "MO6784",
+    "islast": false
+  },
+  {
+    "desc": "Vigili del Fuoco",
+    "code": "MO6779",
+    "islast": false
+  },
+  {
+    "desc": "Formigina bv Corassori",
+    "code": "MO2896",
+    "islast": false
+  },
+  {
+    "desc": "Formigina bv Lagrange",
+    "code": "MO2898",
+    "islast": false
+  },
+  {
+    "desc": "Scuole via Corni",
+    "code": "MO901",
+    "islast": false
+  },
+  {
+    "desc": "Da Vinci bv Curie",
+    "code": "MO6723",
+    "islast": false
+  },
+  {
+    "desc": "Da Vinci bv Newton",
+    "code": "MO2892",
+    "islast": false
+  },
+  {
+    "desc": "POLO LEONARDO",
+    "code": "MO6783",
+    "islast": false
+  },
+  {
+    "desc": "Euclide",
+    "code": "MO6787",
+    "islast": false
+  },
+  {
+    "desc": "Aristotele",
+    "code": "MO6785",
+    "islast": false
+  },
+  {
+    "desc": "D'Avia bv Aristotele",
+    "code": "MO6782",
+    "islast": false
+  },
+  {
+    "desc": "Campagna",
+    "code": "MO6741",
+    "islast": false
+  },
+  {
+    "desc": "Contorno",
+    "code": "MO6740",
+    "islast": false
+  },
+  {
+    "desc": "Beltrami",
+    "code": "MO6742",
+    "islast": false
+  },
+  {
+    "desc": "Tonini 1",
+    "code": "MO6734",
+    "islast": false
+  },
+  {
+    "desc": "Tonini 2",
+    "code": "MO6737",
+    "islast": false
+  },
+  {
+    "desc": "Guareschi 1",
+    "code": "MO6738",
+    "islast": false
+  },
+  {
+    "desc": "Guareschi 2",
+    "code": "MO6739",
+    "islast": false
+  },
+  {
+    "desc": "Cognento scuole",
+    "code": "MO6702",
+    "islast": false
+  },
+  {
+    "desc": "Traeri bv Da Porto Sud",
+    "code": "MO6749",
+    "islast": false
+  },
+  {
+    "desc": "COGNENTO",
+    "code": "MO2907",
+    "islast": true
+  }
+]

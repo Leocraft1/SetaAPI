@@ -1,0 +1,42 @@
+[
+  {
+    "desc": "Bomporto scuole",
+    "code": "MO903",
+    "islast": false
+  },
+  {
+    "desc": "Villaggio Artigiano",
+    "code": "MO791",
+    "islast": false
+  },
+  {
+    "desc": "Stazione",
+    "code": "MO7028",
+    "islast": false
+  },
+  {
+    "desc": "Sorbara",
+    "code": "MO660",
+    "islast": false
+  },
+  {
+    "desc": "Bastiglia",
+    "code": "MO34",
+    "islast": false
+  },
+  {
+    "desc": "Bastiglia Scuole",
+    "code": "MO756",
+    "islast": false
+  },
+  {
+    "desc": "Casa Ghelfi",
+    "code": "MO750",
+    "islast": false
+  },
+  {
+    "desc": "San Clemente",
+    "code": "MO740",
+    "islast": true
+  }
+]

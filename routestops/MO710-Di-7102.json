@@ -1,0 +1,87 @@
+[
+  {
+    "desc": "Ponte Samone",
+    "code": "MO1334",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Samone",
+    "code": "MO3523",
+    "islast": false
+  },
+  {
+    "desc": "Casa Belvedere",
+    "code": "MO1335",
+    "islast": false
+  },
+  {
+    "desc": "Casa Nuova Castagneto",
+    "code": "MO1336",
+    "islast": false
+  },
+  {
+    "desc": "Casa Baiocchi",
+    "code": "MO1337",
+    "islast": false
+  },
+  {
+    "desc": "Villa Bibone",
+    "code": "MO1338",
+    "islast": false
+  },
+  {
+    "desc": "Castagneto",
+    "code": "MO1339",
+    "islast": false
+  },
+  {
+    "desc": "Pratochiesa",
+    "code": "MO1340",
+    "islast": false
+  },
+  {
+    "desc": "Ca' del Fabbro",
+    "code": "MO1341",
+    "islast": false
+  },
+  {
+    "desc": "Iddiano bv",
+    "code": "MO1342",
+    "islast": false
+  },
+  {
+    "desc": "Cavazzona",
+    "code": "MO1343",
+    "islast": false
+  },
+  {
+    "desc": "Campiano",
+    "code": "MO1344",
+    "islast": false
+  },
+  {
+    "desc": "Campiano scuole",
+    "code": "MO1345",
+    "islast": false
+  },
+  {
+    "desc": "Casa Tre Torri",
+    "code": "MO1347",
+    "islast": false
+  },
+  {
+    "desc": "La Loggia",
+    "code": "MO1348",
+    "islast": false
+  },
+  {
+    "desc": "Corsini cimitero",
+    "code": "MO1593",
+    "islast": false
+  },
+  {
+    "desc": "Pavullo Autostazione",
+    "code": "MO3000",
+    "islast": true
+  }
+]

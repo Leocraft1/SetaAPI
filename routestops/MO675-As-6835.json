@@ -1,0 +1,72 @@
+[
+  {
+    "desc": "Colombarone",
+    "code": "MO754",
+    "islast": false
+  },
+  {
+    "desc": "Turco",
+    "code": "MO752",
+    "islast": false
+  },
+  {
+    "desc": "Magreta",
+    "code": "MO1510",
+    "islast": false
+  },
+  {
+    "desc": "Campo Sportivo",
+    "code": "MO742",
+    "islast": false
+  },
+  {
+    "desc": "Mazzacavallo",
+    "code": "MO4701",
+    "islast": false
+  },
+  {
+    "desc": "Corlo edicola",
+    "code": "MO741",
+    "islast": false
+  },
+  {
+    "desc": "Corlo",
+    "code": "MO1540",
+    "islast": false
+  },
+  {
+    "desc": "Mulinetto",
+    "code": "MO1538",
+    "islast": false
+  },
+  {
+    "desc": "Romano",
+    "code": "MO2338",
+    "islast": false
+  },
+  {
+    "desc": "Copernico",
+    "code": "MO1534",
+    "islast": false
+  },
+  {
+    "desc": "POLO LEONARDO 1",
+    "code": "MO2928",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Guarini",
+    "code": "MO2887",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Cattaneo",
+    "code": "MO2885",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Fermi",
+    "code": "MO6720",
+    "islast": true
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "desc": "Castelfranco FS",
+    "code": "MO491",
+    "islast": false
+  },
+  {
+    "desc": "Verdi",
+    "code": "MO3739",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est",
+    "code": "MO3737",
+    "islast": false
+  },
+  {
+    "desc": "Cavazzona",
+    "code": "MO306",
+    "islast": false
+  },
+  {
+    "desc": "Manzolino",
+    "code": "MO3751",
+    "islast": false
+  },
+  {
+    "desc": "Fossa di Manzolino",
+    "code": "MO1328",
+    "islast": false
+  },
+  {
+    "desc": "Riolo Mulino",
+    "code": "MO655",
+    "islast": false
+  },
+  {
+    "desc": "Riolo",
+    "code": "MO656",
+    "islast": false
+  },
+  {
+    "desc": "Rastellino",
+    "code": "MO1447",
+    "islast": true
+  }
+]

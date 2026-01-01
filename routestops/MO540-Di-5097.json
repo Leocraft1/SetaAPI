@@ -1,0 +1,92 @@
+[
+  {
+    "desc": "CARPI TERMINAL BUS",
+    "code": "MO519",
+    "islast": false
+  },
+  {
+    "desc": "Peruzzi 3",
+    "code": "MO8330",
+    "islast": false
+  },
+  {
+    "desc": "Piscine",
+    "code": "MO8534",
+    "islast": false
+  },
+  {
+    "desc": "Lux",
+    "code": "MO817",
+    "islast": false
+  },
+  {
+    "desc": "Fossoli zona industriale",
+    "code": "MO851",
+    "islast": false
+  },
+  {
+    "desc": "Fossoli",
+    "code": "MO66",
+    "islast": false
+  },
+  {
+    "desc": "Budrione scuole",
+    "code": "MO4732",
+    "islast": false
+  },
+  {
+    "desc": "Budrione",
+    "code": "MO4733",
+    "islast": false
+  },
+  {
+    "desc": "Budrione bv",
+    "code": "MO4734",
+    "islast": false
+  },
+  {
+    "desc": "Migliarina",
+    "code": "MO4735",
+    "islast": false
+  },
+  {
+    "desc": "Roma bv",
+    "code": "MO4736",
+    "islast": false
+  },
+  {
+    "desc": "Lunga",
+    "code": "MO4737",
+    "islast": false
+  },
+  {
+    "desc": "Migliarina chiesa",
+    "code": "MO4738",
+    "islast": false
+  },
+  {
+    "desc": "Guastalla",
+    "code": "MO3819",
+    "islast": false
+  },
+  {
+    "desc": "Guastalla 1",
+    "code": "MO4720",
+    "islast": false
+  },
+  {
+    "desc": "Guastalla 2",
+    "code": "MO6103",
+    "islast": false
+  },
+  {
+    "desc": "Peruzzi 3",
+    "code": "MO3482",
+    "islast": false
+  },
+  {
+    "desc": "Peruzzi 2",
+    "code": "MO3373",
+    "islast": false
+  }
+]

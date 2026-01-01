@@ -1,0 +1,172 @@
+[
+  {
+    "desc": "Sassuolo Terminal",
+    "code": "MO4000",
+    "islast": false
+  },
+  {
+    "desc": "Stazione Sassuolo Radici",
+    "code": "MO2388",
+    "islast": false
+  },
+  {
+    "desc": "Radici in Monte bv Magenta",
+    "code": "MO779",
+    "islast": false
+  },
+  {
+    "desc": "Veggia",
+    "code": "MO3489",
+    "islast": false
+  },
+  {
+    "desc": "Veggia ceramica",
+    "code": "MO974",
+    "islast": false
+  },
+  {
+    "desc": "Tressano fornace",
+    "code": "MO975",
+    "islast": false
+  },
+  {
+    "desc": "Tressano",
+    "code": "MO3508",
+    "islast": false
+  },
+  {
+    "desc": "Villaggio",
+    "code": "MO1939",
+    "islast": false
+  },
+  {
+    "desc": "Castellarano",
+    "code": "MO3504",
+    "islast": false
+  },
+  {
+    "desc": "Villabianca",
+    "code": "MO3502",
+    "islast": false
+  },
+  {
+    "desc": "Cavriana",
+    "code": "MO3501",
+    "islast": false
+  },
+  {
+    "desc": "Casa Nuova",
+    "code": "MO1873",
+    "islast": false
+  },
+  {
+    "desc": "Roteglia cimitero",
+    "code": "MO1863",
+    "islast": false
+  },
+  {
+    "desc": "Roteglia",
+    "code": "MO3497",
+    "islast": false
+  },
+  {
+    "desc": "Bora",
+    "code": "MO3495",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Lucenta",
+    "code": "MO1862",
+    "islast": false
+  },
+  {
+    "desc": "La Pesa",
+    "code": "MO3499",
+    "islast": false
+  },
+  {
+    "desc": "Muraglione",
+    "code": "MO3503",
+    "islast": false
+  },
+  {
+    "desc": "Poggio del Bue",
+    "code": "MO3505",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Secchia",
+    "code": "MO1854",
+    "islast": false
+  },
+  {
+    "desc": "Cerredolo",
+    "code": "MO3521",
+    "islast": false
+  },
+  {
+    "desc": "Ca' Cerredolo",
+    "code": "MO1861",
+    "islast": false
+  },
+  {
+    "desc": "Le Buche",
+    "code": "MO3527",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Dolo",
+    "code": "MO1471",
+    "islast": false
+  },
+  {
+    "desc": "Casa Quaranta",
+    "code": "MO1473",
+    "islast": false
+  },
+  {
+    "desc": "Montestefano",
+    "code": "MO1474",
+    "islast": false
+  },
+  {
+    "desc": "Case Nuove",
+    "code": "MO1475",
+    "islast": false
+  },
+  {
+    "desc": "Rubbiano bv",
+    "code": "MO1479",
+    "islast": false
+  },
+  {
+    "desc": "Rubbiano",
+    "code": "MO1481",
+    "islast": false
+  },
+  {
+    "desc": "Albero",
+    "code": "MO1482",
+    "islast": false
+  },
+  {
+    "desc": "Pieve",
+    "code": "MO1483",
+    "islast": false
+  },
+  {
+    "desc": "Saletto",
+    "code": "MO2870",
+    "islast": false
+  },
+  {
+    "desc": "Ca' Bocci",
+    "code": "MO2872",
+    "islast": false
+  },
+  {
+    "desc": "Montefiorino",
+    "code": "MO2500",
+    "islast": true
+  }
+]

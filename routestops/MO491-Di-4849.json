@@ -1,0 +1,122 @@
+[
+  {
+    "desc": "Mirandola Terminal",
+    "code": "MO3970",
+    "islast": false
+  },
+  {
+    "desc": "Barozzi scuole",
+    "code": "MO2202",
+    "islast": false
+  },
+  {
+    "desc": "Mirandola ex scuole",
+    "code": "MO1186",
+    "islast": false
+  },
+  {
+    "desc": "Mirandola Centro",
+    "code": "MO3533",
+    "islast": false
+  },
+  {
+    "desc": "Cividale zuccherificio",
+    "code": "MO1079",
+    "islast": false
+  },
+  {
+    "desc": "Quarantoli",
+    "code": "MO562",
+    "islast": false
+  },
+  {
+    "desc": "Baraccone",
+    "code": "MO563",
+    "islast": false
+  },
+  {
+    "desc": "Cristo bv",
+    "code": "MO564",
+    "islast": false
+  },
+  {
+    "desc": "La Tedesca",
+    "code": "MO565",
+    "islast": false
+  },
+  {
+    "desc": "SP27 civ 38",
+    "code": "MO2098",
+    "islast": false
+  },
+  {
+    "desc": "Santa Maria",
+    "code": "MO567",
+    "islast": false
+  },
+  {
+    "desc": "Volta dei Secchi",
+    "code": "MO569",
+    "islast": false
+  },
+  {
+    "desc": "Calanca",
+    "code": "MO571",
+    "islast": false
+  },
+  {
+    "desc": "Corte Bonini",
+    "code": "MO573",
+    "islast": false
+  },
+  {
+    "desc": "Gavello",
+    "code": "MO574",
+    "islast": false
+  },
+  {
+    "desc": "Coppina",
+    "code": "MO577",
+    "islast": false
+  },
+  {
+    "desc": "Tre Gobbi",
+    "code": "MO266",
+    "islast": false
+  },
+  {
+    "desc": "Cascinetta",
+    "code": "MO267",
+    "islast": false
+  },
+  {
+    "desc": "Corte Reggiani",
+    "code": "MO271",
+    "islast": false
+  },
+  {
+    "desc": "Baia",
+    "code": "MO273",
+    "islast": false
+  },
+  {
+    "desc": "San Martino Spino",
+    "code": "MO520",
+    "islast": false
+  },
+  {
+    "desc": "S.Martino Spino - Coop",
+    "code": "MO524",
+    "islast": false
+  },
+  {
+    "desc": "Via Magona",
+    "code": "MO4045",
+    "islast": false
+  },
+  {
+    "desc": "Luia bv Chiaviche",
+    "code": "MO3964",
+    "islast": true
+  }
+]

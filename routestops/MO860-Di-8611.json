@@ -1,0 +1,67 @@
+[
+  {
+    "desc": "Monzone",
+    "code": "MO1865",
+    "islast": false
+  },
+  {
+    "desc": "Santa Maria",
+    "code": "MO1864",
+    "islast": false
+  },
+  {
+    "desc": "Gaianello",
+    "code": "MO3190",
+    "islast": false
+  },
+  {
+    "desc": "Pratolino",
+    "code": "MO3210",
+    "islast": false
+  },
+  {
+    "desc": "Sant'Antonio 1",
+    "code": "MO1879",
+    "islast": false
+  },
+  {
+    "desc": "La Croce",
+    "code": "MO1877",
+    "islast": false
+  },
+  {
+    "desc": "Casa Roggiano",
+    "code": "MO1875",
+    "islast": false
+  },
+  {
+    "desc": "Casa Villani",
+    "code": "MO1871",
+    "islast": false
+  },
+  {
+    "desc": "Casa Oppi",
+    "code": "MO1867",
+    "islast": false
+  },
+  {
+    "desc": "Malandrone",
+    "code": "MO2490",
+    "islast": false
+  },
+  {
+    "desc": "Casa Bellei",
+    "code": "MO2488",
+    "islast": false
+  },
+  {
+    "desc": "Poggio di sotto",
+    "code": "MO2486",
+    "islast": false
+  },
+  {
+    "desc": "Pavullo Autostazione",
+    "code": "MO1590",
+    "islast": true
+  }
+]

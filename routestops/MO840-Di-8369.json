@@ -1,0 +1,247 @@
+[
+  {
+    "desc": "Pavullo Autostazione",
+    "code": "MO1590",
+    "islast": false
+  },
+  {
+    "desc": "San Pellegrino",
+    "code": "MO1349",
+    "islast": false
+  },
+  {
+    "desc": "Campo D'Aviazione",
+    "code": "MO1351",
+    "islast": false
+  },
+  {
+    "desc": "Querciagrossa",
+    "code": "MO1819",
+    "islast": false
+  },
+  {
+    "desc": "Renno bv",
+    "code": "MO1816",
+    "islast": false
+  },
+  {
+    "desc": "Piantacroce",
+    "code": "MO1815",
+    "islast": false
+  },
+  {
+    "desc": "Pratolino",
+    "code": "MO1813",
+    "islast": false
+  },
+  {
+    "desc": "Gaianello",
+    "code": "MO1798",
+    "islast": false
+  },
+  {
+    "desc": "Camatta",
+    "code": "MO1787",
+    "islast": false
+  },
+  {
+    "desc": "Camatta 1",
+    "code": "MO3567",
+    "islast": false
+  },
+  {
+    "desc": "Olina",
+    "code": "MO1783",
+    "islast": false
+  },
+  {
+    "desc": "Alpino",
+    "code": "MO1781",
+    "islast": false
+  },
+  {
+    "desc": "Ca' D'Olina",
+    "code": "MO1778",
+    "islast": false
+  },
+  {
+    "desc": "La Teggia",
+    "code": "MO1779",
+    "islast": false
+  },
+  {
+    "desc": "Suore",
+    "code": "MO1777",
+    "islast": false
+  },
+  {
+    "desc": "Baldina",
+    "code": "MO1776",
+    "islast": false
+  },
+  {
+    "desc": "Casa Barduzzi Olina",
+    "code": "MO1774",
+    "islast": false
+  },
+  {
+    "desc": "Pian Della Valle",
+    "code": "MO1773",
+    "islast": false
+  },
+  {
+    "desc": "Rovinella",
+    "code": "MO1771",
+    "islast": false
+  },
+  {
+    "desc": "Caselle",
+    "code": "MO1769",
+    "islast": false
+  },
+  {
+    "desc": "Casa Busotto",
+    "code": "MO1759",
+    "islast": false
+  },
+  {
+    "desc": "La Villa",
+    "code": "MO1757",
+    "islast": false
+  },
+  {
+    "desc": "La Croce",
+    "code": "MO1755",
+    "islast": false
+  },
+  {
+    "desc": "Le Sreghe",
+    "code": "MO1753",
+    "islast": false
+  },
+  {
+    "desc": "Acquaria",
+    "code": "MO1751",
+    "islast": false
+  },
+  {
+    "desc": "Casa Vernese",
+    "code": "MO2043",
+    "islast": false
+  },
+  {
+    "desc": "Il Piano",
+    "code": "MO2042",
+    "islast": false
+  },
+  {
+    "desc": "Maesta",
+    "code": "MO2041",
+    "islast": false
+  },
+  {
+    "desc": "Acquaria bv",
+    "code": "MO3550",
+    "islast": false
+  },
+  {
+    "desc": "Bandita",
+    "code": "MO3546",
+    "islast": false
+  },
+  {
+    "desc": "Ronco bv",
+    "code": "MO3544",
+    "islast": false
+  },
+  {
+    "desc": "Montecreto",
+    "code": "MO2400",
+    "islast": false
+  },
+  {
+    "desc": "Montecreto forno",
+    "code": "MO4294",
+    "islast": false
+  },
+  {
+    "desc": "Tangenziale Montecreto",
+    "code": "MO3611",
+    "islast": false
+  },
+  {
+    "desc": "Ronco bv",
+    "code": "MO2035",
+    "islast": false
+  },
+  {
+    "desc": "Bandita",
+    "code": "MO2037",
+    "islast": false
+  },
+  {
+    "desc": "Acquaria bv",
+    "code": "MO2039",
+    "islast": false
+  },
+  {
+    "desc": "Roncoscaglia 1",
+    "code": "MO3685",
+    "islast": false
+  },
+  {
+    "desc": "Roncoscaglia",
+    "code": "MO2045",
+    "islast": false
+  },
+  {
+    "desc": "Dogana",
+    "code": "MO2047",
+    "islast": false
+  },
+  {
+    "desc": "Vivaio",
+    "code": "MO3564",
+    "islast": false
+  },
+  {
+    "desc": "Sestola cimitero",
+    "code": "MO2259",
+    "islast": false
+  },
+  {
+    "desc": "Sestola bv scuole",
+    "code": "MO2439",
+    "islast": false
+  },
+  {
+    "desc": "Bv Sestola medie",
+    "code": "MO3526",
+    "islast": false
+  },
+  {
+    "desc": "Sestola medie",
+    "code": "MO2376",
+    "islast": false
+  },
+  {
+    "desc": "Sestola bv scuole",
+    "code": "MO1333",
+    "islast": false
+  },
+  {
+    "desc": "Sestola cimitero",
+    "code": "MO2263",
+    "islast": false
+  },
+  {
+    "desc": "Vivaio",
+    "code": "MO2049",
+    "islast": false
+  },
+  {
+    "desc": "Sestola",
+    "code": "MO4300",
+    "islast": true
+  }
+]

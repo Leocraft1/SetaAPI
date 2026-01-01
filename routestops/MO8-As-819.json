@@ -1,0 +1,187 @@
+[
+  {
+    "desc": "PANNI",
+    "code": "MO6675",
+    "islast": false
+  },
+  {
+    "desc": "Marinetti",
+    "code": "MO3609",
+    "islast": false
+  },
+  {
+    "desc": "Marinetti",
+    "code": "MO3606",
+    "islast": false
+  },
+  {
+    "desc": "Panni bv Giambellino",
+    "code": "MO6673",
+    "islast": false
+  },
+  {
+    "desc": "Ribera bv Panni",
+    "code": "MO6671",
+    "islast": false
+  },
+  {
+    "desc": "Ribera Conad",
+    "code": "MO6669",
+    "islast": false
+  },
+  {
+    "desc": "Pisano",
+    "code": "MO6665",
+    "islast": false
+  },
+  {
+    "desc": "Amendola bv Nievo",
+    "code": "MO6676",
+    "islast": false
+  },
+  {
+    "desc": "Nievo bv Amendola",
+    "code": "MO6663",
+    "islast": false
+  },
+  {
+    "desc": "Nievo bv Tiziano",
+    "code": "MO6661",
+    "islast": false
+  },
+  {
+    "desc": "Gaurini bv Bianchi Ferrari",
+    "code": "MO6659",
+    "islast": false
+  },
+  {
+    "desc": "Guarini bv della Pace",
+    "code": "MO6657",
+    "islast": false
+  },
+  {
+    "desc": "Guarini bv Venturi",
+    "code": "MO6653",
+    "islast": false
+  },
+  {
+    "desc": "Guarini bv Lana",
+    "code": "MO6651",
+    "islast": false
+  },
+  {
+    "desc": "Pietro Giannone",
+    "code": "MO6647",
+    "islast": false
+  },
+  {
+    "desc": "Rimembranze bv Canalchiaro",
+    "code": "MO6166",
+    "islast": false
+  },
+  {
+    "desc": "Rimembranze bv Selmi",
+    "code": "MO6165",
+    "islast": false
+  },
+  {
+    "desc": "Rimembranze ex Questura",
+    "code": "MO42",
+    "islast": false
+  },
+  {
+    "desc": "Prefettura",
+    "code": "MO6156",
+    "islast": false
+  },
+  {
+    "desc": "GARIBALDI",
+    "code": "MO30",
+    "islast": false
+  },
+  {
+    "desc": "Verdi ACI",
+    "code": "MO6211",
+    "islast": false
+  },
+  {
+    "desc": "Verdi Bocciofila",
+    "code": "MO6201",
+    "islast": false
+  },
+  {
+    "desc": "Verdi bv Donizetti",
+    "code": "MO6215",
+    "islast": false
+  },
+  {
+    "desc": "Verdi scuola",
+    "code": "MO6219",
+    "islast": false
+  },
+  {
+    "desc": "Montegrappa asilo",
+    "code": "MO6217",
+    "islast": false
+  },
+  {
+    "desc": "Montegrappa bv S.Giovanni Bosco",
+    "code": "MO6213",
+    "islast": false
+  },
+  {
+    "desc": "Divisione Acqui Questura",
+    "code": "MO6385",
+    "islast": false
+  },
+  {
+    "desc": "Palasport",
+    "code": "MO6391",
+    "islast": false
+  },
+  {
+    "desc": "Divisione Acqui i Portali",
+    "code": "MO6327",
+    "islast": false
+  },
+  {
+    "desc": "Indipendenza bv Resistenza",
+    "code": "MO6331",
+    "islast": false
+  },
+  {
+    "desc": "Indipendenza polisportiva",
+    "code": "MO6341",
+    "islast": false
+  },
+  {
+    "desc": "Indipendenza mensa",
+    "code": "MO2916",
+    "islast": false
+  },
+  {
+    "desc": "Caduti sul Lavoro bv Romano",
+    "code": "MO6351",
+    "islast": false
+  },
+  {
+    "desc": "Stradello Romano",
+    "code": "MO2897",
+    "islast": false
+  },
+  {
+    "desc": "Maestri del Lavoro",
+    "code": "MO2899",
+    "islast": false
+  },
+  {
+    "desc": "Maestri del Lavoro bv Gazzotti",
+    "code": "MO2906",
+    "islast": false
+  },
+  {
+    "desc": "GAZZOTTI",
+    "code": "MO6374",
+    "islast": true
+  }
+]

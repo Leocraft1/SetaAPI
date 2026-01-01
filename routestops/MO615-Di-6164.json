@@ -1,0 +1,167 @@
+[
+  {
+    "desc": "Pavullo Autostazione",
+    "code": "MO1590",
+    "islast": false
+  },
+  {
+    "desc": "Braglia",
+    "code": "MO1350",
+    "islast": false
+  },
+  {
+    "desc": "Pavullo scuole",
+    "code": "MO1352",
+    "islast": false
+  },
+  {
+    "desc": "Poggio di sotto",
+    "code": "MO1355",
+    "islast": false
+  },
+  {
+    "desc": "Casa Bellei",
+    "code": "MO1357",
+    "islast": false
+  },
+  {
+    "desc": "Malandrone",
+    "code": "MO1358",
+    "islast": false
+  },
+  {
+    "desc": "Caseificio",
+    "code": "MO1363",
+    "islast": false
+  },
+  {
+    "desc": "Miceno",
+    "code": "MO1365",
+    "islast": false
+  },
+  {
+    "desc": "Molino Pompei",
+    "code": "MO1366",
+    "islast": false
+  },
+  {
+    "desc": "Casa Sovrano",
+    "code": "MO1367",
+    "islast": false
+  },
+  {
+    "desc": "Cogorno",
+    "code": "MO1368",
+    "islast": false
+  },
+  {
+    "desc": "Casa Teodoro",
+    "code": "MO1369",
+    "islast": false
+  },
+  {
+    "desc": "Frassineti",
+    "code": "MO1371",
+    "islast": false
+  },
+  {
+    "desc": "Casa Barduzzi",
+    "code": "MO1635",
+    "islast": false
+  },
+  {
+    "desc": "Capanna",
+    "code": "MO1633",
+    "islast": false
+  },
+  {
+    "desc": "Casina",
+    "code": "MO1631",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Casina",
+    "code": "MO1629",
+    "islast": false
+  },
+  {
+    "desc": "Piangonato",
+    "code": "MO1621",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Brandola",
+    "code": "MO1618",
+    "islast": false
+  },
+  {
+    "desc": "Casa Bortolani",
+    "code": "MO1619",
+    "islast": false
+  },
+  {
+    "desc": "Cerreto di Polinago",
+    "code": "MO1617",
+    "islast": false
+  },
+  {
+    "desc": "Casa del Dottore",
+    "code": "MO1616",
+    "islast": false
+  },
+  {
+    "desc": "Valle Verde",
+    "code": "MO1615",
+    "islast": false
+  },
+  {
+    "desc": "Pissa Segala",
+    "code": "MO1614",
+    "islast": false
+  },
+  {
+    "desc": "Lama di Polinago",
+    "code": "MO1806",
+    "islast": false
+  },
+  {
+    "desc": "Polinago scuole",
+    "code": "MO3198",
+    "islast": false
+  },
+  {
+    "desc": "Polinago",
+    "code": "MO3200",
+    "islast": false
+  },
+  {
+    "desc": "Celia",
+    "code": "MO3202",
+    "islast": false
+  },
+  {
+    "desc": "Pianorso",
+    "code": "MO3203",
+    "islast": false
+  },
+  {
+    "desc": "Pianorso posta",
+    "code": "MO3204",
+    "islast": false
+  },
+  {
+    "desc": "Villa Grimaldi",
+    "code": "MO3205",
+    "islast": false
+  },
+  {
+    "desc": "Montecerreto",
+    "code": "MO3206",
+    "islast": false
+  },
+  {
+    "desc": "Fontana D'Arco",
+    "code": "MO2990",
+    "islast": true
+  }
+]

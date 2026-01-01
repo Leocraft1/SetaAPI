@@ -1,0 +1,122 @@
+[
+  {
+    "desc": "Cavezzo Autostazione",
+    "code": "MO490",
+    "islast": false
+  },
+  {
+    "desc": "Bellicina",
+    "code": "MO322",
+    "islast": false
+  },
+  {
+    "desc": "Voltone",
+    "code": "MO320",
+    "islast": false
+  },
+  {
+    "desc": "Voltone 1",
+    "code": "MO3639",
+    "islast": false
+  },
+  {
+    "desc": "Bisighini bv",
+    "code": "MO310",
+    "islast": false
+  },
+  {
+    "desc": "Baraccone",
+    "code": "MO296",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Motta",
+    "code": "MO294",
+    "islast": false
+  },
+  {
+    "desc": "Castello Fantini",
+    "code": "MO292",
+    "islast": false
+  },
+  {
+    "desc": "San Martino Secchia bv",
+    "code": "MO290",
+    "islast": false
+  },
+  {
+    "desc": "Cortile scuole",
+    "code": "MO280",
+    "islast": false
+  },
+  {
+    "desc": "Mulino Cortile",
+    "code": "MO272",
+    "islast": false
+  },
+  {
+    "desc": "Cortile",
+    "code": "MO270",
+    "islast": false
+  },
+  {
+    "desc": "San Pellegrino Cortile",
+    "code": "MO268",
+    "islast": false
+  },
+  {
+    "desc": "Griduzza scuole",
+    "code": "MO260",
+    "islast": false
+  },
+  {
+    "desc": "Cacciatori trattoria",
+    "code": "MO922",
+    "islast": false
+  },
+  {
+    "desc": "San Marino bv",
+    "code": "MO921",
+    "islast": false
+  },
+  {
+    "desc": "Cibeno",
+    "code": "MO920",
+    "islast": false
+  },
+  {
+    "desc": "Cibeno farmacia",
+    "code": "MO918",
+    "islast": false
+  },
+  {
+    "desc": "Ariosto",
+    "code": "MO3473",
+    "islast": false
+  },
+  {
+    "desc": "Stazione FS",
+    "code": "MO8537",
+    "islast": false
+  },
+  {
+    "desc": "Alghisi 2",
+    "code": "MO3379",
+    "islast": false
+  },
+  {
+    "desc": "Stadio",
+    "code": "MO8553",
+    "islast": false
+  },
+  {
+    "desc": "P.le Ramazzini",
+    "code": "MO502",
+    "islast": false
+  },
+  {
+    "desc": "CARPI TERMINAL BUS",
+    "code": "MO403",
+    "islast": true
+  }
+]

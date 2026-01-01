@@ -1,0 +1,127 @@
+[
+  {
+    "desc": "MODENA AUTOSTAZIONE",
+    "code": "MO350",
+    "islast": false
+  },
+  {
+    "desc": "Risorgimento",
+    "code": "MO20",
+    "islast": false
+  },
+  {
+    "desc": "Rimembranze ex Questura",
+    "code": "MO42",
+    "islast": false
+  },
+  {
+    "desc": "GARIBALDI",
+    "code": "MO5111",
+    "islast": false
+  },
+  {
+    "desc": "Piazza Manzoni",
+    "code": "MO11",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese bv La Spezia",
+    "code": "MO1364",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese Universita",
+    "code": "MO1362",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese bv Saluzzo",
+    "code": "MO6439",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese Istituto",
+    "code": "MO1360",
+    "islast": false
+  },
+  {
+    "desc": "Santa Maria scuole",
+    "code": "MO702",
+    "islast": false
+  },
+  {
+    "desc": "Cantone di Mugnano",
+    "code": "MO704",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Ghiotto",
+    "code": "MO705",
+    "islast": false
+  },
+  {
+    "desc": "Botteghetto",
+    "code": "MO706",
+    "islast": false
+  },
+  {
+    "desc": "Portile farmacia",
+    "code": "MO2332",
+    "islast": false
+  },
+  {
+    "desc": "Portile centro",
+    "code": "MO709",
+    "islast": false
+  },
+  {
+    "desc": "Portile Madonnina",
+    "code": "MO707",
+    "islast": false
+  },
+  {
+    "desc": "Cabianca",
+    "code": "MO708",
+    "islast": false
+  },
+  {
+    "desc": "Vilco",
+    "code": "MO848",
+    "islast": false
+  },
+  {
+    "desc": "Castelnuovo Rangone",
+    "code": "MO330",
+    "islast": false
+  },
+  {
+    "desc": "Acquedotto",
+    "code": "MO849",
+    "islast": false
+  },
+  {
+    "desc": "Castelnuovo Case Nuove",
+    "code": "MO4071",
+    "islast": false
+  },
+  {
+    "desc": "Ca' del Cristo",
+    "code": "MO843",
+    "islast": false
+  },
+  {
+    "desc": "Grillenzone bv",
+    "code": "MO841",
+    "islast": false
+  },
+  {
+    "desc": "Bar Cacciatori Solignano",
+    "code": "MO1679",
+    "islast": false
+  },
+  {
+    "desc": "Solignano",
+    "code": "MO1680",
+    "islast": true
+  }
+]

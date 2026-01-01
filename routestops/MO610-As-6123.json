@@ -1,0 +1,257 @@
+[
+  {
+    "desc": "Sassuolo Terminal",
+    "code": "MO4000",
+    "islast": false
+  },
+  {
+    "desc": "Stazione Sassuolo Radici",
+    "code": "MO2388",
+    "islast": false
+  },
+  {
+    "desc": "Radici in Monte bv Magenta",
+    "code": "MO779",
+    "islast": false
+  },
+  {
+    "desc": "Piscine",
+    "code": "MO2330",
+    "islast": false
+  },
+  {
+    "desc": "Bologna scuole",
+    "code": "MO904",
+    "islast": false
+  },
+  {
+    "desc": "Ancora bv",
+    "code": "MO1570",
+    "islast": false
+  },
+  {
+    "desc": "Veggia",
+    "code": "MO3489",
+    "islast": false
+  },
+  {
+    "desc": "Veggia ceramica",
+    "code": "MO974",
+    "islast": false
+  },
+  {
+    "desc": "Tressano fornace",
+    "code": "MO975",
+    "islast": false
+  },
+  {
+    "desc": "Tressano",
+    "code": "MO3508",
+    "islast": false
+  },
+  {
+    "desc": "Villaggio",
+    "code": "MO1939",
+    "islast": false
+  },
+  {
+    "desc": "Castellarano",
+    "code": "MO3504",
+    "islast": false
+  },
+  {
+    "desc": "Villabianca",
+    "code": "MO3502",
+    "islast": false
+  },
+  {
+    "desc": "Cavriana",
+    "code": "MO3501",
+    "islast": false
+  },
+  {
+    "desc": "Casa Nuova",
+    "code": "MO1873",
+    "islast": false
+  },
+  {
+    "desc": "Roteglia cimitero",
+    "code": "MO1863",
+    "islast": false
+  },
+  {
+    "desc": "Roteglia",
+    "code": "MO3497",
+    "islast": false
+  },
+  {
+    "desc": "Bora",
+    "code": "MO3495",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Lucenta",
+    "code": "MO1862",
+    "islast": false
+  },
+  {
+    "desc": "La Pesa",
+    "code": "MO3499",
+    "islast": false
+  },
+  {
+    "desc": "Muraglione",
+    "code": "MO3503",
+    "islast": false
+  },
+  {
+    "desc": "Poggio del Bue",
+    "code": "MO3505",
+    "islast": false
+  },
+  {
+    "desc": "Casa Geti",
+    "code": "MO3507",
+    "islast": false
+  },
+  {
+    "desc": "Lugo",
+    "code": "MO2064",
+    "islast": false
+  },
+  {
+    "desc": "La Volta",
+    "code": "MO1128",
+    "islast": false
+  },
+  {
+    "desc": "Il Frantoio",
+    "code": "MO2082",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Prignano",
+    "code": "MO2110",
+    "islast": false
+  },
+  {
+    "desc": "Sassofosco",
+    "code": "MO2112",
+    "islast": false
+  },
+  {
+    "desc": "Casa Duca",
+    "code": "MO2114",
+    "islast": false
+  },
+  {
+    "desc": "Casa Lugari",
+    "code": "MO2276",
+    "islast": false
+  },
+  {
+    "desc": "Pioppa Talbignano",
+    "code": "MO2278",
+    "islast": false
+  },
+  {
+    "desc": "Talbignano poste",
+    "code": "MO2280",
+    "islast": false
+  },
+  {
+    "desc": "Talbignano",
+    "code": "MO2282",
+    "islast": false
+  },
+  {
+    "desc": "Talbignano rimessa",
+    "code": "MO2283",
+    "islast": false
+  },
+  {
+    "desc": "Casa Matteazzi",
+    "code": "MO2284",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Cervaro",
+    "code": "MO2285",
+    "islast": false
+  },
+  {
+    "desc": "Casa Giovannetti",
+    "code": "MO2286",
+    "islast": false
+  },
+  {
+    "desc": "Gombola poste",
+    "code": "MO2287",
+    "islast": false
+  },
+  {
+    "desc": "Gombola",
+    "code": "MO2290",
+    "islast": false
+  },
+  {
+    "desc": "Casa Cappelli",
+    "code": "MO2292",
+    "islast": false
+  },
+  {
+    "desc": "Torella",
+    "code": "MO2294",
+    "islast": false
+  },
+  {
+    "desc": "Piana",
+    "code": "MO2296",
+    "islast": false
+  },
+  {
+    "desc": "Casa nuova Gombola",
+    "code": "MO2298",
+    "islast": false
+  },
+  {
+    "desc": "Casa Cabri",
+    "code": "MO3010",
+    "islast": false
+  },
+  {
+    "desc": "Colombaia",
+    "code": "MO3012",
+    "islast": false
+  },
+  {
+    "desc": "Casa Giannini",
+    "code": "MO3013",
+    "islast": false
+  },
+  {
+    "desc": "Casa Marini",
+    "code": "MO3014",
+    "islast": false
+  },
+  {
+    "desc": "Ca' del Merlo",
+    "code": "MO3015",
+    "islast": false
+  },
+  {
+    "desc": "Casa Casoni Polinago",
+    "code": "MO3207",
+    "islast": false
+  },
+  {
+    "desc": "Polinago scuole",
+    "code": "MO3198",
+    "islast": false
+  },
+  {
+    "desc": "Polinago",
+    "code": "MO3200",
+    "islast": true
+  }
+]

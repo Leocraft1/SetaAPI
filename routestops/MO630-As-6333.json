@@ -1,0 +1,57 @@
+[
+  {
+    "desc": "Montegibbio",
+    "code": "MO1910",
+    "islast": false
+  },
+  {
+    "desc": "Casa Zironi",
+    "code": "MO1908",
+    "islast": false
+  },
+  {
+    "desc": "Sarsa",
+    "code": "MO1906",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Alto Nuovo",
+    "code": "MO1772",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Nuovo",
+    "code": "MO909",
+    "islast": false
+  },
+  {
+    "desc": "Montanara",
+    "code": "MO908",
+    "islast": false
+  },
+  {
+    "desc": "Indipendenza ex Questura",
+    "code": "MO906",
+    "islast": false
+  },
+  {
+    "desc": "Bologna scuole",
+    "code": "MO904",
+    "islast": false
+  },
+  {
+    "desc": "Radici in Monte bv Magenta",
+    "code": "MO2401",
+    "islast": false
+  },
+  {
+    "desc": "Radici in Monte bv Liberta",
+    "code": "MO2391",
+    "islast": false
+  },
+  {
+    "desc": "Sassuolo Terminal",
+    "code": "MO4000",
+    "islast": true
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "desc": "Serramazzoni",
+    "code": "MO4200",
+    "islast": false
+  },
+  {
+    "desc": "Serramazzoni cimitero",
+    "code": "MO4201",
+    "islast": false
+  },
+  {
+    "desc": "Monfestino bv",
+    "code": "MO2314",
+    "islast": false
+  },
+  {
+    "desc": "Casa Piccola scuola",
+    "code": "MO2316",
+    "islast": false
+  },
+  {
+    "desc": "Casa Grossi",
+    "code": "MO2318",
+    "islast": false
+  },
+  {
+    "desc": "Casa Cantoniera",
+    "code": "MO2322",
+    "islast": false
+  },
+  {
+    "desc": "Casa Rotonda",
+    "code": "MO2324",
+    "islast": false
+  },
+  {
+    "desc": "Malandrone",
+    "code": "MO2327",
+    "islast": false
+  },
+  {
+    "desc": "San Dalmazio",
+    "code": "MO2350",
+    "islast": false
+  },
+  {
+    "desc": "Crocetta bv",
+    "code": "MO2340",
+    "islast": false
+  },
+  {
+    "desc": "Osteria Vecchia",
+    "code": "MO2212",
+    "islast": false
+  },
+  {
+    "desc": "Ricco",
+    "code": "MO2210",
+    "islast": false
+  },
+  {
+    "desc": "La Macchia",
+    "code": "MO2208",
+    "islast": false
+  },
+  {
+    "desc": "Casa Ventura",
+    "code": "MO2206",
+    "islast": false
+  },
+  {
+    "desc": "Poggio Olmaccio",
+    "code": "MO3941",
+    "islast": false
+  },
+  {
+    "desc": "Banzuola nuova",
+    "code": "MO2190",
+    "islast": true
+  }
+]

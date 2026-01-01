@@ -1,0 +1,17 @@
+[
+  {
+    "desc": "Colombarone",
+    "code": "MO754",
+    "islast": false
+  },
+  {
+    "desc": "Turco",
+    "code": "MO752",
+    "islast": false
+  },
+  {
+    "desc": "Magreta",
+    "code": "MO1510",
+    "islast": true
+  }
+]
