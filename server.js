@@ -9,6 +9,7 @@ const scrapeIt = require('scrape-it');
 const app = express();
 const port = 5001;
 
+
 app.use(cors());
 app.use(express.json());
 
