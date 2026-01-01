@@ -3,13 +3,12 @@ This api interfaces with SETA's servers and gives back correct information to im
 
 It operates at :
 
-- /stoplist for the list of bus stops.
 - /arrivals/:id where id is the id of the stop you want.
 - /busesinservice for the list of all buses operating.
 - /vehicleinfo/:id where id is the id of the vehicle you want the informations of, it needs to be operating.
 - /routenumberslist for the list of all route numbers (not static, will update when new routes are operating).
 - /busmodels for the list of all bus models.
-- /stopcodesarchive the result of the fetch to obtain the bus stops.
+- /stopcodesarchive the result of a fetch to obtain the bus stops.
 - /routestops/:id where id is the route code of the stop you want to obtain the stops of.
 - /nextstops/:id where id is the journey code of the shift you want to obtain the remaining stops of.
 - /allnews to get all the news.
