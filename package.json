@@ -1,0 +1,21 @@
+{
+  "name": "SETA-Unofficial-API",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "NyxW",
+  "license": "MIT",
+  "description": "API for a frontend project by the ER-TPL team",
+  "dependencies": {
+    "axios": "^1.10.0",
+    "cheerio": "^1.1.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "node-cron": "^4.2.1",
+    "node-fetch": "^3.3.2",
+    "qs": "^6.14.0"
+  }
+}
