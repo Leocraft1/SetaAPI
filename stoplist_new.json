@@ -12664,6 +12664,10 @@
     "valore": "MO6150"
   },
   {
+    "fermata": "GARIBALDI",
+    "valore": "MO6151"
+  },
+  {
     "fermata": "Caduti in guerra",
     "valore": "MO6152"
   },
@@ -13330,6 +13334,10 @@
   {
     "fermata": "Morane bv Pavia",
     "valore": "MO6545"
+  },
+  {
+    "fermata": "Pavia bv Milano",
+    "valore": "MO6547"
   },
   {
     "fermata": "Magenta bv Vigevano",
