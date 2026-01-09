@@ -1,0 +1,157 @@
+[
+  {
+    "desc": "SAN DAMASO",
+    "code": "MO6448",
+    "islast": false
+  },
+  {
+    "desc": "Collegara",
+    "code": "MO2753",
+    "islast": false
+  },
+  {
+    "desc": "Collegara bv Scartazzetta",
+    "code": "MO2755",
+    "islast": false
+  },
+  {
+    "desc": "Collegara bv Ginestra",
+    "code": "MO2757",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese la Fenice",
+    "code": "MO2756",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese Enel",
+    "code": "MO2754",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese bv Bacelliera",
+    "code": "MO2752",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese la Fornace",
+    "code": "MO2751",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese bv Barchessa",
+    "code": "MO2748",
+    "islast": false
+  },
+  {
+    "desc": "Patriarca",
+    "code": "MO232",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese Istituto",
+    "code": "MO669",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese bv Saluzzo",
+    "code": "MO2741",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese Universita",
+    "code": "MO671",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese bv Campi",
+    "code": "MO6435",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese Punta",
+    "code": "MO2738",
+    "islast": false
+  },
+  {
+    "desc": "Vignolese bv La Spezia",
+    "code": "MO673",
+    "islast": false
+  },
+  {
+    "desc": "Marzabotto",
+    "code": "MO2724",
+    "islast": false
+  },
+  {
+    "desc": "Moreali bv Cucchiari",
+    "code": "MO2725",
+    "islast": false
+  },
+  {
+    "desc": "Moreali bv Dei Bononcini",
+    "code": "MO2726",
+    "islast": false
+  },
+  {
+    "desc": "Moreali bv Valdrighi",
+    "code": "MO2722",
+    "islast": false
+  },
+  {
+    "desc": "Moreali bv Sabatini",
+    "code": "MO2721",
+    "islast": false
+  },
+  {
+    "desc": "Trento Trieste",
+    "code": "MO2719",
+    "islast": false
+  },
+  {
+    "desc": "GARIBALDI",
+    "code": "MO5112",
+    "islast": false
+  },
+  {
+    "desc": "Prefettura",
+    "code": "MO2590",
+    "islast": false
+  },
+  {
+    "desc": "Rimembranze ex Questura",
+    "code": "MO12",
+    "islast": false
+  },
+  {
+    "desc": "Rimembranze bv Selmi",
+    "code": "MO2591",
+    "islast": false
+  },
+  {
+    "desc": "Rimembranze bv Canalchiaro",
+    "code": "MO2592",
+    "islast": false
+  },
+  {
+    "desc": "Risorgimento",
+    "code": "MO4",
+    "islast": false
+  },
+  {
+    "desc": "Vittorio Veneto bv Trombi",
+    "code": "MO2593",
+    "islast": false
+  },
+  {
+    "desc": "Ospedale Estense",
+    "code": "MO2594",
+    "islast": false
+  },
+  {
+    "desc": "MODENA  AUTOSTAZIONE",
+    "code": "MO5003",
+    "islast": true
+  }
+]
