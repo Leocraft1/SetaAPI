@@ -3944,6 +3944,10 @@
     "valore": "MO1995"
   },
   {
+    "fermata": "Casa Guiglia",
+    "valore": "MO1999"
+  },
+  {
     "fermata": "Risorgimento",
     "valore": "MO20"
   },
@@ -6908,6 +6912,10 @@
     "valore": "MO2797"
   },
   {
+    "fermata": "Pavia bv Milano",
+    "valore": "MO2798"
+  },
+  {
     "fermata": "Magenta bv Vigevano",
     "valore": "MO2799"
   },
@@ -9536,6 +9544,14 @@
     "valore": "MO3477"
   },
   {
+    "fermata": "Castellano Boccasuolo",
+    "valore": "MO3478"
+  },
+  {
+    "fermata": "Sassorosso bv",
+    "valore": "MO3479"
+  },
+  {
     "fermata": "Grimelli",
     "valore": "MO3480"
   },
@@ -11428,6 +11444,14 @@
     "valore": "MO4402"
   },
   {
+    "fermata": "Corte Alta",
+    "valore": "MO441"
+  },
+  {
+    "fermata": "Casa Marchesi",
+    "valore": "MO442"
+  },
+  {
     "fermata": "San Marino",
     "valore": "MO443"
   },
@@ -12660,6 +12684,10 @@
     "valore": "MO6150"
   },
   {
+    "fermata": "GARIBALDI",
+    "valore": "MO6151"
+  },
+  {
     "fermata": "Caduti in guerra",
     "valore": "MO6152"
   },
@@ -13326,6 +13354,10 @@
   {
     "fermata": "Morane bv Pavia",
     "valore": "MO6545"
+  },
+  {
+    "fermata": "Pavia bv Milano",
+    "valore": "MO6547"
   },
   {
     "fermata": "Magenta bv Vigevano",
@@ -15961,6 +15993,10 @@
   },
   {
     "fermata": "V. Matteotti",
+    "valore": "MOPV901"
+  },
+  {
+    "fermata": "V. Matteotti",
     "valore": "MOPV902"
   },
   {
@@ -15992,6 +16028,10 @@
     "valore": "MOPV913"
   },
   {
+    "fermata": "Nuvolari",
+    "valore": "MOPV914"
+  },
+  {
     "fermata": "Zanello",
     "valore": "MOPV915"
   },
@@ -16010,6 +16050,10 @@
   {
     "fermata": "Budria",
     "valore": "MOPV921"
+  },
+  {
+    "fermata": "Budria",
+    "valore": "MOPV922"
   },
   {
     "fermata": "Turati",
@@ -16078,6 +16122,10 @@
   {
     "fermata": "GiardinI bv Delle Ville",
     "valore": "MOPV949"
+  },
+  {
+    "fermata": "Bar Pineta",
+    "valore": "MOPV952"
   },
   {
     "fermata": "Bellei",
