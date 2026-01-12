@@ -3944,6 +3944,10 @@
     "valore": "MO1995"
   },
   {
+    "fermata": "Casa Guiglia",
+    "valore": "MO1999"
+  },
+  {
     "fermata": "Risorgimento",
     "valore": "MO20"
   },
@@ -9538,6 +9542,14 @@
   {
     "fermata": "Lama Mocogno",
     "valore": "MO3477"
+  },
+  {
+    "fermata": "Castellano Boccasuolo",
+    "valore": "MO3478"
+  },
+  {
+    "fermata": "Sassorosso bv",
+    "valore": "MO3479"
   },
   {
     "fermata": "Grimelli",
