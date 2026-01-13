@@ -338,23 +338,6 @@ app.get('/arrivals/:id', async (req, res) => {
                 service.next_stop = realtimeMap.get(service.codice_corsa).next_stop;
                 service.isImpossible = true;
             }
-            const arr = service.arrival.split(":");
-            const arrHr = arr[0];
-            const arrMin = arr[1];
-            const now = new Date(Date.now());
-            const mm = now.toLocaleTimeString('it-IT', {
-                minute: '2-digit'
-            });
-            const hh = now.toLocaleTimeString('it-IT', {
-                hour: '2-digit'
-            });
-            if(arrHr<hh){
-                service.isImpossible = true;
-                console.log("impossibile hh")
-            }else if(arrHr==hh&&arrMin<mm){
-                console.log("impossibile mm")
-                service.isImpossible = true;
-            }
         })
 
         // Step 2: Filtra i servizi (MODIFICATO PER LINEE 1, 2, 4, 10, 13)
