@@ -1,0 +1,287 @@
+[
+  {
+    "desc": "Vignola Autostazione",
+    "code": "MO4505",
+    "islast": false
+  },
+  {
+    "desc": "La Vigna",
+    "code": "MO2410",
+    "islast": false
+  },
+  {
+    "desc": "Il Gessiere",
+    "code": "MO4608",
+    "islast": false
+  },
+  {
+    "desc": "Barozzi scuola",
+    "code": "MO4603",
+    "islast": false
+  },
+  {
+    "desc": "Vignola centro",
+    "code": "MO3709",
+    "islast": false
+  },
+  {
+    "desc": "Vignola FP",
+    "code": "MO3707",
+    "islast": false
+  },
+  {
+    "desc": "Vignola cimitero",
+    "code": "MO3703",
+    "islast": false
+  },
+  {
+    "desc": "Tassoni",
+    "code": "MO3701",
+    "islast": false
+  },
+  {
+    "desc": "Brodano",
+    "code": "MO4614",
+    "islast": false
+  },
+  {
+    "desc": "Centro commerciale",
+    "code": "MO3261",
+    "islast": false
+  },
+  {
+    "desc": "Confine",
+    "code": "MO2040",
+    "islast": false
+  },
+  {
+    "desc": "Sitma",
+    "code": "MO2701",
+    "islast": false
+  },
+  {
+    "desc": "San Pellegrino",
+    "code": "MO2036",
+    "islast": false
+  },
+  {
+    "desc": "Spilamberto",
+    "code": "MO4500",
+    "islast": false
+  },
+  {
+    "desc": "Altola'",
+    "code": "MO1406",
+    "islast": false
+  },
+  {
+    "desc": "Piumazzo stazione",
+    "code": "MO1788",
+    "islast": false
+  },
+  {
+    "desc": "Torrazzo",
+    "code": "MO927",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Fiume",
+    "code": "MO1786",
+    "islast": false
+  },
+  {
+    "desc": "San Cesario Case Nuove",
+    "code": "MO1785",
+    "islast": false
+  },
+  {
+    "desc": "San Cesario scuole",
+    "code": "MO3603",
+    "islast": false
+  },
+  {
+    "desc": "Stazione Bar",
+    "code": "MO3601",
+    "islast": false
+  },
+  {
+    "desc": "San Cesario",
+    "code": "MO3600",
+    "islast": false
+  },
+  {
+    "desc": "Cavalcavia",
+    "code": "MO1394",
+    "islast": false
+  },
+  {
+    "desc": "Cabina",
+    "code": "MO1393",
+    "islast": false
+  },
+  {
+    "desc": "Beccastecca",
+    "code": "MO1392",
+    "islast": false
+  },
+  {
+    "desc": "Loda",
+    "code": "MO7040",
+    "islast": false
+  },
+  {
+    "desc": "Centro commerciale",
+    "code": "MO1391",
+    "islast": false
+  },
+  {
+    "desc": "Castelfranco teatro",
+    "code": "MO1467",
+    "islast": false
+  },
+  {
+    "desc": "Castelfranco FS",
+    "code": "MO491",
+    "islast": false
+  },
+  {
+    "desc": "Castelfranco teatro",
+    "code": "MO1468",
+    "islast": false
+  },
+  {
+    "desc": "Centro commerciale",
+    "code": "MO1438",
+    "islast": false
+  },
+  {
+    "desc": "Ospedale Castelfranco",
+    "code": "MO634",
+    "islast": false
+  },
+  {
+    "desc": "Madonna degli Angeli",
+    "code": "MO1236",
+    "islast": false
+  },
+  {
+    "desc": "Sant'Anna bv",
+    "code": "MO897",
+    "islast": false
+  },
+  {
+    "desc": "Panzano bv",
+    "code": "MO1238",
+    "islast": false
+  },
+  {
+    "desc": "Bottega Nuova",
+    "code": "MO1240",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Sant'Ambrogio",
+    "code": "MO1234",
+    "islast": false
+  },
+  {
+    "desc": "Emila Est Ford",
+    "code": "MO1232",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est  Amadio",
+    "code": "MO263",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est Fossalta",
+    "code": "MO1230",
+    "islast": false
+  },
+  {
+    "desc": "Emilia est Bompani",
+    "code": "MO6369",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est bv Caduti sul Lavoro",
+    "code": "MO85",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est bv Fusco",
+    "code": "MO712",
+    "islast": false
+  },
+  {
+    "desc": "Direzionale Toscanini",
+    "code": "MO2693",
+    "islast": false
+  },
+  {
+    "desc": "Casa dello Studente",
+    "code": "MO6314",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est Mulino",
+    "code": "MO2671",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Est Modena 118",
+    "code": "MO2660",
+    "islast": false
+  },
+  {
+    "desc": "Piazza Manzoni",
+    "code": "MO40",
+    "islast": false
+  },
+  {
+    "desc": "Amendola bv Tamburini",
+    "code": "MO2811",
+    "islast": false
+  },
+  {
+    "desc": "Amendola",
+    "code": "MO2563",
+    "islast": false
+  },
+  {
+    "desc": "Amendola la Baracchina",
+    "code": "MO168",
+    "islast": false
+  },
+  {
+    "desc": "Amendola bv Nievo",
+    "code": "MO2864",
+    "islast": false
+  },
+  {
+    "desc": "Direzionale 70",
+    "code": "MO2827",
+    "islast": false
+  },
+  {
+    "desc": "Croce Blu",
+    "code": "MO662",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Cattaneo",
+    "code": "MO6704",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Guarini",
+    "code": "MO6721",
+    "islast": false
+  },
+  {
+    "desc": "POLO LEONARDO",
+    "code": "MO217",
+    "islast": true
+  }
+]
