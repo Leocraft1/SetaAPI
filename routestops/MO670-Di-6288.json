@@ -1,0 +1,42 @@
+[
+  {
+    "desc": "Sassuolo Terminal",
+    "code": "MO2237",
+    "islast": false
+  },
+  {
+    "desc": "Prampolini",
+    "code": "MO2273",
+    "islast": false
+  },
+  {
+    "desc": "Risorgimento",
+    "code": "MO3998",
+    "islast": false
+  },
+  {
+    "desc": "Mazzini",
+    "code": "MO2313",
+    "islast": false
+  },
+  {
+    "desc": "Mezzavia",
+    "code": "MO1578",
+    "islast": false
+  },
+  {
+    "desc": "Cerdisa",
+    "code": "MO1576",
+    "islast": false
+  },
+  {
+    "desc": "Fiorano San Francesco",
+    "code": "MO4006",
+    "islast": false
+  },
+  {
+    "desc": "Fiorano Modenese",
+    "code": "MO4010",
+    "islast": true
+  }
+]
