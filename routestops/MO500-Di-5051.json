@@ -1,0 +1,77 @@
+[
+  {
+    "desc": "MODENA AUTOSTAZIONE",
+    "code": "MO344",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest bv Autodromo",
+    "code": "MO13",
+    "islast": false
+  },
+  {
+    "desc": "Nazionale per Carpi",
+    "code": "MO3067",
+    "islast": false
+  },
+  {
+    "desc": "Nazionale per Carpi bv Bembo",
+    "code": "MO6869",
+    "islast": false
+  },
+  {
+    "desc": "San Pancrazio",
+    "code": "MO18",
+    "islast": false
+  },
+  {
+    "desc": "Lesignana",
+    "code": "MO35",
+    "islast": false
+  },
+  {
+    "desc": "Cantina",
+    "code": "MO628",
+    "islast": false
+  },
+  {
+    "desc": "Ganaceto",
+    "code": "MO37",
+    "islast": false
+  },
+  {
+    "desc": "Ganaceto scuole",
+    "code": "MO658",
+    "islast": false
+  },
+  {
+    "desc": "Appalto",
+    "code": "MO714",
+    "islast": false
+  },
+  {
+    "desc": "Soliera Industriale",
+    "code": "MO43",
+    "islast": false
+  },
+  {
+    "desc": "Smalteria",
+    "code": "MO683",
+    "islast": false
+  },
+  {
+    "desc": "Villa di Soliera",
+    "code": "MO685",
+    "islast": false
+  },
+  {
+    "desc": "Arginetto",
+    "code": "MO2387",
+    "islast": false
+  },
+  {
+    "desc": "Soliera",
+    "code": "MO2378",
+    "islast": true
+  }
+]
