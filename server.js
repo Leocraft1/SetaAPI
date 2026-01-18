@@ -1236,6 +1236,10 @@ function fixBusRouteAndNameWimb(response){
             service.model = "Irisbus Ares SFR117";
         }
 
+        if(service.vehicle_code == 698){
+            service.model = "Irisbus Arway";
+        }
+
         if(service.vehicle_code >= 354 && service.vehicle_code <= 691){
             service.model = "Mercedes Integro O550";
         }
