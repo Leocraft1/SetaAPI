@@ -2888,6 +2888,10 @@
     "valore": "MO1730"
   },
   {
+    "fermata": "Boccassuolo",
+    "valore": "MO1731"
+  },
+  {
     "fermata": "Spezzatona",
     "valore": "MO1732"
   },
@@ -3942,6 +3946,18 @@
   {
     "fermata": "Spervara bv",
     "valore": "MO1995"
+  },
+  {
+    "fermata": "Casa Mingucci",
+    "valore": "MO1996"
+  },
+  {
+    "fermata": "Castellano Boccasuolo",
+    "valore": "MO1997"
+  },
+  {
+    "fermata": "Sassorosso bv",
+    "valore": "MO1998"
   },
   {
     "fermata": "Casa Guiglia",
