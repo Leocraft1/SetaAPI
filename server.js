@@ -164,17 +164,37 @@ app.get('/arrivals/:id', async (req, res) => {
                 service.service="3A";
                 service.destination="S.CATERINA-MONTEFIORINO";
             }
+            //3A SCUOLE MARCONI-MONTEFIORINO (Scuola)
+            if(service.service=="3"&&service.codice_corsa.includes("289")){
+                service.service="3A";
+                service.destination="SCUOLE MARCONI-MONTEFIORINO";
+            }
             //3A Vaciglio
             if(service.service=="3"&&service.destination=="VACIGLIO"){
                 service.service="3A";
+            }
+            //3A SCUOLE MARCONI-VACIGLIO (Scuola)
+            if(service.service=="3"&&service.codice_corsa.includes("294")){
+                service.service="3A";
+                service.destination="SCUOLE MARCONI-VACIGLIO";
             }
             //3B Ragazzi del 99 (as 25/26)
             if(service.service=="3"&&service.destination=="RAGAZZI DEL 99"){
                 service.service="3B";
             }
+            //3B SCUOLE MARCONI-RAGAZZI DEL 99 (Scuola)
+            if(service.service=="3"&&service.codice_corsa.includes("296")){
+                service.service="3B";
+                service.destination="SCUOLE MARCONI-RAGAZZI DEL 99";
+            }
             //3B Nonantolana 1010 (as 25/26)
             if(service.service=="3"&&service.destination=="NONANTOLANA 1010"){
                 service.service="3B";
+            }
+            //3B SCUOLE MARCONI-NONANTOLANA 1010 (Scuola)
+            if(service.service=="3"&&service.codice_corsa.includes("287")){
+                service.service="3B";
+                service.destination="SCUOLE MARCONI-NONANTOLANA 1010";
             }
             //3/ Stazione FS (as 25/26)
             if(service.service=="3"&&service.destination=="STAZIONE FS"){
@@ -192,7 +212,6 @@ app.get('/arrivals/:id', async (req, res) => {
                 service.destination1="NONANTOLANA 1010";
                 service.destination2="(NO TORRAZZI)";
             }
-            //3B RAGAZZI DEL 99 (NO MATTARELLA) (Vacanza)
             //4/ Autostazione (as 25/26)
             if(service.service=="4"&&service.destination=="AUTOSTAZIONE"){
                 service.service="4/";
@@ -946,17 +965,37 @@ function fixBusRouteAndNameWimb(response){
             service.linea="3A";
             service.route_desc="S.CATERINA-MONTEFIORINO";
         }
+        //3A SCUOLE MARCONI-MONTEFIORINO (Scuola)
+        if(service.linea=="3"&&service.route_code.includes("289")){
+            service.linea="3A";
+            service.route_desc="SCUOLE MARCONI-MONTEFIORINO";
+        }
         //3A Vaciglio
         if(service.linea=="3"&&service.route_desc=="VACIGLIO"){
             service.linea="3A";
+        }
+        //3A SCUOLE MARCONI-VACIGLIO (Scuola)
+        if(service.linea=="3"&&service.route_code.includes("294")){
+            service.linea="3A";
+            service.route_desc="SCUOLE MARCONI-VACIGLIO";
         }
         //3B Ragazzi del 99 (as 25/26)
         if(service.linea=="3"&&service.route_desc=="RAGAZZI DEL 99"){
             service.linea="3B";
         }
+        //3B SCUOLE MARCONI-RAGAZZI DEL 99 (Scuola)
+        if(service.linea=="3"&&service.route_code.includes("296")){
+            service.linea="3B";
+            service.route_desc="SCUOLE MARCONI-RAGAZZI DEL 99";
+        }
         //3B Nonantolana 1010 (as 25/26)
         if(service.linea=="3"&&service.route_desc=="NONANTOLANA 1010"){
             service.linea="3B";
+        }
+        //3B SCUOLE MARCONI-NONANTOLANA 1010 (Scuola)
+        if(service.linea=="3"&&service.route_code.includes("287")){
+            service.linea="3B";
+            service.route_desc="SCUOLE MARCONI-NONANTOLANA 1010";
         }
         //3/ Stazione FS (as 25/26)
         if(service.linea=="3"&&service.route_desc=="STAZIONE FS"){
