@@ -1,0 +1,42 @@
+[
+  {
+    "desc": "Spilamberto",
+    "code": "MO4500",
+    "islast": false
+  },
+  {
+    "desc": "San Pellegrino",
+    "code": "MO1098",
+    "islast": false
+  },
+  {
+    "desc": "Sitma",
+    "code": "MO2702",
+    "islast": false
+  },
+  {
+    "desc": "Confine",
+    "code": "MO1103",
+    "islast": false
+  },
+  {
+    "desc": "Centro commerciale",
+    "code": "MO3263",
+    "islast": false
+  },
+  {
+    "desc": "Brodano",
+    "code": "MO2409",
+    "islast": false
+  },
+  {
+    "desc": "Vignola tangenziale",
+    "code": "MOTECVI",
+    "islast": false
+  },
+  {
+    "desc": "Vignola Autostazione",
+    "code": "MO4505",
+    "islast": true
+  }
+]
