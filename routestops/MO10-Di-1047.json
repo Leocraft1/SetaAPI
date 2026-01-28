@@ -1,0 +1,37 @@
+[
+  {
+    "desc": "MODENA  AUTOSTAZIONE",
+    "code": "MO6120",
+    "islast": false
+  },
+  {
+    "desc": "Monte Kosica Barozzi",
+    "code": "MO6123",
+    "islast": false
+  },
+  {
+    "desc": "Monte Kosica stadio",
+    "code": "MO6126",
+    "islast": false
+  },
+  {
+    "desc": "Monte Kosica bv Ganaceto",
+    "code": "MO6117",
+    "islast": false
+  },
+  {
+    "desc": "Monte Kosica FS",
+    "code": "MO6118",
+    "islast": false
+  },
+  {
+    "desc": "Attiraglio",
+    "code": "MO27",
+    "islast": false
+  },
+  {
+    "desc": "Sigonio Lancillotto",
+    "code": "MO6237",
+    "islast": true
+  }
+]
