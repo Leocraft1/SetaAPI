@@ -1,0 +1,67 @@
+[
+  {
+    "desc": "MODENA AUTOSTAZIONE",
+    "code": "MO344",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest bv Autodromo",
+    "code": "MO13",
+    "islast": false
+  },
+  {
+    "desc": "Nazionale per Carpi",
+    "code": "MO3067",
+    "islast": false
+  },
+  {
+    "desc": "Nazionale per Carpi bv Bembo",
+    "code": "MO6869",
+    "islast": false
+  },
+  {
+    "desc": "San Pancrazio",
+    "code": "MO18",
+    "islast": false
+  },
+  {
+    "desc": "Cavalcatoia",
+    "code": "MO4928",
+    "islast": false
+  },
+  {
+    "desc": "Quattro Madonne",
+    "code": "MO4932",
+    "islast": false
+  },
+  {
+    "desc": "Europa",
+    "code": "MO4901",
+    "islast": false
+  },
+  {
+    "desc": "Dogana",
+    "code": "MO4930",
+    "islast": false
+  },
+  {
+    "desc": "Campogalliano",
+    "code": "MO4920",
+    "islast": false
+  },
+  {
+    "desc": "San Martino",
+    "code": "MO235",
+    "islast": false
+  },
+  {
+    "desc": "Rubiera bv",
+    "code": "MO4914",
+    "islast": false
+  },
+  {
+    "desc": "Rubiera bv",
+    "code": "MO4917",
+    "islast": true
+  }
+]

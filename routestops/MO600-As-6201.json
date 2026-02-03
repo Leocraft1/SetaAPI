@@ -1,0 +1,102 @@
+[
+  {
+    "desc": "Frassinoro",
+    "code": "MO3631",
+    "islast": false
+  },
+  {
+    "desc": "Tennis bar",
+    "code": "MO1602",
+    "islast": false
+  },
+  {
+    "desc": "Aradonica",
+    "code": "MO3098",
+    "islast": false
+  },
+  {
+    "desc": "Rimessa",
+    "code": "MO3096",
+    "islast": false
+  },
+  {
+    "desc": "Tolara",
+    "code": "MO3094",
+    "islast": false
+  },
+  {
+    "desc": "La Serra",
+    "code": "MO3092",
+    "islast": false
+  },
+  {
+    "desc": "Serradimigni",
+    "code": "MO3090",
+    "islast": false
+  },
+  {
+    "desc": "Lavacchio",
+    "code": "MO2974",
+    "islast": false
+  },
+  {
+    "desc": "Campo Cardero",
+    "code": "MO2972",
+    "islast": false
+  },
+  {
+    "desc": "La Verna",
+    "code": "MO2970",
+    "islast": false
+  },
+  {
+    "desc": "Casa Bocchi",
+    "code": "MO2968",
+    "islast": false
+  },
+  {
+    "desc": "Traghetti",
+    "code": "MO2966",
+    "islast": false
+  },
+  {
+    "desc": "Casa Gigli",
+    "code": "MO2964",
+    "islast": false
+  },
+  {
+    "desc": "Pianellino",
+    "code": "MO2962",
+    "islast": false
+  },
+  {
+    "desc": "Montefiorino",
+    "code": "MO2500",
+    "islast": false
+  },
+  {
+    "desc": "Ca' Bocci",
+    "code": "MO1485",
+    "islast": false
+  },
+  {
+    "desc": "Saletto",
+    "code": "MO1484",
+    "islast": false
+  },
+  {
+    "desc": "Pieve",
+    "code": "MO2860",
+    "islast": false
+  },
+  {
+    "desc": "Albero",
+    "code": "MO2858",
+    "islast": false
+  },
+  {
+    "desc": "Rubbiano",
+    "code": "MO2856",
+    "islast": true
+  }
+]

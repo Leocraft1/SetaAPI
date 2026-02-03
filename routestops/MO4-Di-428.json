@@ -1,0 +1,107 @@
+[
+  {
+    "desc": "GALILEI",
+    "code": "MO6722",
+    "islast": false
+  },
+  {
+    "desc": "Galilei Forum",
+    "code": "MO6728",
+    "islast": false
+  },
+  {
+    "desc": "Galilei bv Cartesio",
+    "code": "MO6727",
+    "islast": false
+  },
+  {
+    "desc": "POLO LEONARDO",
+    "code": "MO6783",
+    "islast": false
+  },
+  {
+    "desc": "POLO LEONARDO 1",
+    "code": "MO2928",
+    "islast": false
+  },
+  {
+    "desc": "Da Vinci bv Newton",
+    "code": "MO6725",
+    "islast": false
+  },
+  {
+    "desc": "Corassori polisportiva",
+    "code": "MO6780",
+    "islast": false
+  },
+  {
+    "desc": "Emilio Po Panini",
+    "code": "MO6818",
+    "islast": false
+  },
+  {
+    "desc": "Emilio Po bv De Gavasseti",
+    "code": "MO6816",
+    "islast": false
+  },
+  {
+    "desc": "De' Gavasseti",
+    "code": "MO6878",
+    "islast": false
+  },
+  {
+    "desc": "Autodromo",
+    "code": "MO6813",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest bv Autodromo",
+    "code": "MO48",
+    "islast": false
+  },
+  {
+    "desc": "Emilia Ovest bv Ruffini",
+    "code": "MO6823",
+    "islast": false
+  },
+  {
+    "desc": "Caserma Pisacane",
+    "code": "MO6821",
+    "islast": false
+  },
+  {
+    "desc": "Palazzo Europa",
+    "code": "MO6819",
+    "islast": false
+  },
+  {
+    "desc": "MODENA  AUTOSTAZIONE",
+    "code": "MO6121",
+    "islast": false
+  },
+  {
+    "desc": "Ospedale Sant'Agostino",
+    "code": "MO6110",
+    "islast": false
+  },
+  {
+    "desc": "Berengario Universita'",
+    "code": "MO6113",
+    "islast": false
+  },
+  {
+    "desc": "Fontanelli",
+    "code": "MO6115",
+    "islast": false
+  },
+  {
+    "desc": "Monte Kosica bv Ganaceto",
+    "code": "MO6117",
+    "islast": false
+  },
+  {
+    "desc": "STAZIONE FS",
+    "code": "MO6134",
+    "islast": true
+  }
+]

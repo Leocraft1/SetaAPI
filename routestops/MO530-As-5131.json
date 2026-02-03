@@ -1,0 +1,77 @@
+[
+  {
+    "desc": "Concordia",
+    "code": "MO1000",
+    "islast": false
+  },
+  {
+    "desc": "Concordia centro",
+    "code": "MO510",
+    "islast": false
+  },
+  {
+    "desc": "Palazzo Taccoli",
+    "code": "MO378",
+    "islast": false
+  },
+  {
+    "desc": "Battaglia",
+    "code": "MO376",
+    "islast": false
+  },
+  {
+    "desc": "Malcantone",
+    "code": "MO374",
+    "islast": false
+  },
+  {
+    "desc": "San Possidonio",
+    "code": "MO3800",
+    "islast": false
+  },
+  {
+    "desc": "Cappelletta",
+    "code": "MO372",
+    "islast": false
+  },
+  {
+    "desc": "Don Sturzo",
+    "code": "MO4599",
+    "islast": false
+  },
+  {
+    "desc": "Ponte di  Pietra",
+    "code": "MO364",
+    "islast": false
+  },
+  {
+    "desc": "Madonna di Disvetro",
+    "code": "MO362",
+    "islast": false
+  },
+  {
+    "desc": "Disvetro",
+    "code": "MO360",
+    "islast": false
+  },
+  {
+    "desc": "Bottega di Mezzo",
+    "code": "MO859",
+    "islast": false
+  },
+  {
+    "desc": "Cavezzo bv",
+    "code": "MO356",
+    "islast": false
+  },
+  {
+    "desc": "Cavezzo Istituto Masi",
+    "code": "MO3832",
+    "islast": false
+  },
+  {
+    "desc": "Cavezzo Autostazione",
+    "code": "MO490",
+    "islast": true
+  }
+]

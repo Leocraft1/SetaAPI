@@ -2888,6 +2888,10 @@
     "valore": "MO1730"
   },
   {
+    "fermata": "Boccassuolo",
+    "valore": "MO1731"
+  },
+  {
     "fermata": "Spezzatona",
     "valore": "MO1732"
   },
@@ -3942,6 +3946,18 @@
   {
     "fermata": "Spervara bv",
     "valore": "MO1995"
+  },
+  {
+    "fermata": "Casa Mingucci",
+    "valore": "MO1996"
+  },
+  {
+    "fermata": "Castellano Boccasuolo",
+    "valore": "MO1997"
+  },
+  {
+    "fermata": "Sassorosso bv",
+    "valore": "MO1998"
   },
   {
     "fermata": "Casa Guiglia",
@@ -6452,6 +6468,10 @@
     "valore": "MO2666"
   },
   {
+    "fermata": "Araldi bv Zanoli",
+    "valore": "MO2667"
+  },
+  {
     "fermata": "Tagliata",
     "valore": "MO2668"
   },
@@ -6570,6 +6590,10 @@
   {
     "fermata": "Caduti sul Lavoro bv Wagner",
     "valore": "MO2699"
+  },
+  {
+    "fermata": "Attiraglio",
+    "valore": "MO27"
   },
   {
     "fermata": "Cortile",
@@ -10960,6 +10984,10 @@
     "valore": "MO3850"
   },
   {
+    "fermata": "Frassinoro scuole",
+    "valore": "MO3851"
+  },
+  {
     "fermata": "Bedagna",
     "valore": "MO386"
   },
@@ -11988,6 +12016,10 @@
     "valore": "MO4915"
   },
   {
+    "fermata": "Casa Beltrami",
+    "valore": "MO4916"
+  },
+  {
     "fermata": "Rubiera bv",
     "valore": "MO4917"
   },
@@ -12818,6 +12850,10 @@
   {
     "fermata": "Cavo Argine bv Uruguay",
     "valore": "MO6234"
+  },
+  {
+    "fermata": "Sigonio Lancillotto",
+    "valore": "MO6237"
   },
   {
     "fermata": "PORTORICO",
@@ -15984,12 +16020,24 @@
     "valore": "MOPV65"
   },
   {
+    "fermata": "Malandrone 1",
+    "valore": "MOPV67"
+  },
+  {
+    "fermata": "Bivio Casa Geminiano",
+    "valore": "MOPV707"
+  },
+  {
     "fermata": "Casa Belloi Boschetti",
     "valore": "MOPV753"
   },
   {
     "fermata": "Via 22 Aprile",
     "valore": "MOPV801"
+  },
+  {
+    "fermata": "22 Aprile bv Manzoni",
+    "valore": "MOPV803"
   },
   {
     "fermata": "V. Matteotti",
@@ -16036,6 +16084,10 @@
     "valore": "MOPV915"
   },
   {
+    "fermata": "Zanello",
+    "valore": "MOPV916"
+  },
+  {
     "fermata": "Garibaldi bv Mazzini",
     "valore": "MOPV917"
   },
@@ -16070,6 +16122,10 @@
   {
     "fermata": "Di Vittorio",
     "valore": "MOPV928"
+  },
+  {
+    "fermata": "Manzoni",
+    "valore": "MOPV929"
   },
   {
     "fermata": "Monti",

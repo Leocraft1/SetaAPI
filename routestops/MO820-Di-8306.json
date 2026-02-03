@@ -1,0 +1,92 @@
+[
+  {
+    "desc": "Banzuola nuova",
+    "code": "MO1183",
+    "islast": false
+  },
+  {
+    "desc": "Casa Ventura",
+    "code": "MO1194",
+    "islast": false
+  },
+  {
+    "desc": "La Macchia",
+    "code": "MO1196",
+    "islast": false
+  },
+  {
+    "desc": "Ricco",
+    "code": "MO1197",
+    "islast": false
+  },
+  {
+    "desc": "Ricco",
+    "code": "MO4794",
+    "islast": false
+  },
+  {
+    "desc": "Osteria Vecchia",
+    "code": "MO1198",
+    "islast": false
+  },
+  {
+    "desc": "Crocetta bv",
+    "code": "MO1284",
+    "islast": false
+  },
+  {
+    "desc": "San Dalmazio",
+    "code": "MO1285",
+    "islast": false
+  },
+  {
+    "desc": "Malandrone",
+    "code": "MO1283",
+    "islast": false
+  },
+  {
+    "desc": "Malandrone 1",
+    "code": "MO3356",
+    "islast": false
+  },
+  {
+    "desc": "Madonna Baldaccini",
+    "code": "MO1292",
+    "islast": false
+  },
+  {
+    "desc": "Chiozza",
+    "code": "MO1301",
+    "islast": false
+  },
+  {
+    "desc": "Sant'Antonio",
+    "code": "MO1376",
+    "islast": false
+  },
+  {
+    "desc": "Il Ronco",
+    "code": "MO1375",
+    "islast": false
+  },
+  {
+    "desc": "Acquabona",
+    "code": "MO1374",
+    "islast": false
+  },
+  {
+    "desc": "Capanne",
+    "code": "MO1373",
+    "islast": false
+  },
+  {
+    "desc": "Le Aie",
+    "code": "MO1372",
+    "islast": false
+  },
+  {
+    "desc": "Pavullo Autostazione",
+    "code": "MO1590",
+    "islast": true
+  }
+]

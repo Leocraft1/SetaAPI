@@ -1,0 +1,117 @@
+[
+  {
+    "desc": "Mirandola Terminal",
+    "code": "MO3973",
+    "islast": false
+  },
+  {
+    "desc": "Barozzi scuole",
+    "code": "MO2202",
+    "islast": false
+  },
+  {
+    "desc": "Mirandola ex scuole",
+    "code": "MO1186",
+    "islast": false
+  },
+  {
+    "desc": "Mirandola Ospedale",
+    "code": "MO2203",
+    "islast": false
+  },
+  {
+    "desc": "Carrozzeria Barbi",
+    "code": "MO2012",
+    "islast": false
+  },
+  {
+    "desc": "Fontana maglificio",
+    "code": "MO1010",
+    "islast": false
+  },
+  {
+    "desc": "San Giacomo Roncole",
+    "code": "MO525",
+    "islast": false
+  },
+  {
+    "desc": "Santa Liberata",
+    "code": "MO548",
+    "islast": false
+  },
+  {
+    "desc": "Cavezzo Centro",
+    "code": "MO6970",
+    "islast": false
+  },
+  {
+    "desc": "Cavezzo Autostazione",
+    "code": "MO490",
+    "islast": false
+  },
+  {
+    "desc": "San Silvestro",
+    "code": "MO352",
+    "islast": false
+  },
+  {
+    "desc": "San Prospero",
+    "code": "MO2209",
+    "islast": false
+  },
+  {
+    "desc": "San Pietro bv",
+    "code": "MO640",
+    "islast": false
+  },
+  {
+    "desc": "Casinone",
+    "code": "MO664",
+    "islast": false
+  },
+  {
+    "desc": "Il Cristo",
+    "code": "MO668",
+    "islast": false
+  },
+  {
+    "desc": "Sorbara",
+    "code": "MO3517",
+    "islast": false
+  },
+  {
+    "desc": "Sorbara",
+    "code": "MO3515",
+    "islast": false
+  },
+  {
+    "desc": "Porcilaia",
+    "code": "MO345",
+    "islast": false
+  },
+  {
+    "desc": "Stazione",
+    "code": "MO788",
+    "islast": false
+  },
+  {
+    "desc": "Villaggio Artigiano",
+    "code": "MO349",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Vecchio",
+    "code": "MO790",
+    "islast": false
+  },
+  {
+    "desc": "Bomporto monumento",
+    "code": "MO770",
+    "islast": false
+  },
+  {
+    "desc": "Bomporto",
+    "code": "MO68",
+    "islast": true
+  }
+]
