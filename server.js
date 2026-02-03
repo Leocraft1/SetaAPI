@@ -138,6 +138,10 @@ app.get('/arrivals/:id', async (req, res) => {
             if(service.service=="1"&&service.destination=="POLO LEONARDO"){
                 service.service="1A";
             }
+            //1 V.ZETA - ARIETE -> ARIETE
+            if(service.service=="1"&&service.destination=="V. ZETA - ARIETE"){
+                service.destination="ARIETE";
+            }
             //1S Autostazione (Scuola)
             if(service.service=="1"&&service.destination=="AUTOSTAZIONE"){
                 service.service="1S";
@@ -950,6 +954,10 @@ function fixBusRouteAndNameWimb(response){
         //1A Polo Leonardo
         if(service.linea=="1"&&service.route_desc=="POLO LEONARDO"){
             service.linea="1A";
+        }
+        //1 V.ZETA - ARIETE -> ARIETE
+        if(service.linea=="1"&&service.route_desc=="V. ZETA - ARIETE"){
+            service.route_desc="ARIETE";
         }
         //1S Autostazione (Scuola)
         if(service.linea=="1"&&service.route_desc=="AUTOSTAZIONE"){
