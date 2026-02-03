@@ -16036,6 +16036,10 @@
     "valore": "MOPV801"
   },
   {
+    "fermata": "22 Aprile bv Manzoni",
+    "valore": "MOPV803"
+  },
+  {
     "fermata": "V. Matteotti",
     "valore": "MOPV901"
   },
@@ -16118,6 +16122,10 @@
   {
     "fermata": "Di Vittorio",
     "valore": "MOPV928"
+  },
+  {
+    "fermata": "Manzoni",
+    "valore": "MOPV929"
   },
   {
     "fermata": "Monti",
