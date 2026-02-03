@@ -138,11 +138,6 @@ app.get('/arrivals/:id', async (req, res) => {
             if(service.service=="1"&&service.destination=="POLO LEONARDO"){
                 service.service="1A";
             }
-            //1B Ariete
-            if(service.service=="1"&&service.destination=="V. ZETA - ARIETE"){
-                service.service="1B";
-                service.destination="ARIETE";
-            }
             //1S Autostazione (Scuola)
             if(service.service=="1"&&service.destination=="AUTOSTAZIONE"){
                 service.service="1S";
@@ -160,12 +155,12 @@ app.get('/arrivals/:id', async (req, res) => {
                 service.service="2/";
             }
             //3A SANTA CATERINA-MONTEFIORINO (as 25/26)
-            if(service.service=="3"&&service.codice_corsa.includes("339")){
+            if(service.service=="3"&&service.codice_corsa.includes("339-")){
                 service.service="3A";
                 service.destination="S.CATERINA-MONTEFIORINO";
             }
             //3A SCUOLE MARCONI-MONTEFIORINO (Scuola)
-            if(service.service=="3"&&service.codice_corsa.includes("289")){
+            if(service.service=="3"&&service.codice_corsa.includes("289-")){
                 service.service="3A";
                 service.destination="SCUOLE MARCONI-MONTEFIORINO";
             }
@@ -174,7 +169,7 @@ app.get('/arrivals/:id', async (req, res) => {
                 service.service="3A";
             }
             //3A SCUOLE MARCONI-VACIGLIO (Scuola)
-            if(service.service=="3"&&service.codice_corsa.includes("294")){
+            if(service.service=="3"&&service.codice_corsa.includes("294-")){
                 service.service="3A";
                 service.destination="SCUOLE MARCONI-VACIGLIO";
             }
@@ -183,7 +178,7 @@ app.get('/arrivals/:id', async (req, res) => {
                 service.service="3B";
             }
             //3B SCUOLE MARCONI-RAGAZZI DEL 99 (Scuola)
-            if(service.service=="3"&&service.codice_corsa.includes("296")){
+            if(service.service=="3"&&service.codice_corsa.includes("296-")){
                 service.service="3B";
                 service.destination="SCUOLE MARCONI-RAGAZZI DEL 99";
             }
@@ -192,7 +187,7 @@ app.get('/arrivals/:id', async (req, res) => {
                 service.service="3B";
             }
             //3B SCUOLE MARCONI-NONANTOLANA 1010 (Scuola)
-            if(service.service=="3"&&service.codice_corsa.includes("287")){
+            if(service.service=="3"&&service.codice_corsa.includes("287-")){
                 service.service="3B";
                 service.destination="SCUOLE MARCONI-NONANTOLANA 1010";
             }
@@ -201,7 +196,7 @@ app.get('/arrivals/:id', async (req, res) => {
                 service.service="3/";
             }
             //3A MONTEFIORINO (Domenica)
-            if(service.service=="3"&&(service.codice_corsa.includes("407")||service.codice_corsa.includes("327"))){
+            if(service.service=="3"&&(service.codice_corsa.includes("407-")||service.codice_corsa.includes("327-"))){
                 service.service="3A";
                 service.destination="MONTEFIORINO";
             }
@@ -237,8 +232,12 @@ app.get('/arrivals/:id', async (req, res) => {
                 service.destination="POLICLINICO GOTTARDI";
             }
             //7A STAZIONE FS -> GOTTARDI
-            if(service.service=="7A"&&service.destination=="STAZIONE FS"&&!service.codice_corsa.includes("728")){
+            if(service.service=="7A"&&service.destination=="STAZIONE FS"&&!service.codice_corsa.includes("728-")){
                 service.destination="GOTTARDI";
+            }
+            //7A/ STAZIONE FS
+            if(service.service=="7A"&&service.destination=="STAZIONE FS"){
+                service.service="7A/";
             }
             //7/ Stazione FS
             if(service.service=="7"&&service.destination=="STAZIONE FS"){
@@ -248,6 +247,15 @@ app.get('/arrivals/:id', async (req, res) => {
             if(service.service=="9"&&service.destination=="MARZAGLIA"){
                 service.service="9A";
                 service.destination="MARZAGLIA NUOVA";
+            }
+            //9B VIRGILIO
+            if(service.service=="9"&&service.destination=="VIRGILIO"){
+                service.service="9B";
+            }
+            //9B BRAGHIROLI-GOTTARDI
+            if(service.service=="9"&&service.codice_corsa.includes("MO9-As-948")){
+                service.service="9B";
+                service.destination="BRAGHIROLI-GOTTARDI";
             }
             //9C Rubiera
             if(service.service=="9"&&service.destination=="RUBIERA"){
@@ -269,6 +277,10 @@ app.get('/arrivals/:id', async (req, res) => {
             if(service.service=="10"&&service.destination=="LICEO SIGONIO"){
                 service.service="10S";
             }
+            //10S POLO LEONARDO
+            if(service.service=="10"&&service.destination=="POLO LEONARDO"){
+                service.service="10S";
+            }
             //10/ AUTOSTAZIONE
             if(service.service=="10"&&service.destination=="AUTOSTAZIONE"){
                 service.service="10/";
@@ -278,7 +290,7 @@ app.get('/arrivals/:id', async (req, res) => {
                 service.service="11/";
             }
             //12A Nazioni ma sono dei coglioni di merda
-            if(service.service=="12"&&(service.codice_corsa.includes("1280")||service.codice_corsa.includes("1284"))&&service.officialService!="5taxi"){
+            if(service.service=="12"&&(service.codice_corsa.includes("1280-")||service.codice_corsa.includes("1284-"))&&service.officialService!="5taxi"){
                 service.service="12A";
                 service.destination="NAZIONI";
             }
@@ -939,11 +951,6 @@ function fixBusRouteAndNameWimb(response){
         if(service.linea=="1"&&service.route_desc=="POLO LEONARDO"){
             service.linea="1A";
         }
-        //1B Ariete
-        if(service.linea=="1"&&service.route_desc=="V. ZETA - ARIETE"){
-            service.linea="1B";
-            service.route_desc="ARIETE";
-        }
         //1S Autostazione (Scuola)
         if(service.linea=="1"&&service.route_desc=="AUTOSTAZIONE"){
             service.linea="1S";
@@ -1054,6 +1061,15 @@ function fixBusRouteAndNameWimb(response){
             service.linea="9A";
             service.route_desc="MARZAGLIA NUOVA";
         }
+        //9B VIRGILIO
+        if(service.linea=="9"&&service.destination=="VIRGILIO"){
+            service.linea="9B";
+        }
+        //9B BRAGHIROLI-GOTTARDI
+        if(service.linea=="9"&&service.route_code.includes("MO9-As-948")){
+            service.linea="9B";
+            service.route_desc="BRAGHIROLI-GOTTARDI";
+        }
         //9C Rubiera
         if(service.linea=="9"&&service.route_desc=="RUBIERA"){
             service.linea="9C";
@@ -1072,6 +1088,10 @@ function fixBusRouteAndNameWimb(response){
         }
         //10S Liceo Sigonio
         if(service.linea=="10"&&service.route_desc=="LICEO SIGONIO"){
+            service.linea="10S";
+        }
+        //10S POLO LEONARDO
+        if(service.linea=="10"&&service.route_desc=="POLO LEONARDO"){
             service.linea="10S";
         }
         //10/ AUTOSTAZIONE
