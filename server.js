@@ -1070,7 +1070,7 @@ function fixBusRouteAndNameWimb(response){
             service.route_desc="MARZAGLIA NUOVA";
         }
         //9B VIRGILIO
-        if(service.linea=="9"&&service.destination=="VIRGILIO"){
+        if(service.linea=="9"&&service.route_desc=="VIRGILIO"){
             service.linea="9B";
         }
         //9B BRAGHIROLI-GOTTARDI
