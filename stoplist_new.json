@@ -8060,6 +8060,10 @@
     "valore": "MO3069"
   },
   {
+    "fermata": "Casa Malverti",
+    "valore": "MO307"
+  },
+  {
     "fermata": "Romanoro",
     "valore": "MO3070"
   },
@@ -8094,6 +8098,10 @@
   {
     "fermata": "Salgari",
     "valore": "MO3078"
+  },
+  {
+    "fermata": "San Martino passo",
+    "valore": "MO308"
   },
   {
     "fermata": "Rovolo",
@@ -12070,6 +12078,10 @@
   {
     "fermata": "Quattro Madonne",
     "valore": "MO4933"
+  },
+  {
+    "fermata": "Casa Beltrami",
+    "valore": "MO4934"
   },
   {
     "fermata": "Centro Sanitario",
