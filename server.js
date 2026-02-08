@@ -252,6 +252,10 @@ app.get('/arrivals/:id', async (req, res) => {
                 service.service="9A";
                 service.destination="MARZAGLIA NUOVA";
             }
+            //9A MARZAGLIA NUOVA
+            if(service.service=="9"&&service.destination=="MARZAGLIA NUOVA"){
+                service.service="9A";
+            }
             //9B VIRGILIO
             if(service.service=="9"&&service.destination=="VIRGILIO"){
                 service.service="9B";
