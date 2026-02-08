@@ -8060,6 +8060,10 @@
     "valore": "MO3069"
   },
   {
+    "fermata": "Casa Malverti",
+    "valore": "MO307"
+  },
+  {
     "fermata": "Romanoro",
     "valore": "MO3070"
   },
@@ -8094,6 +8098,10 @@
   {
     "fermata": "Salgari",
     "valore": "MO3078"
+  },
+  {
+    "fermata": "San Martino passo",
+    "valore": "MO308"
   },
   {
     "fermata": "Rovolo",
@@ -12072,6 +12080,10 @@
     "valore": "MO4933"
   },
   {
+    "fermata": "Casa Beltrami",
+    "valore": "MO4934"
+  },
+  {
     "fermata": "Centro Sanitario",
     "valore": "MO4935"
   },
@@ -12598,6 +12610,10 @@
   {
     "fermata": "Remesina 1",
     "valore": "MO61"
+  },
+  {
+    "fermata": "Casa Malverti",
+    "valore": "MO610"
   },
   {
     "fermata": "Piazza Mazzini",
@@ -16178,6 +16194,10 @@
   {
     "fermata": "GiardinI bv Delle Ville",
     "valore": "MOPV949"
+  },
+  {
+    "fermata": "Dante",
+    "valore": "MOPV951"
   },
   {
     "fermata": "Bar Pineta",
