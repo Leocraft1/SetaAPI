@@ -16044,8 +16044,28 @@
     "valore": "MOPV67"
   },
   {
+    "fermata": "Largo Verona",
+    "valore": "MOPV701"
+  },
+  {
+    "fermata": "Casa Rossa",
+    "valore": "MOPV704"
+  },
+  {
     "fermata": "Bivio Casa Geminiano",
     "valore": "MOPV707"
+  },
+  {
+    "fermata": "Casa Mazzanti",
+    "valore": "MOPV711"
+  },
+  {
+    "fermata": "Forno",
+    "valore": "MOPV714"
+  },
+  {
+    "fermata": "Lo Stallone",
+    "valore": "MOPV716"
   },
   {
     "fermata": "Casa Belloi Boschetti",
