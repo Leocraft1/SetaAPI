@@ -97,7 +97,7 @@ app.get('/arrivals/:id', async (req, res) => {
     try {
         const response = await axios.get(`https://avm.setaweb.it/SETA_WS/services/arrival/${stopId}`);
         //const response = await axios.get(`http://localhost:5002/SETA_WS/services/arrival/${stopId}`);
-        const problems = await axios.get(`http://localhost:5001/routeproblems`);
+        const problems = await axios.get(`http://localhost:`+port+`/routeproblems`);
         const d = new Date();
         //Varianti
         response.data.arrival.services.forEach(service => {
@@ -1564,7 +1564,7 @@ function fixServiceTag(response){
 }
 
 async function getBusList(){
-    const urlList = "http://localhost:5001/busesinservice";
+    const urlList = "http://localhost:"+port+"/busesinservice";
     const data = await axios.get(urlList);
     const item = data.data;
     return item;
