@@ -16052,6 +16052,10 @@
     "valore": "MOPV704"
   },
   {
+    "fermata": "Casa Venturelli",
+    "valore": "MOPV705"
+  },
+  {
     "fermata": "Bivio Casa Geminiano",
     "valore": "MOPV707"
   },
@@ -16070,6 +16074,10 @@
   {
     "fermata": "Lo Stallone",
     "valore": "MOPV716"
+  },
+  {
+    "fermata": "Casa Maestri",
+    "valore": "MOPV751"
   },
   {
     "fermata": "Casa Belloi Boschetti",
