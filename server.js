@@ -211,8 +211,16 @@ app.get('/arrivals/:id', async (req, res) => {
                 service.destination1="NONANTOLANA 1010";
                 service.destination2="(NO TORRAZZI)";
             }
+            //4 POLO LEONARDO-GALILEI
+            if(service.service=="4"&&service.codice_corsa.includes("MO4-As-432")){
+                service.destination="POLO LEONARDO-GALILEI";
+            }
             //4/ Autostazione (as 25/26)
             if(service.service=="4"&&service.destination=="AUTOSTAZIONE"){
+                service.service="4/";
+            }
+            //4/ STAZIONE FS
+            if(service.service=="4"&&service.destination=="STAZIONE FS"){
                 service.service="4/";
             }
             //5 Dalla Chiesa -> La Torre              
@@ -927,6 +935,9 @@ function fixBusRouteAndNameWimb(response){
     const overrideBasePath = 'route_events/override';
     response.data.features.forEach(bus => {
         service = bus.properties;
+        //Official Service
+        service.officialService=service.linea;
+
         //Sant'Anna (Dislessia)
         if(service.route_desc=="SANT  ANNA"){
             service.route_desc="SANT'ANNA";
@@ -1032,8 +1043,16 @@ function fixBusRouteAndNameWimb(response){
             service.destination1="NONANTOLANA 1010";
             service.destination2="(NO TORRAZZI)";
         }
+        //4 POLO LEONARDO-GALILEI
+        if(service.linea=="4"&&service.route_code.includes("MO4-As-432")){
+            service.route_desc="POLO LEONARDO-GALILEI";
+        }
         //4/ Autostazione (as 25/26)
         if(service.linea=="4"&&service.route_desc=="AUTOSTAZIONE"){
+            service.linea="4/";
+        }
+        //4/ STAZIONE FS
+        if(service.linea=="4"&&service.route_desc=="STAZIONE FS"){
             service.linea="4/";
         }
         //5 Dalla Chiesa -> La Torre              
