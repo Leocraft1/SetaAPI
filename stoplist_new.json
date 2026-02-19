@@ -5436,6 +5436,10 @@
     "valore": "MO2380"
   },
   {
+    "fermata": "Bortolucci",
+    "valore": "MO2381"
+  },
+  {
     "fermata": "Casa Schianchi",
     "valore": "MO2382"
   },
@@ -15872,6 +15876,10 @@
     "valore": "MOPV119"
   },
   {
+    "fermata": "Madonna Baldaccini",
+    "valore": "MOPV120"
+  },
+  {
     "fermata": "Chiozza",
     "valore": "MOPV121"
   },
@@ -16052,6 +16060,10 @@
     "valore": "MOPV704"
   },
   {
+    "fermata": "Casa Venturelli",
+    "valore": "MOPV705"
+  },
+  {
     "fermata": "Bivio Casa Geminiano",
     "valore": "MOPV707"
   },
@@ -16070,6 +16082,10 @@
   {
     "fermata": "Lo Stallone",
     "valore": "MOPV716"
+  },
+  {
+    "fermata": "Casa Maestri",
+    "valore": "MOPV751"
   },
   {
     "fermata": "Casa Belloi Boschetti",
