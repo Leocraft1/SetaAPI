@@ -213,7 +213,7 @@ app.get('/arrivals/:id', async (req, res) => {
             }
             //4 POLO LEONARDO-GALILEI
             if(service.service=="4"&&service.codice_corsa.includes("MO4-As-432")){
-                service.destination="POLO LEONARDO-GALILEI";
+                service.destination="P.LEONARDO-GALILEI";
             }
             //4/ Autostazione (as 25/26)
             if(service.service=="4"&&service.destination=="AUTOSTAZIONE"){
