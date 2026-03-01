@@ -425,8 +425,8 @@ app.get('/busesinservice', async (req, res) => {
         //Serve per test
     }else{
         try {
-            //const response = await axios.get(`https://wimb.setaweb.it/publicmapbe/vehicles/map/MO`);
-            const response = await axios.get(`http://localhost:5002/publicmapbe/vehicles/map/MO`);
+            const response = await axios.get(`https://wimb.setaweb.it/publicmapbe/vehicles/map/MO`);
+            //const response = await axios.get(`http://localhost:5002/publicmapbe/vehicles/map/MO`);
             //Varianti
             await fixBusRouteAndNameWimb(response);
             // Sort features by numeric part of linea
