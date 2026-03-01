@@ -425,10 +425,10 @@ app.get('/busesinservice', async (req, res) => {
         //Serve per test
     }else{
         try {
-            const response = await axios.get(`https://wimb.setaweb.it/publicmapbe/vehicles/map/MO`);
             //const response = await axios.get(`https://wimb.setaweb.it/publicmapbe/vehicles/map/MO`);
+            const response = await axios.get(`http://localhost:5002/publicmapbe/vehicles/map/MO`);
             //Varianti
-            fixBusRouteAndNameWimb(response);
+            await fixBusRouteAndNameWimb(response);
             // Sort features by numeric part of linea
             response.data.features.sort((a, b) => {
                 // Extract numeric part from linea (e.g., "13F" -> 13)
@@ -469,7 +469,7 @@ app.get("/vehicleinfo/:id", async (req, res) => {
     try {
         const response = await axios.get(`https://wimb.setaweb.it/publicmapbe/vehicles/map/vehicle/tracking/${id}`);
         //const response = await axios.get(`https://wimb.setaweb.it/publicmapbe/vehicles/map/vehicle/tracking/${id}`);
-        fixBusRouteAndNameWimb(response);
+        await fixBusRouteAndNameWimb(response);
         fixPlate(response);
         fixServiceTag(response);
         await addPostiTotali(response,id);
@@ -930,13 +930,20 @@ async function updateRouteNumbers(){
     return(data);
 }
 
-function fixBusRouteAndNameWimb(response){
+async function fixBusRouteAndNameWimb(response){
     const d = new Date();
     const overrideBasePath = 'route_events/override';
+    const problems = await axios.get(`http://localhost:`+port+`/routeproblems`);
     response.data.features.forEach(bus => {
         service = bus.properties;
         //Official Service
         service.officialService=service.linea;
+        //Aggiungi problemi
+        problems.data.codes.forEach(element =>{
+            if(element.num==service.service){
+                service.hasProblems=element.hasProblems;
+            }
+        })
 
         //Sant'Anna (Dislessia)
         if(service.route_desc=="SANT  ANNA"){
@@ -1348,6 +1355,9 @@ function fixBusRouteAndNameWimb(response){
 
         if(service.vehicle_code >= 4427 && service.vehicle_code <= 4449){
             service.model = "Scania Irizar i4 LNG";
+        }
+        if(service.vehicle_code >= 4469 && service.vehicle_code <= 4474){
+            service.model = "Iveco Crossway LE CNG Facelift";
         }
         if(service.vehicle_code >= 7901 && service.vehicle_code <= 7912){
             service.model = "Solaris Urbino IV Hydrogen";
