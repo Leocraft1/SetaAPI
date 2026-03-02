@@ -1357,7 +1357,7 @@ async function fixBusRouteAndNameWimb(response){
             service.model = "Scania Irizar i4 LNG";
         }
         if(service.vehicle_code >= 4469 && service.vehicle_code <= 4474){
-            service.model = "Iveco Crossway LE CNG Facelift";
+            service.model = "Iveco Crossway LE 12 CNG Facelift";
         }
         if(service.vehicle_code >= 7901 && service.vehicle_code <= 7912){
             service.model = "Solaris Urbino IV Hydrogen";
