@@ -940,7 +940,7 @@ async function fixBusRouteAndNameWimb(response){
         service.officialService=service.linea;
         //Aggiungi problemi
         problems.data.codes.forEach(element =>{
-            if(element.num==service.service){
+            if(element.num==service.linea){
                 service.hasProblems=element.hasProblems;
             }
         })
