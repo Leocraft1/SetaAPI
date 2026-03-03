@@ -1633,13 +1633,16 @@ async function addNextStopCode(response,idMezzo){
     });
 }
 
-//Urbanway e Menarini LNG hanno la pedana
+//Molti bus nuovi hanno la pedana
 function fixPedana(response){
     response.data.features.forEach(element => {
         if(element.properties.model=="Iveco Urbanway Mild Hybrid CNG"){
             element.properties.pedana=1;
         }
         if(element.properties.model=="MenariniBus Citymood LNG"){
+            element.properties.pedana=1;
+        }
+        if(element.properties.model=="Iveco Crossway LE 12 CNG Facelift"){
             element.properties.pedana=1;
         }
     });
