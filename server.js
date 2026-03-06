@@ -1173,6 +1173,10 @@ async function fixBusRouteAndNameWimb(response){
         if(service.linea=="643"&&service.route_desc=="_"){
             service.route_desc="POLO SCOLASTICO SASSUOLO";
         }
+        //Tabella che esce
+        if(service.route_desc=="MONTEBARANZONE"){
+            service.route_desc="MONTEBA-<br>RANZONE";
+        }
         //Varianti vecchie AS 24/25
         /*
         //3A Vaciglio-Mattarella
