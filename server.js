@@ -940,6 +940,7 @@ async function fixBusRouteAndNameWimb(response){
     const d = new Date();
     const overrideBasePath = 'route_events/override';
     const problems = await axios.get(`http://localhost:`+port+`/routeproblems`);
+    /*
     response.data.features.forEach(bus => {
         service = bus.properties;
         //Official Service
@@ -1215,6 +1216,7 @@ async function fixBusRouteAndNameWimb(response){
         */
         //Cambia nomi modello bus (nuovo metodo per numero)
         //Lotti promiscui vengono messi in alto in modo che se c'è qualcosa di sbagliato (c'è) vengono sistemati poi dopo
+        /*
         if(service.vehicle_code >= 300 && service.vehicle_code <= 891){
             service.model = "Irisbus Crossway";
         }
@@ -1543,6 +1545,7 @@ async function fixBusRouteAndNameWimb(response){
             service.model="Irisbus Cityclass CNG ATCM";
         }
         */
+       /*
         if(false){
             service.linea="99";
             service.route_desc="Glory to ATCM";
@@ -1567,6 +1570,10 @@ async function fixBusRouteAndNameWimb(response){
             service.next_stop="Glory to ATCM";
         }
     });
+    */
+    response.data.features.forEach(element =>{
+        element.properties.route_desc="MONTEBARANZONE";
+    })
 }
 
 function fixStopNames(stops){
