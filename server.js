@@ -872,6 +872,12 @@ async function updateStopCodes(){
         if (valore == "MO6783") {
             fermata = "POLO LEONARDO (Strada)";
         }
+        if (valore == "MO2233") {
+            fermata = "Risorgimento (Sassuolo)";
+        }
+        if (valore == "MO3998") {
+            fermata = "Risorgimento (Sassuolo)";
+        }
         if (valore == "L A TORRE") {
             fermata = "LA TORRE";
         }
