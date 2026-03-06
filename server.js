@@ -1177,6 +1177,9 @@ async function fixBusRouteAndNameWimb(response){
         if(service.route_desc=="MONTEBARANZONE"){
             service.route_desc="MONTEBA-<br>RANZONE";
         }
+        if(service.route_desc=="MONTOMBRARO"){
+            service.route_desc="MONTOM-<br>BRARO";
+        }
         //Varianti vecchie AS 24/25
         /*
         //3A Vaciglio-Mattarella
