@@ -334,6 +334,10 @@ app.get('/arrivals/:id', async (req, res) => {
             if(service.service=="13"&&service.codice_corsa.includes("133")){
                 service.service="13F";
             }
+            //394 VIA GIANNONE -> CINEMA ESTIVO
+            if(service.service=="394"&&service.destination=="VIA GIANNONE"){
+                service.destination=="CINEMA ESTIVO";
+            }
             //643 _ -> Polo Scolastico Sassuolo
             if(service.service=="643"&&service.destination=="_"){
                 service.destination="POLO SCOLASTICO SASSUOLO";
@@ -1175,6 +1179,10 @@ async function fixBusRouteAndNameWimb(response){
         if(service.linea=="13"&&service.route_code.includes("133")){
             service.linea="13F";
         }
+        //394 VIA GIANNONE -> CINEMA ESTIVO
+        if(service.linea=="394"&&service.route_desc=="VIA GIANNONE"){
+            service.route_desc=="CINEMA ESTIVO";
+        }
         //643 _ -> Polo Scolastico Sassuolo
         if(service.linea=="643"&&service.route_desc=="_"){
             service.route_desc="POLO SCOLASTICO SASSUOLO";
@@ -1362,7 +1370,7 @@ async function fixBusRouteAndNameWimb(response){
         if(service.vehicle_code >= 4427 && service.vehicle_code <= 4449){
             service.model = "Scania Irizar i4 LNG";
         }
-        if(service.vehicle_code >= 4469 && service.vehicle_code <= 4474){
+        if(service.vehicle_code >= 4469 && service.vehicle_code <= 4475){
             service.model = "Iveco Crossway LE 12 CNG Facelift";
         }
         if(service.vehicle_code >= 7901 && service.vehicle_code <= 7912){
