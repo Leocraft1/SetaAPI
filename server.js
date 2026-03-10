@@ -336,7 +336,7 @@ app.get('/arrivals/:id', async (req, res) => {
             }
             //394 VIA GIANNONE -> CINEMA ESTIVO
             if(service.service=="394"&&service.destination=="VIA GIANNONE"){
-                service.destination=="CINEMA ESTIVO";
+                service.destination="CINEMA ESTIVO";
             }
             //643 _ -> Polo Scolastico Sassuolo
             if(service.service=="643"&&service.destination=="_"){
@@ -1181,7 +1181,7 @@ async function fixBusRouteAndNameWimb(response){
         }
         //394 VIA GIANNONE -> CINEMA ESTIVO
         if(service.linea=="394"&&service.route_desc=="VIA GIANNONE"){
-            service.route_desc=="CINEMA ESTIVO";
+            service.route_desc="CINEMA ESTIVO";
         }
         //643 _ -> Polo Scolastico Sassuolo
         if(service.linea=="643"&&service.route_desc=="_"){
