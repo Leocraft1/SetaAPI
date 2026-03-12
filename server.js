@@ -289,6 +289,11 @@ app.get('/arrivals/:id', async (req, res) => {
             if(service.service=="10"&&service.destination=="LA ROCCA"){
                 service.service="10A";
             }
+            //10B MARZAGLIA NUOVA
+            if(service.service=="10"&&service.destination=="MARZAGLIA NUOVA"){
+                service.service="10B";
+                service.destination="COGNENTO-MARZAGLIA NUOVA";
+            }
             //10S Liceo Sigonio
             if(service.service=="10"&&service.destination=="LICEO SIGONIO"){
                 service.service="10S";
@@ -1133,6 +1138,11 @@ async function fixBusRouteAndNameWimb(response){
         //10A La Rocca
         if(service.linea=="10"&&service.route_desc=="LA ROCCA"){
             service.linea="10A";
+        }
+        //10B MARZAGLIA NUOVA
+        if(service.linea=="10"&&service.route_desc=="MARZAGLIA NUOVA"){
+            service.linea="10B";
+            service.route_desc="COGNENTO-MARZAGLIA NUOVA";
         }
         //10S Liceo Sigonio
         if(service.linea=="10"&&service.route_desc=="LICEO SIGONIO"){
