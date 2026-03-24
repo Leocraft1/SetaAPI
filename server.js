@@ -547,6 +547,8 @@ app.get('/allnews', async (req, res) => {
                             return "Lavori in corso";
                         }if(x.includes("controllore.png")){
                             return "Personale";
+                        }if(x.includes("salvadanaio.png")){
+                            return "Agevolazioni";
                         }
                     }
                 }
