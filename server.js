@@ -597,10 +597,6 @@ app.get('/routeproblems', async (req, res) => {
             }
         }
     })
-    //Va bene dani
-    data.codes[data.codes.length-1].num="Dani";
-    data.codes[data.codes.length-1].hasProblems=true;
-    data.codes[data.codes.length-1].shitCode="2F";
     res.json(data)
 });
 
