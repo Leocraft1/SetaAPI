@@ -485,6 +485,7 @@ app.get("/vehicleinfo/:id", async (req, res) => {
         fixPedana(response);
         await addNextStop(response,id);
         await addNextStopCode(response,id);
+        await addDutyId(response,id);
         res.json(response.data);
     } catch (error) {
         console.error(error);
@@ -1519,6 +1520,18 @@ async function addNextStopCode(response,idMezzo){
         if(element.properties.vehicle_code==idMezzo){
             response.data.features.forEach(bus =>{
                 bus.properties.waypoint_code=element.properties.waypoint_code;
+            });
+        }
+    });
+}
+
+//Cerca e aggiunge waypoint_code alle info veicolo
+async function addNextStopCode(response,idMezzo){
+    var item=await getBusList();
+    item.features.forEach(element =>{
+        if(element.properties.vehicle_code==idMezzo){
+            response.data.features.forEach(bus =>{
+                bus.properties.duty_id=element.properties.duty_id;
             });
         }
     });
