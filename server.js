@@ -1526,7 +1526,7 @@ async function addNextStopCode(response,idMezzo){
 }
 
 //Cerca e aggiunge waypoint_code alle info veicolo
-async function addNextStopCode(response,idMezzo){
+async function addDutyId(response,idMezzo){
     var item=await getBusList();
     item.features.forEach(element =>{
         if(element.properties.vehicle_code==idMezzo){
