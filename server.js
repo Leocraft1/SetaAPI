@@ -886,6 +886,9 @@ async function updateStopCodes(){
         if (valore == "MO3998") {
             fermata = "Risorgimento (Sassuolo)";
         }
+        if (valore == "MO6113") {
+            fermata = "Berengario Universita";
+        }
         if (valore == "L A TORRE") {
             fermata = "LA TORRE";
         }
@@ -1280,6 +1283,10 @@ async function fixBusRouteAndNameWimb(response){
             service.model = "Iveco Urbanway Mild Hybrid CNG";
         }
 
+        if(service.vehicle_code >= 4800 && service.vehicle_code <= 4802){
+            service.model = "Iveco Urbanway MH CNG Facelift";
+        }
+
         if(service.vehicle_code >= 7901 && service.vehicle_code <= 7912){
             service.model = "Solaris Urbino 12 IV Hydrogen";
         }
@@ -1421,29 +1428,6 @@ async function fixBusRouteAndNameWimb(response){
         }
         if(service.vehicle_code==952){
             service.model="Iveco Daily carr. Gerbus";
-        }
-        if(false){
-            service.linea="99";
-            service.route_desc="Glory to ATCM";
-            service.model="Glory to ATCM";
-            //service.vehicle_code="Glory to ATCM";
-            service.service_tag="Glory to ATCM";
-            service.plate_num="Glory to ATCM";
-            service.num_passeggeri="Glory to ATCM";
-            service.waypoint_code="Glory to ATCM";
-            service.posti_totali="Glory to ATCM";
-            service.journey_code="Glory to ATCM";
-            service.delay="Glory to ATCM";
-            service.occupancy_lstupd="Glory to ATCM";
-            service.wp_desc="Glory to ATCM";
-            service.service_code="Glory to ATCM";
-            service.route_code="Glory to ATCM";
-            service.reached_waypoint_code="Glory to ATCM";
-            service.next_stop="Glory to ATCM";
-            service.next_stop="Glory to ATCM";
-            service.next_stop="Glory to ATCM";
-            service.next_stop="Glory to ATCM";
-            service.next_stop="Glory to ATCM";
         }
     });
 }
