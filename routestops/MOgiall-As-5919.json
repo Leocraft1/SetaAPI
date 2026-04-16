@@ -1,0 +1,117 @@
+[
+  {
+    "desc": "Venturelli",
+    "code": "MO7012",
+    "islast": false
+  },
+  {
+    "desc": "Po",
+    "code": "MO7014",
+    "islast": false
+  },
+  {
+    "desc": "Cavalcaferrovia",
+    "code": "MO249",
+    "islast": false
+  },
+  {
+    "desc": "Sigonio",
+    "code": "MO3009",
+    "islast": false
+  },
+  {
+    "desc": "Carabinieri",
+    "code": "MO3011",
+    "islast": false
+  },
+  {
+    "desc": "Moro 1",
+    "code": "MO3027",
+    "islast": false
+  },
+  {
+    "desc": "Moro 2",
+    "code": "MO3221",
+    "islast": false
+  },
+  {
+    "desc": "De Rosa",
+    "code": "MO3028",
+    "islast": false
+  },
+  {
+    "desc": "Alghisi 1",
+    "code": "MO8539",
+    "islast": false
+  },
+  {
+    "desc": "Alghisi 2",
+    "code": "MO8538",
+    "islast": false
+  },
+  {
+    "desc": "Stazione FS",
+    "code": "MO506",
+    "islast": false
+  },
+  {
+    "desc": "Ariosto",
+    "code": "MO8328",
+    "islast": false
+  },
+  {
+    "desc": "Fontana",
+    "code": "MO7029",
+    "islast": false
+  },
+  {
+    "desc": "Parco",
+    "code": "MO8322",
+    "islast": false
+  },
+  {
+    "desc": "3 Febbraio",
+    "code": "MO58",
+    "islast": false
+  },
+  {
+    "desc": "Peruzzi 1",
+    "code": "MO8536",
+    "islast": false
+  },
+  {
+    "desc": "PERUZZI AUTOSTAZIONE",
+    "code": "MO2681",
+    "islast": false
+  },
+  {
+    "desc": "Peruzzi 2",
+    "code": "MO8535",
+    "islast": false
+  },
+  {
+    "desc": "Peruzzi 3",
+    "code": "MO8330",
+    "islast": false
+  },
+  {
+    "desc": "Rezdore",
+    "code": "MO3418",
+    "islast": false
+  },
+  {
+    "desc": "Magliaie",
+    "code": "MO3417",
+    "islast": false
+  },
+  {
+    "desc": "Zappiano",
+    "code": "MO3416",
+    "islast": false
+  },
+  {
+    "desc": "Mondine",
+    "code": "MO3411",
+    "islast": true
+  }
+]
