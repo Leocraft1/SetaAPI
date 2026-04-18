@@ -1,0 +1,132 @@
+[
+  {
+    "desc": "PERUZZI AUTOSTAZIONE",
+    "code": "MO2547",
+    "islast": false
+  },
+  {
+    "desc": "Peruzzi 1",
+    "code": "MO3375",
+    "islast": false
+  },
+  {
+    "desc": "3 Febbraio",
+    "code": "MO174",
+    "islast": false
+  },
+  {
+    "desc": "Parco",
+    "code": "MO1677",
+    "islast": false
+  },
+  {
+    "desc": "Fanti 2",
+    "code": "MO8519",
+    "islast": false
+  },
+  {
+    "desc": "Fanti 1",
+    "code": "MO8520",
+    "islast": false
+  },
+  {
+    "desc": "Cabassi",
+    "code": "MO3459",
+    "islast": false
+  },
+  {
+    "desc": "Stazione FS",
+    "code": "MO8537",
+    "islast": false
+  },
+  {
+    "desc": "Alghisi 2",
+    "code": "MO3379",
+    "islast": false
+  },
+  {
+    "desc": "Alghisi 1",
+    "code": "MO3381",
+    "islast": false
+  },
+  {
+    "desc": "De Rosa",
+    "code": "MO3001",
+    "islast": false
+  },
+  {
+    "desc": "Moro 2",
+    "code": "MO3219",
+    "islast": false
+  },
+  {
+    "desc": "Moro 1",
+    "code": "MO3032",
+    "islast": false
+  },
+  {
+    "desc": "Carabinieri",
+    "code": "MO3033",
+    "islast": false
+  },
+  {
+    "desc": "Sigonio",
+    "code": "MO8544",
+    "islast": false
+  },
+  {
+    "desc": "Cavalcaferrovia",
+    "code": "MO498",
+    "islast": false
+  },
+  {
+    "desc": "Arno",
+    "code": "MO7022",
+    "islast": false
+  },
+  {
+    "desc": "Fedro",
+    "code": "MO7007",
+    "islast": false
+  },
+  {
+    "desc": "Mecenate",
+    "code": "MO7013",
+    "islast": false
+  },
+  {
+    "desc": "G.Cesare 1",
+    "code": "MO7008",
+    "islast": false
+  },
+  {
+    "desc": "Due Ponti",
+    "code": "MO7010",
+    "islast": false
+  },
+  {
+    "desc": "Catullo",
+    "code": "MO7025",
+    "islast": false
+  },
+  {
+    "desc": "G.Cesare 2",
+    "code": "MO8543",
+    "islast": false
+  },
+  {
+    "desc": "Lucrezio 1",
+    "code": "MO8542",
+    "islast": false
+  },
+  {
+    "desc": "Lucrezio 2",
+    "code": "MO8541",
+    "islast": false
+  },
+  {
+    "desc": "Venturelli",
+    "code": "MO7012",
+    "islast": true
+  }
+]
