@@ -642,6 +642,41 @@ app.get('/shitcodes', async (req, res) => {
     res.json(await getCodiciDiMerda());
 });
 
+//Mappa percorso
+app.get('/routemap/:code', async (req, res) => {
+    const code = req.params.code;
+    function fixRelativeUrls(html, baseUrl) {
+        return html.replace(/(href|src|action)="([^"]+)"/g, (match, attr, path) => {
+            if (path.startsWith('http') || path.startsWith('//') || path.startsWith('data:')) {
+                return match;
+            }
+            const absolute = new URL(path, baseUrl).href;
+            return `${attr}="${absolute}"`;
+        });
+    }
+    function hideTopBar(html){
+        return html.replace('class="lineedyn_mappa_intestazione" style="display: table-row; height: min-content;"','class="lineedyn_mappa_intestazione" style="display: none; height: min-content;"')
+    }
+    const y = new Date().getFullYear();
+    const m = new Date().getMonth()+1;
+    const d = new Date().getDate();
+    const todayDate = y+"-"+m+"-"+d;
+
+    const response = await axios.post("https://www.setaweb.it/percorsoAutista/percorso_mappa.php", {
+        data: todayDate,
+        percorso: code
+    },{
+        headers: {
+            'Content-Type': 'application/x-www-form-urlencoded'
+        }
+    });
+
+    //Assegnare le librerie di setaweb anzichè percorsi locali
+    const fixed = hideTopBar(fixRelativeUrls(response.data, "https://www.setaweb.it/percorsoAutista/"));
+
+    res.end(fixed);
+});
+
 async function updateRoutesStops(){
     const routeCodes = await updateRouteCodes();
     const routeId=routeCodes[i].codes[j];
