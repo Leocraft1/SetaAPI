@@ -643,7 +643,8 @@ app.get('/shitcodes', async (req, res) => {
 });
 
 //Mappa percorso
-app.get('/routemap', async (req, res) => {
+app.get('/routemap/:code', async (req, res) => {
+    const code = req.params.code;
     function fixRelativeUrls(html, baseUrl) {
         return html.replace(/(href|src|action)="([^"]+)"/g, (match, attr, path) => {
             if (path.startsWith('http') || path.startsWith('//') || path.startsWith('data:')) {
@@ -663,7 +664,7 @@ app.get('/routemap', async (req, res) => {
 
     const response = await axios.post("https://www.setaweb.it/percorsoAutista/percorso_mappa.php", {
         data: todayDate,
-        percorso: "705"
+        percorso: code
     },{
         headers: {
             'Content-Type': 'application/x-www-form-urlencoded'
