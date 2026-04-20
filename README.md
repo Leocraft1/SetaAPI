@@ -16,6 +16,8 @@ It operates at :
 - /routeproblems to fetch route problems.
 - /routeproblems/:id where id is the num of the route you want to know the news of.
 - /shitcodes to get the damn horrible hidden codes seta uses to identify routes in his website.
+- /routemap/:id where id is the id of the route (only the last part) you want the map of.
+- /aepnums to get the bus numbers where it is installed the new AEP AVM
 
 # Setup
 To run it you will need Node.js (at least v22.17.1 LTS).
