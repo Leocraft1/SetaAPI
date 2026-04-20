@@ -677,6 +677,13 @@ app.get('/routemap/:code', async (req, res) => {
     res.end(fixed);
 });
 
+//AEP x controllori
+app.get('/aepnums', async (req, res) => {
+    const data = JSON.parse(fs.readFileSync('./aep.json', 'utf8'));
+
+    res.json(data);
+});
+
 async function updateRoutesStops(){
     const routeCodes = await updateRouteCodes();
     const routeId=routeCodes[i].codes[j];
