@@ -483,8 +483,8 @@ app.get("/vehicleinfo/:id", async (req, res) => {
     const id = req.params.id;
     try {
         const response = await axios.get(`https://wimb.setaweb.it/publicmapbe/vehicles/map/vehicle/tracking/${id}`);
-        //const response = await axios.get(`https://wimb.setaweb.it/publicmapbe/vehicles/map/vehicle/tracking/${id}`);
-        await fixBusRouteAndNameWimb(response);
+        const aep = await axios.get(`http://localhost:`+port+`/aepnums`);
+        await fixBusRouteAndNameWimb(response, aep);
         fixPlate(response);
         fixServiceTag(response);
         await addPostiTotali(response,id);
