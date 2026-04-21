@@ -98,6 +98,7 @@ app.get('/arrivals/:id', async (req, res) => {
         const response = await axios.get(`https://avm.setaweb.it/SETA_WS/services/arrival/${stopId}`);
         //const response = await axios.get(`http://localhost:5002/SETA_WS/services/arrival/${stopId}`);
         const problems = await axios.get(`http://localhost:`+port+`/routeproblems`);
+        const aep = await axios.get(`http://localhost:`+port+`/aepnums`);
         const d = new Date();
         //Varianti
         response.data.arrival.services.forEach(service => {
@@ -294,13 +295,13 @@ app.get('/arrivals/:id', async (req, res) => {
                 service.service="10B";
                 service.destination="COGNENTO-MARZAGLIA NUOVA";
             }
-            //10S Liceo Sigonio
+            //10/ Liceo Sigonio
             if(service.service=="10"&&service.destination=="LICEO SIGONIO"){
-                service.service="10S";
+                service.service="10/";
             }
-            //10S POLO LEONARDO
+            //10/ POLO LEONARDO
             if(service.service=="10"&&service.destination=="POLO LEONARDO"){
-                service.service="10S";
+                service.service="10/";
             }
             //10/ AUTOSTAZIONE
             if(service.service=="10"&&service.destination=="AUTOSTAZIONE"){
@@ -374,6 +375,11 @@ app.get('/arrivals/:id', async (req, res) => {
                 service.destination="MONTEFIORINO-PORTORICO";
             }
             */
+
+            //Add AEP specification
+            if(aep.data.includes(service.busnum)){
+                service.hasAEP=true;
+            }
         });
         // Step 1: Mappa i servizi per codice_corsa divisi per tipo
         const plannedMap = new Map();
@@ -435,9 +441,9 @@ app.get('/busesinservice', async (req, res) => {
     }else{
         try {
             const response = await axios.get(`https://wimb.setaweb.it/publicmapbe/vehicles/map/MO`);
-            //const response = await axios.get(`http://localhost:5002/publicmapbe/vehicles/map/MO`);
+            const aep = await axios.get(`http://localhost:`+port+`/aepnums`);
             //Varianti
-            await fixBusRouteAndNameWimb(response);
+            await fixBusRouteAndNameWimb(response, aep);
             // Sort features by numeric part of linea
             response.data.features.sort((a, b) => {
                 // Extract numeric part from linea (e.g., "13F" -> 13)
@@ -989,7 +995,7 @@ async function updateRouteNumbers(){
     return(data);
 }
 
-async function fixBusRouteAndNameWimb(response){
+async function fixBusRouteAndNameWimb(response, aep){
     const d = new Date();
     const overrideBasePath = 'route_events/override';
     const problems = await axios.get(`http://localhost:`+port+`/routeproblems`);
@@ -1188,13 +1194,13 @@ async function fixBusRouteAndNameWimb(response){
             service.linea="10B";
             service.route_desc="COGNENTO-MARZAGLIA NUOVA";
         }
-        //10S Liceo Sigonio
+        //10/ Liceo Sigonio
         if(service.linea=="10"&&service.route_desc=="LICEO SIGONIO"){
-            service.linea="10S";
+            service.linea="10/";
         }
-        //10S POLO LEONARDO
+        //10/ POLO LEONARDO
         if(service.linea=="10"&&service.route_desc=="POLO LEONARDO"){
-            service.linea="10S";
+            service.linea="10/";
         }
         //10/ AUTOSTAZIONE
         if(service.linea=="10"&&service.route_desc=="AUTOSTAZIONE"){
@@ -1470,6 +1476,12 @@ async function fixBusRouteAndNameWimb(response){
         }
         if(service.vehicle_code==952){
             service.model="Iveco Daily carr. Gerbus";
+        }
+
+        
+        //Add AEP specification
+        if(aep.data.includes(service.vehicle_code)){
+            service.hasAEP=true;
         }
     });
 }
