@@ -205,13 +205,6 @@ app.get('/arrivals/:id', async (req, res) => {
                 service.service="3A";
                 service.destination="MONTEFIORINO";
             }
-            //3B NONANTOLANA 1010 NO TORRAZZI (Domenica)
-            if(service.service=="3B"&&service.destination=="NONANTOLANA 1010"&&(d.getDay()==0||fs.existsSync(overrideBasePath+"3btorr.txt"))){
-                service.destination="NONANTOLANA 1010 (NO TORRAZZI)";
-                service.br=true;
-                service.destination1="NONANTOLANA 1010";
-                service.destination2="(NO TORRAZZI)";
-            }
             //4 POLO LEONARDO-GALILEI
             if(service.service=="4"&&service.codice_corsa.includes("MO4-As-432")){
                 service.destination="POLO LEON.-GALILEI";
@@ -1108,13 +1101,6 @@ async function fixBusRouteAndNameWimb(response, aep){
             service.linea="3A";
             service.route_desc="MONTEFIORINO";
         }
-        //3B NONANTOLANA 1010 (NO TORRAZZI) (Domenica)
-        if(service.linea=="3B"&&service.route_desc=="NONANTOLANA 1010"&&(d.getDay()==0||fs.existsSync(overrideBasePath+"3btorr.txt"))){
-            service.route_desc="NONANTOLANA 1010 (NO TORRAZZI)";
-            service.br=true;
-            service.destination1="NONANTOLANA 1010";
-            service.destination2="(NO TORRAZZI)";
-        }
         //4 POLO LEONARDO-GALILEI
         if(service.linea=="4"&&service.route_code.includes("MO4-As-432")){
             service.route_desc="POLO LEON.-GALILEI";
@@ -1163,6 +1149,10 @@ async function fixBusRouteAndNameWimb(response, aep){
         if(service.linea=="9"&&service.route_desc=="MARZAGLIA"){
             service.linea="9A";
             service.route_desc="MARZAGLIA NUOVA";
+        }
+        //9A MARZAGLIA NUOVA (Scemenze whatever)
+        if(service.linea=="9"&&service.route_desc=="MARZAGLIA NUOVA"){
+            service.linea="9A";
         }
         //9B VIRGILIO
         if(service.linea=="9"&&service.route_desc=="VIRGILIO"){
