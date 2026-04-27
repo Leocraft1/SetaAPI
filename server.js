@@ -673,7 +673,28 @@ app.get('/routemap/:code', async (req, res) => {
     //Assegnare le librerie di setaweb anzichè percorsi locali
     const fixed = hideTopBar(fixRelativeUrls(response.data, "https://www.setaweb.it/percorsoAutista/"));
 
-    res.end(fixed);
+    // Fix CORS
+    const finalHtml = fixed.replace(
+        `<script src="https://www.setaweb.it/js/leafletCustomConfig.js"></script>`,
+        `<script>
+        //Stile grafico
+// https://leaflet-extras.github.io/leaflet-providers/preview/
+//Necessita licenza
+// var Stadia_OSMBright = L.tileLayer('https://tiles.stadiamaps.com/tiles/osm_bright/{z}/{x}/{y}{r}.png', {
+//     minZoom: 12,
+//     attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
+// });
+
+
+var Stadia_OSMBright = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    minZoom: 11,
+    attribution: '© OpenStreetMap',
+    referrerPolicy : 'strict-origin-when-cross-origin'
+});
+        </script>
+        `
+    );
+    res.end(finalHtml);
 });
 
 //AEP x controllori
