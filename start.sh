@@ -2,7 +2,6 @@ cd /root/seta
 
 # Rest of script from old node
 # Pull and sync from SetaAPI repository
-cd /DATA/AppData/Seta-APIs
 git stage *
 echo Staged
 git restore server.js
