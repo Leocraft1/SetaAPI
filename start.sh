@@ -17,6 +17,4 @@ git pull
 echo Pulled
 npm install
 
-
-npm install
 node server.js
