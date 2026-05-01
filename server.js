@@ -1613,4 +1613,3 @@ async function getCodiciDiMerda(){
 app.listen(port, () => {
     console.log(`API attiva su http://localhost:${port}`);
 });
-;
