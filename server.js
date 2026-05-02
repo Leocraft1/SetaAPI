@@ -758,7 +758,7 @@ async function updateRouteStops(routeId) {
         return(data);
     }catch(error){
         if (!fs.existsSync(filePath)) {
-            console.log(error);
+            console.error(error);
             return({"error" : "Percorso non trovato"});
         }else{
             const data = JSON.parse(`{
@@ -835,7 +835,6 @@ async function updateRouteCodes() {
 }
 
 async function updateStopCodes(){
-    //console.log("["+new Date()+"] Updating stop codes.");
     // 1. Fetch routes from the given URL
     const response = await axios.get(stopCodesUrl);
     const remoteStops = response.data.features;
@@ -960,12 +959,10 @@ async function updateStopCodes(){
     }
 
     const data = JSON.parse(fs.readFileSync('./stoplist_new.json', 'utf8'));
-    //console.log("["+new Date()+"] Stop codes updated.");
     return(data);
 }
 
 async function updateRouteNumbers(){
-    //console.log("["+new Date()+"] Updating route numbers.");
     // 1. Fetch routes from the given URL
     const response = await axios.get(routeNumbersUrl);
     const remoteRoutes = response.data.routesdata;
@@ -996,7 +993,6 @@ async function updateRouteNumbers(){
     }
 
     const data = JSON.parse(fs.readFileSync('./routelist.json', 'utf8'));
-    console.log("["+new Date()+"] Route numbers updated.");
     return(data);
 }
 
