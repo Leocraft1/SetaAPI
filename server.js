@@ -477,7 +477,7 @@ app.get("/vehicleinfo/:id", async (req, res) => {
     try {
         const response = await axios.get(`https://wimb.setaweb.it/publicmapbe/vehicles/map/vehicle/tracking/${id}`);
         const aep = await axios.get(`http://localhost:`+port+`/aepnums`);
-        await fixBusRouteAndNameWimb(response, aep);
+        //await fixBusRouteAndNameWimb(response, aep);
         fixPlate(response);
         fixServiceTag(response);
         await addPostiTotali(response,id);
@@ -485,6 +485,7 @@ app.get("/vehicleinfo/:id", async (req, res) => {
         await addNextStop(response,id);
         await addNextStopCode(response,id);
         await addDutyId(response,id);
+        await fixBusRouteAndNameWimb(response, aep);
         res.json(response.data);
     } catch (error) {
         console.error(error);
@@ -1004,6 +1005,7 @@ async function fixBusRouteAndNameWimb(response, aep){
         service = bus.properties;
         //Official Service
         service.officialService=service.linea;
+
         //Aggiungi problemi
         problems.data.codes.forEach(element =>{
             if(element.num==service.linea){
@@ -1034,6 +1036,10 @@ async function fixBusRouteAndNameWimb(response, aep){
         //Ragazzi Del 99 (Dislessia)
         if(service.route_desc=="RAGAZZI DEL   99"){
             service.route_desc="RAGAZZI DEL 99";
+        }
+        //Autostazione (Dislessia)
+        if(service.next_stop=="MODENA  AUTOSTAZIONE"){
+            service.next_stop="MODENA AUTOSTAZIONE";
         }
         //1A Modena Est
         if(service.linea=="1"&&service.route_desc=="MODENA EST"){
