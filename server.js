@@ -1102,7 +1102,7 @@ async function fixBusRouteAndNameWimb(response, aep){
             service.linea="3B";
         }
         //3B SCUOLE MARCONI-NONANTOLANA 1010 (Scuola)
-        if(service.linea=="3"&&service.route_code.includes("287")){
+        if(service.linea=="3"&&service.route_code.includes("401")){
             service.linea="3B";
             service.route_desc="SCUOLE MARCONI-NONANTOLANA 1010";
         }
