@@ -174,8 +174,7 @@ app.get('/arrivals/:id', async (req, res) => {
                 service.service="3A";
             }
             //3A SCUOLE MARCONI-VACIGLIO (Scuola)
-            if(service.service=="3"&&service.codice_corsa.includes("294-")){
-                service.service="3A";
+            if(service.service=="3A"&&service.codice_corsa.includes("294-")){
                 service.destination="SCUOLE MARCONI-VACIGLIO";
             }
             //3B Ragazzi del 99 (as 25/26)
@@ -1082,8 +1081,7 @@ async function fixBusRouteAndNameWimb(response, aep){
             service.linea="3A";
         }
         //3A SCUOLE MARCONI-VACIGLIO (Scuola)
-        if(service.linea=="3"&&service.route_code.includes("294")){
-            service.linea="3A";
+        if(service.linea=="3A"&&service.route_code.includes("294")){
             service.route_desc="SCUOLE MARCONI-VACIGLIO";
         }
         //3B Ragazzi del 99 (as 25/26)
