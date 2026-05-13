@@ -183,8 +183,7 @@ app.get('/arrivals/:id', async (req, res) => {
                 service.service="3B";
             }
             //3B SCUOLE MARCONI-RAGAZZI DEL 99 (Scuola)
-            if(service.service=="3"&&service.codice_corsa.includes("296-")){
-                service.service="3B";
+            if(service.service=="3B"&&service.codice_corsa.includes("296-")){
                 service.destination="SCUOLE MARCONI-RAGAZZI DEL 99";
             }
             //3B Nonantolana 1010 (as 25/26)
@@ -1092,8 +1091,7 @@ async function fixBusRouteAndNameWimb(response, aep){
             service.linea="3B";
         }
         //3B SCUOLE MARCONI-RAGAZZI DEL 99 (Scuola)
-        if(service.linea=="3"&&service.route_code.includes("296")){
-            service.linea="3B";
+        if(service.linea=="3B"&&service.route_code.includes("296")){
             service.route_desc="SCUOLE MARCONI-RAGAZZI DEL 99";
         }
         //3B Nonantolana 1010 (as 25/26)
