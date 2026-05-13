@@ -192,8 +192,7 @@ app.get('/arrivals/:id', async (req, res) => {
                 service.service="3B";
             }
             //3B SCUOLE MARCONI-NONANTOLANA 1010 (Scuola)
-            if(service.service=="3"&&service.codice_corsa.includes("287-")){
-                service.service="3B";
+            if(service.service=="3B"&&service.codice_corsa.includes("287-")){
                 service.destination="SCUOLE MARCONI-NONANTOLANA 1010";
             }
             //3/ Stazione FS (as 25/26)
@@ -1102,8 +1101,7 @@ async function fixBusRouteAndNameWimb(response, aep){
             service.linea="3B";
         }
         //3B SCUOLE MARCONI-NONANTOLANA 1010 (Scuola)
-        if(service.linea=="3"&&service.route_code.includes("401")){
-            service.linea="3B";
+        if(service.linea=="3B"&&service.route_code.includes("287")){
             service.route_desc="SCUOLE MARCONI-NONANTOLANA 1010";
         }
         //3/ Stazione FS (as 25/26)
