@@ -1,0 +1,167 @@
+[
+  {
+    "desc": "Fanano",
+    "code": "MO1100",
+    "islast": false
+  },
+  {
+    "desc": "Ospitale bv",
+    "code": "MO3617",
+    "islast": false
+  },
+  {
+    "desc": "Fanano zona artigianale",
+    "code": "MO1101",
+    "islast": false
+  },
+  {
+    "desc": "Santa Croce",
+    "code": "MO3618",
+    "islast": false
+  },
+  {
+    "desc": "Casa Pilino",
+    "code": "MO3612",
+    "islast": false
+  },
+  {
+    "desc": "Rocchetta Sandri bv",
+    "code": "MO3610",
+    "islast": false
+  },
+  {
+    "desc": "Trentino bv",
+    "code": "MO3608",
+    "islast": false
+  },
+  {
+    "desc": "Ca' Ciocchi",
+    "code": "MO2077",
+    "islast": false
+  },
+  {
+    "desc": "Rocchetta Sandri",
+    "code": "MO2075",
+    "islast": false
+  },
+  {
+    "desc": "Casa Nuova",
+    "code": "MO2074",
+    "islast": false
+  },
+  {
+    "desc": "Mulino Rocchetta",
+    "code": "MO2073",
+    "islast": false
+  },
+  {
+    "desc": "Caseificio Rocchetta",
+    "code": "MO3721",
+    "islast": false
+  },
+  {
+    "desc": "Voltata Bagni",
+    "code": "MO2072",
+    "islast": false
+  },
+  {
+    "desc": "Sasso Bianco",
+    "code": "MO2071",
+    "islast": false
+  },
+  {
+    "desc": "Burgone",
+    "code": "MO3582",
+    "islast": false
+  },
+  {
+    "desc": "Chiesa bv",
+    "code": "MO2068",
+    "islast": false
+  },
+  {
+    "desc": "Casa Doddi",
+    "code": "MO3578",
+    "islast": false
+  },
+  {
+    "desc": "Vesale bv",
+    "code": "MO2053",
+    "islast": false
+  },
+  {
+    "desc": "Stabilimento Amica",
+    "code": "MO3622",
+    "islast": false
+  },
+  {
+    "desc": "Le Macchie",
+    "code": "MO3624",
+    "islast": false
+  },
+  {
+    "desc": "Tabina bv",
+    "code": "MO3625",
+    "islast": false
+  },
+  {
+    "desc": "Bacconi",
+    "code": "MO3626",
+    "islast": false
+  },
+  {
+    "desc": "Bv Zoppo",
+    "code": "MO4723",
+    "islast": false
+  },
+  {
+    "desc": "La Teggia",
+    "code": "MO3628",
+    "islast": false
+  },
+  {
+    "desc": "Castellaro",
+    "code": "MO3630",
+    "islast": false
+  },
+  {
+    "desc": "Falegnameria",
+    "code": "MO3632",
+    "islast": false
+  },
+  {
+    "desc": "Rovinaccia 1",
+    "code": "MO3634",
+    "islast": false
+  },
+  {
+    "desc": "Ponte Tole",
+    "code": "MO3636",
+    "islast": false
+  },
+  {
+    "desc": "Sant'Antonio bv",
+    "code": "MO3637",
+    "islast": false
+  },
+  {
+    "desc": "Casine",
+    "code": "MO3640",
+    "islast": false
+  },
+  {
+    "desc": "La Maesta",
+    "code": "MO3326",
+    "islast": false
+  },
+  {
+    "desc": "Casa Bettini",
+    "code": "MO3325",
+    "islast": false
+  },
+  {
+    "desc": "Casa Pattarozzi",
+    "code": "MO3317",
+    "islast": true
+  }
+]
