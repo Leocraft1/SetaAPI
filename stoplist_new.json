@@ -16044,12 +16044,24 @@
     "valore": "MOPV507"
   },
   {
+    "fermata": "Spinzuola",
+    "valore": "MOPV516"
+  },
+  {
+    "fermata": "Piandiscuola",
+    "valore": "MOPV518"
+  },
+  {
     "fermata": "Vaglio",
     "valore": "MOPV519"
   },
   {
     "fermata": "Vaglio",
     "valore": "MOPV520"
+  },
+  {
+    "fermata": "Campichiara",
+    "valore": "MOPV522"
   },
   {
     "fermata": "Crocette",
