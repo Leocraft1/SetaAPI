@@ -15960,12 +15960,20 @@
     "valore": "MOPV205"
   },
   {
+    "fermata": "Verica Stazione",
+    "valore": "MOPV208"
+  },
+  {
     "fermata": "Casa dell'Oste",
     "valore": "MOPV209"
   },
   {
     "fermata": "Casa dell'Oste",
     "valore": "MOPV210"
+  },
+  {
+    "fermata": "Campiano",
+    "valore": "MOPV220"
   },
   {
     "fermata": "Campiano Scuole",
