@@ -143,9 +143,9 @@ app.get('/arrivals/:id', async (req, res) => {
             if(service.service=="1"&&service.destination=="V. ZETA - ARIETE"){
                 service.destination="ARIETE";
             }
-            //1S Autostazione (Scuola)
+            //1/ Autostazione (Scuola)
             if(service.service=="1"&&service.destination=="AUTOSTAZIONE"){
-                service.service="1S";
+                service.service="1/";
             }
             //1 _ -> Marinuzzi (Scuola)
             if(service.service=="1"&&service.destination=="_"){
@@ -234,6 +234,14 @@ app.get('/arrivals/:id', async (req, res) => {
             if(service.service=="7"&&service.destination=="GOTTARDI"){
                 service.destination="POLICLINICO GOTTARDI";
             }
+            //7/ Stazione FS
+            if(service.service=="7"&&service.destination=="STAZIONE FS"){
+                service.service="7/";
+            }
+            //7/ AUTOSTAZIO§NE
+            if(service.service=="7"&&service.destination=="AUTOSTAZIONE"){
+                service.service="7/";
+            }
             //7A STAZIONE FS -> GOTTARDI
             if(service.service=="7A"&&service.destination=="STAZIONE FS"&&!service.codice_corsa.includes("728-")){
                 service.destination="GOTTARDI";
@@ -241,10 +249,6 @@ app.get('/arrivals/:id', async (req, res) => {
             //7A/ STAZIONE FS
             if(service.service=="7A"&&service.destination=="STAZIONE FS"){
                 service.service="7A/";
-            }
-            //7/ Stazione FS
-            if(service.service=="7"&&service.destination=="STAZIONE FS"){
-                service.service="7/";
             }
             //9A Marzaglia Nuova
             if(service.service=="9"&&service.destination=="MARZAGLIA"){
@@ -310,13 +314,13 @@ app.get('/arrivals/:id', async (req, res) => {
             if(service.service=="12"&&service.destination=="FANTI FS"){
                 service.service="12/";
             }
-            //12S Garibaldi (Scuola)
+            //12/ Garibaldi (Scuola)
             if(service.service=="12"&&service.destination=="GARIBALDI"){
-                service.service="12S";
+                service.service="12/";
             }
-            //12S Largo Garibaldi (Scuola)
+            //12/ Largo Garibaldi (Scuola)
             if(service.service=="12"&&service.destination=="LARGO GARIBALDI"){
-                service.service="12S";
+                service.service="12/";
             }
             //13 S.ANNA -> SANT'ANNA (dio rincoglionito e dislessico)
             if(service.service=="13"&&service.destination=="S.ANNA"){
@@ -338,33 +342,6 @@ app.get('/arrivals/:id', async (req, res) => {
             if(service.service=="643"&&service.destination=="_"){
                 service.destination="POLO SCOLASTICO SASSUOLO";
             }
-            //Varianti vecchie AS 24/25
-            /*
-            //3A Vaciglio-Mattarella
-            if(service.service=="3"&&service.destination=="VACIGLIO MATTARELLA"){
-                service.service="3A";
-            }
-            //3A Portorico (Domenica)
-            if(service.service=="3"&&service.destination=="PORTORICO"){
-                service.service="3A";
-            }
-            //14A Nazioni
-            if(service.service=="14"&&service.destination=="NAZIONI"){
-                service.service="14A";
-            }
-            //15/ Santi
-            if(service.service=="15"&&service.destination=="SANTI"){
-                service.service="15/";
-            }
-            */
-            //Varianti settembre 2025
-            /*
-            //3F MONTEFIORINO-PORTORICO (Domenica)
-            if(service.service=="3"&&service.destination=="PORTORICO"){
-                service.service="3F";
-                service.destination="MONTEFIORINO-PORTORICO";
-            }
-            */
 
             //Add AEP specification
             if(aep.data.includes(service.busnum)){
@@ -1141,6 +1118,14 @@ async function fixBusRouteAndNameWimb(response, aep){
         if(service.linea=="7"&&service.route_desc=="GOTTARDI"){
             service.route_desc="POLICLINICO GOTTARDI";
         }
+        //7/ Stazione FS
+        if(service.linea=="7"&&service.route_desc=="STAZIONE FS"){
+            service.linea="7/";
+        }
+        //7/ AUTOSTAZIONE
+        if(service.linea=="7"&&service.route_desc=="AUTOSTAZIONE"){
+            service.linea="7/";
+        }
         //7A STAZIONE FS -> GOTTARDI
         if(service.linea=="7A"&&service.route_desc=="STAZIONE FS"&&!service.route_code.includes("728")){
             service.route_desc="GOTTARDI";
@@ -1148,10 +1133,6 @@ async function fixBusRouteAndNameWimb(response, aep){
         //7A/ STAZIONE FS
         if(service.linea=="7A"&&service.route_desc=="STAZIONE FS"){
             service.linea="7A/";
-        }
-        //7/ Stazione FS
-        if(service.linea=="7"&&service.route_desc=="STAZIONE FS"){
-            service.linea="7/";
         }
         //9A Marzaglia Nuova
         if(service.linea=="9"&&service.route_desc=="MARZAGLIA"){
@@ -1217,13 +1198,13 @@ async function fixBusRouteAndNameWimb(response, aep){
         if(service.linea=="12"&&service.route_desc=="FANTI FS"){
             service.linea="12/";
         }
-        //12S Garibaldi (Scuola)
+        //12/ Garibaldi (Scuola)
         if(service.linea=="12"&&service.route_desc=="GARIBALDI"){
-            service.linea="12S";
+            service.linea="12/";
         }
-        //12S Largo Garibaldi (Scuola)
+        //12/ Largo Garibaldi (Scuola)
         if(service.linea=="12"&&service.route_desc=="LARGO GARIBALDI"){
-            service.linea="12S";
+            service.linea="12/";
         }
         //13 S.ANNA -> SANT'ANNA (dio rincoglionito e dislessico)
         if(service.linea=="13"&&service.route_desc=="S.ANNA"){
@@ -1245,33 +1226,7 @@ async function fixBusRouteAndNameWimb(response, aep){
         if(service.linea=="643"&&service.route_desc=="_"){
             service.route_desc="POLO SCOLASTICO SASSUOLO";
         }
-        //Varianti vecchie AS 24/25
-        /*
-        //3A Vaciglio-Mattarella
-        if(service.linea=="3"&&service.route_desc=="VACIGLIO MATTARELLA"){
-            service.linea="3A";
-        }
-        //3A Portorico (Domenica)
-        if(service.linea=="3"&&service.route_desc=="PORTORICO"){
-            service.linea="3A";
-        }
-        //14A Nazioni
-        if(service.linea=="14"&&service.route_desc=="NAZIONI"){
-            service.linea="14A";
-        }
-        //15/ Santi
-        if(service.linea=="15"&&service.route_desc=="SANTI"){
-            service.linea="15/";
-        }
-        */
-        //Varianti settembre 2025
-        /*
-        //3F MONTEFIORINO-Portorico (Domenica)
-        if(service.linea=="3"&&service.route_desc=="PORTORICO"){
-            service.linea="3F";
-            service.route_desc="MONTEFIORINO-PORTORICO";
-        }
-        */
+
         //Cambia nomi modello bus (nuovo metodo per numero)
         //Lotti promiscui vengono messi in alto in modo che se c'è qualcosa di sbagliato (c'è) vengono sistemati poi dopo
         if(service.vehicle_code >= 300 && service.vehicle_code <= 891){
@@ -1282,6 +1237,12 @@ async function fixBusRouteAndNameWimb(response, aep){
         }
         if(service.vehicle_code >= 651 && service.vehicle_code <= 682){
             service.model = "Mercedes Citaro O530Ü";
+        }
+        if(service.vehicle_code >= 323 && service.vehicle_code <= 324){
+            service.model = "Irisbus Crossway LE";
+        }
+        if(service.vehicle_code >= 339 && service.vehicle_code <= 379){
+            service.model = "Iveco Crossway LE";
         }
         if(service.vehicle_code >= 341 && service.vehicle_code <= 352){
             service.model = "MAN Lion's Regio";
@@ -1341,20 +1302,12 @@ async function fixBusRouteAndNameWimb(response, aep){
             service.model = "Solaris Urbino 18 III";
         }
 
-        if(service.vehicle_code >= 323 && service.vehicle_code <= 324){
-            service.model = "Irisbus Crossway LE";
-        }
-
         if(service.vehicle_code >= 213 && service.vehicle_code <= 216){
             service.model = "BredaMenariniBus Avancity+ CNG 18";
         }
 
         if(service.vehicle_code >= 217 && service.vehicle_code <= 221){
             service.model = "MAN Lion's City G 3p ex Gamla";
-        }
-
-        if(service.vehicle_code >= 339 && service.vehicle_code <= 379){
-            service.model = "Iveco Crossway LE";
         }
 
         if(service.vehicle_code >= 222 && service.vehicle_code <= 224){
@@ -1369,12 +1322,8 @@ async function fixBusRouteAndNameWimb(response, aep){
             service.model = "Mercedes Citaro O530G ex Koln";
         }
 
-        if(service.vehicle_code >= 380 && service.vehicle_code <= 381){
-            service.model = "MAN Lion's City L CNG ex TronderBilene";
-        }
-
         if(service.vehicle_code >= 382 && service.vehicle_code <= 387){
-            service.model = "Iveco Crossway LE Bianchi";
+            service.model = "Iveco Crossway LE Bianco";
         }
 
         if(service.vehicle_code >= 4501 && service.vehicle_code <= 4507){
