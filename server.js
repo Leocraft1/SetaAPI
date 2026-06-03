@@ -1367,7 +1367,7 @@ async function fixBusRouteAndNameWimb(response, aep){
             service.model = "Solaris Urbino 18 III ex START";
         }
         if(service.vehicle_code >= 4856 && service.vehicle_code <= 4858){
-            service.model = "Mercedes Citaro O530N ex ATM";
+            service.model = "Mercedes Citaro O530G ex ATM";
         }
         //Dio filoviario arrostito sulla 750 volt
         if(service.vehicle_code>=35&&service.vehicle_code<=44){
