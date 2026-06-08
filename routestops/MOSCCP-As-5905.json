@@ -1,0 +1,552 @@
+[
+  {
+    "desc": "Gargallo Piazza don Milani",
+    "code": "MOC325",
+    "islast": false
+  },
+  {
+    "desc": "Cantone Via Fornaci Carrobbio",
+    "code": "MOC300",
+    "islast": false
+  },
+  {
+    "desc": "Cantone Via Fornaci Carrobbio",
+    "code": "MOC301",
+    "islast": false
+  },
+  {
+    "desc": "Osteriola Via Fornaci Carrobbio",
+    "code": "MOC302",
+    "islast": false
+  },
+  {
+    "desc": "Osteriola Via Fornaci Carrobbio",
+    "code": "MOC303",
+    "islast": false
+  },
+  {
+    "desc": "Santa Croce Via Camellini",
+    "code": "MOC305",
+    "islast": false
+  },
+  {
+    "desc": "Santa Croce Via Bollitora Esterna",
+    "code": "MOC306",
+    "islast": false
+  },
+  {
+    "desc": "Santa Croce Via Bollitora Esterna",
+    "code": "MOC307",
+    "islast": false
+  },
+  {
+    "desc": "Mulini 2",
+    "code": "MOC314",
+    "islast": false
+  },
+  {
+    "desc": "Mulini 2",
+    "code": "MOC316",
+    "islast": false
+  },
+  {
+    "desc": "Gargallo Via Chiesa di Garagallo",
+    "code": "MOC327",
+    "islast": false
+  },
+  {
+    "desc": "Gargallo Via Chiesa di Garagallo",
+    "code": "MOC326",
+    "islast": false
+  },
+  {
+    "desc": "Via Chiesa gargallo Bv. Via Barzacca",
+    "code": "MOC323",
+    "islast": false
+  },
+  {
+    "desc": "Via Chesa Gargallo Bv Via Burzacca",
+    "code": "MOC321",
+    "islast": false
+  },
+  {
+    "desc": "Via Chiesa Gargallo",
+    "code": "MOC319",
+    "islast": false
+  },
+  {
+    "desc": "Via Bella Rosa",
+    "code": "MOC317",
+    "islast": false
+  },
+  {
+    "desc": "Stabilimento Malavolta",
+    "code": "MOC315",
+    "islast": false
+  },
+  {
+    "desc": "Strada Prov.Le 413 (bar blu)",
+    "code": "MOC313",
+    "islast": false
+  },
+  {
+    "desc": "Santa Croce",
+    "code": "MOC311",
+    "islast": false
+  },
+  {
+    "desc": "Cattania",
+    "code": "MOC332",
+    "islast": false
+  },
+  {
+    "desc": "Pini",
+    "code": "MOC330",
+    "islast": false
+  },
+  {
+    "desc": "Pini",
+    "code": "MOC331",
+    "islast": false
+  },
+  {
+    "desc": "Carpi Via C. Marx  Polizia Parcheggio",
+    "code": "MOC333",
+    "islast": false
+  },
+  {
+    "desc": "Liguria",
+    "code": "MOC334",
+    "islast": false
+  },
+  {
+    "desc": "Liguria",
+    "code": "MOC335",
+    "islast": false
+  },
+  {
+    "desc": "Gorizia",
+    "code": "MOC310",
+    "islast": false
+  },
+  {
+    "desc": "Quartirolo",
+    "code": "MOC336",
+    "islast": false
+  },
+  {
+    "desc": "Quartirolo",
+    "code": "MOC337",
+    "islast": false
+  },
+  {
+    "desc": "Via delle Mondine",
+    "code": "MOC309",
+    "islast": false
+  },
+  {
+    "desc": "Ipermercato",
+    "code": "MOC312",
+    "islast": false
+  },
+  {
+    "desc": "Stadio",
+    "code": "MOC70",
+    "islast": false
+  },
+  {
+    "desc": "Stadio",
+    "code": "MOC71",
+    "islast": false
+  },
+  {
+    "desc": "P.le Ramazzini",
+    "code": "MOC60",
+    "islast": false
+  },
+  {
+    "desc": "P.le Ramazzini",
+    "code": "MOC61",
+    "islast": false
+  },
+  {
+    "desc": "Carpi Terminal Autostazione",
+    "code": "MOC40",
+    "islast": false
+  },
+  {
+    "desc": "Stazione FS",
+    "code": "MOC10",
+    "islast": false
+  },
+  {
+    "desc": "Carpi Via Nicolo Biondo",
+    "code": "MOC50",
+    "islast": false
+  },
+  {
+    "desc": "Carpi Via Carducci",
+    "code": "MOC51",
+    "islast": false
+  },
+  {
+    "desc": "Fanti 1",
+    "code": "MOC20",
+    "islast": false
+  },
+  {
+    "desc": "Fanti 1",
+    "code": "MOC21",
+    "islast": false
+  },
+  {
+    "desc": "Parco",
+    "code": "MOC31",
+    "islast": false
+  },
+  {
+    "desc": "Parco",
+    "code": "MOC30",
+    "islast": false
+  },
+  {
+    "desc": "Pronto Soccorso",
+    "code": "MOC80",
+    "islast": false
+  },
+  {
+    "desc": "Pronto Soccorso",
+    "code": "MOC81",
+    "islast": false
+  },
+  {
+    "desc": "Centro Cmmerciale Tang. Losi",
+    "code": "MOC246",
+    "islast": false
+  },
+  {
+    "desc": "Via Guastalla Croce Rossa",
+    "code": "MOC233",
+    "islast": false
+  },
+  {
+    "desc": "Guastalla 2",
+    "code": "MOC232",
+    "islast": false
+  },
+  {
+    "desc": "Guastalla 1",
+    "code": "MOC230",
+    "islast": false
+  },
+  {
+    "desc": "Guastalla 1",
+    "code": "MOC231",
+    "islast": false
+  },
+  {
+    "desc": "Guastalla",
+    "code": "MOC228",
+    "islast": false
+  },
+  {
+    "desc": "Guastalla",
+    "code": "MOC229",
+    "islast": false
+  },
+  {
+    "desc": "Migliarina chiesa",
+    "code": "MOC227",
+    "islast": false
+  },
+  {
+    "desc": "Migliarina chiesa",
+    "code": "MOC226",
+    "islast": false
+  },
+  {
+    "desc": "Lunga",
+    "code": "MOC224",
+    "islast": false
+  },
+  {
+    "desc": "Lunga",
+    "code": "MOC225",
+    "islast": false
+  },
+  {
+    "desc": "Roma bv",
+    "code": "MOC222",
+    "islast": false
+  },
+  {
+    "desc": "Roma bv",
+    "code": "MOC223",
+    "islast": false
+  },
+  {
+    "desc": "Migliarina",
+    "code": "MOC221",
+    "islast": false
+  },
+  {
+    "desc": "Migliarina",
+    "code": "MOC220",
+    "islast": false
+  },
+  {
+    "desc": "Budrione bv",
+    "code": "MOC219",
+    "islast": false
+  },
+  {
+    "desc": "Budrione bv",
+    "code": "MOC218",
+    "islast": false
+  },
+  {
+    "desc": "Budrione",
+    "code": "MOC216",
+    "islast": false
+  },
+  {
+    "desc": "Budrione",
+    "code": "MOC217",
+    "islast": false
+  },
+  {
+    "desc": "Budrione Scuole 1",
+    "code": "MOC215",
+    "islast": false
+  },
+  {
+    "desc": "Budrione Scuole 1",
+    "code": "MOC214",
+    "islast": false
+  },
+  {
+    "desc": "Budrione Scuole",
+    "code": "MOC212",
+    "islast": false
+  },
+  {
+    "desc": "Budrione Scuole",
+    "code": "MOC213",
+    "islast": false
+  },
+  {
+    "desc": "Budrione Via Chiesa Vecchia",
+    "code": "MOC240",
+    "islast": false
+  },
+  {
+    "desc": "Budrione Via Chiesa Vecchia",
+    "code": "MOC241",
+    "islast": false
+  },
+  {
+    "desc": "Chiaviche",
+    "code": "MOC243",
+    "islast": false
+  },
+  {
+    "desc": "Chiaviche",
+    "code": "MOC242",
+    "islast": false
+  },
+  {
+    "desc": "Via Gusmea",
+    "code": "MOC244",
+    "islast": false
+  },
+  {
+    "desc": "Via Gusmea",
+    "code": "MOC245",
+    "islast": false
+  },
+  {
+    "desc": "Palladio",
+    "code": "MOC147",
+    "islast": false
+  },
+  {
+    "desc": "Via Don Sturzo",
+    "code": "MOC149",
+    "islast": false
+  },
+  {
+    "desc": "Carpi Via Tre Ponti",
+    "code": "MOC144",
+    "islast": false
+  },
+  {
+    "desc": "Carpi Tre Via Ponti",
+    "code": "MOC145",
+    "islast": false
+  },
+  {
+    "desc": "Cibeno farmacia",
+    "code": "MOC141",
+    "islast": false
+  },
+  {
+    "desc": "Cibeno farmacia",
+    "code": "MOC140",
+    "islast": false
+  },
+  {
+    "desc": "Via Pola Esterna",
+    "code": "MOC146",
+    "islast": false
+  },
+  {
+    "desc": "Cibeno",
+    "code": "MOC139",
+    "islast": false
+  },
+  {
+    "desc": "Cibeno",
+    "code": "MOC138",
+    "islast": false
+  },
+  {
+    "desc": "25 Aprile",
+    "code": "MOC148",
+    "islast": false
+  },
+  {
+    "desc": "Strada Prov.Le 468 Bivio Via Griduzza",
+    "code": "MOC137",
+    "islast": false
+  },
+  {
+    "desc": "Strada Prov.Le 468 Bivio Via Griduzza",
+    "code": "MOC136",
+    "islast": false
+  },
+  {
+    "desc": "San Marino",
+    "code": "MOC133",
+    "islast": false
+  },
+  {
+    "desc": "San Marino Centro Piazzale Gasparini",
+    "code": "MOC135",
+    "islast": false
+  },
+  {
+    "desc": "Via Cavata",
+    "code": "MOC143",
+    "islast": false
+  },
+  {
+    "desc": "Via Cavata",
+    "code": "MOC142",
+    "islast": false
+  },
+  {
+    "desc": "Cacciatori trattoria",
+    "code": "MOC123",
+    "islast": false
+  },
+  {
+    "desc": "Cacciatori trattoria",
+    "code": "MOC122",
+    "islast": false
+  },
+  {
+    "desc": "Griduzza scuole",
+    "code": "MOC121",
+    "islast": false
+  },
+  {
+    "desc": "Griduzza scuole",
+    "code": "MOC120",
+    "islast": false
+  },
+  {
+    "desc": "San Pellegrino Cortile",
+    "code": "MOC119",
+    "islast": false
+  },
+  {
+    "desc": "San Pellegrino Cortile",
+    "code": "MOC118",
+    "islast": false
+  },
+  {
+    "desc": "Cortile Via Chiesa Bivio Via Rossi",
+    "code": "MOC117",
+    "islast": false
+  },
+  {
+    "desc": "Cortile Via Chiesa Bivio Via Rossi",
+    "code": "MOC116",
+    "islast": false
+  },
+  {
+    "desc": "Cortile",
+    "code": "MOC115",
+    "islast": false
+  },
+  {
+    "desc": "Cortile",
+    "code": "MOC114",
+    "islast": false
+  },
+  {
+    "desc": "Mulino Cortile",
+    "code": "MOC112",
+    "islast": false
+  },
+  {
+    "desc": "Mulino Cortile",
+    "code": "MOC113",
+    "islast": false
+  },
+  {
+    "desc": "Via Canalvecchio",
+    "code": "MOC109",
+    "islast": false
+  },
+  {
+    "desc": "Via Canalvecchio",
+    "code": "MOC108",
+    "islast": false
+  },
+  {
+    "desc": "San Martino Secchia Via Livorno",
+    "code": "MOC107",
+    "islast": false
+  },
+  {
+    "desc": "San Martino Secchia Centro",
+    "code": "MOC105",
+    "islast": false
+  },
+  {
+    "desc": "San Martino Secchia Chiesa",
+    "code": "MOC103",
+    "islast": false
+  },
+  {
+    "desc": "San Martino Secchia Via Chiesa San Marino",
+    "code": "MOC101",
+    "islast": false
+  },
+  {
+    "desc": "Cortile scuole",
+    "code": "MOC111",
+    "islast": false
+  },
+  {
+    "desc": "Cortile scuole",
+    "code": "MOC110",
+    "islast": false
+  },
+  {
+    "desc": "Ponticelli",
+    "code": "MOC130",
+    "islast": true
+  }
+]
