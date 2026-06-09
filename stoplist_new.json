@@ -15860,6 +15860,18 @@
     "valore": "MO999"
   },
   {
+    "fermata": "Via Chiesa gargallo Bv. Via Barzacca",
+    "valore": "MOC323"
+  },
+  {
+    "fermata": "P.le Ramazzini",
+    "valore": "MOC60"
+  },
+  {
+    "fermata": "Stadio",
+    "valore": "MOC70"
+  },
+  {
     "fermata": "_",
     "valore": "MOfime"
   },
