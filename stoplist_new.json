@@ -15860,6 +15860,10 @@
     "valore": "MO999"
   },
   {
+    "fermata": "Cibeno",
+    "valore": "MOC138"
+  },
+  {
     "fermata": "Cibeno farmacia",
     "valore": "MOC140"
   },
@@ -15898,6 +15902,10 @@
   {
     "fermata": "Stadio",
     "valore": "MOC70"
+  },
+  {
+    "fermata": "Stadio",
+    "valore": "MOC71"
   },
   {
     "fermata": "Pronto Soccorso",
