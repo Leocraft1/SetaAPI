@@ -15864,6 +15864,22 @@
     "valore": "MOC140"
   },
   {
+    "fermata": "Roma bv",
+    "valore": "MOC223"
+  },
+  {
+    "fermata": "Guastalla 1",
+    "valore": "MOC231"
+  },
+  {
+    "fermata": "Guastalla 2",
+    "valore": "MOC232"
+  },
+  {
+    "fermata": "Centro Cmmerciale Tang. Losi",
+    "valore": "MOC246"
+  },
+  {
     "fermata": "Via Chiesa gargallo Bv. Via Barzacca",
     "valore": "MOC323"
   },
@@ -15874,6 +15890,14 @@
   {
     "fermata": "Stadio",
     "valore": "MOC70"
+  },
+  {
+    "fermata": "Pronto Soccorso",
+    "valore": "MOC80"
+  },
+  {
+    "fermata": "Pronto Soccorso",
+    "valore": "MOC81"
   },
   {
     "fermata": "_",
