@@ -15872,6 +15872,10 @@
     "valore": "MOC141"
   },
   {
+    "fermata": "Fanti 1",
+    "valore": "MOC21"
+  },
+  {
     "fermata": "Budrione",
     "valore": "MOC216"
   },
@@ -15902,6 +15906,10 @@
   {
     "fermata": "Via Chiesa gargallo Bv. Via Barzacca",
     "valore": "MOC323"
+  },
+  {
+    "fermata": "Carpi Via Carducci",
+    "valore": "MOC51"
   },
   {
     "fermata": "P.le Ramazzini",
