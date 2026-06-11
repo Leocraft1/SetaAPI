@@ -15860,6 +15860,10 @@
     "valore": "MO999"
   },
   {
+    "fermata": "San Marino Centro Piazzale Gasparini",
+    "valore": "MOC135"
+  },
+  {
     "fermata": "Cibeno",
     "valore": "MOC138"
   },
@@ -15872,6 +15876,10 @@
     "valore": "MOC141"
   },
   {
+    "fermata": "Via Cavata",
+    "valore": "MOC142"
+  },
+  {
     "fermata": "Fanti 1",
     "valore": "MOC21"
   },
@@ -15882,6 +15890,14 @@
   {
     "fermata": "Budrione bv",
     "valore": "MOC218"
+  },
+  {
+    "fermata": "Migliarina",
+    "valore": "MOC220"
+  },
+  {
+    "fermata": "Migliarina",
+    "valore": "MOC221"
   },
   {
     "fermata": "Roma bv",
