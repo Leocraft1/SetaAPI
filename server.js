@@ -506,10 +506,10 @@ app.get('/allnews', async (req, res) => {
                 title: ".title",
                 date: ".date-title",
                 link: {
-                    attr: "href", convert: x => "https://www.setaweb.it/"+x,
+                    attr: "href",
                 },
                 type: {
-                    selector: ".image-news", attr: "style",convert:x => {
+                    selector: ".image-news", attr: "data-bg",convert:x => {
                         if(x.includes("pericolo.png")){
                             return "Importante";
                         }if(x.includes("seta-informa.png")){
