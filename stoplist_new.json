@@ -15860,12 +15860,20 @@
     "valore": "MO999"
   },
   {
+    "fermata": "Cortile",
+    "valore": "MOC115"
+  },
+  {
     "fermata": "San Marino Centro Piazzale Gasparini",
     "valore": "MOC135"
   },
   {
     "fermata": "Cibeno",
     "valore": "MOC138"
+  },
+  {
+    "fermata": "Cibeno",
+    "valore": "MOC139"
   },
   {
     "fermata": "Cibeno farmacia",
@@ -15946,6 +15954,10 @@
   {
     "fermata": "P.le Ramazzini",
     "valore": "MOC60"
+  },
+  {
+    "fermata": "P.le Ramazzini",
+    "valore": "MOC61"
   },
   {
     "fermata": "Stadio",
