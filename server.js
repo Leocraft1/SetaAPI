@@ -348,7 +348,7 @@ app.get('/arrivals/:id', async (req, res) => {
             }
 
             //Add AEP specification
-            if(aep.data.includes(service.busnum)){
+            if(aep.data.includes(service.busnum)||aep.data.includes(resolveModels(service.busnum))){
                 service.hasAEP=true;
             }
         });
@@ -809,7 +809,7 @@ async function updateRouteCodes() {
     // Salva solo se ci sono cambiamenti
     if (changed) {
         fs.writeFileSync(filePath, JSON.stringify(newLocalRC, null, 2), 'utf8');
-    }
+   f }
     return newLocalRC;
 }
 
@@ -1234,183 +1234,175 @@ async function fixBusRouteAndNameWimb(response, aep){
         if(service.linea=="643"&&service.route_desc=="_"){
             service.route_desc="POLO SCOLASTICO SASSUOLO";
         }
-        
-        //Cambia nomi modello bus (nuovo metodo per numero)
-        //Lotti promiscui vengono messi in alto in modo che se c'è qualcosa di sbagliato (c'è) vengono sistemati poi dopo
-        if(service.vehicle_code >= 300 && service.vehicle_code <= 891){
-            service.model = "Irisbus Crossway";
-        }
-        if(service.vehicle_code >= 354 && service.vehicle_code <= 691){
-            service.model = "Mercedes Integro O550";
-        }
-        if(service.vehicle_code >= 651 && service.vehicle_code <= 682){
-            service.model = "Mercedes Citaro O530Ü";
-        }
-        if(service.vehicle_code >= 323 && service.vehicle_code <= 324){
-            service.model = "Irisbus Crossway LE";
-        }
-        if(service.vehicle_code >= 339 && service.vehicle_code <= 379){
-            service.model = "Iveco Crossway LE";
-        }
-        if(service.vehicle_code >= 341 && service.vehicle_code <= 352){
-            service.model = "MAN Lion's Regio";
-        }
-        if(service.vehicle_code >= 335 && service.vehicle_code <= 338){
-            service.model = "Mercedes Integro O550";
-        }
-        if(service.vehicle_code >= 1 && service.vehicle_code <= 7){
-            service.model = "Neoplan Electroliner";
-        }
-        if(service.vehicle_code >= 25 && service.vehicle_code <= 34){
-            service.model = "CAM Busotto NGT";
-        }
-        if(service.vehicle_code >= 113 && service.vehicle_code <= 132){
-            service.model = "Mercedes Citaro O530N Diesel";
-        }
-        if(service.vehicle_code >= 133 && service.vehicle_code <= 142){
-            service.model = "Irisbus Cityclass CNG ATCM";
-        }
-        if(service.vehicle_code >= 143 && service.vehicle_code <= 146){
-            service.model = "Mercedes Citaro O530N CNG";
-        }
-        if(service.vehicle_code >= 170 && service.vehicle_code <= 197){
-            service.model = "Irisbus Citelis CNG EEV";
-        }
-        if(service.vehicle_code >= 198 && service.vehicle_code <= 200){
-            service.model = "Solaris Urbino 12 III CNG";
-        }
-        if(service.vehicle_code >= 271 && service.vehicle_code <= 290){
-            service.model = "MenariniBus Citymood CNG";
-        }
-        if(service.vehicle_code >= 4750 && service.vehicle_code <= 4763){
-            service.model = "MenariniBus Citymood LNG";
-        }
-        if(service.vehicle_code >= 4770 && service.vehicle_code <= 4799){
-            service.model = "Iveco Urbanway Mild Hybrid CNG";
-        }
-        if(service.vehicle_code >= 4800 && service.vehicle_code <= 4802){
-            service.model = "Iveco Urbanway MH CNG Facelift";
-        }
-        if(service.vehicle_code >= 7901 && service.vehicle_code <= 7912){
-            service.model = "Solaris Urbino 12 IV Hydrogen";
-        }
-        if(service.vehicle_code >= 209 && service.vehicle_code <= 212){
-            service.model = "Solaris Urbino 18 III";
-        }
-        if(service.vehicle_code >= 213 && service.vehicle_code <= 216){
-            service.model = "BredaMenariniBus Avancity+ CNG 18";
-        }
-        if(service.vehicle_code >= 217 && service.vehicle_code <= 221){
-            service.model = "MAN Lion's City G 3p ex Gamla";
-        }
-        if(service.vehicle_code >= 222 && service.vehicle_code <= 224){
-            service.model = "MAN Lion's City G 4p ex Unibuss";
-        }
-        if(service.vehicle_code >= 251 && service.vehicle_code <= 270){
-            service.model = "Solaris Urbino 12 III LE";
-        }
-        if(service.vehicle_code >= 229 && service.vehicle_code <= 232){
-            service.model = "Mercedes Citaro O530G ex Koln";
-        }
-        if(service.vehicle_code >= 382 && service.vehicle_code <= 387){
-            service.model = "Iveco Crossway LE Bianco";
-        }
-        if(service.vehicle_code >= 4501 && service.vehicle_code <= 4507){
-            service.model = "Setra S415 LE 2p ex Bolzano";
-        }
-        if(service.vehicle_code >= 4508 && service.vehicle_code <= 4513){
-            service.model = "Setra S415 LF 3p ex Bolzano";
-        }
-        if(service.vehicle_code >= 4621 && service.vehicle_code <= 4628){
-            service.model = "Iveco Crossway LE 14";
-        }
-        if(service.vehicle_code >= 4450 && service.vehicle_code <= 4466){
-            service.model = "Iveco Crossway LE 12 CNG";
-        }
-        if(service.vehicle_code >= 4467 && service.vehicle_code <= 4468){
-            service.model = "Iveco Crossway Line 12 CNG";
-        }
-        if(service.vehicle_code >= 4850 && service.vehicle_code <= 4852){
-            service.model = "MAN Lion's City 19 CNG";
-        }
-        if(service.vehicle_code >= 4853 && service.vehicle_code <= 4854){
-            service.model = "Mercedes Citaro O530GÜ ex Tper";
-        }
-        if(service.vehicle_code >= 692 && service.vehicle_code <= 699){
-            service.model = "Irisbus Ares SFR117";
-        }
-        if(service.vehicle_code == 698){
-            service.model = "Irisbus Arway";
-        }
-        if(service.vehicle_code >= 354 && service.vehicle_code <= 691){
-            service.model = "Mercedes Integro O550";
-        }
-        if(service.vehicle_code == 686){
-            service.model = "Mercedes Integro O550 (Giallo)";
-        }
-        if(service.vehicle_code >= 325 && service.vehicle_code <= 334){
-            service.model = "Irisbus Crossway ex Esercito Tedesco";
-        }
-        if(service.vehicle_code >= 4400 && service.vehicle_code <= 4426){
-            service.model = "Iveco Crossway Line";
-        }
-        if(service.vehicle_code >= 4427 && service.vehicle_code <= 4449){
-            service.model = "Scania Irizar i4 LNG";
-        }
-        if(service.vehicle_code >= 4469 && service.vehicle_code <= 4475){
-            service.model = "Iveco Crossway LE 12 CNG Facelift";
-        }
-        if(service.vehicle_code >= 7901 && service.vehicle_code <= 7912){
-            service.model = "Solaris Urbino IV Hydrogen";
-        }
-        if(service.vehicle_code == 4855){
-            service.model = "Solaris Urbino 18 III ex START";
-        }
-        if(service.vehicle_code >= 4856 && service.vehicle_code <= 4858){
-            service.model = "Mercedes Citaro O530G ex ATM";
-        }
-        //Dio filoviario arrostito sulla 750 volt
-        if(service.vehicle_code>=35&&service.vehicle_code<=44){
-            service.model="Solaris Trollino 12 IV";
-            service.plate_num="MO0"+service.vehicle_code;
-        }
-        //Daily e altre cose
-        if(service.model=="SOLARIS - URBINO U 8,9 LE"){
-            service.model="Solaris 9 LE ex Piacenza";
-        }
-        if(service.vehicle_code>= 66 && service.vehicle_code<=67){
-            service.model="Mercedes Sprinter";
-        }
-        if(service.vehicle_code>= 63 && service.vehicle_code<=64){
-            service.model="Iveco Daily carr. Indicar";
-        }
-        if(service.vehicle_code==50){
-            service.model="Iveco Daily";
-        }
-        if(service.vehicle_code==46){
-            service.model="Mercedes Sprinter";
-        }
-        if(service.vehicle_code==961){
-            service.model="Iveco Thesi";
-        }
-        if(service.vehicle_code==962){
-            service.model="Ford Transit";
-        }
-        if(service.vehicle_code==954){
-            service.model="Sprinter carr. Buzola";
-        }
-        if(service.vehicle_code==965){
-            service.model="Iveco Daily";
-        }
-        if(service.vehicle_code==952){
-            service.model="Iveco Daily carr. Gerbus";
-        }
+        service.model = resolveModels(service.vehicle_code);
         
         //Add AEP specification
-        if(aep.data.includes(service.vehicle_code)){
+        if(aep.data.includes(service.vehicle_code)||aep.data.includes(service.model)){
             service.hasAEP=true;
         }
     });
+}
+
+function resolveModels(busnum){
+    //Cambia nomi modello bus
+    //Lotti promiscui vengono messi in alto in modo che se c'è qualcosa di sbagliato (c'è) vengono sistemati poi dopo
+    if(busnum >= 300 && busnum <= 891){
+        return "Irisbus Crossway";
+    }
+    if(busnum >= 354 && busnum <= 691){
+        return "Mercedes Integro O550";
+    }
+    if(busnum >= 651 && busnum <= 682){
+        return "Mercedes Citaro O530Ü";
+    }
+    if(busnum >= 323 && busnum <= 324){
+        return "Irisbus Crossway LE";
+    }
+    if(busnum >= 339 && busnum <= 379){
+        return "Iveco Crossway LE";
+    }
+    if(busnum >= 341 && busnum <= 352){
+        return "MAN Lion's Regio";
+    }
+    if(busnum >= 335 && busnum <= 338){
+        return "Mercedes Integro O550";
+    }
+    if(busnum >= 1 && busnum <= 7){
+        return "Neoplan Electroliner";
+    }
+    if(busnum >= 25 && busnum <= 34){
+        return "CAM Busotto NGT";
+    }
+    if(busnum >= 113 && busnum <= 132){
+        return "Mercedes Citaro O530N Diesel";
+    }
+    if(busnum >= 133 && busnum <= 142){
+        return "Irisbus Cityclass CNG ATCM";
+    }
+    if(busnum >= 143 && busnum <= 146){
+        return "Mercedes Citaro O530N CNG";
+    }
+    if(busnum >= 170 && busnum <= 197){
+        return "Irisbus Citelis CNG EEV";
+    }
+    if(busnum >= 198 && busnum <= 200){
+        return "Solaris Urbino 12 III CNG";
+    }
+    if(busnum >= 271 && busnum <= 290){
+        return "MenariniBus Citymood CNG";
+    }
+    if(busnum >= 4750 && busnum <= 4763){
+        return "MenariniBus Citymood LNG";
+    }
+    if(busnum >= 4770 && busnum <= 4799){
+        return "Iveco Urbanway Mild Hybrid CNG";
+    }
+    if(busnum >= 4800 && busnum <= 4802){
+        return "Iveco Urbanway MH CNG Facelift";
+    }
+    if(busnum >= 7901 && busnum <= 7912){
+        return "Solaris Urbino 12 IV Hydrogen";
+    }
+    if(busnum >= 209 && busnum <= 212){
+        return "Solaris Urbino 18 III";
+    }
+    if(busnum >= 213 && busnum <= 216){
+        return "BredaMenariniBus Avancity+ CNG 18";
+    }
+    if(busnum >= 217 && busnum <= 221){
+        return "MAN Lion's City G 3p ex Gamla";
+    }
+    if(busnum >= 222 && busnum <= 224){
+        return "MAN Lion's City G 4p ex Unibuss";
+    }
+    if(busnum >= 251 && busnum <= 270){
+        return "Solaris Urbino 12 III LE";
+    }
+    if(busnum >= 229 && busnum <= 232){
+        return "Mercedes Citaro O530G ex Koln";
+    }
+    if(busnum >= 382 && busnum <= 387){
+        return "Iveco Crossway LE Bianco";
+    }
+    if(busnum >= 4501 && busnum <= 4507){
+        return "Setra S415 LE 2p ex Bolzano";
+    }
+    if(busnum >= 4508 && busnum <= 4513){
+        return "Setra S415 LF 3p ex Bolzano";
+    }
+    if(busnum >= 4621 && busnum <= 4628){
+        return "Iveco Crossway LE 14";
+    }
+    if(busnum >= 4450 && busnum <= 4466){
+        return "Iveco Crossway LE 12 CNG";
+    }
+    if(busnum >= 4467 && busnum <= 4468){
+        return "Iveco Crossway Line 12 CNG";
+    }
+    if(busnum >= 4850 && busnum <= 4852){
+        return "MAN Lion's City 19 CNG";
+    }
+    if(busnum >= 4853 && busnum <= 4854){
+        return "Mercedes Citaro O530GÜ ex Tper";
+    }
+    if(busnum >= 692 && busnum <= 699){
+        return "Irisbus Ares SFR117";
+    }
+    if(busnum == 698){
+        return "Irisbus Arway";
+    }
+    if(busnum == 686){
+        return "Mercedes Integro O550 (Giallo)";
+    }
+    if(busnum >= 325 && busnum <= 334){
+        return "Irisbus Crossway ex Esercito Tedesco";
+    }
+    if(busnum >= 4400 && busnum <= 4426){
+        return "Iveco Crossway Line";
+    }
+    if(busnum >= 4427 && busnum <= 4449){
+        return "Scania Irizar i4 LNG";
+    }
+    if(busnum >= 4469 && busnum <= 4475){
+        return "Iveco Crossway LE 12 CNG Facelift";
+    }
+    if(busnum == 4855){
+        return "Solaris Urbino 18 III ex START";
+    }
+    if(busnum >= 4856 && busnum <= 4858){
+        return "Mercedes Citaro O530G ex ATM";
+    }
+    if(busnum>=35&&busnum<=44){
+        return "Solaris Trollino 12 IV";
+    }
+    //Daily e altre cose
+    if(busnum>= 66 && busnum<=67){
+        return "Mercedes Sprinter";
+    }
+    if(busnum>= 63 && busnum<=64){
+        return "Iveco Daily carr. Indicar";
+    }
+    if(busnum==50){
+        return "Iveco Daily";
+    }
+    if(busnum==46){
+        return "Mercedes Sprinter";
+    }
+    if(busnum==961){
+        return "Iveco Thesi";
+    }
+    if(busnum==962){
+        return "Ford Transit";
+    }
+    if(busnum==954){
+        return "Sprinter carr. Buzola";
+    }
+    if(busnum==965){
+        return "Iveco Daily";
+    }
+    if(busnum==952){
+        return "Iveco Daily carr. Gerbus";
+    }
 }
 
 function fixStopNames(stops){
@@ -1429,6 +1421,10 @@ function fixPlate(response){
         //CW CNG senza targa
         if(element.properties.plate_num.includes("UN")){
             element.properties.plate_num="Non disponibile";
+        }
+        //Trollini fecal
+        if(element.properties.vehicle_code >= 35 && element.properties.vehicle_code <= 44){
+            element.properties.plate_num = "MO0"+element.properties.vehicle_code;
         }
     });
 }
@@ -1455,6 +1451,7 @@ async function getBusList(){
     const item = data.data;
     return item;
 }
+
 //Cerca e aggiunge posti_totali alle info veicolo
 async function addPostiTotali(response,idMezzo){
     var item=await getBusList();
