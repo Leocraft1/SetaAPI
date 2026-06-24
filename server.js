@@ -600,8 +600,7 @@ app.get('/routeproblems/:id', async (req, res) => {
                     date: ".date-title",
                     link: {
                         closest: "a",
-                        attr: "href",
-                        convert: x => "https://www.setaweb.it/"+x
+                        attr: "href"
                     },
                 },
             }
