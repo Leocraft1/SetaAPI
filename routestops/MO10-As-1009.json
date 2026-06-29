@@ -1,0 +1,137 @@
+[
+  {
+    "desc": "MODENA  AUTOSTAZIONE",
+    "code": "MO10",
+    "islast": false
+  },
+  {
+    "desc": "Barozzi Planetario",
+    "code": "MO2868",
+    "islast": false
+  },
+  {
+    "desc": "Barozzi bv Setti",
+    "code": "MO2869",
+    "islast": false
+  },
+  {
+    "desc": "Barozzi bv Rangoni",
+    "code": "MO2871",
+    "islast": false
+  },
+  {
+    "desc": "Istituto Fermi",
+    "code": "MO2873",
+    "islast": false
+  },
+  {
+    "desc": "Luosi bv Fattori",
+    "code": "MO2875",
+    "islast": false
+  },
+  {
+    "desc": "Luosi bv San Faustino",
+    "code": "MO2879",
+    "islast": false
+  },
+  {
+    "desc": "San Faustino Poliambulatorio",
+    "code": "MO2807",
+    "islast": false
+  },
+  {
+    "desc": "San Faustino",
+    "code": "MO6789",
+    "islast": false
+  },
+  {
+    "desc": "Formigina bv Archimede",
+    "code": "MO6784",
+    "islast": false
+  },
+  {
+    "desc": "Vigili del Fuoco",
+    "code": "MO6779",
+    "islast": false
+  },
+  {
+    "desc": "Da Vinci bv Curie",
+    "code": "MO6723",
+    "islast": false
+  },
+  {
+    "desc": "Da Vinci bv Newton",
+    "code": "MO2892",
+    "islast": false
+  },
+  {
+    "desc": "POLO LEONARDO",
+    "code": "MO6783",
+    "islast": false
+  },
+  {
+    "desc": "Euclide",
+    "code": "MO6787",
+    "islast": false
+  },
+  {
+    "desc": "Aristotele",
+    "code": "MO6785",
+    "islast": false
+  },
+  {
+    "desc": "D'Avia bv Aristotele",
+    "code": "MO6782",
+    "islast": false
+  },
+  {
+    "desc": "Campagna",
+    "code": "MO6741",
+    "islast": false
+  },
+  {
+    "desc": "Contorno",
+    "code": "MO6740",
+    "islast": false
+  },
+  {
+    "desc": "Beltrami",
+    "code": "MO6742",
+    "islast": false
+  },
+  {
+    "desc": "Tonini 1",
+    "code": "MO6734",
+    "islast": false
+  },
+  {
+    "desc": "Tonini 2",
+    "code": "MO6737",
+    "islast": false
+  },
+  {
+    "desc": "Guareschi 1",
+    "code": "MO6738",
+    "islast": false
+  },
+  {
+    "desc": "Guareschi 2",
+    "code": "MO6739",
+    "islast": false
+  },
+  {
+    "desc": "Cognento scuole",
+    "code": "MO6702",
+    "islast": false
+  },
+  {
+    "desc": "Traeri bv Da Porto Sud",
+    "code": "MO6749",
+    "islast": false
+  },
+  {
+    "desc": "COGNENTO",
+    "code": "MO2907",
+    "islast": true
+  }
+]
