@@ -1233,7 +1233,9 @@ async function fixBusRouteAndNameWimb(response, aep){
         if(service.linea=="643"&&service.route_desc=="_"){
             service.route_desc="POLO SCOLASTICO SASSUOLO";
         }
-        service.model = resolveModels(service.vehicle_code);
+        if(resolveModels(service.vehicle_code)!=undefined){
+            service.model = resolveModels(service.vehicle_code);
+        }
         
         //Add AEP specification
         if(aep.data.includes(service.vehicle_code)||aep.data.includes(service.model)){
@@ -1508,6 +1510,9 @@ function fixPedana(response){
             element.properties.pedana=1;
         }
         if(element.properties.model=="Iveco Crossway LE 12 CNG Facelift"){
+            element.properties.pedana=1;
+        }
+        if(element.properties.model=="Iveco Urbanway MH CNG Facelift"){
             element.properties.pedana=1;
         }
     });
