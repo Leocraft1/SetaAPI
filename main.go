@@ -11,8 +11,9 @@ import (
 func main() {
 	mux := http.NewServeMux();
 	mux.HandleFunc("GET /health", handler.HealthCheckHandler);
+	mux.HandleFunc("GET /arrivals/{id}", handler.ArrivalsHandler);
 
 	//Listen on port and start API
-	fmt.Printf("Server avviato");
+	fmt.Println("Server avviato");
 	log.Print(http.ListenAndServe(":5001",mux));
 }
