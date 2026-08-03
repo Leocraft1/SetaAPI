@@ -1,6 +1,6 @@
 package model
 
 type Stop struct {
-	codice string 	"db:codice json:codice"
-	nome string 	"db:nome json:nome"
+	Codice string 	`db:"codice" json:"codice"`
+	Nome string 	`db:"nome" json:"nome"`
 }
