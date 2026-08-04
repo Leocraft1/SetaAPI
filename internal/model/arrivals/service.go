@@ -16,6 +16,7 @@ type Service struct {
 	Next_stop *string `json:"next_stop"`
 	Has_problems bool `json:"has_problems"`
 	Official_line string `json:"official_line"`
+	Delay *int `json:"delay"`
 }
 
 func (r ServiceRaw) ToDomain() Service {

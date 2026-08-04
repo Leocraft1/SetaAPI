@@ -8,6 +8,30 @@ import (
 //TODO: add news support when implemented
 func FixArrivals(raw arrivals.ArrivalRaw) arrivals.Arrival{
 	var out = parseArrivals(raw);
+	
+	//Filters planned and realtime routes duplication (vibe-coded because couldn't figure out how)
+	// Step 1: costruisci il set dei Route_code che hanno una corsa realtime
+	hasRealtime := make(map[string]bool)
+	for _, s := range out.Arrival.Services {
+		if s.State == "realtime" {
+			hasRealtime[s.Route_code] = true
+		}
+	}
+
+	// Step 2: filtra
+	filtered := make([]arrivals.Service, 0, len(out.Arrival.Services))
+	for _, s := range out.Arrival.Services {
+		if s.State == "realtime" {
+			filtered = append(filtered, s) // realtime: sempre tenuta
+		} else if !hasRealtime[s.Route_code] {
+			filtered = append(filtered, s) // planned SENZA controparte realtime: tenuta
+		}
+		// planned CON controparte realtime: scartata implicitamente (nessun append)
+	}
+
+	//Calculates delay
+
+	out.Arrival.Services = filtered;
 
 	//Fix/add variants and incorrect data
 	for idx := range out.Arrival.Services {
