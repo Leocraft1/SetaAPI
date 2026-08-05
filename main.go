@@ -12,6 +12,7 @@ func main() {
 	mux := http.NewServeMux();
 	mux.HandleFunc("GET /health", handler.HealthCheckHandler);
 	mux.HandleFunc("GET /arrivals/{id}", handler.ArrivalsHandler);
+	mux.HandleFunc("GET /busesinservice", handler.BusesinserviceHandler);
 
 	//Listen on port and start API
 	fmt.Println("Server avviato");

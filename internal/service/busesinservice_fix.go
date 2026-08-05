@@ -1,46 +1,21 @@
 package service
 
 import (
-	"setaapi/internal/model/arrivals"
-	"strings"
+	"setaapi/internal/model/busesinservice"
+	//"strings"
 )
 
 // TODO: add news support when implemented
-func FixArrivals(raw arrivals.ArrivalRaw) arrivals.Arrival {
-	var out = parseArrivals(raw)
+func FixBusesinservice(raw busesinservice.BusesRaw) busesinservice.Buses {
+	var out = parseBuses(raw)
 
-	//Filters planned and realtime routes duplication (vibe-coded because couldn't figure out how)
-	// Step 1: costruisci il set dei Route_code che hanno una corsa realtime
-	hasRealtime := make(map[string]bool)
-	for _, s := range out.Arrival.Services {
-		if s.State == "realtime" {
-			hasRealtime[s.Journey_code] = true
-		}
-	}
-
-	// Step 2: filtra
-	filtered := make([]arrivals.Service, 0, len(out.Arrival.Services))
-	for _, s := range out.Arrival.Services {
-		if s.State == "realtime" {
-			filtered = append(filtered, s) // realtime: sempre tenuta
-		} else if !hasRealtime[s.Journey_code] {
-			filtered = append(filtered, s) // planned SENZA controparte realtime: tenuta
-		}
-		// planned CON controparte realtime: scartata implicitamente (nessun append)
-	}
-
-	//Calculates delay
-	//TODO
-
-	out.Arrival.Services = filtered
-
-	//Fix/add variants and incorrect data
-	for idx := range out.Arrival.Services {
-		val := &out.Arrival.Services[idx]
+	/*
+	for idx := range out.Buses {
+		val := &out.Buses[idx]
 
 		addOfficialLine(val)
 		fixLineInfo(val)
-	}
+	}*/
 
 	return out
 }
@@ -48,20 +23,21 @@ func FixArrivals(raw arrivals.ArrivalRaw) arrivals.Arrival {
 // -----------------------
 // - PROTECTED FUNCTIONS -
 // -----------------------
-func parseArrivals(from arrivals.ArrivalRaw) arrivals.Arrival {
-	var services []arrivals.ServiceRaw = from.Arrival.Services
-	var parsed []arrivals.Service
-	var out arrivals.Arrival
+func parseBuses(from busesinservice.BusesRaw) busesinservice.Buses {
+	var buses []busesinservice.BusRaw = from.Properties
+	var parsed []busesinservice.Bus
+	var out busesinservice.Buses
 
-	for _, val := range services {
+	for _, val := range buses {
 		//Parses using ToDomain (model package)
 		parsed = append(parsed, val.ToDomain())
 	}
 
-	out.Arrival.Services = parsed
+	out.Buses = parsed
 	return out
 }
 
+/*
 func fixLineInfo(val *arrivals.Service) {
 	//Fix "line" parameter and destination for route variants
 	//Sant'Anna (Dislessia)
@@ -305,3 +281,4 @@ func addOfficialLine(val *arrivals.Service) {
 	//Fills official_line (used for news)
 	val.Official_line = val.Line
 }
+*/
