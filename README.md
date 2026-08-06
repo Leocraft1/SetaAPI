@@ -3,8 +3,8 @@ This api interfaces with SETA's servers and gives back correct information to im
 
 It operates at :
 
-- /arrivals/:id where id is the id of the stop you want.
-- /busesinservice for the list of all buses operating.
+- /arrivals/{id} where id is the id of the stop you want. [COMPLETE, missing news support]
+- /busesinservice for the list of all buses operating. [RESPONSE COMPLETE, missing db interface and periodic run to save stops]
 - /vehicleinfo/:id where id is the id of the vehicle you want the informations of, it needs to be operating.
 - /routenumberslist for the list of all route numbers (not static, will update when new routes are operating).
 - /busmodels for the list of all bus models.
@@ -28,4 +28,4 @@ To run it you will need to have the Go compiler installed in your system (instal
 - Run it with `./(TODO exec name here)`.
 - It might be necessary to do a `sudo chmod -X ./(same thing as before)`.
 
-As default it starts on port 5001 but you can customize the port varying the "port" constant in the server.js file.
+As a development state only, it starts on port 5001 but you will be able to change this later.

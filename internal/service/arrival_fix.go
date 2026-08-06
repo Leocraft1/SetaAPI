@@ -1,7 +1,9 @@
 package service
 
 import (
+	"fmt"
 	"setaapi/internal/model/arrivals"
+	"strconv"
 	"strings"
 )
 
@@ -22,17 +24,42 @@ func FixArrivals(raw arrivals.ArrivalRaw) arrivals.Arrival {
 	filtered := make([]arrivals.Service, 0, len(out.Arrival.Services))
 	for _, s := range out.Arrival.Services {
 		if s.State == "realtime" {
-			filtered = append(filtered, s) // realtime: sempre tenuta
+			filtered = append(filtered, s)
 		} else if !hasRealtime[s.Journey_code] {
-			filtered = append(filtered, s) // planned SENZA controparte realtime: tenuta
+			filtered = append(filtered, s)
 		}
-		// planned CON controparte realtime: scartata implicitamente (nessun append)
 	}
 
 	//Calculates delay
-	//TODO
+	// Step 1: mappa le corse "planned" per Route_code
+	plannedByRouteCode := make(map[string]arrivals.Service)
+	for _, s := range out.Arrival.Services {
+		if s.State == "planned" {
+			plannedByRouteCode[s.Journey_code] = s
+		}
+	}
 
 	out.Arrival.Services = filtered
+
+	// Step 2: per ogni corsa realtime, cerca il planned corrispondente e calcola il delay
+	for i := range out.Arrival.Services {
+		val := &out.Arrival.Services[i]
+
+		if val.State != "realtime" {
+			continue
+		}
+
+		planned, exists := plannedByRouteCode[val.Journey_code]
+		if !exists {
+			continue
+		}
+
+		delay, err := computeDelay(planned.Arrival_time, val.Arrival_time)
+		if err != nil {
+			continue
+		}
+		val.Delay = &delay
+	}
 
 	//Fix/add variants and incorrect data
 	for idx := range out.Arrival.Services {
@@ -60,6 +87,34 @@ func parseArrivals(from arrivals.ArrivalRaw) arrivals.Arrival {
 
 	out.Arrival.Services = parsed
 	return out
+}
+
+func computeDelay(plannedTime, realtimeTime string) (int, error) {
+    pMinutes, err := timeStringToMinutes(plannedTime)
+    if err != nil {
+        return 0, err
+    }
+    rMinutes, err := timeStringToMinutes(realtimeTime)
+    if err != nil {
+        return 0, err
+    }
+    return rMinutes - pMinutes, nil
+}
+
+func timeStringToMinutes(t string) (int, error) {
+    parts := strings.Split(t, ":")
+    if len(parts) != 2 {
+        return 0, fmt.Errorf("formato orario non valido: %s", t)
+    }
+    hours, err := strconv.Atoi(parts[0])
+    if err != nil {
+        return 0, err
+    }
+    minutes, err := strconv.Atoi(parts[1])
+    if err != nil {
+        return 0, err
+    }
+    return hours*60 + minutes, nil
 }
 
 func fixLineInfo(val *arrivals.Service) {

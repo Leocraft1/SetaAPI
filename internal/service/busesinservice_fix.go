@@ -1,7 +1,11 @@
 package service
 
 import (
+	"regexp"
 	"setaapi/internal/model/busesinservice"
+	"sort"
+	"strconv"
+	"unicode"
 	//"strings"
 )
 
@@ -9,6 +13,8 @@ import (
 func FixBusesinservice(raw busesinservice.BusesRaw) busesinservice.Buses {
 	var out = parseBuses(raw)
 
+	//Sorts buses
+	out.Buses = sortBusesByLine(out.Buses)
 	/*
 	for idx := range out.Buses {
 		val := &out.Buses[idx]
@@ -35,6 +41,44 @@ func parseBuses(from busesinservice.BusesRaw) busesinservice.Buses {
 
 	out.Buses = parsed
 	return out
+}
+
+func sortBusesByLine(buses []busesinservice.Bus) []busesinservice.Bus {
+    sort.SliceStable(buses, func(i, j int) bool {
+        numI := extractLineNumber(buses[i].Line)
+        numJ := extractLineNumber(buses[j].Line)
+        if numI != numJ {
+            return numI < numJ
+        }
+        return buses[i].Line < buses[j].Line
+    })
+
+    numeric := make([]busesinservice.Bus, 0, len(buses))
+    letters := make([]busesinservice.Bus, 0)
+
+    for _, b := range buses {
+        if len(b.Line) > 0 && unicode.IsLetter(rune(b.Line[0])) {
+            letters = append(letters, b)
+        } else {
+            numeric = append(numeric, b)
+        }
+    }
+
+    return append(numeric, letters...)
+}
+
+var numericPartRegex = regexp.MustCompile(`\d+`)
+
+func extractLineNumber(line string) int {
+    match := numericPartRegex.FindString(line)
+    if match == "" {
+        return 0
+    }
+    num, err := strconv.Atoi(match)
+    if err != nil {
+        return 0
+    }
+    return num
 }
 
 /*
