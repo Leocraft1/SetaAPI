@@ -1,8 +1,9 @@
 package busesinservice
 
+import "setaapi/internal/model"
+
 type Bus struct {
-	Line              string  `json:"line"`
-	Destination       string  `json:"destination"`
+	model.LineInfo
 	Line_type         string  `json:"line_type"`
 	Delay             int     `json:"delay"`
 	Vehicle_table     string  `json:"vehicle_table"`
@@ -13,19 +14,20 @@ type Bus struct {
 	Next_stop         string  `json:"next_stop"`
 	Stop_code         string  `json:"stop_code"`
 	Route_code        string  `json:"route_code"`
-	Journey_code      string  `json:"journey_code"`
 	Total_room        int     `json:"total_room"`
 	Occupancy_lastupd *string `json:"occupancy_lastupd"`
 	Passenger_number  *int    `json:"passenger_number"`
-	Official_line     string  `json:"official_line"`
 	Has_problems      bool    `json:"has_problems"`
 	Has_AEP           bool    `json:"has_AEP"`
 }
 
 func (r BusRaw) ToDomain() Bus {
 	return Bus{
-		Line: r.Properties.Linea,
-		Destination: r.Properties.Route_desc,
+		LineInfo: model.LineInfo{
+			Line: r.Properties.Linea,
+			Destination: r.Properties.Route_desc,
+			Journey_code: r.Properties.Journey_code,
+		},
 		Line_type: r.Properties.Service_tag,
 		Delay: r.Properties.Delay,
 		Vehicle_table: r.Properties.Duty_id,
@@ -36,7 +38,6 @@ func (r BusRaw) ToDomain() Bus {
 		Next_stop: r.Properties.Next_stop,
 		Stop_code: r.Properties.Waypoint_code,
 		Route_code: r.Properties.Route_code,
-		Journey_code: r.Properties.Journey_code,
 		Total_room: r.Properties.Posti_totali,
 		Occupancy_lastupd: r.Properties.Occupancy_lastupd,
 		Passenger_number: r.Properties.Num_passeggeri,

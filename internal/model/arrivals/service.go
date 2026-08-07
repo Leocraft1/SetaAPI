@@ -1,16 +1,16 @@
 package arrivals
 
+import "setaapi/internal/model"
+
 type Service struct {
-	Line             string  `json:"line"`
+	model.LineInfo
 	Arrival_time     string  `json:"arrival_time"`
 	State            string  `json:"state"`
-	Destination      string  `json:"destination"`
 	Basin            string  `json:"basin"`
 	Vehicle_table    string  `json:"vehicle_table"`
 	Vehicle          string  `json:"vehicle"`
 	Line_type        string  `json:"line_type"`
 	Occupancy_status *string `json:"occupancy_status"`
-	Journey_code     string  `json:"journey_code"`
 	Total_room       *int    `json:"total_room"`
 	Passenger_number *int    `json:"passenger_number"`
 	Next_stop        *string `json:"next_stop"`
@@ -21,16 +21,18 @@ type Service struct {
 
 func (r ServiceRaw) ToDomain() Service {
 	return Service{
-		Line:             r.Service,
+		LineInfo: model.LineInfo{
+			Line:             r.Service,
+			Destination:      r.Destination,
+			Journey_code:     r.Codice_corsa,
+		},
 		Arrival_time:     r.Arrival,
 		State:            r.Type,
-		Destination:      r.Destination,
 		Basin:            r.FleetCode,
 		Vehicle_table:    r.DutyId,
 		Vehicle:          r.Busnum,
 		Line_type:        r.ServiceType,
 		Occupancy_status: r.OccupancyStatus,
-		Journey_code:     r.Codice_corsa,
 		Total_room:       r.Posti_totali,
 		Passenger_number: r.Num_passeggeri,
 		Next_stop:        r.Next_stop,

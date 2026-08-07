@@ -28,7 +28,7 @@ func ArrivalsHandler(w http.ResponseWriter, r *http.Request) {
 	//Checks for connection errors and (TODO) HTTP code
 	if err != nil {
 		fmt.Println("ArrivalsHandler error: ", err)
-		w.Write([]byte("ArrivalsHandler error: "+err.Error()))
+		w.Write([]byte("ArrivalsHandler error: " + err.Error()))
 	}
 
 	//Parses response into struct
@@ -48,10 +48,10 @@ func ArrivalsHandler(w http.ResponseWriter, r *http.Request) {
 
 // GET /busesinservice
 func BusesinserviceHandler(w http.ResponseWriter, r *http.Request) {
-	response, err := http.Get(wimbBaseUrl);
+	response, err := http.Get(wimbBaseUrl)
 	if err != nil {
 		fmt.Println("BusesinserviceHandler error: ", err)
-		w.Write([]byte("BusesinserviceHandler error: "+err.Error()))
+		w.Write([]byte("BusesinserviceHandler error: " + err.Error()))
 	}
 	var busesRaw busesinservice.BusesRaw
 	json.NewDecoder(response.Body).Decode(&busesRaw)
