@@ -3,6 +3,7 @@ package repository
 import (
 	"fmt"
 	"log"
+	"setaapi/config"
 	"time"
 
 	_ "github.com/go-sql-driver/mysql"
@@ -32,7 +33,7 @@ func newDB(host string, port int, user, password, dbname string) (*sqlx.DB, erro
 func InitMezzi() {
 	//DB connection
 	//NOTE FOR ME CHANGE PASSWORD WHEN PRODUCTION!!!
-	DB_MEZZI, err = newDB("serverissimo.com", 3306, "setaapi", "71070c80767dbdc02cbbeca9ed9841b4", "ertpl_mezzi")
+	DB_MEZZI, err = newDB(config.DB_HOST, config.DB_PORT, config.DB_USER, config.DB_PASS, "ertpl_mezzi")
 	if err != nil {
 		log.Fatal("Connessione DB fallita: ", err)
 	}

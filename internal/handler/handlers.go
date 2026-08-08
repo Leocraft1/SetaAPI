@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"net/http"
+	"setaapi/config"
 	"setaapi/internal/model/arrivals"
 	"setaapi/internal/model/busesinservice"
 	"setaapi/internal/service"
@@ -56,7 +57,6 @@ func BusesinserviceHandler(w http.ResponseWriter, r *http.Request) {
 	var busesRaw busesinservice.BusesRaw
 	json.NewDecoder(response.Body).Decode(&busesRaw)
 
-	//TODO Fix
 	buses := service.FixBusesinservice(busesRaw)
 
 	//Set headers
@@ -65,4 +65,32 @@ func BusesinserviceHandler(w http.ResponseWriter, r *http.Request) {
 
 	//Parses response back to JSON and returns it to client
 	json.NewEncoder(w).Encode(buses)
+}
+
+// GET /vehicleinfo/{id}
+// Searches for requested vehicle on /busesinservice response
+func VehicleinfoHandler(w http.ResponseWriter, r *http.Request) {
+	id := r.PathValue("id")
+	response, err := http.Get("http://localhost"+config.PORT+"/busesinservice")
+	if err != nil {
+		fmt.Println("VehicleinfoHandler error: ", err)
+		w.Write([]byte("VehicleinfoHandler error: " + err.Error()))
+	}
+	var buses busesinservice.Buses
+	json.NewDecoder(response.Body).Decode(&buses)
+
+	for idx, val := range buses.Buses {
+		if val.Vehicle == id {
+			//Set headers
+			w.Header().Set("Content-Type", "application/json")
+			w.WriteHeader(response.StatusCode)
+
+			//Parses response back to JSON and returns it to client
+			json.NewEncoder(w).Encode(buses.Buses[idx])
+			return
+		}
+	}
+	//Vehicle not found
+	w.WriteHeader(404)
+	w.Write([]byte("Vehicle not found."))
 }

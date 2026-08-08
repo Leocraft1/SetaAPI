@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"log"
 	"net/http"
+	"setaapi/config"
 	"setaapi/internal/handler"
 	"setaapi/internal/repository"
 )
@@ -16,8 +17,9 @@ func main() {
 	mux.HandleFunc("GET /health", handler.HealthCheckHandler)
 	mux.HandleFunc("GET /arrivals/{id}", handler.ArrivalsHandler)
 	mux.HandleFunc("GET /busesinservice", handler.BusesinserviceHandler)
+	mux.HandleFunc("GET /vehicleinfo/{id}", handler.VehicleinfoHandler)
 
 	//Listen on port and start API
-	fmt.Println("Server avviato")
-	log.Print(http.ListenAndServe(":5001", mux))
+	fmt.Println("Server started on port "+config.PORT)
+	log.Print(http.ListenAndServe(config.PORT, mux))
 }
