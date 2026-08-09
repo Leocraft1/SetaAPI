@@ -12,6 +12,7 @@ import (
 func main() {
 	//DBs Init
 	repository.InitMezzi()
+	repository.InitContent()
 
 	mux := http.NewServeMux()
 	mux.HandleFunc("GET /health", handler.HealthCheckHandler)

@@ -12,6 +12,7 @@ import (
 
 var (
 	DB_MEZZI *sqlx.DB
+	DB_CONTENT *sqlx.DB
 	err      error
 )
 
@@ -34,6 +35,16 @@ func InitMezzi() {
 	//DB connection
 	//NOTE FOR ME CHANGE PASSWORD WHEN PRODUCTION!!!
 	DB_MEZZI, err = newDB(config.DB_HOST, config.DB_PORT, config.DB_USER, config.DB_PASS, "ertpl_mezzi")
+	if err != nil {
+		log.Fatal("Connessione DB fallita: ", err)
+	}
+	//defer DB_MEZZI.Close()
+}
+
+func InitContent() {
+	//DB connection
+	//NOTE FOR ME CHANGE PASSWORD WHEN PRODUCTION!!!
+	DB_CONTENT, err = newDB(config.DB_HOST, config.DB_PORT, config.DB_USER, config.DB_PASS, "seta_api_content")
 	if err != nil {
 		log.Fatal("Connessione DB fallita: ", err)
 	}
