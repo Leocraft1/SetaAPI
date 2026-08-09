@@ -173,16 +173,16 @@ func AllnewsHandler(w http.ResponseWriter, r *http.Request) {
 // GET /news
 // Scrapes the news page given by the URI link parameter
 func NewsHandler(w http.ResponseWriter, r *http.Request) {
-	path := r.URL.Query().Get("path")
+	link := r.URL.Query().Get("link")
 
-	if path == "" {
-		http.Error(w, "missing path parameter", http.StatusBadRequest)
+	if link == "" {
+		http.Error(w, "missing link parameter", http.StatusBadRequest)
 		return
 	}
 
 	w.Header().Set("Content-Type", "application/json")
 
-	response, err := http.Get(path)
+	response, err := http.Get(link)
 	if err != nil {
 		fmt.Println("Newshandler error: ", err)
 		w.Write([]byte("Newshandler error: " + err.Error()))
