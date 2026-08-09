@@ -1,6 +1,6 @@
 # Seta-API Go Edition
 
-This api interfaces with SETA's servers and gives back correct information to implement on a site.
+This api interfaces with SETA's servers and corrects information via database to implement on a site.
 
 It operates at:
 
@@ -22,6 +22,8 @@ It operates at:
 
 ## Setup
 
+### Program configuration
+
 To run it you will need to have the Go compiler installed in your system (installing from apt is fine).
 
 - Clone the repo with `git clone <repo-url>`.
@@ -32,6 +34,44 @@ To run it you will need to have the Go compiler installed in your system (instal
 
 As a development state only, it starts on port 5001 but you will be able to change this later.
 
+### Database configuration
+
+The API needs to interface with a database to fix all the information and provide registered content. It's made to be paired with a MySQL compliant database such as MariaDB or MySQL. Simply spin it up and configure it in its `.env` file **(will be available in the future)**.
+
+#### **Data structure**
+
+Regards data structure, you'll need two databases so called:
+
+- `ertpl_mezzi`
+- `seta_api_content`
+
+with various tables in them.
+
+To obtain up to date data you can reach out to <info.ertpl@protonmail.com> asking for temporary credentials and dump our database, or just download the dumps that will be updated on this repository under the `dumps` folder every now and then.
+
+#### **User configuration**
+
+You'll need to create a user that can access the database and you need to grant it following privileges:
+
+- `SELECT` on `ertpl_mezzi`
+- `SELECT` and `INSERT` on `seta_api_content`
+
+If you don't know how to create a user or run into some access denied issue here's the syntax:
+
+```sql
+CREATE USER `username`@`%` IDENTIFIED BY `password`;
+```
+
+**REMEMBER TO CHANGE username AND password WITH YOUR WANTED CREDENTIALS!**
+
+To generate password you can also use
+
+```bash
+openssl rand -hex 16
+```
+
+and just use its output as the password.
+
 ## Credits
 
-Scraping endpoints kindly done by @Curry141
+Scraping endpoints kindly done by @Daniongitub
