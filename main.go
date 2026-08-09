@@ -24,6 +24,8 @@ func main() {
 	mux.HandleFunc("GET /stoplist", handler.StoplistHandler)
 	//TODO /routestops/{id}
 	mux.HandleFunc("GET /nextstops/{id}", handler.NextstopsHandler)
+	mux.HandleFunc("GET /allnews", handler.AllnewsHandler)
+	mux.HandleFunc("GET /news", handler.NewsHandler)
 
 	//Listen on port and start API
 	fmt.Println("Server started on port " + config.PORT)

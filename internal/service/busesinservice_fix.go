@@ -6,6 +6,7 @@ import (
 	"setaapi/internal/repository"
 	"sort"
 	"strconv"
+	"strings"
 	"unicode"
 )
 
@@ -21,6 +22,7 @@ func FixBusesinservice(raw busesinservice.BusesRaw) busesinservice.Buses {
 		addOfficialLine(&val.LineInfo)
 		fixLineInfo(&val.LineInfo)
 		fixModelAndRamp(val)
+		fixPlate(val)
 	}
 
 	return out
@@ -89,4 +91,9 @@ func fixModelAndRamp(bus *busesinservice.Bus) {
 	if ramp != nil && *model != "" {
 		bus.Ramp = *ramp
 	}
+}
+
+func fixPlate(bus *busesinservice.Bus) {
+	targafix := strings.TrimSpace(bus.Plate_num)
+	bus.Plate_num = targafix
 }

@@ -15,6 +15,7 @@ import (
 var arrivalsBaseUrl string = "https://avm.setaweb.it/SETA_WS/services/arrival/"
 var wimbBaseUrl string = "https://wimb.setaweb.it/publicmapbe/vehicles/map/MO"
 var nextstopsUrl string = "https://wimb.setaweb.it/publicmapbe/vehicles/getwaypointarrivals/"
+var newsUrl string = "https://www.setaweb.it/mo/news"
 
 // GET /health
 func HealthCheckHandler(w http.ResponseWriter, r *http.Request) {
@@ -150,4 +151,46 @@ func NextstopsHandler(w http.ResponseWriter, r *http.Request) {
 
 	//Parses response back to JSON and returns it to client
 	w.Write(body)
+}
+
+// GET /allnews
+// Collects all the news scraped from SETA's website
+func AllnewsHandler(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Content-Type", "application/json")
+	response, err := http.Get(newsUrl)
+	if err != nil {
+		fmt.Println("Allnewshandler error: ", err)
+		w.Write([]byte("Allnewshandler error: " + err.Error()))
+	}
+
+	defer response.Body.Close()
+
+	w.WriteHeader(response.StatusCode)
+
+	service.Scrapeallnews(response.Body, w)
+}
+
+// GET /news
+// Scrapes the news page given by the URI link parameter
+func NewsHandler(w http.ResponseWriter, r *http.Request) {
+	path := r.URL.Query().Get("path")
+
+	if path == "" {
+		http.Error(w, "missing path parameter", http.StatusBadRequest)
+		return
+	}
+
+	w.Header().Set("Content-Type", "application/json")
+
+	response, err := http.Get(path)
+	if err != nil {
+		fmt.Println("Newshandler error: ", err)
+		w.Write([]byte("Newshandler error: " + err.Error()))
+	}
+
+	defer response.Body.Close()
+
+	w.WriteHeader(response.StatusCode)
+
+	service.Scrapenews(response.Body, w)
 }
