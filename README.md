@@ -1,4 +1,4 @@
-# Seta-API
+# Seta-API Node Edition [DEPRECATED]
 This api interfaces with SETA's servers and gives back correct information to implement on a site.
 
 It operates at :
