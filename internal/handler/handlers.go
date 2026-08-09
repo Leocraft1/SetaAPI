@@ -3,6 +3,7 @@ package handler
 import (
 	"encoding/json"
 	"fmt"
+	"io"
 	"net/http"
 	"setaapi/config"
 	"setaapi/internal/model/arrivals"
@@ -13,6 +14,7 @@ import (
 // URLs decl. section
 var arrivalsBaseUrl string = "https://avm.setaweb.it/SETA_WS/services/arrival/"
 var wimbBaseUrl string = "https://wimb.setaweb.it/publicmapbe/vehicles/map/MO"
+var nextstopsUrl string = "https://wimb.setaweb.it/publicmapbe/vehicles/getwaypointarrivals/"
 
 // GET /health
 func HealthCheckHandler(w http.ResponseWriter, r *http.Request) {
@@ -71,7 +73,7 @@ func BusesinserviceHandler(w http.ResponseWriter, r *http.Request) {
 // Searches for requested vehicle on /busesinservice response
 func VehicleinfoHandler(w http.ResponseWriter, r *http.Request) {
 	id := r.PathValue("id")
-	response, err := http.Get("http://localhost"+config.PORT+"/busesinservice")
+	response, err := http.Get("http://localhost" + config.PORT + "/busesinservice")
 	if err != nil {
 		fmt.Println("VehicleinfoHandler error: ", err)
 		w.Write([]byte("VehicleinfoHandler error: " + err.Error()))
@@ -93,4 +95,59 @@ func VehicleinfoHandler(w http.ResponseWriter, r *http.Request) {
 	//Vehicle not found
 	w.WriteHeader(404)
 	w.Write([]byte("Vehicle not found."))
+}
+
+// GET /linelist
+func LinelistHandler(w http.ResponseWriter, r *http.Request) {
+	nums := service.GetRoutenums()
+
+	//Set headers
+	w.Header().Set("Content-Type", "application/json")
+
+	//Parses response back to JSON and returns it to client
+	json.NewEncoder(w).Encode(nums)
+}
+
+// GET /modelslist
+func ModelslistHandler(w http.ResponseWriter, r *http.Request) {
+	nums := service.GetModels()
+
+	//Set headers
+	w.Header().Set("Content-Type", "application/json")
+
+	//Parses response back to JSON and returns it to client
+	json.NewEncoder(w).Encode(nums)
+}
+
+// GET /stoplist
+func StoplistHandler(w http.ResponseWriter, r *http.Request) {
+	stops := service.GetStops()
+
+	//Set headers
+	w.Header().Set("Content-Type", "application/json")
+
+	//Parses response back to JSON and returns it to client
+	json.NewEncoder(w).Encode(stops)
+}
+
+//TODO GET /routestops/{id}
+
+// GET /nextstops/{id}
+func NextstopsHandler(w http.ResponseWriter, r *http.Request) {
+	journey_code := r.PathValue("id")
+	response, err := http.Get(nextstopsUrl + journey_code)
+	if err != nil {
+		fmt.Println("Error fetching next stops", err)
+	}
+	body, err := io.ReadAll(response.Body)
+
+	if err != nil {
+		fmt.Println(err)
+	}
+
+	//Set headers
+	w.Header().Set("Content-Type", "application/json")
+
+	//Parses response back to JSON and returns it to client
+	w.Write(body)
 }

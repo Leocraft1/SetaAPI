@@ -3,16 +3,16 @@ This api interfaces with SETA's servers and gives back correct information to im
 
 It operates at :
 
-- /arrivals/{id} where id is the id of the stop you want. [COMPLETE, missing news support]
-- /busesinservice for the list of all buses operating. [RESPONSE COMPLETE, missing db interface and periodic run to save stops]
-- /vehicleinfo/:id where id is the id of the vehicle you want the informations of, it needs to be operating.
-- /routenumberslist for the list of all route numbers (not static, will update when new routes are operating).
-- /busmodels for the list of all bus models.
-- /stopcodesarchive the result of a fetch to obtain the bus stops.
+- /arrivals/{id} where id is the id of the stop you want. [COMPLETE, missing news and aep support]
+- /busesinservice for the list of all buses operating. [COMPLETE, missing news, aep support and periodic run to save stops (missing INSERTs)]
+- /vehicleinfo/:id where id is the id of the vehicle you want the informations of, it needs to be operating. [COMPLETE]
+- /lineslist for the list of all route numbers (not static, will update when new routes are operating). [COMPLETE]
+- /modelslist for the list of all bus models. [COMPLETE]
+- /stoplist the result of a fetch to obtain the bus stops. [COMPLETE]
 - /routestops/:id where id is the route code of the stop you want to obtain the stops of.
-- /nextstops/:id where id is the journey code of the shift you want to obtain the remaining stops of.
-- /allnews to get all the news.
-- /news?link=[news link] to get the content of the selected news.
+- /nextstops/:id where id is the journey code of the shift you want to obtain the remaining stops of. [COMPLETE]
+- /allnews to get all the news. [COMPLETE]
+- /news?link=[news link] to get the content of the selected news. [COMPLETE]
 - /routeproblems to fetch route problems.
 - /routeproblems/:id where id is the num of the route you want to know the news of.
 - /shitcodes to get the damn horrible hidden codes seta uses to identify routes in his website.

@@ -11,9 +11,9 @@ import (
 )
 
 var (
-	DB_MEZZI *sqlx.DB
+	DB_MEZZI   *sqlx.DB
 	DB_CONTENT *sqlx.DB
-	err      error
+	err        error
 )
 
 func newDB(host string, port int, user, password, dbname string) (*sqlx.DB, error) {
