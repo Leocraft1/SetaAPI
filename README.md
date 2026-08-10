@@ -15,8 +15,8 @@ It operates at:
 - `/nextstops/:id` where id is the journey code of the shift you want to obtain the remaining stops of. [COMPLETE]
 - `/allnews` to get all the news. [COMPLETE]
 - `/news?link=[news link]` to get the content of the selected news. [COMPLETE]
-- `/routeproblems` list of all route problems.
-- `/routeproblems/:id` where id is the num of the route you want to know the problems of.
+- `/routeproblems` list of all route problems. [COMPLETE]
+- `/routeproblems/:id` where id is the num of the route you want to know the problems of. [COMPLETE]
 - `/timetable` **TODO** needs to be completely redone
 - `/routemap/:id` where id is the id of the route (only the last part) you want the map of.
 
@@ -47,7 +47,7 @@ Regards data structure, you'll need two databases so called:
 
 with various tables in them.
 
-To obtain up to date data you can reach out to <info.ertpl@protonmail.com> asking for temporary credentials and dump our database, or just download the dumps that will be updated on this repository under the `dumps` folder every now and then.
+To obtain up to date data you can reach out to <info.ertpl@protonmail.com> asking for temporary credentials and dump our database, or just download the dumps that will be updating on this repository under the `dumps` folder every now and then.
 
 #### **User configuration**
 
@@ -74,4 +74,4 @@ and just use its output as the password.
 
 ## Credits
 
-Scraping endpoints kindly done by @Daniongitub
+Scraping endpoints kindly done by [@Daniongitub](https://github.com/Daniongithub)
