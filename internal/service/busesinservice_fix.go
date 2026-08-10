@@ -1,6 +1,8 @@
 package service
 
 import (
+	"encoding/json"
+	"net/http"
 	"regexp"
 	"setaapi/internal/model/busesinservice"
 	"setaapi/internal/repository"
@@ -9,6 +11,22 @@ import (
 	"strings"
 	"unicode"
 )
+
+func GetBusesInservice(url string) (busesinservice.Buses, error) {
+	response, err := http.Get(url)
+	if err != nil {
+		return busesinservice.Buses{}, err
+	}
+	defer response.Body.Close()
+
+	var raw busesinservice.BusesRaw
+
+	if err := json.NewDecoder(response.Body).Decode(&raw); err != nil {
+		return busesinservice.Buses{}, err
+	}
+
+	return FixBusesinservice(raw), nil
+}
 
 // TODO: add news support when implemented
 func FixBusesinservice(raw busesinservice.BusesRaw) busesinservice.Buses {

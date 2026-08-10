@@ -5,9 +5,7 @@ import (
 	"fmt"
 	"io"
 	"net/http"
-	"setaapi/config"
 	"setaapi/internal/model/arrivals"
-	"setaapi/internal/model/busesinservice"
 	"setaapi/internal/model/routeproblems"
 	"setaapi/internal/service"
 	"strconv"
@@ -56,50 +54,43 @@ func ArrivalsHandler(w http.ResponseWriter, r *http.Request) {
 
 // GET /busesinservice
 func BusesinserviceHandler(w http.ResponseWriter, r *http.Request) {
-	response, err := http.Get(wimbBaseUrl)
+	buses, err := service.GetBusesInservice(wimbBaseUrl)
 	if err != nil {
-		fmt.Println("BusesinserviceHandler error: ", err)
-		w.Write([]byte("BusesinserviceHandler error: " + err.Error()))
+		http.Error(w, "BusesinserviceHandler error: "+err.Error(), http.StatusBadGateway)
+		return
 	}
-	var busesRaw busesinservice.BusesRaw
-	json.NewDecoder(response.Body).Decode(&busesRaw)
 
-	buses := service.FixBusesinservice(busesRaw)
-
-	//Set headers
 	w.Header().Set("Content-Type", "application/json")
-	w.WriteHeader(response.StatusCode)
 
-	//Parses response back to JSON and returns it to client
-	json.NewEncoder(w).Encode(buses)
+	if err := json.NewEncoder(w).Encode(buses); err != nil {
+		fmt.Println("BusesinserviceHandler JSON error:", err)
+	}
 }
 
 // GET /vehicleinfo/{id}
 // Searches for requested vehicle on /busesinservice response
 func VehicleinfoHandler(w http.ResponseWriter, r *http.Request) {
 	id := r.PathValue("id")
-	response, err := http.Get("http://localhost" + config.PORT + "/busesinservice")
+
+	buses, err := service.GetBusesInservice(wimbBaseUrl)
 	if err != nil {
-		fmt.Println("VehicleinfoHandler error: ", err)
-		w.Write([]byte("VehicleinfoHandler error: " + err.Error()))
+		http.Error(w, "VehicleinfoHandler error: "+err.Error(), http.StatusBadGateway)
+		return
 	}
-	var buses busesinservice.Buses
-	json.NewDecoder(response.Body).Decode(&buses)
 
-	for idx, val := range buses.Buses {
-		if val.Vehicle == id {
-			//Set headers
+	for _, bus := range buses.Buses {
+		if bus.Vehicle == id {
 			w.Header().Set("Content-Type", "application/json")
-			w.WriteHeader(response.StatusCode)
 
-			//Parses response back to JSON and returns it to client
-			json.NewEncoder(w).Encode(buses.Buses[idx])
+			if err := json.NewEncoder(w).Encode(bus); err != nil {
+				fmt.Println("VehicleinfoHandler JSON error:", err)
+			}
+
 			return
 		}
 	}
-	//Vehicle not found
-	w.WriteHeader(404)
-	w.Write([]byte("Vehicle not found."))
+
+	http.Error(w, "Vehicle not found.", http.StatusNotFound)
 }
 
 // GET /linelist
