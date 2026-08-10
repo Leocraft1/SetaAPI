@@ -6,4 +6,22 @@ type LineeRC struct {
 	Disp_linea *string `db:"disp_linea"`
 	Disp_dest *string `db:"disp_dest"`
 	Desc *string `db:"desc"`
+	Still_exists int `db:"still_exists"`
+}
+
+type RLResponse struct {
+	List []RouteListElement `json:"lines"`
+}
+
+type RouteListElement struct {
+	Line string `json:"line"`
+	Route_codes []RCEntry `json:"route_codes"`
+}
+
+type RCEntry struct {
+	Rc string `json:"route_code"`
+	Desc *string `json:"description"`
+	Disp_line *string `json:"display_line"`
+	Disp_dest *string `json:"display_destination"`
+	Exists int `json:"exists"`
 }

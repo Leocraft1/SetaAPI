@@ -1,4 +1,4 @@
-package routeproblems
+package model
 
 type Problem struct {
 	Num         string `json:"num"`
@@ -7,5 +7,5 @@ type Problem struct {
 }
 
 type ProblemCodesResponse struct {
-	Problem []Problem `json:"codes"`
+	Problems []Problem `json:"lines"`
 }

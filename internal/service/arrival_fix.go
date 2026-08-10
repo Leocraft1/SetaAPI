@@ -2,13 +2,13 @@ package service
 
 import (
 	"fmt"
-	"setaapi/internal/model/arrivals"
+	"setaapi/internal/model"
 	"strconv"
 	"strings"
 )
 
 // TODO: add news support when implemented
-func FixArrivals(raw arrivals.ArrivalRaw) arrivals.Arrival {
+func FixArrivals(raw model.ArrivalRaw) model.Arrival {
 	var out = parseArrivals(raw)
 
 	//Filters planned and realtime routes duplication (vibe-coded because couldn't figure out how)
@@ -21,7 +21,7 @@ func FixArrivals(raw arrivals.ArrivalRaw) arrivals.Arrival {
 	}
 
 	// Step 2: filtra
-	filtered := make([]arrivals.Service, 0, len(out.Arrival.Services))
+	filtered := make([]model.Service, 0, len(out.Arrival.Services))
 	for _, s := range out.Arrival.Services {
 		if s.State == "realtime" {
 			filtered = append(filtered, s)
@@ -32,7 +32,7 @@ func FixArrivals(raw arrivals.ArrivalRaw) arrivals.Arrival {
 
 	//Calculates delay
 	// Step 1: mappa le corse "planned" per Route_code
-	plannedByRouteCode := make(map[string]arrivals.Service)
+	plannedByRouteCode := make(map[string]model.Service)
 	for _, s := range out.Arrival.Services {
 		if s.State == "planned" {
 			plannedByRouteCode[s.Journey_code] = s
@@ -75,10 +75,10 @@ func FixArrivals(raw arrivals.ArrivalRaw) arrivals.Arrival {
 // ---------------------
 // - PRIVATE FUNCTIONS -
 // ---------------------
-func parseArrivals(from arrivals.ArrivalRaw) arrivals.Arrival {
-	var services []arrivals.ServiceRaw = from.Arrival.Services
-	var parsed []arrivals.Service
-	var out arrivals.Arrival
+func parseArrivals(from model.ArrivalRaw) model.Arrival {
+	var services []model.ServiceRaw = from.Arrival.Services
+	var parsed []model.Service
+	var out model.Arrival
 
 	for _, val := range services {
 		//Parses using ToDomain (model package)

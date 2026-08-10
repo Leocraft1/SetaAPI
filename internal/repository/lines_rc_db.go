@@ -22,3 +22,12 @@ func GetRoutesDistinct() []string {
 	}
 	return result
 }
+
+func GetRCTable() []model.LineeRC {
+	var result []model.LineeRC
+	err := DB_CONTENT.Select(&result, "SELECT * FROM linee_rc")
+	if err != nil {
+		fmt.Println("[GetRouteCodes] Errore di lettura db:", err)
+	}
+	return result
+}

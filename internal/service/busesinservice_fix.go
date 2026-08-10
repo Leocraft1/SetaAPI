@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 	"regexp"
-	"setaapi/internal/model/busesinservice"
+	"setaapi/internal/model"
 	"setaapi/internal/repository"
 	"sort"
 	"strconv"
@@ -12,24 +12,24 @@ import (
 	"unicode"
 )
 
-func GetBusesInservice(url string) (busesinservice.Buses, error) {
+func GetBusesInservice(url string) (model.Buses, error) {
 	response, err := http.Get(url)
 	if err != nil {
-		return busesinservice.Buses{}, err
+		return model.Buses{}, err
 	}
 	defer response.Body.Close()
 
-	var raw busesinservice.BusesRaw
+	var raw model.BusesRaw
 
 	if err := json.NewDecoder(response.Body).Decode(&raw); err != nil {
-		return busesinservice.Buses{}, err
+		return model.Buses{}, err
 	}
 
 	return FixBusesinservice(raw), nil
 }
 
 // TODO: add news support when implemented
-func FixBusesinservice(raw busesinservice.BusesRaw) busesinservice.Buses {
+func FixBusesinservice(raw model.BusesRaw) model.Buses {
 	var out = parseBuses(raw)
 
 	//Sorts buses
@@ -49,10 +49,10 @@ func FixBusesinservice(raw busesinservice.BusesRaw) busesinservice.Buses {
 // ---------------------
 // - PRIVATE FUNCTIONS -
 // ---------------------
-func parseBuses(from busesinservice.BusesRaw) busesinservice.Buses {
-	var buses []busesinservice.BusRaw = from.Properties
-	var parsed []busesinservice.Bus
-	var out busesinservice.Buses
+func parseBuses(from model.BusesRaw) model.Buses {
+	var buses []model.BusRaw = from.Properties
+	var parsed []model.Bus
+	var out model.Buses
 
 	for _, val := range buses {
 		//Parses using ToDomain (model package)
@@ -63,7 +63,7 @@ func parseBuses(from busesinservice.BusesRaw) busesinservice.Buses {
 	return out
 }
 
-func sortBusesByLine(buses []busesinservice.Bus) []busesinservice.Bus {
+func sortBusesByLine(buses []model.Bus) []model.Bus {
 	sort.SliceStable(buses, func(i, j int) bool {
 		numI := extractLineNumber(buses[i].Line)
 		numJ := extractLineNumber(buses[j].Line)
@@ -73,8 +73,8 @@ func sortBusesByLine(buses []busesinservice.Bus) []busesinservice.Bus {
 		return buses[i].Line < buses[j].Line
 	})
 
-	numeric := make([]busesinservice.Bus, 0, len(buses))
-	letters := make([]busesinservice.Bus, 0)
+	numeric := make([]model.Bus, 0, len(buses))
+	letters := make([]model.Bus, 0)
 
 	for _, b := range buses {
 		if len(b.Line) > 0 && unicode.IsLetter(rune(b.Line[0])) {
@@ -101,7 +101,7 @@ func extractLineNumber(line string) int {
 	return num
 }
 
-func fixModelAndRamp(bus *busesinservice.Bus) {
+func fixModelAndRamp(bus *model.Bus) {
 	model, ramp := repository.GetModelRampByCode(bus.Vehicle)
 	if model != nil && *model != "" {
 		bus.Model = *model
@@ -111,7 +111,7 @@ func fixModelAndRamp(bus *busesinservice.Bus) {
 	}
 }
 
-func fixPlate(bus *busesinservice.Bus) {
+func fixPlate(bus *model.Bus) {
 	targafix := strings.TrimSpace(bus.Plate_num)
 	bus.Plate_num = targafix
 }

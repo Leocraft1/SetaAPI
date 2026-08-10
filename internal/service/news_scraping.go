@@ -3,34 +3,24 @@ package service
 import (
 	"io"
 	"net/http"
-	"setaapi/internal/model/news"
+	"setaapi/internal/model"
 	"strings"
 
 	"github.com/PuerkitoBio/goquery"
 )
 
-func GetAllNews(url string) (news.AllNewsResponse, error) {
-	response, err := http.Get(url)
-	if err != nil {
-		return news.AllNewsResponse{}, err
-	}
-	defer response.Body.Close()
-
-	return scrapeAllNews(response.Body)
-}
-
-func scrapeAllNews(r io.Reader) (news.AllNewsResponse, error) {
+func ScrapeAllNews(r io.Reader) (model.AllNewsResponse, error) {
 	doc, err := goquery.NewDocumentFromReader(r)
 	if err != nil {
-		return news.AllNewsResponse{}, err
+		return model.AllNewsResponse{}, err
 	}
 
-	result := news.AllNewsResponse{
-		News: []news.AllNews{},
+	result := model.AllNewsResponse{
+		News: []model.AllNews{},
 	}
 
 	doc.Find(".news li div div a").Each(func(i int, s *goquery.Selection) {
-		item := news.AllNews{
+		item := model.AllNews{
 			Title: strings.TrimSpace(s.Find(".title").Text()),
 			Date:  strings.TrimSpace(s.Find(".date-title").Text()),
 		}
@@ -82,30 +72,30 @@ func scrapeAllNews(r io.Reader) (news.AllNewsResponse, error) {
 	return result, nil
 }
 
-func GetNews(url string) (news.News, error) {
+func GetNews(url string) (model.News, error) {
 	response, err := http.Get(url)
 	if err != nil {
-		return news.News{}, err
+		return model.News{}, err
 	}
 	defer response.Body.Close()
 
 	return scrapeNews(response.Body)
 }
 
-func scrapeNews(r io.Reader) (news.News, error) {
+func scrapeNews(r io.Reader) (model.News, error) {
 	doc, err := goquery.NewDocumentFromReader(r)
 	if err != nil {
-		return news.News{}, err
+		return model.News{}, err
 	}
 
 	content, err := doc.Find(".descrizione").Html()
 	if err != nil {
-		return news.News{}, err
+		return model.News{}, err
 	}
 
 	content = strings.TrimSpace(content)
 
-	result := news.News{
+	result := model.News{
 		Title:   strings.TrimSpace(doc.Find(".container-title").Text()),
 		Date:    strings.TrimSpace(doc.Find(".container-date-title").Text()),
 		Content: content,

@@ -1,4 +1,4 @@
-package news
+package model
 
 type AllNews struct {
 	Title string `json:"title"`

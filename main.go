@@ -22,12 +22,13 @@ func main() {
 	mux.HandleFunc("GET /linelist", handler.LinelistHandler)
 	mux.HandleFunc("GET /modelslist", handler.ModelslistHandler)
 	mux.HandleFunc("GET /stoplist", handler.StoplistHandler)
+	mux.HandleFunc("GET /routecodes", handler.RoutecodesHandler)
 	//TODO /routestops/{id}
 	mux.HandleFunc("GET /nextstops/{id}", handler.NextstopsHandler)
 	mux.HandleFunc("GET /allnews", handler.AllnewsHandler)
 	mux.HandleFunc("GET /news", handler.NewsHandler)
-	mux.HandleFunc("GET /routeproblems", handler.RouteproblemsHandler)
-	mux.HandleFunc("GET /routeproblems/{id}", handler.RouteproblemHandler)
+	mux.HandleFunc("GET /lineproblems", handler.LineproblemsHandler)
+	mux.HandleFunc("GET /lineproblems/{id}", handler.LineproblemHandler)
 
 	//Listen on port and start API
 	fmt.Println("Server started on port " + config.PORT)

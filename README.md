@@ -6,19 +6,19 @@ It operates at:
 
 - `/arrivals/{id}` where id is the id of the stop you want. [COMPLETE, missing news and aep support]
 - `/busesinservice` list of all buses operating. [COMPLETE, missing news, aep support and periodic run to save stops (missing INSERTs)]
-- `/vehicleinfo/:id` where id is the id of the vehicle you want the informations of, it needs to be operating. [COMPLETE]
+- `/vehicleinfo/{id}` where id is the id of the vehicle you want the informations of, it needs to be operating. [COMPLETE]
 - `/lineslist` list of all lines. [COMPLETE]
 - `/modelslist` list of all bus models. [COMPLETE]
 - `/stoplist` list of bus stops. [COMPLETE]
-- `/routecodes` list of route codes.
-- `/routestops/:id` where id is the route code you want to obtain the stops of.
-- `/nextstops/:id` where id is the journey code of the shift you want to obtain the remaining stops of. [COMPLETE]
+- `/routecodes` list of route codes, descriptions, display lines and destination grouped by line number. [COMPLETE]
+- `/routestops/{id}` where id is the route code you want to obtain the stops of.
+- `/nextstops/{id}` where id is the journey code of the shift you want to obtain the remaining stops of. [COMPLETE]
 - `/allnews` to get all the news. [COMPLETE]
 - `/news?link=[news link]` to get the content of the selected news. [COMPLETE]
-- `/routeproblems` list of all route problems. [COMPLETE]
-- `/routeproblems/:id` where id is the num of the route you want to know the problems of. [COMPLETE]
+- `/lineproblems` list of all route problems. [COMPLETE]
+- `/lineproblems/{id}` where id is the num of the route you want to know the problems of. [COMPLETE]
 - `/timetable` **TODO** needs to be completely redone
-- `/routemap/:id` where id is the id of the route (only the last part) you want the map of.
+- `/routemap/{id}` where id is the id of the route (only the last part) you want the map of.
 
 ## Setup
 
@@ -54,7 +54,7 @@ To obtain up to date data you can reach out to <info.ertpl@protonmail.com> askin
 You'll need to create a user that can access the database and you need to grant it following privileges:
 
 - `SELECT` on `ertpl_mezzi`
-- `SELECT` and `INSERT` on `seta_api_content`
+- `SELECT` on `seta_api_content`
 
 If you don't know how to create a user or run into some access denied issue here's the syntax:
 

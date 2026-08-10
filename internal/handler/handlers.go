@@ -5,8 +5,7 @@ import (
 	"fmt"
 	"io"
 	"net/http"
-	"setaapi/internal/model/arrivals"
-	"setaapi/internal/model/routeproblems"
+	"setaapi/internal/model"
 	"setaapi/internal/service"
 	"strconv"
 )
@@ -38,7 +37,7 @@ func ArrivalsHandler(w http.ResponseWriter, r *http.Request) {
 	}
 
 	//Parses response into struct
-	var arrivalsRaw arrivals.ArrivalRaw
+	var arrivalsRaw model.ArrivalRaw
 	json.NewDecoder(response.Body).Decode(&arrivalsRaw)
 
 	//Fixes incorrect stuff/add parameters
@@ -60,11 +59,10 @@ func BusesinserviceHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
+	//Set headers
 	w.Header().Set("Content-Type", "application/json")
 
-	if err := json.NewEncoder(w).Encode(buses); err != nil {
-		fmt.Println("BusesinserviceHandler JSON error:", err)
-	}
+	json.NewEncoder(w).Encode(buses)
 }
 
 // GET /vehicleinfo/{id}
@@ -78,14 +76,10 @@ func VehicleinfoHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
+	w.Header().Set("Content-Type", "application/json")
 	for _, bus := range buses.Buses {
 		if bus.Vehicle == id {
-			w.Header().Set("Content-Type", "application/json")
-
-			if err := json.NewEncoder(w).Encode(bus); err != nil {
-				fmt.Println("VehicleinfoHandler JSON error:", err)
-			}
-
+			json.NewEncoder(w).Encode(bus)
 			return
 		}
 	}
@@ -100,7 +94,6 @@ func LinelistHandler(w http.ResponseWriter, r *http.Request) {
 	//Set headers
 	w.Header().Set("Content-Type", "application/json")
 
-	//Parses response back to JSON and returns it to client
 	json.NewEncoder(w).Encode(nums)
 }
 
@@ -111,7 +104,6 @@ func ModelslistHandler(w http.ResponseWriter, r *http.Request) {
 	//Set headers
 	w.Header().Set("Content-Type", "application/json")
 
-	//Parses response back to JSON and returns it to client
 	json.NewEncoder(w).Encode(nums)
 }
 
@@ -122,8 +114,17 @@ func StoplistHandler(w http.ResponseWriter, r *http.Request) {
 	//Set headers
 	w.Header().Set("Content-Type", "application/json")
 
-	//Parses response back to JSON and returns it to client
 	json.NewEncoder(w).Encode(stops)
+}
+
+// GET /routecodes
+func RoutecodesHandler(w http.ResponseWriter, r *http.Request) {
+	routelist := service.GetRoutecodes()
+
+	//Set headers
+	w.Header().Set("Content-Type", "application/json")
+
+	json.NewEncoder(w).Encode(routelist)
 }
 
 //TODO GET /routestops/{id}
@@ -144,81 +145,81 @@ func NextstopsHandler(w http.ResponseWriter, r *http.Request) {
 	//Set headers
 	w.Header().Set("Content-Type", "application/json")
 
-	//Parses response back to JSON and returns it to client
 	w.Write(body)
 }
 
 // GET /allnews
-// Collects all the news scraped from SETA's website
 func AllnewsHandler(w http.ResponseWriter, r *http.Request) {
-	w.Header().Set("Content-Type", "application/json")
-
-	result, err := service.GetAllNews(newsUrl)
+	response, err := http.Get(newsUrl)
 	if err != nil {
 		http.Error(w, "AllnewsHandler error: "+err.Error(), http.StatusBadGateway)
 		return
 	}
 
-	if err := json.NewEncoder(w).Encode(result); err != nil {
-		fmt.Println("AllnewsHandler JSON error:", err)
+	result, err := service.ScrapeAllNews(response.Body)
+	if err != nil {
+		http.Error(w, "AllnewsHandler error: "+err.Error(), http.StatusInternalServerError)
+		return
 	}
+	w.Header().Set("Content-Type", "application/json")
+
+	json.NewEncoder(w).Encode(result)
 }
 
-// GET /news
-// Scrapes the news page given by the URI link parameter
+// GET /news?link=
 func NewsHandler(w http.ResponseWriter, r *http.Request) {
 	link := r.URL.Query().Get("link")
 
+	//Verifies if link parameter exists
 	if link == "" {
-		http.Error(w, "missing link parameter", http.StatusBadRequest)
+		http.Error(w, "Missing link parameter", http.StatusBadRequest)
 		return
 	}
-
-	w.Header().Set("Content-Type", "application/json")
 
 	result, err := service.GetNews(link)
 	if err != nil {
 		http.Error(w, "NewsHandler error: "+err.Error(), http.StatusBadGateway)
 		return
 	}
-
-	if err := json.NewEncoder(w).Encode(result); err != nil {
-		fmt.Println("NewsHandler JSON error:", err)
-	}
-}
-
-// GET /routeproblems
-// Collects all the route problems scraped from SETA's website page
-func RouteproblemsHandler(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 
-	problems, err := service.GetRouteProblems(lineeDynUrl)
+	json.NewEncoder(w).Encode(result)
+}
+
+// GET /lineproblems
+func LineproblemsHandler(w http.ResponseWriter, r *http.Request) {
+	raw, err := http.Get(lineeDynUrl)
 	if err != nil {
 		http.Error(w, "RouteproblemsHandler error: "+err.Error(), http.StatusBadGateway)
 		return
 	}
-
-	response := routeproblems.ProblemCodesResponse{
-		Problem: problems,
+	problems, err:= service.ScrapeRouteProblems(raw.Body)
+	if err != nil {
+		http.Error(w, "RouteproblemsHandler error: "+err.Error(), http.StatusInternalServerError)
+		return
 	}
 
-	w.WriteHeader(http.StatusOK)
-
-	if err := json.NewEncoder(w).Encode(response); err != nil {
-		fmt.Println("RouteproblemsHandler JSON error:", err)
+	response := model.ProblemCodesResponse{
+		Problems: problems,
 	}
-}
-
-// GET /routeproblems/{id}
-// Collects the news from the given route scraped from SETA's website page
-func RouteproblemHandler(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 
+	json.NewEncoder(w).Encode(response)
+}
+
+// GET /lineproblems/{id}
+func LineproblemHandler(w http.ResponseWriter, r *http.Request) {
 	route := r.PathValue("id")
 
-	problems, err := service.GetRouteProblems(lineeDynUrl)
+	raw, err := http.Get(lineeDynUrl)
 	if err != nil {
-		http.Error(w, "RouteproblemHandler error: "+err.Error(), http.StatusBadGateway)
+		http.Error(w, "RouteproblemsHandler error: "+err.Error(), http.StatusBadGateway)
+		return
+	}
+	
+	problems, err:= service.ScrapeRouteProblems(raw.Body)
+	if err != nil {
+		http.Error(w, "RouteproblemsHandler error: "+err.Error(), http.StatusInternalServerError)
 		return
 	}
 
@@ -226,13 +227,10 @@ func RouteproblemHandler(w http.ResponseWriter, r *http.Request) {
 
 	news, err := service.ScrapeRouteNews(lineeNewsUrl + strconv.Itoa(siteCode))
 	if err != nil {
-		http.Error(w, "RouteproblemHandler error: "+err.Error(), http.StatusBadGateway)
+		http.Error(w, "RouteproblemHandler error: "+err.Error(), http.StatusInternalServerError)
 		return
 	}
+	w.Header().Set("Content-Type", "application/json")
 
-	w.WriteHeader(http.StatusOK)
-
-	if err := json.NewEncoder(w).Encode(news); err != nil {
-		fmt.Println("RouteproblemHandler JSON error:", err)
-	}
+	json.NewEncoder(w).Encode(news)
 }
