@@ -152,17 +152,16 @@ func NextstopsHandler(w http.ResponseWriter, r *http.Request) {
 // Collects all the news scraped from SETA's website
 func AllnewsHandler(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
-	response, err := http.Get(newsUrl)
+
+	result, err := service.GetAllNews(newsUrl)
 	if err != nil {
-		fmt.Println("AllnewsHandler error: ", err)
-		w.Write([]byte("AllnewsHandler error: " + err.Error()))
+		http.Error(w, "AllnewsHandler error: "+err.Error(), http.StatusBadGateway)
+		return
 	}
 
-	defer response.Body.Close()
-
-	w.WriteHeader(response.StatusCode)
-
-	service.Scrapeallnews(response.Body, w)
+	if err := json.NewEncoder(w).Encode(result); err != nil {
+		fmt.Println("AllnewsHandler JSON error:", err)
+	}
 }
 
 // GET /news
@@ -177,17 +176,15 @@ func NewsHandler(w http.ResponseWriter, r *http.Request) {
 
 	w.Header().Set("Content-Type", "application/json")
 
-	response, err := http.Get(link)
+	result, err := service.GetNews(link)
 	if err != nil {
-		fmt.Println("NewsHandler error: ", err)
-		w.Write([]byte("NewsHandler error: " + err.Error()))
+		http.Error(w, "NewsHandler error: "+err.Error(), http.StatusBadGateway)
+		return
 	}
 
-	defer response.Body.Close()
-
-	w.WriteHeader(response.StatusCode)
-
-	service.Scrapenews(response.Body, w)
+	if err := json.NewEncoder(w).Encode(result); err != nil {
+		fmt.Println("NewsHandler JSON error:", err)
+	}
 }
 
 // GET /routeproblems

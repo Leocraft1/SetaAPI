@@ -1,22 +1,28 @@
 package service
 
 import (
-	"encoding/json"
-	"fmt"
 	"io"
+	"net/http"
 	"setaapi/internal/model/news"
 	"strings"
 
 	"github.com/PuerkitoBio/goquery"
 )
 
-func Scrapeallnews(r io.ReadCloser, w io.Writer) {
-	defer r.Close()
+func GetAllNews(url string) (news.AllNewsResponse, error) {
+	response, err := http.Get(url)
+	if err != nil {
+		return news.AllNewsResponse{}, err
+	}
+	defer response.Body.Close()
 
+	return scrapeAllNews(response.Body)
+}
+
+func scrapeAllNews(r io.Reader) (news.AllNewsResponse, error) {
 	doc, err := goquery.NewDocumentFromReader(r)
 	if err != nil {
-		fmt.Println("Scrapeallnews error:", err)
-		return
+		return news.AllNewsResponse{}, err
 	}
 
 	result := news.AllNewsResponse{
@@ -24,73 +30,79 @@ func Scrapeallnews(r io.ReadCloser, w io.Writer) {
 	}
 
 	doc.Find(".news li div div a").Each(func(i int, s *goquery.Selection) {
-		news := news.AllNews{
+		item := news.AllNews{
 			Title: strings.TrimSpace(s.Find(".title").Text()),
 			Date:  strings.TrimSpace(s.Find(".date-title").Text()),
 		}
 
 		if link, ok := s.Attr("href"); ok {
-			news.Link = strings.TrimSpace(link)
+			item.Link = strings.TrimSpace(link)
 		}
 
 		if image, ok := s.Find(".image-news").Attr("data-bg"); ok {
 			switch {
 			case strings.Contains(image, "pericolo.png"):
-				news.Type = "Importante"
+				item.Type = "Importante"
 
 			case strings.Contains(image, "seta-informa.png"):
-				news.Type = "Informazione"
+				item.Type = "Informazione"
 
 			case strings.Contains(image, "novita.png"):
-				news.Type = "Novità"
+				item.Type = "Novità"
 
 			case strings.Contains(image, "orari.png"):
-				news.Type = "Orari"
+				item.Type = "Orari"
 
 			case strings.Contains(image, "autobus-treno.png"):
-				news.Type = "Autobus Treno"
+				item.Type = "Autobus Treno"
 
 			case strings.Contains(image, "tessera.png"):
-				news.Type = "Biglietti"
+				item.Type = "Biglietti"
 
 			case strings.Contains(image, "lavori-in-corso.png"):
-				news.Type = "Lavori in corso"
+				item.Type = "Lavori in corso"
 
 			case strings.Contains(image, "controllore.png"):
-				news.Type = "Personale"
+				item.Type = "Personale"
 
 			case strings.Contains(image, "salvadanaio.png"):
-				news.Type = "Agevolazioni"
+				item.Type = "Agevolazioni"
 
 			case strings.Contains(image, "abbonamento.png"):
-				news.Type = "Abbonamenti"
+				item.Type = "Abbonamenti"
 
 			case strings.Contains(image, "scuola.png"):
-				news.Type = "Scuola"
+				item.Type = "Scuola"
 			}
 		}
 
-		result.News = append(result.News, news)
+		result.News = append(result.News, item)
 	})
 
-	encoder := json.NewEncoder(w)
-	encoder.SetEscapeHTML(false)
-
-	if err := encoder.Encode(result); err != nil {
-		fmt.Println("Scrapeallnews JSON error:", err)
-	}
+	return result, nil
 }
 
-func Scrapenews(r io.ReadCloser, w io.Writer) {
-	defer r.Close()
+func GetNews(url string) (news.News, error) {
+	response, err := http.Get(url)
+	if err != nil {
+		return news.News{}, err
+	}
+	defer response.Body.Close()
 
+	return scrapeNews(response.Body)
+}
+
+func scrapeNews(r io.Reader) (news.News, error) {
 	doc, err := goquery.NewDocumentFromReader(r)
 	if err != nil {
-		fmt.Println("Scrapenews error:", err)
-		return
+		return news.News{}, err
 	}
 
-	content, _ := doc.Find(".descrizione").Html()
+	content, err := doc.Find(".descrizione").Html()
+	if err != nil {
+		return news.News{}, err
+	}
+
 	content = strings.TrimSpace(content)
 
 	result := news.News{
@@ -99,10 +111,5 @@ func Scrapenews(r io.ReadCloser, w io.Writer) {
 		Content: content,
 	}
 
-	encoder := json.NewEncoder(w)
-	encoder.SetEscapeHTML(false)
-
-	if err := encoder.Encode(result); err != nil {
-		fmt.Println("Scrapenews JSON error:", err)
-	}
+	return result, nil
 }
