@@ -4,7 +4,7 @@ type AllNews struct {
 	Title string `json:"title"`
 	Date  string `json:"date"`
 	Link  string `json:"link"`
-	Type  string `json:"type"`
+	Type  string `json:"type,omitempty"`
 }
 
 type AllNewsResponse struct {
