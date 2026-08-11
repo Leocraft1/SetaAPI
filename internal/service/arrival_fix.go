@@ -8,7 +8,7 @@ import (
 )
 
 // TODO: add news support when implemented
-func FixArrivals(raw model.ArrivalRaw) model.Arrival {
+func FixArrivals(raw model.ArrivalRaw, problems model.ProblemCodesResponse) model.Arrival {
 	var out = parseArrivals(raw)
 
 	//Filters planned and realtime routes duplication (vibe-coded because couldn't figure out how)
@@ -67,6 +67,21 @@ func FixArrivals(raw model.ArrivalRaw) model.Arrival {
 
 		addOfficialLine(&val.LineInfo)
 		fixLineInfo(&val.LineInfo)
+		
+	}
+
+	//News section
+	for idx1 := range out.Arrival.Services {
+		val1 := &out.Arrival.Services[idx1]
+		for _, val2 := range problems.Problems {
+			if val1.Official_line == val2.Num && val2.HasProblems {
+				val1.Has_problems = true
+				break
+			}else if val1.Official_line == val2.Num && !val2.HasProblems {
+				//If there is no problems break the cycle
+				break
+			}
+		}
 	}
 
 	return out
@@ -90,29 +105,29 @@ func parseArrivals(from model.ArrivalRaw) model.Arrival {
 }
 
 func computeDelay(plannedTime, realtimeTime string) (int, error) {
-    pMinutes, err := timeStringToMinutes(plannedTime)
-    if err != nil {
-        return 0, err
-    }
-    rMinutes, err := timeStringToMinutes(realtimeTime)
-    if err != nil {
-        return 0, err
-    }
-    return rMinutes - pMinutes, nil
+	pMinutes, err := timeStringToMinutes(plannedTime)
+	if err != nil {
+		return 0, err
+	}
+	rMinutes, err := timeStringToMinutes(realtimeTime)
+	if err != nil {
+		return 0, err
+	}
+	return rMinutes - pMinutes, nil
 }
 
 func timeStringToMinutes(t string) (int, error) {
-    parts := strings.Split(t, ":")
-    if len(parts) != 2 {
-        return 0, fmt.Errorf("formato orario non valido: %s", t)
-    }
-    hours, err := strconv.Atoi(parts[0])
-    if err != nil {
-        return 0, err
-    }
-    minutes, err := strconv.Atoi(parts[1])
-    if err != nil {
-        return 0, err
-    }
-    return hours*60 + minutes, nil
+	parts := strings.Split(t, ":")
+	if len(parts) != 2 {
+		return 0, fmt.Errorf("formato orario non valido: %s", t)
+	}
+	hours, err := strconv.Atoi(parts[0])
+	if err != nil {
+		return 0, err
+	}
+	minutes, err := strconv.Atoi(parts[1])
+	if err != nil {
+		return 0, err
+	}
+	return hours*60 + minutes, nil
 }

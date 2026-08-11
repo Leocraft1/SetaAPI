@@ -4,8 +4,8 @@ This api interfaces with SETA's servers and corrects information via database to
 
 It operates at:
 
-- `/arrivals/{id}` where id is the id of the stop you want. [COMPLETE, missing news and aep support]
-- `/busesinservice` list of all buses operating. [COMPLETE, missing news, aep support and periodic run to save stops (missing INSERTs)]
+- `/arrivals/{id}` where id is the id of the stop you want. [COMPLETE]
+- `/busesinservice` list of all buses operating. [COMPLETE]
 - `/vehicleinfo/{id}` where id is the id of the vehicle you want the informations of, it needs to be operating. [COMPLETE]
 - `/lineslist` list of all lines. [COMPLETE]
 - `/modelslist` list of all bus models. [COMPLETE]
@@ -19,6 +19,8 @@ It operates at:
 - `/lineproblems/{id}` where id is the num of the route you want to know the problems of. [COMPLETE]
 - `/timetable` **TODO** needs to be completely redone [COMPLETE, missing DB INSERTs]
 - `/routemap/{id}` where id is the id of the route (only the last part) you want the map of.
+
+[MISSING ALL INSERT TASKS]
 
 ## Setup
 

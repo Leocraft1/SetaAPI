@@ -19,7 +19,6 @@ type Service struct {
 	Passenger_number *int    `json:"passenger_number"`
 	Next_stop        *string `json:"next_stop"`
 	Has_problems     bool    `json:"has_problems"`
-	Official_line    string  `json:"official_line"`
 	Delay            *int    `json:"delay"`
 }
 

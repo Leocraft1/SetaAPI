@@ -2,8 +2,10 @@ package service
 
 import (
 	"encoding/json"
+	"fmt"
 	"net/http"
 	"regexp"
+	"setaapi/config"
 	"setaapi/internal/model"
 	"setaapi/internal/repository"
 	"sort"
@@ -17,7 +19,23 @@ func GetBusesInservice(url string) (model.Buses, error) {
 	if err != nil {
 		return model.Buses{}, err
 	}
-	defer response.Body.Close()
+	//News section
+	problemsRaw, err := http.Get("http://localhost" + config.PORT + "/lineproblems")
+	if err != nil {
+		fmt.Println("ArrivalsHandler error: ", err)
+		return model.Buses{}, err
+	}
+
+	var problems model.ProblemCodesResponse
+	json.NewDecoder(problemsRaw.Body).Decode(&problems)
+
+	//AEP support
+	aepRaw := repository.GetAEP()
+	//Builds map
+	var aepMap = make(map[int]bool)
+	for _, val := range aepRaw {
+		aepMap[val.Matricola] = val.Has_aep
+	}
 
 	var raw model.BusesRaw
 
@@ -25,11 +43,11 @@ func GetBusesInservice(url string) (model.Buses, error) {
 		return model.Buses{}, err
 	}
 
-	return FixBusesinservice(raw), nil
+	return FixBusesinservice(raw, problems, aepMap), nil
 }
 
 // TODO: add news support when implemented
-func FixBusesinservice(raw model.BusesRaw) model.Buses {
+func FixBusesinservice(raw model.BusesRaw, problems model.ProblemCodesResponse, aep map[int]bool) model.Buses {
 	var out = parseBuses(raw)
 
 	//Sorts buses
@@ -41,6 +59,22 @@ func FixBusesinservice(raw model.BusesRaw) model.Buses {
 		fixLineInfo(&val.LineInfo)
 		fixModelAndRamp(val)
 		fixPlate(val)
+		vehicleInt, _ := strconv.ParseInt(val.Vehicle, 0, 64)
+		val.Has_AEP = aep[int(vehicleInt)]
+	}
+
+	//News section
+	for idx1 := range out.Buses {
+		val1 := &out.Buses[idx1]
+		for _, val2 := range problems.Problems {
+			if val1.Official_line == val2.Num && val2.HasProblems {
+				val1.Has_problems = true
+				break
+			} else if val1.Official_line == val2.Num && !val2.HasProblems {
+				//If there is no problems break the cycle
+				break
+			}
+		}
 	}
 
 	return out

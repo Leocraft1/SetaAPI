@@ -6,6 +6,7 @@ import (
 	"io"
 	"net/http"
 	"net/url"
+	"setaapi/config"
 	"setaapi/internal/model"
 	"setaapi/internal/service"
 	"strconv"
@@ -33,7 +34,7 @@ func ArrivalsHandler(w http.ResponseWriter, r *http.Request) {
 	stopId := r.PathValue("id")
 	response, err := http.Get(arrivalsBaseUrl + stopId)
 
-	//Checks for connection errors and (TODO) HTTP code
+	//Checks for connection errors
 	if err != nil {
 		fmt.Println("ArrivalsHandler error: ", err)
 		w.Write([]byte("ArrivalsHandler error: " + err.Error()))
@@ -43,8 +44,18 @@ func ArrivalsHandler(w http.ResponseWriter, r *http.Request) {
 	var arrivalsRaw model.ArrivalRaw
 	json.NewDecoder(response.Body).Decode(&arrivalsRaw)
 
+	//News section
+	problemsRaw, err := http.Get("http://localhost"+config.PORT+"/lineproblems")
+	if err != nil {
+		fmt.Println("ArrivalsHandler error: ", err)
+		w.Write([]byte("ArrivalsHandler error: " + err.Error()))
+	}
+
+	var problems model.ProblemCodesResponse
+	json.NewDecoder(problemsRaw.Body).Decode(&problems)
+
 	//Fixes incorrect stuff/add parameters
-	arrivals := service.FixArrivals(arrivalsRaw)
+	arrivals := service.FixArrivals(arrivalsRaw, problems)
 
 	//Set headers
 	w.Header().Set("Content-Type", "application/json")

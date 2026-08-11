@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"errors"
 	"fmt"
-	"slices"
+	"setaapi/internal/model"
 )
 
 type query1Result struct {
@@ -27,11 +27,19 @@ func GetModelRampByCode(code string) (*string, *int) {
 
 func GetModelsDistinct() []string {
 	var result []string
-	err := DB_MEZZI.Select(&result, "SELECT DISTINCT modello FROM mezzi_seta")
+	err := DB_MEZZI.Select(&result, "SELECT DISTINCT modello FROM mezzi_seta ORDER BY modello")
 	if err != nil {
 		fmt.Println("[GetModelsDistinct] Errore di lettura db: ", err)
 	}
-	//Sorts alphabetically
-	slices.Sort(result)
+	return result
+}
+
+func GetAEP() []model.HasAEP {
+	var result []model.HasAEP
+	err := DB_MEZZI.Select(&result, "SELECT matricola, has_aep FROM mezzi_seta")
+	if err != nil {
+		fmt.Println("[GetModelsDistinct] Errore di lettura db: ", err)
+	}
+
 	return result
 }
