@@ -5,9 +5,11 @@ import (
 	"fmt"
 	"io"
 	"net/http"
+	"net/url"
 	"setaapi/internal/model"
 	"setaapi/internal/service"
 	"strconv"
+	"time"
 )
 
 // URLs decl. section
@@ -17,6 +19,7 @@ var nextstopsUrl string = "https://wimb.setaweb.it/publicmapbe/vehicles/getwaypo
 var newsUrl string = "https://www.setaweb.it/mo/news"
 var lineeDynUrl string = "https://www.setaweb.it/mo/lineedyn"
 var lineeNewsUrl string = "https://www.setaweb.it/mo/news/linea/"
+var timetablesUrl string = "https://www.setaweb.it/mo/lineedyn/corse-tabella"
 
 // GET /health
 func HealthCheckHandler(w http.ResponseWriter, r *http.Request) {
@@ -193,7 +196,7 @@ func LineproblemsHandler(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, "RouteproblemsHandler error: "+err.Error(), http.StatusBadGateway)
 		return
 	}
-	problems, err:= service.ScrapeRouteProblems(raw.Body)
+	problems, err := service.ScrapeRouteProblems(raw.Body)
 	if err != nil {
 		http.Error(w, "RouteproblemsHandler error: "+err.Error(), http.StatusInternalServerError)
 		return
@@ -216,8 +219,8 @@ func LineproblemHandler(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, "RouteproblemsHandler error: "+err.Error(), http.StatusBadGateway)
 		return
 	}
-	
-	problems, err:= service.ScrapeRouteProblems(raw.Body)
+
+	problems, err := service.ScrapeRouteProblems(raw.Body)
 	if err != nil {
 		http.Error(w, "RouteproblemsHandler error: "+err.Error(), http.StatusInternalServerError)
 		return
@@ -233,4 +236,42 @@ func LineproblemHandler(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 
 	json.NewEncoder(w).Encode(news)
+}
+
+// GET /timetable
+// Scrapes the line timetable from SETA's website
+func TimetableHandler(w http.ResponseWriter, r *http.Request) {
+	line := r.URL.Query().Get("line")
+	verse := r.URL.Query().Get("verse")
+
+	if line == "" {
+		http.Error(w, "missing line parameter", http.StatusBadRequest)
+		return
+	}
+
+	if verse == "" {
+		http.Error(w, "missing verse parameter", http.StatusBadRequest)
+		return
+	}
+
+	params := url.Values{}
+	params.Set("l", "MO"+line)
+	params.Set("v", verse)
+	params.Set("g", time.Now().Format("2006-01-02"))
+
+	timetableURL := timetablesUrl + "?" + params.Encode()
+
+	response, err := service.ScrapeTimetable(timetableURL)
+	if err != nil {
+		http.Error(
+			w,
+			"TimetableHandler error: "+err.Error(),
+			http.StatusInternalServerError,
+		)
+		return
+	}
+
+	w.Header().Set("Content-Type", "application/json")
+
+	json.NewEncoder(w).Encode(response)
 }

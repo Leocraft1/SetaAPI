@@ -29,6 +29,7 @@ func main() {
 	mux.HandleFunc("GET /news", handler.NewsHandler)
 	mux.HandleFunc("GET /lineproblems", handler.LineproblemsHandler)
 	mux.HandleFunc("GET /lineproblems/{id}", handler.LineproblemHandler)
+	mux.HandleFunc("GET /timetable", handler.TimetableHandler)
 
 	//Listen on port and start API
 	fmt.Println("Server started on port " + config.PORT)
