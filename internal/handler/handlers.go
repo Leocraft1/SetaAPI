@@ -272,7 +272,7 @@ func TimetableHandler(w http.ResponseWriter, r *http.Request) {
 
 	timetableURL := timetablesUrl + "?" + params.Encode()
 
-	response, err := service.ScrapeTimetable(timetableURL)
+	response, err := service.ScrapeTimetable(timetableURL, line, verse)
 	if err != nil {
 		http.Error(
 			w,
