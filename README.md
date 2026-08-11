@@ -17,7 +17,7 @@ It operates at:
 - `/news?link=[news link]` to get the content of the selected news. [COMPLETE]
 - `/lineproblems` list of all route problems. [COMPLETE]
 - `/lineproblems/{id}` where id is the num of the route you want to know the problems of. [COMPLETE]
-- `/timetable` **TODO** needs to be completely redone
+- `/timetable` **TODO** needs to be completely redone [COMPLETE, missing DB INSERTs]
 - `/routemap/{id}` where id is the id of the route (only the last part) you want the map of.
 
 ## Setup

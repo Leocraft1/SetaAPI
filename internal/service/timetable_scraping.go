@@ -38,10 +38,6 @@ func scrapeTimetableHTML(r io.Reader) (model.TimetableResponse, error) {
 
 	doc.Find(`section.lineedyn_tabella_oraria_section`).Each(
 		func(sectionIndex int, section *goquery.Selection) {
-
-			// ============================================================
-			// IDENTIFICA IL PERCORSO
-			// ============================================================
 			dataPercorso, exists := section.
 				Find("td[data-percorso]").
 				First().
@@ -51,9 +47,6 @@ func scrapeTimetableHTML(r io.Reader) (model.TimetableResponse, error) {
 				return
 			}
 
-			// ============================================================
-			// CERCA IL TIMETABLE ESISTENTE
-			// ============================================================
 			var timetable *model.Timetable
 
 			for i := range result.Timetable {
@@ -63,9 +56,6 @@ func scrapeTimetableHTML(r io.Reader) (model.TimetableResponse, error) {
 				}
 			}
 
-			// ============================================================
-			// SE È UN NUOVO PERCORSO, RACCOGLI LE SUE FERMARE
-			// ============================================================
 			if timetable == nil {
 
 				stops = []string{}
@@ -82,13 +72,6 @@ func scrapeTimetableHTML(r io.Reader) (model.TimetableResponse, error) {
 					},
 				)
 
-				fmt.Println("========== STOPS ==========")
-				fmt.Printf("DataPercorso: %s\n", dataPercorso)
-				fmt.Printf("%#v\n", stops)
-
-				// ========================================================
-				// CREA IL NUOVO TIMETABLE CON LE SUE FERMARE
-				// ========================================================
 				result.Timetable = append(
 					result.Timetable,
 					model.Timetable{
@@ -99,14 +82,8 @@ func scrapeTimetableHTML(r io.Reader) (model.TimetableResponse, error) {
 				)
 
 				timetable = &result.Timetable[len(result.Timetable)-1]
-
-				fmt.Println("========== INSERT STOPS ==========")
-				fmt.Printf("%#v\n", timetable.Stops)
 			}
 
-			// ============================================================
-			// LEGGI LE RIGHE DEGLI ORARI
-			// ============================================================
 			rows := section.Find("tbody tr")
 
 			if rows.Length() == 0 {
@@ -119,9 +96,6 @@ func scrapeTimetableHTML(r io.Reader) (model.TimetableResponse, error) {
 				var cells []string
 
 				row.Find("td").Each(func(_ int, cell *goquery.Selection) {
-
-					// La colonna Percorso contiene il nome della fermata.
-					// È già presente in Stops.
 					if cell.Is(`[data-title="Percorso"]`) {
 						return
 					}
@@ -140,9 +114,6 @@ func scrapeTimetableHTML(r io.Reader) (model.TimetableResponse, error) {
 				return
 			}
 
-			// ============================================================
-			// RIGHE -> COLONNE
-			// ============================================================
 			columnCount := len(rowsData[0])
 
 			for columnIndex := 0; columnIndex < columnCount; columnIndex++ {
