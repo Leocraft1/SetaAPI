@@ -11,5 +11,6 @@ require (
 require (
 	filippo.io/edwards25519 v1.2.0 // indirect
 	github.com/andybalholm/cascadia v1.3.3 // indirect
+	github.com/joho/godotenv v1.5.1
 	golang.org/x/net v0.56.0 // indirect
 )

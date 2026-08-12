@@ -10,6 +10,8 @@ import (
 )
 
 func main() {
+	//Init config
+	config.LoadConf()
 	//DBs Init
 	repository.InitMezzi()
 	repository.InitContent()
