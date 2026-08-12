@@ -35,7 +35,7 @@ func GetRoutecodes() model.RLResponse {
 			Exists:    val.Still_exists,
 		}
 
-		if val.Still_exists {
+		if val.Still_exists == false {
 			g.old = append(g.old, entry)
 		} else {
 			g.active = append(g.active, entry)
