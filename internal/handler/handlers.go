@@ -257,7 +257,6 @@ func LineproblemHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 // GET /timetable
-// Scrapes the line timetable from SETA's website
 func TimetableHandler(w http.ResponseWriter, r *http.Request) {
 	line := r.URL.Query().Get("line")
 	verse := r.URL.Query().Get("verse")
@@ -288,4 +287,16 @@ func TimetableHandler(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 
 	json.NewEncoder(w).Encode(response)
+}
+
+// GET /routestops/{id}
+func RoutestopsHandler(w http.ResponseWriter, r *http.Request) {
+	route_code := r.PathValue("id")
+
+	out := service.GetRoutestops(route_code)
+
+	//Sets headers
+	w.Header().Set("Content-Type", "application/json")
+
+	json.NewEncoder(w).Encode(out)
 }

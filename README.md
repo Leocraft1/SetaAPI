@@ -11,7 +11,7 @@ It operates at:
 - `/modelslist` list of all bus models. [COMPLETE]
 - `/stoplist` list of bus stops. [COMPLETE]
 - `/routecodes` list of route codes, descriptions, display lines and destination grouped by line number. [COMPLETE]
-- `/routestops/{id}` where id is the route code you want to obtain the stops of.
+- `/routestops/{id}` where id is the route code you want to obtain the stops of. [COMPLETE]
 - `/nextstops/{id}` where id is the journey code of the shift you want to obtain the remaining stops of. [COMPLETE]
 - `/allnews` to get all the news. [COMPLETE]
 - `/news?link=[news link]` to get the content of the selected news. [COMPLETE]
@@ -32,13 +32,27 @@ To run it you will need to have the Go compiler installed in your system (instal
 - Open a terminal in your folder containing the cloned repo.
 - Type `go mod tidy && go build` to install the dependencies or update them and compile the executable.
 - Run it with `./setaapi`.
-- It might be necessary to do a `sudo chmod -X ./setaapi`.
+- It might be necessary to do a `sudo chmod +X ./setaapi`.
 
 As a development state only, it starts on port 5001 but you will be able to change this later.
 
 ### Database configuration
 
-The API needs to interface with a database to fix all the information and provide registered content. It's made to be paired with a MySQL compliant database such as MariaDB or MySQL. Simply spin it up and configure it in its `.env` file **(will be available in the future)**.
+The API needs to interface with a database to fix all the information and provide registered content. It's made to be paired with a MySQL compliant database such as MariaDB or MySQL. Simply spin it up and configure it in its `.env` file.
+
+#### **.env configuration**
+
+Here there are all needed env variables:
+
+```env
+PORT=":5001"
+DB_HOST="yourHost"
+DB_PORT=3306
+DB_USER="yourUser"
+DB_PASS="yourPassword"
+```
+
+`yourUser` and `yourPassword` are your configured db credentials, `yourHost` is ip addres or DNS of your db.
 
 #### **Data structure**
 

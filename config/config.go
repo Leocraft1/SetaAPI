@@ -18,7 +18,7 @@ var (
 
 func LoadConf() {
 	if err := godotenv.Load(); err != nil {
-		log.Println("Nessun file .env trovato, uso variabili d'ambiente di sistema")
+		log.Println("Nessun file .env trovato, uso variabili d'ambiente di sistema", err)
 	}
 
 	PORT = getEnv("PORT", ":5001")

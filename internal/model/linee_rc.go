@@ -6,7 +6,7 @@ type LineeRC struct {
 	Disp_linea   *string `db:"disp_linea"`
 	Disp_dest    *string `db:"disp_dest"`
 	Desc         *string `db:"desc"`
-	Still_exists int     `db:"still_exists"`
+	Still_exists bool    `db:"still_exists"`
 }
 
 type RLResponse struct {
@@ -23,5 +23,5 @@ type RCEntry struct {
 	Desc      *string `json:"description"`
 	Disp_line *string `json:"display_line"`
 	Disp_dest *string `json:"display_destination"`
-	Exists    int     `json:"exists"`
+	Exists    bool    `json:"exists"`
 }
