@@ -4,21 +4,21 @@ This api interfaces with SETA's servers and corrects information via database to
 
 It operates at:
 
-- `/arrivals/{id}` where id is the id of the stop you want. [COMPLETE]
-- `/busesinservice` list of all buses operating. [COMPLETE]
-- `/vehicleinfo/{id}` where id is the id of the vehicle you want the informations of, it needs to be operating. [COMPLETE]
-- `/lineslist` list of all lines. [COMPLETE]
-- `/modelslist` list of all bus models. [COMPLETE]
-- `/stoplist` list of bus stops. [COMPLETE]
-- `/routecodes` list of route codes, descriptions, display lines and destination grouped by line number. [COMPLETE]
-- `/routestops/{id}` where id is the route code you want to obtain the stops of. [COMPLETE]
-- `/nextstops/{id}` where id is the journey code of the shift you want to obtain the remaining stops of. [COMPLETE]
-- `/allnews` to get all the news. [COMPLETE]
-- `/news?link=[news link]` to get the content of the selected news. [COMPLETE]
-- `/lineproblems` list of all route problems. [COMPLETE]
-- `/lineproblems/{id}` where id is the num of the route you want to know the problems of. [COMPLETE]
-- `/timetable?line=&verse=` list of all journeys for given line and verse (can be As for going or Di for return) [COMPLETE]
-- `/routemap/{id}` where id is the id of the route (only the last part) you want the map of.
+- `/arrivals/{id}` where id is the id of the stop you want.
+- `/busesinservice` list of all buses operating.
+- `/vehicleinfo/{id}` where id is the id of the vehicle you want the informations of, it needs to be operating.
+- `/lineslist` list of all lines.
+- `/modelslist` list of all bus models.
+- `/stoplist` list of bus stops.
+- `/routecodes` list of route codes, descriptions, display lines and destination grouped by line number.
+- `/routestops/{id}` where id is the route code you want to obtain the stops of.
+- `/nextstops/{id}` where id is the journey code of the shift you want to obtain the remaining stops of.
+- `/allnews` to get all the news.
+- `/news?link=[news link]` to get the content of the selected news.
+- `/lineproblems` list of all route problems.
+- `/lineproblems/{id}` where id is the num of the route you want to know the problems of.
+- `/timetable?line=&verse=` list of all journeys for given line and verse (can be As for going or Di for return).
+- `/routemap/{id}` where id is the id of the route (only the last part) of the map you want.
 
 [MISSING ALL INSERT TASKS]
 

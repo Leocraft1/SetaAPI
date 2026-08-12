@@ -32,7 +32,7 @@ func main() {
 	mux.HandleFunc("GET /lineproblems", handler.LineproblemsHandler)
 	mux.HandleFunc("GET /lineproblems/{id}", handler.LineproblemHandler)
 	mux.HandleFunc("GET /timetable", handler.TimetableHandler)
-	//TODO maps endpoint
+	mux.HandleFunc("GET /routemap/{id}", handler.RoutemapHandler)
 
 	//Listen on port and start API
 	fmt.Println("Server started on port " + config.PORT)

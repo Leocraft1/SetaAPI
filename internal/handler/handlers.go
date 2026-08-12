@@ -9,6 +9,7 @@ import (
 	"setaapi/internal/model"
 	"setaapi/internal/service"
 	"strconv"
+	"strings"
 	"time"
 )
 
@@ -20,6 +21,7 @@ var newsUrl string = "https://www.setaweb.it/mo/news"
 var lineeDynUrl string = "https://www.setaweb.it/mo/lineedyn"
 var lineeNewsUrl string = "https://www.setaweb.it/mo/news/linea/"
 var timetablesUrl string = "https://www.setaweb.it/mo/lineedyn/corse-tabella"
+var percorsoAutistaUrl string = "https://www.setaweb.it/percorsoAutista/percorso_mappa.php"
 
 // GET /health
 func HealthCheckHandler(w http.ResponseWriter, r *http.Request) {
@@ -299,4 +301,49 @@ func RoutestopsHandler(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 
 	json.NewEncoder(w).Encode(out)
+}
+
+//GET /routemap/{id}
+func RoutemapHandler(w http.ResponseWriter, r *http.Request) {
+	code := r.PathValue("id")
+
+	now := time.Now()
+    todayDate := fmt.Sprintf("%d-%d-%d", now.Year(), int(now.Month()), now.Day())
+
+    formData := url.Values{}
+    formData.Set("data", todayDate)
+    formData.Set("percorso", code)
+
+    req, err := http.NewRequest("POST", percorsoAutistaUrl, strings.NewReader(formData.Encode()))
+    if err != nil {
+        w.WriteHeader(http.StatusInternalServerError)
+        return
+    }
+    req.Header.Set("Content-Type", "application/x-www-form-urlencoded")
+
+    resp, err := http.DefaultClient.Do(req)
+    if err != nil {
+        w.WriteHeader(http.StatusBadGateway)
+        return
+    }
+    defer resp.Body.Close()
+
+    bodyBytes, err := io.ReadAll(resp.Body)
+    if err != nil {
+        w.WriteHeader(http.StatusInternalServerError)
+        return
+    }
+
+    fixedURLs, err := service.FixRelativeUrls(string(bodyBytes), "https://www.setaweb.it/percorsoAutista/")
+    if err != nil {
+        w.WriteHeader(http.StatusInternalServerError)
+        return
+    }
+
+    finalHTML := service.FixLeafletScript(service.HideTopBar(fixedURLs))
+
+	//Set headers
+    w.Header().Set("Content-Type", "text/html; charset=utf-8")
+
+    w.Write([]byte(finalHTML))
 }
