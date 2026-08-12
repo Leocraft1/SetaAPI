@@ -67,7 +67,7 @@ func FixArrivals(raw model.ArrivalRaw, problems model.ProblemCodesResponse) mode
 
 		addOfficialLine(&val.LineInfo)
 		fixLineInfo(&val.LineInfo)
-		
+
 	}
 
 	//News section
@@ -77,7 +77,7 @@ func FixArrivals(raw model.ArrivalRaw, problems model.ProblemCodesResponse) mode
 			if val1.Official_line == val2.Num && val2.HasProblems {
 				val1.Has_problems = true
 				break
-			}else if val1.Official_line == val2.Num && !val2.HasProblems {
+			} else if val1.Official_line == val2.Num && !val2.HasProblems {
 				//If there is no problems break the cycle
 				break
 			}

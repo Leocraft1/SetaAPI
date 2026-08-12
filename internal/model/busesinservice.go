@@ -26,23 +26,23 @@ type Bus struct {
 func (r BusRaw) ToDomain() Bus {
 	return Bus{
 		LineInfo: LineInfo{
-			Line: r.Properties.Linea,
-			Destination: r.Properties.Route_desc,
+			Line:         r.Properties.Linea,
+			Destination:  r.Properties.Route_desc,
 			Journey_code: r.Properties.Journey_code,
 		},
-		Line_type: r.Properties.Service_tag,
-		Delay: r.Properties.Delay,
-		Vehicle_table: r.Properties.Duty_id,
-		Vehicle: r.Properties.Vehicle_code,
-		Model: r.Properties.Model,
-		Plate_num: r.Properties.Plate_num,
-		Ramp: r.Properties.Pedana,
-		Next_stop: r.Properties.Next_stop,
-		Stop_code: r.Properties.Waypoint_code,
-		Route_code: r.Properties.Route_code,
-		Total_room: r.Properties.Posti_totali,
+		Line_type:         r.Properties.Service_tag,
+		Delay:             r.Properties.Delay,
+		Vehicle_table:     r.Properties.Duty_id,
+		Vehicle:           r.Properties.Vehicle_code,
+		Model:             r.Properties.Model,
+		Plate_num:         r.Properties.Plate_num,
+		Ramp:              r.Properties.Pedana,
+		Next_stop:         r.Properties.Next_stop,
+		Stop_code:         r.Properties.Waypoint_code,
+		Route_code:        r.Properties.Route_code,
+		Total_room:        r.Properties.Posti_totali,
 		Occupancy_lastupd: r.Properties.Occupancy_lastupd,
-		Passenger_number: r.Properties.Num_passeggeri,
+		Passenger_number:  r.Properties.Num_passeggeri,
 	}
 }
 

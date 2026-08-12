@@ -2,10 +2,8 @@ package service
 
 import (
 	"encoding/json"
-	"fmt"
 	"net/http"
 	"regexp"
-	"setaapi/config"
 	"setaapi/internal/model"
 	"setaapi/internal/repository"
 	"sort"
@@ -14,36 +12,41 @@ import (
 	"unicode"
 )
 
-func GetBusesInservice(url string) (model.Buses, error) {
+func GetBusesInservice(url string, problemsUrl string) (model.Buses, error) {
 	response, err := http.Get(url)
 	if err != nil {
 		return model.Buses{}, err
 	}
-	//News section
-	problemsRaw, err := http.Get("http://localhost" + config.PORT + "/lineproblems")
+	defer response.Body.Close()
+
+	// News section
+	problemsRaw, err := http.Get(problemsUrl)
 	if err != nil {
-		fmt.Println("ArrivalsHandler error: ", err)
+		return model.Buses{}, err
+	}
+	defer problemsRaw.Body.Close()
+
+	problems, err := ScrapeRouteProblems(problemsRaw.Body)
+	if err != nil {
 		return model.Buses{}, err
 	}
 
-	var problems model.ProblemCodesResponse
-	json.NewDecoder(problemsRaw.Body).Decode(&problems)
-
-	//AEP support
+	// AEP support
 	aepRaw := repository.GetAEP()
-	//Builds map
+
 	var aepMap = make(map[int]bool)
 	for _, val := range aepRaw {
 		aepMap[val.Matricola] = val.Has_aep
 	}
 
 	var raw model.BusesRaw
-
 	if err := json.NewDecoder(response.Body).Decode(&raw); err != nil {
 		return model.Buses{}, err
 	}
 
-	return FixBusesinservice(raw, problems, aepMap), nil
+	return FixBusesinservice(raw, model.ProblemCodesResponse{
+		Problems: problems,
+	}, aepMap), nil
 }
 
 // TODO: add news support when implemented

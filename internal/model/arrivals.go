@@ -25,9 +25,9 @@ type Service struct {
 func (r ServiceRaw) ToDomain() Service {
 	return Service{
 		LineInfo: LineInfo{
-			Line:             r.Service,
-			Destination:      r.Destination,
-			Journey_code:     r.Codice_corsa,
+			Line:         r.Service,
+			Destination:  r.Destination,
+			Journey_code: r.Codice_corsa,
 		},
 		Arrival_time:     r.Arrival,
 		State:            r.Type,

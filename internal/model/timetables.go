@@ -7,13 +7,13 @@ type Timetable struct {
 }
 
 type TimetableResponse struct {
-    Stops    []string  `json:"stops"`
-    Journeys []Journey `json:"journeys"`
+	Stops    []string  `json:"stops"`
+	Journeys []Journey `json:"journeys"`
 }
 
 type Journey struct {
-    RouteCode string   `json:"route_code"`
-    Disp_line *string   `json:"display_line"`
-    Disp_dest *string   `json:"display_destination"`
-    Times     []string `json:"times"`
+	RouteCode string   `json:"route_code"`
+	Disp_line *string  `json:"display_line"`
+	Disp_dest *string  `json:"display_destination"`
+	Times     []string `json:"times"`
 }

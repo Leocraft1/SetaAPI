@@ -6,7 +6,6 @@ import (
 	"io"
 	"net/http"
 	"net/url"
-	"setaapi/config"
 	"setaapi/internal/model"
 	"setaapi/internal/service"
 	"strconv"
@@ -39,23 +38,31 @@ func ArrivalsHandler(w http.ResponseWriter, r *http.Request) {
 		fmt.Println("ArrivalsHandler error: ", err)
 		w.Write([]byte("ArrivalsHandler error: " + err.Error()))
 	}
+	defer response.Body.Close()
 
 	//Parses response into struct
 	var arrivalsRaw model.ArrivalRaw
 	json.NewDecoder(response.Body).Decode(&arrivalsRaw)
 
 	//News section
-	problemsRaw, err := http.Get("http://localhost"+config.PORT+"/lineproblems")
+	rawProblems, err := http.Get(lineeDynUrl)
 	if err != nil {
 		fmt.Println("ArrivalsHandler error: ", err)
 		w.Write([]byte("ArrivalsHandler error: " + err.Error()))
 	}
+	defer response.Body.Close()
 
-	var problems model.ProblemCodesResponse
-	json.NewDecoder(problemsRaw.Body).Decode(&problems)
+	problems, err := service.ScrapeRouteProblems(rawProblems.Body)
+	if err != nil {
+		fmt.Println("ArrivalsHandler error: ", err)
+		w.Write([]byte("ArrivalsHandler error: " + err.Error()))
+		return
+	}
 
-	//Fixes incorrect stuff/add parameters
-	arrivals := service.FixArrivals(arrivalsRaw, problems)
+	// Fixes incorrect stuff/add parameters
+	arrivals := service.FixArrivals(arrivalsRaw, model.ProblemCodesResponse{
+		Problems: problems,
+	})
 
 	//Set headers
 	w.Header().Set("Content-Type", "application/json")
@@ -67,7 +74,7 @@ func ArrivalsHandler(w http.ResponseWriter, r *http.Request) {
 
 // GET /busesinservice
 func BusesinserviceHandler(w http.ResponseWriter, r *http.Request) {
-	buses, err := service.GetBusesInservice(wimbBaseUrl)
+	buses, err := service.GetBusesInservice(wimbBaseUrl, lineeDynUrl)
 	if err != nil {
 		http.Error(w, "BusesinserviceHandler error: "+err.Error(), http.StatusBadGateway)
 		return
@@ -84,7 +91,7 @@ func BusesinserviceHandler(w http.ResponseWriter, r *http.Request) {
 func VehicleinfoHandler(w http.ResponseWriter, r *http.Request) {
 	id := r.PathValue("id")
 
-	buses, err := service.GetBusesInservice(wimbBaseUrl)
+	buses, err := service.GetBusesInservice(wimbBaseUrl, lineeDynUrl)
 	if err != nil {
 		http.Error(w, "VehicleinfoHandler error: "+err.Error(), http.StatusBadGateway)
 		return
@@ -256,12 +263,12 @@ func TimetableHandler(w http.ResponseWriter, r *http.Request) {
 	verse := r.URL.Query().Get("verse")
 
 	if line == "" {
-		http.Error(w, "missing line parameter", http.StatusBadRequest)
+		http.Error(w, "Missing line parameter", http.StatusBadRequest)
 		return
 	}
 
 	if verse == "" {
-		http.Error(w, "missing verse parameter", http.StatusBadRequest)
+		http.Error(w, "Missing verse parameter", http.StatusBadRequest)
 		return
 	}
 
@@ -274,11 +281,7 @@ func TimetableHandler(w http.ResponseWriter, r *http.Request) {
 
 	response, err := service.ScrapeTimetable(timetableURL, line, verse)
 	if err != nil {
-		http.Error(
-			w,
-			"TimetableHandler error: "+err.Error(),
-			http.StatusInternalServerError,
-		)
+		http.Error(w, "TimetableHandler error: "+err.Error(), http.StatusInternalServerError)
 		return
 	}
 

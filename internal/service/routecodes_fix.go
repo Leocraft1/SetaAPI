@@ -52,7 +52,7 @@ func GetRoutecodes() model.RLResponse {
 	}
 
 	//Sort by extracting line number
-	result = sortRC(result)	
+	result = sortRC(result)
 
 	response := model.RLResponse{List: result}
 

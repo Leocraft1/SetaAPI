@@ -6,5 +6,5 @@ import (
 )
 
 func GetStops() []model.Stop {
-	return repository.GetStops();
+	return repository.GetStops()
 }

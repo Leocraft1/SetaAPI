@@ -1,12 +1,12 @@
 package model
 
 type LineeRC struct {
-	Linea string `db:"linea"`
-	Rc string `db:"rc"`
-	Disp_linea *string `db:"disp_linea"`
-	Disp_dest *string `db:"disp_dest"`
-	Desc *string `db:"desc"`
-	Still_exists int `db:"still_exists"`
+	Linea        string  `db:"linea"`
+	Rc           string  `db:"rc"`
+	Disp_linea   *string `db:"disp_linea"`
+	Disp_dest    *string `db:"disp_dest"`
+	Desc         *string `db:"desc"`
+	Still_exists int     `db:"still_exists"`
 }
 
 type RLResponse struct {
@@ -14,14 +14,14 @@ type RLResponse struct {
 }
 
 type RouteListElement struct {
-	Line string `json:"line"`
+	Line        string    `json:"line"`
 	Route_codes []RCEntry `json:"route_codes"`
 }
 
 type RCEntry struct {
-	Rc string `json:"route_code"`
-	Desc *string `json:"description"`
+	Rc        string  `json:"route_code"`
+	Desc      *string `json:"description"`
 	Disp_line *string `json:"display_line"`
 	Disp_dest *string `json:"display_destination"`
-	Exists int `json:"exists"`
+	Exists    int     `json:"exists"`
 }
