@@ -23,8 +23,16 @@ var lineeNewsUrl string = "https://www.setaweb.it/mo/news/linea/"
 var timetablesUrl string = "https://www.setaweb.it/mo/lineedyn/corse-tabella"
 var percorsoAutistaUrl string = "https://www.setaweb.it/percorsoAutista/percorso_mappa.php"
 
+func addCORS(w http.ResponseWriter) {
+	w.Header().Set("Access-Control-Allow-Origin", "*")
+	w.Header().Set("Vary", "Origin")
+	w.Header().Set("Access-Control-Allow-Methods", "GET, HEAD")
+	w.Header().Set("Access-Control-Allow-Headers", "Content-Type")
+}
+
 // GET /health
 func HealthCheckHandler(w http.ResponseWriter, r *http.Request) {
+	addCORS(w)
 	message := "API is healthy and running."
 
 	w.Write([]byte(message))
@@ -32,6 +40,7 @@ func HealthCheckHandler(w http.ResponseWriter, r *http.Request) {
 
 // GET /arrivals/{id}
 func ArrivalsHandler(w http.ResponseWriter, r *http.Request) {
+	addCORS(w)
 	stopId := r.PathValue("id")
 	response, err := http.Get(arrivalsBaseUrl + stopId)
 
@@ -76,6 +85,7 @@ func ArrivalsHandler(w http.ResponseWriter, r *http.Request) {
 
 // GET /busesinservice
 func BusesinserviceHandler(w http.ResponseWriter, r *http.Request) {
+	addCORS(w)
 	buses, err := service.GetBusesInservice(wimbBaseUrl, lineeDynUrl)
 	if err != nil {
 		http.Error(w, "BusesinserviceHandler error: "+err.Error(), http.StatusBadGateway)
@@ -91,6 +101,7 @@ func BusesinserviceHandler(w http.ResponseWriter, r *http.Request) {
 // GET /vehicleinfo/{id}
 // Searches for requested vehicle on /busesinservice response
 func VehicleinfoHandler(w http.ResponseWriter, r *http.Request) {
+	addCORS(w)
 	id := r.PathValue("id")
 
 	buses, err := service.GetBusesInservice(wimbBaseUrl, lineeDynUrl)
@@ -112,6 +123,7 @@ func VehicleinfoHandler(w http.ResponseWriter, r *http.Request) {
 
 // GET /linelist
 func LinelistHandler(w http.ResponseWriter, r *http.Request) {
+	addCORS(w)
 	nums := service.GetRoutenums()
 
 	//Set headers
@@ -122,6 +134,7 @@ func LinelistHandler(w http.ResponseWriter, r *http.Request) {
 
 // GET /modelslist
 func ModelslistHandler(w http.ResponseWriter, r *http.Request) {
+	addCORS(w)
 	nums := service.GetModels()
 
 	//Set headers
@@ -132,6 +145,7 @@ func ModelslistHandler(w http.ResponseWriter, r *http.Request) {
 
 // GET /stoplist
 func StoplistHandler(w http.ResponseWriter, r *http.Request) {
+	addCORS(w)
 	stops := service.GetStops()
 
 	//Set headers
@@ -142,6 +156,7 @@ func StoplistHandler(w http.ResponseWriter, r *http.Request) {
 
 // GET /routecodes
 func RoutecodesHandler(w http.ResponseWriter, r *http.Request) {
+	addCORS(w)
 	routelist := service.GetRoutecodes()
 
 	//Set headers
@@ -154,6 +169,7 @@ func RoutecodesHandler(w http.ResponseWriter, r *http.Request) {
 
 // GET /nextstops/{id}
 func NextstopsHandler(w http.ResponseWriter, r *http.Request) {
+	addCORS(w)
 	journey_code := r.PathValue("id")
 	response, err := http.Get(nextstopsUrl + journey_code)
 	if err != nil {
@@ -173,6 +189,7 @@ func NextstopsHandler(w http.ResponseWriter, r *http.Request) {
 
 // GET /allnews
 func AllnewsHandler(w http.ResponseWriter, r *http.Request) {
+	addCORS(w)
 	response, err := http.Get(newsUrl)
 	if err != nil {
 		http.Error(w, "AllnewsHandler error: "+err.Error(), http.StatusBadGateway)
@@ -191,6 +208,7 @@ func AllnewsHandler(w http.ResponseWriter, r *http.Request) {
 
 // GET /news?link=
 func NewsHandler(w http.ResponseWriter, r *http.Request) {
+	addCORS(w)
 	link := r.URL.Query().Get("link")
 
 	//Verifies if link parameter exists
@@ -211,6 +229,7 @@ func NewsHandler(w http.ResponseWriter, r *http.Request) {
 
 // GET /lineproblems
 func LineproblemsHandler(w http.ResponseWriter, r *http.Request) {
+	addCORS(w)
 	raw, err := http.Get(lineeDynUrl)
 	if err != nil {
 		http.Error(w, "RouteproblemsHandler error: "+err.Error(), http.StatusBadGateway)
@@ -232,6 +251,7 @@ func LineproblemsHandler(w http.ResponseWriter, r *http.Request) {
 
 // GET /lineproblems/{id}
 func LineproblemHandler(w http.ResponseWriter, r *http.Request) {
+	addCORS(w)
 	route := r.PathValue("id")
 
 	raw, err := http.Get(lineeDynUrl)
@@ -260,6 +280,7 @@ func LineproblemHandler(w http.ResponseWriter, r *http.Request) {
 
 // GET /timetable
 func TimetableHandler(w http.ResponseWriter, r *http.Request) {
+	addCORS(w)
 	line := r.URL.Query().Get("line")
 	verse := r.URL.Query().Get("verse")
 
@@ -293,6 +314,7 @@ func TimetableHandler(w http.ResponseWriter, r *http.Request) {
 
 // GET /routestops/{id}
 func RoutestopsHandler(w http.ResponseWriter, r *http.Request) {
+	addCORS(w)
 	route_code := r.PathValue("id")
 
 	out := service.GetRoutestops(route_code)
@@ -303,47 +325,48 @@ func RoutestopsHandler(w http.ResponseWriter, r *http.Request) {
 	json.NewEncoder(w).Encode(out)
 }
 
-//GET /routemap/{id}
+// GET /routemap/{id}
 func RoutemapHandler(w http.ResponseWriter, r *http.Request) {
+	addCORS(w)
 	code := r.PathValue("id")
 
 	now := time.Now()
-    todayDate := fmt.Sprintf("%d-%d-%d", now.Year(), int(now.Month()), now.Day())
+	todayDate := fmt.Sprintf("%d-%d-%d", now.Year(), int(now.Month()), now.Day())
 
-    formData := url.Values{}
-    formData.Set("data", todayDate)
-    formData.Set("percorso", code)
+	formData := url.Values{}
+	formData.Set("data", todayDate)
+	formData.Set("percorso", code)
 
-    req, err := http.NewRequest("POST", percorsoAutistaUrl, strings.NewReader(formData.Encode()))
-    if err != nil {
-        w.WriteHeader(http.StatusInternalServerError)
-        return
-    }
-    req.Header.Set("Content-Type", "application/x-www-form-urlencoded")
+	req, err := http.NewRequest("POST", percorsoAutistaUrl, strings.NewReader(formData.Encode()))
+	if err != nil {
+		w.WriteHeader(http.StatusInternalServerError)
+		return
+	}
+	req.Header.Set("Content-Type", "application/x-www-form-urlencoded")
 
-    resp, err := http.DefaultClient.Do(req)
-    if err != nil {
-        w.WriteHeader(http.StatusBadGateway)
-        return
-    }
-    defer resp.Body.Close()
+	resp, err := http.DefaultClient.Do(req)
+	if err != nil {
+		w.WriteHeader(http.StatusBadGateway)
+		return
+	}
+	defer resp.Body.Close()
 
-    bodyBytes, err := io.ReadAll(resp.Body)
-    if err != nil {
-        w.WriteHeader(http.StatusInternalServerError)
-        return
-    }
+	bodyBytes, err := io.ReadAll(resp.Body)
+	if err != nil {
+		w.WriteHeader(http.StatusInternalServerError)
+		return
+	}
 
-    fixedURLs, err := service.FixRelativeUrls(string(bodyBytes), "https://www.setaweb.it/percorsoAutista/")
-    if err != nil {
-        w.WriteHeader(http.StatusInternalServerError)
-        return
-    }
+	fixedURLs, err := service.FixRelativeUrls(string(bodyBytes), "https://www.setaweb.it/percorsoAutista/")
+	if err != nil {
+		w.WriteHeader(http.StatusInternalServerError)
+		return
+	}
 
-    finalHTML := service.FixLeafletScript(service.HideTopBar(fixedURLs))
+	finalHTML := service.FixLeafletScript(service.HideTopBar(fixedURLs))
 
 	//Set headers
-    w.Header().Set("Content-Type", "text/html; charset=utf-8")
+	w.Header().Set("Content-Type", "text/html; charset=utf-8")
 
-    w.Write([]byte(finalHTML))
+	w.Write([]byte(finalHTML))
 }
