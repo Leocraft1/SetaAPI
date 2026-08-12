@@ -6,7 +6,6 @@ type Buses struct {
 
 type Bus struct {
 	LineInfo
-	Line_type         string  `json:"line_type"`
 	Delay             int     `json:"delay"`
 	Vehicle_table     string  `json:"vehicle_table"`
 	Vehicle           string  `json:"vehicle"`
@@ -29,8 +28,8 @@ func (r BusRaw) ToDomain() Bus {
 			Line:         r.Properties.Linea,
 			Destination:  r.Properties.Route_desc,
 			Journey_code: r.Properties.Journey_code,
+			Line_type:    r.Properties.Service_tag,
 		},
-		Line_type:         r.Properties.Service_tag,
 		Delay:             r.Properties.Delay,
 		Vehicle_table:     r.Properties.Duty_id,
 		Vehicle:           r.Properties.Vehicle_code,

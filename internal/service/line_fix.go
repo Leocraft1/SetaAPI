@@ -20,6 +20,14 @@ func fixLineInfo(val *model.LineInfo) {
 	if linea_disp.Disp_dest != nil {
 		val.Destination = *linea_disp.Disp_dest
 	}
+
+	//Fix line_type
+	switch val.Line_type {
+	case "UR":
+		val.Line_type = "Urbano"
+	case "EX":
+		val.Line_type = "Extraurbano"
+	}
 }
 
 func addOfficialLine(val *model.LineInfo) {

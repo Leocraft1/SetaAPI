@@ -13,7 +13,6 @@ type Service struct {
 	Basin            string  `json:"basin"`
 	Vehicle_table    string  `json:"vehicle_table"`
 	Vehicle          string  `json:"vehicle"`
-	Line_type        string  `json:"line_type"`
 	Occupancy_status *string `json:"occupancy_status"`
 	Total_room       *int    `json:"total_room"`
 	Passenger_number *int    `json:"passenger_number"`
@@ -28,13 +27,13 @@ func (r ServiceRaw) ToDomain() Service {
 			Line:         r.Service,
 			Destination:  r.Destination,
 			Journey_code: r.Codice_corsa,
+			Line_type:    r.ServiceType,
 		},
 		Arrival_time:     r.Arrival,
 		State:            r.Type,
 		Basin:            r.FleetCode,
 		Vehicle_table:    r.DutyId,
 		Vehicle:          r.Busnum,
-		Line_type:        r.ServiceType,
 		Occupancy_status: r.OccupancyStatus,
 		Total_room:       r.Posti_totali,
 		Passenger_number: r.Num_passeggeri,

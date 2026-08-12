@@ -6,4 +6,5 @@ type LineInfo struct {
 	Destination   string `json:"destination"`
 	Journey_code  string `json:"journey_code"`
 	Official_line string `json:"official_line"`
+	Line_type     string `json:"line_type"`
 }
