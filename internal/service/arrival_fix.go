@@ -3,6 +3,7 @@ package service
 import (
 	"fmt"
 	"setaapi/internal/model"
+	"setaapi/internal/repository"
 	"strconv"
 	"strings"
 )
@@ -40,6 +41,31 @@ func FixArrivals(raw model.ArrivalRaw, problems model.ProblemCodesResponse) mode
 	}
 
 	out.Arrival.Services = filtered
+
+	// AEP support
+	aep := repository.GetAEP()
+
+	aepMap := make(map[int]bool, len(aep))
+	for _, item := range aep {
+		aepMap[item.Matricola] = item.Has_aep
+	}
+
+	for i := range out.Arrival.Services {
+		vehicle := out.Arrival.Services[i].Vehicle
+
+		if vehicle == "" {
+			continue
+		}
+
+		matricola, err := strconv.Atoi(vehicle)
+		if err != nil {
+			continue
+		}
+
+		if hasAEP, exists := aepMap[matricola]; exists {
+			out.Arrival.Services[i].Has_AEP = hasAEP
+		}
+	}
 
 	// Step 2: per ogni corsa realtime, cerca il planned corrispondente e calcola il delay
 	for i := range out.Arrival.Services {
