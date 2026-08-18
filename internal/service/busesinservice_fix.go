@@ -49,7 +49,6 @@ func GetBusesInservice(url string, problemsUrl string) (model.Buses, error) {
 	}, aepMap), nil
 }
 
-// TODO: add news support when implemented
 func FixBusesinservice(raw model.BusesRaw, problems model.ProblemCodesResponse, aep map[int]bool) model.Buses {
 	var out = parseBuses(raw)
 
@@ -74,7 +73,7 @@ func FixBusesinservice(raw model.BusesRaw, problems model.ProblemCodesResponse, 
 				val1.Has_problems = true
 				break
 			} else if val1.Official_line == val2.Num && !val2.HasProblems {
-				//If there is no problems break the cycle
+				//If there are no problems break the cycle
 				break
 			}
 		}
