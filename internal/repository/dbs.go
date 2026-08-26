@@ -33,7 +33,6 @@ func newDB(host string, port int, user, password, dbname string) (*sqlx.DB, erro
 
 func InitMezzi() {
 	//DB connection
-	//NOTE FOR ME CHANGE PASSWORD WHEN PRODUCTION!!!
 	DB_MEZZI, err = newDB(config.DB_HOST, config.DB_PORT, config.DB_USER, config.DB_PASS, "ertpl_mezzi")
 	if err != nil {
 		log.Fatal("Connessione DB fallita: ", err)
@@ -43,7 +42,6 @@ func InitMezzi() {
 
 func InitContent() {
 	//DB connection
-	//NOTE FOR ME CHANGE PASSWORD WHEN PRODUCTION!!!
 	DB_CONTENT, err = newDB(config.DB_HOST, config.DB_PORT, config.DB_USER, config.DB_PASS, "seta_api_content")
 	if err != nil {
 		log.Fatal("Connessione DB fallita: ", err)
