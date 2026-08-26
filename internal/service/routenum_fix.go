@@ -7,7 +7,7 @@ import (
 )
 
 func GetRoutenums() []string {
-	return sortLines(repository.GetRoutesDistinct())
+	return sortLines(repository.GetLinesDistinct())
 }
 
 func sortLines(lines []string) []string {

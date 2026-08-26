@@ -25,3 +25,8 @@ type RCEntry struct {
 	Disp_dest *string `json:"display_destination"`
 	Exists    bool    `json:"exists"`
 }
+
+type StillExists struct {
+	Rc           string `db:"rc"`
+	Still_exists bool   `db:"still_exists"`
+}

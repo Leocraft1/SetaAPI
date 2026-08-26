@@ -16,6 +16,8 @@ func main() {
 	repository.InitMezzi()
 	repository.InitContent()
 
+	//repository.UpdateRoutesStatus()
+
 	mux := http.NewServeMux()
 	mux.HandleFunc("GET /health", handler.HealthCheckHandler)
 	mux.HandleFunc("GET /arrivals/{id}", handler.ArrivalsHandler)

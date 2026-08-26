@@ -54,7 +54,7 @@ DB_PASS="yourPassword"
 
 #### **Data structure**
 
-Regards data structure, you'll need two databases so called:
+Regarding data structure, you'll need two databases so called:
 
 - `ertpl_mezzi`
 - `seta_api_content`
@@ -68,7 +68,7 @@ To obtain up to date data you can reach out to <info.ertpl@protonmail.com> askin
 You'll need to create a user that can access the database and you need to grant it following privileges:
 
 - `SELECT` on `ertpl_mezzi`
-- `SELECT` on `seta_api_content`
+- `SELECT`, `INSERT` and `UPDATE` on `seta_api_content`
 
 If you don't know how to create a user or run into some access denied issue here's the syntax:
 
