@@ -7,7 +7,7 @@ import (
 
 func GetStops() []model.Stop {
 	var result []model.Stop
-	err := DB_CONTENT.Select(&result, "SELECT * FROM fermate")
+	err := DB_CONTENT.Select(&result, "SELECT * FROM stops")
 	if err != nil {
 		fmt.Println("[GetStops] Errore di lettura db:", err)
 	}

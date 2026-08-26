@@ -34,8 +34,6 @@ To run it you will need to have the Go compiler installed in your system (instal
 - Run it with `./setaapi`.
 - It might be necessary to do a `sudo chmod +X ./setaapi`.
 
-As a development state only, it starts on port 5001 but you will be able to change this later.
-
 ### Database configuration
 
 The API needs to interface with a database to fix all the information and provide registered content. It's made to be paired with a MySQL compliant database such as MariaDB or MySQL. Simply spin it up and configure it in its `.env` file.
