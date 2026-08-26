@@ -63,6 +63,8 @@ func FixBusesinservice(raw model.BusesRaw, problems model.ProblemCodesResponse, 
 		fixPlate(val)
 		vehicleInt, _ := strconv.ParseInt(val.Vehicle, 0, 64)
 		val.Has_AEP = aep[int(vehicleInt)]
+
+		fixStop(val)
 	}
 
 	//News section
@@ -150,4 +152,15 @@ func fixModelAndRamp(bus *model.Bus) {
 func fixPlate(bus *model.Bus) {
 	targafix := strings.TrimSpace(bus.Plate_num)
 	bus.Plate_num = targafix
+}
+
+func fixStop(bus *model.Bus) {
+	corrections := repository.GetStopCorrections()
+
+	for _, val := range corrections {
+		if bus.Stop_code == val.Code {
+			bus.Next_stop = val.Name
+			break
+		}
+	}
 }
