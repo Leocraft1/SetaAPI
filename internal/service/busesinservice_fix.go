@@ -157,10 +157,8 @@ func fixPlate(bus *model.Bus) {
 func fixStop(bus *model.Bus) {
 	corrections := repository.GetStopCorrections()
 
-	for _, val := range corrections {
-		if bus.Stop_code == val.Code {
-			bus.Next_stop = val.Name
-			break
-		}
+	val, ok := corrections[bus.Stop_code]
+	if ok {
+		bus.Next_stop = val
 	}
 }

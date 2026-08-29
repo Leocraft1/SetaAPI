@@ -13,7 +13,7 @@ func fixLineInfo(val *model.LineInfo) {
 	rc = rc_split[0]+"-"+rc_split[1]+"-"+rc_split[2]
 
 	//Gets specific route from DB
-	linea_disp := repository.GetRoute(rc)
+	linea_disp := repository.GetRouteByRC(rc)
 
 	//Fixes linea only if parameters are not null in DB
 	if linea_disp.Disp_linea != nil && *linea_disp.Disp_linea != "" {

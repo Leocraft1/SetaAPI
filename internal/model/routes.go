@@ -1,6 +1,6 @@
 package model
 
-type LineeRC struct {
+type Route struct {
 	Linea        string  `db:"linea"`
 	Rc           string  `db:"rc"`
 	Disp_linea   *string `db:"disp_linea"`

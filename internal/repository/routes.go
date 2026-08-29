@@ -7,13 +7,13 @@ import (
 )
 
 // URLs decl. section
-var RoutestopsBaseUrl = "https://wimb.setaweb.it/publicmapbe/waypoints/getroutewaypoints/"
+var RoutestopsBaseUrl = "https://wimb.setaweb.it/publicmapbe/waypoints/GetRouteByRCwaypoints/"
 
-func GetRoute(code string) model.LineeRC {
-	var result model.LineeRC
+func GetRouteByRC(code string) model.Route {
+	var result model.Route
 	err := DB_CONTENT.Get(&result, "SELECT * FROM routes WHERE rc = ?", code)
 	if err != nil {
-		fmt.Println("[GetRoute] Errore di lettura db:", err)
+		fmt.Println("[GetRouteByRC] Errore di lettura db:", err)
 	}
 	return result
 }
@@ -27,11 +27,11 @@ func GetLinesDistinct() []string {
 	return result
 }
 
-func GetRCTable() []model.LineeRC {
-	var result []model.LineeRC
+func GetRoutes() []model.Route {
+	var result []model.Route
 	err := DB_CONTENT.Select(&result, "SELECT * FROM routes")
 	if err != nil {
-		fmt.Println("[GetRCTable] Errore di lettura db:", err)
+		fmt.Println("[GetRoutes] Errore di lettura db:", err)
 	}
 	return result
 }
@@ -46,7 +46,41 @@ func GetExists() []model.StillExists {
 	return results
 }
 
-// Updates route status in route table (still_exists column)
+func SaveRoutes(routes []model.Route) {
+	dbData := GetRoutes()
+
+	dbMap := make(map[string]bool)
+	for _, val := range dbData {
+		dbMap[val.Rc] = true
+	}
+
+	var new []model.Route
+	for _, val := range routes {
+		_, ok := dbMap[val.Rc]
+		if !ok {
+			newRoute := model.Route{
+				Linea: val.Linea,
+				Rc: val.Rc,
+				Disp_linea: val.Disp_linea,
+				Disp_dest: val.Disp_dest,
+				Desc: val.Desc,
+				Still_exists: val.Still_exists,
+			}
+
+			new = append(new, newRoute)
+		}
+	}
+
+	//Database insert
+	for _, val := range new {
+		_, err := DB_CONTENT.Exec("INSERT INTO stops VALUES(?, ?, ?, ?, ?, ?)", val.Linea,val.Rc, val.Disp_linea, val.Disp_dest, val.Desc, val.Still_exists)
+		if err != nil {
+			fmt.Println("[SaveStops] db error:", err)
+		}
+	}
+}
+
+// Updates route status in routes table (still_exists column)
 func UpdateRoutesStatus() {
 	routeCodes := GetExists()
 

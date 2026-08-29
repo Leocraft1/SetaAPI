@@ -6,7 +6,7 @@ import (
 	"unicode"
 )
 
-func GetRoutenums() []string {
+func GetRouteByRCnums() []string {
 	return sortLines(repository.GetLinesDistinct())
 }
 

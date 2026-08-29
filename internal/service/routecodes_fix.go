@@ -7,8 +7,8 @@ import (
 	"unicode"
 )
 
-func GetRoutecodes() model.RLResponse {
-	rcs := repository.GetRCTable()
+func GetRouteByRCcodes() model.RLResponse {
+	rcs := repository.GetRoutes()
 
 	type lineGroup struct {
 		active []model.RCEntry // Still_exists == 0

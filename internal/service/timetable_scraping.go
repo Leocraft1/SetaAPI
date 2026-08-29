@@ -113,7 +113,7 @@ func scrapeTimetableHTML(r io.Reader, linea string, verso string) (model.Timetab
 
 // Adds display specs to response
 func fixTimetable(timetable model.TimetableResponse) model.TimetableResponse {
-	rcs := repository.GetRCTable()
+	rcs := repository.GetRoutes()
 	//Search for matching route_code
 	for idx1 := range timetable.Journeys {
 		val1 := &timetable.Journeys[idx1]

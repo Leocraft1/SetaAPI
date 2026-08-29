@@ -124,7 +124,7 @@ func VehicleinfoHandler(w http.ResponseWriter, r *http.Request) {
 // GET /linelist
 func LinelistHandler(w http.ResponseWriter, r *http.Request) {
 	addCORS(w)
-	nums := service.GetRoutenums()
+	nums := service.GetRouteByRCnums()
 
 	//Set headers
 	w.Header().Set("Content-Type", "application/json")
@@ -157,7 +157,7 @@ func StoplistHandler(w http.ResponseWriter, r *http.Request) {
 // GET /routecodes
 func RoutecodesHandler(w http.ResponseWriter, r *http.Request) {
 	addCORS(w)
-	routelist := service.GetRoutecodes()
+	routelist := service.GetRouteByRCcodes()
 
 	//Set headers
 	w.Header().Set("Content-Type", "application/json")

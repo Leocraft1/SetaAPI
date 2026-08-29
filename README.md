@@ -20,7 +20,7 @@ It operates at:
 - `/timetable?line=&verse=` list of all journeys for given line and verse (can be As for going or Di for return).
 - `/routemap/{id}` where id is the id of the route (only the last part) of the map you want.
 
-[MISSING ALL INSERT TASKS]
+[Insert tasks are being developed]
 
 ## Setup
 
