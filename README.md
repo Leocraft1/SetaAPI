@@ -10,6 +10,7 @@ It operates at:
 - `/lineslist` list of all lines.
 - `/modelslist` list of all bus models.
 - `/stops` list of bus stops.
+- `/stopsinfo` count and last update of memorized stops.
 - `/routecodes` list of route codes, descriptions, display lines and destination grouped by line number.
 - `/routestops/{id}` where id is the route code you want to obtain the stops of.
 - `/nextstops/{id}` where id is the journey code of the shift you want to obtain the remaining stops of.

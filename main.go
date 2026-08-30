@@ -26,7 +26,7 @@ func main() {
 	mux.HandleFunc("GET /linelist", handler.LinelistHandler)
 	mux.HandleFunc("GET /modelslist", handler.ModelslistHandler)
 	mux.HandleFunc("GET /stops", handler.StoplistHandler)
-	mux.HandleFunc("GET /stopcount", handler.StopcountHandler)
+	mux.HandleFunc("GET /stopsinfo", handler.StopsinfoHandler)
 	mux.HandleFunc("GET /routecodes", handler.RoutecodesHandler)
 	mux.HandleFunc("GET /routestops/{id}", handler.RoutestopsHandler)
 	mux.HandleFunc("GET /nextstops/{id}", handler.NextstopsHandler)

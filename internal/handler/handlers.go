@@ -158,7 +158,7 @@ func StoplistHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 // GET /stopsinfo
-func StopcountHandler(w http.ResponseWriter, r *http.Request) {
+func StopsinfoHandler(w http.ResponseWriter, r *http.Request) {
 	addCORS(w)
 	count, timestamp := repository.GetStopCount()
 
