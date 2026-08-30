@@ -1,7 +1,5 @@
 package model
 
-import "time"
-
 type Stop struct {
 	Code string `db:"codice" json:"code"`
 	Name string `db:"nome" json:"name"`
@@ -13,6 +11,7 @@ type StopCorrection struct {
 }
 
 type StopsInfo struct {
-	Count      int       `json:"count"`
-	Updated_at time.Time `json:"updated_at"`
+	Count           int    `json:"count"`
+	Updated_at_date string `json:"updated_at_date"`
+	Updated_at_time string `json:"updated_at_time"`
 }

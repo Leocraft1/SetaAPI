@@ -164,7 +164,8 @@ func StopsinfoHandler(w http.ResponseWriter, r *http.Request) {
 
 	response := model.StopsInfo{
 		Count: count,
-		Updated_at: timestamp,
+		Updated_at_date: timestamp.Format("02-01-2006"),
+		Updated_at_time: timestamp.Format("15:04:05"),
 	}
 
 	//Set headers
