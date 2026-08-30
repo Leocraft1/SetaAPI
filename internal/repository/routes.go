@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"net/http"
 	"setaapi/internal/model"
+	"time"
 )
 
 // URLs decl. section
@@ -73,9 +74,17 @@ func SaveRoutes(routes []model.Route) {
 
 	//Database insert
 	for _, val := range new {
-		_, err := DB_CONTENT.Exec("INSERT INTO stops VALUES(?, ?, ?, ?, ?, ?)", val.Linea,val.Rc, val.Disp_linea, val.Disp_dest, val.Desc, val.Still_exists)
+		_, err := DB_CONTENT.Exec("INSERT INTO routes VALUES(?, ?, ?, ?, ?, ?)", val.Linea,val.Rc, val.Disp_linea, val.Disp_dest, val.Desc, val.Still_exists)
 		if err != nil {
-			fmt.Println("[SaveStops] db error:", err)
+			fmt.Println("[SaveRoutes] db error:", err)
+		}
+	}
+
+	//Updates timestamp in update_timestamps
+	if len(new) > 0 {
+		_, err := DB_CONTENT.Exec("UPDATE update_timestamps SET updated_at = ? WHERE table_name = ?", time.Now(), "routes")
+		if err != nil {
+			fmt.Println("[SaveStops] db error updating timestamp:", err)
 		}
 	}
 }

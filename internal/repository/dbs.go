@@ -37,7 +37,6 @@ func InitMezzi() {
 	if err != nil {
 		log.Fatal("Connessione DB fallita: ", err)
 	}
-	//defer DB_MEZZI.Close()
 }
 
 func InitContent() {
@@ -46,5 +45,4 @@ func InitContent() {
 	if err != nil {
 		log.Fatal("Connessione DB fallita: ", err)
 	}
-	//defer DB_MEZZI.Close()
 }

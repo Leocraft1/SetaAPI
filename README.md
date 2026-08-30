@@ -9,7 +9,7 @@ It operates at:
 - `/vehicleinfo/{id}` where id is the id of the vehicle you want the informations of, it needs to be operating.
 - `/lineslist` list of all lines.
 - `/modelslist` list of all bus models.
-- `/stoplist` list of bus stops.
+- `/stops` list of bus stops.
 - `/routecodes` list of route codes, descriptions, display lines and destination grouped by line number.
 - `/routestops/{id}` where id is the route code you want to obtain the stops of.
 - `/nextstops/{id}` where id is the journey code of the shift you want to obtain the remaining stops of.

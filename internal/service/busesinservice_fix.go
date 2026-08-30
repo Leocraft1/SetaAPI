@@ -12,7 +12,7 @@ import (
 	"unicode"
 )
 
-func GetBusesInservice(url string, problemsUrl string) (model.Buses, error) {
+func GetBusesinservice(url string, problemsUrl string) (model.Buses, error) {
 	response, err := http.Get(url)
 	if err != nil {
 		return model.Buses{}, err

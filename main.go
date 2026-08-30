@@ -7,6 +7,7 @@ import (
 	"setaapi/config"
 	"setaapi/internal/handler"
 	"setaapi/internal/repository"
+	"setaapi/internal/scheduler"
 )
 
 func main() {
@@ -15,8 +16,7 @@ func main() {
 	//DBs Init
 	repository.InitMezzi()
 	repository.InitContent()
-
-	//repository.UpdateRoutesStatus()
+	scheduler.InitScheduler()
 
 	mux := http.NewServeMux()
 	mux.HandleFunc("GET /health", handler.HealthCheckHandler)
@@ -25,7 +25,8 @@ func main() {
 	mux.HandleFunc("GET /vehicleinfo/{id}", handler.VehicleinfoHandler)
 	mux.HandleFunc("GET /linelist", handler.LinelistHandler)
 	mux.HandleFunc("GET /modelslist", handler.ModelslistHandler)
-	mux.HandleFunc("GET /stoplist", handler.StoplistHandler)
+	mux.HandleFunc("GET /stops", handler.StoplistHandler)
+	mux.HandleFunc("GET /stopcount", handler.StopcountHandler)
 	mux.HandleFunc("GET /routecodes", handler.RoutecodesHandler)
 	mux.HandleFunc("GET /routestops/{id}", handler.RoutestopsHandler)
 	mux.HandleFunc("GET /nextstops/{id}", handler.NextstopsHandler)

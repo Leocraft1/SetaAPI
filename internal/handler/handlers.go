@@ -7,6 +7,7 @@ import (
 	"net/http"
 	"net/url"
 	"setaapi/internal/model"
+	"setaapi/internal/repository"
 	"setaapi/internal/service"
 	"strconv"
 	"strings"
@@ -14,14 +15,16 @@ import (
 )
 
 // URLs decl. section
-var arrivalsBaseUrl string = "https://avm.setaweb.it/SETA_WS/services/arrival/"
-var wimbBaseUrl string = "https://wimb.setaweb.it/publicmapbe/vehicles/map/MO"
-var nextstopsUrl string = "https://wimb.setaweb.it/publicmapbe/vehicles/getwaypointarrivals/"
-var newsUrl string = "https://www.setaweb.it/mo/news"
-var lineeDynUrl string = "https://www.setaweb.it/mo/lineedyn"
-var lineeNewsUrl string = "https://www.setaweb.it/mo/news/linea/"
-var timetablesUrl string = "https://www.setaweb.it/mo/lineedyn/corse-tabella"
-var percorsoAutistaUrl string = "https://www.setaweb.it/percorsoAutista/percorso_mappa.php"
+const (
+	ArrivalsBaseUrl string = "https://avm.setaweb.it/SETA_WS/services/arrival/"
+	WimbBaseUrl string = "https://wimb.setaweb.it/publicmapbe/vehicles/map/MO"
+	NextstopsUrl string = "https://wimb.setaweb.it/publicmapbe/vehicles/getwaypointarrivals/"
+	NewsUrl string = "https://www.setaweb.it/mo/news"
+	LineeDynUrl string = "https://www.setaweb.it/mo/lineedyn"
+	LineeNewsUrl string = "https://www.setaweb.it/mo/news/linea/"
+	TimetablesUrl string = "https://www.setaweb.it/mo/lineedyn/corse-tabella"
+	PercorsoAutistaUrl string = "https://www.setaweb.it/percorsoAutista/percorso_mappa.php"
+)
 
 func addCORS(w http.ResponseWriter) {
 	w.Header().Set("Access-Control-Allow-Origin", "*")
@@ -42,7 +45,7 @@ func HealthCheckHandler(w http.ResponseWriter, r *http.Request) {
 func ArrivalsHandler(w http.ResponseWriter, r *http.Request) {
 	addCORS(w)
 	stopId := r.PathValue("id")
-	response, err := http.Get(arrivalsBaseUrl + stopId)
+	response, err := http.Get(ArrivalsBaseUrl + stopId)
 
 	//Checks for connection errors
 	if err != nil {
@@ -56,7 +59,7 @@ func ArrivalsHandler(w http.ResponseWriter, r *http.Request) {
 	json.NewDecoder(response.Body).Decode(&arrivalsRaw)
 
 	//News section
-	rawProblems, err := http.Get(lineeDynUrl)
+	rawProblems, err := http.Get(LineeDynUrl)
 	if err != nil {
 		fmt.Println("ArrivalsHandler error: ", err)
 		w.Write([]byte("ArrivalsHandler error: " + err.Error()))
@@ -86,7 +89,7 @@ func ArrivalsHandler(w http.ResponseWriter, r *http.Request) {
 // GET /busesinservice
 func BusesinserviceHandler(w http.ResponseWriter, r *http.Request) {
 	addCORS(w)
-	buses, err := service.GetBusesInservice(wimbBaseUrl, lineeDynUrl)
+	buses, err := service.GetBusesinservice(WimbBaseUrl, LineeDynUrl)
 	if err != nil {
 		http.Error(w, "BusesinserviceHandler error: "+err.Error(), http.StatusBadGateway)
 		return
@@ -104,7 +107,7 @@ func VehicleinfoHandler(w http.ResponseWriter, r *http.Request) {
 	addCORS(w)
 	id := r.PathValue("id")
 
-	buses, err := service.GetBusesInservice(wimbBaseUrl, lineeDynUrl)
+	buses, err := service.GetBusesinservice(WimbBaseUrl, LineeDynUrl)
 	if err != nil {
 		http.Error(w, "VehicleinfoHandler error: "+err.Error(), http.StatusBadGateway)
 		return
@@ -143,7 +146,7 @@ func ModelslistHandler(w http.ResponseWriter, r *http.Request) {
 	json.NewEncoder(w).Encode(nums)
 }
 
-// GET /stoplist
+// GET /stops
 func StoplistHandler(w http.ResponseWriter, r *http.Request) {
 	addCORS(w)
 	stops := service.GetStops()
@@ -152,6 +155,22 @@ func StoplistHandler(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 
 	json.NewEncoder(w).Encode(stops)
+}
+
+// GET /stopsinfo
+func StopcountHandler(w http.ResponseWriter, r *http.Request) {
+	addCORS(w)
+	count, timestamp := repository.GetStopCount()
+
+	response := model.StopsInfo{
+		Count: count,
+		Updated_at: timestamp,
+	}
+
+	//Set headers
+	w.Header().Set("Content-Type", "application/json")
+
+	json.NewEncoder(w).Encode(response)
 }
 
 // GET /routecodes
@@ -165,13 +184,11 @@ func RoutecodesHandler(w http.ResponseWriter, r *http.Request) {
 	json.NewEncoder(w).Encode(routelist)
 }
 
-//TODO GET /routestops/{id}
-
 // GET /nextstops/{id}
 func NextstopsHandler(w http.ResponseWriter, r *http.Request) {
 	addCORS(w)
 	journey_code := r.PathValue("id")
-	response, err := http.Get(nextstopsUrl + journey_code)
+	response, err := http.Get(NextstopsUrl + journey_code)
 	if err != nil {
 		fmt.Println("Error fetching next stops", err)
 	}
@@ -190,7 +207,7 @@ func NextstopsHandler(w http.ResponseWriter, r *http.Request) {
 // GET /allnews
 func AllnewsHandler(w http.ResponseWriter, r *http.Request) {
 	addCORS(w)
-	response, err := http.Get(newsUrl)
+	response, err := http.Get(NewsUrl)
 	if err != nil {
 		http.Error(w, "AllnewsHandler error: "+err.Error(), http.StatusBadGateway)
 		return
@@ -230,7 +247,7 @@ func NewsHandler(w http.ResponseWriter, r *http.Request) {
 // GET /lineproblems
 func LineproblemsHandler(w http.ResponseWriter, r *http.Request) {
 	addCORS(w)
-	raw, err := http.Get(lineeDynUrl)
+	raw, err := http.Get(LineeDynUrl)
 	if err != nil {
 		http.Error(w, "RouteproblemsHandler error: "+err.Error(), http.StatusBadGateway)
 		return
@@ -254,7 +271,7 @@ func LineproblemHandler(w http.ResponseWriter, r *http.Request) {
 	addCORS(w)
 	route := r.PathValue("id")
 
-	raw, err := http.Get(lineeDynUrl)
+	raw, err := http.Get(LineeDynUrl)
 	if err != nil {
 		http.Error(w, "RouteproblemsHandler error: "+err.Error(), http.StatusBadGateway)
 		return
@@ -268,7 +285,7 @@ func LineproblemHandler(w http.ResponseWriter, r *http.Request) {
 
 	siteCode := service.GetSiteCode(problems, route)
 
-	news, err := service.ScrapeRouteNews(lineeNewsUrl + strconv.Itoa(siteCode))
+	news, err := service.ScrapeRouteNews(LineeNewsUrl + strconv.Itoa(siteCode))
 	if err != nil {
 		http.Error(w, "RouteproblemHandler error: "+err.Error(), http.StatusInternalServerError)
 		return
@@ -299,7 +316,7 @@ func TimetableHandler(w http.ResponseWriter, r *http.Request) {
 	params.Set("v", verse)
 	params.Set("g", time.Now().Format("2006-01-02"))
 
-	timetableURL := timetablesUrl + "?" + params.Encode()
+	timetableURL := TimetablesUrl + "?" + params.Encode()
 
 	response, err := service.ScrapeTimetable(timetableURL, line, verse)
 	if err != nil {
@@ -337,7 +354,7 @@ func RoutemapHandler(w http.ResponseWriter, r *http.Request) {
 	formData.Set("data", todayDate)
 	formData.Set("percorso", code)
 
-	req, err := http.NewRequest("POST", percorsoAutistaUrl, strings.NewReader(formData.Encode()))
+	req, err := http.NewRequest("POST", PercorsoAutistaUrl, strings.NewReader(formData.Encode()))
 	if err != nil {
 		w.WriteHeader(http.StatusInternalServerError)
 		return
