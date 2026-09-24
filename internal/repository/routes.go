@@ -9,7 +9,7 @@ import (
 )
 
 // URLs decl. section
-var RoutestopsBaseUrl = "https://wimb.setaweb.it/publicmapbe/waypoints/GetRouteByRCwaypoints/"
+var RoutestopsBaseUrl = "https://wimb.setaweb.it/publicmapbe/waypoints/getroutewaypoints/"
 
 func GetRouteByRC(code string) model.Route {
 	var result model.Route
