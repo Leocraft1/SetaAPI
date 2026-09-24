@@ -2,6 +2,7 @@ package repository
 
 import (
 	"fmt"
+	"io"
 	"net/http"
 	"setaapi/internal/model"
 	"time"
@@ -89,33 +90,47 @@ func SaveRoutes(routes []model.Route) {
 	}
 }
 
+// Client condiviso con timeout: http.Get usa DefaultClient, che non ha timeout
+var httpClient = &http.Client{Timeout: 10 * time.Second}
+
 // Updates route status in routes table (still_exists column)
 func UpdateRoutesStatus() {
 	routeCodes := GetExists()
 
-	rcMap := make(map[string]bool)
+	rcMap := make(map[string]bool, len(routeCodes))
 	for _, val := range routeCodes {
 		rcMap[val.Rc] = val.Still_exists
 	}
 
 	newStatusMap := make(map[string]bool)
-	for idx, val := range rcMap {
-		response, err := http.Get(RoutestopsBaseUrl + idx)
+	for rc, exists := range rcMap {
+		status, err := fetchStatus(RoutestopsBaseUrl + rc)
 		if err != nil {
 			fmt.Println("UpdateRoutesStatus error connecting to upstream:", err)
+			continue
 		}
 
-		if response.StatusCode == 404 && val {
-			newStatusMap[idx] = false
-		} else if response.StatusCode == 200 && !val {
-			newStatusMap[idx] = true
+		if status == http.StatusNotFound && exists {
+			newStatusMap[rc] = false
+		} else if status == http.StatusOK && !exists {
+			newStatusMap[rc] = true
 		}
 	}
 
-	for idx, val := range newStatusMap {
-		_, err := DB_CONTENT.Exec("UPDATE routes SET still_exists = ? WHERE rc = ?", val, idx)
-		if err != nil {
+	for rc, val := range newStatusMap {
+		if _, err := DB_CONTENT.Exec("UPDATE routes SET still_exists = ? WHERE rc = ?", val, rc); err != nil {
 			fmt.Println("UpdateRoutesStatus db error:", err)
 		}
 	}
+}
+
+func fetchStatus(url string) (int, error) {
+	resp, err := httpClient.Get(url)
+	if err != nil {
+		return 0, err
+	}
+	defer resp.Body.Close()
+	// Svuota il body così la connessione keep-alive può essere riutilizzata
+	io.Copy(io.Discard, resp.Body)
+	return resp.StatusCode, nil
 }
