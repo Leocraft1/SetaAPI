@@ -49,6 +49,5 @@ func UpdateRoutes() {
 	}
 
 	repository.SaveRoutes(currRoutes)
-	repository.UpdateRoutesStatus()
 	fmt.Println("UpdateRoutes OK")
 }
