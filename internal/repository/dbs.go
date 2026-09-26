@@ -14,6 +14,7 @@ var (
 	DB_MEZZI   *sqlx.DB
 	DB_CONTENT *sqlx.DB
 	err        error
+	IS_PRIMARY bool
 )
 
 func newDB(host string, port int, user, password, dbname string) (*sqlx.DB, error) {
@@ -31,6 +32,16 @@ func newDB(host string, port int, user, password, dbname string) (*sqlx.DB, erro
 	return db, nil
 }
 
+func isPrimary(db *sqlx.DB) (bool, error) {
+	var varName, value string
+	row := db.QueryRow("SHOW VARIABLES LIKE 'read_only'")
+	if err := row.Scan(&varName, &value); err != nil {
+		return false, fmt.Errorf("lettura read_only: %w", err)
+	}
+	return value == "OFF" || value == "0", nil
+
+}
+
 func InitMezzi() {
 	//DB connection
 	DB_MEZZI, err = newDB(config.DB_HOST, config.DB_PORT, config.DB_USER, config.DB_PASS, "ertpl_mezzi")
@@ -44,5 +55,10 @@ func InitContent() {
 	DB_CONTENT, err = newDB(config.DB_HOST, config.DB_PORT, config.DB_USER, config.DB_PASS, "seta_api_content")
 	if err != nil {
 		log.Fatal("Connessione DB fallita: ", err)
+	}
+
+	IS_PRIMARY, err = isPrimary(DB_CONTENT)
+	if err != nil {
+		log.Fatal("Test DB fallito: ", err)
 	}
 }

@@ -16,7 +16,18 @@ func main() {
 	//DBs Init
 	repository.InitMezzi()
 	repository.InitContent()
-	scheduler.InitScheduler()
+
+	if repository.IS_PRIMARY {
+		//Operazioni per DB in modalità "primary" (non read only):
+
+		s, err := scheduler.InitScheduler()
+		if err != nil {
+			log.Fatal(err)
+		}
+		defer s.Shutdown()
+	} else {
+		println("INFO: Scheduler non avviato: rilevato DB read-only")
+	}
 
 	mux := http.NewServeMux()
 	mux.HandleFunc("GET /health", handler.HealthCheckHandler)
