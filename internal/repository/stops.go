@@ -16,20 +16,6 @@ func GetStops() []model.Stop {
 	return result
 }
 
-func GetStopCount() (int, time.Time) {
-	var rowCount []int
-	var updateTS []time.Time
-	err := DB_CONTENT.Select(&rowCount, "SELECT COUNT(*) FROM stops")
-	err = DB_CONTENT.Select(&updateTS, "SELECT updated_at FROM update_timestamps WHERE table_name = ?", "stops")
-	if err != nil {
-		fmt.Println("[GetStopCount] db error:", err)
-	}
-
-	rows := rowCount[0]
-	updateTime := updateTS[0]
-	return rows, updateTime
-}
-
 func SaveStops(stops []model.Stop) {
 	dbData := GetStops()
 

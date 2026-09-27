@@ -16,13 +16,13 @@ import (
 
 // URLs decl. section
 const (
-	ArrivalsBaseUrl string = "https://avm.setaweb.it/SETA_WS/services/arrival/"
-	WimbBaseUrl string = "https://wimb.setaweb.it/publicmapbe/vehicles/map/MO"
-	NextstopsUrl string = "https://wimb.setaweb.it/publicmapbe/vehicles/getwaypointarrivals/"
-	NewsUrl string = "https://www.setaweb.it/mo/news"
-	LineeDynUrl string = "https://www.setaweb.it/mo/lineedyn"
-	LineeNewsUrl string = "https://www.setaweb.it/mo/news/linea/"
-	TimetablesUrl string = "https://www.setaweb.it/mo/lineedyn/corse-tabella"
+	ArrivalsBaseUrl    string = "https://avm.setaweb.it/SETA_WS/services/arrival/"
+	WimbBaseUrl        string = "https://wimb.setaweb.it/publicmapbe/vehicles/map/MO"
+	NextstopsUrl       string = "https://wimb.setaweb.it/publicmapbe/vehicles/getwaypointarrivals/"
+	NewsUrl            string = "https://www.setaweb.it/mo/news"
+	LineeDynUrl        string = "https://www.setaweb.it/mo/lineedyn"
+	LineeNewsUrl       string = "https://www.setaweb.it/mo/news/linea/"
+	TimetablesUrl      string = "https://www.setaweb.it/mo/lineedyn/corse-tabella"
 	PercorsoAutistaUrl string = "https://www.setaweb.it/percorsoAutista/percorso_mappa.php"
 )
 
@@ -157,21 +157,22 @@ func StoplistHandler(w http.ResponseWriter, r *http.Request) {
 	json.NewEncoder(w).Encode(stops)
 }
 
-// GET /stopsinfo
-func StopsinfoHandler(w http.ResponseWriter, r *http.Request) {
+// GET /updates
+func UpdatesHandler(w http.ResponseWriter, r *http.Request) {
 	addCORS(w)
-	count, timestamp := repository.GetStopCount()
+	content := repository.GetUpdateTimestamps()
 
-	response := model.StopsInfo{
-		Count: count,
-		Updated_at_date: timestamp.Format("02-01-2006"),
-		Updated_at_time: timestamp.Format("15:04:05"),
+	for idx, val := range content {
+		content[idx] = model.UpdateEntry{
+			TableName: val.TableName,
+			UpdatedAtStr: val.UpdatedAt.Format("02-01-2006 15:04:05"),
+		}
 	}
 
 	//Set headers
 	w.Header().Set("Content-Type", "application/json")
 
-	json.NewEncoder(w).Encode(response)
+	json.NewEncoder(w).Encode(content)
 }
 
 // GET /routecodes
