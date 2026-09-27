@@ -26,3 +26,26 @@ func SyncVehicleStatus() {
 
 	fmt.Println("SyncVehicleStatus OK")
 }
+
+func SyncAssignments() {
+	vehicles, err := service.GetBusesinservice(handler.WimbBaseUrl, handler.LineeDynUrl)
+	if err != nil {
+		fmt.Println("SyncAssignments unable to get buses in service:", err)
+	}
+
+	vehiclesMap := make(map[string]string)
+	for _, val := range vehicles.Buses {
+		vehiclesMap[val.Vehicle_table] = val.Vehicle
+	}
+
+	new := make(map[string]string)
+	assMap := repository.GetAssignmentsMap()
+	for idx, val := range vehiclesMap {
+		_, ok := assMap[idx]
+		if !ok {
+			new[idx] = val
+		}
+	}
+	repository.InsertGPSAssignments(new)
+	fmt.Println("SyncAssignments OK")
+}
