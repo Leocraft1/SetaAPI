@@ -89,4 +89,4 @@ and just use its output as the password.
 
 ## Credits
 
-Scraping endpoints kindly done by [@Daniongitub](https://github.com/Daniongithub)
+Scraping endpoints kindly done by [@Daniongithub](https://github.com/Daniongithub)
