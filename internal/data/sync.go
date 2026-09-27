@@ -38,14 +38,16 @@ func SyncAssignments() {
 		vehiclesMap[val.Vehicle_table] = val.Vehicle
 	}
 
-	new := make(map[string]string)
+	old := make(map[string]string)
 	assMap := repository.GetAssignmentsMap()
-	for idx, val := range vehiclesMap {
-		_, ok := assMap[idx]
+	//Searches for stuff that doesn't communicate GPS anymore
+	for idx, val := range assMap {
+		_, ok := vehiclesMap[idx]
 		if !ok {
-			new[idx] = val
+			old[idx] = val
 		}
 	}
-	repository.InsertGPSAssignments(new)
+	repository.InsertGPSAssignments(vehiclesMap)
+	repository.SetNoGPS(old)
 	fmt.Println("SyncAssignments OK")
 }

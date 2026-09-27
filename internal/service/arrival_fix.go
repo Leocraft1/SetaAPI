@@ -110,6 +110,21 @@ func FixArrivals(raw model.ArrivalRaw, problems model.ProblemCodesResponse) mode
 		}
 	}
 
+	//Vehicle prevision (assignments) section
+	assignments := repository.GetAssignments()
+	assMap := make(map[string]string)
+	for _, val := range assignments {
+		assMap[val.VehicleTable] = val.Vehicle
+	}
+	for idx := range out.Arrival.Services {
+		val := &out.Arrival.Services[idx]
+		vehicle, ok := assMap[val.Vehicle_table]
+		if ok {
+			val.Vehicle = vehicle
+			val.State = "planned known vehicle"
+		}
+	}
+
 	return out
 }
 
