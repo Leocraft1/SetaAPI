@@ -5,7 +5,6 @@ import (
 	"log"
 	"net/http"
 	"setaapi/config"
-	"setaapi/internal/data"
 	"setaapi/internal/handler"
 	"setaapi/internal/repository"
 	"setaapi/internal/scheduler"
