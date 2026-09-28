@@ -119,7 +119,7 @@ func FixArrivals(raw model.ArrivalRaw, problems model.ProblemCodesResponse) mode
 	for idx := range out.Arrival.Services {
 		val := &out.Arrival.Services[idx]
 		vehicle, ok := assMap[val.Vehicle_table]
-		if ok {
+		if ok && val.State != "realtime" {
 			val.Vehicle = vehicle
 			val.State = "planned known vehicle"
 		}
