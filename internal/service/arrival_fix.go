@@ -42,7 +42,42 @@ func FixArrivals(raw model.ArrivalRaw, problems model.ProblemCodesResponse) mode
 
 	out.Arrival.Services = filtered
 
-	// AEP support
+	// Step 2: per ogni corsa realtime, cerca il planned corrispondente e calcola il delay
+	for i := range out.Arrival.Services {
+		val := &out.Arrival.Services[i]
+
+		if val.State != "realtime" {
+			continue
+		}
+
+		planned, exists := plannedByRouteCode[val.Journey_code]
+		if !exists {
+			continue
+		}
+
+		delay, err := computeDelay(planned.Arrival_time, val.Arrival_time)
+		if err != nil {
+			continue
+		}
+		val.Delay = &delay
+	}
+
+	//Vehicle prevision (assignments) section
+	assignments := repository.GetAssignments()
+	assMap := make(map[string]string)
+	for _, val := range assignments {
+		assMap[val.VehicleTable] = val.Vehicle
+	}
+	for idx := range out.Arrival.Services {
+		val := &out.Arrival.Services[idx]
+		vehicle, ok := assMap[val.Vehicle_table]
+		if ok && val.State != "realtime" {
+			val.Vehicle = vehicle
+			val.State = "planned known vehicle"
+		}
+	}
+
+		// AEP support
 	aep := repository.GetAEP()
 
 	aepMap := make(map[int]bool, len(aep))
@@ -67,26 +102,6 @@ func FixArrivals(raw model.ArrivalRaw, problems model.ProblemCodesResponse) mode
 		}
 	}
 
-	// Step 2: per ogni corsa realtime, cerca il planned corrispondente e calcola il delay
-	for i := range out.Arrival.Services {
-		val := &out.Arrival.Services[i]
-
-		if val.State != "realtime" {
-			continue
-		}
-
-		planned, exists := plannedByRouteCode[val.Journey_code]
-		if !exists {
-			continue
-		}
-
-		delay, err := computeDelay(planned.Arrival_time, val.Arrival_time)
-		if err != nil {
-			continue
-		}
-		val.Delay = &delay
-	}
-
 	//Fix/add variants and incorrect data
 	for idx := range out.Arrival.Services {
 		val := &out.Arrival.Services[idx]
@@ -107,21 +122,6 @@ func FixArrivals(raw model.ArrivalRaw, problems model.ProblemCodesResponse) mode
 				//If there is no problems break the cycle
 				break
 			}
-		}
-	}
-
-	//Vehicle prevision (assignments) section
-	assignments := repository.GetAssignments()
-	assMap := make(map[string]string)
-	for _, val := range assignments {
-		assMap[val.VehicleTable] = val.Vehicle
-	}
-	for idx := range out.Arrival.Services {
-		val := &out.Arrival.Services[idx]
-		vehicle, ok := assMap[val.Vehicle_table]
-		if ok && val.State != "realtime" {
-			val.Vehicle = vehicle
-			val.State = "planned known vehicle"
 		}
 	}
 
