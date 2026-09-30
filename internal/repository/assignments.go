@@ -34,10 +34,10 @@ func InsertGPSAssignments(new map[string]string) {
 	//Insert (gps and last_seen are true) overwriting if vehicle was already set
 	for idx, val := range new {
 		_, err := DB_CONTENT.Exec(
-			`INSERT INTO assignments (vehicle_table, vehicle, is_GPS, wants_last_seen)
-			VALUES (?, ?, ?, ?)
+			`INSERT INTO assignments (vehicle_table, vehicle, is_GPS)
+			VALUES (?, ?, ?)
 			ON DUPLICATE KEY UPDATE vehicle = VALUES(vehicle), is_GPS = VALUES(is_GPS), wants_last_seen = VALUES(wants_last_seen)`,
-			idx, val, true, true,
+			idx, val, true,
 		)
 		if err != nil {
 			fmt.Println("InsertGPSAssignments db error:", err)
