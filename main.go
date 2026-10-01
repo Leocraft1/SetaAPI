@@ -62,9 +62,15 @@ func main() {
 	mux.HandleFunc("GET /routemap/{id}", handler.RoutemapHandler)
 	mux.HandleFunc("GET /assignments", handler.AssignmentsHandler)
 
-	mux.Handle("POST /assignments/add", authMiddleware(http.HandlerFunc(handler.AddAssignmentHandler)))
-	mux.Handle("PUT /assignments/changevehicle", authMiddleware(http.HandlerFunc(handler.UpdateAssignmentHandler)))
-	mux.Handle("DELETE /assignments/remove", authMiddleware(http.HandlerFunc(handler.AssignmentsHandler)))
+	mux.Handle("POST /assignments/add",
+		handler.CorsMiddleware(authMiddleware(http.HandlerFunc(handler.AddAssignmentHandler))),
+	)
+	mux.Handle("PUT /assignments/changevehicle",
+		handler.CorsMiddleware(authMiddleware(http.HandlerFunc(handler.UpdateAssignmentHandler))),
+	)
+	mux.Handle("DELETE /assignments/remove",
+		handler.CorsMiddleware(authMiddleware(http.HandlerFunc(handler.DeleteAssignmentHandler))),
+	)
 
 	//Listen on port and start API
 	fmt.Println("Server started on port " + config.PORT)

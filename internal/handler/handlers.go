@@ -37,7 +37,7 @@ func addCORS(w http.ResponseWriter) {
 }
 
 //Auth-required functions pass through this to restrict requests
-func corsMiddleware(next http.Handler) http.Handler {
+func CorsMiddleware(next http.Handler) http.Handler {
     return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
         w.Header().Set("Access-Control-Allow-Origin", config.CORS_ALLOWED_ORIGIN)
         w.Header().Set("Access-Control-Allow-Methods", "GET, POST, OPTIONS")
@@ -422,6 +422,13 @@ func AssignmentsHandler(w http.ResponseWriter, r *http.Request) {
 
 // POST /assignments/add (AUTH REQUIRED)
 func AddAssignmentHandler(w http.ResponseWriter, r *http.Request) {
+	//Sets headers
+	w.Header().Set("Content-Type", "application/json")
+	if r.Header.Get("Content-Type") != "application/json" {
+		w.WriteHeader(http.StatusUnsupportedMediaType) // 415
+		json.NewEncoder(w).Encode(map[string]string{"error": "expected application/json"})
+		return
+	}
 	var req model.CreateAssignmentRequest
     if err := json.NewDecoder(r.Body).Decode(&req); err != nil {
         w.WriteHeader(http.StatusBadRequest)
@@ -432,19 +439,25 @@ func AddAssignmentHandler(w http.ResponseWriter, r *http.Request) {
 
 	err := repository.InsertAssignment(req.VehicleTable, req.Vehicle)
 
-	//Sets headers
-	w.Header().Set("Content-Type", "application/json")
 	if err != nil {
 		json.NewEncoder(w).Encode(err)
 		return
 	}
 	message := "Add request OK"
 
+	w.WriteHeader(http.StatusCreated)
 	json.NewEncoder(w).Encode([]byte(message))
 }
 
 // PUT /assignments/update (AUTH REQUIRED)
 func UpdateAssignmentHandler(w http.ResponseWriter, r *http.Request) {
+	//Sets headers
+	w.Header().Set("Content-Type", "application/json")
+	if r.Header.Get("Content-Type") != "application/json" {
+		w.WriteHeader(http.StatusUnsupportedMediaType) // 415
+		json.NewEncoder(w).Encode(map[string]string{"error": "expected application/json"})
+		return
+	}
 	var req model.CreateAssignmentRequest
     if err := json.NewDecoder(r.Body).Decode(&req); err != nil {
         w.WriteHeader(http.StatusBadRequest)
@@ -455,8 +468,6 @@ func UpdateAssignmentHandler(w http.ResponseWriter, r *http.Request) {
 
 	err := repository.UpdateAssignment(req.VehicleTable, req.Vehicle)
 
-	//Sets headers
-	w.Header().Set("Content-Type", "application/json")
 	if err != nil {
 		json.NewEncoder(w).Encode(err)
 		return
@@ -466,8 +477,15 @@ func UpdateAssignmentHandler(w http.ResponseWriter, r *http.Request) {
 	json.NewEncoder(w).Encode([]byte(message))
 }
 
-// DELETE /assignments/remove
+// DELETE /assignments/remove (AUTH REQUIRED)
 func DeleteAssignmentHandler(w http.ResponseWriter, r *http.Request) {
+	//Sets headers
+	w.Header().Set("Content-Type", "application/json")
+	if r.Header.Get("Content-Type") != "application/json" {
+		w.WriteHeader(http.StatusUnsupportedMediaType) // 415
+		json.NewEncoder(w).Encode(map[string]string{"error": "expected application/json"})
+		return
+	}
 	var req model.DeleteAssignmentRequest
     if err := json.NewDecoder(r.Body).Decode(&req); err != nil {
         w.WriteHeader(http.StatusBadRequest)
@@ -478,8 +496,6 @@ func DeleteAssignmentHandler(w http.ResponseWriter, r *http.Request) {
 
 	err := repository.DeleteAssignment(req.VehicleTable)
 
-	//Sets headers
-	w.Header().Set("Content-Type", "application/json")
 	if err != nil {
 		json.NewEncoder(w).Encode(err)
 		return
