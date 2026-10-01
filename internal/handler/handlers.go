@@ -6,12 +6,15 @@ import (
 	"io"
 	"net/http"
 	"net/url"
+	"setaapi/config"
 	"setaapi/internal/model"
 	"setaapi/internal/repository"
 	"setaapi/internal/service"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/coreos/go-oidc/v3/oidc"
 )
 
 // URLs decl. section
@@ -31,6 +34,22 @@ func addCORS(w http.ResponseWriter) {
 	w.Header().Set("Vary", "Origin")
 	w.Header().Set("Access-Control-Allow-Methods", "GET, HEAD")
 	w.Header().Set("Access-Control-Allow-Headers", "Content-Type")
+}
+
+//Auth-required functions pass through this to restrict requests
+func corsMiddleware(next http.Handler) http.Handler {
+    return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+        w.Header().Set("Access-Control-Allow-Origin", config.CORS_ALLOWED_ORIGIN)
+        w.Header().Set("Access-Control-Allow-Methods", "GET, POST, OPTIONS")
+        w.Header().Set("Access-Control-Allow-Headers", "Authorization, Content-Type")
+
+        if r.Method == "OPTIONS" {
+            w.WriteHeader(http.StatusOK)
+            return
+        }
+
+        next.ServeHTTP(w, r)
+    })
 }
 
 // GET /health
@@ -388,4 +407,137 @@ func RoutemapHandler(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "text/html; charset=utf-8")
 
 	w.Write([]byte(finalHTML))
+}
+
+// GET /assignments
+func AssignmentsHandler(w http.ResponseWriter, r *http.Request) {
+	addCORS(w)
+	assignments := repository.GetAssignments()
+
+	//Sets headers
+	w.Header().Set("Content-Type", "application/json")
+
+	json.NewEncoder(w).Encode(assignments)
+}
+
+// POST /assignments/add (AUTH REQUIRED)
+func AddAssignmentHandler(w http.ResponseWriter, r *http.Request) {
+	var req model.CreateAssignmentRequest
+    if err := json.NewDecoder(r.Body).Decode(&req); err != nil {
+        w.WriteHeader(http.StatusBadRequest)
+        json.NewEncoder(w).Encode(map[string]string{"error": "invalid request body"})
+        return
+    }
+    defer r.Body.Close()
+
+	err := repository.InsertAssignment(req.VehicleTable, req.Vehicle)
+
+	//Sets headers
+	w.Header().Set("Content-Type", "application/json")
+	if err != nil {
+		json.NewEncoder(w).Encode(err)
+		return
+	}
+	message := "Add request OK"
+
+	json.NewEncoder(w).Encode([]byte(message))
+}
+
+// PUT /assignments/update (AUTH REQUIRED)
+func UpdateAssignmentHandler(w http.ResponseWriter, r *http.Request) {
+	var req model.CreateAssignmentRequest
+    if err := json.NewDecoder(r.Body).Decode(&req); err != nil {
+        w.WriteHeader(http.StatusBadRequest)
+        json.NewEncoder(w).Encode(map[string]string{"error": "invalid request body"})
+        return
+    }
+    defer r.Body.Close()
+
+	err := repository.UpdateAssignment(req.VehicleTable, req.Vehicle)
+
+	//Sets headers
+	w.Header().Set("Content-Type", "application/json")
+	if err != nil {
+		json.NewEncoder(w).Encode(err)
+		return
+	}
+	message := "Update request OK"
+
+	json.NewEncoder(w).Encode([]byte(message))
+}
+
+// DELETE /assignments/remove
+func DeleteAssignmentHandler(w http.ResponseWriter, r *http.Request) {
+	var req model.DeleteAssignmentRequest
+    if err := json.NewDecoder(r.Body).Decode(&req); err != nil {
+        w.WriteHeader(http.StatusBadRequest)
+        json.NewEncoder(w).Encode(map[string]string{"error": "invalid request body"})
+        return
+    }
+    defer r.Body.Close()
+
+	err := repository.DeleteAssignment(req.VehicleTable)
+
+	//Sets headers
+	w.Header().Set("Content-Type", "application/json")
+	if err != nil {
+		json.NewEncoder(w).Encode(err)
+		return
+	}
+	message := "Delete request OK"
+
+	json.NewEncoder(w).Encode([]byte(message))
+}
+
+//Auth flow
+func RequireAuth(verifier *oidc.IDTokenVerifier, allowedGroups []string) func(http.Handler) http.Handler {
+    allowedSet := make(map[string]bool, len(allowedGroups))
+    for _, g := range allowedGroups {
+        allowedSet[g] = true
+    }
+
+    return func(next http.Handler) http.Handler {
+        return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+            w.Header().Set("Content-Type", "application/json")
+
+            authHeader := r.Header.Get("Authorization")
+            if !strings.HasPrefix(authHeader, "Bearer ") {
+                w.WriteHeader(http.StatusUnauthorized)
+                json.NewEncoder(w).Encode(map[string]string{"error": "missing bearer token"})
+                return
+            }
+            rawToken := strings.TrimPrefix(authHeader, "Bearer ")
+
+            idToken, err := verifier.Verify(r.Context(), rawToken)
+            if err != nil {
+                w.WriteHeader(http.StatusUnauthorized)
+                json.NewEncoder(w).Encode(map[string]string{"error": "invalid or expired token"})
+                return
+            }
+
+            var claims struct {
+                Groups []string `json:"groups"`
+            }
+            if err := idToken.Claims(&claims); err != nil {
+                w.WriteHeader(http.StatusUnauthorized)
+                json.NewEncoder(w).Encode(map[string]string{"error": "malformed token claims"})
+                return
+            }
+
+            authorized := false
+            for _, g := range claims.Groups {
+                if allowedSet[g] {
+                    authorized = true
+                    break
+                }
+            }
+            if !authorized {
+                w.WriteHeader(http.StatusForbidden)
+                json.NewEncoder(w).Encode(map[string]string{"error": "insufficient group membership"})
+                return
+            }
+
+            next.ServeHTTP(w, r)
+        })
+    }
 }

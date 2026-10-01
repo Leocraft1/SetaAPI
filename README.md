@@ -49,6 +49,12 @@ DB_HOST="yourHost"
 DB_PORT=3306
 DB_USER="yourUser"
 DB_PASS="yourPassword"
+
+# Manual insertion into timetables (OAuth restricted access) configuration
+OIDC_ISSUER_URL=
+OIDC_CLIENT_ID=
+OIDC_ALLOWED_GROUPS=group1,group2,group3
+CORS_ALLOWED_ORIGIN=https://yourdomain.com # only relative to auth-related endpoints
 ```
 
 `yourUser` and `yourPassword` are your configured db credentials, `yourHost` is ip addres or DNS of your db.
@@ -68,8 +74,8 @@ To obtain up to date data you can reach out to <info.ertpl@protonmail.com> askin
 
 You'll need to create a user that can access the database and you need to grant it following privileges:
 
-- `SELECT` on `ertpl_mezzi`
-- `SELECT`, `INSERT` and `UPDATE` on `seta_api_content`
+- `SELECT UPDATE` on `ertpl_mezzi`
+- `SELECT`, `INSERT`, `UPDATE` and `DELETE` on `seta_api_content`
 
 If you don't know how to create a user or run into some access denied issue here's the syntax:
 

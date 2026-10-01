@@ -1,6 +1,7 @@
 package main
 
 import (
+	"context"
 	"fmt"
 	"log"
 	"net/http"
@@ -8,6 +9,7 @@ import (
 	"setaapi/internal/handler"
 	"setaapi/internal/repository"
 	"setaapi/internal/scheduler"
+	"github.com/coreos/go-oidc/v3/oidc"
 )
 
 func main() {
@@ -29,6 +31,17 @@ func main() {
 		println("INFO: Scheduler non avviato: rilevato DB read-only")
 	}
 
+	//OAuth
+	ctx := context.Background()
+
+	provider, err := oidc.NewProvider(ctx, config.OIDC_ISSUER_URL)
+	if err != nil {
+		log.Fatal("impossibile contattare Authentik per il discovery OIDC:", err)
+	}
+
+	verifier := provider.Verifier(&oidc.Config{ClientID: config.OIDC_CLIENT_ID})
+	authMiddleware := handler.RequireAuth(verifier, config.OIDC_ALLOWED_GROUPS)
+
 	mux := http.NewServeMux()
 	mux.HandleFunc("GET /health", handler.HealthCheckHandler)
 	mux.HandleFunc("GET /arrivals/{id}", handler.ArrivalsHandler)
@@ -47,6 +60,11 @@ func main() {
 	mux.HandleFunc("GET /lineproblems/{id}", handler.LineproblemHandler)
 	mux.HandleFunc("GET /timetable", handler.TimetableHandler)
 	mux.HandleFunc("GET /routemap/{id}", handler.RoutemapHandler)
+	mux.HandleFunc("GET /assignments", handler.AssignmentsHandler)
+
+	mux.Handle("POST /assignments/add", authMiddleware(http.HandlerFunc(handler.AddAssignmentHandler)))
+	mux.Handle("PUT /assignments/changevehicle", authMiddleware(http.HandlerFunc(handler.UpdateAssignmentHandler)))
+	mux.Handle("DELETE /assignments/remove", authMiddleware(http.HandlerFunc(handler.AssignmentsHandler)))
 
 	//Listen on port and start API
 	fmt.Println("Server started on port " + config.PORT)
