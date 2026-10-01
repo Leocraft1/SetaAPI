@@ -2,7 +2,11 @@ package repository
 
 import (
 	"fmt"
+	"regexp"
 	"setaapi/internal/model"
+	"sort"
+	"strconv"
+	"unicode"
 )
 
 func GetAssignments() []model.Assignment {
@@ -12,7 +16,7 @@ func GetAssignments() []model.Assignment {
 		fmt.Println("GetAssignments db error:", err)
 	}
 
-	return results
+	return sortByTable(results)
 }
 
 func GetAssignmentsMap() map[string]string {
@@ -91,4 +95,47 @@ func DeleteAllAssignments() {
 	if err != nil {
 		fmt.Println("DeleteAllAssignments db error:", err)
 	}
+}
+
+
+// ---------------------
+// - PRIVATE FUNCTIONS -
+// ---------------------
+//Sorts assignments
+func sortByTable(buses []model.Assignment) []model.Assignment {
+	sort.SliceStable(buses, func(i, j int) bool {
+		numI := extractLineNumber(buses[i].VehicleTable)
+		numJ := extractLineNumber(buses[j].VehicleTable)
+		if numI != numJ {
+			return numI < numJ
+		}
+		return buses[i].VehicleTable < buses[j].VehicleTable
+	})
+
+	numeric := make([]model.Assignment, 0, len(buses))
+	letters := make([]model.Assignment, 0)
+
+	for _, b := range buses {
+		if len(b.VehicleTable) > 0 && unicode.IsLetter(rune(b.VehicleTable[0])) {
+			letters = append(letters, b)
+		} else {
+			numeric = append(numeric, b)
+		}
+	}
+
+	return append(numeric, letters...)
+}
+
+var numericPartRegex = regexp.MustCompile(`\d+`)
+
+func extractLineNumber(line string) int {
+	match := numericPartRegex.FindString(line)
+	if match == "" {
+		return 0
+	}
+	num, err := strconv.Atoi(match)
+	if err != nil {
+		return 0
+	}
+	return num
 }
