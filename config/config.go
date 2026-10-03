@@ -19,6 +19,7 @@ var (
 	OIDC_CLIENT_ID      string
 	OIDC_ALLOWED_GROUPS []string
 	CORS_ALLOWED_ORIGIN string
+	ENABLE_AUTH         bool
 )
 
 func LoadConf() {
@@ -37,6 +38,7 @@ func LoadConf() {
 	OIDC_CLIENT_ID = getEnv("OIDC_CLIENT_ID", "")
 	OIDC_ALLOWED_GROUPS = strings.Split(getEnv("OIDC_ALLOWED_GROUPS", ""), ",")
 	CORS_ALLOWED_ORIGIN = getEnv("CORS_ALLOWED_ORIGIN", "")
+	ENABLE_AUTH = getEnvBool("ENABLE_AUTH", "false")
 }
 
 func getEnv(key, fallback string) string {
@@ -58,4 +60,13 @@ func getEnvInt(key string, fallback int) int {
 	}
 
 	return n
+}
+
+func getEnvBool(key string, fallback string) bool {
+	value := getEnv(key, fallback)
+	if value == "true" {
+		return true
+	} else {
+		return false
+	}
 }

@@ -31,17 +31,6 @@ func main() {
 		println("INFO: Scheduler non avviato: rilevato DB read-only")
 	}
 
-	//OAuth
-	ctx := context.Background()
-
-	provider, err := oidc.NewProvider(ctx, config.OIDC_ISSUER_URL)
-	if err != nil {
-		log.Fatal("impossibile contattare Authentik per il discovery OIDC:", err)
-	}
-
-	verifier := provider.Verifier(&oidc.Config{ClientID: config.OIDC_CLIENT_ID})
-	authMiddleware := handler.RequireAuth(verifier, config.OIDC_ALLOWED_GROUPS)
-
 	mux := http.NewServeMux()
 	mux.HandleFunc("GET /health", handler.HealthCheckHandler)
 	mux.HandleFunc("GET /arrivals/{id}", handler.ArrivalsHandler)
@@ -62,15 +51,28 @@ func main() {
 	mux.HandleFunc("GET /routemap/{id}", handler.RoutemapHandler)
 	mux.HandleFunc("GET /assignments", handler.AssignmentsHandler)
 
-	mux.Handle("POST /assignments/add",
-		handler.CorsMiddleware(authMiddleware(http.HandlerFunc(handler.AddAssignmentHandler))),
-	)
-	mux.Handle("PUT /assignments/changevehicle",
-		handler.CorsMiddleware(authMiddleware(http.HandlerFunc(handler.UpdateAssignmentHandler))),
-	)
-	mux.Handle("DELETE /assignments/remove",
-		handler.CorsMiddleware(authMiddleware(http.HandlerFunc(handler.DeleteAssignmentHandler))),
-	)
+	//OAuth
+	if(config.ENABLE_AUTH) {
+		ctx := context.Background()
+
+		provider, err := oidc.NewProvider(ctx, config.OIDC_ISSUER_URL)
+		if err != nil {
+			log.Fatal("impossibile contattare Authentik per il discovery OIDC:", err)
+		}
+
+		verifier := provider.Verifier(&oidc.Config{ClientID: config.OIDC_CLIENT_ID})
+		authMiddleware := handler.RequireAuth(verifier, config.OIDC_ALLOWED_GROUPS)
+
+		mux.Handle("POST /assignments/add",
+			handler.CorsMiddleware(authMiddleware(http.HandlerFunc(handler.AddAssignmentHandler))),
+		)
+		mux.Handle("PUT /assignments/changevehicle",
+			handler.CorsMiddleware(authMiddleware(http.HandlerFunc(handler.UpdateAssignmentHandler))),
+		)
+		mux.Handle("DELETE /assignments/remove",
+			handler.CorsMiddleware(authMiddleware(http.HandlerFunc(handler.DeleteAssignmentHandler))),
+		)
+	}
 
 	//Listen on port and start API
 	fmt.Println("Server started on port " + config.PORT)

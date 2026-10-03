@@ -55,6 +55,7 @@ OIDC_ISSUER_URL=
 OIDC_CLIENT_ID=
 OIDC_ALLOWED_GROUPS=group1,group2,group3
 CORS_ALLOWED_ORIGIN=https://yourdomain.com # only relative to auth-related endpoints
+ENABLE_AUTH=false # enable auth-related endpoints only if auth provider is set
 ```
 
 `yourUser` and `yourPassword` are your configured db credentials, `yourHost` is ip addres or DNS of your db.
