@@ -3,13 +3,13 @@ package main
 import (
 	"context"
 	"fmt"
+	"github.com/coreos/go-oidc/v3/oidc"
 	"log"
 	"net/http"
 	"setaapi/config"
 	"setaapi/internal/handler"
 	"setaapi/internal/repository"
 	"setaapi/internal/scheduler"
-	"github.com/coreos/go-oidc/v3/oidc"
 )
 
 func main() {
@@ -52,7 +52,7 @@ func main() {
 	mux.HandleFunc("GET /assignments", handler.AssignmentsHandler)
 
 	//OAuth
-	if(config.ENABLE_AUTH) {
+	if config.ENABLE_AUTH {
 		ctx := context.Background()
 
 		provider, err := oidc.NewProvider(ctx, config.OIDC_ISSUER_URL)
@@ -63,18 +63,14 @@ func main() {
 		verifier := provider.Verifier(&oidc.Config{ClientID: config.OIDC_CLIENT_ID})
 		authMiddleware := handler.RequireAuth(verifier, config.OIDC_ALLOWED_GROUPS)
 
-		mux.Handle("POST /assignments/add",
-			handler.CorsMiddleware(authMiddleware(http.HandlerFunc(handler.AddAssignmentHandler))),
-		)
-		mux.Handle("PUT /assignments/changevehicle",
-			handler.CorsMiddleware(authMiddleware(http.HandlerFunc(handler.UpdateAssignmentHandler))),
-		)
-		mux.Handle("DELETE /assignments/remove",
-			handler.CorsMiddleware(authMiddleware(http.HandlerFunc(handler.DeleteAssignmentHandler))),
-		)
+		mux.Handle("POST /assignments/add", authMiddleware(http.HandlerFunc(handler.AddAssignmentHandler)))
+		mux.Handle("PUT /assignments/changevehicle", authMiddleware(http.HandlerFunc(handler.UpdateAssignmentHandler)))
+		mux.Handle("DELETE /assignments/remove", authMiddleware(http.HandlerFunc(handler.DeleteAssignmentHandler)))
 	}
+
+	finalHandler := handler.CorsMiddleware(mux) //wraps mux
 
 	//Listen on port and start API
 	fmt.Println("Server started on port " + config.PORT)
-	log.Print(http.ListenAndServe(config.PORT, mux))
+	log.Print(http.ListenAndServe(config.PORT, finalHandler))
 }
