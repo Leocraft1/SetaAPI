@@ -436,7 +436,6 @@ func AssignmentsHandler(w http.ResponseWriter, r *http.Request) {
 
 // POST /assignments/add (AUTH REQUIRED)
 func AddAssignmentHandler(w http.ResponseWriter, r *http.Request) {
-	log.Println("Authorization header ricevuto:", r.Header.Get("Authorization"))
 	//Sets headers
 	w.Header().Set("Content-Type", "application/json")
 	if r.Header.Get("Content-Type") != "application/json" {
@@ -532,6 +531,7 @@ func RequireAuth(verifier *oidc.IDTokenVerifier, allowedGroups []string) func(ht
             w.Header().Set("Content-Type", "application/json")
 
             authHeader := r.Header.Get("Authorization")
+			log.Println("Authorization header ricevuto:", authHeader)
             if !strings.HasPrefix(authHeader, "Bearer ") {
                 w.WriteHeader(http.StatusUnauthorized)
                 json.NewEncoder(w).Encode(map[string]string{"error": "missing bearer token"})
