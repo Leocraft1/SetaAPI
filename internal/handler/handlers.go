@@ -37,19 +37,32 @@ func addCORS(w http.ResponseWriter) {
 }
 
 //Auth-required functions pass through this to restrict requests
-func CorsMiddleware(next http.Handler) http.Handler {
-    return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-        w.Header().Set("Access-Control-Allow-Origin", config.CORS_ALLOWED_ORIGIN)
-        w.Header().Set("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS")
-        w.Header().Set("Access-Control-Allow-Headers", "Authorization, Content-Type")
+func CorsMiddleware() func(http.Handler) http.Handler {
+    allowedSet := make(map[string]bool, len(config.CORS_ALLOWED_ORIGIN))
+    for _, o := range config.CORS_ALLOWED_ORIGIN {
+        allowedSet[o] = true
+    }
 
-        if r.Method == "OPTIONS" {
-            w.WriteHeader(http.StatusOK)
-            return
-        }
+    return func(next http.Handler) http.Handler {
+        return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+            origin := r.Header.Get("Origin")
 
-        next.ServeHTTP(w, r)
-    })
+            if allowedSet[origin] {
+                w.Header().Set("Access-Control-Allow-Origin", origin)
+                w.Header().Set("Vary", "Origin")
+            }
+
+            w.Header().Set("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS")
+            w.Header().Set("Access-Control-Allow-Headers", "Authorization, Content-Type")
+
+            if r.Method == "OPTIONS" {
+                w.WriteHeader(http.StatusOK)
+                return
+            }
+
+            next.ServeHTTP(w, r)
+        })
+    }
 }
 
 // GET /health

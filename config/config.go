@@ -18,7 +18,7 @@ var (
 	OIDC_ISSUER_URL     string
 	OIDC_CLIENT_ID      string
 	OIDC_ALLOWED_GROUPS []string
-	CORS_ALLOWED_ORIGIN string
+	CORS_ALLOWED_ORIGIN []string
 	ENABLE_AUTH         bool
 )
 
@@ -37,7 +37,7 @@ func LoadConf() {
 	OIDC_ISSUER_URL = getEnv("OIDC_ISSUER_URL", "")
 	OIDC_CLIENT_ID = getEnv("OIDC_CLIENT_ID", "")
 	OIDC_ALLOWED_GROUPS = strings.Split(getEnv("OIDC_ALLOWED_GROUPS", ""), ",")
-	CORS_ALLOWED_ORIGIN = getEnv("CORS_ALLOWED_ORIGIN", "")
+	CORS_ALLOWED_ORIGIN = strings.Split(getEnv("CORS_ALLOWED_ORIGIN", ""), ",")
 	ENABLE_AUTH = getEnvBool("ENABLE_AUTH", "false")
 }
 

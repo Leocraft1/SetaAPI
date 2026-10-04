@@ -68,7 +68,7 @@ func main() {
 		mux.Handle("DELETE /assignments/remove", authMiddleware(http.HandlerFunc(handler.DeleteAssignmentHandler)))
 	}
 
-	finalHandler := handler.CorsMiddleware(mux) //wraps mux
+	finalHandler := handler.CorsMiddleware()(mux) //wraps mux
 
 	//Listen on port and start API
 	fmt.Println("Server started on port " + config.PORT)
