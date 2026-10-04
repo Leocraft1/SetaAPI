@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"io"
+	"log"
 	"net/http"
 	"net/url"
 	"setaapi/config"
@@ -435,7 +436,7 @@ func AssignmentsHandler(w http.ResponseWriter, r *http.Request) {
 
 // POST /assignments/add (AUTH REQUIRED)
 func AddAssignmentHandler(w http.ResponseWriter, r *http.Request) {
-	fmt.Println("Authorization header ricevuto:", r.Header.Get("Authorization"))
+	log.Println("Authorization header ricevuto:", r.Header.Get("Authorization"))
 	//Sets headers
 	w.Header().Set("Content-Type", "application/json")
 	if r.Header.Get("Content-Type") != "application/json" {
