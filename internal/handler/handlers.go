@@ -40,7 +40,7 @@ func addCORS(w http.ResponseWriter) {
 func CorsMiddleware(next http.Handler) http.Handler {
     return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
         w.Header().Set("Access-Control-Allow-Origin", config.CORS_ALLOWED_ORIGIN)
-        w.Header().Set("Access-Control-Allow-Methods", "GET, POST, OPTIONS")
+        w.Header().Set("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS")
         w.Header().Set("Access-Control-Allow-Headers", "Authorization, Content-Type")
 
         if r.Method == "OPTIONS" {
