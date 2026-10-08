@@ -66,6 +66,14 @@ func FixBusesinservice(raw model.BusesRaw, problems model.ProblemCodesResponse, 
 
 		fixStop(val)
 	}
+	
+	//Assignments (detected section)
+	assignments := repository.GetAssignments()
+	for _, val := range assignments {
+		if !val.IsGPS {
+			out.OtherDetected = append(out.OtherDetected, val)
+		}
+	}
 
 	//News section
 	for idx1 := range out.Buses {

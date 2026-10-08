@@ -1,7 +1,8 @@
 package model
 
 type Buses struct {
-	Buses []Bus `json:"buses"`
+	Buses         []Bus        `json:"buses"`
+	OtherDetected []Assignment `json:"other_detected"`
 }
 
 type Bus struct {
