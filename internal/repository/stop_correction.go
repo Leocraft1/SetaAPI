@@ -16,6 +16,6 @@ func GetStopCorrections() map[string]string {
 	for _, val := range results {
 		resultsMap[val.Code] = val.Name
 	}
-	
+
 	return resultsMap
 }

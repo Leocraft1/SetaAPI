@@ -30,7 +30,7 @@ func GetAssignmentsMap() map[string]string {
 	for _, val := range results {
 		resultsMap[val.VehicleTable] = val.Vehicle
 	}
-	
+
 	return resultsMap
 }
 
@@ -67,7 +67,7 @@ func UpdateAssignment(table string, vehicle int) error {
 		`UPDATE assignments SET vehicle = ? WHERE vehicle_table = ?`,
 		vehicle, table,
 	)
-	
+
 	return err
 }
 
@@ -77,7 +77,7 @@ func DeleteAssignment(table string) error {
 		`DELETE FROM assignments WHERE vehicle_table = ?`,
 		table,
 	)
-	
+
 	return err
 }
 
@@ -97,11 +97,10 @@ func DeleteAllAssignments() {
 	}
 }
 
-
 // ---------------------
 // - PRIVATE FUNCTIONS -
 // ---------------------
-//Sorts assignments
+// Sorts assignments
 func sortByTable(buses []model.Assignment) []model.Assignment {
 	sort.SliceStable(buses, func(i, j int) bool {
 		numI := extractLineNumber(buses[i].VehicleTable)

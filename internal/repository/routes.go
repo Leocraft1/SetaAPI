@@ -61,11 +61,11 @@ func SaveRoutes(routes []model.Route) {
 		_, ok := dbMap[val.Rc]
 		if !ok {
 			newRoute := model.Route{
-				Linea: val.Linea,
-				Rc: val.Rc,
-				Disp_linea: val.Disp_linea,
-				Disp_dest: val.Disp_dest,
-				Desc: val.Desc,
+				Linea:        val.Linea,
+				Rc:           val.Rc,
+				Disp_linea:   val.Disp_linea,
+				Disp_dest:    val.Disp_dest,
+				Desc:         val.Desc,
 				Still_exists: val.Still_exists,
 			}
 
@@ -75,7 +75,7 @@ func SaveRoutes(routes []model.Route) {
 
 	//Database insert
 	for _, val := range new {
-		_, err := DB_CONTENT.Exec("INSERT INTO routes VALUES(?, ?, ?, ?, ?, ?)", val.Linea,val.Rc, val.Disp_linea, val.Disp_dest, val.Desc, val.Still_exists)
+		_, err := DB_CONTENT.Exec("INSERT INTO routes VALUES(?, ?, ?, ?, ?, ?)", val.Linea, val.Rc, val.Disp_linea, val.Disp_dest, val.Desc, val.Still_exists)
 		if err != nil {
 			fmt.Println("[SaveRoutes] db error:", err)
 		}

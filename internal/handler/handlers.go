@@ -37,33 +37,33 @@ func addCORS(w http.ResponseWriter) {
 	w.Header().Set("Access-Control-Allow-Headers", "Content-Type")
 }
 
-//Auth-required functions pass through this to restrict requests
+// Auth-required functions pass through this to restrict requests
 func CorsMiddleware() func(http.Handler) http.Handler {
-    allowedSet := make(map[string]bool, len(config.CORS_ALLOWED_ORIGIN))
-    for _, o := range config.CORS_ALLOWED_ORIGIN {
-        allowedSet[o] = true
-    }
+	allowedSet := make(map[string]bool, len(config.CORS_ALLOWED_ORIGIN))
+	for _, o := range config.CORS_ALLOWED_ORIGIN {
+		allowedSet[o] = true
+	}
 
-    return func(next http.Handler) http.Handler {
-        return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-            origin := r.Header.Get("Origin")
+	return func(next http.Handler) http.Handler {
+		return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+			origin := r.Header.Get("Origin")
 
-            if allowedSet[origin] {
-                w.Header().Set("Access-Control-Allow-Origin", origin)
-                w.Header().Set("Vary", "Origin")
-            }
+			if allowedSet[origin] {
+				w.Header().Set("Access-Control-Allow-Origin", origin)
+				w.Header().Set("Vary", "Origin")
+			}
 
-            w.Header().Set("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS")
-            w.Header().Set("Access-Control-Allow-Headers", "Authorization, Content-Type")
+			w.Header().Set("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS")
+			w.Header().Set("Access-Control-Allow-Headers", "Authorization, Content-Type")
 
-            if r.Method == "OPTIONS" {
-                w.WriteHeader(http.StatusOK)
-                return
-            }
+			if r.Method == "OPTIONS" {
+				w.WriteHeader(http.StatusOK)
+				return
+			}
 
-            next.ServeHTTP(w, r)
-        })
-    }
+			next.ServeHTTP(w, r)
+		})
+	}
 }
 
 // GET /health
@@ -197,7 +197,7 @@ func UpdatesHandler(w http.ResponseWriter, r *http.Request) {
 
 	for idx, val := range content {
 		content[idx] = model.UpdateEntry{
-			TableName: val.TableName,
+			TableName:    val.TableName,
 			UpdatedAtStr: val.UpdatedAt.Format("02-01-2006 15:04:05"),
 		}
 	}
@@ -444,12 +444,12 @@ func AddAssignmentHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	var req model.CreateAssignmentRequest
-    if err := json.NewDecoder(r.Body).Decode(&req); err != nil {
-        w.WriteHeader(http.StatusBadRequest)
-        json.NewEncoder(w).Encode(map[string]string{"error": "invalid request body"})
-        return
-    }
-    defer r.Body.Close()
+	if err := json.NewDecoder(r.Body).Decode(&req); err != nil {
+		w.WriteHeader(http.StatusBadRequest)
+		json.NewEncoder(w).Encode(map[string]string{"error": "invalid request body"})
+		return
+	}
+	defer r.Body.Close()
 
 	err := repository.InsertAssignment(req.VehicleTable, req.Vehicle)
 
@@ -473,12 +473,12 @@ func UpdateAssignmentHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	var req model.CreateAssignmentRequest
-    if err := json.NewDecoder(r.Body).Decode(&req); err != nil {
-        w.WriteHeader(http.StatusBadRequest)
-        json.NewEncoder(w).Encode(map[string]string{"error": "invalid request body"})
-        return
-    }
-    defer r.Body.Close()
+	if err := json.NewDecoder(r.Body).Decode(&req); err != nil {
+		w.WriteHeader(http.StatusBadRequest)
+		json.NewEncoder(w).Encode(map[string]string{"error": "invalid request body"})
+		return
+	}
+	defer r.Body.Close()
 
 	err := repository.UpdateAssignment(req.VehicleTable, req.Vehicle)
 
@@ -501,12 +501,12 @@ func DeleteAssignmentHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	var req model.DeleteAssignmentRequest
-    if err := json.NewDecoder(r.Body).Decode(&req); err != nil {
-        w.WriteHeader(http.StatusBadRequest)
-        json.NewEncoder(w).Encode(map[string]string{"error": "invalid request body"})
-        return
-    }
-    defer r.Body.Close()
+	if err := json.NewDecoder(r.Body).Decode(&req); err != nil {
+		w.WriteHeader(http.StatusBadRequest)
+		json.NewEncoder(w).Encode(map[string]string{"error": "invalid request body"})
+		return
+	}
+	defer r.Body.Close()
 
 	err := repository.DeleteAssignment(req.VehicleTable)
 
@@ -519,56 +519,56 @@ func DeleteAssignmentHandler(w http.ResponseWriter, r *http.Request) {
 	json.NewEncoder(w).Encode([]byte(message))
 }
 
-//Auth flow
+// Auth flow
 func RequireAuth(verifier *oidc.IDTokenVerifier, allowedGroups []string) func(http.Handler) http.Handler {
-    allowedSet := make(map[string]bool, len(allowedGroups))
-    for _, g := range allowedGroups {
-        allowedSet[g] = true
-    }
+	allowedSet := make(map[string]bool, len(allowedGroups))
+	for _, g := range allowedGroups {
+		allowedSet[g] = true
+	}
 
-    return func(next http.Handler) http.Handler {
-        return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-            w.Header().Set("Content-Type", "application/json")
+	return func(next http.Handler) http.Handler {
+		return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+			w.Header().Set("Content-Type", "application/json")
 
-            authHeader := r.Header.Get("Authorization")
+			authHeader := r.Header.Get("Authorization")
 			log.Println("Authorization header ricevuto:", authHeader)
-            if !strings.HasPrefix(authHeader, "Bearer ") {
-                w.WriteHeader(http.StatusUnauthorized)
-                json.NewEncoder(w).Encode(map[string]string{"error": "missing bearer token"})
-                return
-            }
-            rawToken := strings.TrimPrefix(authHeader, "Bearer ")
+			if !strings.HasPrefix(authHeader, "Bearer ") {
+				w.WriteHeader(http.StatusUnauthorized)
+				json.NewEncoder(w).Encode(map[string]string{"error": "missing bearer token"})
+				return
+			}
+			rawToken := strings.TrimPrefix(authHeader, "Bearer ")
 
-            idToken, err := verifier.Verify(r.Context(), rawToken)
-            if err != nil {
-                w.WriteHeader(http.StatusUnauthorized)
-                json.NewEncoder(w).Encode(map[string]string{"error": "invalid or expired token"})
-                return
-            }
+			idToken, err := verifier.Verify(r.Context(), rawToken)
+			if err != nil {
+				w.WriteHeader(http.StatusUnauthorized)
+				json.NewEncoder(w).Encode(map[string]string{"error": "invalid or expired token"})
+				return
+			}
 
-            var claims struct {
-                Groups []string `json:"groups"`
-            }
-            if err := idToken.Claims(&claims); err != nil {
-                w.WriteHeader(http.StatusUnauthorized)
-                json.NewEncoder(w).Encode(map[string]string{"error": "malformed token claims"})
-                return
-            }
+			var claims struct {
+				Groups []string `json:"groups"`
+			}
+			if err := idToken.Claims(&claims); err != nil {
+				w.WriteHeader(http.StatusUnauthorized)
+				json.NewEncoder(w).Encode(map[string]string{"error": "malformed token claims"})
+				return
+			}
 
-            authorized := false
-            for _, g := range claims.Groups {
-                if allowedSet[g] {
-                    authorized = true
-                    break
-                }
-            }
-            if !authorized {
-                w.WriteHeader(http.StatusForbidden)
-                json.NewEncoder(w).Encode(map[string]string{"error": "insufficient group membership"})
-                return
-            }
+			authorized := false
+			for _, g := range claims.Groups {
+				if allowedSet[g] {
+					authorized = true
+					break
+				}
+			}
+			if !authorized {
+				w.WriteHeader(http.StatusForbidden)
+				json.NewEncoder(w).Encode(map[string]string{"error": "insufficient group membership"})
+				return
+			}
 
-            next.ServeHTTP(w, r)
-        })
-    }
+			next.ServeHTTP(w, r)
+		})
+	}
 }

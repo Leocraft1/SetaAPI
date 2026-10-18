@@ -40,8 +40,8 @@ func UpdateRoutes() {
 	for _, val := range buses.Buses {
 		if val.Next_stop != "" {
 			newCurrRoute := model.Route{
-				Linea: val.Official_line,
-				Rc: val.Route_code,
+				Linea:        val.Official_line,
+				Rc:           val.Route_code,
 				Still_exists: true,
 			}
 			currRoutes = append(currRoutes, newCurrRoute)
