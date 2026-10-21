@@ -19,7 +19,7 @@ func main() {
 	repository.InitMezzi()
 	repository.InitContent()
 
-	if repository.IS_PRIMARY {
+	if config.IS_PRIMARY {
 		//Operazioni per DB in modalità "primary" (non read only):
 
 		s, err := scheduler.InitScheduler()

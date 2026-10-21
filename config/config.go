@@ -20,6 +20,7 @@ var (
 	OIDC_ALLOWED_GROUPS []string
 	CORS_ALLOWED_ORIGIN []string
 	ENABLE_AUTH         bool
+	IS_PRIMARY          bool
 )
 
 func LoadConf() {
@@ -39,6 +40,8 @@ func LoadConf() {
 	OIDC_ALLOWED_GROUPS = strings.Split(getEnv("OIDC_ALLOWED_GROUPS", ""), ",")
 	CORS_ALLOWED_ORIGIN = strings.Split(getEnv("CORS_ALLOWED_ORIGIN", ""), ",")
 	ENABLE_AUTH = getEnvBool("ENABLE_AUTH", "false")
+
+	IS_PRIMARY = getEnvBool("IS_PRIMARY", "false")
 }
 
 func getEnv(key, fallback string) string {
