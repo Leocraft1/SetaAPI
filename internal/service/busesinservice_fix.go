@@ -159,7 +159,11 @@ func fixModelAndRamp(bus *model.Bus) {
 
 func fixPlate(bus *model.Bus) {
 	targafix := strings.TrimSpace(bus.Plate_num)
+	plate, err := repository.GetVehiclePlate(bus.Vehicle)
 	bus.Plate_num = targafix
+	if err == nil && plate != nil {
+		bus.Plate_num = *plate
+	}
 }
 
 func fixStop(bus *model.Bus) {

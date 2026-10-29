@@ -135,7 +135,6 @@ func BusesinserviceHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 // GET /vehicleinfo/{id}
-// Searches for requested vehicle on /busesinservice response
 func VehicleinfoHandler(w http.ResponseWriter, r *http.Request) {
 	addCORS(w)
 	id := r.PathValue("id")

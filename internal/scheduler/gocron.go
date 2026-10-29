@@ -17,7 +17,7 @@ func InitScheduler() (gocron.Scheduler, error) {
 	_, err = s.NewJob(gocron.CronJob("*/20 * * * * *", true), gocron.NewTask(updateStopsTask), gocron.WithSingletonMode(gocron.LimitModeReschedule))
 	_, err = s.NewJob(gocron.CronJob("*/20 * * * * *", true), gocron.NewTask(updateRoutesTask), gocron.WithSingletonMode(gocron.LimitModeReschedule))
 	_, err = s.NewJob(gocron.CronJob("*/20 * * * * *", true), gocron.NewTask(syncAssignmentsTask), gocron.WithSingletonMode(gocron.LimitModeReschedule))
-	_, err = s.NewJob(gocron.CronJob("*/5 * * * *", false), gocron.NewTask(syncVehicleStatusTask), gocron.WithSingletonMode(gocron.LimitModeReschedule))
+	_, err = s.NewJob(gocron.CronJob("0 * * * *", false), gocron.NewTask(syncVehicleStatusTask), gocron.WithSingletonMode(gocron.LimitModeReschedule))
 	_, err = s.NewJob(gocron.CronJob("0 0 * * *", false), gocron.NewTask(updateRoutesStatusTask), gocron.WithSingletonMode(gocron.LimitModeReschedule))
 	_, err = s.NewJob(gocron.CronJob("0 0 * * *", false), gocron.NewTask(emptyAssignmentsTask), gocron.WithSingletonMode(gocron.LimitModeReschedule))
 

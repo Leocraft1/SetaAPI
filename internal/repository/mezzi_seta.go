@@ -1,6 +1,7 @@
 package repository
 
 import (
+	"database/sql"
 	"fmt"
 	"time"
 )
@@ -18,15 +19,32 @@ func CheckKnownVehicle(id string) bool {
 	}
 }
 
-func GetVehicleLastSeen(id string) *time.Time {
+func GetVehicleLastSeen(id string) (*time.Time, error) {
 	var result *time.Time
 	err := DB_MEZZI.Get(&result, "SELECT last_seen FROM mezzi_seta WHERE matricola = ?", id)
 	if err != nil {
-		fmt.Println("[GetVehicleLastSeen] errore di lettura db:", err)
+		if err != sql.ErrNoRows {
+			fmt.Println("[GetVehicleLastSeen] errore di lettura db:", err)
+		} else {
+			return nil, err
+		}
 	}
 
-	//Vehicle should exist when this func is called
-	return result
+	return result , nil
+}
+
+func GetVehiclePlate(id string) (*string, error) {
+	var result *string
+	err := DB_MEZZI.Get(&result, "SELECT targa FROM mezzi_seta WHERE matricola = ?", id)
+	if err != nil {
+		if err != sql.ErrNoRows {
+			fmt.Println("[GetVehicleLastSeen] errore di lettura db:", err)
+		} else {
+			return nil, err
+		}
+	}
+
+	return result , nil
 }
 
 func UpdateVehicleStatus(id string, status string, last_seen time.Time) {
