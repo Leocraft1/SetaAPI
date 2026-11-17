@@ -1,9 +1,10 @@
-package repository
+package static
 
 import (
 	"fmt"
 	"regexp"
 	"setaapi/internal/model"
+	"setaapi/internal/repository"
 	"sort"
 	"strconv"
 	"unicode"
@@ -11,7 +12,7 @@ import (
 
 func GetAssignments() []model.Assignment {
 	var results []model.Assignment
-	err := DB_CONTENT.Select(&results, "SELECT * FROM assignments")
+	err := repository.DB_STATIC.Select(&results, "SELECT * FROM assignments")
 	if err != nil {
 		fmt.Println("GetAssignments db error:", err)
 	}
@@ -21,7 +22,7 @@ func GetAssignments() []model.Assignment {
 
 func GetAssignmentsMap() map[string]string {
 	var results []model.Assignment
-	err := DB_CONTENT.Select(&results, "SELECT * FROM assignments")
+	err := repository.DB_STATIC.Select(&results, "SELECT * FROM assignments")
 	if err != nil {
 		fmt.Println("GetAssignments db error:", err)
 	}
@@ -37,7 +38,7 @@ func GetAssignmentsMap() map[string]string {
 func InsertGPSAssignments(new map[string]string) {
 	//Insert (gps is true) overwriting if vehicle was already set
 	for idx, val := range new {
-		_, err := DB_CONTENT.Exec(
+		_, err := repository.DB_STATIC.Exec(
 			`INSERT INTO assignments (vehicle_table, vehicle, is_GPS)
 			VALUES (?, ?, ?)
 			ON DUPLICATE KEY UPDATE vehicle = VALUES(vehicle), is_GPS = VALUES(is_GPS)`,
@@ -51,7 +52,7 @@ func InsertGPSAssignments(new map[string]string) {
 
 func InsertAssignment(table string, vehicle int) error {
 	//Insert (gps is false) overwriting if vehicle was already set
-	_, err := DB_CONTENT.Exec(
+	_, err := repository.DB_STATIC.Exec(
 		`INSERT INTO assignments (vehicle_table, vehicle, is_GPS)
 		VALUES (?, ?, ?)
 		ON DUPLICATE KEY UPDATE vehicle = VALUES(vehicle), is_GPS = VALUES(is_GPS)`,
@@ -63,7 +64,7 @@ func InsertAssignment(table string, vehicle int) error {
 
 func UpdateAssignment(table string, vehicle int) error {
 	//New vehicle for given table
-	_, err := DB_CONTENT.Exec(
+	_, err := repository.DB_STATIC.Exec(
 		`UPDATE assignments SET vehicle = ? WHERE vehicle_table = ?`,
 		vehicle, table,
 	)
@@ -73,7 +74,7 @@ func UpdateAssignment(table string, vehicle int) error {
 
 func DeleteAssignment(table string) error {
 	//Delete assignment
-	_, err := DB_CONTENT.Exec(
+	_, err := repository.DB_STATIC.Exec(
 		`DELETE FROM assignments WHERE vehicle_table = ?`,
 		table,
 	)
@@ -83,7 +84,7 @@ func DeleteAssignment(table string) error {
 
 func SetNoGPS(old map[string]string) {
 	for idx := range old {
-		_, err := DB_CONTENT.Exec("UPDATE assignments SET is_GPS = false WHERE vehicle_table = ?", idx)
+		_, err := repository.DB_STATIC.Exec("UPDATE assignments SET is_GPS = false WHERE vehicle_table = ?", idx)
 		if err != nil {
 			fmt.Println("SetNoGPS db error:", err)
 		}
@@ -91,7 +92,7 @@ func SetNoGPS(old map[string]string) {
 }
 
 func DeleteAllAssignments() {
-	_, err := DB_CONTENT.Exec("DELETE FROM assignments")
+	_, err := repository.DB_STATIC.Exec("DELETE FROM assignments")
 	if err != nil {
 		fmt.Println("DeleteAllAssignments db error:", err)
 	}

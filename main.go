@@ -1,38 +1,45 @@
 package main
 
 import (
-	"context"
-	"fmt"
-	"github.com/coreos/go-oidc/v3/oidc"
 	"log"
 	"net/http"
 	"setaapi/config"
+	"setaapi/internal/gtfs"
 	"setaapi/internal/handler"
 	"setaapi/internal/repository"
 	"setaapi/internal/scheduler"
+	"setaapi/internal/sse"
 )
+
 
 func main() {
 	//Init config
 	config.LoadConf()
 	//DBs Init
 	repository.InitMezzi()
-	repository.InitContent()
+	repository.InitStatic()
+	err := gtfs.UpdateStatic()
+	if err != nil {
+		log.Fatal(gtfs.UpdateStatic())
+	}
+	// Initialize server-sent events for frontend synchronization.
+	sse.InitHub()
 
 	if config.IS_PRIMARY {
-		//Operazioni per DB in modalità "primary" (non read only):
-
-		s, err := scheduler.InitScheduler()
-		if err != nil {
-			log.Fatal(err)
+		if err := scheduler.Start(true); err != nil {
+			log.Fatalf("Failed to start scheduler: %v", err)
 		}
-		defer s.Shutdown()
+		defer scheduler.Stop()
 	} else {
-		println("INFO: Scheduler non avviato: rilevato DB read-only")
+		log.Println("IS_PRIMARY set to false, not updating static GTFS data.")
+		if err := scheduler.Start(false); err != nil {
+			log.Fatalf("Failed to start scheduler: %v", err)
+		}
+		defer scheduler.Stop()
 	}
 
 	mux := http.NewServeMux()
-	mux.HandleFunc("GET /health", handler.HealthCheckHandler)
+	mux.HandleFunc("GET /health", handler.HealthCheckHandler)/*
 	mux.HandleFunc("GET /arrivals/{id}", handler.ArrivalsHandler)
 	mux.HandleFunc("GET /busesinservice", handler.BusesinserviceHandler)
 	mux.HandleFunc("GET /vehicleinfo/{id}", handler.VehicleinfoHandler)
@@ -66,11 +73,11 @@ func main() {
 		mux.Handle("POST /assignments/add", authMiddleware(http.HandlerFunc(handler.AddAssignmentHandler)))
 		mux.Handle("PUT /assignments/changevehicle", authMiddleware(http.HandlerFunc(handler.UpdateAssignmentHandler)))
 		mux.Handle("DELETE /assignments/remove", authMiddleware(http.HandlerFunc(handler.DeleteAssignmentHandler)))
-	}
+	}*/
 
 	finalHandler := handler.CorsMiddleware()(mux) //wraps mux
 
 	//Listen on port and start API
-	fmt.Println("Server started on port " + config.PORT)
+	log.Println("Server started on port " + config.PORT)
 	log.Print(http.ListenAndServe(config.PORT, finalHandler))
 }

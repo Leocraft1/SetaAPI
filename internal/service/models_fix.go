@@ -1,7 +1,9 @@
 package service
 
-import "setaapi/internal/repository"
+import (
+	"setaapi/internal/repository/mezzi"
+)
 
 func GetModels() []string {
-	return repository.GetModelsDistinct()
+	return mezzi.GetModelsDistinct()
 }

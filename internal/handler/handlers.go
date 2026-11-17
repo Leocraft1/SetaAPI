@@ -2,20 +2,9 @@ package handler
 
 import (
 	"encoding/json"
-	"fmt"
-	"io"
-	"log"
 	"net/http"
-	"net/url"
 	"setaapi/config"
-	"setaapi/internal/model"
 	"setaapi/internal/repository"
-	"setaapi/internal/service"
-	"strconv"
-	"strings"
-	"time"
-
-	"github.com/coreos/go-oidc/v3/oidc"
 )
 
 // URLs decl. section
@@ -69,11 +58,16 @@ func CorsMiddleware() func(http.Handler) http.Handler {
 // GET /health
 func HealthCheckHandler(w http.ResponseWriter, r *http.Request) {
 	addCORS(w)
-	message := "API is healthy and running."
+	results, err := repository.GetDBStatus(repository.DB_STATIC.DB)
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
 
-	w.Write([]byte(message))
+	w.Header().Set("Content-Type", "application/json")
+	json.NewEncoder(w).Encode(results)
 }
-
+/*
 // GET /arrivals/{id}
 func ArrivalsHandler(w http.ResponseWriter, r *http.Request) {
 	addCORS(w)
@@ -187,24 +181,6 @@ func StoplistHandler(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 
 	json.NewEncoder(w).Encode(stops)
-}
-
-// GET /updates
-func UpdatesHandler(w http.ResponseWriter, r *http.Request) {
-	addCORS(w)
-	content := repository.GetUpdateTimestamps()
-
-	for idx, val := range content {
-		content[idx] = model.UpdateEntry{
-			TableName:    val.TableName,
-			UpdatedAtStr: val.UpdatedAt.Format("02-01-2006 15:04:05"),
-		}
-	}
-
-	//Set headers
-	w.Header().Set("Content-Type", "application/json")
-
-	json.NewEncoder(w).Encode(content)
 }
 
 // GET /routecodes
@@ -571,3 +547,4 @@ func RequireAuth(verifier *oidc.IDTokenVerifier, allowedGroups []string) func(ht
 		})
 	}
 }
+*/

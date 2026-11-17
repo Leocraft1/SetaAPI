@@ -2,9 +2,9 @@ package data
 
 import (
 	"fmt"
-	"setaapi/internal/handler"
+	"setaapi/internal/model"
 	"setaapi/internal/repository"
-	"setaapi/internal/service"
+	"setaapi/internal/repository/static"
 	"time"
 )
 
@@ -12,7 +12,7 @@ import (
 func SyncVehicleStatus() {
 	today := time.Date(time.Now().Year(), time.Now().Month(), time.Now().Day(), 0, 0, 0, 0, time.UTC)
 
-	assignments := repository.GetAssignments()
+	assignments := static.GetAssignments()
 	for _, val := range assignments {
 		lastSeen, err := repository.GetVehicleLastSeen(val.Vehicle)
 		if repository.CheckKnownVehicle(val.Vehicle) && (lastSeen == nil || !lastSeen.Equal(today)) && err == nil {
@@ -25,18 +25,15 @@ func SyncVehicleStatus() {
 }
 
 func SyncAssignments() {
-	vehicles, err := service.GetBusesinservice(handler.WimbBaseUrl, handler.LineeDynUrl)
-	if err != nil {
-		fmt.Println("SyncAssignments unable to get buses in service:", err)
-	}
+	var vehicles []model.BusInService
 
 	vehiclesMap := make(map[string]string)
-	for _, val := range vehicles.Buses {
-		vehiclesMap[val.Vehicle_table] = val.Vehicle
+	for _, val := range vehicles {
+		vehiclesMap["val.Vehicle_table"] = val.Vehicle
 	}
 
 	old := make(map[string]string)
-	assMap := repository.GetAssignmentsMap()
+	assMap := static.GetAssignmentsMap()
 	//Searches for stuff that doesn't communicate GPS anymore
 	for idx, val := range assMap {
 		_, ok := vehiclesMap[idx]
@@ -44,7 +41,7 @@ func SyncAssignments() {
 			old[idx] = val
 		}
 	}
-	repository.InsertGPSAssignments(vehiclesMap)
-	repository.SetNoGPS(old)
+	static.InsertGPSAssignments(vehiclesMap)
+	static.SetNoGPS(old)
 	fmt.Println("SyncAssignments OK")
 }
