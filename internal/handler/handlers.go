@@ -4,7 +4,6 @@ import (
 	"encoding/json"
 	"fmt"
 	"io"
-	"log"
 	"net/http"
 	"net/url"
 	"setaapi/config"
@@ -82,7 +81,6 @@ func ArrivalsHandler(w http.ResponseWriter, r *http.Request) {
 
 	//Checks for connection errors
 	if err != nil {
-		fmt.Println("ArrivalsHandler error: ", err)
 		w.Write([]byte("ArrivalsHandler error: " + err.Error()))
 	}
 	defer response.Body.Close()
@@ -94,14 +92,12 @@ func ArrivalsHandler(w http.ResponseWriter, r *http.Request) {
 	//News section
 	rawProblems, err := http.Get(LineeDynUrl)
 	if err != nil {
-		fmt.Println("ArrivalsHandler error: ", err)
 		w.Write([]byte("ArrivalsHandler error: " + err.Error()))
 	}
 	defer response.Body.Close()
 
 	problems, err := service.ScrapeRouteProblems(rawProblems.Body)
 	if err != nil {
-		fmt.Println("ArrivalsHandler error: ", err)
 		w.Write([]byte("ArrivalsHandler error: " + err.Error()))
 		return
 	}
@@ -224,12 +220,12 @@ func NextstopsHandler(w http.ResponseWriter, r *http.Request) {
 	journey_code := r.PathValue("id")
 	response, err := http.Get(NextstopsUrl + journey_code)
 	if err != nil {
-		fmt.Println("Error fetching next stops", err)
+		w.Write(fmt.Append(nil, "Error fetching stops ", err))
 	}
 	body, err := io.ReadAll(response.Body)
 
 	if err != nil {
-		fmt.Println(err)
+		w.Write(fmt.Append(nil, "Error fetching stops ", err))
 	}
 
 	//Set headers
@@ -530,7 +526,6 @@ func RequireAuth(verifier *oidc.IDTokenVerifier, allowedGroups []string) func(ht
 			w.Header().Set("Content-Type", "application/json")
 
 			authHeader := r.Header.Get("Authorization")
-			log.Println("Authorization header ricevuto:", authHeader)
 			if !strings.HasPrefix(authHeader, "Bearer ") {
 				w.WriteHeader(http.StatusUnauthorized)
 				json.NewEncoder(w).Encode(map[string]string{"error": "missing bearer token"})
